@@ -1,0 +1,13 @@
+site_title: 学習指導要領LOD
+base_uri: https://w3id.org/jp-cos/
+labels:
+  http://www.w3.org/1999/02/22-rdf-syntax-ns#type: Class
+  http://schema.org/name: Title
+  https://w3id.org/jp-cos/courseOfStudy: 学習指導要領
+labels_with_class:
+  http://purl.org/dc/terms/identifier: 
+top_class: https://w3id.org/jp-cos/Item
+uri_mappings:
+  - regexp: !ruby/regexp /^(\d\w\w)(\w{13})$/
+    path: '\1/\2.html'
+locale: ja
