@@ -9,5 +9,5 @@ labels_with_class:
 top_class: https://w3id.org/jp-cos/Item
 uri_mappings:
   - regexp: !ruby/regexp /^(\d\w\w)(\w{13})$/
-    path: '\1/\2.html'
+    path: '\1/\2'
 locale: ja
