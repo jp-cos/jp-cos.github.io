@@ -11,3 +11,5 @@ uri_mappings:
   - regexp: !ruby/regexp /^(\d\w\w)(\w{13})$/
     path: '\1/\2'
 locale: ja
+title_property_perclass:
+  https://w3id.org/jp-cos/Item: http://schema.org/description
