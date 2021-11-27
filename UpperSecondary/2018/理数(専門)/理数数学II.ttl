@@ -1,0 +1,43 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>
+  <http://purl.org/linked-data/cube#order> "244";
+  <http://schema.org/name> "Mathematics II for Science and Mathematics Course"@en, "理数数学II"@ja, "りすうすうがくII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "84Z2";
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UZA2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2503180000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.
+<https://w3id.org/jp-cos/84Z2505280000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数数学II>.

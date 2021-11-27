@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84X0100300000000>
+  <http://purl.org/dc/terms/identifier> "84X0100300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9345"
+  ];
+  <http://schema.org/description> "(3) 職業人として必要な豊かな人間性を育み，よりよい社会の構築を目指して自ら学び，情報産業の創造と発展に主体的かつ協働的に取り組む態度を養う。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UXA0A1A0A0A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "職業人として必要な豊かな人間性を育み，よりよい社会の構築を目指して自ら学び，情報産業の創造と発展に主体的かつ協働的に取り組む態度を養う。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)> .
+<https://w3id.org/jp-cos/84X0100000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84X0100300000000>.

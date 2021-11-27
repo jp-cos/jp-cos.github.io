@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8De4502100000000>
+  <http://purl.org/dc/terms/identifier> "8De4502100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "396"
+  ];
+  <http://schema.org/description> "(1) 施術を行うために必要な疾病と日常生活の関わりについて体系的・系統的に理解するとともに，関連する技術を身に付けるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8UDLeA4A5A0A2A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "施術を行うために必要な疾病と日常生活の関わりについて体系的・系統的に理解するとともに，関連する技術を身に付けるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/生活と疾病>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療> .
+<https://w3id.org/jp-cos/8De4502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8De4502100000000>.

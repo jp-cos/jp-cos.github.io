@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8220262300000000>
+  <http://purl.org/dc/terms/identifier> "8220262300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1548"
+  ];
+  <http://schema.org/description> "(3) 社会的事象について，主体的に学習の問題を解決しようとする態度や，よりよい社会を考え学習したことを社会生活に生かそうとする態度を養うとともに，多角的な思考や理解を通して，我が国の歴史や伝統を大切にして国を愛する心情，我が国の将来を担う国民としての自覚や平和を願う日本人として世界の国々の人々と共に生きることの大切さについての自覚を養う。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A2A0A2A6A2A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "社会的事象について，主体的に学習の問題を解決しようとする態度や，よりよい社会を考え学習したことを社会生活に生かそうとする態度を養うとともに，多角的な思考や理解を通して，我が国の歴史や伝統を大切にして国を愛する心情，我が国の将来を担う国民としての自覚や平和を願う日本人として世界の国々の人々と共に生きることの大切さについての自覚を養う。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/8220262000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220262300000000>.

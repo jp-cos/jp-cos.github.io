@@ -1,0 +1,47 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>
+  <http://purl.org/linked-data/cube#order> "191";
+  <http://schema.org/name> "Marine Sports"@en, "マリンスポーツ"@ja, "まりんすぽーつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "M";
+  <https://w3id.org/jp-cos/codePrefix> "74TM";
+  <https://w3id.org/jp-cos/fcode04> "UM";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UTUM";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.
+<https://w3id.org/jp-cos/74TM505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/マリンスポーツ>.

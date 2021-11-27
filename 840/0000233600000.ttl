@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8400000233600000>
+  <http://purl.org/dc/terms/identifier> "8400000233600000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "73"
+  ];
+  <http://schema.org/description> "カ　定時制の課程において，特別の事情がある場合には，ホームルーム活動の授業時数の一部を減じ，又はホームルーム活動及び生徒会活動の内容の一部を行わないものとすることができる。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A3A6A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "カ";
+  <https://w3id.org/jp-cos/sectionText> "定時制の課程において，特別の事情がある場合には，ホームルーム活動の授業時数の一部を減じ，又はホームルーム活動及び生徒会活動の内容の一部を行わないものとすることができる。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000233000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000233600000>.

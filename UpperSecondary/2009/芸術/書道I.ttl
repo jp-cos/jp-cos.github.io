@@ -1,0 +1,49 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>
+  <http://purl.org/linked-data/cube#order> "43";
+  <http://schema.org/name> "Calligraphy I"@en, "書道I"@ja, "しょどうI"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "A";
+  <https://w3id.org/jp-cos/codePrefix> "74BA";
+  <https://w3id.org/jp-cos/fcode04> "UA";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UBUA";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/芸術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.
+<https://w3id.org/jp-cos/74BA505600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/書道I>.

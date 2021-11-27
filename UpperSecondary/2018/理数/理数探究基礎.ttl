@@ -1,0 +1,42 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>
+  <http://purl.org/linked-data/cube#order> "55";
+  <http://schema.org/name> "Basic Inquiry-Based Study of Science and Mathematics"@en, "理数探究基礎"@ja, "りすうたんきゅうきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "84J1";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UJA1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/理数> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.
+<https://w3id.org/jp-cos/84J1505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数/理数探究基礎>.

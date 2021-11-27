@@ -1,0 +1,15 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>
+  <http://purl.org/linked-data/cube#order> "50";
+  <http://schema.org/name> "Foreign languages other than English"@en, "英語以外の外国語"@ja, "えいごいがいのがいこくご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "7";
+  <https://w3id.org/jp-cos/codePrefix> "84H7";
+  <https://w3id.org/jp-cos/fcode04> "A7";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UHA7";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>.
+<https://w3id.org/jp-cos/84H7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>.
+<https://w3id.org/jp-cos/84H7500100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>.
+<https://w3id.org/jp-cos/84H7500200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>.

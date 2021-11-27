@@ -1,0 +1,36 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>
+  <http://purl.org/linked-data/cube#order> "4";
+  <http://schema.org/name> "Contemporary Japanese Language B"@en, "現代文B"@ja, "げんだいぶんB"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "4";
+  <https://w3id.org/jp-cos/codePrefix> "7414";
+  <https://w3id.org/jp-cos/fcode04> "A4";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A1A4";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.
+<https://w3id.org/jp-cos/7414505400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/現代文B>.

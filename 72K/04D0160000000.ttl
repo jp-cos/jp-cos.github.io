@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/72K04D0160000000>
+  <http://purl.org/dc/terms/identifier> "72K04D0160000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2675"
+  ];
+  <http://schema.org/description> "(6) 自分の特徴を知って，悪い所を改めよい所を積極的に伸ばす。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/72K04D0160000001>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>;
+  <https://w3id.org/jp-cos/fcode> "A7A2UKA0A4UDA0A1A6A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "自分の特徴を知って，悪い所を改めよい所を積極的に伸ばす。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/道徳> .
+<https://w3id.org/jp-cos/72K04D0100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/72K04D0160000000>.

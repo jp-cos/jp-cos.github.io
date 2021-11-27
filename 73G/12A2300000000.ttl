@@ -1,0 +1,32 @@
+<https://w3id.org/jp-cos/73G12A2300000000>
+  <http://purl.org/dc/terms/identifier> "73G12A2300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1072"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1066"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1066"
+  ];
+  <http://schema.org/description> "(3) 運動における競争や協同の経験を通して，公正に取り組む，互いに協力する，自己の役割を果たすなどの意欲を育てるとともに，健康・安全に留意し，自己の最善を尽くして運動をする態度を育てる。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3UGA1A2UAA2A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "運動における競争や協同の経験を通して，公正に取り組む，互いに協力する，自己の役割を果たすなどの意欲を育てるとともに，健康・安全に留意し，自己の最善を尽くして運動をする態度を育てる。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/保健体育/体育分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/保健体育> .
+<https://w3id.org/jp-cos/73G12A2000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73G12A2300000000>.

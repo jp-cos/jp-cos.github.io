@@ -1,0 +1,33 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>
+  <http://purl.org/linked-data/cube#order> "24";
+  <http://schema.org/name> "Information"@en, "情報"@ja, "じょうほう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "I";
+  <https://w3id.org/jp-cos/codePrefix> "7GI";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "UI";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UGUI";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/情報> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02a3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02a3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02a3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02a3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02a3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02a3500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02b3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02b3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02b3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02b3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02b3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
+<https://w3id.org/jp-cos/7GI02b3500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.

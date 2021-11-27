@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8210000100000000>
+  <http://purl.org/dc/terms/identifier> "8210000100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "331"
+  ];
+  <http://schema.org/description> "別表　学年別漢字配当表";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8210010110000000>, <https://w3id.org/jp-cos/8210020120000000>, <https://w3id.org/jp-cos/8210030130000000>, <https://w3id.org/jp-cos/8210040140000000>, <https://w3id.org/jp-cos/8210050150000000>, <https://w3id.org/jp-cos/8210060160000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A1A0A0A0A0A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionText> "別表 学年別漢字配当表";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語> .
+<https://w3id.org/jp-cos/8210000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8210000100000000>.

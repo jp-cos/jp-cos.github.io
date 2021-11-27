@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>
+  <http://purl.org/linked-data/cube#order> "218";
+  <http://schema.org/name> "Home Care Nursing"@en, "在宅看護"@ja, "ざいたくかんご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "A";
+  <https://w3id.org/jp-cos/codePrefix> "84WA";
+  <https://w3id.org/jp-cos/fcode04> "UA";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UWUA";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.
+<https://w3id.org/jp-cos/84WA505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/在宅看護>.

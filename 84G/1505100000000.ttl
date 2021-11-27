@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/84G1505100000000>
+  <http://purl.org/dc/terms/identifier> "84G1505100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2103"
+  ];
+  <http://schema.org/description> "(1) 内容の「Ａ体つくり運動」から「Ｈ体育理論」までの領域については，次のとおり取り扱うものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84G1505110000000>, <https://w3id.org/jp-cos/84G1505120000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UGA1A5A0A5A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "内容の「A体つくり運動」から「H体育理論」までの領域については，次のとおり取り扱うものとする。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/保健体育/体育>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/保健体育> .
+<https://w3id.org/jp-cos/84G1505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84G1505100000000>.

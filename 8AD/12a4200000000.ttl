@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8AD12a4200000000>
+  <http://purl.org/dc/terms/identifier> "8AD12a4200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1993"
+  ];
+  <http://schema.org/description> "職業分野";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8AD12a4210000000>, <https://w3id.org/jp-cos/8AD12a4220000000>, <https://w3id.org/jp-cos/8AD12a4230000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UAUDA1A2LaA4A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionText> "職業分野";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/LowerSecondaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/1>;
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭> .
+<https://w3id.org/jp-cos/8An0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8AD12a4200000000>.

@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/84F1502000000000>
+  <http://purl.org/dc/terms/identifier> "84F1502000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3098"
+  ];
+  <http://schema.org/description> """１　目標
+生活の営みに係る見方・考え方を働かせ，実践的・体験的な学習活動を通して，様々な人々と協働し，よりよい社会の構築に向けて，男女が協力して主体的に家庭や地域の生活を創造する資質・能力を次のとおり育成することを目指す。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84F1502100000000>, <https://w3id.org/jp-cos/84F1502200000000>, <https://w3id.org/jp-cos/84F1502300000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UFA1A5A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+生活の営みに係る見方・考え方を働かせ，実践的・体験的な学習活動を通して，様々な人々と協働し，よりよい社会の構築に向けて，男女が協力して主体的に家庭や地域の生活を創造する資質・能力を次のとおり育成することを目指す。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭/家庭基礎>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭> .
+<https://w3id.org/jp-cos/84F1500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84F1502000000000>.

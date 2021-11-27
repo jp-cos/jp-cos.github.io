@@ -1,0 +1,32 @@
+<https://w3id.org/jp-cos/7350233230000000>
+  <http://purl.org/dc/terms/identifier> "7350233230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "602"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "596"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "596"
+  ];
+  <http://schema.org/description> "(3) 観察，操作や実験などの活動を通して，三平方の定理を見いだして理解し，それを用いて考察することができるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7350233231000000>, <https://w3id.org/jp-cos/7350233232000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A5A0A2A3A3A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "観察，操作や実験などの活動を通して，三平方の定理を見いだして理解し，それを用いて考察することができるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/数学> .
+<https://w3id.org/jp-cos/7350233200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7350233230000000>.

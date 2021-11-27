@@ -1,0 +1,31 @@
+<https://w3id.org/jp-cos/73C2205230000000>
+  <http://purl.org/dc/terms/identifier> "73C2205230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1356"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1350"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1350"
+  ];
+  <http://schema.org/description> "ウ　(3)のアについては，魚，肉，野菜を中心として扱い，基礎的な題材を取り上げること。(3)のイについては，調理実習を中心とし，主として地域又は季節の食材を利用することの意義について扱うこと。また，地域の伝統的な行事食や郷土料理を扱うこともできること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3UCA2A2A0A5A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "(3)のアについては，魚，肉，野菜を中心として扱い，基礎的な題材を取り上げること。(3)のイについては，調理実習を中心とし，主として地域又は季節の食材を利用することの意義について扱うこと。また，地域の伝統的な行事食や郷土料理を扱うこともできること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/技術・家庭/家庭分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/技術・家庭> .
+<https://w3id.org/jp-cos/73C2205200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73C2205230000000>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8500000537000000>
+  <http://purl.org/dc/terms/identifier> "8500000537000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "60"
+  ];
+  <http://schema.org/description> "(7)　幼児の主体的な活動を促すためには，教師が多様な関わりをもつことが重要であることを踏まえ，教師は，理解者，共同作業者など様々な役割を果たし， 幼児の発達に必要な豊かな体験が得られるよう，活動の場面に応じて，適切な指導を行うようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A5A3A7A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(7)";
+  <https://w3id.org/jp-cos/sectionText> "幼児の主体的な活動を促すためには，教師が多様な関わりをもつことが重要であることを踏まえ，教師は，理解者，共同作業者など様々な役割を果たし， 幼児の発達に必要な豊かな体験が得られるよう，活動の場面に応じて，適切な指導を行うようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8500000530000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000537000000>.

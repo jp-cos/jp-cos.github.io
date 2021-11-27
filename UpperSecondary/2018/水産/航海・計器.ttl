@@ -1,0 +1,53 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>
+  <http://purl.org/linked-data/cube#order> "172";
+  <http://schema.org/name> "Navigation and Nautical Instrument"@en, "航海・計器"@ja, "こうかい・けいき"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "7";
+  <https://w3id.org/jp-cos/codePrefix> "84T7";
+  <https://w3id.org/jp-cos/fcode04> "A7";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTA7";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.
+<https://w3id.org/jp-cos/84T7505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/航海・計器>.

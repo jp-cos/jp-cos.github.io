@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7GE0202000000000>
+  <http://purl.org/dc/terms/identifier> "7GE0202000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2349"
+  ];
+  <http://schema.org/description> """１　目標
+勤労の意義について理解するとともに，職業生活に必要な能力を高め，実践的な態度を育てる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A7UGUEA0A2A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目標
+勤労の意義について理解するとともに，職業生活に必要な能力を高め，実践的な態度を育てる。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/職業> .
+<https://w3id.org/jp-cos/7GE0200000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7GE0202000000000>.

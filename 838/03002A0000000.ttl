@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/83803002A0000000>
+  <http://purl.org/dc/terms/identifier> "83803002A0000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1307"
+  ];
+  <http://schema.org/description> "(10) 各学年の〔共通事項〕の(1)のイに示す「用語や記号など」については，小学校学習指導要領第２章第６節音楽の第３の２の(9)に示すものに加え，生徒の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/83803002A0100000>, <https://w3id.org/jp-cos/83803002A0200000>, <https://w3id.org/jp-cos/83803002A0300000>, <https://w3id.org/jp-cos/83803002A0400000>, <https://w3id.org/jp-cos/83803002A0500000>, <https://w3id.org/jp-cos/83803002A0600000>, <https://w3id.org/jp-cos/83803002A0700000>, <https://w3id.org/jp-cos/83803002A0800000>, <https://w3id.org/jp-cos/83803002A0900000>, <https://w3id.org/jp-cos/83803002A1000000>, <https://w3id.org/jp-cos/83803002A1100000>, <https://w3id.org/jp-cos/83803002A1200000>, <https://w3id.org/jp-cos/83803002A1300000>, <https://w3id.org/jp-cos/83803002A1400000>, <https://w3id.org/jp-cos/83803002A1500000>, <https://w3id.org/jp-cos/83803002A1600000>, <https://w3id.org/jp-cos/83803002A1700000>, <https://w3id.org/jp-cos/83803002A1800000>, <https://w3id.org/jp-cos/83803002A1900000>, <https://w3id.org/jp-cos/83803002A2000000>, <https://w3id.org/jp-cos/83803002A2100000>, <https://w3id.org/jp-cos/83803002A2200000>, <https://w3id.org/jp-cos/83803002A2300000>, <https://w3id.org/jp-cos/83803002A2400000>, <https://w3id.org/jp-cos/83803002A2500000>, <https://w3id.org/jp-cos/83803002A2600000>, <https://w3id.org/jp-cos/83803002A2700000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A8A0A3A0A0A2UAA0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(10)";
+  <https://w3id.org/jp-cos/sectionText> "各学年の〔共通事項〕の(1)のイに示す「用語や記号など」については，小学校学習指導要領第2章第6節音楽の第3の2の(9)に示すものに加え，生徒の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/音楽> .
+<https://w3id.org/jp-cos/8380300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83803002A0000000>.

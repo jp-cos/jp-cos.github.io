@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>
+  <http://purl.org/linked-data/cube#order> "206";
+  <http://schema.org/name> "Foods Sanitation"@en, "食品衛生"@ja, "しょくひんえいせい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "J";
+  <https://w3id.org/jp-cos/codePrefix> "84UJ";
+  <https://w3id.org/jp-cos/fcode04> "UJ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UUUJ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503171000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ503172000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.
+<https://w3id.org/jp-cos/84UJ505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/食品衛生>.

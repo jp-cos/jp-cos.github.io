@@ -1,0 +1,30 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>
+  <http://purl.org/linked-data/cube#order> "270";
+  <http://schema.org/name> "Composition in Art"@en, "構成"@ja, "こうせい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "5";
+  <https://w3id.org/jp-cos/codePrefix> "84c5";
+  <https://w3id.org/jp-cos/fcode04> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LcA5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.
+<https://w3id.org/jp-cos/84c5505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/構成>.

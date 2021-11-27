@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8300000121000000>
+  <http://purl.org/dc/terms/identifier> "8300000121000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "5"
+  ];
+  <http://schema.org/description> "(1) 基礎的・基本的な知識及び技能を確実に習得させ，これらを活用して課題を解決するために必要な思考力，判断力，表現力等を育むとともに，主体的に学習に取り組む態度を養い，個性を生かし多様な人々との協働を促す教育の充実に努めること。その際，生徒の発達の段階を考慮して，生徒の言語活動など，学習の基盤をつくる活動を充実するとともに，家庭との連携を図りながら，生徒の学習習慣が確立するよう配慮すること。 ";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A1A2A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "基礎的・基本的な知識及び技能を確実に習得させ，これらを活用して課題を解決するために必要な思考力，判断力，表現力等を育むとともに，主体的に学習に取り組む態度を養い，個性を生かし多様な人々との協働を促す教育の充実に努めること。その際，生徒の発達の段階を考慮して，生徒の言語活動など，学習の基盤をつくる活動を充実するとともに，家庭との連携を図りながら，生徒の学習習慣が確立するよう配慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000120000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000121000000>.

@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7600000242C00000>
+  <http://purl.org/dc/terms/identifier> "7600000242C00000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "54"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "53"
+  ];
+  <http://schema.org/description> "(12)児童又は生徒のよい点や可能性，進歩の状況などを積極的に評価するとともに，指導の過程や成果を評価し， 指導の改善を行い学習意欲の向上に生かすようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A4A2UCA0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(12)";
+  <https://w3id.org/jp-cos/sectionText> "児童又は生徒のよい点や可能性，進歩の状況などを積極的に評価するとともに，指導の過程や成果を評価し， 指導の改善を行い学習意欲の向上に生かすようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000242000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000242C00000>.

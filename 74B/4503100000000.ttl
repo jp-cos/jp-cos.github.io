@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/74B4503100000000>
+  <http://purl.org/dc/terms/identifier> "74B4503100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1466"
+  ];
+  <http://schema.org/description> """Ａ　表現
+　表現に関して，次の事項を指導する。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74B4503110000000>, <https://w3id.org/jp-cos/74B4503120000000>, <https://w3id.org/jp-cos/74B4503130000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UBA4A5A0A3A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "A";
+  <https://w3id.org/jp-cos/sectionText> """表 現
+ 表現に関して，次の事項を指導する。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/美術I>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術> .
+<https://w3id.org/jp-cos/74B4503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74B4503100000000>.

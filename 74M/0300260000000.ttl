@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/74M0300260000000>
+  <http://purl.org/dc/terms/identifier> "74M0300260000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8182"
+  ];
+  <http://schema.org/description> "(6) 学校図書館の活用，他の学校との連携，公民館，図書館，博物館等の社会教育施設や社会教育関係団体等の各種団体との連携，地域の教材や学習環境の積極的な活用などの工夫を行うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UMA0A3A0A0A2A6A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "学校図書館の活用，他の学校との連携，公民館，図書館，博物館等の社会教育施設や社会教育関係団体等の各種団体との連携，地域の教材や学習環境の積極的な活用などの工夫を行うこと。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間> .
+<https://w3id.org/jp-cos/74M0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74M0300260000000>.

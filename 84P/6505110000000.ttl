@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84P6505110000000>
+  <http://purl.org/dc/terms/identifier> "84P6505110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3632"
+  ];
+  <http://schema.org/description> "ア　野菜の生産から消費，経営までの仕組みと野菜の利用形態を理解できるよう留意して指導すること。また，プロジェクト学習では観察や実験・実習を通して，科学的かつ創造的に学習を進め，野菜生産に関する実践力が身に付くようにすること。なお，地域農業の実態や学科の特色等に応じて，適切な題材を選定すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UPA6A5A0A5A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "野菜の生産から消費，経営までの仕組みと野菜の利用形態を理解できるよう留意して指導すること。また，プロジェクト学習では観察や実験・実習を通して，科学的かつ創造的に学習を進め，野菜生産に関する実践力が身に付くようにすること。なお，地域農業の実態や学科の特色等に応じて，適切な題材を選定すること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/野菜>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/農業> .
+<https://w3id.org/jp-cos/84P6505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84P6505110000000>.

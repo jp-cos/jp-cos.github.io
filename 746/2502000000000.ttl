@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7462502000000000>
+  <http://purl.org/dc/terms/identifier> "7462502000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "854"
+  ];
+  <http://schema.org/description> """１　目標
+　日常生活や社会との関連を図りながら物体の運動と様々なエネルギーへの関心を高め，目的意識をもって観察，実験などを行い，物理学的に探究する能力と態度を育てるとともに，物理学の基本的な概念や原理・法則を理解させ，科学的な見方や考え方を養う。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A6A2A5A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+ 日常生活や社会との関連を図りながら物体の運動と様々なエネルギーへの関心を高め，目的意識をもって観察，実験などを行い，物理学的に探究する能力と態度を育てるとともに，物理学の基本的な概念や原理・法則を理解させ，科学的な見方や考え方を養う。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理科> .
+<https://w3id.org/jp-cos/7462500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7462502000000000>.

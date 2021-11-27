@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/82L12C3221120000>
+  <http://purl.org/dc/terms/identifier> "82L12C3221120000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3578"
+  ];
+  <http://schema.org/description> "(イ) 身近な人や身の回りの物に関する簡単な語句や基本的な表現を聞いて，それらを表すイラストや写真などと結び付ける活動。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2ULA1A2UCA3A2A2A1A1A2A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "身近な人や身の回りの物に関する簡単な語句や基本的な表現を聞いて，それらを表すイラストや写真などと結び付ける活動。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Elementary/2017/外国語活動/英語>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/外国語活動> .
+<https://w3id.org/jp-cos/82L12C3221100000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82L12C3221120000>.

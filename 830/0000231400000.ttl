@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8300000231400000>
+  <http://purl.org/dc/terms/identifier> "8300000231400000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "23"
+  ];
+  <http://schema.org/description> "エ　学校において２以上の学年の生徒で編制する学級について特に必要がある場合には，各教科の目標の達成に支障のない範囲内で，各教科の目標及び内容について学年別の順序によらないことができる。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A2A3A1A4A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "学校において2以上の学年の生徒で編制する学級について特に必要がある場合には，各教科の目標の達成に支障のない範囲内で，各教科の目標及び内容について学年別の順序によらないことができる。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000231400000>.

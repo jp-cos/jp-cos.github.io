@@ -1,0 +1,21 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>
+  <http://purl.org/linked-data/cube#order> "16";
+  <http://schema.org/name> "Foreign Languages"@en, "外国語"@ja, "がいこくご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "H";
+  <https://w3id.org/jp-cos/codePrefix> "7AH";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "UH";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UAUH";
+  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語/その他の外国語>, <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語/英語>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/外国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH1203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH1203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH1203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.
+<https://w3id.org/jp-cos/7AH2203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語>.

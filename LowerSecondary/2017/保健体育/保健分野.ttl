@@ -1,0 +1,64 @@
+<https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>
+  <http://purl.org/linked-data/cube#order> "7";
+  <http://schema.org/name> "Health"@en, "保健分野"@ja, "ほけんぶんや"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "83G2";
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A3UGA2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/LowerSecondarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/LowerSecondary/2017/2017> .
+<https://w3id.org/jp-cos/LowerSecondary/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/LowerSecondary/2017/保健体育> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2200000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2202000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2202100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2202200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2202300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2203000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2203100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2203110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2203120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2205000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2205100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2205200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2205B00000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213214000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2213220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2215600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2215700000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2215800000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223311000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223312000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223313000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223314000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2223320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2225400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2225900000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233116000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233411000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233412000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233413000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2233420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2235500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G2235A00000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.
+<https://w3id.org/jp-cos/83G22A5300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/保健分野>.

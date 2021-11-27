@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/84d6502000000000>
+  <http://purl.org/dc/terms/identifier> "84d6502000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10782"
+  ];
+  <http://schema.org/description> """１　目標
+英語学習の特質を踏まえ，以下に示す，書くことの領域において設定する目標の実現を目指した指導を通して，第１款の(1)及び(2)に示す資質・能力を一体的に育成するとともに，その過程を通して，第１款の(3)に示す資質・能力を育成する。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d6502100000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4LdA6A5A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+英語学習の特質を踏まえ，以下に示す，書くことの領域において設定する目標の実現を目指した指導を通して，第1款の(1)及び(2)に示す資質・能力を一体的に育成するとともに，その過程を通して，第1款の(3)に示す資質・能力を育成する。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/エッセイライティングI>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)> .
+<https://w3id.org/jp-cos/84d6500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d6502000000000>.

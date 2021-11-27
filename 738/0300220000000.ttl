@@ -1,0 +1,30 @@
+<https://w3id.org/jp-cos/7380300220000000>
+  <http://purl.org/dc/terms/identifier> "7380300220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "955"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "949"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "949"
+  ];
+  <http://schema.org/description> "(2) 器楽の指導については，指導上の必要に応じて和楽器，弦楽器，管楽器，打楽器，鍵《けん》盤楽器，電子楽器及び世界の諸民族の楽器を適宜用いること。なお，和楽器の指導については，３学年間を通じて１種類以上の楽器の表現活動を通して，生徒が我が国や郷土の伝統音楽のよさを味わうことができるよう工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A8A0A3A0A0A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "器楽の指導については，指導上の必要に応じて和楽器，弦楽器，管楽器，打楽器，鍵《けん》盤楽器，電子楽器及び世界の諸民族の楽器を適宜用いること。なお，和楽器の指導については，3学年間を通じて1種類以上の楽器の表現活動を通して，生徒が我が国や郷土の伝統音楽のよさを味わうことができるよう工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/音楽> .
+<https://w3id.org/jp-cos/7380300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7380300220000000>.

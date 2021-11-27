@@ -1,0 +1,51 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>
+  <http://purl.org/linked-data/cube#order> "94";
+  <http://schema.org/name> "Industrial Management Technology"@en, "工業管理技術"@ja, "こうぎょうかんりぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "84Q8";
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.
+<https://w3id.org/jp-cos/84Q8505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業管理技術>.

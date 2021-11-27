@@ -1,0 +1,35 @@
+<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>
+  <http://purl.org/linked-data/cube#order> "4";
+  <http://schema.org/name> "Arithmetic"@en, "算数"@ja, "さんすう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "5";
+  <https://w3id.org/jp-cos/codePrefix> "785";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A8A5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/算数> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/7850200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/7850202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/7850203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502a3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502a3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502a3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502a3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502b3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502b3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502b3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502b3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502b3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502c3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502c3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502c3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502c3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
+<https://w3id.org/jp-cos/78502c3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.

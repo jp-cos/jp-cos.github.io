@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>
+  <http://purl.org/linked-data/cube#order> "18";
+  <http://schema.org/name> "Mathematics A"@en, "数学A"@ja, "すうがくA"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "4";
+  <https://w3id.org/jp-cos/codePrefix> "8454";
+  <https://w3id.org/jp-cos/fcode04> "A4";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4A5A4";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/数学> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503214000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503215000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503223000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503233000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503234000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503235000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503311000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503312000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503321000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454503322000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.
+<https://w3id.org/jp-cos/8454505400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/数学/数学A>.

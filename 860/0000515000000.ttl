@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8600000515000000>
+  <http://purl.org/dc/terms/identifier> "8600000515000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "84"
+  ];
+  <http://schema.org/description> "(5) 家庭及び地域並びに医療，福祉，保健，労働等の業務を行う関係機関との連携を図り，長期的な視点で児童又は生徒への教育的支援を行うために，個別の教育支援計画を作成すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A5A1A5A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> "家庭及び地域並びに医療，福祉，保健，労働等の業務を行う関係機関との連携を図り，長期的な視点で児童又は生徒への教育的支援を行うために，個別の教育支援計画を作成すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000515000000>.

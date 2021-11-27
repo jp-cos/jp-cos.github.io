@@ -1,0 +1,39 @@
+<https://w3id.org/jp-cos/SchoolShape>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> "2";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
+    <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Listing order of the code assignment table"@en, "コード割り当て表掲載順"@ja;
+    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <http://ja.dbpedia.org/resource/小学校>;
+    <http://www.w3.org/ns/shacl#name> "Equivalent resource"@en, "同一リソース"@ja;
+    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
+    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2002/07/owl#sameAs>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"小学校\"@ja</li><li>\"しょうがっこう\"@ja-Hira</li><li>\"Elementary School\"@en</li></ul>";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/ns/shacl#description> "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    <http://www.w3.org/ns/shacl#languageIn> [
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja-Hira";
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+          <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
+          <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+        ]
+      ]
+    ];
+    <http://www.w3.org/ns/shacl#maxCount> "3";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
+    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
+    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/School> .

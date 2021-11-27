@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>
+  <http://purl.org/linked-data/cube#order> "155";
+  <http://schema.org/name> "Product Development"@en, "商品開発"@ja, "しょうひんかいはつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "74R6";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4URA6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6503640000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.
+<https://w3id.org/jp-cos/74R6505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/商品開発>.

@@ -1,0 +1,21 @@
+<https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則>
+  <http://purl.org/linked-data/cube#order> "2";
+  <http://schema.org/name> "General Provisions"@en, "総則"@ja, "そうそく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "0";
+  <https://w3id.org/jp-cos/codePrefix> "870";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode03> "A0";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A7A0";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/Kindergarten/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総則> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則>.
+<https://w3id.org/jp-cos/8700000331400000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則>.
+<https://w3id.org/jp-cos/8700000333130000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則>.
+<https://w3id.org/jp-cos/8700000813000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則>.

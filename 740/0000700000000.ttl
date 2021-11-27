@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7400000700000000>
+  <http://purl.org/dc/terms/identifier> "7400000700000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "109"
+  ];
+  <http://schema.org/description> """第７款　通信制の課程における教育課程の特例
+　通信制の課程における教育課程については，第１款から第６款まで（第４款，第５款の１並びに第５款の４の(4)のア及びイを除く。）に定めるところによるほか，次に定めるところによる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000710000000>, <https://w3id.org/jp-cos/7400000720000000>, <https://w3id.org/jp-cos/7400000730000000>, <https://w3id.org/jp-cos/7400000740000000>, <https://w3id.org/jp-cos/7400000750000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A0A0A0A0A0A7A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第7款";
+  <https://w3id.org/jp-cos/sectionText> """通信制の課程における教育課程の特例
+ 通信制の課程における教育課程については，第1款から第6款まで(第4款，第5款の1並びに第5款の4の(4)のア及びイを除く。)に定めるところによるほか，次に定めるところによる。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総則> .
+<https://w3id.org/jp-cos/7400000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000700000000>.

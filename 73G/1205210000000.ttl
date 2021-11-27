@@ -1,0 +1,31 @@
+<https://w3id.org/jp-cos/73G1205210000000>
+  <http://purl.org/dc/terms/identifier> "73G1205210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1198"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1192"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1192"
+  ];
+  <http://schema.org/description> "ア　「Ａ体つくり運動」の(1)のアの運動については，「Ｂ器械運動」から「Ｇダンス」までにおいても関連を図って指導することができるとともに，心の健康など保健分野との関連を図ること。また，「Ａ体つくり運動」の(1)のイの運動については，第１学年及び第２学年においては，動きを持続する能力を高めるための運動に重点を置いて指導することができるが，調和のとれた体力を高めることに留意すること。第３学年においては，日常的に取り組める運動例を取り上げるなど指導方法の工夫を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3UGA1A2A0A5A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "「A体つくり運動」の(1)のアの運動については，「B器械運動」から「Gダンス」までにおいても関連を図って指導することができるとともに，心の健康など保健分野との関連を図ること。また，「A体つくり運動」の(1)のイの運動については，第1学年及び第2学年においては，動きを持続する能力を高めるための運動に重点を置いて指導することができるが，調和のとれた体力を高めることに留意すること。第3学年においては，日常的に取り組める運動例を取り上げるなど指導方法の工夫を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/保健体育/体育分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/保健体育> .
+<https://w3id.org/jp-cos/73G1205200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73G1205210000000>.

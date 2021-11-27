@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+#TTL 障害分類リソース
+<https://w3id.org/jp-cos/disabilityCategory/Visual> a <https://w3id.org/jp-cos/DisabilityCategory>;
+  qb:order 1;
+  schema:name "視覚"@ja;
+  schema:name "しかく"@ja-Hira;
+  rdfs:seeAlso <http://ja.dbpedia.org/resource/視覚障害者>;
+  schema:name "Visual Impairment"@en.
+<https://w3id.org/jp-cos/disabilityCategory/Hearing> a <https://w3id.org/jp-cos/DisabilityCategory>;
+  qb:order 2;
+  schema:name "聴覚"@ja;
+  schema:name "ちょうかく"@ja-Hira;
+  rdfs:seeAlso <http://ja.dbpedia.org/resource/聴覚障害者>;
+  schema:name "Hearing Impairment"@en.
+<https://w3id.org/jp-cos/disabilityCategory/Physical> a <https://w3id.org/jp-cos/DisabilityCategory>;
+  qb:order 3;
+  schema:name "肢体"@ja;
+  schema:name "したい"@ja-Hira;
+  rdfs:seeAlso <http://ja.dbpedia.org/resource/肢体不自由者>;
+  schema:name "Physical Disability"@en.
+<https://w3id.org/jp-cos/disabilityCategory/Intellectual> a <https://w3id.org/jp-cos/DisabilityCategory>;
+  qb:order 4;
+  schema:name "知的"@ja;
+  schema:name "ちてき"@ja-Hira;
+  rdfs:seeAlso <http://ja.dbpedia.org/resource/知的障害>;
+  schema:name "Intellectual Disability"@en.
+<https://w3id.org/jp-cos/disabilityCategory/Health> a <https://w3id.org/jp-cos/DisabilityCategory>;
+  qb:order 5;
+  schema:name "病弱"@ja;
+  schema:name "びょうじゃく"@ja-Hira;
+  rdfs:seeAlso <http://ja.dbpedia.org/resource/病弱児>;
+  schema:name "Health Impairment"@en.
+

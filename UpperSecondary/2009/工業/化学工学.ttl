@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>
+  <http://purl.org/linked-data/cube#order> "133";
+  <http://schema.org/name> "Chemical Engineering"@en, "化学工学"@ja, "かがくこうがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "j";
+  <https://w3id.org/jp-cos/codePrefix> "74Qj";
+  <https://w3id.org/jp-cos/fcode04> "Lj";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQLj";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.
+<https://w3id.org/jp-cos/74Qj505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/化学工学>.

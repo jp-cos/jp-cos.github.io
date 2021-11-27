@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000251300000>
+  <http://purl.org/dc/terms/identifier> "8B00000251300000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "166"
+  ];
+  <http://schema.org/description> "(3) 生徒が，学ぶことと自己の将来とのつながりを見通しながら，社会的・職業的自立に向けて必要な基盤となる資質・能力を身に付けていくことができるよう，特別活動を要としつつ各教科・科目等又は各教科等の特質に応じて，キャリア教育の充実を図ること。その中で，生徒が自己の在り方生き方を考え主体的に進路を選択することができるよう，学校の教育活動全体を通じ，組織的かつ計画的な進路指導を行うこと。その際，家庭及び地域や福祉，労働等の業務を行う関係機関との連携を十分に図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A5A1A3A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "生徒が，学ぶことと自己の将来とのつながりを見通しながら，社会的・職業的自立に向けて必要な基盤となる資質・能力を身に付けていくことができるよう，特別活動を要としつつ各教科・科目等又は各教科等の特質に応じて，キャリア教育の充実を図ること。その中で，生徒が自己の在り方生き方を考え主体的に進路を選択することができるよう，学校の教育活動全体を通じ，組織的かつ計画的な進路指導を行うこと。その際，家庭及び地域や福祉，労働等の業務を行う関係機関との連携を十分に図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000251000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000251300000>.

@@ -1,0 +1,40 @@
+<https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>
+  <http://purl.org/linked-data/cube#order> "23";
+  <http://schema.org/name> "Subjects (Elementary Department)"@en, "各教科(小学部)"@ja, "かくきょうか(しょうがくぶ)"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "n";
+  <https://w3id.org/jp-cos/codePrefix> "87n";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode03> "Ln";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A7Ln";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科(小学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000150000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000250000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000260000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000310000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000320000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000330000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000340000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000350000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000410000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000420000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000430000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000440000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000450000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/87n0000460000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.

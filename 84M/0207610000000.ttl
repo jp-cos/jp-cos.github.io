@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84M0207610000000>
+  <http://purl.org/dc/terms/identifier> "84M0207610000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10865"
+  ];
+  <http://schema.org/description> "ア　知識及び技能については，他教科等及び総合的な探究の時間で習得する知識及び技能が相互に関連付けられ，社会の中で生きて働くものとして形成されるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UMA0A2A0A7A6A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "知識及び技能については，他教科等及び総合的な探究の時間で習得する知識及び技能が相互に関連付けられ，社会の中で生きて働くものとして形成されるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間> .
+<https://w3id.org/jp-cos/84M0207600000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84M0207610000000>.

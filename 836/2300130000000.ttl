@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8362300130000000>
+  <http://purl.org/dc/terms/identifier> "8362300130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1157"
+  ];
+  <http://schema.org/description> "(3) 学校や生徒の実態に応じ，十分な観察や実験の時間，課題解決のために探究する時間などを設けるようにすること。その際，問題を見いだし観察，実験を計画する学習活動，観察，実験の結果を分析し解釈する学習活動，科学的な概念を使用して考えたり説明したりする学習活動などが充実するようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A6A2A3A0A0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "学校や生徒の実態に応じ，十分な観察や実験の時間，課題解決のために探究する時間などを設けるようにすること。その際，問題を見いだし観察，実験を計画する学習活動，観察，実験の結果を分析し解釈する学習活動，科学的な概念を使用して考えたり説明したりする学習活動などが充実するようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/理科/第2分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/理科> .
+<https://w3id.org/jp-cos/8362300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8362300130000000>.

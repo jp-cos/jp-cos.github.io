@@ -1,0 +1,61 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>
+  <http://purl.org/linked-data/cube#order> "207";
+  <http://schema.org/name> "Public Health"@en, "公衆衛生"@ja, "こうしゅうえいせい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "K";
+  <https://w3id.org/jp-cos/codePrefix> "84UK";
+  <https://w3id.org/jp-cos/fcode04> "UK";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UUUK";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503171000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503172000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503180000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503181000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK503182000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.
+<https://w3id.org/jp-cos/84UK505280000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/公衆衛生>.

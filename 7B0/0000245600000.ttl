@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7B00000245600000>
+  <http://purl.org/dc/terms/identifier> "7B00000245600000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "124"
+  ];
+  <http://schema.org/description> "(6) 生徒が自己の在り方生き方を考え， 主体的に進路を選択することができるよう， 校内の組織体制を整備し， 教師間の相互の連携を図りながら， 学校の教育活動全体を通じ， 計画的，組織的な進路指導を行い， キャリア教育を推進すること。その際，家庭及び地域や福祉，労働等の業務を行う関係機関との連携を十分に図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7UBA0A0A0A0A0A2A4A5A6A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "生徒が自己の在り方生き方を考え， 主体的に進路を選択することができるよう， 校内の組織体制を整備し， 教師間の相互の連携を図りながら， 学校の教育活動全体を通じ， 計画的，組織的な進路指導を行い， キャリア教育を推進すること。その際，家庭及び地域や福祉，労働等の業務を行う関係機関との連携を十分に図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7B00000245000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7B00000245600000>.

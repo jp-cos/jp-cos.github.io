@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8290300400000000>
+  <http://purl.org/dc/terms/identifier> "8290300400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2956"
+  ];
+  <http://schema.org/description> "４　校内の適切な場所に作品を展示するなどし，平素の学校生活においてそれを鑑賞できるよう配慮するものとする。また，学校や地域の実態に応じて，校外に児童の作品を展示する機会を設けるなどするものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A9A0A3A0A0A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "校内の適切な場所に作品を展示するなどし，平素の学校生活においてそれを鑑賞できるよう配慮するものとする。また，学校や地域の実態に応じて，校外に児童の作品を展示する機会を設けるなどするものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/図画工作> .
+<https://w3id.org/jp-cos/8290300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8290300400000000>.

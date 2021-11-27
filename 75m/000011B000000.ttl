@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/75m000011B000000>
+  <http://purl.org/dc/terms/identifier> "75m000011B000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "84"
+  ];
+  <http://schema.org/description> "11  幼児の経験を広めて積極的な態度を養い， 社会性や豊かな人間性をはぐくむために， 学校生活全体を通じて， 幼稚園の幼児などと活動を共にすることを計画的， 組織的に行うとともに，地域の人々などと活動を共にする機会を積極的に設けること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A5LmA0A0A0A0A1A1UBA0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "11";
+  <https://w3id.org/jp-cos/sectionText> "幼児の経験を広めて積極的な態度を養い， 社会性や豊かな人間性をはぐくむために， 学校生活全体を通じて， 幼稚園の幼児などと活動を共にすることを計画的， 組織的に行うとともに，地域の人々などと活動を共にする機会を積極的に設けること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項> .
+<https://w3id.org/jp-cos/75m0000110000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/75m000011B000000>.

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>no title - 学習指導要領LOD</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="no title - 学習指導要領LOD">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="navbar-brand" href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+        <div class="jumbotron">
+      <div class="container">
+        <h1>no title</h1>
+        <p><small><span class="glyphicon glyphicon-link"></span> <a href="https://w3id.org/jp-cos/SourceOfEnglishNameShape">https://w3id.org/jp-cos/SourceOfEnglishNameShape</a></small></p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>詳細情報</h2>
+          <dl>
+
+  <dt>Type</dt>
+  
+    <dd><a href="http://www.w3.org/ns/shacl#NodeShape">http://www.w3.org/ns/shacl#NodeShape</a></dd>
+  
+
+  <dt>Targetclass</dt>
+  
+    <dd><a href="SourceOfEnglishName">英語表記の出典を表すリソース</a></dd>
+  
+
+  <dt>Property</dt>
+  
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="http://schema.org/name">http://schema.org/name</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">英語表記出典の名称</dd>
+    
+    <dd lang="en">Name for the source</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></dd>
+    
+    <dd lang="en">Using language tags, Japanese and English names are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>2</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</a></dd>
+  
+
+  <dt>Languagein</dt>
+  
+    <dd><dl>
+
+  <dt>Rest</dt>
+  
+    <dd><dl>
+
+  <dt>Rest</dt>
+  
+    <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">http://www.w3.org/1999/02/22-rdf-syntax-ns#nil</a></dd>
+  
+
+  <dt>First</dt>
+  
+    <dd>en</dd>
+  
+</dl>
+</dd>
+  
+
+  <dt>First</dt>
+  
+    <dd>ja</dd>
+  
+</dl>
+</dd>
+  
+
+  <dt>Uniquelang</dt>
+  
+    <dd>true</dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>1</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="curriculum">対応学習指導要領</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">対応学習指導要領</dd>
+    
+    <dd lang="en">Reference to a curriculum guideline</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</dd>
+    
+    <dd lang="en">If the source is the English translation of the curriculum guideline, this property refer to the corresponding guideline.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><a href="Elementary/2008/">小学校学習指導要領</a></dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Class</dt>
+  
+    <dd><a href="CourseOfStudy">学習指導要領を表すリソース</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>2</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">http://www.w3.org/2000/01/rdf-schema#seeAlso</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">関連リンク</dd>
+    
+    <dd lang="en">Related links</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</dd>
+    
+    <dd lang="en">Links to the referenced website and the bibliographic information such as <a href="https://ci.nii.ac.jp/books/">CiNii Books</a> when the source is a book.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><a href="http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</a></dd>
+  
+
+  <dt>Nodekind</dt>
+  
+    <dd><a href="http://www.w3.org/ns/shacl#IRI">http://www.w3.org/ns/shacl#IRI</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>3</dd>
+  
+</dl>
+</dd>
+    
+  
+</dl>
+
+        </div>
+      </div>
+      
+      <div class="row inverse">
+        <div class="col-md-12">
+          <h2>被参照情報</h2>
+          <dl>
+
+  <dt>Node</dt>
+  
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="sourceOfEnglishName">英語表記出典</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">英語表記出典</dd>
+    
+    <dd lang="en">Source for the English name</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
+    
+    <dd lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
+    
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Node</dt>
+  
+    <dd><a href="SourceOfEnglishNameShape">no title</a></dd>
+  
+
+  <dt>Nodekind</dt>
+  
+    <dd><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>6</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="sourceOfEnglishName">英語表記出典</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">英語表記出典</dd>
+    
+    <dd lang="en">Source for the English name</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
+    
+    <dd lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
+    
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Node</dt>
+  
+    <dd><a href="SourceOfEnglishNameShape">no title</a></dd>
+  
+
+  <dt>Nodekind</dt>
+  
+    <dd><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>6</dd>
+  
+</dl>
+</dd>
+    
+  
+</dl>
+
+        </div>
+      </div>
+      
+    </div>
+
+    <hr>
+    <footer>
+      <p class="pull-right"><a href="https://w3id.org/jp-cos/SourceOfEnglishNameShape.ttl"><img src="https://www.w3.org/RDF/icons/rdf_flyer.24" alt="RDFデータ"></a></p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

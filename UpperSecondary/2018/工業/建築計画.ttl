@@ -1,0 +1,62 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>
+  <http://purl.org/linked-data/cube#order> "116";
+  <http://schema.org/name> "Architectural Planning"@en, "建築計画"@ja, "けんちくけいかく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "U";
+  <https://w3id.org/jp-cos/codePrefix> "84QU";
+  <https://w3id.org/jp-cos/fcode04> "UU";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUU";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.
+<https://w3id.org/jp-cos/84QU505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築計画>.

@@ -1,0 +1,13 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/特別の教科道徳>
+  <http://purl.org/linked-data/cube#order> "37";
+  <http://schema.org/name> "特別の教科道徳"@ja, ""@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "K";
+  <https://w3id.org/jp-cos/codePrefix> "8GK";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "UK";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UGUK";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/特別の教科道徳> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/特別の教科道徳>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/特別の教科道徳>.

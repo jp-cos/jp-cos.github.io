@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8C00000241200000>
+  <http://purl.org/dc/terms/identifier> "8C00000241200000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "159"
+  ];
+  <http://schema.org/description> """(2) 卒業までに修得させる単位数
+学校においては，卒業までに修得させる単位数を定め，校長は，当該単位数を修得した者で，特別活動及び自立活動の成果がそれらの目標からみて満足できると認められるものについて，高等部の全課程の修了を認定するものとする。この場合，卒業までに修得させる単位数は，74 単位（自立活動の授業については，授業時数を単位数に換算して，この単位数に含めることができる。）以上とする。なお，普通科においては，卒業までに修得させる単位数に含めることができる学校設定科目及び学校設定教科に関する科目に係る修得単位数は， 合わせて 20 単位を超えることができない。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8UCA0A0A0A0A0A2A4A1A2A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> """卒業までに修得させる単位数
+学校においては，卒業までに修得させる単位数を定め，校長は，当該単位数を修得した者で，特別活動及び自立活動の成果がそれらの目標からみて満足できると認められるものについて，高等部の全課程の修了を認定するものとする。この場合，卒業までに修得させる単位数は，74 単位(自立活動の授業については，授業時数を単位数に換算して，この単位数に含めることができる。)以上とする。なお，普通科においては，卒業までに修得させる単位数に含めることができる学校設定科目及び学校設定教科に関する科目に係る修得単位数は， 合わせて 20 単位を超えることができない。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2019/総則> .
+<https://w3id.org/jp-cos/8C00000241000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8C00000241200000>.

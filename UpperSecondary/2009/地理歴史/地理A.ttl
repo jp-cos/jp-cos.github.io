@@ -1,0 +1,45 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>
+  <http://purl.org/linked-data/cube#order> "11";
+  <http://schema.org/name> "Geography A"@en, "地理A"@ja, "ちりA"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "5";
+  <https://w3id.org/jp-cos/codePrefix> "7435";
+  <https://w3id.org/jp-cos/fcode04> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A3A5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505223000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.
+<https://w3id.org/jp-cos/7435505224000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>.

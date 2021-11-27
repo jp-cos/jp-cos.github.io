@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7400000544300000>
+  <http://purl.org/dc/terms/identifier> "7400000544300000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "86"
+  ];
+  <http://schema.org/description> "ウ　定時制及び通信制の課程において，職業に関する各教科・科目を履修する生徒が，現にその各教科・科目と密接な関係を有する職業（家事を含む。）に従事している場合で，その職業における実務等が，その各教科・科目の一部を履修した場合と同様の成果があると認められるときは，その実務等をもってその各教科・科目の履修の一部に替えることができること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A0A0A0A0A0A5A4A4A3A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "定時制及び通信制の課程において，職業に関する各教科・科目を履修する生徒が，現にその各教科・科目と密接な関係を有する職業(家事を含む。)に従事している場合で，その職業における実務等が，その各教科・科目の一部を履修した場合と同様の成果があると認められるときは，その実務等をもってその各教科・科目の履修の一部に替えることができること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総則> .
+<https://w3id.org/jp-cos/7400000544000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000544300000>.

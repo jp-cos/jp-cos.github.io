@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84d7503231220000>
+  <http://purl.org/dc/terms/identifier> "84d7503231220000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10816"
+  ];
+  <http://schema.org/description> "(イ) 社会的な話題について，複数のスピーチや講義，英文資料などを聞いたり読んだりして，読み手を引きつけたり説得したりできるよう，論点を整理した上で，それらを活用して 意見や主張などを複数の情報を整理，比較しながら，効果的な理由や根拠とともに複数の段落を用いて詳しく書いて伝える活動。また，書いた内容を読み合い，質疑応答をしたり，意見や感想を伝え合ったりする活動。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4LdA7A5A0A3A2A3A1A2A2A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "社会的な話題について，複数のスピーチや講義，英文資料などを聞いたり読んだりして，読み手を引きつけたり説得したりできるよう，論点を整理した上で，それらを活用して 意見や主張などを複数の情報を整理，比較しながら，効果的な理由や根拠とともに複数の段落を用いて詳しく書いて伝える活動。また，書いた内容を読み合い，質疑応答をしたり，意見や感想を伝え合ったりする活動。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/エッセイライティングII>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)> .
+<https://w3id.org/jp-cos/84d7503231200000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d7503231220000>.

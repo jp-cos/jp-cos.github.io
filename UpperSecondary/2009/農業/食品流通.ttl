@@ -1,0 +1,58 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>
+  <http://purl.org/linked-data/cube#order> "76";
+  <http://schema.org/name> "Food Distribution"@en, "食品流通"@ja, "しょくひんりゅうつう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "I";
+  <https://w3id.org/jp-cos/codePrefix> "74PI";
+  <https://w3id.org/jp-cos/fcode04> "UI";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UPUI";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503350000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503450000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.
+<https://w3id.org/jp-cos/74PI505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/食品流通>.

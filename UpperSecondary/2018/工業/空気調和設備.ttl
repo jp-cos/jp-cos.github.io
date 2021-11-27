@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>
+  <http://purl.org/linked-data/cube#order> "121";
+  <http://schema.org/name> "Air Conditioning Equipment"@en, "空気調和設備"@ja, "くうきちょうわせつび"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "Z";
+  <https://w3id.org/jp-cos/codePrefix> "84QZ";
+  <https://w3id.org/jp-cos/fcode04> "UZ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUZ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.
+<https://w3id.org/jp-cos/84QZ505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/空気調和設備>.

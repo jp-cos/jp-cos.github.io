@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/82H12D6230000000>
+  <http://purl.org/dc/terms/identifier> "82H12D6230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3417"
+  ];
+  <http://schema.org/description> "ウ　文や文構造の指導に当たっては，次の事項に留意すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/82H12D6231000000>, <https://w3id.org/jp-cos/82H12D6232000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UHA1A2UDA6A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "文や文構造の指導に当たっては，次の事項に留意すること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Elementary/2017/外国語/英語>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/外国語> .
+<https://w3id.org/jp-cos/82H12D6200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82H12D6230000000>.

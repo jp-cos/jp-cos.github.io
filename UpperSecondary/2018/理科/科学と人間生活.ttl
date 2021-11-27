@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>
+  <http://purl.org/linked-data/cube#order> "21";
+  <http://schema.org/name> "Science and Our Daily Life"@en, "科学と人間生活"@ja, "かがくとにんげんせいかつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "8461";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4A6A1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/理科> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503211100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503211200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503212100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503212200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503213100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503213200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503214000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503214100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503214200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.
+<https://w3id.org/jp-cos/8461505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>.

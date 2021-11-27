@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8100000440000000>
+  <http://purl.org/dc/terms/identifier> "8100000440000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "58"
+  ];
+  <http://schema.org/description> """４　幼児理解に基づいた評価の実施
+　幼児一人一人の発達の理解に基づいた評価の実施に当たっては，次の事項に配慮するものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000441000000>, <https://w3id.org/jp-cos/8100000442000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1A0A0A0A0A0A4A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> """幼児理解に基づいた評価の実施
+ 幼児一人一人の発達の理解に基づいた評価の実施に当たっては，次の事項に配慮するものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/総則> .
+<https://w3id.org/jp-cos/8100000400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000440000000>.

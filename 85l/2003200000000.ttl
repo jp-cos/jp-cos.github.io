@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/85l2003200000000>
+  <http://purl.org/dc/terms/identifier> "85l2003200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "96"
+  ];
+  <http://schema.org/description> "(2) 　心理的な安定";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/85l2003210000000>, <https://w3id.org/jp-cos/85l2003220000000>, <https://w3id.org/jp-cos/85l2003230000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5LlA2A0A0A3A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "心理的な安定";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容/自立活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容> .
+<https://w3id.org/jp-cos/85l2003000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/85l2003200000000>.

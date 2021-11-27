@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8GY0206110000000>
+  <http://purl.org/dc/terms/identifier> "8GY0206110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "4203"
+  ];
+  <http://schema.org/description> "ア　単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，福祉の見方・考え方を働かせ，実践的・体験的な学習活動の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGUYA0A2A0A6A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，福祉の見方・考え方を働かせ，実践的・体験的な学習活動の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/福祉> .
+<https://w3id.org/jp-cos/8GY0206100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GY0206110000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>
+  <http://purl.org/linked-data/cube#order> "269";
+  <http://schema.org/name> "Composition"@en, "作曲"@ja, "さっきょく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "7";
+  <https://w3id.org/jp-cos/codePrefix> "74b7";
+  <https://w3id.org/jp-cos/fcode04> "A7";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LbA7";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/74b7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/74b7502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/74b7503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/74b7505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/74b7505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.
+<https://w3id.org/jp-cos/74b7505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/音楽(専門)/作曲>.

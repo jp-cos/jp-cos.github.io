@@ -1,0 +1,30 @@
+<https://w3id.org/jp-cos/7300000428000000>
+  <http://purl.org/dc/terms/identifier> "7300000428000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "33"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "32"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "32"
+  ];
+  <http://schema.org/description> "(8) 障害のある生徒などについては，特別支援学校等の助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉等の業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の生徒の障害の状態等に応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。特に，特別支援学級又は通級による指導については，教師間の連携に努め，効果的な指導を行うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A0A0A0A0A0A4A2A8A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(8)";
+  <https://w3id.org/jp-cos/sectionText> "障害のある生徒などについては，特別支援学校等の助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉等の業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の生徒の障害の状態等に応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。特に，特別支援学級又は通級による指導については，教師間の連携に努め，効果的な指導を行うこと。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/総則> .
+<https://w3id.org/jp-cos/7300000420000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7300000428000000>.

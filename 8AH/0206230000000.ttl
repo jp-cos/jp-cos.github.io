@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8AH0206230000000>
+  <http://purl.org/dc/terms/identifier> "8AH0206230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2205"
+  ];
+  <http://schema.org/description> "ウ　外国語科を設ける場合は，生徒の障害の状態や実態に応じて，指導目標を適切に定め，３年間を通して外国語科の目標の実現を図るようにすること。また，高等部における指導との接続に配慮すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UAUHA0A2A0A6A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "外国語科を設ける場合は，生徒の障害の状態や実態に応じて，指導目標を適切に定め，3年間を通して外国語科の目標の実現を図るようにすること。また，高等部における指導との接続に配慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語> .
+<https://w3id.org/jp-cos/8AH0206200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8AH0206230000000>.

@@ -1,0 +1,53 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>
+  <http://purl.org/linked-data/cube#order> "178";
+  <http://schema.org/name> "Ocean Communication Technology"@en, "海洋通信技術"@ja, "かいようつうしんぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "D";
+  <https://w3id.org/jp-cos/codePrefix> "84TD";
+  <https://w3id.org/jp-cos/fcode04> "UD";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTUD";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.
+<https://w3id.org/jp-cos/84TD505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋通信技術>.

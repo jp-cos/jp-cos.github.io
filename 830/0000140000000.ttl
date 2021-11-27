@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8300000140000000>
+  <http://purl.org/dc/terms/identifier> "8300000140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "12"
+  ];
+  <http://schema.org/description> "４　各学校においては，生徒や学校，地域の実態を適切に把握し，教育の目的や目標の実現に必要な教育の内容等を教科等横断的な視点で組み立てていくこと，教育課程の実施状況を評価してその改善を図っていくこと，教育課程の実施に必要な人的又は物的な体制を確保するとともにその改善を図っていくことなどを通して，教育課程に基づき組織的かつ計画的に各学校の教育活動の質の向上を図っていくこと（以下「カリキュラム・マネジメント」という。）に努めるものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "各学校においては，生徒や学校，地域の実態を適切に把握し，教育の目的や目標の実現に必要な教育の内容等を教科等横断的な視点で組み立てていくこと，教育課程の実施状況を評価してその改善を図っていくこと，教育課程の実施に必要な人的又は物的な体制を確保するとともにその改善を図っていくことなどを通して，教育課程に基づき組織的かつ計画的に各学校の教育活動の質の向上を図っていくこと(以下「カリキュラム・マネジメント」という。)に努めるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000140000000>.

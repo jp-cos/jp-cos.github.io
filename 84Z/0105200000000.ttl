@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84Z0105200000000>
+  <http://purl.org/dc/terms/identifier> "84Z0105200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10001"
+  ];
+  <http://schema.org/description> "(2) 多角的，複合的に事象を捉え，数学的，科学的に考察し表現する力などを養うとともに創造的な力を高める。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UZA0A1A0A5A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "多角的，複合的に事象を捉え，数学的，科学的に考察し表現する力などを養うとともに創造的な力を高める。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)> .
+<https://w3id.org/jp-cos/84Z0100000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84Z0105200000000>.

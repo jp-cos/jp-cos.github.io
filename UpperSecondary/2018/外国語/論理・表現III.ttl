@@ -1,0 +1,47 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>
+  <http://purl.org/linked-data/cube#order> "49";
+  <http://schema.org/name> "Logic and Expression III"@en, "論理・表現III"@ja, "ろんり・ひょうげんIII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "84H6";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UHA6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6502320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221210000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221220000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221310000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221320000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221410000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503221420000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6503222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.
+<https://w3id.org/jp-cos/84H6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>.

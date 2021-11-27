@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>
+  <http://purl.org/linked-data/cube#order> "24";
+  <http://schema.org/name> "Subjects (Elementary Department)"@en, "各教科(小学部)"@ja, "かくきょうか(しょうがくぶ)"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "n";
+  <https://w3id.org/jp-cos/codePrefix> "88n";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "Ln";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A8Ln";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科(小学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300700000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/88n0300800000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.

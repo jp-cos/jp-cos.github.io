@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74I1505400000000>
+  <http://purl.org/dc/terms/identifier> "74I1505400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2016"
+  ];
+  <http://schema.org/description> "(4) 内容の(4)については，望ましい情報社会を構築する上での人間の役割について生徒が主体的に考え，討議し，発表し合うなどの活動を取り入れること。イについては，生徒に情報システムの改善策などを提案させるなど，様々な意見を提案し集約する活動を取り入れること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UIA1A5A0A5A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "内容の(4)については，望ましい情報社会を構築する上での人間の役割について生徒が主体的に考え，討議し，発表し合うなどの活動を取り入れること。イについては，生徒に情報システムの改善策などを提案させるなど，様々な意見を提案し集約する活動を取り入れること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報/社会と情報>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/情報> .
+<https://w3id.org/jp-cos/74I1505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74I1505400000000>.

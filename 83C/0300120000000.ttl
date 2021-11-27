@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/83C0300120000000>
+  <http://purl.org/dc/terms/identifier> "83C0300120000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1826"
+  ];
+  <http://schema.org/description> """(2) 技術分野及び家庭分野の授業時数については，３学年間を見通した全体的な指導計画に基づき，いずれかの分野に偏ることなく配当して履修させること。その際，各学年において，技術分野及び家庭分野のいずれも履修させること。
+家庭分野の内容の「Ａ家族・家庭生活」の(4)，「Ｂ衣食住の生活」の(7)及び「Ｃ消費生活・環境」の(3)については，これら三項目のうち，一以上を選択し履修させること。その際，他の内容と関連を図り，実践的な活動を家庭や地域などで行うことができるよう配慮すること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UCA0A3A0A0A1A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> """技術分野及び家庭分野の授業時数については，3学年間を見通した全体的な指導計画に基づき，いずれかの分野に偏ることなく配当して履修させること。その際，各学年において，技術分野及び家庭分野のいずれも履修させること。
+家庭分野の内容の「A家族・家庭生活」の(4)，「B衣食住の生活」の(7)及び「C消費生活・環境」の(3)については，これら三項目のうち，一以上を選択し履修させること。その際，他の内容と関連を図り，実践的な活動を家庭や地域などで行うことができるよう配慮すること。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/技術・家庭> .
+<https://w3id.org/jp-cos/83C0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83C0300120000000>.

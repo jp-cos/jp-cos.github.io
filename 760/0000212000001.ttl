@@ -1,0 +1,28 @@
+<https://w3id.org/jp-cos/7600000212000001>
+  <http://purl.org/dc/terms/identifier> "7600000212000001";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9"
+  ];
+  <http://schema.org/description> """２　学校における道徳教育は，特別の教科である道徳（以下「道徳科」という。） を要として学校の教育活動全体を通じて行うものであり，道徳科はもとより，各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動のそれぞれの特質に応じて，児童又は生徒の発達の段階を考慮して，適切な指導を行わなければならない。
+小学部における道徳教育は，教育基本法及び学校教育法に定められた教育の根本精神に基づき，自己の生き方を考え，主体的な判断の下に行動し，自立した人間として他者と共によりよく生きるための基盤となる道徳性を養うことを目標とする。
+中学部における道徳教育は，教育基本法及び学校教育法に定められた教育の根本精神に基づき，人間としての生き方を考え，主体的な判断の下に行動し，自立した人間として他者と共によりよく生きるための基盤となる道徳性を養うことを目標とする。
+道徳教育を進めるに当たっては，人間尊重の精神と生命に対する畏敬の念を家庭，学校，その他社会における具体的な生活の中に生かし，豊かな心をもち，伝統と文化を尊重し，それらを育んできた我が国と郷土を愛し，個性豊かな文化の創造を図るとともに，平和で民主的な国家及び社会の形成者として，公共の精神を尊び，社会及び国家の発展に努め，他国を尊重し，国際社会の平和と発展や環境の保全に貢献し未来を拓く主体性のある日本人の育成に資することとなるよう特に留意しなければならない。""";
+  <http://schema.org/edition> "一部改正（１回目）";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A1A2A0A0A0A0A0A1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> """学校における道徳教育は，特別の教科である道徳(以下「道徳科」という。) を要として学校の教育活動全体を通じて行うものであり，道徳科はもとより，各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動のそれぞれの特質に応じて，児童又は生徒の発達の段階を考慮して，適切な指導を行わなければならない。
+小学部における道徳教育は，教育基本法及び学校教育法に定められた教育の根本精神に基づき，自己の生き方を考え，主体的な判断の下に行動し，自立した人間として他者と共によりよく生きるための基盤となる道徳性を養うことを目標とする。
+中学部における道徳教育は，教育基本法及び学校教育法に定められた教育の根本精神に基づき，人間としての生き方を考え，主体的な判断の下に行動し，自立した人間として他者と共によりよく生きるための基盤となる道徳性を養うことを目標とする。
+道徳教育を進めるに当たっては，人間尊重の精神と生命に対する畏敬の念を家庭，学校，その他社会における具体的な生活の中に生かし，豊かな心をもち，伝統と文化を尊重し，それらを育んできた我が国と郷土を愛し，個性豊かな文化の創造を図るとともに，平和で民主的な国家及び社会の形成者として，公共の精神を尊び，社会及び国家の発展に努め，他国を尊重し，国際社会の平和と発展や環境の保全に貢献し未来を拓く主体性のある日本人の育成に資することとなるよう特に留意しなければならない。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000212000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000212000001>.

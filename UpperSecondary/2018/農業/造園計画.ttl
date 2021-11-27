@@ -1,0 +1,58 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>
+  <http://purl.org/linked-data/cube#order> "81";
+  <http://schema.org/name> "Landscape Gardening Planning"@en, "造園計画"@ja, "ぞうえんけいかく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "P";
+  <https://w3id.org/jp-cos/codePrefix> "84PP";
+  <https://w3id.org/jp-cos/fcode04> "UP";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUP";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503163000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.
+<https://w3id.org/jp-cos/84PP505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園計画>.

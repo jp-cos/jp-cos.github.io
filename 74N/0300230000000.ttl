@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/74N0300230000000>
+  <http://purl.org/dc/terms/identifier> "74N0300230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8235"
+  ];
+  <http://schema.org/description> "(3) 〔学校行事〕については，学校や地域及び生徒の実態に応じて，各種類ごとに，行事及びその内容を重点化するとともに，入学から卒業までを見通して，行事間の関連や統合を図るなど精選して実施すること。また，実施に当たっては，幼児，高齢者，障害のある人々などとの触れ合い，自然体験や社会体験などの体験活動を充実するとともに，体験活動を通して気付いたことなどを振り返り，まとめたり，発表し合ったりするなどの活動を充実するよう工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UNA0A3A0A0A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "〔学校行事〕については，学校や地域及び生徒の実態に応じて，各種類ごとに，行事及びその内容を重点化するとともに，入学から卒業までを見通して，行事間の関連や統合を図るなど精選して実施すること。また，実施に当たっては，幼児，高齢者，障害のある人々などとの触れ合い，自然体験や社会体験などの体験活動を充実するとともに，体験活動を通して気付いたことなどを振り返り，まとめたり，発表し合ったりするなどの活動を充実するよう工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動> .
+<https://w3id.org/jp-cos/74N0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74N0300230000000>.

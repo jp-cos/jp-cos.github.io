@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7G00000231400000>
+  <http://purl.org/dc/terms/identifier> "7G00000231400000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "80"
+  ];
+  <http://schema.org/description> """４   学校設定教科
+学校においては，地域，学校及び生徒の実態，学科の特色等に応じ，特色ある教育課程の編成に資するよう， 第２章第２節第１款及び第２款に掲げる教科以外の教科 （以下この項において「学校設定教科」 という。）を設けることができる。 この場合において，学校設定教科の名称， 目標， 内容等については， 高等部における教育の目標及びその水準の維持等に十分配慮し，各学校の定めるところによるものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A7UGA0A0A0A0A0A2A3A1A4A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> """学校設定教科
+学校においては，地域，学校及び生徒の実態，学科の特色等に応じ，特色ある教育課程の編成に資するよう， 第2章第2節第1款及び第2款に掲げる教科以外の教科 (以下この項において「学校設定教科」 という。)を設けることができる。 この場合において，学校設定教科の名称， 目標， 内容等については， 高等部における教育の目標及びその水準の維持等に十分配慮し，各学校の定めるところによるものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/総則> .
+<https://w3id.org/jp-cos/7G00000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7G00000231400000>.

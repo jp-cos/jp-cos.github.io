@@ -1,0 +1,20 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>
+  <http://purl.org/linked-data/cube#order> "40";
+  <http://schema.org/name> "Special Activities"@en, "特別活動"@ja, "とくべつかつどう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "N";
+  <https://w3id.org/jp-cos/codePrefix> "8BN";
+  <https://w3id.org/jp-cos/fcode03> "UN";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UBUN";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/特別活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>.
+<https://w3id.org/jp-cos/8BN0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>.
+<https://w3id.org/jp-cos/8BN0000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>.
+<https://w3id.org/jp-cos/8BN0000200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>.

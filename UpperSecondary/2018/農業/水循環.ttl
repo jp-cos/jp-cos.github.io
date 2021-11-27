@@ -1,0 +1,57 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>
+  <http://purl.org/linked-data/cube#order> "80";
+  <http://schema.org/name> "Earth's Water Circulation"@en, "水循環"@ja, "みずじゅんかん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "O";
+  <https://w3id.org/jp-cos/codePrefix> "84PO";
+  <https://w3id.org/jp-cos/fcode04> "UO";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUO";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.
+<https://w3id.org/jp-cos/84PO505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/水循環>.

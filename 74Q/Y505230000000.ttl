@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74QY505230000000>
+  <http://purl.org/dc/terms/identifier> "74QY505230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "4017"
+  ];
+  <http://schema.org/description> "ウ　内容の(3)のアからエまでについては，各種工事の施工法の基礎的な内容及び建築測量の概要を扱うこと。また，技術の進展に対応した工法や施工技術についても触れること。オについては，解体工事の概要，廃材の処理，リサイクル，環境保全及び関連法規を扱うこと。カについては，建築物の保守の概要を扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UQUYA5A0A5A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(3)のアからエまでについては，各種工事の施工法の基礎的な内容及び建築測量の概要を扱うこと。また，技術の進展に対応した工法や施工技術についても触れること。オについては，解体工事の概要，廃材の処理，リサイクル，環境保全及び関連法規を扱うこと。カについては，建築物の保守の概要を扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/工業> .
+<https://w3id.org/jp-cos/74QY505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74QY505230000000>.

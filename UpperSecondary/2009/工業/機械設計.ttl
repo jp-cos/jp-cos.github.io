@@ -1,0 +1,47 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>
+  <http://purl.org/linked-data/cube#order> "101";
+  <http://schema.org/name> "Machine Design"@en, "機械設計"@ja, "きかいせっけい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "D";
+  <https://w3id.org/jp-cos/codePrefix> "74QD";
+  <https://w3id.org/jp-cos/fcode04> "UD";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQUD";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503450000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.
+<https://w3id.org/jp-cos/74QD505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/機械設計>.

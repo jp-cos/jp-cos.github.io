@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8GG02b4292000000>
+  <http://purl.org/dc/terms/identifier> "8GG02b4292000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3596"
+  ];
+  <http://schema.org/description> "イ　健康・安全に関わる自他の課題を発見し，よりよい解決のために仲間と思考し判断したことを，目的や状況に応じて他者に伝えること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGUGA0A2LbA4A2A9A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "健康・安全に関わる自他の課題を発見し，よりよい解決のために仲間と思考し判断したことを，目的や状況に応じて他者に伝えること。";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/UpperSecondaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/2>;
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育> .
+<https://w3id.org/jp-cos/8GG02b4290000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GG02b4292000000>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8300000232340000>
+  <http://purl.org/dc/terms/identifier> "8300000232340000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "33"
+  ];
+  <http://schema.org/description> "(エ) 各学校において，生徒や学校，地域の実態，各教科等や学習活動の特質等に応じて，創意工夫を生かした時間割を弾力的に編成できること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A2A3A2A3A4A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(エ)";
+  <https://w3id.org/jp-cos/sectionText> "各学校において，生徒や学校，地域の実態，各教科等や学習活動の特質等に応じて，創意工夫を生かした時間割を弾力的に編成できること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000232300000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000232340000>.

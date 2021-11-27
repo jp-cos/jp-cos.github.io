@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8200000241000000>
+  <http://purl.org/dc/terms/identifier> "8200000241000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "41"
+  ];
+  <http://schema.org/description> """(1) 幼児期の終わりまでに育ってほしい姿を踏まえた指導を工夫することにより，幼稚園教育要領等に基づく幼児期の教育を通して育まれた資質・能力を踏まえて教育活動を実施し，児童が主体的に自己を発揮しながら学びに向かうことが可能となるようにすること。
+　また，低学年における教育全体において，例えば生活科において育成する自立し生活を豊かにしていくための資質・能力が，他教科等の学習においても生かされるようにするなど，教科等間の関連を積極的に図り，幼児期の教育及び中学年以降の教育との円滑な接続が図られるよう工夫すること。特に，小学校入学当初においては，幼児期において自発的な活動としての遊びを通して育まれてきたことが，各教科等における学習に円滑に接続されるよう，生活科を中心に，合科的・関連的な指導や弾力的な時間割の設定など，指導の工夫や指導計画の作成を行うこと。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A0A0A0A0A0A2A4A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> """幼児期の終わりまでに育ってほしい姿を踏まえた指導を工夫することにより，幼稚園教育要領等に基づく幼児期の教育を通して育まれた資質・能力を踏まえて教育活動を実施し，児童が主体的に自己を発揮しながら学びに向かうことが可能となるようにすること。
+ また，低学年における教育全体において，例えば生活科において育成する自立し生活を豊かにしていくための資質・能力が，他教科等の学習においても生かされるようにするなど，教科等間の関連を積極的に図り，幼児期の教育及び中学年以降の教育との円滑な接続が図られるよう工夫すること。特に，小学校入学当初においては，幼児期において自発的な活動としての遊びを通して育まれてきたことが，各教科等における学習に円滑に接続されるよう，生活科を中心に，合科的・関連的な指導や弾力的な時間割の設定など，指導の工夫や指導計画の作成を行うこと。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/総則> .
+<https://w3id.org/jp-cos/8200000240000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8200000241000000>.

@@ -1,0 +1,58 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>
+  <http://purl.org/linked-data/cube#order> "183";
+  <http://schema.org/name> "Food Production"@en, "食品製造"@ja, "しょくひんせいぞう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "I";
+  <https://w3id.org/jp-cos/codePrefix> "84TI";
+  <https://w3id.org/jp-cos/fcode04> "UI";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTUI";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.
+<https://w3id.org/jp-cos/84TI505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/食品製造>.

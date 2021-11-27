@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/73V30>
+  <http://purl.org/dc/terms/identifier> "73V30";
+  <http://schema.org/name> "【73V30】Code for Lower Secondary School Course of Guideline published in 2015年, version 3.0 （2020-11-30 release）"@en, "【73V30】中学校学習指導要領コード 平成27年告示：バージョン3.0 （令和2年11月30日公表）"@ja;
+  <http://schema.org/releaseDate> "2020-11-30";
+  <http://schema.org/version> "3.0";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary> .
+<https://w3id.org/jp-cos/LowerSecondary/2008> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/73V30>.
+<https://w3id.org/jp-cos/LowerSecondary/2008/2015> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/73V30>.

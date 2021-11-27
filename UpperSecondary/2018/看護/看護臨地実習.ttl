@@ -1,0 +1,48 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>
+  <http://purl.org/linked-data/cube#order> "220";
+  <http://schema.org/name> "Nursing Clinical Practice"@en, "看護臨地実習"@ja, "かんごりんちじっしゅう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "C";
+  <https://w3id.org/jp-cos/codePrefix> "84WC";
+  <https://w3id.org/jp-cos/fcode04> "UC";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UWUC";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.
+<https://w3id.org/jp-cos/84WC505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護臨地実習>.

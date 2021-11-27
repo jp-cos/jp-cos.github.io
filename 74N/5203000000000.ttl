@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/74N5203000000000>
+  <http://purl.org/dc/terms/identifier> "74N5203000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8220"
+  ];
+  <http://schema.org/description> """２　内容
+　全校若しくは学年又はそれらに準ずる集団を単位として，学校生活に秩序と変化を与え，学校生活の充実と発展に資する体験的な活動を行うこと。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74N5203100000000>, <https://w3id.org/jp-cos/74N5203200000000>, <https://w3id.org/jp-cos/74N5203300000000>, <https://w3id.org/jp-cos/74N5203400000000>, <https://w3id.org/jp-cos/74N5203500000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UNA5A2A0A3A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> """内 容
+ 全校若しくは学年又はそれらに準ずる集団を単位として，学校生活に秩序と変化を与え，学校生活の充実と発展に資する体験的な活動を行うこと。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/学校行事>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動> .
+<https://w3id.org/jp-cos/74N5200000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74N5203000000000>.

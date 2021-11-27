@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳>
+  <http://purl.org/linked-data/cube#order> "24";
+  <http://schema.org/name> "特別の教科道徳"@ja, ""@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "K";
+  <https://w3id.org/jp-cos/codePrefix> "76K";
+  <https://w3id.org/jp-cos/fcode03> "UK";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A6UK";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/特別の教科道徳> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳>.

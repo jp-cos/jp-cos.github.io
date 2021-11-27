@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>
+  <http://purl.org/linked-data/cube#order> "103";
+  <http://schema.org/name> "Marine Engineering"@en, "船舶工学"@ja, "せんぱくこうがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "H";
+  <https://w3id.org/jp-cos/codePrefix> "84QH";
+  <https://w3id.org/jp-cos/fcode04> "UH";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUH";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.
+<https://w3id.org/jp-cos/84QH505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/船舶工学>.

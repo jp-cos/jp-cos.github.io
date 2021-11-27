@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8870206140000000>
+  <http://purl.org/dc/terms/identifier> "8870206140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "293"
+  ];
+  <http://schema.org/description> "エ　入学当初においては，幼児期における遊びを通した総合的な学びから他教科等における学習に円滑に移行し，主体的に自己を発揮しながら，より自覚的な学びに向かうことが可能となるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8A8A7A0A2A0A6A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "入学当初においては，幼児期における遊びを通した総合的な学びから他教科等における学習に円滑に移行し，主体的に自己を発揮しながら，より自覚的な学びに向かうことが可能となるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/生活> .
+<https://w3id.org/jp-cos/8870206100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8870206140000000>.

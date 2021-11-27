@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8A502a4241110000>
+  <http://purl.org/dc/terms/identifier> "8A502a4241110000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1382"
+  ];
+  <http://schema.org/description> "㋐ 身の回りにある数量を簡単な表やグラフに表したり，読み取ったりすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UAA5A0A2LaA4A2A4A1A1A1A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "㋐";
+  <https://w3id.org/jp-cos/sectionText> "身の回りにある数量を簡単な表やグラフに表したり，読み取ったりすること。";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/LowerSecondaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/1>;
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/数学> .
+<https://w3id.org/jp-cos/8A502a4241100000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8A502a4241110000>.

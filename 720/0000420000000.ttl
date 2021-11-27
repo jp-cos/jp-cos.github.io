@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7200000420000000>
+  <http://purl.org/dc/terms/identifier> "7200000420000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "24"
+  ];
+  <http://schema.org/description> "２　以上のほか，次の事項に配慮するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7200000420000001>, <https://w3id.org/jp-cos/7200000421000000>, <https://w3id.org/jp-cos/7200000422000000>, <https://w3id.org/jp-cos/7200000423000000>, <https://w3id.org/jp-cos/7200000424000000>, <https://w3id.org/jp-cos/7200000425000000>, <https://w3id.org/jp-cos/7200000426000000>, <https://w3id.org/jp-cos/7200000427000000>, <https://w3id.org/jp-cos/7200000428000000>, <https://w3id.org/jp-cos/7200000429000000>, <https://w3id.org/jp-cos/720000042A000000>, <https://w3id.org/jp-cos/720000042B000000>, <https://w3id.org/jp-cos/720000042C000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>;
+  <https://w3id.org/jp-cos/fcode> "A7A2A0A0A0A0A0A4A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> "以上のほか，次の事項に配慮するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/総則> .
+<https://w3id.org/jp-cos/7200000400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7200000420000000>.

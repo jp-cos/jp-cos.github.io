@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/73K0300200000000>
+  <http://purl.org/dc/terms/identifier> "73K0300200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1567"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1567"
+  ];
+  <http://schema.org/description> "２　第２に示す道徳の内容は，生徒が自ら道徳性をはぐくむためのものであり，道徳の時間はもとより，各教科，総合的な学習の時間及び特別活動においてもそれぞれの特質に応じた適切な指導を行うものとする。その際，生徒自らが成長を実感でき，これからの課題や目標が見付けられるよう工夫する必要がある。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0300200000001>, <https://w3id.org/jp-cos/73K0300210000001>, <https://w3id.org/jp-cos/73K0300220000001>, <https://w3id.org/jp-cos/73K0300230000001>, <https://w3id.org/jp-cos/73K0300240000001>, <https://w3id.org/jp-cos/73K0300250000001>, <https://w3id.org/jp-cos/73K0300260000001>, <https://w3id.org/jp-cos/73K0300270000001>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>;
+  <https://w3id.org/jp-cos/fcode> "A7A3UKA0A3A0A0A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> "第2に示す道徳の内容は，生徒が自ら道徳性をはぐくむためのものであり，道徳の時間はもとより，各教科，総合的な学習の時間及び特別活動においてもそれぞれの特質に応じた適切な指導を行うものとする。その際，生徒自らが成長を実感でき，これからの課題や目標が見付けられるよう工夫する必要がある。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/道徳> .
+<https://w3id.org/jp-cos/73K0300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0300200000000>.

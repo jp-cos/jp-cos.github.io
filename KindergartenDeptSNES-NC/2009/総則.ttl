@@ -1,0 +1,33 @@
+<https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>
+  <http://purl.org/linked-data/cube#order> "1";
+  <http://schema.org/name> "General Provisions"@en, "総則"@ja, "そうそく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "0";
+  <https://w3id.org/jp-cos/codePrefix> "750";
+  <https://w3id.org/jp-cos/fcode03> "A0";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A5A0";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/Kindergarten/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009> .
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009/総則> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000111000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000112000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000113000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000211000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000212000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000310000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000311000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000312000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/7500000313000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8320300130000000>
+  <http://purl.org/dc/terms/identifier> "8320300130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "592"
+  ];
+  <http://schema.org/description> "(3) 各分野の履修については，第１，第２学年を通じて地理的分野及び歴史的分野を並行して学習させることを原則とし，第３学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野115単位時間，歴史的分野135単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A2A0A3A0A0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "各分野の履修については，第1，第2学年を通じて地理的分野及び歴史的分野を並行して学習させることを原則とし，第3学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野115単位時間，歴史的分野135単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会> .
+<https://w3id.org/jp-cos/8320300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8320300130000000>.

@@ -1,0 +1,31 @@
+<https://w3id.org/jp-cos/8463505210000000>
+  <http://purl.org/dc/terms/identifier> "8463505210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1693"
+  ];
+  <http://schema.org/description> """ア　内容の(1)のアの(ア)の㋐については，物体の平面内の運動を表す変位，速度及び加速度はベクトルで表されることを扱うこと。㋑については，物体の水平投射や斜方投射における速度，加速度，重力の働きなどを扱うこと。また，空気の抵抗がある場合の落下運動にも触れること。㋒については，力のモーメントのつり合いを扱うこと。また，物体の重心にも触れること。
+(イ)の㋐については，運動量と力積がベクトルで表されること，運動量の変化が力積に等しいことを扱うこと。㋒については，はね返り係数も扱うこと。
+(ウ)の㋐については，等速円運動の速度，周期，角速度，向心加速度及び向心力を扱うこと。また，遠心力にも触れること。㋑については，単振動をする物体の変位，速度，加速度及び復元力を扱うこと。「単振動」については，ばね振り子と単振り子を扱うこと。
+(エ)の㋐については，ケプラーの法則を扱うこと。㋑については，万有引力による位置エネルギーも扱うこと。
+(オ)の㋐については，理想気体の状態方程式，気体分子の速さ，平均の運動エネルギーなどを扱うこと。㋑については，理想気体を扱うこと。㋒については，熱力学第一法則を扱うこと。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A6A3A5A0A5A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> """内容の(1)のアの(ア)の㋐については，物体の平面内の運動を表す変位，速度及び加速度はベクトルで表されることを扱うこと。㋑については，物体の水平投射や斜方投射における速度，加速度，重力の働きなどを扱うこと。また，空気の抵抗がある場合の落下運動にも触れること。㋒については，力のモーメントのつり合いを扱うこと。また，物体の重心にも触れること。
+(イ)の㋐については，運動量と力積がベクトルで表されること，運動量の変化が力積に等しいことを扱うこと。㋒については，はね返り係数も扱うこと。
+(ウ)の㋐については，等速円運動の速度，周期，角速度，向心加速度及び向心力を扱うこと。また，遠心力にも触れること。㋑については，単振動をする物体の変位，速度，加速度及び復元力を扱うこと。「単振動」については，ばね振り子と単振り子を扱うこと。
+(エ)の㋐については，ケプラーの法則を扱うこと。㋑については，万有引力による位置エネルギーも扱うこと。
+(オ)の㋐については，理想気体の状態方程式，気体分子の速さ，平均の運動エネルギーなどを扱うこと。㋑については，理想気体を扱うこと。㋒については，熱力学第一法則を扱うこと。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/物理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/理科> .
+<https://w3id.org/jp-cos/8463505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8463505210000000>.

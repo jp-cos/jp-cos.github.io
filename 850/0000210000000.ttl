@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8500000210000000>
+  <http://purl.org/dc/terms/identifier> "8500000210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9"
+  ];
+  <http://schema.org/description> "　幼稚部では，家庭との連携を図りながら，幼児の障害の状態や特性及び発達の程度等を考慮し，この章の第１に示す幼稚部における教育の基本に基づいて展開される学校生活を通して，生きる力の基礎を育成するよう次の目標の達成に努めなければならない。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000211000000>, <https://w3id.org/jp-cos/8500000212000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionText> "幼稚部では，家庭との連携を図りながら，幼児の障害の状態や特性及び発達の程度等を考慮し，この章の第1に示す幼稚部における教育の基本に基づいて展開される学校生活を通して，生きる力の基礎を育成するよう次の目標の達成に努めなければならない。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8500000200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000210000000>.

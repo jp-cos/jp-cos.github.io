@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8442502300000000>
+  <http://purl.org/dc/terms/identifier> "8442502300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1107"
+  ];
+  <http://schema.org/description> "(3) 人間としての在り方生き方に関わる事象や課題について主体的に追究したり，他者と共によりよく生きる自己を形成しようとしたりする態度を養うとともに，多面的・多角的な考察やより深い思索を通して涵(かん)養される，現代社会に生きる人間としての在り方生き方についての自覚を深める。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A2A5A0A2A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "人間としての在り方生き方に関わる事象や課題について主体的に追究したり，他者と共によりよく生きる自己を形成しようとしたりする態度を養うとともに，多面的・多角的な考察やより深い思索を通して涵(かん)養される，現代社会に生きる人間としての在り方生き方についての自覚を深める。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8442502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8442502300000000>.

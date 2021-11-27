@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74X7505240000000>
+  <http://purl.org/dc/terms/identifier> "74X7505240000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "7263"
+  ];
+  <http://schema.org/description> "エ　内容の(4)のアについては，具体的な事例を通して，人為的過失や自然災害などに対する安全対策に関する基本方針の役割や重要性について扱うこと。イについては，データの破壊，不正アクセスなどを取り上げ，防止策や管理方法について扱うこと。ウについては，情報セキュリティについてのネットワーク利用者への啓発活動の必要性とその内容を扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UXA7A5A0A5A2A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(4)のアについては，具体的な事例を通して，人為的過失や自然災害などに対する安全対策に関する基本方針の役割や重要性について扱うこと。イについては，データの破壊，不正アクセスなどを取り上げ，防止策や管理方法について扱うこと。ウについては，情報セキュリティについてのネットワーク利用者への啓発活動の必要性とその内容を扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/ネットワークシステム>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)> .
+<https://w3id.org/jp-cos/74X7505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74X7505240000000>.

@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7Dg7505100000000>
+  <http://purl.org/dc/terms/identifier> "7Dg7505100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1164"
+  ];
+  <http://schema.org/description> "(1) 内容の構成及びその取扱いに当たっては， 次の事項に配慮するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Dg7505110000000>, <https://w3id.org/jp-cos/7Dg7505120000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UDLgA7A5A0A5A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "内容の構成及びその取扱いに当たっては， 次の事項に配慮するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法> .
+<https://w3id.org/jp-cos/7Dg7505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Dg7505100000000>.

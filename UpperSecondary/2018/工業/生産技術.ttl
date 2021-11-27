@@ -1,0 +1,56 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>
+  <http://purl.org/linked-data/cube#order> "100";
+  <http://schema.org/name> "Technology of Production"@en, "生産技術"@ja, "せいさんぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "E";
+  <https://w3id.org/jp-cos/codePrefix> "84QE";
+  <https://w3id.org/jp-cos/fcode04> "UE";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUE";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503163000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE503164000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.
+<https://w3id.org/jp-cos/84QE505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/生産技術>.

@@ -1,0 +1,62 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>
+  <http://purl.org/linked-data/cube#order> "178";
+  <http://schema.org/name> "Marine Engine"@en, "船用機関"@ja, "はくようきかん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "9";
+  <https://w3id.org/jp-cos/codePrefix> "74T9";
+  <https://w3id.org/jp-cos/fcode04> "A9";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UTA9";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503350000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503700000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503710000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503720000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503730000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503740000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503750000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9503760000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.
+<https://w3id.org/jp-cos/74T9505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/船用機関>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8A10206212000000>
+  <http://purl.org/dc/terms/identifier> "8A10206212000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1189"
+  ];
+  <http://schema.org/description> "(イ) これまでに学習した句読点の使い方や長音，撥音などの表記について，中学部においても正しくより適切に用いることができるよう引き続き指導すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UAA1A0A2A0A6A2A1A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "これまでに学習した句読点の使い方や長音，撥音などの表記について，中学部においても正しくより適切に用いることができるよう引き続き指導すること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/国語> .
+<https://w3id.org/jp-cos/8A10206210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8A10206212000000>.

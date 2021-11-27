@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/7Ek7505120000000>
+  <http://purl.org/dc/terms/identifier> "7Ek7505120000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2165"
+  ];
+  <http://schema.org/description> "イ   内容の(1)については， 内容の(2)から(5)までとの関連を図り， 歯冠修復技工の意義と目的について理解させること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode> "A7UELkA7A5A0A5A1A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(1)については， 内容の(2)から(5)までとの関連を図り， 歯冠修復技工の意義と目的について理解させること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯冠修復技工学>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工> .
+<https://w3id.org/jp-cos/7Ek7505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Ek7505120000000>.

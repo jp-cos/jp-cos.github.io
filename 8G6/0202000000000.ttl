@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/8G60202000000000>
+  <http://purl.org/dc/terms/identifier> "8G60202000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3134"
+  ];
+  <http://schema.org/description> """１　目標
+自然に親しみ，理科の見方・考え方を働かせ，見通しをもって， 観察，実験を行うことなどを通して，自然の事物・現象についての問題を科学的に解決するために必要な資質・能力を次のとおり育成することを目指す。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8G60202100000000>, <https://w3id.org/jp-cos/8G60202200000000>, <https://w3id.org/jp-cos/8G60202300000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGA6A0A2A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目標
+自然に親しみ，理科の見方・考え方を働かせ，見通しをもって， 観察，実験を行うことなどを通して，自然の事物・現象についての問題を科学的に解決するために必要な資質・能力を次のとおり育成することを目指す。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/理科> .
+<https://w3id.org/jp-cos/8G60200000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8G60202000000000>.

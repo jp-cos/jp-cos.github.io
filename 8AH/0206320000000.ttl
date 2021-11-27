@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8AH0206320000000>
+  <http://purl.org/dc/terms/identifier> "8AH0206320000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2211"
+  ];
+  <http://schema.org/description> "イ  ２の内容のうち，主として言語や文化に関する内容の指導については， 言語活動との関連を図るようにすること。その際，日本語と外国語との違いに生徒が気付くなど体験的な理解を図ることとし，指導内容が必要以上に細部にわたったり，形式的になったりしないようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UAUHA0A2A0A6A3A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "2の内容のうち，主として言語や文化に関する内容の指導については， 言語活動との関連を図るようにすること。その際，日本語と外国語との違いに生徒が気付くなど体験的な理解を図ることとし，指導内容が必要以上に細部にわたったり，形式的になったりしないようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語> .
+<https://w3id.org/jp-cos/8AH0206300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8AH0206320000000>.

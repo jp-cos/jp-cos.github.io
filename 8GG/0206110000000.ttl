@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8GG0206110000000>
+  <http://purl.org/dc/terms/identifier> "8GG0206110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3599"
+  ];
+  <http://schema.org/description> "ア  単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，体育や保健の見方・考え方を働かせ，運動や健康についての自他の課題を見付け，個々の生徒の障害の状態等に応じて，その解決のための活動の充実を図ること。また，運動の楽しさや喜びを味わったり， 健康の大切さを実感したりすることができるよう，留意すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGUGA0A2A0A6A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，体育や保健の見方・考え方を働かせ，運動や健康についての自他の課題を見付け，個々の生徒の障害の状態等に応じて，その解決のための活動の充実を図ること。また，運動の楽しさや喜びを味わったり， 健康の大切さを実感したりすることができるよう，留意すること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育> .
+<https://w3id.org/jp-cos/8GG0206100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GG0206110000000>.

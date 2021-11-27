@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8600000720000000>
+  <http://purl.org/dc/terms/identifier> "8600000720000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "104"
+  ];
+  <http://schema.org/description> "２  小学部においては，児童の障害の状態や特性及び心身の発達の段階等を踏まえ，指導内容の重点化を図ること。その際，各学年を通じて，自立心や自律性， 生命を尊重する心や他者を思いやる心を育てることに留意すること。また，各学年段階においては，次の事項に留意すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000721000000>, <https://w3id.org/jp-cos/8600000722000000>, <https://w3id.org/jp-cos/8600000723000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A7A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> "小学部においては，児童の障害の状態や特性及び心身の発達の段階等を踏まえ，指導内容の重点化を図ること。その際，各学年を通じて，自立心や自律性， 生命を尊重する心や他者を思いやる心を育てることに留意すること。また，各学年段階においては，次の事項に留意すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000700000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000720000000>.

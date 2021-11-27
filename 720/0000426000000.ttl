@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7200000426000000>
+  <http://purl.org/dc/terms/identifier> "7200000426000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "31"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "30"
+  ];
+  <http://schema.org/description> "(6) 各教科等の指導に当たっては，児童が学習内容を確実に身に付けることができるよう，学校や児童の実態に応じ，個別指導やグループ別指導，繰り返し指導，学習内容の習熟の程度に応じた指導，児童の興味・関心等に応じた課題学習，補充的な学習や発展的な学習などの学習活動を取り入れた指導，教師間の協力的な指導など指導方法や指導体制を工夫改善し，個に応じた指導の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2A0A0A0A0A0A4A2A6A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "各教科等の指導に当たっては，児童が学習内容を確実に身に付けることができるよう，学校や児童の実態に応じ，個別指導やグループ別指導，繰り返し指導，学習内容の習熟の程度に応じた指導，児童の興味・関心等に応じた課題学習，補充的な学習や発展的な学習などの学習活動を取り入れた指導，教師間の協力的な指導など指導方法や指導体制を工夫改善し，個に応じた指導の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/総則> .
+<https://w3id.org/jp-cos/7200000420000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7200000426000000>.

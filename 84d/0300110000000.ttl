@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84d0300110000000>
+  <http://purl.org/dc/terms/identifier> "84d0300110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10823"
+  ];
+  <http://schema.org/description> "(1) 単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，具体的な課題等を設定し，生徒が外国語によるコミュニケーションにおける見方・考え方を働かせながら，コミュニケーションの目的や場面，状況などを意識して活動を行い，英語の音声や語彙，表現，文法などの知識を五つの領域（「ディベート・ディスカッションⅠ」，「ディベート・ディスカッションⅡ」，「エッセイライティングⅠ」及び「エッセイライティングⅡ」においてはそれぞれの領域。３において同じ。）における実際のコミュニケーションにおいて活用する学習の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4LdA0A3A0A0A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，具体的な課題等を設定し，生徒が外国語によるコミュニケーションにおける見方・考え方を働かせながら，コミュニケーションの目的や場面，状況などを意識して活動を行い，英語の音声や語彙，表現，文法などの知識を五つの領域(「ディベート・ディスカッションⅠ」，「ディベート・ディスカッションⅡ」，「エッセイライティングⅠ」及び「エッセイライティングⅡ」においてはそれぞれの領域。3において同じ。)における実際のコミュニケーションにおいて活用する学習の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)> .
+<https://w3id.org/jp-cos/84d0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d0300110000000>.

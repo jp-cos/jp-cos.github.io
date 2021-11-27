@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8An0000000000000>
+  <http://purl.org/dc/terms/identifier> "8An0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1085"
+  ];
+  <http://schema.org/description> "第２款　知的障害者である生徒に対する教育を行う特別支援学校";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8A10200000000000>, <https://w3id.org/jp-cos/8A20200000000000>, <https://w3id.org/jp-cos/8A50200000000000>, <https://w3id.org/jp-cos/8A60200000000000>, <https://w3id.org/jp-cos/8A80200000000000>, <https://w3id.org/jp-cos/8AA0200000000000>, <https://w3id.org/jp-cos/8AD0200000000000>, <https://w3id.org/jp-cos/8AD1206220000000>, <https://w3id.org/jp-cos/8AD12a4100000000>, <https://w3id.org/jp-cos/8AD12a4200000000>, <https://w3id.org/jp-cos/8AD12b4100000000>, <https://w3id.org/jp-cos/8AD12b4200000000>, <https://w3id.org/jp-cos/8AD2206230000000>, <https://w3id.org/jp-cos/8AD22a4100000000>, <https://w3id.org/jp-cos/8AD22a4200000000>, <https://w3id.org/jp-cos/8AD22b4100000000>, <https://w3id.org/jp-cos/8AD22b4200000000>, <https://w3id.org/jp-cos/8AG0200000000000>, <https://w3id.org/jp-cos/8AH0200000000000>, <https://w3id.org/jp-cos/8AH1203000000000>, <https://w3id.org/jp-cos/8AH2203000000000>, <https://w3id.org/jp-cos/8An0200000000000>, <https://w3id.org/jp-cos/8An0300000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UALnA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "第2款";
+  <https://w3id.org/jp-cos/sectionText> "知的障害者である生徒に対する教育を行う特別支援学校";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)> .
+<https://w3id.org/jp-cos/8600000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8An0000000000000>.

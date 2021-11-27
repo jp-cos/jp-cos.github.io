@@ -1,0 +1,39 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>
+  <http://purl.org/linked-data/cube#order> "229";
+  <http://schema.org/name> "Information Technology"@en, "情報テクノロジー"@ja, "じょうほうてくのろじー"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "5";
+  <https://w3id.org/jp-cos/codePrefix> "74X5";
+  <https://w3id.org/jp-cos/fcode04> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UXA5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.
+<https://w3id.org/jp-cos/74X5505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報テクノロジー>.

@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/7C00000221100000>
+  <http://purl.org/dc/terms/identifier> "7C00000221100000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "14"
+  ];
+  <http://schema.org/description> """１   卒業までに履修させる単位数等
+各学校においては， 卒業までに履修させる下記２から５までに示す各教科に属する科目及びその単位数， 総合的な学習の時間の単位数， 特別活動及びその授業時数並びに自立活動の授業時数に関する事項を定めるものとする。この場合，各教科に属する科目 （以下「各教科・科目」という。）及び総合的な学習の時間の単位数の計は，  この款の第２に掲げる各教科・科目の単位数及び総合的な学習の時間の単位数を含めて74単位 （自立活動の授業については， 授業時数を単位数に換算して，  この単位数に含めることができる。） 以上とする。
+単位については，  １単位時間を50分とし，35単位時間の授業を１単位として計算することを標準とする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UCA0A0A0A0A0A2A2A1A1A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """卒業までに履修させる単位数等
+各学校においては， 卒業までに履修させる下記2から5までに示す各教科に属する科目及びその単位数， 総合的な学習の時間の単位数， 特別活動及びその授業時数並びに自立活動の授業時数に関する事項を定めるものとする。この場合，各教科に属する科目 (以下「各教科・科目」という。)及び総合的な学習の時間の単位数の計は，  この款の第2に掲げる各教科・科目の単位数及び総合的な学習の時間の単位数を含めて74単位 (自立活動の授業については， 授業時数を単位数に換算して，  この単位数に含めることができる。) 以上とする。
+単位については，  1単位時間を50分とし，35単位時間の授業を1単位として計算することを標準とする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2009/総則> .
+<https://w3id.org/jp-cos/7C00000221000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7C00000221100000>.

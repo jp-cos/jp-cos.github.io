@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74P4505140000000>
+  <http://purl.org/dc/terms/identifier> "74P4505140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2141"
+  ];
+  <http://schema.org/description> "エ　内容の(5)については，農業の各科目の学習や学校農業クラブ活動のプロジェクト学習を進める各段階において，情報及び情報技術を効果的に活用できるようにすること。また，課題の発見・解決に必要な創造的思考力や科学的判断力，コミュニケーション能力などの育成に配慮するとともに，情報機器や情報通信ネットワーク等を活用して学習の成果を整理・発信する能力や態度を育てること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UPA4A5A0A5A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(5)については，農業の各科目の学習や学校農業クラブ活動のプロジェクト学習を進める各段階において，情報及び情報技術を効果的に活用できるようにすること。また，課題の発見・解決に必要な創造的思考力や科学的判断力，コミュニケーション能力などの育成に配慮するとともに，情報機器や情報通信ネットワーク等を活用して学習の成果を整理・発信する能力や態度を育てること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業情報処理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/農業> .
+<https://w3id.org/jp-cos/74P4505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74P4505140000000>.

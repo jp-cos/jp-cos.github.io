@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8300000231500000>
+  <http://purl.org/dc/terms/identifier> "8300000231500000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "24"
+  ];
+  <http://schema.org/description> "オ　各学校においては，生徒や学校，地域の実態を考慮して，生徒の特性等に応じた多様な学習活動が行えるよう，第２章に示す各教科や，特に必要な教科を，選択教科として開設し生徒に履修させることができる。その場合にあっては，全ての生徒に指導すべき内容との関連を図りつつ，選択教科の授業時数及び内容を適切に定め選択教科の指導計画を作成し，生徒の負担加重となることのないようにしなければならない。また，特に必要な教科の名称，目標，内容などについては，各学校が適切に定めるものとする。　 ";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A2A3A1A5A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "オ";
+  <https://w3id.org/jp-cos/sectionText> "各学校においては，生徒や学校，地域の実態を考慮して，生徒の特性等に応じた多様な学習活動が行えるよう，第2章に示す各教科や，特に必要な教科を，選択教科として開設し生徒に履修させることができる。その場合にあっては，全ての生徒に指導すべき内容との関連を図りつつ，選択教科の授業時数及び内容を適切に定め選択教科の指導計画を作成し，生徒の負担加重となることのないようにしなければならない。また，特に必要な教科の名称，目標，内容などについては，各学校が適切に定めるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000231500000>.

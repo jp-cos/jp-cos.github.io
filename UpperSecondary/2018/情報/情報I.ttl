@@ -1,0 +1,65 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>
+  <http://purl.org/linked-data/cube#order> "53";
+  <http://schema.org/name> "Information StudyI"@en, "情報I"@ja, "じょうほうI"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "84I1";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UIA1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503223000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503311000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503312000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503313000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503321000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503322000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503323000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503411000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503412000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503413000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503421000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503422000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1503423000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1505400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.
+<https://w3id.org/jp-cos/84I1505500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報/情報I>.

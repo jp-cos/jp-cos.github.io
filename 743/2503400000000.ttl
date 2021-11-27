@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7432503400000000>
+  <http://purl.org/dc/terms/identifier> "7432503400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "352"
+  ];
+  <http://schema.org/description> """(4) 諸地域世界の結合と変容
+　アジアの繁栄とヨーロッパの拡大を背景に，諸地域世界の結合が一層進展したこととともに，主権国家体制を整え工業化を達成したヨーロッパの進出により，世界の構造化が進み，社会の変容が促されたことを理解させる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7432503410000000>, <https://w3id.org/jp-cos/7432503420000000>, <https://w3id.org/jp-cos/7432503430000000>, <https://w3id.org/jp-cos/7432503440000000>, <https://w3id.org/jp-cos/7432503450000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A3A2A5A0A3A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> """諸地域世界の結合と変容
+ アジアの繁栄とヨーロッパの拡大を背景に，諸地域世界の結合が一層進展したこととともに，主権国家体制を整え工業化を達成したヨーロッパの進出により，世界の構造化が進み，社会の変容が促されたことを理解させる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/世界史B>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> .
+<https://w3id.org/jp-cos/7432503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7432503400000000>.

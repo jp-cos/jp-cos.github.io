@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/83M0207700000000>
+  <http://purl.org/dc/terms/identifier> "83M0207700000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2117"
+  ];
+  <http://schema.org/description> "(7) 目標を実現するにふさわしい探究課題及び探究課題の解決を通して育成を目指す具体的な資質・能力については，教科等を越えた全ての学習の基盤となる資質・能力が育まれ，活用されるものとなるよう配慮すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UMA0A2A0A7A7A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(7)";
+  <https://w3id.org/jp-cos/sectionText> "目標を実現するにふさわしい探究課題及び探究課題の解決を通して育成を目指す具体的な資質・能力については，教科等を越えた全ての学習の基盤となる資質・能力が育まれ，活用されるものとなるよう配慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総合的な学習の時間> .
+<https://w3id.org/jp-cos/83M0207000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83M0207700000000>.

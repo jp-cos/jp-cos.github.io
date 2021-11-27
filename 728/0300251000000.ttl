@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7280300251000000>
+  <http://purl.org/dc/terms/identifier> "7280300251000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2235"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2226"
+  ];
+  <http://schema.org/description> "ア　音遊びや即興的な表現では，リズムや旋律を模倣したり，身近なものから多様な音を探したりして，音楽づくりのための様々な発想ができるように指導すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2A8A0A3A0A0A2A5A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "音遊びや即興的な表現では，リズムや旋律を模倣したり，身近なものから多様な音を探したりして，音楽づくりのための様々な発想ができるように指導すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/音楽> .
+<https://w3id.org/jp-cos/7280300250000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7280300251000000>.

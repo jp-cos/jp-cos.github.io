@@ -1,0 +1,16 @@
+<https://w3id.org/jp-cos/Stage>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Resources for the stages  of intellectual for special needs schools<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code>"@en, "特別支援学校（知的）の段階を表すリソースです。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Stage Resources"@en, "段階を表すリソース"@ja;
+  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1> .
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/disabilityCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/stage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Stage>.
+<https://w3id.org/jp-cos/StageShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Stage>.

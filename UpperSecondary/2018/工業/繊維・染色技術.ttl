@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>
+  <http://purl.org/linked-data/cube#order> "138";
+  <http://schema.org/name> "Textile and Dyeing Technology"@en, "繊維・染色技術"@ja, "せんい・せんしょくぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "q";
+  <https://w3id.org/jp-cos/codePrefix> "84Qq";
+  <https://w3id.org/jp-cos/fcode04> "Lq";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQLq";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.
+<https://w3id.org/jp-cos/84Qq505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/繊維・染色技術>.

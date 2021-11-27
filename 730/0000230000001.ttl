@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7300000230000001>
+  <http://purl.org/dc/terms/identifier> "7300000230000001";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9"
+  ];
+  <http://schema.org/description> "３　第２章以下に示す各教科，道徳科及び特別活動並びに各学年，各分野又は各言語の内容に掲げる事項の順序は，特に示す場合を除き，指導の順序を示すものではないので，学校においては，その取扱いについて適切な工夫を加えるものとする。";
+  <http://schema.org/edition> "一部改正（１回目）";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A0A0A0A0A0A2A3A0A0A0A0A0A0A1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "第2章以下に示す各教科，道徳科及び特別活動並びに各学年，各分野又は各言語の内容に掲げる事項の順序は，特に示す場合を除き，指導の順序を示すものではないので，学校においては，その取扱いについて適切な工夫を加えるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/総則> .
+<https://w3id.org/jp-cos/7300000230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7300000230000001>.

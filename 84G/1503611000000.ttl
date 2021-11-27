@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84G1503611000000>
+  <http://purl.org/dc/terms/identifier> "84G1503611000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2066"
+  ];
+  <http://schema.org/description> "ア　柔道では，相手の動きの変化に応じた基本動作から，得意技や連絡技・変化技を用いて，素早く相手を崩して投げたり，抑えたり，返したりするなどの攻防をすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UGA1A5A0A3A6A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "柔道では，相手の動きの変化に応じた基本動作から，得意技や連絡技・変化技を用いて，素早く相手を崩して投げたり，抑えたり，返したりするなどの攻防をすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/保健体育/体育>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/保健体育> .
+<https://w3id.org/jp-cos/84G1503610000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84G1503611000000>.

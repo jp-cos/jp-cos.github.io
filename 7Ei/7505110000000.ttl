@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/7Ei7505110000000>
+  <http://purl.org/dc/terms/identifier> "7Ei7505110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1689"
+  ];
+  <http://schema.org/description> "ア  指導に当たっては，経営管理や労務管理の理論的，技術的な学習にとどまることなく，理容・美容の業務に関する職業観の育成に努めること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode> "A7UELiA7A5A0A5A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "指導に当たっては，経営管理や労務管理の理論的，技術的な学習にとどまることなく，理容・美容の業務に関する職業観の育成に努めること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容・美容運営管理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容> .
+<https://w3id.org/jp-cos/7Ei7505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Ei7505110000000>.

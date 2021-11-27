@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8400000140000000>
+  <http://purl.org/dc/terms/identifier> "8400000140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "12"
+  ];
+  <http://schema.org/description> "４　学校においては，地域や学校の実態等に応じて，就業やボランティアに関わる体験的な学習の指導を適切に行うようにし，勤労の尊さや創造することの喜びを体得させ，望ましい勤労観，職業観の育成や社会奉仕の精神の涵(かん)養に資するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "学校においては，地域や学校の実態等に応じて，就業やボランティアに関わる体験的な学習の指導を適切に行うようにし，勤労の尊さや創造することの喜びを体得させ，望ましい勤労観，職業観の育成や社会奉仕の精神の涵(かん)養に資するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000140000000>.

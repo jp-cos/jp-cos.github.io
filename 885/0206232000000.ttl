@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8850206232000000>
+  <http://purl.org/dc/terms/identifier> "8850206232000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "670"
+  ];
+  <http://schema.org/description> "(イ) 内容の「Ａ数量の基礎」のイについては，分割した絵カードや関連の深い絵カードを組み合わせるなど，初歩的な分析や総合について取り扱うものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8A8A5A0A2A0A6A2A3A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "内容の「A数量の基礎」のイについては，分割した絵カードや関連の深い絵カードを組み合わせるなど，初歩的な分析や総合について取り扱うものとする。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/算数> .
+<https://w3id.org/jp-cos/8850206230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8850206232000000>.

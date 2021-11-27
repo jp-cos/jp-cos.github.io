@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7435503100000000>
+  <http://purl.org/dc/terms/identifier> "7435503100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "451"
+  ];
+  <http://schema.org/description> """(1) 現代世界の特色と諸課題の地理的考察
+　世界諸地域の生活・文化及び地球的課題について，地域性や歴史的背景を踏まえて考察し，現代世界の地理的認識を深めるとともに，地理的技能及び地理的な見方や考え方を身に付けさせる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7435503110000000>, <https://w3id.org/jp-cos/7435503120000000>, <https://w3id.org/jp-cos/7435503130000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A3A5A5A0A3A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> """現代世界の特色と諸課題の地理的考察
+ 世界諸地域の生活・文化及び地球的課題について，地域性や歴史的背景を踏まえて考察し，現代世界の地理的認識を深めるとともに，地理的技能及び地理的な見方や考え方を身に付けさせる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> .
+<https://w3id.org/jp-cos/7435503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7435503100000000>.

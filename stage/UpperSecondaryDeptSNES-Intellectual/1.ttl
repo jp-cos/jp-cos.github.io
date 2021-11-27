@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1>
+  <http://schema.org/citation> "文部科学省. \"第５章知的障害者である生徒に対する教育を行う特別支援学校　第１節　各教科の基本的な考え方　５　段階の考え方\". 特別支援学校学習指導要領解説 知的障害者教科等編（上）（高等部）平成 31 年２月. p27-28. 参照日：2021-08-07.";
+  <http://schema.org/description> """　中学部２段階やそれまでの経験を踏まえ，生活年齢に応じながら，主として卒業後の家庭生活，社会生活及び職業生活などとの関連を考慮した，基礎的な内容を示している。
+　この段階では，主として生徒自らが主体的に学び，卒業後の生活を見据えた基本的な生活習慣，社会性及び職業能力等を身に付けられるようにしていくことをねらいとする内容を示している。""";
+  <http://schema.org/name> "Stage 1"@en, "１段階"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>;
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/content/20200325-mxt_tokubetu01-1386427_4.pdf>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDepartmentofSpecialNeedsEducationSchool> .

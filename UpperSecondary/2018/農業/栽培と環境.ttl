@@ -1,0 +1,53 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>
+  <http://purl.org/linked-data/cube#order> "66";
+  <http://schema.org/name> "Cultivation and Environment"@en, "栽培と環境"@ja, "さいばいとかんきょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "A";
+  <https://w3id.org/jp-cos/codePrefix> "84PA";
+  <https://w3id.org/jp-cos/fcode04> "UA";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUA";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.
+<https://w3id.org/jp-cos/84PA505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/栽培と環境>.

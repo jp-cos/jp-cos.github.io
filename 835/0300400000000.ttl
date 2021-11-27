@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8350300400000000>
+  <http://purl.org/dc/terms/identifier> "8350300400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "905"
+  ];
+  <http://schema.org/description> "４　生徒の数学的活動への取組を促し思考力，判断力，表現力等の育成を図るため，各領域の内容を総合したり日常の事象や他教科等での学習に関連付けたりするなどして見いだした問題を解決する学習を課題学習と言い，この実施に当たっては各学年で指導計画に適切に位置付けるものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A5A0A3A0A0A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "生徒の数学的活動への取組を促し思考力，判断力，表現力等の育成を図るため，各領域の内容を総合したり日常の事象や他教科等での学習に関連付けたりするなどして見いだした問題を解決する学習を課題学習と言い，この実施に当たっては各学年で指導計画に適切に位置付けるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/数学> .
+<https://w3id.org/jp-cos/8350300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8350300400000000>.

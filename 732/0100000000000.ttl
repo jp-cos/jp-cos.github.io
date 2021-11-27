@@ -1,0 +1,32 @@
+<https://w3id.org/jp-cos/7320100000000000>
+  <http://purl.org/dc/terms/identifier> "7320100000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "239"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "233"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "233"
+  ];
+  <http://schema.org/description> """第１　目標
+　広い視野に立って，社会に対する関心を高め，諸資料に基づいて多面的・多角的に考察し，我が国の国土と歴史に対する理解と愛情を深め，公民としての基礎的教養を培い，国際社会に生きる平和で民主的な国家・社会の形成者として必要な公民的資質の基礎を養う。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A2A0A1A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第1";
+  <https://w3id.org/jp-cos/sectionText> """目標
+ 広い視野に立って，社会に対する関心を高め，諸資料に基づいて多面的・多角的に考察し，我が国の国土と歴史に対する理解と愛情を深め，公民としての基礎的教養を培い，国際社会に生きる平和で民主的な国家・社会の形成者として必要な公民的資質の基礎を養う。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/社会> .
+<https://w3id.org/jp-cos/7320000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7320100000000000>.

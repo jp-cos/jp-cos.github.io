@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8500000442000000>
+  <http://purl.org/dc/terms/identifier> "8500000442000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "38"
+  ];
+  <http://schema.org/description> "(2)  入学当初，特に，３歳児の入学については，家庭との連携を緊密にし，生活のリズムや安全面に十分配慮すること。また，満３歳児については，学年の途中から入学することを考慮し，幼児が安心して幼稚部における生活を過ごすことができるよう配慮すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A4A4A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "入学当初，特に，3歳児の入学については，家庭との連携を緊密にし，生活のリズムや安全面に十分配慮すること。また，満3歳児については，学年の途中から入学することを考慮し，幼児が安心して幼稚部における生活を過ごすことができるよう配慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8500000440000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000442000000>.

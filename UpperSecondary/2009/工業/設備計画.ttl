@@ -1,0 +1,47 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>
+  <http://purl.org/linked-data/cube#order> "124";
+  <http://schema.org/name> "Equipment and Facility Planning"@en, "設備計画"@ja, "せつびけいかく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "a";
+  <https://w3id.org/jp-cos/codePrefix> "74Qa";
+  <https://w3id.org/jp-cos/fcode04> "La";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQLa";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.
+<https://w3id.org/jp-cos/74Qa505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/設備計画>.

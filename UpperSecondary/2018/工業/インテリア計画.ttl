@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>
+  <http://purl.org/linked-data/cube#order> "140";
+  <http://schema.org/name> "Interior Planning"@en, "インテリア計画"@ja, "いんてりあけいかく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "s";
+  <https://w3id.org/jp-cos/codePrefix> "84Qs";
+  <https://w3id.org/jp-cos/fcode04> "Ls";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQLs";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503171000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503172000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs503173000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.
+<https://w3id.org/jp-cos/84Qs505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/インテリア計画>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7E00000271500000>
+  <http://purl.org/dc/terms/identifier> "7E00000271500000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "169"
+  ];
+  <http://schema.org/description> "聴覚障害者である生徒に対する教育を行う特別支援学校_歯科技工（歯科技工関係法規，歯科技工学概論，歯科理工学，歯の解剖学，顎口腔機能学，有床義歯技工学，歯冠修復技工学，矯正歯科技工学，小児歯科技工学，歯科技工実習，歯科技工情報活用，課題研究";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode> "A7UEA0A0A0A0A0A2A7A1A5A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionText> "聴覚障害者である生徒に対する教育を行う特別支援学校_歯科技工(歯科技工関係法規，歯科技工学概論，歯科理工学，歯の解剖学，顎口腔機能学，有床義歯技工学，歯冠修復技工学，矯正歯科技工学，小児歯科技工学，歯科技工実習，歯科技工情報活用，課題研究";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/総則> .
+<https://w3id.org/jp-cos/7B00000271000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7E00000271500000>.

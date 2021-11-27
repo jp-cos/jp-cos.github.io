@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/各教科(専門)>
+  <http://purl.org/linked-data/cube#order> "27";
+  <http://schema.org/name> "Subjects (Special)"@en, "各教科(専門)"@ja, "かくきょうか(せんもん)"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "o";
+  <https://w3id.org/jp-cos/codePrefix> "84o";
+  <https://w3id.org/jp-cos/fcode03> "Lo";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4Lo";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/各教科(専門)>.
+<https://w3id.org/jp-cos/84o0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/各教科(専門)>.

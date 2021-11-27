@@ -1,0 +1,38 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>
+  <http://purl.org/linked-data/cube#order> "225";
+  <http://schema.org/name> "Information Industry and Society"@en, "情報産業と社会"@ja, "じょうほうさんぎょうとしゃかい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "74X1";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UXA1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.
+<https://w3id.org/jp-cos/74X1505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報(専門)/情報産業と社会>.

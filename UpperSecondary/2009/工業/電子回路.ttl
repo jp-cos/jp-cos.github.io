@@ -1,0 +1,40 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>
+  <http://purl.org/linked-data/cube#order> "111";
+  <http://schema.org/name> "Electronic Circuit"@en, "電子回路"@ja, "でんしかいろ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "N";
+  <https://w3id.org/jp-cos/codePrefix> "74QN";
+  <https://w3id.org/jp-cos/fcode04> "UN";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQUN";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.
+<https://w3id.org/jp-cos/74QN505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子回路>.

@@ -1,0 +1,40 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>
+  <http://purl.org/linked-data/cube#order> "59";
+  <http://schema.org/name> "Comprehensive Practice"@en, "総合実習"@ja, "そうごうじっしゅう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "3";
+  <https://w3id.org/jp-cos/codePrefix> "84P3";
+  <https://w3id.org/jp-cos/fcode04> "A3";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPA3";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.
+<https://w3id.org/jp-cos/84P3505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/総合実習>.

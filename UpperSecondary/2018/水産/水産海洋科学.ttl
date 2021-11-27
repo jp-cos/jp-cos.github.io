@@ -1,0 +1,52 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>
+  <http://purl.org/linked-data/cube#order> "170";
+  <http://schema.org/name> "Fisheries and Ocean Science"@en, "水産海洋科学"@ja, "すいさんかいようかがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "5";
+  <https://w3id.org/jp-cos/codePrefix> "84T5";
+  <https://w3id.org/jp-cos/fcode04> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTA5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503116000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503126000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.
+<https://w3id.org/jp-cos/84T5505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋科学>.

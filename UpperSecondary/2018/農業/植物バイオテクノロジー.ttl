@@ -1,0 +1,57 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>
+  <http://purl.org/linked-data/cube#order> "70";
+  <http://schema.org/name> "Plant Biotechnology"@en, "植物バイオテクノロジー"@ja, "しょくぶつばいおてくのろじー"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "E";
+  <https://w3id.org/jp-cos/codePrefix> "84PE";
+  <https://w3id.org/jp-cos/fcode04> "UE";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUE";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503146000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.
+<https://w3id.org/jp-cos/84PE505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/植物バイオテクノロジー>.

@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>
+  <http://purl.org/linked-data/cube#order> "233";
+  <http://schema.org/name> "Information Practice"@en, "情報実習"@ja, "じょうほうじっしゅう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "C";
+  <https://w3id.org/jp-cos/codePrefix> "84XC";
+  <https://w3id.org/jp-cos/fcode04> "UC";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UXUC";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.
+<https://w3id.org/jp-cos/84XC505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報実習>.

@@ -1,0 +1,30 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>
+  <http://purl.org/linked-data/cube#order> "276";
+  <http://schema.org/name> "Information and Media Design"@en, "情報メディアデザイン"@ja, "じょうほうめでぃあでざいん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "B";
+  <https://w3id.org/jp-cos/codePrefix> "84cB";
+  <https://w3id.org/jp-cos/fcode04> "UB";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LcUB";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.
+<https://w3id.org/jp-cos/84cB505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/情報メディアデザイン>.

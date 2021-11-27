@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8GH12b4222141000>
+  <http://purl.org/dc/terms/identifier> "8GH12b4222141000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3915"
+  ];
+  <http://schema.org/description> "㋐ 相手に伝えるなどの目的をもって，身近で簡単な事柄について， 音声で十分に慣れ親しんだ語彙などを書き写す活動。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGUHA1A2LbA4A2A2A2A1A4A1A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "㋐";
+  <https://w3id.org/jp-cos/sectionText> "相手に伝えるなどの目的をもって，身近で簡単な事柄について， 音声で十分に慣れ親しんだ語彙などを書き写す活動。";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/UpperSecondaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/2>;
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語> .
+<https://w3id.org/jp-cos/8GH12b4222140000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GH12b4222141000>.

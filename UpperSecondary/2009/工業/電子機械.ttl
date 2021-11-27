@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>
+  <http://purl.org/linked-data/cube#order> "103";
+  <http://schema.org/name> "Basic Mechatronics"@en, "電子機械"@ja, "でんしきかい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "F";
+  <https://w3id.org/jp-cos/codePrefix> "74QF";
+  <https://w3id.org/jp-cos/fcode04> "UF";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQUF";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.
+<https://w3id.org/jp-cos/74QF505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電子機械>.

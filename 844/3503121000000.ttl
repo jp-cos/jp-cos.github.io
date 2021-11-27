@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8443503121000000>
+  <http://purl.org/dc/terms/identifier> "8443503121000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1171"
+  ];
+  <http://schema.org/description> "ア　少子高齢社会における社会保障の充実・安定化，地域社会の自立と政府，多様な働き方・生き方を可能にする社会，産業構造の変化と起業，歳入・歳出両面での財政健全化，食料の安定供給の確保と持続可能な農業構造の実現，防災と安全・安心な社会の実現などについて，取り上げた課題の解決に向けて政治と経済とを関連させて多面的・多角的に考察，構想し，よりよい社会の在り方についての自分の考えを説明，論述すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A3A5A0A3A1A2A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "少子高齢社会における社会保障の充実・安定化，地域社会の自立と政府，多様な働き方・生き方を可能にする社会，産業構造の変化と起業，歳入・歳出両面での財政健全化，食料の安定供給の確保と持続可能な農業構造の実現，防災と安全・安心な社会の実現などについて，取り上げた課題の解決に向けて政治と経済とを関連させて多面的・多角的に考察，構想し，よりよい社会の在り方についての自分の考えを説明，論述すること。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/政治・経済>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8443503120000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8443503121000000>.

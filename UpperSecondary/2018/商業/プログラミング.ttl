@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>
+  <http://purl.org/linked-data/cube#order> "163";
+  <http://schema.org/name> "Programming"@en, "プログラミング"@ja, "ぷろぐらみんぐ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "I";
+  <https://w3id.org/jp-cos/codePrefix> "84RI";
+  <https://w3id.org/jp-cos/fcode04> "UI";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URUI";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI503146000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.
+<https://w3id.org/jp-cos/84RI505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/プログラミング>.

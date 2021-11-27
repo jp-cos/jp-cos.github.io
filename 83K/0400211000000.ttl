@@ -1,0 +1,21 @@
+<https://w3id.org/jp-cos/83K0400211000000>
+  <http://purl.org/dc/terms/identifier> "83K0400211000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2047"
+  ];
+  <http://schema.org/description> "思いやりの心をもって人と接するとともに，家族などの支えや多くの人々の善意により日々の生活や現在の自分があることに感謝し，進んでそれに応え，人間愛の精神を深めること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UKA0A4A0A0A2A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionText> "思いやりの心をもって人と接するとともに，家族などの支えや多くの人々の善意により日々の生活や現在の自分があることに感謝し，進んでそれに応え，人間愛の精神を深めること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/特別の教科　道徳> .
+<https://w3id.org/jp-cos/83K0400210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83K0400211000000>.

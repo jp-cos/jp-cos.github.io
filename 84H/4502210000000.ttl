@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84H4502210000000>
+  <http://purl.org/dc/terms/identifier> "84H4502210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2971"
+  ];
+  <http://schema.org/description> "ア　日常的な話題について，使用する語句や文，事前の準備などにおいて，多くの支援を活用すれば，基本的な語句や文を用いて，情報や考え，気持ちなどを論理の構成や展開を工夫して話して伝えることができるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UHA4A5A0A2A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "日常的な話題について，使用する語句や文，事前の準備などにおいて，多くの支援を活用すれば，基本的な語句や文を用いて，情報や考え，気持ちなどを論理の構成や展開を工夫して話して伝えることができるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現I>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語> .
+<https://w3id.org/jp-cos/84H4502200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84H4502210000000>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/74N0300220000000>
+  <http://purl.org/dc/terms/identifier> "74N0300220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8234"
+  ];
+  <http://schema.org/description> "(2) 〔ホームルーム活動〕及び〔生徒会活動〕については，学校や地域及び生徒の実態に応じて，取り上げる指導内容の重点化を図るとともに，入学から卒業までを見通して，必要に応じて内容間の関連や統合を図ったり，他の内容を加えたりすることができること。また，〔ホームルーム活動〕については，個々の生徒についての理解を深め，生徒との信頼関係を基礎に指導を行うとともに，生徒指導との関連を図るようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UNA0A3A0A0A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "〔ホームルーム活動〕及び〔生徒会活動〕については，学校や地域及び生徒の実態に応じて，取り上げる指導内容の重点化を図るとともに，入学から卒業までを見通して，必要に応じて内容間の関連や統合を図ったり，他の内容を加えたりすることができること。また，〔ホームルーム活動〕については，個々の生徒についての理解を深め，生徒との信頼関係を基礎に指導を行うとともに，生徒指導との関連を図るようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動> .
+<https://w3id.org/jp-cos/74N0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74N0300220000000>.

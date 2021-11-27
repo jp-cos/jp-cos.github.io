@@ -1,0 +1,48 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>
+  <http://purl.org/linked-data/cube#order> "201";
+  <http://schema.org/name> "Base of Fashion and Clothes Making"@en, "ファッション造形基礎"@ja, "ふぁっしょんぞうけいきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "A";
+  <https://w3id.org/jp-cos/codePrefix> "74UA";
+  <https://w3id.org/jp-cos/fcode04> "UA";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UUUA";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503350000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503360000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503370000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503380000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503450000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA503460000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.
+<https://w3id.org/jp-cos/74UA505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/ファッション造形基礎>.

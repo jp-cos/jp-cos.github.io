@@ -1,0 +1,30 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>
+  <http://purl.org/linked-data/cube#order> "72";
+  <http://schema.org/name> "Project Study"@en, "課題研究"@ja, "かだいけんきゅう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "C";
+  <https://w3id.org/jp-cos/codePrefix> "7EkC";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode04> "UC";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UELkUC";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/歯科技工/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/7EkC505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>.

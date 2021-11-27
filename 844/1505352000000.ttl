@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8441505352000000>
+  <http://purl.org/dc/terms/identifier> "8441505352000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1088"
+  ];
+  <http://schema.org/description> "(イ) Ａに示したそれぞれの事項を適切に身に付けることができるよう，指導のねらいを明確にした上で，今まで受け継がれてきた我が国の文化的蓄積を含む古今東西の先人の取組，知恵などにも触れること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A1A5A0A5A3A5A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "Aに示したそれぞれの事項を適切に身に付けることができるよう，指導のねらいを明確にした上で，今まで受け継がれてきた我が国の文化的蓄積を含む古今東西の先人の取組，知恵などにも触れること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/公共>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8441505350000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8441505352000000>.

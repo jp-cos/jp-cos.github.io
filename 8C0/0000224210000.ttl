@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8C00000224210000>
+  <http://purl.org/dc/terms/identifier> "8C00000224210000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "136"
+  ];
+  <http://schema.org/description> "ア　各教科・科目の指導に当たり，義務教育段階での学習内容の確実な定着を図るための学習機会を設けること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8UCA0A0A0A0A0A2A2A4A2A1A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "各教科・科目の指導に当たり，義務教育段階での学習内容の確実な定着を図るための学習機会を設けること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2019/総則> .
+<https://w3id.org/jp-cos/8C00000224200000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8C00000224210000>.

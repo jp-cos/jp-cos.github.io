@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/82G02C3512000000>
+  <http://purl.org/dc/terms/identifier> "82G02C3512000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3147"
+  ];
+  <http://schema.org/description> "イ　ネット型ゲームでは，基本的なボール操作とボールを操作できる位置に体を移動する動きによって，易しいゲームをすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UGA0A2UCA3A5A1A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "ネット型ゲームでは，基本的なボール操作とボールを操作できる位置に体を移動する動きによって，易しいゲームをすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/体育> .
+<https://w3id.org/jp-cos/82G02C3510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82G02C3512000000>.

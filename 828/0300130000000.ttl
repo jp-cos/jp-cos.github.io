@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8280300130000000>
+  <http://purl.org/dc/terms/identifier> "8280300130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2788"
+  ];
+  <http://schema.org/description> "(3) 第２の各学年の内容の〔共通事項〕は，表現及び鑑賞の学習において共通に必要となる資質・能力であり，「Ａ表現」及び「Ｂ鑑賞」の指導と併せて，十分な指導が行われるよう工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A8A0A3A0A0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "第2の各学年の内容の〔共通事項〕は，表現及び鑑賞の学習において共通に必要となる資質・能力であり，「A表現」及び「B鑑賞」の指導と併せて，十分な指導が行われるよう工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/音楽> .
+<https://w3id.org/jp-cos/8280300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8280300130000000>.

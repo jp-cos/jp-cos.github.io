@@ -1,0 +1,59 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>
+  <http://purl.org/linked-data/cube#order> "34";
+  <http://schema.org/name> "Music III"@en, "音楽III"@ja, "おんがくIII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "3";
+  <https://w3id.org/jp-cos/codePrefix> "84B3";
+  <https://w3id.org/jp-cos/fcode04> "A3";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UBA3";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/芸術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503112100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503112200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503122100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503122200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503211100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503211200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503211300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503212100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503212200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503212300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503212400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503311000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3503312000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.
+<https://w3id.org/jp-cos/84B3505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>.

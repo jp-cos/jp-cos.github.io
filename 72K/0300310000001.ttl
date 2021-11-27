@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/72K0300310000001>
+  <http://purl.org/dc/terms/identifier> "72K0300310000001";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2729"
+  ];
+  <http://schema.org/description> "(1) 児童の発達の段階や特性，地域の実情等を考慮し，多様な教材の活用に努めること。特に，生命の尊厳，自然，伝統と文化，先人の伝記，スポーツ，情報化への対応等の現代的な課題などを題材とし，児童が問題意識をもって多面的・多角的に考えたり，感動を覚えたりするような充実した教材の開発や活用を行うこと。";
+  <http://schema.org/edition> "一部改正（１回目）";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2UKA0A3A0A0A3A1A0A0A0A0A0A0A1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "児童の発達の段階や特性，地域の実情等を考慮し，多様な教材の活用に努めること。特に，生命の尊厳，自然，伝統と文化，先人の伝記，スポーツ，情報化への対応等の現代的な課題などを題材とし，児童が問題意識をもって多面的・多角的に考えたり，感動を覚えたりするような充実した教材の開発や活用を行うこと。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/道徳> .
+<https://w3id.org/jp-cos/72K0300310000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/72K0300310000001>.

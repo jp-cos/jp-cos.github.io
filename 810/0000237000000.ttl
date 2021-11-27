@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8100000237000000>
+  <http://purl.org/dc/terms/identifier> "8100000237000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "21"
+  ];
+  <http://schema.org/description> """(7) 自然との関わり・生命尊重
+　自然に触れて感動する体験を通して，自然の変化などを感じ取り，好奇心や探究心をもって考え言葉などで表現しながら，身近な事象への関心が高まるとともに，自然への愛情や畏敬の念をもつようになる。また，身近な動植物に心を動かされる中で，生命の不思議さや尊さに気付き，身近な動植物への接し方を考え，命あるものとしていたわり，大切にする気持ちをもって関わるようになる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1A0A0A0A0A0A2A3A7A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(7)";
+  <https://w3id.org/jp-cos/sectionText> """自然との関わり・生命尊重
+ 自然に触れて感動する体験を通して，自然の変化などを感じ取り，好奇心や探究心をもって考え言葉などで表現しながら，身近な事象への関心が高まるとともに，自然への愛情や畏敬の念をもつようになる。また，身近な動植物に心を動かされる中で，生命の不思議さや尊さに気付き，身近な動植物への接し方を考え，命あるものとしていたわり，大切にする気持ちをもって関わるようになる。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/総則> .
+<https://w3id.org/jp-cos/8100000230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000237000000>.

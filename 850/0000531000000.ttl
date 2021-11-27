@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8500000531000000>
+  <http://purl.org/dc/terms/identifier> "8500000531000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "54"
+  ];
+  <http://schema.org/description> "(1)  長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚部における生活の自然な流れの中に組み込まれるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A5A3A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚部における生活の自然な流れの中に組み込まれるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8500000530000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000531000000>.

@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999>
+  <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>, <https://w3id.org/jp-cos/UpperSecondary/1999/2002>, <https://w3id.org/jp-cos/UpperSecondary/1999/2003>, <https://w3id.org/jp-cos/UpperSecondary/1999/2003>, <https://w3id.org/jp-cos/UpperSecondary/1999/2006>, <https://w3id.org/jp-cos/UpperSecondary/1999/2007>;
+  <http://schema.org/datePublished> "1999-03-29";
+  <http://schema.org/name> "Upper Secondary School Curriculum Guideline"@en, "高等学校学習指導要領"@ja, "こうとうがっこうがくしゅうしどうようりょう"@ja-hira;
+  <http://schema.org/startDate> "2003-04-01";
+  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1320144.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000135>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .

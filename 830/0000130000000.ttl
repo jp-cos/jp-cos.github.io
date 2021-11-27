@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8300000130000000>
+  <http://purl.org/dc/terms/identifier> "8300000130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8"
+  ];
+  <http://schema.org/description> "３　２の(1)から(3)までに掲げる事項の実現を図り，豊かな創造性を備え持続可能な社会の創り手となることが期待される生徒に，生きる力を育むことを目指すに当たっては，学校教育全体並びに各教科，道徳科，総合的な学習の時間及び特別活動（以下「各教科等」という。ただし，第２の３の(2)のア及びウにおいて，特別活動については学級活動（学校給食に係るものを除く。）に限る。）の指導を通してどのような資質・能力の育成を目指すのかを明確にしながら，教育活動の充実を図るものとする。その際，生徒の発達の段階や特性等を踏まえつつ，次に掲げることが偏りなく実現できるようにするものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000131000000>, <https://w3id.org/jp-cos/8300000132000000>, <https://w3id.org/jp-cos/8300000133000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "2の(1)から(3)までに掲げる事項の実現を図り，豊かな創造性を備え持続可能な社会の創り手となることが期待される生徒に，生きる力を育むことを目指すに当たっては，学校教育全体並びに各教科，道徳科，総合的な学習の時間及び特別活動(以下「各教科等」という。ただし，第2の3の(2)のア及びウにおいて，特別活動については学級活動(学校給食に係るものを除く。)に限る。)の指導を通してどのような資質・能力の育成を目指すのかを明確にしながら，教育活動の充実を図るものとする。その際，生徒の発達の段階や特性等を踏まえつつ，次に掲げることが偏りなく実現できるようにするものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000130000000>.

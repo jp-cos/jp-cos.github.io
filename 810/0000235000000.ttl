@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8100000235000000>
+  <http://purl.org/dc/terms/identifier> "8100000235000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "19"
+  ];
+  <http://schema.org/description> """(5) 社会生活との関わり
+　家族を大切にしようとする気持ちをもつとともに，地域の身近な人と触れ合う中で，人との様々な関わり方に気付き，相手の気持ちを考えて関わり，自分が役に立つ喜びを感じ，地域に親しみをもつようになる。また，幼稚園内外の様々な環境に関わる中で，遊びや生活に必要な情報を取り入れ，情報に基づき判断したり，情報を伝え合ったり，活用したりするなど，情報を役立てながら活動するようになるとともに，公共の施設を大切に利用するなどして，社会とのつながりなどを意識するようになる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1A0A0A0A0A0A2A3A5A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> """社会生活との関わり
+ 家族を大切にしようとする気持ちをもつとともに，地域の身近な人と触れ合う中で，人との様々な関わり方に気付き，相手の気持ちを考えて関わり，自分が役に立つ喜びを感じ，地域に親しみをもつようになる。また，幼稚園内外の様々な環境に関わる中で，遊びや生活に必要な情報を取り入れ，情報に基づき判断したり，情報を伝え合ったり，活用したりするなど，情報を役立てながら活動するようになるとともに，公共の施設を大切に利用するなどして，社会とのつながりなどを意識するようになる。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/総則> .
+<https://w3id.org/jp-cos/8100000230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000235000000>.

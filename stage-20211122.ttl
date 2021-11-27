@@ -1,0 +1,64 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+#TTL 段階リソース
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 1"@en, "１段階"@ja;
+  schema:description '''　主として知的障害の程度は，比較的重く，他人との意思の疎通に困難があり，日常生活を営むのにほぼ常時援助が必要である者を対象とした内容を示している。
+　この段階では，知的発達が極めて未分化であり，認知面での発達も十分でないことや，生活経験の積み重ねが少ないことなどから，主として教師の直接的な援助を受けながら，児童が体験し，事物に気付き注意を向けたり，関心や興味をもったりすることや，基本的な行動の一つ一つを着実に身に付けたりすることをねらいとする内容を示している。''';
+  schema:citation "文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.";
+  rdfs:seeAlso <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/02/04/1399950_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDepartmentofSpecialNeedsEducationSchool>.
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 2"@en, "２段階"@ja;
+  schema:description '''　知的障害の程度は，１段階ほどではないが，他人との意思の疎通に困難があり，日常生活を営むのに頻繁に援助を必要とする者を対象とした内容を示している。
+　この段階では，１段階を踏まえ，主として教師からの言葉掛けによる援助を受けながら，教師が示した動作や動きを模倣したりするなどして，目的をもった遊びや行動をとったり，児童が基本的な行動を身に付けることをねらいとする内容を示している。''';
+  schema:citation "文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-08.";
+  rdfs:seeAlso <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/02/04/1399950_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDepartmentofSpecialNeedsEducationSchool>.
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/3> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 3"@en, "３段階"@ja;
+  schema:description '''　知的障害の程度は，他人との意思の疎通や日常生活を営む際に困難さが見られる。適宜援助を必要とする者を対象とした内容を示している。
+　この段階では，２段階を踏まえ，主として児童が自ら場面や順序などの様子に気付いたり，主体的に活動に取り組んだりしながら，社会生活につながる行動を身に付けることをねらいとする内容を示している。''';
+  schema:citation "文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-09.";
+  rdfs:seeAlso <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/02/04/1399950_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDepartmentofSpecialNeedsEducationSchool>.
+<https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/1> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 1"@en, "１段階"@ja;
+  schema:description '''　小学部３段階を踏まえ，生活年齢に応じながら，主として経験の積み重ねを重視するとともに，他人との意思の疎通や日常生活への適応に困難が大きい生徒にも配慮した内容を示している。
+　この段階では，主として生徒が自ら主体的に活動に取り組み，経験したことを活用したり，順番を考えたりして，日常生活や社会生活の基礎を育てることをねらいとする内容を示している。''';
+  schema:citation "文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-10.";
+  rdfs:seeAlso <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/02/04/1399950_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondaryDepartmentofSpecialNeedsEducationSchool>.
+<https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/2> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 2"@en, "２段階"@ja;
+  schema:description '''　中学部１段階を踏まえ，生徒の日常生活や社会生活及び将来の職業生活の基礎を育てることをねらいとする内容を示している。
+　この段階では，主として生徒が自ら主体的に活動に取り組み，目的に応じて選択したり，処理したりするなど工夫し，将来の職業生活を見据えた力を身に付けられるようにしていくことをねらいとする内容を示している。''';
+  schema:citation "文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-11.";
+  rdfs:seeAlso <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/02/04/1399950_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondaryDepartmentofSpecialNeedsEducationSchool>.
+<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 1"@en, "１段階"@ja;
+  schema:description '''　中学部２段階やそれまでの経験を踏まえ，生活年齢に応じながら，主として卒業後の家庭生活，社会生活及び職業生活などとの関連を考慮した，基礎的な内容を示している。
+　この段階では，主として生徒自らが主体的に学び，卒業後の生活を見据えた基本的な生活習慣，社会性及び職業能力等を身に付けられるようにしていくことをねらいとする内容を示している。''';
+  schema:citation "文部科学省. \"第５章知的障害者である生徒に対する教育を行う特別支援学校　第１節　各教科の基本的な考え方　５　段階の考え方\". 特別支援学校学習指導要領解説 知的障害者教科等編（上）（高等部）平成 31 年２月. p27-28. 参照日：2021-08-07.";
+  rdfs:seeAlso <https://www.mext.go.jp/content/20200325-mxt_tokubetu01-1386427_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondaryDepartmentofSpecialNeedsEducationSchool>.
+<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/2> a <https://w3id.org/jp-cos/Stage>;
+  schema:name "Stage 2"@en, "２段階"@ja;
+  schema:description '''　高等部１段階を踏まえ，比較的障害の程度が軽度である生徒を対象として，卒業後の家庭生活，社会生活及び職業生活などとの関連を考慮した，発展的な内容を示している。
+　この段階では，主として生徒自らが主体的に学び，卒業後の実際の生活に必要な生活習慣，社会性及び職業能力等を習得することをねらいとする実用的かつ発展的な内容を示している。''';
+  schema:citation "文部科学省. \"第５章知的障害者である生徒に対する教育を行う特別支援学校　第１節　各教科の基本的な考え方　５　段階の考え方\". 特別支援学校学習指導要領解説 知的障害者教科等編（上）（高等部）平成 31 年２月. p27-28. 参照日：2021-08-08.";
+  rdfs:seeAlso <https://www.mext.go.jp/content/20200325-mxt_tokubetu01-1386427_4.pdf>;
+  cs:disabilityCategory <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondaryDepartmentofSpecialNeedsEducationSchool>.
+

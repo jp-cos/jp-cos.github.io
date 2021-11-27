@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8500000441000000>
+  <http://purl.org/dc/terms/identifier> "8500000441000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "37"
+  ];
+  <http://schema.org/description> "(1)  幼児の生活は，入学当初の一人一人の遊びや教師との触れ合いを通して幼稚部における生活に親しみ，安定していく時期から，他の幼児との関わりの中で幼児の主体的な活動が深まり，幼児が互いに必要な存在であることを認識するようになり，やがて幼児同士や学級全体で目的をもって協同して幼稚部における生活を展開し，深めていく時期などに至るまでの過程を様々に経ながら広げられていくものであることを考慮し，活動がそれぞれの時期にふさわしく展開されるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A4A4A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "幼児の生活は，入学当初の一人一人の遊びや教師との触れ合いを通して幼稚部における生活に親しみ，安定していく時期から，他の幼児との関わりの中で幼児の主体的な活動が深まり，幼児が互いに必要な存在であることを認識するようになり，やがて幼児同士や学級全体で目的をもって協同して幼稚部における生活を展開し，深めていく時期などに至るまでの過程を様々に経ながら広げられていくものであることを考慮し，活動がそれぞれの時期にふさわしく展開されるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8500000440000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000441000000>.

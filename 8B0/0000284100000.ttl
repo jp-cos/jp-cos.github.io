@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000284100000>
+  <http://purl.org/dc/terms/identifier> "8B00000284100000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "202"
+  ];
+  <http://schema.org/description> "(1) 各教科・科目若しくは特別活動（知的障害者である生徒に対する教育を行う特別支援学校においては，各教科，道徳科若しくは特別活動。）の目標及び内容の一部又は各教科・科目若しくは総合的な探究の時間（知的障害者である生徒に対する教育を行う特別支援学校においては，各教科若しくは総合的な探究の時間。）に替えて，自立活動を主として指導を行うことができること。この場合，実情に応じた授業時数を適切に定めるものとすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A8A4A1A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "各教科・科目若しくは特別活動(知的障害者である生徒に対する教育を行う特別支援学校においては，各教科，道徳科若しくは特別活動。)の目標及び内容の一部又は各教科・科目若しくは総合的な探究の時間(知的障害者である生徒に対する教育を行う特別支援学校においては，各教科若しくは総合的な探究の時間。)に替えて，自立活動を主として指導を行うことができること。この場合，実情に応じた授業時数を適切に定めるものとすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000284000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000284100000>.

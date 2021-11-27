@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/8469505240000000>
+  <http://purl.org/dc/terms/identifier> "8469505240000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2000"
+  ];
+  <http://schema.org/description> """エ　内容の(4)のアの(ア)の㋐の「自転」については，フーコーの振り子を扱うこと。「公転」については，年周視差と年周光行差を扱うこと。また，時刻と太陽暦にも触れること。㋑の「太陽系天体の特徴」については，観測や探査機などによる研究成果を踏まえて特徴を扱うこと。「惑星の運動」については，視運動及びケプラーの法則を扱うこと。また，その発見過程にも触れること。㋒の「太陽表面の現象」については，スペクトルも扱うこと。「太陽の活動」については，太陽の活動周期と地球への影響も扱うこと。太陽の内部構造にも触れること。
+(イ)の㋐の恒星の「性質」については，距離，絶対等級，半径，表面温度，スペクトル型及び質量を扱うこと。恒星の「進化」については，HR図を扱い，質量により恒星の進化の速さ，恒星の終末及び生成元素が異なることも扱うこと。㋑の「銀河系の構成天体とその分布」については，恒星の進化と関連付けて扱うこと。また，銀河系の回転運動にも触れること。
+(ウ)の㋐の「様々な銀河の存在」については，銀河までの距離の求め方も扱うこと。「銀河の分布」については，宇宙の大規模構造を扱うこと。㋑の「現代の宇宙像」については，ビッグバンの証拠を扱うこと。ハッブルの法則も扱うこと。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A6A9A5A0A5A2A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> """内容の(4)のアの(ア)の㋐の「自転」については，フーコーの振り子を扱うこと。「公転」については，年周視差と年周光行差を扱うこと。また，時刻と太陽暦にも触れること。㋑の「太陽系天体の特徴」については，観測や探査機などによる研究成果を踏まえて特徴を扱うこと。「惑星の運動」については，視運動及びケプラーの法則を扱うこと。また，その発見過程にも触れること。㋒の「太陽表面の現象」については，スペクトルも扱うこと。「太陽の活動」については，太陽の活動周期と地球への影響も扱うこと。太陽の内部構造にも触れること。
+(イ)の㋐の恒星の「性質」については，距離，絶対等級，半径，表面温度，スペクトル型及び質量を扱うこと。恒星の「進化」については，HR図を扱い，質量により恒星の進化の速さ，恒星の終末及び生成元素が異なることも扱うこと。㋑の「銀河系の構成天体とその分布」については，恒星の進化と関連付けて扱うこと。また，銀河系の回転運動にも触れること。
+(ウ)の㋐の「様々な銀河の存在」については，銀河までの距離の求め方も扱うこと。「銀河の分布」については，宇宙の大規模構造を扱うこと。㋑の「現代の宇宙像」については，ビッグバンの証拠を扱うこと。ハッブルの法則も扱うこと。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/地学>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/理科> .
+<https://w3id.org/jp-cos/8469505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8469505240000000>.

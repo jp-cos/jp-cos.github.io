@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000231200000>
+  <http://purl.org/dc/terms/identifier> "8B00000231200000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "143"
+  ];
+  <http://schema.org/description> "(2) 第２款の２の(1)に示す言語能力の育成を図るため，各学校において必要な言語環境を整えるとともに，国語科を要としつつ各教科・科目等又は各教科等の特質に応じて，生徒の言語活動を充実すること。あわせて，(6) に示すとおり読書活動を充実すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A3A1A2A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "第2款の2の(1)に示す言語能力の育成を図るため，各学校において必要な言語環境を整えるとともに，国語科を要としつつ各教科・科目等又は各教科等の特質に応じて，生徒の言語活動を充実すること。あわせて，(6) に示すとおり読書活動を充実すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000231200000>.

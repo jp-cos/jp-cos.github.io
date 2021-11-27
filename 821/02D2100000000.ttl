@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/82102D2100000000>
+  <http://purl.org/dc/terms/identifier> "82102D2100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "224"
+  ];
+  <http://schema.org/description> "(1) 日常生活に必要な国語の知識や技能を身に付けるとともに，我が国の言語文化に親しんだり理解したりすることができるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A1A0A2UDA2A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "日常生活に必要な国語の知識や技能を身に付けるとともに，我が国の言語文化に親しんだり理解したりすることができるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語> .
+<https://w3id.org/jp-cos/82102D2000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82102D2100000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/87n0000140000000>
+  <http://purl.org/dc/terms/identifier> "87n0000140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "132"
+  ];
+  <http://schema.org/description> "(4) 視覚補助具やコンピュータ等の情報機器，触覚教材，拡大教材及び音声教材等各種教材の効果的な活用を通して，児童が容易に情報を収集・整理し， 主体的な学習ができるようにするなど，児童の視覚障害の状態等を考慮した指導方法を工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8A7LnA0A0A0A0A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "視覚補助具やコンピュータ等の情報機器，触覚教材，拡大教材及び音声教材等各種教材の効果的な活用を通して，児童が容易に情報を収集・整理し， 主体的な学習ができるようにするなど，児童の視覚障害の状態等を考慮した指導方法を工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)> .
+<https://w3id.org/jp-cos/87n0000100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/87n0000140000000>.

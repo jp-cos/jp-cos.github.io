@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84J0300110000000>
+  <http://purl.org/dc/terms/identifier> "84J0300110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3431"
+  ];
+  <http://schema.org/description> "(1) 単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，生徒や学校，地域の実態等に応じて，生徒が数学的な見方・考え方や理科の見方・考え方を組み合わせるなどして働かせ，様々な事象や課題に向き合い，主体的に探究することができるよう創意工夫を生かした教育活動の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UJA0A3A0A0A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，生徒や学校，地域の実態等に応じて，生徒が数学的な見方・考え方や理科の見方・考え方を組み合わせるなどして働かせ，様々な事象や課題に向き合い，主体的に探究することができるよう創意工夫を生かした教育活動の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/理数> .
+<https://w3id.org/jp-cos/84J0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84J0300110000000>.

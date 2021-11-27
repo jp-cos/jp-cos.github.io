@@ -1,0 +1,67 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>
+  <http://purl.org/linked-data/cube#order> "13";
+  <http://schema.org/name> "Ethics"@en, "倫理"@ja, "りんり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "8442";
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4A4A2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/公民> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503111100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503111200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503111300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503111400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503111500000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503112100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503112200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503121100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503121200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503122100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505321000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505322000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505323000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505324000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505325000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505326000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505327000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505328000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505331000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505332000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505333000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.
+<https://w3id.org/jp-cos/8442505334000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/倫理>.

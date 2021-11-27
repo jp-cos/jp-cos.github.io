@@ -1,0 +1,21 @@
+<https://w3id.org/jp-cos/8400000231303000>
+  <http://purl.org/dc/terms/identifier> "8400000231303000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "27"
+  ];
+  <http://schema.org/description> "商業（ビジネス基礎，課題研究，総合実践，ビジネス・コミュニケーション，マーケティング，商品開発と流通，観光ビジネス，ビジネス・マネジメント，グローバル経済，ビジネス法規，簿記，財務会計Ⅰ，財務会計Ⅱ，原価計算，管理会計，情報処理，ソフトウェア活用，プログラミング，ネットワーク活用，ネットワーク管理）";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A1A3A0A3A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionText> "商業(ビジネス基礎，課題研究，総合実践，ビジネス・コミュニケーション，マーケティング，商品開発と流通，観光ビジネス，ビジネス・マネジメント，グローバル経済，ビジネス法規，簿記，財務会計Ⅰ，財務会計Ⅱ，原価計算，管理会計，情報処理，ソフトウェア活用，プログラミング，ネットワーク活用，ネットワーク管理)";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000231300000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231303000>.

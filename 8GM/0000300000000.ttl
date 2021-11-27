@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8GM0000300000000>
+  <http://purl.org/dc/terms/identifier> "8GM0000300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "4227"
+  ];
+  <http://schema.org/description> "３　知的障害者である生徒に対する教育を行う特別支援学校において，探究的な学習を行う場合には，知的障害のある生徒の学習上の特性として，学習によって得た知識や技能が断片的になりやすいことなどを踏まえ，各教科等の学習で培われた資質・能力を総合的に関連付けながら，具体的に指導内容を設定し，生徒が自らの課題を解決できるように配慮すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGUMA0A0A0A0A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "知的障害者である生徒に対する教育を行う特別支援学校において，探究的な学習を行う場合には，知的障害のある生徒の学習上の特性として，学習によって得た知識や技能が断片的になりやすいことなどを踏まえ，各教科等の学習で培われた資質・能力を総合的に関連付けながら，具体的に指導内容を設定し，生徒が自らの課題を解決できるように配慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/総合的な探究の時間> .
+<https://w3id.org/jp-cos/8BM0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GM0000300000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84B1505100000000>
+  <http://purl.org/dc/terms/identifier> "84B1505100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2230"
+  ];
+  <http://schema.org/description> "(1) 内容の「Ａ表現」及び「Ｂ鑑賞」の指導については，中学校音楽科との関連を十分に考慮し，それぞれ特定の活動のみに偏らないようにするとともに，必要に応じて，〔共通事項〕を要として各領域や分野の関連を図るものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UBA1A5A0A5A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "内容の「A表現」及び「B鑑賞」の指導については，中学校音楽科との関連を十分に考慮し，それぞれ特定の活動のみに偏らないようにするとともに，必要に応じて，〔共通事項〕を要として各領域や分野の関連を図るものとする。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽I>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術> .
+<https://w3id.org/jp-cos/84B1505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84B1505100000000>.

@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>
+  <http://purl.org/linked-data/cube#order> "79";
+  <http://schema.org/name> "Agricultural Civil Engineering Work Execution"@en, "農業土木施工"@ja, "のうぎょうどぼくせこう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "N";
+  <https://w3id.org/jp-cos/codePrefix> "84PN";
+  <https://w3id.org/jp-cos/fcode04> "UN";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUN";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503155000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503156000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503157000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503158000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.
+<https://w3id.org/jp-cos/84PN505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業土木施工>.

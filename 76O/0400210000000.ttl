@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/76O0400210000000>
+  <http://purl.org/dc/terms/identifier> "76O0400210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "338"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "327"
+  ];
+  <http://schema.org/description> "(1) 情緒の安定に関すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6UOA0A4A0A0A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "情緒の安定に関すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動> .
+<https://w3id.org/jp-cos/76O0400200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/76O0400210000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74U0000000000000>
+  <http://purl.org/dc/terms/identifier> "74U0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6228"
+  ];
+  <http://schema.org/description> "第５節　家　　　庭";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74U0100000000000>, <https://w3id.org/jp-cos/74U0300000000000>, <https://w3id.org/jp-cos/74U0500000000000>, <https://w3id.org/jp-cos/74U1500000000000>, <https://w3id.org/jp-cos/74U2500000000000>, <https://w3id.org/jp-cos/74U3500000000000>, <https://w3id.org/jp-cos/74U4500000000000>, <https://w3id.org/jp-cos/74U5500000000000>, <https://w3id.org/jp-cos/74U6500000000000>, <https://w3id.org/jp-cos/74U7500000000000>, <https://w3id.org/jp-cos/74U8500000000000>, <https://w3id.org/jp-cos/74U9500000000000>, <https://w3id.org/jp-cos/74UA500000000000>, <https://w3id.org/jp-cos/74UB500000000000>, <https://w3id.org/jp-cos/74UC500000000000>, <https://w3id.org/jp-cos/74UD500000000000>, <https://w3id.org/jp-cos/74UE500000000000>, <https://w3id.org/jp-cos/74UF500000000000>, <https://w3id.org/jp-cos/74UG500000000000>, <https://w3id.org/jp-cos/74UH500000000000>, <https://w3id.org/jp-cos/74UI500000000000>, <https://w3id.org/jp-cos/74UJ500000000000>, <https://w3id.org/jp-cos/74UK500000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UUA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第5節";
+  <https://w3id.org/jp-cos/sectionText> "家   庭";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> .
+<https://w3id.org/jp-cos/74n0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74U0000000000000>.

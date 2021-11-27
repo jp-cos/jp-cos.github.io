@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/83G0300250000000>
+  <http://purl.org/dc/terms/identifier> "83G0300250000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1660"
+  ];
+  <http://schema.org/description> "(5) 生徒が学習内容を確実に身に付けることができるよう，学校や生徒の実態に応じ，学習内容の習熟の程度に応じた指導，個別指導との連携を踏まえた教師間の協力的な指導などを工夫改善し，個に応じた指導の充実が図られるよう留意すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UGA0A3A0A0A2A5A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> "生徒が学習内容を確実に身に付けることができるよう，学校や生徒の実態に応じ，学習内容の習熟の程度に応じた指導，個別指導との連携を踏まえた教師間の協力的な指導などを工夫改善し，個に応じた指導の充実が図られるよう留意すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育> .
+<https://w3id.org/jp-cos/83G0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83G0300250000000>.

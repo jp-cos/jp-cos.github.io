@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8200000421400000>
+  <http://purl.org/dc/terms/identifier> "8200000421400000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "70"
+  ];
+  <http://schema.org/description> "エ　障害のある児童などについては，家庭，地域及び医療や福祉，保健，労働等の業務を行う関係機関との連携を図り，長期的な視点で児童への教育的支援を行うために，個別の教育支援計画を作成し活用することに努めるとともに，各教科等の指導に当たって，個々の児童の実態を的確に把握し，個別の指導計画を作成し活用することに努めるものとする。特に，特別支援学級に在籍する児童や通級による指導を受ける児童については，個々の児童の実態を的確に把握し，個別の教育支援計画や個別の指導計画を作成し，効果的に活用するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A0A0A0A0A0A4A2A1A4A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "障害のある児童などについては，家庭，地域及び医療や福祉，保健，労働等の業務を行う関係機関との連携を図り，長期的な視点で児童への教育的支援を行うために，個別の教育支援計画を作成し活用することに努めるとともに，各教科等の指導に当たって，個々の児童の実態を的確に把握し，個別の指導計画を作成し活用することに努めるものとする。特に，特別支援学級に在籍する児童や通級による指導を受ける児童については，個々の児童の実態を的確に把握し，個別の教育支援計画や個別の指導計画を作成し，効果的に活用するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/総則> .
+<https://w3id.org/jp-cos/8200000421000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8200000421400000>.

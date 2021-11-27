@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/76V20>
+  <http://purl.org/dc/terms/identifier> "76V20";
+  <http://schema.org/name> "【76V20】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2015年, version 2.0 （2020-12-28 release）"@en, "【76V20】特別支援学校小学部・中学部学習指導要領コード 平成27年告示：バージョン2.0 （令和2年12月28日公表）"@ja;
+  <http://schema.org/releaseDate> "2020-12-28";
+  <http://schema.org/version> "2.0";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/76V20>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/76V20>.

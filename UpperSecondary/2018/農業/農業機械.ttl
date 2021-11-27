@@ -1,0 +1,52 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>
+  <http://purl.org/linked-data/cube#order> "69";
+  <http://schema.org/name> "Agricultural Machinery"@en, "農業機械"@ja, "のうぎょうきかい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "D";
+  <https://w3id.org/jp-cos/codePrefix> "84PD";
+  <https://w3id.org/jp-cos/fcode04> "UD";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUD";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.
+<https://w3id.org/jp-cos/84PD505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業機械>.

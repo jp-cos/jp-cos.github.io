@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74H0400121000000>
+  <http://purl.org/dc/terms/identifier> "74H0400121000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1801"
+  ];
+  <http://schema.org/description> "ａ　コミュニケーションを円滑にする：";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74H0400121100000>, <https://w3id.org/jp-cos/74H0400121200000>, <https://w3id.org/jp-cos/74H0400121300000>, <https://w3id.org/jp-cos/74H0400121400000>, <https://w3id.org/jp-cos/74H0400121500000>, <https://w3id.org/jp-cos/74H0400121600000>, <https://w3id.org/jp-cos/74H0400121700000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UHA0A4A0A0A1A2A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "a";
+  <https://w3id.org/jp-cos/sectionText> "コミュニケーションを円滑にする：";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/外国語> .
+<https://w3id.org/jp-cos/74H0400120000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74H0400121000000>.

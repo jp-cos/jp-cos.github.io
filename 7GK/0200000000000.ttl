@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7GK0200000000000>
+  <http://purl.org/dc/terms/identifier> "7GK0200000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2474"
+  ];
+  <http://schema.org/description> """第１款　目標及び内容
+道徳の目標及び内容については， 小学部及び中学部における 目標及び内容を基盤と し，  さ らに，青年期の特性を考慮して， 健全な社会生活を営む上に必要な道徳性を一層高めることに努めるものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A7UGUKA0A2A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "第1款";
+  <https://w3id.org/jp-cos/sectionText> """目標及び内容
+道徳の目標及び内容については， 小学部及び中学部における 目標及び内容を基盤と し，  さ らに，青年期の特性を考慮して， 健全な社会生活を営む上に必要な道徳性を一層高めることに努めるものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳> .
+<https://w3id.org/jp-cos/7GK0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7GK0200000000000>.

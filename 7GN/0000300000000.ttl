@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7GN0000300000000>
+  <http://purl.org/dc/terms/identifier> "7GN0000300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2485"
+  ];
+  <http://schema.org/description> "３   知的障害者である生徒に対する教育を行う特別支援学校において，内容の指導に当たっては，個々の生徒の知的障害の状態や経験等に応じて， 適切に指導の重点を定め， 具体的に指導する必要があること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A7UGUNA0A0A0A0A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "知的障害者である生徒に対する教育を行う特別支援学校において，内容の指導に当たっては，個々の生徒の知的障害の状態や経験等に応じて， 適切に指導の重点を定め， 具体的に指導する必要があること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/特別活動> .
+<https://w3id.org/jp-cos/7BN0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7GN0000300000000>.

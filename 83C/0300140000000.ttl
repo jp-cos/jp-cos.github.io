@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/83C0300140000000>
+  <http://purl.org/dc/terms/identifier> "83C0300140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1828"
+  ];
+  <http://schema.org/description> "(4) 各項目及び各項目に示す事項については，相互に有機的な関連を図り，総合的に展開されるよう適切な題材を設定して計画を作成すること。その際，生徒や学校，地域の実態を的確に捉え，指導の効果を高めるようにすること。また，小学校における学習を踏まえるとともに，高等学校における学習を見据え，他教科等との関連を明確にして系統的・発展的に指導ができるようにすること。さらに，持続可能な開発のための教育を推進する視点から他教科等との連携も図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UCA0A3A0A0A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "各項目及び各項目に示す事項については，相互に有機的な関連を図り，総合的に展開されるよう適切な題材を設定して計画を作成すること。その際，生徒や学校，地域の実態を的確に捉え，指導の効果を高めるようにすること。また，小学校における学習を踏まえるとともに，高等学校における学習を見据え，他教科等との関連を明確にして系統的・発展的に指導ができるようにすること。さらに，持続可能な開発のための教育を推進する視点から他教科等との連携も図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/技術・家庭> .
+<https://w3id.org/jp-cos/83C0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83C0300140000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/82N5300130000000>
+  <http://purl.org/dc/terms/identifier> "82N5300130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3738"
+  ];
+  <http://schema.org/description> "(3) 学級活動における児童の自発的，自治的な活動を中心として，各活動と学校行事を相互に関連付けながら，個々の児童についての理解を深め，教師と児童，児童相互の信頼関係を育み，学級経営の充実を図ること。その際，特に，いじめの未然防止等を含めた生徒指導との関連を図るようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UNA5A3A0A0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "学級活動における児童の自発的，自治的な活動を中心として，各活動と学校行事を相互に関連付けながら，個々の児童についての理解を深め，教師と児童，児童相互の信頼関係を育み，学級経営の充実を図ること。その際，特に，いじめの未然防止等を含めた生徒指導との関連を図るようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Elementary/2017/特別活動/学校行事>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/特別活動> .
+<https://w3id.org/jp-cos/82N5300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82N5300130000000>.

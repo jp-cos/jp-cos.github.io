@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/7Eh0000000000000>
+  <http://purl.org/dc/terms/identifier> "7Eh0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1226"
+  ];
+  <http://schema.org/description> "第６款　印刷";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Eh0100000000000>, <https://w3id.org/jp-cos/7Eh0300000000000>, <https://w3id.org/jp-cos/7Eh0500000000000>, <https://w3id.org/jp-cos/7Eh1500000000000>, <https://w3id.org/jp-cos/7Eh2500000000000>, <https://w3id.org/jp-cos/7Eh3500000000000>, <https://w3id.org/jp-cos/7Eh4500000000000>, <https://w3id.org/jp-cos/7Eh5500000000000>, <https://w3id.org/jp-cos/7Eh6500000000000>, <https://w3id.org/jp-cos/7Eh7500000000000>, <https://w3id.org/jp-cos/7Eh8500000000000>, <https://w3id.org/jp-cos/7Eh9500000000000>, <https://w3id.org/jp-cos/7EhA500000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode> "A7UELhA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "第6款";
+  <https://w3id.org/jp-cos/sectionText> "印刷";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷> .
+<https://w3id.org/jp-cos/7B00000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Eh0000000000000>.

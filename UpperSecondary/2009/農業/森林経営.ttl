@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>
+  <http://purl.org/linked-data/cube#order> "78";
+  <http://schema.org/name> "Forest Management"@en, "森林経営"@ja, "しんりんけいえい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "K";
+  <https://w3id.org/jp-cos/codePrefix> "74PK";
+  <https://w3id.org/jp-cos/fcode04> "UK";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UPUK";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.
+<https://w3id.org/jp-cos/74PK505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/森林経営>.

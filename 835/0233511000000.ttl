@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8350233511000000>
+  <http://purl.org/dc/terms/identifier> "8350233511000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "880"
+  ];
+  <http://schema.org/description> "ア　日常の事象や社会の事象を数理的に捉え，数学的に表現・処理し，問題を解決したり，解決の過程や結果を振り返って考察したりする活動";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A5A0A2A3A3A5A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "日常の事象や社会の事象を数理的に捉え，数学的に表現・処理し，問題を解決したり，解決の過程や結果を振り返って考察したりする活動";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/数学> .
+<https://w3id.org/jp-cos/8350233510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8350233511000000>.

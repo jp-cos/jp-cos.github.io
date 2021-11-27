@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8G00000282000000>
+  <http://purl.org/dc/terms/identifier> "8G00000282000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "196"
+  ];
+  <http://schema.org/description> "２　知的障害者である生徒に対する教育を行う特別支援学校の高等部に就学する生徒のうち，高等部の２段階に示す各教科の内容を習得し目標を達成している者については，高等学校学習指導要領第２章に示す各教科・科目，中学校学習指導要領第２章に示す各教科又は小学校学習指導要領第２章に示す各教科及び第４章に示す外国語活動の目標及び内容の一部を取り入れることができるものとする。また，主として専門学科において開設される各教科の内容を習得し目標を達成している者については，高等学校学習指導要領第３章に示す各教科・科目の目標及び内容の一部を取り入れることができるものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGA0A0A0A0A0A2A8A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> "知的障害者である生徒に対する教育を行う特別支援学校の高等部に就学する生徒のうち，高等部の2段階に示す各教科の内容を習得し目標を達成している者については，高等学校学習指導要領第2章に示す各教科・科目，中学校学習指導要領第2章に示す各教科又は小学校学習指導要領第2章に示す各教科及び第4章に示す外国語活動の目標及び内容の一部を取り入れることができるものとする。また，主として専門学科において開設される各教科の内容を習得し目標を達成している者については，高等学校学習指導要領第3章に示す各教科・科目の目標及び内容の一部を取り入れることができるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/総則> .
+<https://w3id.org/jp-cos/8B00000280000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8G00000282000000>.

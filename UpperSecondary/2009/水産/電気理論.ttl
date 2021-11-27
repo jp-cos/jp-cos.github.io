@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>
+  <http://purl.org/linked-data/cube#order> "180";
+  <http://schema.org/name> "Electrical Theory"@en, "電気理論"@ja, "でんきりろん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "B";
+  <https://w3id.org/jp-cos/codePrefix> "74TB";
+  <https://w3id.org/jp-cos/fcode04> "UB";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UTUB";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503450000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.
+<https://w3id.org/jp-cos/74TB505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/電気理論>.

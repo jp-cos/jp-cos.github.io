@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84Qa505200000000>
+  <http://purl.org/dc/terms/identifier> "84Qa505200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "5792"
+  ];
+  <http://schema.org/description> "(2) 内容の範囲や程度については，次の事項に配慮するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84Qa505210000000>, <https://w3id.org/jp-cos/84Qa505220000000>, <https://w3id.org/jp-cos/84Qa505230000000>, <https://w3id.org/jp-cos/84Qa505240000000>, <https://w3id.org/jp-cos/84Qa505250000000>, <https://w3id.org/jp-cos/84Qa505260000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UQLaA5A0A5A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/衛生・防災設備>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/工業> .
+<https://w3id.org/jp-cos/84Qa505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84Qa505200000000>.

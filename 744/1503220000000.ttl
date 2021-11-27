@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7441503220000000>
+  <http://purl.org/dc/terms/identifier> "7441503220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "526"
+  ];
+  <http://schema.org/description> """イ　現代の民主政治と政治参加の意義
+　基本的人権の保障，国民主権，平和主義と我が国の安全について理解を深めさせ，天皇の地位と役割，議会制民主主義と権力分立など日本国憲法に定める政治の在り方について国民生活とのかかわりから認識を深めさせるとともに，民主政治における個人と国家について考察させ，政治参加の重要性と民主社会において自ら生きる倫理について自覚を深めさせる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A4A1A5A0A3A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> """現代の民主政治と政治参加の意義
+ 基本的人権の保障，国民主権，平和主義と我が国の安全について理解を深めさせ，天皇の地位と役割，議会制民主主義と権力分立など日本国憲法に定める政治の在り方について国民生活とのかかわりから認識を深めさせるとともに，民主政治における個人と国家について考察させ，政治参加の重要性と民主社会において自ら生きる倫理について自覚を深めさせる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/現代社会>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/公民> .
+<https://w3id.org/jp-cos/7441503200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7441503220000000>.

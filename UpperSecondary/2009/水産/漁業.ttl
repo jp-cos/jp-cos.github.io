@@ -1,0 +1,50 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>
+  <http://purl.org/linked-data/cube#order> "175";
+  <http://schema.org/name> "Fishing Industry activity"@en, "漁業"@ja, "ぎょぎょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "74T6";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UTA6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503450000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.
+<https://w3id.org/jp-cos/74T6505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/漁業>.

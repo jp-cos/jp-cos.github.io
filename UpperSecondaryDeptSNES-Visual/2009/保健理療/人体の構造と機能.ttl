@@ -1,0 +1,48 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>
+  <http://purl.org/linked-data/cube#order> "2";
+  <http://schema.org/name> "Human Body Structure and Function"@en, "人体の構造と機能"@ja, "じんたいのこうぞうときのう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "7De2";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UDLeA2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健理療/人体の構造と機能> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503280000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.
+<https://w3id.org/jp-cos/7De2505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>.

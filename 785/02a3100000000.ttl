@@ -1,0 +1,28 @@
+<https://w3id.org/jp-cos/78502a3100000000>
+  <http://purl.org/dc/terms/identifier> "78502a3100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "174"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "163"
+  ];
+  <http://schema.org/description> "(1) 具体物があることが分かり， 見分けたり， 分類したりする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A7A8A5A0A2LaA3A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "具体物があることが分かり， 見分けたり， 分類したりする。";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/ElementaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/1>;
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数> .
+<https://w3id.org/jp-cos/78502a3000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/78502a3100000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84B1505800000000>
+  <http://purl.org/dc/terms/identifier> "84B1505800000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2237"
+  ];
+  <http://schema.org/description> "(8) 内容の「Ａ表現」及び「Ｂ鑑賞」の指導に当たっては，思考力，判断力，表現力等の育成を図るため，音や音楽及び言葉によるコミュニケーションを図り，芸術科音楽の特質に応じた言語活動を適切に位置付けられるよう指導を工夫する。なお，内容の「Ｂ鑑賞」の指導に当たっては，曲や演奏について根拠をもって批評する活動などを取り入れるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UBA1A5A0A5A8A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(8)";
+  <https://w3id.org/jp-cos/sectionText> "内容の「A表現」及び「B鑑賞」の指導に当たっては，思考力，判断力，表現力等の育成を図るため，音や音楽及び言葉によるコミュニケーションを図り，芸術科音楽の特質に応じた言語活動を適切に位置付けられるよう指導を工夫する。なお，内容の「B鑑賞」の指導に当たっては，曲や演奏について根拠をもって批評する活動などを取り入れるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽I>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術> .
+<https://w3id.org/jp-cos/84B1505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84B1505800000000>.

@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/7B00000241000000>
+  <http://purl.org/dc/terms/identifier> "7B00000241000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "92"
+  ];
+  <http://schema.org/description> """１   選択履修の趣旨を生かした適切な教育課程編成
+教育課程の編成に当たっては， 生徒の障害の状態， 特性及び進路等に応じた適切な各教科 ・科目 （知的障害者である生徒に対する教育を行う特別支援学校においては各教科。 この款及び第６款において同じ。）の履修ができるようにし，  このため，多様な各教科・科目を設け生徒が自由に選択履修することのできるよう配慮するものとする。 また， 教育課程の類型を設け，そのいずれかの類型を選択して履修させる場合においても， その類型において履修させることになっている各教科・科目以外の各教科・科目を履修させたり， 生徒が自由に選択履修することのできる各教科・科目を設けたりするものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7UBA0A0A0A0A0A2A4A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """選択履修の趣旨を生かした適切な教育課程編成
+教育課程の編成に当たっては， 生徒の障害の状態， 特性及び進路等に応じた適切な各教科 ・科目 (知的障害者である生徒に対する教育を行う特別支援学校においては各教科。 この款及び第6款において同じ。)の履修ができるようにし，  このため，多様な各教科・科目を設け生徒が自由に選択履修することのできるよう配慮するものとする。 また， 教育課程の類型を設け，そのいずれかの類型を選択して履修させる場合においても， その類型において履修させることになっている各教科・科目以外の各教科・科目を履修させたり， 生徒が自由に選択履修することのできる各教科・科目を設けたりするものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7B00000240000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7B00000241000000>.

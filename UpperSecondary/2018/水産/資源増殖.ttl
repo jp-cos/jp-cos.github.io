@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>
+  <http://purl.org/linked-data/cube#order> "179";
+  <http://schema.org/name> "Fishery Stock Enhancement"@en, "資源増殖"@ja, "しげんぞうしょく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "E";
+  <https://w3id.org/jp-cos/codePrefix> "84TE";
+  <https://w3id.org/jp-cos/fcode04> "UE";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTUE";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503163000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503164000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503171000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE503172000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.
+<https://w3id.org/jp-cos/84TE505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/資源増殖>.

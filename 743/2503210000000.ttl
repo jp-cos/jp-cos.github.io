@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7432503210000000>
+  <http://purl.org/dc/terms/identifier> "7432503210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "343"
+  ];
+  <http://schema.org/description> """ア　西アジア世界・地中海世界
+　西アジアと地中海一帯の地理的特質，オリエント文明，イラン人の活動，ギリシア・ローマ文明に触れ，西アジア世界と地中海世界の形成過程を把握させる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A3A2A5A0A3A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> """西アジア世界・地中海世界
+ 西アジアと地中海一帯の地理的特質，オリエント文明，イラン人の活動，ギリシア・ローマ文明に触れ，西アジア世界と地中海世界の形成過程を把握させる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/世界史B>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> .
+<https://w3id.org/jp-cos/7432503200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7432503210000000>.

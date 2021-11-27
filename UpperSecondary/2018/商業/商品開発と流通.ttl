@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>
+  <http://purl.org/linked-data/cube#order> "151";
+  <http://schema.org/name> "Product Development and Distribution"@en, "商品開発と流通"@ja, "しょうひんかいはつとりゅうつう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "84R6";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URA6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.
+<https://w3id.org/jp-cos/84R6505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/商品開発と流通>.

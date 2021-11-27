@@ -1,0 +1,57 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>
+  <http://purl.org/linked-data/cube#order> "109";
+  <http://schema.org/name> "Electric Energy Technology"@en, "電力技術"@ja, "でんりょくぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "L";
+  <https://w3id.org/jp-cos/codePrefix> "74QL";
+  <https://w3id.org/jp-cos/fcode04> "UL";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQUL";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503550000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL503630000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.
+<https://w3id.org/jp-cos/74QL505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/電力技術>.

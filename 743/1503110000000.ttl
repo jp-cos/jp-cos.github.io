@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7431503110000000>
+  <http://purl.org/dc/terms/identifier> "7431503110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "308"
+  ];
+  <http://schema.org/description> """ア　自然環境と歴史
+　歴史の舞台としての自然環境について，河川，海洋，草原，オアシス，森林などから適切な事例を取り上げ，地図や写真などを読み取る活動を通して，自然環境と人類の活動が相互に作用し合っていることに気付かせる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A3A1A5A0A3A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> """自然環境と歴史
+ 歴史の舞台としての自然環境について，河川，海洋，草原，オアシス，森林などから適切な事例を取り上げ，地図や写真などを読み取る活動を通して，自然環境と人類の活動が相互に作用し合っていることに気付かせる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/世界史A>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> .
+<https://w3id.org/jp-cos/7431503100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7431503110000000>.

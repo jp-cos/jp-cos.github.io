@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8310222200000000>
+  <http://purl.org/dc/terms/identifier> "8310222200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "156"
+  ];
+  <http://schema.org/description> "(2) 論理的に考える力や共感したり想像したりする力を養い，社会生活における人との関わりの中で伝え合う力を高め，自分の思いや考えを広げたり深めたりすることができるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A1A0A2A2A2A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "2";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "論理的に考える力や共感したり想像したりする力を養い，社会生活における人との関わりの中で伝え合う力を高め，自分の思いや考えを広げたり深めたりすることができるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/国語> .
+<https://w3id.org/jp-cos/8310222000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8310222200000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8435502300000000>
+  <http://purl.org/dc/terms/identifier> "8435502300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "901"
+  ];
+  <http://schema.org/description> "(3) 世界の歴史の大きな枠組みと展開に関わる諸事象について，よりよい社会の実現を視野に課題を主体的に探究しようとする態度を養うとともに，多面的・多角的な考察や深い理解を通して涵(かん)養される日本国民としての自覚，我が国の歴史に対する愛情，他国や他国の文化を尊重することの大切さについての自覚などを深める。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A3A5A5A0A2A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "世界の歴史の大きな枠組みと展開に関わる諸事象について，よりよい社会の実現を視野に課題を主体的に探究しようとする態度を養うとともに，多面的・多角的な考察や深い理解を通して涵(かん)養される日本国民としての自覚，我が国の歴史に対する愛情，他国や他国の文化を尊重することの大切さについての自覚などを深める。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/世界史探究>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史> .
+<https://w3id.org/jp-cos/8435502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8435502300000000>.

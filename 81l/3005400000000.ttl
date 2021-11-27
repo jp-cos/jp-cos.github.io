@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/81l3005400000000>
+  <http://purl.org/dc/terms/identifier> "81l3005400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "143"
+  ];
+  <http://schema.org/description> "(4) 文化や伝統に親しむ際には，正月や節句など我が国の伝統的な行事，国歌，唱歌，わらべうたや我が国の伝統的な遊びに親しんだり，異なる文化に触れる活動に親しんだりすることを通じて，社会とのつながりの意識や国際理解の意識の芽生えなどが養われるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1LlA3A0A0A5A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "文化や伝統に親しむ際には，正月や節句など我が国の伝統的な行事，国歌，唱歌，わらべうたや我が国の伝統的な遊びに親しんだり，異なる文化に触れる活動に親しんだりすることを通じて，社会とのつながりの意識や国際理解の意識の芽生えなどが養われるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Kindergarten/2017/ねらい及び内容/環境>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/ねらい及び内容> .
+<https://w3id.org/jp-cos/81l3005000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/81l3005400000000>.

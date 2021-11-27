@@ -1,0 +1,59 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>
+  <http://purl.org/linked-data/cube#order> "281";
+  <http://schema.org/name> "Comprehensive English III"@en, "総合英語III"@ja, "そうごうえいごIII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "3";
+  <https://w3id.org/jp-cos/codePrefix> "84d3";
+  <https://w3id.org/jp-cos/fcode04> "A3";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LdA3";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3502520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231210000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231220000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231310000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231320000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231410000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231420000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231500000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231510000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231520000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231600000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231610000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503231620000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3503232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.
+<https://w3id.org/jp-cos/84d3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>.

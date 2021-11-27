@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7Dn0000211000000>
+  <http://purl.org/dc/terms/identifier> "7Dn0000211000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "176"
+  ];
+  <http://schema.org/description> "(1) 生徒の視覚障害の状態等に応じて， 点字又は普通の文字による的確な理解と適切な表現の能力を一層養うこと。なお，点字を常用して学習する生徒に対しても，漢字・漢語の意味や構成等についての理解を一層促すため， 適切な指導が行われるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UDLnA0A0A0A0A2A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "生徒の視覚障害の状態等に応じて， 点字又は普通の文字による的確な理解と適切な表現の能力を一層養うこと。なお，点字を常用して学習する生徒に対しても，漢字・漢語の意味や構成等についての理解を一層促すため， 適切な指導が行われるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/各教科> .
+<https://w3id.org/jp-cos/7Dn0000210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Dn0000211000000>.

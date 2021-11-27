@@ -1,0 +1,59 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>
+  <http://purl.org/linked-data/cube#order> "63";
+  <http://schema.org/name> "Fruits Production and Management"@en, "果樹"@ja, "かじゅ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "7";
+  <https://w3id.org/jp-cos/codePrefix> "84P7";
+  <https://w3id.org/jp-cos/fcode04> "A7";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPA7";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.
+<https://w3id.org/jp-cos/84P7505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/果樹>.

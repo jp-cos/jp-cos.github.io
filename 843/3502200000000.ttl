@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8433502200000000>
+  <http://purl.org/dc/terms/identifier> "8433502200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "680"
+  ];
+  <http://schema.org/description> "(2) 近現代の歴史の変化に関わる事象の意味や意義，特色などを，時期や年代，推移，比較，相互の関連や現在とのつながりなどに着目して，概念などを活用して多面的・多角的に考察したり，歴史に見られる課題を把握し解決を視野に入れて構想したりする力や，考察，構想したことを効果的に説明したり，それらを基に議論したりする力を養う。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A3A3A5A0A2A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "近現代の歴史の変化に関わる事象の意味や意義，特色などを，時期や年代，推移，比較，相互の関連や現在とのつながりなどに着目して，概念などを活用して多面的・多角的に考察したり，歴史に見られる課題を把握し解決を視野に入れて構想したりする力や，考察，構想したことを効果的に説明したり，それらを基に議論したりする力を養う。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/歴史総合>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史> .
+<https://w3id.org/jp-cos/8433502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8433502200000000>.

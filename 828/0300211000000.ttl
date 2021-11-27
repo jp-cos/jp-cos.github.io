@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8280300211000000>
+  <http://purl.org/dc/terms/identifier> "8280300211000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2796"
+  ];
+  <http://schema.org/description> "ア　音楽によって喚起されたイメージや感情，音楽表現に対する思いや意図，音楽を聴いて感じ取ったことや想像したことなどを伝え合い共感するなど，音や音楽及び言葉によるコミュニケーションを図り，音楽科の特質に応じた言語活動を適切に位置付けられるよう指導を工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A8A0A3A0A0A2A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "音楽によって喚起されたイメージや感情，音楽表現に対する思いや意図，音楽を聴いて感じ取ったことや想像したことなどを伝え合い共感するなど，音や音楽及び言葉によるコミュニケーションを図り，音楽科の特質に応じた言語活動を適切に位置付けられるよう指導を工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/音楽> .
+<https://w3id.org/jp-cos/8280300210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8280300211000000>.

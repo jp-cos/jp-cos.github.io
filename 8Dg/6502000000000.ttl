@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/8Dg6502000000000>
+  <http://purl.org/dc/terms/identifier> "8Dg6502000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1328"
+  ];
+  <http://schema.org/description> """１　目標
+理学療法の見方・考え方を働かせ，理学療法評価学に関する実践的・体験的な学習活動を通して，理学療法を行うために必要な資質・能力を次のとおり育成することを目指す。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8Dg6502100000000>, <https://w3id.org/jp-cos/8Dg6502200000000>, <https://w3id.org/jp-cos/8Dg6502300000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8UDLgA6A5A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目標
+理学療法の見方・考え方を働かせ，理学療法評価学に関する実践的・体験的な学習活動を通して，理学療法を行うために必要な資質・能力を次のとおり育成することを目指す。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/理学療法/理学療法評価学>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/理学療法> .
+<https://w3id.org/jp-cos/8Dg6500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8Dg6502000000000>.

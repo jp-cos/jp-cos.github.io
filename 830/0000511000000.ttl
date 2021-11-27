@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8300000511000000>
+  <http://purl.org/dc/terms/identifier> "8300000511000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "78"
+  ];
+  <http://schema.org/description> "ア　各学校においては，校長の方針の下に，校務分掌に基づき教職員が適切に役割を分担しつつ，相互に連携しながら，各学校の特色を生かしたカリキュラム・マネジメントを行うよう努めるものとする。また，各学校が行う学校評価については，教育課程の編成，実施，改善が教育活動や学校運営の中核となることを踏まえつつ，カリキュラム・マネジメントと関連付けながら実施するよう留意するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A5A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "各学校においては，校長の方針の下に，校務分掌に基づき教職員が適切に役割を分担しつつ，相互に連携しながら，各学校の特色を生かしたカリキュラム・マネジメントを行うよう努めるものとする。また，各学校が行う学校評価については，教育課程の編成，実施，改善が教育活動や学校運営の中核となることを踏まえつつ，カリキュラム・マネジメントと関連付けながら実施するよう留意するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000511000000>.

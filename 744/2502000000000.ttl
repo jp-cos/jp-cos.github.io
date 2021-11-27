@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7442502000000000>
+  <http://purl.org/dc/terms/identifier> "7442502000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "550"
+  ];
+  <http://schema.org/description> """１　目標
+　人間尊重の精神と生命に対する畏《い》敬の念に基づいて，青年期における自己形成と人間としての在り方生き方について理解と思索を深めさせるとともに，人格の形成に努める実践的意欲を高め，他者と共に生きる主体としての自己の確立を促し，良識ある公民として必要な能力と態度を育てる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A4A2A5A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+ 人間尊重の精神と生命に対する畏《い》敬の念に基づいて，青年期における自己形成と人間としての在り方生き方について理解と思索を深めさせるとともに，人格の形成に努める実践的意欲を高め，他者と共に生きる主体としての自己の確立を促し，良識ある公民として必要な能力と態度を育てる。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/公民> .
+<https://w3id.org/jp-cos/7442500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7442502000000000>.

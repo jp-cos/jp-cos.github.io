@@ -1,0 +1,55 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>
+  <http://purl.org/linked-data/cube#order> "185";
+  <http://schema.org/name> "Fishery Marketing"@en, "水産流通"@ja, "すいさんりゅうつう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "K";
+  <https://w3id.org/jp-cos/codePrefix> "84TK";
+  <https://w3id.org/jp-cos/fcode04> "UK";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTUK";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.
+<https://w3id.org/jp-cos/84TK505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産流通>.

@@ -1,0 +1,50 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>
+  <http://purl.org/linked-data/cube#order> "137";
+  <http://schema.org/name> "Material Processing"@en, "材料加工"@ja, "ざいりょうかこう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "n";
+  <https://w3id.org/jp-cos/codePrefix> "74Qn";
+  <https://w3id.org/jp-cos/fcode04> "Ln";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQLn";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.
+<https://w3id.org/jp-cos/74Qn505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/材料加工>.

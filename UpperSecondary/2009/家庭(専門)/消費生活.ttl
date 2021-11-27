@@ -1,0 +1,49 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>
+  <http://purl.org/linked-data/cube#order> "195";
+  <http://schema.org/name> "Consumer’s Life"@en, "消費生活"@ja, "しょうひせいかつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "4";
+  <https://w3id.org/jp-cos/codePrefix> "74U4";
+  <https://w3id.org/jp-cos/fcode04> "A4";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UUA4";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.
+<https://w3id.org/jp-cos/74U4505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/消費生活>.

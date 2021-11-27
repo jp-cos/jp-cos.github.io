@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000251200000>
+  <http://purl.org/dc/terms/identifier> "8B00000251200000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "165"
+  ];
+  <http://schema.org/description> "(2) 生徒が，自己の存在感を実感しながら，よりよい人間関係を形成し，有意義で充実した学校生活を送る中で，現在及び将来における自己実現を図っていくことができるよう，生徒理解を深め，学習指導と関連付けながら，生徒指導の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A5A1A2A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "生徒が，自己の存在感を実感しながら，よりよい人間関係を形成し，有意義で充実した学校生活を送る中で，現在及び将来における自己実現を図っていくことができるよう，生徒理解を深め，学習指導と関連付けながら，生徒指導の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000251000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000251200000>.

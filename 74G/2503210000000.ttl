@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/74G2503210000000>
+  <http://purl.org/dc/terms/identifier> "74G2503210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1355"
+  ];
+  <http://schema.org/description> """ア　生涯の各段階における健康
+　　生涯にわたって健康を保持増進するには，生涯の各段階の健康課題に応じた自己の健康管理及び環境づくりがかかわっていること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UGA2A5A0A3A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> """生涯の各段階における健康
+  生涯にわたって健康を保持増進するには，生涯の各段階の健康課題に応じた自己の健康管理及び環境づくりがかかわっていること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/保健体育/保健>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/保健体育> .
+<https://w3id.org/jp-cos/74G2503200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74G2503210000000>.

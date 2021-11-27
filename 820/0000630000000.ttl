@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8200000630000000>
+  <http://purl.org/dc/terms/identifier> "8200000630000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "90"
+  ];
+  <http://schema.org/description> "３　学校や学級内の人間関係や環境を整えるとともに，集団宿泊活動やボランティア活動，自然体験活動，地域の行事への参加などの豊かな体験を充実すること。また，道徳教育の指導内容が，児童の日常生活に生かされるようにすること。その際，いじめの防止や安全の確保等にも資することとなるよう留意すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A0A0A0A0A0A6A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "学校や学級内の人間関係や環境を整えるとともに，集団宿泊活動やボランティア活動，自然体験活動，地域の行事への参加などの豊かな体験を充実すること。また，道徳教育の指導内容が，児童の日常生活に生かされるようにすること。その際，いじめの防止や安全の確保等にも資することとなるよう留意すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/総則> .
+<https://w3id.org/jp-cos/8200000600000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8200000630000000>.

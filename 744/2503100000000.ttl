@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7442503100000000>
+  <http://purl.org/dc/terms/identifier> "7442503100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "552"
+  ];
+  <http://schema.org/description> """(1) 現代に生きる自己の課題
+　自らの体験や悩みを振り返ることを通して，青年期の意義と課題を理解させ，豊かな自己形成に向けて，他者と共に生きる自己の生き方について考えさせるとともに，自己の生き方が現代の倫理的課題と結び付いていることをとらえさせる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A4A2A5A0A3A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> """現代に生きる自己の課題
+ 自らの体験や悩みを振り返ることを通して，青年期の意義と課題を理解させ，豊かな自己形成に向けて，他者と共に生きる自己の生き方について考えさせるとともに，自己の生き方が現代の倫理的課題と結び付いていることをとらえさせる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/公民> .
+<https://w3id.org/jp-cos/7442503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7442503100000000>.

@@ -1,0 +1,36 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>
+  <http://purl.org/linked-data/cube#order> "93";
+  <http://schema.org/name> "English for Industrial Technology"@en, "工業技術英語"@ja, "こうぎょうぎじゅつえいご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "7";
+  <https://w3id.org/jp-cos/codePrefix> "84Q7";
+  <https://w3id.org/jp-cos/fcode04> "A7";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQA7";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.
+<https://w3id.org/jp-cos/84Q7505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術英語>.

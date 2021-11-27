@@ -1,0 +1,30 @@
+<https://w3id.org/jp-cos/7320300130000000>
+  <http://purl.org/dc/terms/identifier> "7320300130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "417"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "411"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "411"
+  ];
+  <http://schema.org/description> "(3) 知識に偏り過ぎた指導にならないようにするため，基本的な事項・事柄を厳選して指導内容を構成するものとし，基本的な内容が確実に身に付くよう指導すること。また，生徒の主体的な学習を促し，課題を解決する能力を一層培うため，各分野において，第２の内容の範囲や程度に十分配慮しつつ事項を再構成するなどの工夫をして，適切な課題を設けて行う学習の充実を図るようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A2A0A3A0A0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "知識に偏り過ぎた指導にならないようにするため，基本的な事項・事柄を厳選して指導内容を構成するものとし，基本的な内容が確実に身に付くよう指導すること。また，生徒の主体的な学習を促し，課題を解決する能力を一層培うため，各分野において，第2の内容の範囲や程度に十分配慮しつつ事項を再構成するなどの工夫をして，適切な課題を設けて行う学習の充実を図るようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/社会> .
+<https://w3id.org/jp-cos/7320300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7320300130000000>.

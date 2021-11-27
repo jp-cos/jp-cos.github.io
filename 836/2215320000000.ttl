@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8362215320000000>
+  <http://purl.org/dc/terms/identifier> "8362215320000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1119"
+  ];
+  <http://schema.org/description> "イ　アの(イ)の㋐については，花のつくりを中心に扱い，種子植物が被子植物と裸子植物に分類できることを扱うこと。その際，胚《はい》珠が種子になることにも触れること。また，被子植物が単子葉類と双子葉類に分類できることについては，葉のつくりを中心に扱うこと。なお，種子をつくらない植物が胞子をつくることにも触れること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A6A2A2A1A5A3A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "アの(イ)の㋐については，花のつくりを中心に扱い，種子植物が被子植物と裸子植物に分類できることを扱うこと。その際，胚《はい》珠が種子になることにも触れること。また，被子植物が単子葉類と双子葉類に分類できることについては，葉のつくりを中心に扱うこと。なお，種子をつくらない植物が胞子をつくることにも触れること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/理科/第2分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/理科> .
+<https://w3id.org/jp-cos/8362215300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8362215320000000>.

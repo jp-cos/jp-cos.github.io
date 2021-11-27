@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84X0000000000000>
+  <http://purl.org/dc/terms/identifier> "84X0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9341"
+  ];
+  <http://schema.org/description> "第７節　情　報";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84X0100000000000>, <https://w3id.org/jp-cos/84X0300000000000>, <https://w3id.org/jp-cos/84X0500000000000>, <https://w3id.org/jp-cos/84X1500000000000>, <https://w3id.org/jp-cos/84X2500000000000>, <https://w3id.org/jp-cos/84X3500000000000>, <https://w3id.org/jp-cos/84X4500000000000>, <https://w3id.org/jp-cos/84X5500000000000>, <https://w3id.org/jp-cos/84X6500000000000>, <https://w3id.org/jp-cos/84X7500000000000>, <https://w3id.org/jp-cos/84X8500000000000>, <https://w3id.org/jp-cos/84X9500000000000>, <https://w3id.org/jp-cos/84XA500000000000>, <https://w3id.org/jp-cos/84XB500000000000>, <https://w3id.org/jp-cos/84XC500000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UXA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第7節";
+  <https://w3id.org/jp-cos/sectionText> "情 報";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)> .
+<https://w3id.org/jp-cos/84n0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84X0000000000000>.

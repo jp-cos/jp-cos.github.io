@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74U8505240000000>
+  <http://purl.org/dc/terms/identifier> "74U8505240000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6434"
+  ];
+  <http://schema.org/description> "エ　内容の(4)のアについては，庭などの外部空間や住居と自然環境や社会環境とのかかわりなどについて扱うこと。イについては，子どもや高齢者などが安全に生活するための住空間の構成や維持管理などについて扱うこと。また，ウについては，家族の構成や状況の変化に応じた住居の間取りの変更やバリアフリーな住空間へのリフォームを扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UUA8A5A0A5A2A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(4)のアについては，庭などの外部空間や住居と自然環境や社会環境とのかかわりなどについて扱うこと。イについては，子どもや高齢者などが安全に生活するための住空間の構成や維持管理などについて扱うこと。また，ウについては，家族の構成や状況の変化に応じた住居の間取りの変更やバリアフリーな住空間へのリフォームを扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/リビングデザイン>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> .
+<https://w3id.org/jp-cos/74U8505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74U8505240000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/88L0006210000000>
+  <http://purl.org/dc/terms/identifier> "88L0006210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2264"
+  ];
+  <http://schema.org/description> "ア  単元や題材など，内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，児童の主体的・対話的で深い学びの実現を図るよう  にすること。その際，具体的な課題等を設定し，児童が外国語によるコミュ  ニケーションにおける見方・考え方を働かせ，コミュニケーションのよさ  を感じながら活動を行い，英語の音声や語などの知識を，二つの領域にお  ける実際のコミュニケーションにおいて活用する学習の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8A8ULA0A0A0A6A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "単元や題材など，内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，児童の主体的・対話的で深い学びの実現を図るよう  にすること。その際，具体的な課題等を設定し，児童が外国語によるコミュ  ニケーションにおける見方・考え方を働かせ，コミュニケーションのよさ  を感じながら活動を行い，英語の音声や語などの知識を，二つの領域にお  ける実際のコミュニケーションにおいて活用する学習の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動> .
+<https://w3id.org/jp-cos/88L0006200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/88L0006210000000>.

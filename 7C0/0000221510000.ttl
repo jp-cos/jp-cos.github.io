@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7C00000221510000>
+  <http://purl.org/dc/terms/identifier> "7C00000221510000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "40"
+  ];
+  <http://schema.org/description> """(1)学校においては，地域，学校及び生徒の実態，学科の特色等に応じ，特色ある教育課程の編成に資するよう， 上記２及び３の表に掲げる教科以外の教科 （以下この項及び第５款第１の２において「学校設定教科」 という。）及び当該教科に関する科目を設けることができる。
+この場合において， 学校設定教科及び当該教科に関する科目の名称，  目標， 内容， 単位数等については， 高等部における教育の目標及びその水準の維持等に十分配慮し， 各学校の定めるところによるものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UCA0A0A0A0A0A2A2A1A5A1A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> """学校においては，地域，学校及び生徒の実態，学科の特色等に応じ，特色ある教育課程の編成に資するよう， 上記2及び3の表に掲げる教科以外の教科 (以下この項及び第5款第1の2において「学校設定教科」 という。)及び当該教科に関する科目を設けることができる。
+この場合において， 学校設定教科及び当該教科に関する科目の名称，  目標， 内容， 単位数等については， 高等部における教育の目標及びその水準の維持等に十分配慮し， 各学校の定めるところによるものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2009/総則> .
+<https://w3id.org/jp-cos/7C00000221500000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7C00000221510000>.

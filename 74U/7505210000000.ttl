@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74U7505210000000>
+  <http://purl.org/dc/terms/identifier> "74U7505210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6403"
+  ];
+  <http://schema.org/description> "ア　内容の(1)のアについては，健康の概念と健康状態に影響を及ぼす要因などについて扱うこと。イについては，ライフステージごとの健康問題の特徴を踏まえ，生活習慣病の予防など高齢期に至るまでの健康管理の必要性について扱うこと。ウについては，体温測定や応急手当などの基礎的な内容を扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UUA7A5A0A5A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "内容の(1)のアについては，健康の概念と健康状態に影響を及ぼす要因などについて扱うこと。イについては，ライフステージごとの健康問題の特徴を踏まえ，生活習慣病の予防など高齢期に至るまでの健康管理の必要性について扱うこと。ウについては，体温測定や応急手当などの基礎的な内容を扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/生活と福祉>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> .
+<https://w3id.org/jp-cos/74U7505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74U7505210000000>.

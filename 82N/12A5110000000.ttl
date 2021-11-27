@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/82N12A5110000000>
+  <http://purl.org/dc/terms/identifier> "82N12A5110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3706"
+  ];
+  <http://schema.org/description> """〔第１学年及び第２学年〕
+話合いの進め方に沿って，自分の意見を発表したり，他者の意見をよく聞いたりして，合意形成して実践することのよさを理解すること。基本的な生活習慣や，約束やきまりを守ることの大切さを理解して行動し，生活をよくするための目標を決めて実行すること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UNA1A2UAA5A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionText> """〔第1学年及び第2学年〕
+話合いの進め方に沿って，自分の意見を発表したり，他者の意見をよく聞いたりして，合意形成して実践することのよさを理解すること。基本的な生活習慣や，約束やきまりを守ることの大切さを理解して行動し，生活をよくするための目標を決めて実行すること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Elementary/2017/特別活動/学級活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/特別活動> .
+<https://w3id.org/jp-cos/82N1205100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82N12A5110000000>.

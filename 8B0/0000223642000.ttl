@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000223642000>
+  <http://purl.org/dc/terms/identifier> "8B00000223642000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "132"
+  ];
+  <http://schema.org/description> "(イ) 農業，水産及び家庭に関する各教科・科目の指導に当たっては，ホームプロジェクトなどの活動を活用して，学習の効果を上げるよう留意すること。この場合，ホームプロジェクトについては，適切な授業時数をこれに充てることができること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A2A3A6A4A2A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "農業，水産及び家庭に関する各教科・科目の指導に当たっては，ホームプロジェクトなどの活動を活用して，学習の効果を上げるよう留意すること。この場合，ホームプロジェクトについては，適切な授業時数をこれに充てることができること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000223640000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000223642000>.

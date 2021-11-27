@@ -1,0 +1,52 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>
+  <http://purl.org/linked-data/cube#order> "27";
+  <http://schema.org/name> "Basic Biology"@en, "生物基礎"@ja, "せいぶつきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "7466";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A6A6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/理科> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503311000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503312000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503321000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503322000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.
+<https://w3id.org/jp-cos/7466505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物基礎>.

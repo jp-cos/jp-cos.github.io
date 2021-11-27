@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/8441503200000000>
+  <http://purl.org/dc/terms/identifier> "8441503200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1065"
+  ];
+  <http://schema.org/description> """Ｂ　自立した主体としてよりよい社会の形成に参画する私たち
+自立した主体としてよりよい社会の形成に参画することに向けて，現実社会の諸課題に関わる具体的な主題を設定し，幸福，正義，公正などに着目して，他者と協働して主題を追究したり解決したりする活動を通して，次の事項を身に付けることができるよう指導する。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8441503210000000>, <https://w3id.org/jp-cos/8441503220000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A1A5A0A3A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "B";
+  <https://w3id.org/jp-cos/sectionText> """自立した主体としてよりよい社会の形成に参画する私たち
+自立した主体としてよりよい社会の形成に参画することに向けて，現実社会の諸課題に関わる具体的な主題を設定し，幸福，正義，公正などに着目して，他者と協働して主題を追究したり解決したりする活動を通して，次の事項を身に付けることができるよう指導する。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/公共>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8441503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8441503200000000>.

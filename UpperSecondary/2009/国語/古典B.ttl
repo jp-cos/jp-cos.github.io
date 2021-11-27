@@ -1,0 +1,38 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>
+  <http://purl.org/linked-data/cube#order> "6";
+  <http://schema.org/name> "Classics B"@en, "古典B"@ja, "こてんB"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "7416";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A1A6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.
+<https://w3id.org/jp-cos/7416505420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/国語/古典B>.

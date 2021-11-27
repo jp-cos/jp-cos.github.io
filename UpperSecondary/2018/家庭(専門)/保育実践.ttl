@@ -1,0 +1,42 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>
+  <http://purl.org/linked-data/cube#order> "193";
+  <http://schema.org/name> "Practical Childcare"@en, "保育実践"@ja, "ほいくじっせん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "84U6";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UUA6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.
+<https://w3id.org/jp-cos/84U6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/保育実践>.

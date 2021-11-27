@@ -1,0 +1,59 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>
+  <http://purl.org/linked-data/cube#order> "73";
+  <http://schema.org/name> "Food Microbiology"@en, "食品微生物"@ja, "しょくひんびせいぶつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "H";
+  <https://w3id.org/jp-cos/codePrefix> "84PH";
+  <https://w3id.org/jp-cos/fcode04> "UH";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUH";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.
+<https://w3id.org/jp-cos/84PH505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品微生物>.

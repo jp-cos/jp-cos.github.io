@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8362235830000000>
+  <http://purl.org/dc/terms/identifier> "8362235830000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1146"
+  ];
+  <http://schema.org/description> "ウ　アの(イ)の㋑の「惑星」については，大きさ，大気組成，表面温度，衛星の存在などを取り上げること。その際，地球には生命を支える条件が備わっていることにも触れること。「恒星」については，自ら光を放つことや太陽もその一つであることも扱うこと。その際，恒星の集団としての銀河系の存在にも触れること。「太陽系の構造」については，惑星以外の天体が存在することにも触れること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A6A2A2A3A5A8A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "アの(イ)の㋑の「惑星」については，大きさ，大気組成，表面温度，衛星の存在などを取り上げること。その際，地球には生命を支える条件が備わっていることにも触れること。「恒星」については，自ら光を放つことや太陽もその一つであることも扱うこと。その際，恒星の集団としての銀河系の存在にも触れること。「太陽系の構造」については，惑星以外の天体が存在することにも触れること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/理科/第2分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/理科> .
+<https://w3id.org/jp-cos/8362235800000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8362235830000000>.

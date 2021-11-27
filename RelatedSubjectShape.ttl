@@ -1,0 +1,10 @@
+<https://w3id.org/jp-cos/RelatedSubjectShape>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>;
+    <http://www.w3.org/ns/shacl#name> "Related"@en, "関係がある"@ja;
+    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/relation>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/RelatedSubject> .

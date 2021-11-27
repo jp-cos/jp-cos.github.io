@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8400000243000000>
+  <http://purl.org/dc/terms/identifier> "8400000243000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "103"
+  ];
+  <http://schema.org/description> "(3) 大学や専門学校等における教育や社会的・職業的自立，生涯にわたる学習のために，高等学校卒業以降の教育や職業との円滑な接続が図られるよう，関連する教育機関や企業等との連携により，卒業後の進路に求められる資質・能力を着実に育成することができるよう工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A4A3A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "大学や専門学校等における教育や社会的・職業的自立，生涯にわたる学習のために，高等学校卒業以降の教育や職業との円滑な接続が図られるよう，関連する教育機関や企業等との連携により，卒業後の進路に求められる資質・能力を着実に育成することができるよう工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000240000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000243000000>.

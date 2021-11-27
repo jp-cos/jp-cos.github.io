@@ -1,0 +1,62 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>
+  <http://purl.org/linked-data/cube#order> "146";
+  <http://schema.org/name> "Business Fundamentals"@en, "ビジネス基礎"@ja, "びじねすきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "84R1";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URA1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503155000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503156000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.
+<https://w3id.org/jp-cos/84R1505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス基礎>.

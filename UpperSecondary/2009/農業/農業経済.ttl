@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>
+  <http://purl.org/linked-data/cube#order> "75";
+  <http://schema.org/name> "Agricultural Economics"@en, "農業経済"@ja, "のうぎょうけいざい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "H";
+  <https://w3id.org/jp-cos/codePrefix> "74PH";
+  <https://w3id.org/jp-cos/fcode04> "UH";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UPUH";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503700000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503710000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH503720000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.
+<https://w3id.org/jp-cos/74PH505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業経済>.

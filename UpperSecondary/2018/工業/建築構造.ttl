@@ -1,0 +1,45 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>
+  <http://purl.org/linked-data/cube#order> "115";
+  <http://schema.org/name> "Architectural Structure"@en, "建築構造"@ja, "けんちくこうぞう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "T";
+  <https://w3id.org/jp-cos/codePrefix> "84QT";
+  <https://w3id.org/jp-cos/fcode04> "UT";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUT";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503171000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT503172000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.
+<https://w3id.org/jp-cos/84QT505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/建築構造>.

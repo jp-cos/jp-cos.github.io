@@ -1,0 +1,21 @@
+<https://w3id.org/jp-cos/74N0000000000000>
+  <http://purl.org/dc/terms/identifier> "74N0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8183"
+  ];
+  <http://schema.org/description> "第５章　特 別 活 動";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74N0100000000000>, <https://w3id.org/jp-cos/74N0200000000000>, <https://w3id.org/jp-cos/74N0300000000000>, <https://w3id.org/jp-cos/74N1200000000000>, <https://w3id.org/jp-cos/74N4200000000000>, <https://w3id.org/jp-cos/74N5200000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UNA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動> .
+<https://w3id.org/jp-cos/74n0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74N0000000000000>.

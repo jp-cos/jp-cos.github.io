@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84U3505220000000>
+  <http://purl.org/dc/terms/identifier> "84U3505220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8293"
+  ];
+  <http://schema.org/description> "イ　〔指導項目〕の(2)については，個人のプライバシーや著作権など知的財産の保護，収集した情報の管理，発信する情報に対する責任などの情報モラル及び情報通信ネットワークにおけるセキュリティ管理の重要性を扱い，関連する法規等についても触れること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UUA3A5A0A5A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "〔指導項目〕の(2)については，個人のプライバシーや著作権など知的財産の保護，収集した情報の管理，発信する情報に対する責任などの情報モラル及び情報通信ネットワークにおけるセキュリティ管理の重要性を扱い，関連する法規等についても触れること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/生活産業情報>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> .
+<https://w3id.org/jp-cos/84U3505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84U3505220000000>.

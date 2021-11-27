@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/82203L0210000000>
+  <http://purl.org/dc/terms/identifier> "82203L0210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1652"
+  ];
+  <http://schema.org/description> "(1) 各学校においては，地域の実態を生かし，児童が興味・関心をもって学習に取り組めるようにするとともに，観察や見学，聞き取りなどの調査活動を含む具体的な体験を伴う学習やそれに基づく表現活動の一層の充実を図ること。また，社会的事象の特色や意味，社会に見られる課題などについて，多角的に考えたことや選択・判断したことを論理的に説明したり，立場や根拠を明確にして議論したりするなど言語活動に関わる学習を一層重視すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A2A0A3ULA0A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3", "4", "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "各学校においては，地域の実態を生かし，児童が興味・関心をもって学習に取り組めるようにするとともに，観察や見学，聞き取りなどの調査活動を含む具体的な体験を伴う学習やそれに基づく表現活動の一層の充実を図ること。また，社会的事象の特色や意味，社会に見られる課題などについて，多角的に考えたことや選択・判断したことを論理的に説明したり，立場や根拠を明確にして議論したりするなど言語活動に関わる学習を一層重視すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/82203L0200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82203L0210000000>.

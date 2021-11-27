@@ -1,0 +1,36 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>
+  <http://purl.org/linked-data/cube#order> "246";
+  <http://schema.org/name> "Physics for Science and Mathematics Course"@en, "理数物理"@ja, "りすうぶつり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "4";
+  <https://w3id.org/jp-cos/codePrefix> "84Z4";
+  <https://w3id.org/jp-cos/fcode04> "A4";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UZA4";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.
+<https://w3id.org/jp-cos/84Z4505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理数(専門)/理数物理>.

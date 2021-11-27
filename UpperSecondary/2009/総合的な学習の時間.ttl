@@ -1,0 +1,39 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>
+  <http://purl.org/linked-data/cube#order> "27";
+  <http://schema.org/name> "the Period for Integrated Studies"@en, "総合的な学習の時間"@ja, "そうごうてきながくしゅうのじかん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "M";
+  <https://w3id.org/jp-cos/codePrefix> "74M";
+  <https://w3id.org/jp-cos/fcode03> "UM";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UM";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300150000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300160000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300170000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300180000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300190000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300250000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.
+<https://w3id.org/jp-cos/74M0300260000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総合的な学習の時間>.

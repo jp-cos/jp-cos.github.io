@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7400000553000000>
+  <http://purl.org/dc/terms/identifier> "7400000553000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "90"
+  ];
+  <http://schema.org/description> "(3) 教師と生徒の信頼関係及び生徒相互の好ましい人間関係を育てるとともに生徒理解を深め，生徒が主体的に判断，行動し積極的に自己を生かしていくことができるよう，生徒指導の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A0A0A0A0A0A5A5A3A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "教師と生徒の信頼関係及び生徒相互の好ましい人間関係を育てるとともに生徒理解を深め，生徒が主体的に判断，行動し積極的に自己を生かしていくことができるよう，生徒指導の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総則> .
+<https://w3id.org/jp-cos/7400000550000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000553000000>.

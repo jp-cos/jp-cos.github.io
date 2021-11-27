@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/7DfA505230000000>
+  <http://purl.org/dc/terms/identifier> "7DfA505230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "978"
+  ];
+  <http://schema.org/description> "ウ   内容の(3)については， 理療の現場における情報の意義や役割，  コンピュータや医療用電子機器の活用の概要について扱うこと。 アについては， 医療用電子機器など測定機器の使用について扱うこと。 イについては， 理療の現場における個人情報の管理の実際と重要性について扱うこと。 ウについては， 理療援助を適切に行うための情報システムの活用を具体的に扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UDLfUAA5A0A5A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(3)については， 理療の現場における情報の意義や役割，  コンピュータや医療用電子機器の活用の概要について扱うこと。 アについては， 医療用電子機器など測定機器の使用について扱うこと。 イについては， 理療の現場における個人情報の管理の実際と重要性について扱うこと。 ウについては， 理療援助を適切に行うための情報システムの活用を具体的に扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療> .
+<https://w3id.org/jp-cos/7DfA505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7DfA505230000000>.

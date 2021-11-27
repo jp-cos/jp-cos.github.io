@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8Gn0300400000000>
+  <http://purl.org/dc/terms/identifier> "8Gn0300400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "4213"
+  ];
+  <http://schema.org/description> "４　第１章第２節第１款の２の(2)に示す道徳教育の目標に基づき，道徳科などとの関連を考慮しながら，第３章特別の教科道徳に示す内容について，各教科の特質に応じて適切な指導をするものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGLnA0A3A0A0A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "第1章第2節第1款の2の(2)に示す道徳教育の目標に基づき，道徳科などとの関連を考慮しながら，第3章特別の教科道徳に示す内容について，各教科の特質に応じて適切な指導をするものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/各教科> .
+<https://w3id.org/jp-cos/8Gn0300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8Gn0300400000000>.

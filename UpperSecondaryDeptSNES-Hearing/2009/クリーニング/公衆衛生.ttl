@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>
+  <http://purl.org/linked-data/cube#order> "55";
+  <http://schema.org/name> "Public Health"@en, "公衆衛生"@ja, "こうしゅうえいせい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "7Ej2";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UELjA2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/クリーニング/公衆衛生> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.
+<https://w3id.org/jp-cos/7Ej2505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/公衆衛生>.

@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/77n0000150000000>
+  <http://purl.org/dc/terms/identifier> "77n0000150000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "88"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "77"
+  ];
+  <http://schema.org/description> "(5) 児童が空間や時間の概念を活用して場の状況や活動の過程等を的確に把握できるよう配慮し， 見通しをもって意欲的な学習活動を展開できるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7A7LnA0A0A0A0A1A5A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> "児童が空間や時間の概念を活用して場の状況や活動の過程等を的確に把握できるよう配慮し， 見通しをもって意欲的な学習活動を展開できるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2009/各教科(小学部)> .
+<https://w3id.org/jp-cos/77n0000100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/77n0000150000000>.

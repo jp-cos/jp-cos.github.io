@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7GK0300300000000>
+  <http://purl.org/dc/terms/identifier> "7GK0300300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2478"
+  ];
+  <http://schema.org/description> "３   道徳教育を進めるに当たっては， 学校や学級内の人間関係及び環境を整えるとともに， 学校の道徳教育の指導内容が生徒の日常生活に生かされるようにするものとする。 また， 保護者や地域の人々の積極的な参加や協力を得るなど相互の連携を図るよう配慮するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A7UGUKA0A3A0A0A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "道徳教育を進めるに当たっては， 学校や学級内の人間関係及び環境を整えるとともに， 学校の道徳教育の指導内容が生徒の日常生活に生かされるようにするものとする。 また， 保護者や地域の人々の積極的な参加や協力を得るなど相互の連携を図るよう配慮するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳> .
+<https://w3id.org/jp-cos/7GK0300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7GK0300300000000>.

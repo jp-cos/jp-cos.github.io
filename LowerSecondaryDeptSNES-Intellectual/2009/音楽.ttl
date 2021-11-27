@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>
+  <http://purl.org/linked-data/cube#order> "12";
+  <http://schema.org/name> "Music"@en, "音楽"@ja, "おんがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "8";
+  <https://w3id.org/jp-cos/codePrefix> "7A8";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UAA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/音楽> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.
+<https://w3id.org/jp-cos/7A80203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/音楽>.

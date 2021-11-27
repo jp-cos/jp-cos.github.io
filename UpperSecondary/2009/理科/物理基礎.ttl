@@ -1,0 +1,56 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>
+  <http://purl.org/linked-data/cube#order> "23";
+  <http://schema.org/name> "Basic Physics"@en, "物理基礎"@ja, "ぶつりきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "7462";
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A6A2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/理科> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503241000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503251000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462503260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.
+<https://w3id.org/jp-cos/7462505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/物理基礎>.

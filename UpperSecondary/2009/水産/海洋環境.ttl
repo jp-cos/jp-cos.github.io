@@ -1,0 +1,45 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>
+  <http://purl.org/linked-data/cube#order> "185";
+  <http://schema.org/name> "Ocean Environment"@en, "海洋環境"@ja, "かいようかんきょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "G";
+  <https://w3id.org/jp-cos/codePrefix> "74TG";
+  <https://w3id.org/jp-cos/fcode04> "UG";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UTUG";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.
+<https://w3id.org/jp-cos/74TG505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/海洋環境>.

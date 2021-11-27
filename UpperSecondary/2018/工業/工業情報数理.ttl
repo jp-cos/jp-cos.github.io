@@ -1,0 +1,47 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>
+  <http://purl.org/linked-data/cube#order> "91";
+  <http://schema.org/name> "Information Technology and Mathematical Science in Industry"@en, "工業情報数理"@ja, "こうぎょうじょうほうすうり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "5";
+  <https://w3id.org/jp-cos/codePrefix> "84Q5";
+  <https://w3id.org/jp-cos/fcode04> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQA5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.
+<https://w3id.org/jp-cos/84Q5505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業情報数理>.

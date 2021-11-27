@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8434505230000000>
+  <http://purl.org/dc/terms/identifier> "8434505230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "891"
+  ];
+  <http://schema.org/description> "ウ　内容のＡ，Ｂ，Ｃ及びＤのそれぞれの(2)については，政治や経済，社会，生活や文化，国際環境など，各時代の特色を生徒が読み取ることができる複数の適切な資料を活用し，それぞれの(1)で表現した問いを踏まえ，中学校社会科歴史的分野における学習の成果を活用するなどして，対象となる時代の特色について，生徒が仮説を立てることができるよう指導を工夫すること。その際，様々な歴史資料の特性に着目し，諸資料に基づいて歴史が叙述されていることを踏まえて多面的・多角的に考察できるよう，資料を活用する技能を高める指導を工夫すること。また，デジタル化された資料や，地域の遺構や遺物，歴史的な地形，地割や町並みの特徴などを積極的に活用し，具体的に学習できるよう工夫するとともに，歴史資料や遺構の保存・保全などの努力が図られていることに気付くようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A3A4A5A0A5A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "内容のA，B，C及びDのそれぞれの(2)については，政治や経済，社会，生活や文化，国際環境など，各時代の特色を生徒が読み取ることができる複数の適切な資料を活用し，それぞれの(1)で表現した問いを踏まえ，中学校社会科歴史的分野における学習の成果を活用するなどして，対象となる時代の特色について，生徒が仮説を立てることができるよう指導を工夫すること。その際，様々な歴史資料の特性に着目し，諸資料に基づいて歴史が叙述されていることを踏まえて多面的・多角的に考察できるよう，資料を活用する技能を高める指導を工夫すること。また，デジタル化された資料や，地域の遺構や遺物，歴史的な地形，地割や町並みの特徴などを積極的に活用し，具体的に学習できるよう工夫するとともに，歴史資料や遺構の保存・保全などの努力が図られていることに気付くようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/日本史探究>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史> .
+<https://w3id.org/jp-cos/8434505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8434505230000000>.

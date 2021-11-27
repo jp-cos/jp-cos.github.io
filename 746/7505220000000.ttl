@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/7467505220000000>
+  <http://purl.org/dc/terms/identifier> "7467505220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1140"
+  ];
+  <http://schema.org/description> """イ　内容の(1)のアの(ア)については，生体膜を扱い，細胞骨格にも触れること。(イ)については，物質輸送，情報伝達などにかかわるタンパク質を扱うこと。また，酵素については，その働きとタンパク質の立体構造との関係を扱うこと。
+　イの(ア)については，解糖系，クエン酸回路及び電子伝達系を扱うこと。発酵にも触れること。(イ)については，光化学系，電子伝達系及びカルビン・べンソン回路を扱うこと。また，光合成細菌と化学合成細菌にも触れること。(ウ)については，有機物にアミノ基が導入されてアミノ酸がつくられることにも触れること。
+　ウの(ア)の「遺伝子の発現の仕組み」については，転写，スプライシング及び翻訳を扱うこと。「遺伝情報の変化」については，同一種内でのゲノムの多様性にも触れること。(イ)については，転写レベルの調節を扱うこと。(ウ)については，制限酵素，ベクター及び遺伝子の増幅技術に触れること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A6A7A5A0A5A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> """内容の(1)のアの(ア)については，生体膜を扱い，細胞骨格にも触れること。(イ)については，物質輸送，情報伝達などにかかわるタンパク質を扱うこと。また，酵素については，その働きとタンパク質の立体構造との関係を扱うこと。
+ イの(ア)については，解糖系，クエン酸回路及び電子伝達系を扱うこと。発酵にも触れること。(イ)については，光化学系，電子伝達系及びカルビン・べンソン回路を扱うこと。また，光合成細菌と化学合成細菌にも触れること。(ウ)については，有機物にアミノ基が導入されてアミノ酸がつくられることにも触れること。
+ ウの(ア)の「遺伝子の発現の仕組み」については，転写，スプライシング及び翻訳を扱うこと。「遺伝情報の変化」については，同一種内でのゲノムの多様性にも触れること。(イ)については，転写レベルの調節を扱うこと。(ウ)については，制限酵素，ベクター及び遺伝子の増幅技術に触れること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/生物>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理科> .
+<https://w3id.org/jp-cos/7467505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7467505220000000>.

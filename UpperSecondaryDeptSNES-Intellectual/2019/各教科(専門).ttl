@@ -1,0 +1,14 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/各教科(専門)>
+  <http://purl.org/linked-data/cube#order> "36";
+  <http://schema.org/name> "Subjects (Special)"@en, "各教科(専門)"@ja, "かくきょうか(せんもん)"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "o";
+  <https://w3id.org/jp-cos/codePrefix> "8Go";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "Lo";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UGLo";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/各教科(専門)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/各教科(専門)>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/各教科(専門)>.
+<https://w3id.org/jp-cos/8Go0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/各教科(専門)>.

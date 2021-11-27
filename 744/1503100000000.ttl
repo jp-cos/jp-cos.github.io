@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7441503100000000>
+  <http://purl.org/dc/terms/identifier> "7441503100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "523"
+  ];
+  <http://schema.org/description> """(1) 私たちの生きる社会
+　現代社会における諸課題を扱う中で，社会の在り方を考察する基盤として，幸福，正義，公正などについて理解させるとともに，現代社会に対する関心を高め，いかに生きるかを主体的に考察することの大切さを自覚させる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A4A1A5A0A3A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> """私たちの生きる社会
+ 現代社会における諸課題を扱う中で，社会の在り方を考察する基盤として，幸福，正義，公正などについて理解させるとともに，現代社会に対する関心を高め，いかに生きるかを主体的に考察することの大切さを自覚させる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/現代社会>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/公民> .
+<https://w3id.org/jp-cos/7441503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7441503100000000>.

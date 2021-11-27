@@ -1,0 +1,58 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>
+  <http://purl.org/linked-data/cube#order> "56";
+  <http://schema.org/name> "Design for Living"@en, "生活デザイン"@ja, "せいかつでざいん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "3";
+  <https://w3id.org/jp-cos/codePrefix> "74F3";
+  <https://w3id.org/jp-cos/fcode04> "A3";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UFA3";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.
+<https://w3id.org/jp-cos/74F3505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>.

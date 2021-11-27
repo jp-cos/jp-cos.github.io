@@ -1,0 +1,39 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>
+  <http://purl.org/linked-data/cube#order> "14";
+  <http://schema.org/name> "Ethics"@en, "倫理"@ja, "りんり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "7442";
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A4A2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/公民> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.
+<https://w3id.org/jp-cos/7442505232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/倫理>.

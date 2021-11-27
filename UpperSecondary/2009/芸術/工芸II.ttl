@@ -1,0 +1,36 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>
+  <http://purl.org/linked-data/cube#order> "41";
+  <http://schema.org/name> "Crafts Production II"@en, "工芸II"@ja, "こうげいII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "74B8";
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UBA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/芸術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.
+<https://w3id.org/jp-cos/74B8505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/芸術/工芸II>.

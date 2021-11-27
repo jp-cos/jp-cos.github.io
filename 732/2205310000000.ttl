@@ -1,0 +1,31 @@
+<https://w3id.org/jp-cos/7322205310000000>
+  <http://purl.org/dc/terms/identifier> "7322205310000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "345"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "339"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "339"
+  ];
+  <http://schema.org/description> "ア　アの「世界の古代文明」については，中国の文明を中心に諸文明の特色を取り扱い，生活技術の発達，文字の使用，国家のおこりと発展などの共通する特色に気付かせるようにすること。また，人類の出現にも触れること。「宗教のおこり」については，仏教，キリスト教，イスラム教などを取り上げ，世界の文明地域との重なりに気付かせるようにすること。「日本列島における農耕の広まりと生活の変化」については，狩猟・採集を行っていた人々の生活が農耕の広まりとともに変化していったことに気付かせるようにすること。「大和朝廷による統一と東アジアとのかかわり」については，古墳の広まりにも触れるとともに，大陸から移住してきた人々の我が国の社会に果たした役割に気付かせるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A2A2A2A0A5A3A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "アの「世界の古代文明」については，中国の文明を中心に諸文明の特色を取り扱い，生活技術の発達，文字の使用，国家のおこりと発展などの共通する特色に気付かせるようにすること。また，人類の出現にも触れること。「宗教のおこり」については，仏教，キリスト教，イスラム教などを取り上げ，世界の文明地域との重なりに気付かせるようにすること。「日本列島における農耕の広まりと生活の変化」については，狩猟・採集を行っていた人々の生活が農耕の広まりとともに変化していったことに気付かせるようにすること。「大和朝廷による統一と東アジアとのかかわり」については，古墳の広まりにも触れるとともに，大陸から移住してきた人々の我が国の社会に果たした役割に気付かせるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/社会/歴史的分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/社会> .
+<https://w3id.org/jp-cos/7322205300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7322205310000000>.

@@ -1,0 +1,43 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>
+  <http://purl.org/linked-data/cube#order> "102";
+  <http://schema.org/name> "Automobile Maintenance"@en, "自動車整備"@ja, "じどうしゃせいび"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "G";
+  <https://w3id.org/jp-cos/codePrefix> "84QG";
+  <https://w3id.org/jp-cos/fcode04> "UG";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUG";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.
+<https://w3id.org/jp-cos/84QG505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/自動車整備>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84P0000000000000>
+  <http://purl.org/dc/terms/identifier> "84P0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3447"
+  ];
+  <http://schema.org/description> "第１節　農　　　業";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84P0100000000000>, <https://w3id.org/jp-cos/84P0300000000000>, <https://w3id.org/jp-cos/84P0500000000000>, <https://w3id.org/jp-cos/84P1500000000000>, <https://w3id.org/jp-cos/84P2500000000000>, <https://w3id.org/jp-cos/84P3500000000000>, <https://w3id.org/jp-cos/84P4500000000000>, <https://w3id.org/jp-cos/84P5500000000000>, <https://w3id.org/jp-cos/84P6500000000000>, <https://w3id.org/jp-cos/84P7500000000000>, <https://w3id.org/jp-cos/84P8500000000000>, <https://w3id.org/jp-cos/84P9500000000000>, <https://w3id.org/jp-cos/84PA500000000000>, <https://w3id.org/jp-cos/84PB500000000000>, <https://w3id.org/jp-cos/84PC500000000000>, <https://w3id.org/jp-cos/84PD500000000000>, <https://w3id.org/jp-cos/84PE500000000000>, <https://w3id.org/jp-cos/84PF500000000000>, <https://w3id.org/jp-cos/84PG500000000000>, <https://w3id.org/jp-cos/84PH500000000000>, <https://w3id.org/jp-cos/84PI500000000000>, <https://w3id.org/jp-cos/84PJ500000000000>, <https://w3id.org/jp-cos/84PK500000000000>, <https://w3id.org/jp-cos/84PL500000000000>, <https://w3id.org/jp-cos/84PM500000000000>, <https://w3id.org/jp-cos/84PN500000000000>, <https://w3id.org/jp-cos/84PO500000000000>, <https://w3id.org/jp-cos/84PP500000000000>, <https://w3id.org/jp-cos/84PQ500000000000>, <https://w3id.org/jp-cos/84PR500000000000>, <https://w3id.org/jp-cos/84PS500000000000>, <https://w3id.org/jp-cos/84PT500000000000>, <https://w3id.org/jp-cos/84PU500000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UPA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第1節";
+  <https://w3id.org/jp-cos/sectionText> "農   業";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/農業> .
+<https://w3id.org/jp-cos/84n0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84P0000000000000>.

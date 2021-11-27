@@ -1,0 +1,16 @@
+<https://w3id.org/jp-cos/NumberShape>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> "122";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
+    <http://www.w3.org/ns/shacl#name> "Number"@en, "項番"@ja;
+    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>;
+    <http://www.w3.org/ns/shacl#name> "Source"@en, "出典"@ja;
+    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/source>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Number> .

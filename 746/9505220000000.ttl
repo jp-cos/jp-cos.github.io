@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7469505220000000>
+  <http://purl.org/dc/terms/identifier> "7469505220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1227"
+  ];
+  <http://schema.org/description> """イ　内容の(2)のアの(ア)については，マントル内のプルームも扱うこと。(イ)については，世界の地震帯の特徴をプレート運動と関連付けて扱うこと。また，日本列島付近におけるプレート間地震やプレート内地震の特徴も扱うこと。地殻変動については，活断層と地形との関係にも触れること。(ウ)については，多様な火成岩の成因をマグマの分化と関連付けて扱うこと。また，島弧−海溝系における火成活動の特徴をプレート運動と関連付けて触れること。(エ)については，造山帯の特徴を安定地塊と対比させて扱うこと。
+　イの(ア)については，段丘や海底堆《たい》積物も扱うこと。(イ)については，地層や化石に基づいて過去の様子を探究する方法を扱うこと。また，地質図の読み方の概要を扱うこと。(ウ)については，放射年代も扱うこと。(エ)については，日本列島の形成史を地形や地質の特徴に基づいてプレート運動と関連付けて扱うこと。また，付加体も扱うこと。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A6A9A5A0A5A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> """内容の(2)のアの(ア)については，マントル内のプルームも扱うこと。(イ)については，世界の地震帯の特徴をプレート運動と関連付けて扱うこと。また，日本列島付近におけるプレート間地震やプレート内地震の特徴も扱うこと。地殻変動については，活断層と地形との関係にも触れること。(ウ)については，多様な火成岩の成因をマグマの分化と関連付けて扱うこと。また，島弧−海溝系における火成活動の特徴をプレート運動と関連付けて触れること。(エ)については，造山帯の特徴を安定地塊と対比させて扱うこと。
+ イの(ア)については，段丘や海底堆《たい》積物も扱うこと。(イ)については，地層や化石に基づいて過去の様子を探究する方法を扱うこと。また，地質図の読み方の概要を扱うこと。(ウ)については，放射年代も扱うこと。(エ)については，日本列島の形成史を地形や地質の特徴に基づいてプレート運動と関連付けて扱うこと。また，付加体も扱うこと。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理科> .
+<https://w3id.org/jp-cos/7469505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7469505220000000>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8600000760000000>
+  <http://purl.org/dc/terms/identifier> "8600000760000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "111"
+  ];
+  <http://schema.org/description> "６　学校の道徳教育の全体計画や道徳教育に関する諸活動などの情報を積極的に公表したり，道徳教育の充実のために家庭や地域の人々の積極的な参加や協力を得たりするなど，家庭や地域社会との共通理解を深め，相互の連携を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A7A6A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "6";
+  <https://w3id.org/jp-cos/sectionText> "学校の道徳教育の全体計画や道徳教育に関する諸活動などの情報を積極的に公表したり，道徳教育の充実のために家庭や地域の人々の積極的な参加や協力を得たりするなど，家庭や地域社会との共通理解を深め，相互の連携を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000700000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000760000000>.

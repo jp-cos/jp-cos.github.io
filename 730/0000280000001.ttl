@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7300000280000001>
+  <http://purl.org/dc/terms/identifier> "7300000280000001";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "14"
+  ];
+  <http://schema.org/description> "８　道徳科を要として学校の教育活動全体を通じて行う道徳教育の内容は，第３章特別の教科道徳の第２に示す内容とする。";
+  <http://schema.org/edition> "一部改正（１回目）";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A0A0A0A0A0A2A8A0A0A0A0A0A0A1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "8";
+  <https://w3id.org/jp-cos/sectionText> "道徳科を要として学校の教育活動全体を通じて行う道徳教育の内容は，第3章特別の教科道徳の第2に示す内容とする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/総則> .
+<https://w3id.org/jp-cos/7300000200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7300000280000001>.

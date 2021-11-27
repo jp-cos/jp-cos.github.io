@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/83N1203310000000>
+  <http://purl.org/dc/terms/identifier> "83N1203310000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2156"
+  ];
+  <http://schema.org/description> """ア　社会生活，職業生活との接続を踏まえた主体的な学習態度の形成と学校図書館等の活用
+現在及び将来の学習と自己実現とのつながりを考えたり，自主的に学習する場としての学校図書館等を活用したりしながら，学ぶことと働くことの意義を意識して学習の見通しを立て，振り返ること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UNA1A2A0A3A3A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> """社会生活，職業生活との接続を踏まえた主体的な学習態度の形成と学校図書館等の活用
+現在及び将来の学習と自己実現とのつながりを考えたり，自主的に学習する場としての学校図書館等を活用したりしながら，学ぶことと働くことの意義を意識して学習の見通しを立て，振り返ること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学級活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動> .
+<https://w3id.org/jp-cos/83N1203300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83N1203310000000>.

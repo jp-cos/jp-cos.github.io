@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7431503200000000>
+  <http://purl.org/dc/terms/identifier> "7431503200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "310"
+  ];
+  <http://schema.org/description> """(2) 世界の一体化と日本
+　近現代世界を理解するための前提として，ユーラシアの諸文明の特質に触れるとともに，16世紀以降の世界商業の進展及び資本主義の確立を中心に，世界が一体化に向かう過程を理解させる。その際，世界の動向と日本とのかかわりに着目させる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7431503210000000>, <https://w3id.org/jp-cos/7431503220000000>, <https://w3id.org/jp-cos/7431503230000000>, <https://w3id.org/jp-cos/7431503240000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A3A1A5A0A3A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> """世界の一体化と日本
+ 近現代世界を理解するための前提として，ユーラシアの諸文明の特質に触れるとともに，16世紀以降の世界商業の進展及び資本主義の確立を中心に，世界が一体化に向かう過程を理解させる。その際，世界の動向と日本とのかかわりに着目させる。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/世界史A>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> .
+<https://w3id.org/jp-cos/7431503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7431503200000000>.

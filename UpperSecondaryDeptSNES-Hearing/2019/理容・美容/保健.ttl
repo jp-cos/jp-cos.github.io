@@ -1,0 +1,48 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>
+  <http://purl.org/linked-data/cube#order> "44";
+  <http://schema.org/name> "Health"@en, "保健"@ja, "ほけん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "3";
+  <https://w3id.org/jp-cos/codePrefix> "8Ei3";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode04> "A3";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UELiA3";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理容・美容/保健> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.
+<https://w3id.org/jp-cos/8Ei3505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>.

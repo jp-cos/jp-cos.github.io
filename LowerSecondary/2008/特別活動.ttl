@@ -1,0 +1,73 @@
+<https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>
+  <http://purl.org/linked-data/cube#order> "14";
+  <http://schema.org/name> "Special Activities"@en, "特別活動"@ja, "とくべつかつどう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "N";
+  <https://w3id.org/jp-cos/codePrefix> "73N";
+  <https://w3id.org/jp-cos/fcode03> "UN";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A3UN";
+  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動/学校行事>, <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動/学級活動>, <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動/生徒会活動>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015> .
+<https://w3id.org/jp-cos/LowerSecondary/2008> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300110000001> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300140000001> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300220000001> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N0300300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203250000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203260000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203270000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203280000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203290000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203310000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203320000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203330000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203340000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N1203350000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N4203500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.
+<https://w3id.org/jp-cos/73N5203500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動>.

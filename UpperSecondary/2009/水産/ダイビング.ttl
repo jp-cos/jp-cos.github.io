@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>
+  <http://purl.org/linked-data/cube#order> "190";
+  <http://schema.org/name> "Diving"@en, "ダイビング"@ja, "だいびんぐ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "L";
+  <https://w3id.org/jp-cos/codePrefix> "74TL";
+  <https://w3id.org/jp-cos/fcode04> "UL";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UTUL";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503550000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.
+<https://w3id.org/jp-cos/74TL505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/水産/ダイビング>.

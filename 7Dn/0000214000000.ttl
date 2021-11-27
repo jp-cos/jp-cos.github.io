@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7Dn0000214000000>
+  <http://purl.org/dc/terms/identifier> "7Dn0000214000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "179"
+  ];
+  <http://schema.org/description> "(4)触覚教材，拡大教材，音声教材等の活用を図るとともに，生徒が視覚補助具やコンピュータ等の情報機器などの活用を通して， 容易に情報の収集や処理ができるようにするなど， 生徒の視覚障害の状態等を考慮した指導方法を工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UDLnA0A0A0A0A2A1A4A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "触覚教材，拡大教材，音声教材等の活用を図るとともに，生徒が視覚補助具やコンピュータ等の情報機器などの活用を通して， 容易に情報の収集や処理ができるようにするなど， 生徒の視覚障害の状態等を考慮した指導方法を工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/各教科> .
+<https://w3id.org/jp-cos/7Dn0000210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Dn0000214000000>.

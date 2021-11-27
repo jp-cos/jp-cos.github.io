@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/82G03L0130000000>
+  <http://purl.org/dc/terms/identifier> "82G03L0130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3260"
+  ];
+  <http://schema.org/description> "(3) 第２の第３学年及び第４学年の内容の「Ｇ保健」に配当する授業時数は，２学年間で８単位時間程度，また，第２の第５学年及び第６学年の内容の「Ｇ保健」に配当する授業時数は，２学年間で16単位時間程度とすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UGA0A3ULA0A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3", "4", "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "第2の第3学年及び第4学年の内容の「G保健」に配当する授業時数は，2学年間で8単位時間程度，また，第2の第5学年及び第6学年の内容の「G保健」に配当する授業時数は，2学年間で16単位時間程度とすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/体育> .
+<https://w3id.org/jp-cos/82G0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82G03L0130000000>.

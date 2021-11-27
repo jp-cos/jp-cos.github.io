@@ -1,0 +1,28 @@
+<https://w3id.org/jp-cos/8435505220000000>
+  <http://purl.org/dc/terms/identifier> "8435505220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1015"
+  ];
+  <http://schema.org/description> """イ　内容のＡについては，この科目の導入としての位置付けを踏まえ，生徒が現在と異なる過去や現在につながる過去に触れ，世界史学習の意味や意義に気付くようにすること。
+(1)については，地球，生命，人類の誕生などの歴史は，それぞれ異なる時間の尺度をもっていることに触れること。
+(2)については，日常生活に見る世界の歴史に関わる具体的な事例を取り上げ，世界史学習への興味・関心をもたせるよう指導を工夫すること。
+""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A3A5A5A0A5A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> """内容のAについては，この科目の導入としての位置付けを踏まえ，生徒が現在と異なる過去や現在につながる過去に触れ，世界史学習の意味や意義に気付くようにすること。
+(1)については，地球，生命，人類の誕生などの歴史は，それぞれ異なる時間の尺度をもっていることに触れること。
+(2)については，日常生活に見る世界の歴史に関わる具体的な事例を取り上げ，世界史学習への興味・関心をもたせるよう指導を工夫すること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/世界史探究>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史> .
+<https://w3id.org/jp-cos/8435505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8435505220000000>.

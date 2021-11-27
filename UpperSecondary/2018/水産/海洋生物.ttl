@@ -1,0 +1,58 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>
+  <http://purl.org/linked-data/cube#order> "180";
+  <http://schema.org/name> "Ocean Life"@en, "海洋生物"@ja, "かいようせいぶつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "F";
+  <https://w3id.org/jp-cos/codePrefix> "84TF";
+  <https://w3id.org/jp-cos/fcode04> "UF";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTUF";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503155000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF503163000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.
+<https://w3id.org/jp-cos/84TF505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/海洋生物>.

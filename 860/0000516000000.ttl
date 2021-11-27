@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8600000516000000>
+  <http://purl.org/dc/terms/identifier> "8600000516000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "85"
+  ];
+  <http://schema.org/description> "(6) 複数の種類の障害を併せ有する児童又は生徒（以下「重複障害者」という。） については，専門的な知識，技能を有する教師や特別支援学校間の協力の下に指導を行ったり，必要に応じて専門の医師やその他の専門家の指導・助言を求めたりするなどして，学習効果を一層高めるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A5A1A6A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "複数の種類の障害を併せ有する児童又は生徒(以下「重複障害者」という。) については，専門的な知識，技能を有する教師や特別支援学校間の協力の下に指導を行ったり，必要に応じて専門の医師やその他の専門家の指導・助言を求めたりするなどして，学習効果を一層高めるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000516000000>.

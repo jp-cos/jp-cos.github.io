@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8400000241000000>
+  <http://purl.org/dc/terms/identifier> "8400000241000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "98"
+  ];
+  <http://schema.org/description> "(1) 現行の中学校学習指導要領を踏まえ，中学校教育までの学習の成果が高等学校教育に円滑に接続され，高等学校教育段階の終わりまでに育成することを目指す資質・能力を，生徒が確実に身に付けることができるよう工夫すること。特に，中等教育学校，連携型高等学校及び併設型高等学校においては，中等教育６年間を見通した計画的かつ継続的な教育課程を編成すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A4A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "現行の中学校学習指導要領を踏まえ，中学校教育までの学習の成果が高等学校教育に円滑に接続され，高等学校教育段階の終わりまでに育成することを目指す資質・能力を，生徒が確実に身に付けることができるよう工夫すること。特に，中等教育学校，連携型高等学校及び併設型高等学校においては，中等教育6年間を見通した計画的かつ継続的な教育課程を編成すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000240000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000241000000>.

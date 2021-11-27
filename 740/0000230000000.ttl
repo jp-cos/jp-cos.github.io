@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7400000230000000>
+  <http://purl.org/dc/terms/identifier> "7400000230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "11"
+  ];
+  <http://schema.org/description> """３　主として専門学科において開設される各教科・科目
+　各学校においては，教育課程の編成に当たって，次の表に掲げる主として専門学科（専門教育を主とする学科をいう。以下同じ。）において開設される各教科・科目及び設置者の定めるそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及びその単位数について適切に定めるものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000230100000>, <https://w3id.org/jp-cos/7400000230200000>, <https://w3id.org/jp-cos/7400000230300000>, <https://w3id.org/jp-cos/7400000230400000>, <https://w3id.org/jp-cos/7400000230500000>, <https://w3id.org/jp-cos/7400000230600000>, <https://w3id.org/jp-cos/7400000230700000>, <https://w3id.org/jp-cos/7400000230800000>, <https://w3id.org/jp-cos/7400000230900000>, <https://w3id.org/jp-cos/7400000231000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A0A0A0A0A0A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> """主として専門学科において開設される各教科・科目
+ 各学校においては，教育課程の編成に当たって，次の表に掲げる主として専門学科(専門教育を主とする学科をいう。以下同じ。)において開設される各教科・科目及び設置者の定めるそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及びその単位数について適切に定めるものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総則> .
+<https://w3id.org/jp-cos/7400000200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000230000000>.

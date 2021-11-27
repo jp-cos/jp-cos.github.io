@@ -1,0 +1,40 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>
+  <http://purl.org/linked-data/cube#order> "206";
+  <http://schema.org/name> "Food Culture"@en, "食文化"@ja, "しょくぶんか"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "F";
+  <https://w3id.org/jp-cos/codePrefix> "74UF";
+  <https://w3id.org/jp-cos/fcode04> "UF";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UUUF";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.
+<https://w3id.org/jp-cos/74UF505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/食文化>.

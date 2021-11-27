@@ -1,0 +1,64 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>
+  <http://purl.org/linked-data/cube#order> "33";
+  <http://schema.org/name> "Industry"@en, "工業"@ja, "こうぎょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "Q";
+  <https://w3id.org/jp-cos/codePrefix> "8GQ";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "UQ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UGUQ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/工業> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0202100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0202200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0202300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203111000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203112000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203113000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203121000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203122000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203123000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203131000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203132000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203133000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203141000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203142000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203143000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203150000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203151000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203152000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203153000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203160000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203161000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203162000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203163000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203170000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203171000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203172000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203173000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203180000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203181000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203182000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0203183000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
+<https://w3id.org/jp-cos/8GQ0206220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.

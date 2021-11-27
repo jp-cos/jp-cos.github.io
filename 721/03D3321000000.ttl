@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/72103D3321000000>
+  <http://purl.org/dc/terms/identifier> "72103D3321000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "218"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "209"
+  ];
+  <http://schema.org/description> "ア　伝記を読み，自分の生き方について考えること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2A1A0A3UDA3A3A2A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "伝記を読み，自分の生き方について考えること。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/国語> .
+<https://w3id.org/jp-cos/72103D3320000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/72103D3321000000>.

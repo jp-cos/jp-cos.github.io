@@ -1,0 +1,59 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>
+  <http://purl.org/linked-data/cube#order> "64";
+  <http://schema.org/name> "Flowering Plants Production and Management"@en, "草花"@ja, "くさばな"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "84P8";
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.
+<https://w3id.org/jp-cos/84P8505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/草花>.

@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/84N0100000000000>
+  <http://purl.org/dc/terms/identifier> "84N0100000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10891"
+  ];
+  <http://schema.org/description> """第１　目標
+集団や社会の形成者としての見方・考え方を働かせ，様々な集団活動に自主的，実践的に取り組み，互いのよさや可能性を発揮しながら集団や自己の生活上の課題を解決することを通して，次のとおり資質・能力を育成することを目指す。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84N0100100000000>, <https://w3id.org/jp-cos/84N0100200000000>, <https://w3id.org/jp-cos/84N0100300000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UNA0A1A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+集団や社会の形成者としての見方・考え方を働かせ，様々な集団活動に自主的，実践的に取り組み，互いのよさや可能性を発揮しながら集団や自己の生活上の課題を解決することを通して，次のとおり資質・能力を育成することを目指す。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/特別活動> .
+<https://w3id.org/jp-cos/84N0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84N0100000000000>.

@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8467505250000000>
+  <http://purl.org/dc/terms/identifier> "8467505250000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1906"
+  ];
+  <http://schema.org/description> """オ　内容の(4)のアの(ア)の㋐については，受容器として眼(め)を，効果器として筋肉を扱うこと。また，刺激の受容から反応までの流れを扱うこと。その際，神経系に関連して記憶にも触れること。
+(イ)の㋐については，被子植物を扱うこと。「植物の成長」については，配偶子形成，受精，胚(はい)発生及び器官分化について触れること。また，植物ホルモンは３，４種類について取り上げること。その際，植物ホルモンに関わる光受容体についても触れること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A6A7A5A0A5A2A5A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "オ";
+  <https://w3id.org/jp-cos/sectionText> """内容の(4)のアの(ア)の㋐については，受容器として眼(め)を，効果器として筋肉を扱うこと。また，刺激の受容から反応までの流れを扱うこと。その際，神経系に関連して記憶にも触れること。
+(イ)の㋐については，被子植物を扱うこと。「植物の成長」については，配偶子形成，受精，胚(はい)発生及び器官分化について触れること。また，植物ホルモンは3，4種類について取り上げること。その際，植物ホルモンに関わる光受容体についても触れること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/生物>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/理科> .
+<https://w3id.org/jp-cos/8467505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8467505250000000>.

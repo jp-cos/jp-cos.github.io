@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8443502200000000>
+  <http://purl.org/dc/terms/identifier> "8443502200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1156"
+  ];
+  <http://schema.org/description> "(2) 国家及び社会の形成者として必要な選択・判断の基準となる考え方や政治・経済に関する概念や理論などを活用して，現実社会に見られる複雑な課題を把握し，説明するとともに，身に付けた判断基準を根拠に構想する力や，構想したことの妥当性や効果，実現可能性などを指標にして議論し公正に判断して，合意形成や社会参画に向かう力を養う。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A3A5A0A2A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "国家及び社会の形成者として必要な選択・判断の基準となる考え方や政治・経済に関する概念や理論などを活用して，現実社会に見られる複雑な課題を把握し，説明するとともに，身に付けた判断基準を根拠に構想する力や，構想したことの妥当性や効果，実現可能性などを指標にして議論し公正に判断して，合意形成や社会参画に向かう力を養う。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/政治・経済>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8443502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8443502200000000>.

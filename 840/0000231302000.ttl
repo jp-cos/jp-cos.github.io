@@ -1,0 +1,21 @@
+<https://w3id.org/jp-cos/8400000231302000>
+  <http://purl.org/dc/terms/identifier> "8400000231302000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "26"
+  ];
+  <http://schema.org/description> "工業（工業技術基礎，課題研究，実習，製図，工業情報数理，工業材料技術，工業技術英語，工業管理技術，工業環境技術，機械工作，機械設計，原動機，電子機械，生産技術，自動車工学，自動車整備，船舶工学，電気回路，電気機器，電力技術，電子技術，電子回路，電子計測制御，通信技術，プログラミング技術，ハードウェア技術，ソフトウェア技術，コンピュータシステム技術，建築構造，建築計画，建築構造設計，建築施工，建築法規，設備計画，空気調和設備，衛生・防災設備，測量，土木基盤力学，土木構造設計，土木施工，社会基盤工学，工業化学，化学工学，地球環境化学，材料製造技術，材料工学，材料加工，セラミック化学，セラミック技術，セラミック工業，繊維製品，繊維・染色技術，染織デザイン，インテリア計画，インテリア装備，インテリアエレメント生産，デザイン実践，デザイン材料，デザイン史）";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A1A3A0A2A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionText> "工業(工業技術基礎，課題研究，実習，製図，工業情報数理，工業材料技術，工業技術英語，工業管理技術，工業環境技術，機械工作，機械設計，原動機，電子機械，生産技術，自動車工学，自動車整備，船舶工学，電気回路，電気機器，電力技術，電子技術，電子回路，電子計測制御，通信技術，プログラミング技術，ハードウェア技術，ソフトウェア技術，コンピュータシステム技術，建築構造，建築計画，建築構造設計，建築施工，建築法規，設備計画，空気調和設備，衛生・防災設備，測量，土木基盤力学，土木構造設計，土木施工，社会基盤工学，工業化学，化学工学，地球環境化学，材料製造技術，材料工学，材料加工，セラミック化学，セラミック技術，セラミック工業，繊維製品，繊維・染色技術，染織デザイン，インテリア計画，インテリア装備，インテリアエレメント生産，デザイン実践，デザイン材料，デザイン史)";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000231300000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231302000>.

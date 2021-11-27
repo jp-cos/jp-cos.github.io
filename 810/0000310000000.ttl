@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/8100000310000000>
+  <http://purl.org/dc/terms/identifier> "8100000310000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "26"
+  ];
+  <http://schema.org/description> """１　教育課程の役割
+　各幼稚園においては，教育基本法及び学校教育法その他の法令並びにこの幼稚園教育要領の示すところに従い，創意工夫を生かし，幼児の心身の発達と幼稚園及び地域の実態に即応した適切な教育課程を編成するものとする。
+　また，各幼稚園においては，６に示す全体的な計画にも留意しながら，「幼児期の終わりまでに育ってほしい姿」を踏まえ教育課程を編成すること，教育課程の実施状況を評価してその改善を図っていくこと，教育課程の実施に必要な人的又は物的な体制を確保するとともにその改善を図っていくことなどを通して，教育課程に基づき組織的かつ計画的に各幼稚園の教育活動の質の向上を図っていくこと（以下「カリキュラム・マネジメント」という。）に努めるものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1A0A0A0A0A0A3A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """教育課程の役割
+ 各幼稚園においては，教育基本法及び学校教育法その他の法令並びにこの幼稚園教育要領の示すところに従い，創意工夫を生かし，幼児の心身の発達と幼稚園及び地域の実態に即応した適切な教育課程を編成するものとする。
+ また，各幼稚園においては，6に示す全体的な計画にも留意しながら，「幼児期の終わりまでに育ってほしい姿」を踏まえ教育課程を編成すること，教育課程の実施状況を評価してその改善を図っていくこと，教育課程の実施に必要な人的又は物的な体制を確保するとともにその改善を図っていくことなどを通して，教育課程に基づき組織的かつ計画的に各幼稚園の教育活動の質の向上を図っていくこと(以下「カリキュラム・マネジメント」という。)に努めるものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/総則> .
+<https://w3id.org/jp-cos/8100000300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000310000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7Df0300120000000>
+  <http://purl.org/dc/terms/identifier> "7Df0300120000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "991"
+  ];
+  <http://schema.org/description> "(2)   「理療基礎実習」及び「理療臨床実習」の指導に当たっては，生徒が常に達成感と新たな技術習得への意欲をもって学習できるように， 指導内容の構成や指導方法の工夫に十分留意すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UDLfA0A3A0A0A1A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "「理療基礎実習」及び「理療臨床実習」の指導に当たっては，生徒が常に達成感と新たな技術習得への意欲をもって学習できるように， 指導内容の構成や指導方法の工夫に十分留意すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療> .
+<https://w3id.org/jp-cos/7Df0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Df0300120000000>.

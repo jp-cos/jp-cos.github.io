@@ -1,0 +1,16 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)>
+  <http://purl.org/linked-data/cube#order> "27";
+  <http://schema.org/name> "Subjects (Lower Secondary Department)"@en, "各教科(中学部)"@ja, "かくきょうか(ちゅうがくぶ)"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "n";
+  <https://w3id.org/jp-cos/codePrefix> "8An";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "Ln";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UALn";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科(中学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)>.
+<https://w3id.org/jp-cos/8An0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)>.
+<https://w3id.org/jp-cos/8An0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)>.
+<https://w3id.org/jp-cos/8An0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)>.

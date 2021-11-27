@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8C00000241120000>
+  <http://purl.org/dc/terms/identifier> "8C00000241120000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "157"
+  ];
+  <http://schema.org/description> "イ　学校においては，生徒が学校の定める指導計画に従って総合的な探究の時間を履修し，その成果が第４章において準ずるものとしている高等学校学習指導要領第４章第２の１に基づき定められる目標からみて満足できると認められる場合には，総合的な探究の時間について履修した単位を修得したことを認定しなければならない。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8UCA0A0A0A0A0A2A4A1A1A2A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "学校においては，生徒が学校の定める指導計画に従って総合的な探究の時間を履修し，その成果が第4章において準ずるものとしている高等学校学習指導要領第4章第2の1に基づき定められる目標からみて満足できると認められる場合には，総合的な探究の時間について履修した単位を修得したことを認定しなければならない。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2019/総則> .
+<https://w3id.org/jp-cos/8C00000241100000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8C00000241120000>.

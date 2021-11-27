@@ -1,0 +1,31 @@
+<https://w3id.org/jp-cos/8433505250000000>
+  <http://purl.org/dc/terms/identifier> "8433505250000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "782"
+  ];
+  <http://schema.org/description> """オ　内容のＤについては，次のとおり取り扱うものとすること。
+(1)については，中学校までの学習並びにＡ，Ｂ及びＣの学習を踏まえ，学習内容への課題意識をもたせるとともに，(2)及び(3)の学習内容を見通して指導すること。
+(2)については，アジア・アフリカ諸国が国際関係の変化に主体的に対応して国家建設を進めたことや，地域連携や経済成長と冷戦との関わりに気付くようにすること。また，この時期の日本の国内政治や，日本とアジア諸国との関係についても触れること。
+(3)については，冷戦終結後も引き続き課題として残されたことや，冷戦終結後に新たに生じた課題などに触れること。その際，国家間の対立だけでなく，民族対立が拡大したり，武装集団によるテロ行為を契機として戦争が生じたりするなど，地域紛争の要因が多様化していることにも触れること。また，世界経済の安定に向けた取組を扱い，日本が先進国としての国際的な地位を確立してきたことに気付くようにするとともに，政府開発援助（ODA）や国際連合平和維持活動（PKO），持続可能な開発のための取組などを扱い，日本が国際社会における重要な役割を担ってきたことにも気付くようにすること。
+(4)については，この科目のまとめとして位置付けること。その際，Ｂの(4)及びＣの(4)の内容を更に深めたり，Ｂの(4)及びＣの(4)とは異なる観点を取り上げたりして，この科目の学習を振り返り適切な主題を設定すること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A3A3A5A0A5A2A5A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "オ";
+  <https://w3id.org/jp-cos/sectionText> """内容のDについては，次のとおり取り扱うものとすること。
+(1)については，中学校までの学習並びにA，B及びCの学習を踏まえ，学習内容への課題意識をもたせるとともに，(2)及び(3)の学習内容を見通して指導すること。
+(2)については，アジア・アフリカ諸国が国際関係の変化に主体的に対応して国家建設を進めたことや，地域連携や経済成長と冷戦との関わりに気付くようにすること。また，この時期の日本の国内政治や，日本とアジア諸国との関係についても触れること。
+(3)については，冷戦終結後も引き続き課題として残されたことや，冷戦終結後に新たに生じた課題などに触れること。その際，国家間の対立だけでなく，民族対立が拡大したり，武装集団によるテロ行為を契機として戦争が生じたりするなど，地域紛争の要因が多様化していることにも触れること。また，世界経済の安定に向けた取組を扱い，日本が先進国としての国際的な地位を確立してきたことに気付くようにするとともに，政府開発援助(ODA)や国際連合平和維持活動(PKO)，持続可能な開発のための取組などを扱い，日本が国際社会における重要な役割を担ってきたことにも気付くようにすること。
+(4)については，この科目のまとめとして位置付けること。その際，Bの(4)及びCの(4)の内容を更に深めたり，Bの(4)及びCの(4)とは異なる観点を取り上げたりして，この科目の学習を振り返り適切な主題を設定すること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/歴史総合>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史> .
+<https://w3id.org/jp-cos/8433505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8433505250000000>.

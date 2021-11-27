@@ -1,0 +1,58 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+#TTL 学校種別をあらわすリソース
+<https://w3id.org/jp-cos/school/Kindergarten> a <https://w3id.org/jp-cos/School>;
+  qb:order 1;
+  owl:sameAs <http://ja.dbpedia.org/resource/幼稚園>;
+  schema:name "幼稚園"@ja;
+  schema:name "ようちえん"@ja-Hira;
+  schema:name "Kindergarten"@en.
+<https://w3id.org/jp-cos/school/Elementary> a <https://w3id.org/jp-cos/School>;
+  qb:order 2;
+  owl:sameAs <http://ja.dbpedia.org/resource/小学校>;
+  schema:name "小学校"@ja;
+  schema:name "しょうがっこう"@ja-Hira;
+  schema:name "Elementary School"@en.
+<https://w3id.org/jp-cos/school/LowerSecondary> a <https://w3id.org/jp-cos/School>;
+  qb:order 3;
+  owl:sameAs <http://ja.dbpedia.org/resource/中学校>;
+  schema:name "中学校"@ja;
+  schema:name "ちゅうがっこう"@ja-Hira;
+  schema:name "Lower Secondary School"@en.
+<https://w3id.org/jp-cos/school/UpperSecondary> a <https://w3id.org/jp-cos/School>;
+  qb:order 4;
+  owl:sameAs <http://ja.dbpedia.org/resource/高等学校>;
+  schema:name "高等学校"@ja;
+  schema:name "こうとうがっこう"@ja-Hira;
+  schema:name "Upper Secondary School"@en.
+<https://w3id.org/jp-cos/school/KindergartenDeptSNES> a <https://w3id.org/jp-cos/School>;
+  qb:order 5;
+  schema:name "特別支援学校幼稚部"@ja;
+  schema:name "とくべつしえんがっこうようちぶ"@ja-Hira;
+  schema:name "Kindergarten Department of Special Needs Education School"@en.
+<https://w3id.org/jp-cos/school/ElementaryDeptSNES> a <https://w3id.org/jp-cos/School>;
+  qb:order 6;
+  schema:name "特別支援学校小学部"@ja;
+  schema:name "とくべつしえんがっこうしょうがくぶ"@ja-Hira;
+  schema:name "Elementary Department of Special Needs Education School"@en.
+<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES> a <https://w3id.org/jp-cos/School>;
+  qb:order 7;
+  schema:name "特別支援学校中学部"@ja;
+  schema:name "とくべつしえんがっこうちゅうがくぶ"@ja-Hira;
+  schema:name "Lower Secondary Department of Special Needs Education School"@en.
+<https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> a <https://w3id.org/jp-cos/School>;
+  qb:order 8;
+  schema:name "特別支援学校高等部"@ja;
+  schema:name "とくべつしえんがっこうこうとうぶ"@ja-Hira;
+  schema:name "Upper Secondary Department of Special Needs Education School"@en.
+<https://w3id.org/jp-cos/school/SNES> a <https://w3id.org/jp-cos/School>;
+  qb:order 9;
+  owl:sameAs <http://ja.dbpedia.org/resource/特別支援学校>;
+  schema:name "特別支援学校"@ja;
+  schema:name "とくべつしえんがっこう"@ja-Hira;
+  schema:name "Special Needs Education School"@en.
+

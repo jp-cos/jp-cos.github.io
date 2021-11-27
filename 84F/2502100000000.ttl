@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84F2502100000000>
+  <http://purl.org/dc/terms/identifier> "84F2502100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3160"
+  ];
+  <http://schema.org/description> "(1) 人の一生と家族・家庭及び福祉，衣食住，消費生活・環境などについて，生活を主体的に営むために必要な科学的な理解を図るとともに，それらに係る技能を体験的・総合的に身に付けるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UFA2A5A0A2A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "人の一生と家族・家庭及び福祉，衣食住，消費生活・環境などについて，生活を主体的に営むために必要な科学的な理解を図るとともに，それらに係る技能を体験的・総合的に身に付けるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭/家庭総合>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭> .
+<https://w3id.org/jp-cos/84F2502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84F2502100000000>.

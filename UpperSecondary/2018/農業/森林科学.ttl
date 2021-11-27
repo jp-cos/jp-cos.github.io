@@ -1,0 +1,61 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>
+  <http://purl.org/linked-data/cube#order> "75";
+  <http://schema.org/name> "Forest Science"@en, "森林科学"@ja, "しんりんかがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "J";
+  <https://w3id.org/jp-cos/codePrefix> "84PJ";
+  <https://w3id.org/jp-cos/fcode04> "UJ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUJ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503163000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503164000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.
+<https://w3id.org/jp-cos/84PJ505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/森林科学>.

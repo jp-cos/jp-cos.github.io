@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8400000231200000>
+  <http://purl.org/dc/terms/identifier> "8400000231200000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "22"
+  ];
+  <http://schema.org/description> """イ　各学科に共通する各教科・科目及び総合的な探究の時間並びに標準単位数
+各学校においては，教育課程の編成に当たって，次の表に掲げる各教科・科目及び総合的な探究の時間並びにそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及び総合的な探究の時間並びにそれらの単位数について適切に定めるものとする。ただし，生徒の実態等を考慮し，特に必要がある場合には，標準単位数の標準の限度を超えて単位数を増加して配当することができる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231210000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A1A2A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> """各学科に共通する各教科・科目及び総合的な探究の時間並びに標準単位数
+各学校においては，教育課程の編成に当たって，次の表に掲げる各教科・科目及び総合的な探究の時間並びにそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及び総合的な探究の時間並びにそれらの単位数について適切に定めるものとする。ただし，生徒の実態等を考慮し，特に必要がある場合には，標準単位数の標準の限度を超えて単位数を増加して配当することができる。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231200000>.

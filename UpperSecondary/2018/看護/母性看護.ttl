@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>
+  <http://purl.org/linked-data/cube#order> "216";
+  <http://schema.org/name> "Maternal Nursing"@en, "母性看護"@ja, "ぼしかんご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "84W8";
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UWA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503131100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503131200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503131300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503131400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503132100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503132200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503132300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8503132400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.
+<https://w3id.org/jp-cos/84W8505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/母性看護>.

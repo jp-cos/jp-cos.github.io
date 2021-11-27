@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84d0300290000000>
+  <http://purl.org/dc/terms/identifier> "84d0300290000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10842"
+  ];
+  <http://schema.org/description> "(9) 各単元や各時間の指導に当たっては，コミュニケーションを行う目的や場面，状況などを設定し，言語活動を通して育成すべき資質・能力を明確に示すことにより，生徒が学習の見通しを立てたり，振り返ったりして，主体的，自律的に学習することができるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4LdA0A3A0A0A2A9A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(9)";
+  <https://w3id.org/jp-cos/sectionText> "各単元や各時間の指導に当たっては，コミュニケーションを行う目的や場面，状況などを設定し，言語活動を通して育成すべき資質・能力を明確に示すことにより，生徒が学習の見通しを立てたり，振り返ったりして，主体的，自律的に学習することができるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)> .
+<https://w3id.org/jp-cos/84d0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d0300290000000>.

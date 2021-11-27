@@ -1,0 +1,49 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>
+  <http://purl.org/linked-data/cube#order> "227";
+  <http://schema.org/name> "Programming of Information Systems"@en, "情報システムのプログラミング"@ja, "ほうほうしすてむのぷろぐらみんぐ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "6";
+  <https://w3id.org/jp-cos/codePrefix> "84X6";
+  <https://w3id.org/jp-cos/fcode04> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UXA6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.
+<https://w3id.org/jp-cos/84X6505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報システムのプログラミング>.

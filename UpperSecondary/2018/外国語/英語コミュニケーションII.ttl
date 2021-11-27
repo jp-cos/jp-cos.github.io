@@ -1,0 +1,59 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>
+  <http://purl.org/linked-data/cube#order> "45";
+  <http://schema.org/name> "English Communication II"@en, "英語コミュニケーションII"@ja, "えいごこみゅにけーしょんII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "84H2";
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UHA2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2502520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221100000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221200000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221210000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221220000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221300000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221310000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221320000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221400000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221410000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221420000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221500000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221510000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221520000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221600000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221610000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503221620000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2503222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.
+<https://w3id.org/jp-cos/84H2505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>.

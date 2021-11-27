@@ -1,0 +1,63 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>
+  <http://purl.org/linked-data/cube#order> "158";
+  <http://schema.org/name> "Financial Accounting II"@en, "財務会計II"@ja, "ざいむかいけいII"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "D";
+  <https://w3id.org/jp-cos/codePrefix> "84RD";
+  <https://w3id.org/jp-cos/fcode04> "UD";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URUD";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503126000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.
+<https://w3id.org/jp-cos/84RD505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/財務会計II>.

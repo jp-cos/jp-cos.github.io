@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/PeriodShape>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"平成29～31年　告示\"@ja</li><li>\"Published from 2017 to 2019\"@en</li></ul>";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/ns/shacl#description> "Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    <http://www.w3.org/ns/shacl#languageIn> [
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+      ]
+    ];
+    <http://www.w3.org/ns/shacl#maxCount> "2";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
+    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
+    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "2017-01-01";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date>;
+    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Start Date"@en, "時期開始日"@ja;
+    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/startDate>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "2019-12-31";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date>;
+    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "End Date"@en, "時期終了日"@ja;
+    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/endDate>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "8";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "First Digit Code of Course of Study Item"@en, "学習指導要領コード1桁目"@ja;
+    <http://www.w3.org/ns/shacl#order> "4";
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/code01>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "A8";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#description> "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make the first digit code of course of study item easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードの1桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Fcode Correspond to First Digit Code of Course of Study Item"@en, "学習指導要領コード1桁目に対応するFコード"@ja;
+    <http://www.w3.org/ns/shacl#order> "5";
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcode01>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Period> .

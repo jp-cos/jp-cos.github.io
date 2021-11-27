@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8Gn0300100000000>
+  <http://purl.org/dc/terms/identifier> "8Gn0300100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "4210"
+  ];
+  <http://schema.org/description> "１　指導計画の作成に当たっては，個々の生徒の知的障害の状態，生活年齢，学習状況及び経験等を考慮しながら，第１款及び第２款の各教科の目標及び内容を基に，３年間を見通して，全体的な指導計画に基づき具体的な指導目標や指導内容を設定するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGLnA0A3A0A0A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> "指導計画の作成に当たっては，個々の生徒の知的障害の状態，生活年齢，学習状況及び経験等を考慮しながら，第1款及び第2款の各教科の目標及び内容を基に，3年間を見通して，全体的な指導計画に基づき具体的な指導目標や指導内容を設定するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/各教科> .
+<https://w3id.org/jp-cos/8Gn0300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8Gn0300100000000>.

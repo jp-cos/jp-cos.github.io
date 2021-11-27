@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>
+  <http://purl.org/linked-data/cube#order> "241";
+  <http://schema.org/name> "Skills for Lifestyle Support"@en, "生活支援技術"@ja, "せいかつしえんぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "4";
+  <https://w3id.org/jp-cos/codePrefix> "74Y4";
+  <https://w3id.org/jp-cos/fcode04> "A4";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UYA4";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/福祉> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503280000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503290000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y45032A0000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.
+<https://w3id.org/jp-cos/74Y4505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/福祉/生活支援技術>.

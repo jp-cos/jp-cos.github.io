@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84H0300323000000>
+  <http://purl.org/dc/terms/identifier> "84H0300323000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3089"
+  ];
+  <http://schema.org/description> "(ウ) 社会がグローバル化する中で，広い視野から国際理解を深め，国際社会と向き合うことが求められている我が国の一員としての自覚を高めるとともに，国際協調の精神を養うのに役立つこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UHA0A3A0A0A3A2A3A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(ウ)";
+  <https://w3id.org/jp-cos/sectionText> "社会がグローバル化する中で，広い視野から国際理解を深め，国際社会と向き合うことが求められている我が国の一員としての自覚を高めるとともに，国際協調の精神を養うのに役立つこと。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語> .
+<https://w3id.org/jp-cos/84H0300320000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84H0300323000000>.

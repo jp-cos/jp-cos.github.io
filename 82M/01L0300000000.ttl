@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/82M01L0300000000>
+  <http://purl.org/dc/terms/identifier> "82M01L0300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3648"
+  ];
+  <http://schema.org/description> "(3) 探究的な学習に主体的・協働的に取り組むとともに，互いのよさを生かしながら，積極的に社会に参画しようとする態度を養う。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UMA0A1ULA0A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "3", "4", "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "探究的な学習に主体的・協働的に取り組むとともに，互いのよさを生かしながら，積極的に社会に参画しようとする態度を養う。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/総合的な学習の時間> .
+<https://w3id.org/jp-cos/82M01L0000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82M01L0300000000>.

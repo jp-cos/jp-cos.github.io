@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/73K0400400000000>
+  <http://purl.org/dc/terms/identifier> "73K0400400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1551"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1551"
+  ];
+  <http://schema.org/description> "４　主として集団や社会とのかかわりに関すること。        ";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0400400000001>, <https://w3id.org/jp-cos/73K0400410000000>, <https://w3id.org/jp-cos/73K0400420000000>, <https://w3id.org/jp-cos/73K0400430000000>, <https://w3id.org/jp-cos/73K0400440000000>, <https://w3id.org/jp-cos/73K0400450000000>, <https://w3id.org/jp-cos/73K0400460000000>, <https://w3id.org/jp-cos/73K0400470000000>, <https://w3id.org/jp-cos/73K0400480000000>, <https://w3id.org/jp-cos/73K0400490000000>, <https://w3id.org/jp-cos/73K04004A0000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>;
+  <https://w3id.org/jp-cos/fcode> "A7A3UKA0A4A0A0A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "主として集団や社会とのかかわりに関すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/道徳> .
+<https://w3id.org/jp-cos/73K0400000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0400400000000>.

@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>
+  <http://purl.org/linked-data/cube#order> "14";
+  <http://schema.org/name> "Health and Physical Education"@en, "保健体育"@ja, "ほけんたいいく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "G";
+  <https://w3id.org/jp-cos/codePrefix> "7AG";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "UG";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UAUG";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/LowerSecondarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/保健体育> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/7AG0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/7AG0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/7AG0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/7AG0203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/7AG0203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/7AG0203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.

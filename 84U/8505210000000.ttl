@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84U8505210000000>
+  <http://purl.org/dc/terms/identifier> "84U8505210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8453"
+  ];
+  <http://schema.org/description> "ア　〔指導項目〕の(1)のアについては，日本の各時代の特徴的な住居様式を取り上げ，気候や風土と住居との関わり，生活様式や起居様式と住居との関わり，住意識や住要求と住居との関わり，伝統的な和室でのマナーなどを扱うこと。イについては，世界の特徴的な住居様式を取り上げ，気候や風土と住居との関わり，生活様式と住居との関わり，世界の特徴的な住居におけるマナーなどを扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UUA8A5A0A5A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "〔指導項目〕の(1)のアについては，日本の各時代の特徴的な住居様式を取り上げ，気候や風土と住居との関わり，生活様式や起居様式と住居との関わり，住意識や住要求と住居との関わり，伝統的な和室でのマナーなどを扱うこと。イについては，世界の特徴的な住居様式を取り上げ，気候や風土と住居との関わり，生活様式と住居との関わり，世界の特徴的な住居におけるマナーなどを扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/住生活デザイン>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> .
+<https://w3id.org/jp-cos/84U8505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84U8505210000000>.

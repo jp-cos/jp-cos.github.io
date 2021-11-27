@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7453503121000000>
+  <http://purl.org/dc/terms/identifier> "7453503121000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "698"
+  ];
+  <http://schema.org/description> """(ア) 複素数の図表示
+　複素数平面と複素数の極形式，複素数の実数倍，和，差，積及び商の図形的な意味を理解し，それらを事象の考察に活用すること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A5A3A5A0A3A1A2A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(ア)";
+  <https://w3id.org/jp-cos/sectionText> """複素数の図表示
+ 複素数平面と複素数の極形式，複素数の実数倍，和，差，積及び商の図形的な意味を理解し，それらを事象の考察に活用すること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学III>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/数学> .
+<https://w3id.org/jp-cos/7453503120000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7453503121000000>.

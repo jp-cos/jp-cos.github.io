@@ -1,0 +1,51 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>
+  <http://purl.org/linked-data/cube#order> "136";
+  <http://schema.org/name> "Engineering Materials"@en, "工業材料"@ja, "こうぎょうざいりょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "m";
+  <https://w3id.org/jp-cos/codePrefix> "74Qm";
+  <https://w3id.org/jp-cos/fcode04> "Lm";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQLm";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503450000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503610000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm503620000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.
+<https://w3id.org/jp-cos/74Qm505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/工業材料>.

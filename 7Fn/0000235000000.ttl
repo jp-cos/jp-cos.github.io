@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7Fn0000235000000>
+  <http://purl.org/dc/terms/identifier> "7Fn0000235000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "193"
+  ];
+  <http://schema.org/description> "(5) 生徒の身体の動きや意思の表出の状態等に応じて， 適切な補助用具や補助的手段を工夫するとともに，  コンピュータ等の情報機器などを有効に活用し，指導の効果を高めるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Physical>;
+  <https://w3id.org/jp-cos/fcode> "A7UFLnA0A0A0A0A2A3A5A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> "生徒の身体の動きや意思の表出の状態等に応じて， 適切な補助用具や補助的手段を工夫するとともに，  コンピュータ等の情報機器などを有効に活用し，指導の効果を高めるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Physical/2009/各教科> .
+<https://w3id.org/jp-cos/7Fn0000230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Fn0000235000000>.

@@ -1,0 +1,15 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/その他の外国語>
+  <http://purl.org/linked-data/cube#order> "4";
+  <http://schema.org/name> "Other Foreign Languages"@en, "その他の外国語"@ja, "そのたのがいこくご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "2";
+  <https://w3id.org/jp-cos/codePrefix> "8AH2";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode04> "A2";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UAUHA2";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語/その他の外国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/その他の外国語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/その他の外国語>.
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/その他の外国語>.
+<https://w3id.org/jp-cos/8AH2203000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/その他の外国語>.

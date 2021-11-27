@@ -1,0 +1,42 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>
+  <http://purl.org/linked-data/cube#order> "87";
+  <http://schema.org/name> "Fundamentals of Industrial Technology"@en, "工業技術基礎"@ja, "こうぎょうぎじゅつきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "84Q1";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQA1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.
+<https://w3id.org/jp-cos/84Q1505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業技術基礎>.

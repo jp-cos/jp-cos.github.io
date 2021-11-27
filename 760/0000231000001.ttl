@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7600000231000001>
+  <http://purl.org/dc/terms/identifier> "7600000231000001";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "26"
+  ];
+  <http://schema.org/description> "１  小学部又は中学部の各学年における第２章以下に示す各教科（知的障害者である生徒に対する教育を行う特別支援学校の中学部において，外国語科を設ける場合を含む。以下同じ。），道徳科，外国語活動，総合的な学習の時間，特別活動（学級活動（学校給食に係るものを除く。）に限る。以下この項，４及び６において同じ。）及び自立活動（以下「各教科等」という。）の総授業時数は，小学校又は中学校の各学年における総授業時数に準ずるものとする。この場合，各教科等の目標及び内容を考慮し，それぞれの年間の授業時数を適切に定めるものとする。";
+  <http://schema.org/edition> "一部改正（１回目）";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A3A1A0A0A0A0A0A1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> "小学部又は中学部の各学年における第2章以下に示す各教科(知的障害者である生徒に対する教育を行う特別支援学校の中学部において，外国語科を設ける場合を含む。以下同じ。)，道徳科，外国語活動，総合的な学習の時間，特別活動(学級活動(学校給食に係るものを除く。)に限る。以下この項，4及び6において同じ。)及び自立活動(以下「各教科等」という。)の総授業時数は，小学校又は中学校の各学年における総授業時数に準ずるものとする。この場合，各教科等の目標及び内容を考慮し，それぞれの年間の授業時数を適切に定めるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000231000001>.

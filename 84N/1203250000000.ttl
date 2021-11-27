@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/84N1203250000000>
+  <http://purl.org/dc/terms/identifier> "84N1203250000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10908"
+  ];
+  <http://schema.org/description> """オ　生命の尊重と心身ともに健康で安全な生活態度や規律ある習慣の確立
+節度ある健全な生活を送るなど現在及び生涯にわたって心身の健康を保持増進することや，事件や事故，災害等から身を守り安全に行動すること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UNA1A2A0A3A2A5A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "オ";
+  <https://w3id.org/jp-cos/sectionText> """生命の尊重と心身ともに健康で安全な生活態度や規律ある習慣の確立
+節度ある健全な生活を送るなど現在及び生涯にわたって心身の健康を保持増進することや，事件や事故，災害等から身を守り安全に行動すること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/特別活動/ホームルーム活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/特別活動> .
+<https://w3id.org/jp-cos/84N1203200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84N1203250000000>.

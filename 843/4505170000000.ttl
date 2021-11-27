@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8434505170000000>
+  <http://purl.org/dc/terms/identifier> "8434505170000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "886"
+  ];
+  <http://schema.org/description> "キ　文化に関する指導に当たっては，各時代の文化とそれを生み出した時代的背景との関連，外来の文化などとの接触や交流による文化の変容や発展の過程などに着目させ，我が国の伝統と文化の特色とそれを形成した様々な要因を総合的に考察できるよう指導を工夫すること。衣食住や風習・信仰などの生活文化についても，時代の特色や地域社会の様子などと関連付け，民俗学や考古学などの成果の活用を図りながら扱うようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A3A4A5A0A5A1A7A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "キ";
+  <https://w3id.org/jp-cos/sectionText> "文化に関する指導に当たっては，各時代の文化とそれを生み出した時代的背景との関連，外来の文化などとの接触や交流による文化の変容や発展の過程などに着目させ，我が国の伝統と文化の特色とそれを形成した様々な要因を総合的に考察できるよう指導を工夫すること。衣食住や風習・信仰などの生活文化についても，時代の特色や地域社会の様子などと関連付け，民俗学や考古学などの成果の活用を図りながら扱うようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/日本史探究>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史> .
+<https://w3id.org/jp-cos/8434505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8434505170000000>.

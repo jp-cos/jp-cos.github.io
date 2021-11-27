@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84U1505230000000>
+  <http://purl.org/dc/terms/identifier> "84U1505230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8250"
+  ];
+  <http://schema.org/description> "ウ　〔指導項目〕の(3)のアについては，消費者の多様なニーズを捉える調査方法や結果を商品開発等に活用する方法などを扱うこと。イについては，身近で具体的な事例を取り上げ，商品・サービスの企画，開発から生産，販売・提供に結び付けていく仕組みを扱うこと。ウについては，商品やサービスの販売・提供に関する法規を扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UUA1A5A0A5A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "〔指導項目〕の(3)のアについては，消費者の多様なニーズを捉える調査方法や結果を商品開発等に活用する方法などを扱うこと。イについては，身近で具体的な事例を取り上げ，商品・サービスの企画，開発から生産，販売・提供に結び付けていく仕組みを扱うこと。ウについては，商品やサービスの販売・提供に関する法規を扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/生活産業基礎>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> .
+<https://w3id.org/jp-cos/84U1505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84U1505230000000>.

@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/84N1203230000000>
+  <http://purl.org/dc/terms/identifier> "84N1203230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10906"
+  ];
+  <http://schema.org/description> """ウ　国際理解と国際交流の推進
+我が国と他国の文化や生活習慣などについて理解し，よりよい交流の在り方を考えるなど，共に尊重し合い，主体的に国際社会に生きる日本人としての在り方生き方を探求しようとすること。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UNA1A2A0A3A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> """国際理解と国際交流の推進
+我が国と他国の文化や生活習慣などについて理解し，よりよい交流の在り方を考えるなど，共に尊重し合い，主体的に国際社会に生きる日本人としての在り方生き方を探求しようとすること。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/特別活動/ホームルーム活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/特別活動> .
+<https://w3id.org/jp-cos/84N1203200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84N1203230000000>.

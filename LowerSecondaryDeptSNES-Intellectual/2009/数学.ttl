@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>
+  <http://purl.org/linked-data/cube#order> "10";
+  <http://schema.org/name> "Mathematics"@en, "数学"@ja, "すうがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "5";
+  <https://w3id.org/jp-cos/codePrefix> "7A5";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UAA5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/LowerSecondarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/数学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/7A50203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.

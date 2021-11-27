@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8300000210000000>
+  <http://purl.org/dc/terms/identifier> "8300000210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "14"
+  ];
+  <http://schema.org/description> """１　各学校の教育目標と教育課程の編成
+　教育課程の編成に当たっては，学校教育全体や各教科等における指導を通して育成を目指す資質・能力を踏まえつつ，各学校の教育目標を明確にするとともに，教育課程の編成についての基本的な方針が家庭や地域とも共有されるよう努めるものとする。その際，第４章総合的な学習の時間の第２の１に基づき定められる目標との関連を図るものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A0A0A0A0A0A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """各学校の教育目標と教育課程の編成
+ 教育課程の編成に当たっては，学校教育全体や各教科等における指導を通して育成を目指す資質・能力を踏まえつつ，各学校の教育目標を明確にするとともに，教育課程の編成についての基本的な方針が家庭や地域とも共有されるよう努めるものとする。その際，第4章総合的な学習の時間の第2の1に基づき定められる目標との関連を図るものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/総則> .
+<https://w3id.org/jp-cos/8300000200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8300000210000000>.

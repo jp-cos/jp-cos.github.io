@@ -1,0 +1,10 @@
+<https://w3id.org/jp-cos/Elementary/1998/2007>
+  <http://schema.org/citation> "\"Notification No. 46 in 2007 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2007-03-30, Extra Edition No. 67, pp.276-277)"@en, "『平成19年 文部科学省告示第四十六号』（官報. 平成19年3月30日, 号外第67号, pp.276-277）"@ja;
+  <http://schema.org/datePublished> "2007-03-30";
+  <http://schema.org/isbn> "9784171533222";
+  <http://schema.org/name> "Elementary School Curriculum Guideline 2007-03 Notification of Partial Revision"@en, "小学校学習指導要領 平成19年3月 一部改正"@ja;
+  <http://schema.org/startDate> "2007-04-01";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RevisionOfCourseOfStudy>;
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/21519907>, <https://ci.nii.ac.jp/ncid/BA85487665>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary> .
+<https://w3id.org/jp-cos/Elementary/1998> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/1998/2007>.

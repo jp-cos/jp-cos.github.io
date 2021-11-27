@@ -1,0 +1,251 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+#CSデータセットリソースTTL
+<https://w3id.org/jp-cos/81V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "81V10";
+  schema:version "1.0";
+  schema:name "【81V10】幼稚園教育要領コード 平成29年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【81V10】Code for Kindergarten Course of Guideline published in 2017, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/Kindergarten>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/Kindergarten/2017/2017> cs:dataset <https://w3id.org/jp-cos/81V10>.
+<https://w3id.org/jp-cos/Kindergarten/2017> cs:dataset <https://w3id.org/jp-cos/81V10>.
+<https://w3id.org/jp-cos/82V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "82V10";
+  schema:version "1.0";
+  schema:name "【82V10】小学校学習指導要領コード 平成29年告示：バージョン1.0 （令和2年10月16日公表）"@ja;
+  schema:name "【82V10】Code for Elementary School Course of Guideline published in 2017, version 1.0 （2020-10-16 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/Elementary>;#学校種別
+  schema:releaseDate "2020-10-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/Elementary/2017/2017> cs:dataset <https://w3id.org/jp-cos/82V10>.
+<https://w3id.org/jp-cos/Elementary/2017> cs:dataset <https://w3id.org/jp-cos/82V10>.
+<https://w3id.org/jp-cos/82V11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "82V11";
+  schema:version "1.1";
+  schema:name "【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）"@ja;
+  schema:name "【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/Elementary>;#学校種別
+  schema:releaseDate "2021-08-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/Elementary/2017/2017> cs:dataset <https://w3id.org/jp-cos/82V11>.
+<https://w3id.org/jp-cos/Elementary/2017> cs:dataset <https://w3id.org/jp-cos/82V11>.
+<https://w3id.org/jp-cos/83V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "83V10";
+  schema:version "1.0";
+  schema:name "【83V10】中学校学習指導要領コード 平成29年告示：バージョン1.0 （令和2年10月16日公表）"@ja;
+  schema:name "【83V10】Code for Lower Secondary School Course of Guideline published in 2017, version 1.0 （2020-10-16 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondary>;#学校種別
+  schema:releaseDate "2020-10-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/LowerSecondary/2017/2017> cs:dataset <https://w3id.org/jp-cos/83V10>.
+<https://w3id.org/jp-cos/LowerSecondary/2017> cs:dataset <https://w3id.org/jp-cos/83V10>.
+<https://w3id.org/jp-cos/83V11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "83V11";
+  schema:version "1.1";
+  schema:name "【83V11】中学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年3月18日公表）"@ja;
+  schema:name "【83V11】Code for Lower Secondary School Course of Guideline published in 2017, version 1.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondary>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/LowerSecondary/2017/2017> cs:dataset <https://w3id.org/jp-cos/83V11>.
+<https://w3id.org/jp-cos/LowerSecondary/2017> cs:dataset <https://w3id.org/jp-cos/83V11>.
+<https://w3id.org/jp-cos/84V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "84V10";
+  schema:version "1.0";
+  schema:name "【84V10】高等学校学習指導要領コード 平成30年告示：バージョン1.0 （令和2年10月16日公表）"@ja;
+  schema:name "【84V10】Code for Upper Secondary School Course of Guideline published in 2018, version 1.0 （2020-10-16 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondary>;#学校種別
+  schema:releaseDate "2020-10-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/2018> cs:dataset <https://w3id.org/jp-cos/84V10>.
+<https://w3id.org/jp-cos/UpperSecondary/2018> cs:dataset <https://w3id.org/jp-cos/84V10>.
+<https://w3id.org/jp-cos/85V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "85V10";
+  schema:version "1.0";
+  schema:name "【85V10】特別支援学校幼稚部教育要領コード 平成29年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【85V10】Code for Kindergarten Department of Special Needs Education School Course of Guideline published in 2017, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017> cs:dataset <https://w3id.org/jp-cos/85V10>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2017> cs:dataset <https://w3id.org/jp-cos/85V10>.
+<https://w3id.org/jp-cos/86V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "86V10";
+  schema:version "1.0";
+  schema:name "【86V10】特別支援学校小学部・中学部学習指導要領コード 平成29年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【86V10】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2017, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDeptSNES>,<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> cs:dataset <https://w3id.org/jp-cos/86V10>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> cs:dataset <https://w3id.org/jp-cos/86V10>.
+<https://w3id.org/jp-cos/86V11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "86V11";
+  schema:version "1.1";
+  schema:name "【86V11】特別支援学校小学部・中学部学習指導要領コード 平成29年告示：バージョン1.1 （令和3年3月18日公表）"@ja;
+  schema:name "【86V11】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2017, version 1.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDeptSNES>,<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> cs:dataset <https://w3id.org/jp-cos/86V11>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> cs:dataset <https://w3id.org/jp-cos/86V11>.
+<https://w3id.org/jp-cos/8BV10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "8BV10";
+  schema:version "1.0";
+  schema:name "【8BV10】特別支援学校高等部学習指導要領コード 平成31年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【8BV10】Code for Upper Secondary Department of Special Needs Education School Course of Guideline published in 2019, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> cs:dataset <https://w3id.org/jp-cos/8BV10>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> cs:dataset <https://w3id.org/jp-cos/8BV10>.
+<https://w3id.org/jp-cos/8BV11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "8BV11";
+  schema:version "1.1";
+  schema:name "【8BV11】特別支援学校高等部学習指導要領コード 平成31年告示：バージョン1.1 （令和3年3月18日公表）"@ja;
+  schema:name "【8BV11】Code for Upper Secondary Department of Special Needs Education School Course of Guideline published in 2019, version 1.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> cs:dataset <https://w3id.org/jp-cos/8BV11>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> cs:dataset <https://w3id.org/jp-cos/8BV11>.
+<https://w3id.org/jp-cos/71V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "71V10";
+  schema:version "1.0";
+  schema:name "【71V10】幼稚園教育要領コード 平成20年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【71V10】Code for Kindergarten Course of Guideline published in 2008, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/Kindergarten>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/Kindergarten/2008/2008> cs:dataset <https://w3id.org/jp-cos/71V10>.
+<https://w3id.org/jp-cos/Kindergarten/2008> cs:dataset <https://w3id.org/jp-cos/71V10>.
+<https://w3id.org/jp-cos/72V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "72V10";
+  schema:version "1.0";
+  schema:name "【72V10】小学校学習指導要領コード 平成20年告示：バージョン1.0 （令和2年11月30日公表）"@ja;
+  schema:name "【72V10】Code for Elementary School Course of Guideline published in 2008, version 1.0 （2020-11-30 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/Elementary>;#学校種別
+  schema:releaseDate "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/Elementary/2008/2008> cs:dataset <https://w3id.org/jp-cos/72V10>.
+<https://w3id.org/jp-cos/Elementary/2008> cs:dataset <https://w3id.org/jp-cos/72V10>.
+<https://w3id.org/jp-cos/72V20> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "72V20";
+  schema:version "2.0";
+  schema:name "【72V20】小学校学習指導要領コード 平成27年告示：バージョン2.0 （令和2年11月30日公表）"@ja;
+  schema:name "【72V20】Code for Elementary School Course of Guideline published in 2015年, version 2.0 （2020-11-30 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/Elementary>;#学校種別
+  schema:releaseDate "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/Elementary/2008/2015> cs:dataset <https://w3id.org/jp-cos/72V20>.
+<https://w3id.org/jp-cos/Elementary/2008> cs:dataset <https://w3id.org/jp-cos/72V20>.
+<https://w3id.org/jp-cos/73V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "73V10";
+  schema:version "1.0";
+  schema:name "【73V10】中学校学習指導要領コード 平成20年告示：バージョン1.0 （令和2年11月30日公表）"@ja;
+  schema:name "【73V10】Code for Lower Secondary School Course of Guideline published in 2008, version 1.0 （2020-11-30 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondary>;#学校種別
+  schema:releaseDate "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/LowerSecondary/2008/2008> cs:dataset <https://w3id.org/jp-cos/73V10>.
+<https://w3id.org/jp-cos/LowerSecondary/2008> cs:dataset <https://w3id.org/jp-cos/73V10>.
+<https://w3id.org/jp-cos/73V20> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "73V20";
+  schema:version "2.0";
+  schema:name "【73V20】中学校学習指導要領コード 平成22年告示：バージョン2.0 （令和2年11月30日公表）"@ja;
+  schema:name "【73V20】Code for Lower Secondary School Course of Guideline published in 2010年, version 2.0 （2020-11-30 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondary>;#学校種別
+  schema:releaseDate "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/LowerSecondary/2008/2010> cs:dataset <https://w3id.org/jp-cos/73V20>.
+<https://w3id.org/jp-cos/LowerSecondary/2008> cs:dataset <https://w3id.org/jp-cos/73V20>.
+<https://w3id.org/jp-cos/73V30> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "73V30";
+  schema:version "3.0";
+  schema:name "【73V30】中学校学習指導要領コード 平成27年告示：バージョン3.0 （令和2年11月30日公表）"@ja;
+  schema:name "【73V30】Code for Lower Secondary School Course of Guideline published in 2015年, version 3.0 （2020-11-30 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondary>;#学校種別
+  schema:releaseDate "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/LowerSecondary/2008/2015> cs:dataset <https://w3id.org/jp-cos/73V30>.
+<https://w3id.org/jp-cos/LowerSecondary/2008> cs:dataset <https://w3id.org/jp-cos/73V30>.
+<https://w3id.org/jp-cos/73V31> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "73V31";
+  schema:version "3.1";
+  schema:name "【73V31】中学校学習指導要領コード 平成27年告示：バージョン3.1 （令和3年3月18日公表）"@ja;
+  schema:name "【73V31】Code for Lower Secondary School Course of Guideline published in 2015年, version 3.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/LowerSecondary>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/LowerSecondary/2008/2015> cs:dataset <https://w3id.org/jp-cos/73V31>.
+<https://w3id.org/jp-cos/LowerSecondary/2008> cs:dataset <https://w3id.org/jp-cos/73V31>.
+<https://w3id.org/jp-cos/74V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "74V10";
+  schema:version "1.0";
+  schema:name "【74V10】高等学校学習指導要領コード 平成21年告示：バージョン1.0 （令和2年11月30日公表）"@ja;
+  schema:name "【74V10】Code for Upper Secondary School Course of Guideline published in 2009, version 1.0 （2020-11-30 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondary>;#学校種別
+  schema:releaseDate "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/2009> cs:dataset <https://w3id.org/jp-cos/74V10>.
+<https://w3id.org/jp-cos/UpperSecondary/2009> cs:dataset <https://w3id.org/jp-cos/74V10>.
+<https://w3id.org/jp-cos/75V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "75V10";
+  schema:version "1.0";
+  schema:name "【75V10】特別支援学校幼稚部教育要領コード 平成21年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【75V10】Code for Kindergarten Department of Special Needs Education School Course of Guideline published in 2009, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009> cs:dataset <https://w3id.org/jp-cos/75V10>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/75V10>.
+<https://w3id.org/jp-cos/75V11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "75V11";
+  schema:version "1.1";
+  schema:name "【75V11】特別支援学校幼稚部教育要領コード 平成21年告示：バージョン1.1 （令和3年3月18日公表）"@ja;
+  schema:name "【75V11】Code for Kindergarten Department of Special Needs Education School Course of Guideline published in 2009, version 1.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009> cs:dataset <https://w3id.org/jp-cos/75V11>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/75V11>.
+<https://w3id.org/jp-cos/76V10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "76V10";
+  schema:version "1.0";
+  schema:name "【76V10】特別支援学校小学部・中学部学習指導要領コード 平成21年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【76V10】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2009, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDeptSNES>,<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009> cs:dataset <https://w3id.org/jp-cos/76V10>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/76V10>.
+<https://w3id.org/jp-cos/76V11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "76V11";
+  schema:version "1.1";
+  schema:name "【76V11】特別支援学校小学部・中学部学習指導要領コード 平成21年告示：バージョン1.1 （令和3年3月18日公表）"@ja;
+  schema:name "【76V11】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2009, version 1.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDeptSNES>,<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009> cs:dataset <https://w3id.org/jp-cos/76V11>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/76V11>.
+<https://w3id.org/jp-cos/76V20> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "76V20";
+  schema:version "2.0";
+  schema:name "【76V20】特別支援学校小学部・中学部学習指導要領コード 平成27年告示：バージョン2.0 （令和2年12月28日公表）"@ja;
+  schema:name "【76V20】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2015年, version 2.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDeptSNES>,<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> cs:dataset <https://w3id.org/jp-cos/76V20>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/76V20>.
+<https://w3id.org/jp-cos/76V21> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "76V21";
+  schema:version "2.1";
+  schema:name "【76V21】特別支援学校小学部・中学部学習指導要領コード 平成27年告示：バージョン2.1 （令和3年3月18日公表）"@ja;
+  schema:name "【76V21】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2015年, version 2.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/ElementaryDeptSNES>,<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> cs:dataset <https://w3id.org/jp-cos/76V21>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/76V21>.
+<https://w3id.org/jp-cos/7BV10> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "7BV10";
+  schema:version "1.0";
+  schema:name "【7BV10】特別支援学校高等部学習指導要領コード 平成21年告示：バージョン1.0 （令和2年12月28日公表）"@ja;
+  schema:name "【7BV10】Code for Upper Secondary Department of Special Needs Education School Course of Guideline published in 2009, version 1.0 （2020-12-28 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2020-12-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> cs:dataset <https://w3id.org/jp-cos/7BV10>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/7BV10>.
+<https://w3id.org/jp-cos/7BV11> a <https://w3id.org/jp-cos/Dataset>; #学習指導要領コード表メタデータリソース
+  dct:identifier "7BV11";
+  schema:version "1.1";
+  schema:name "【7BV11】特別支援学校高等部学習指導要領コード 平成21年告示：バージョン1.1 （令和3年3月18日公表）"@ja;
+  schema:name "【7BV11】Code for Upper Secondary Department of Special Needs Education School Course of Guideline published in 2009, version 1.1 （2021-03-18 release）"@en;
+  cs:school <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;#学校種別
+  schema:releaseDate "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> cs:dataset <https://w3id.org/jp-cos/7BV11>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> cs:dataset <https://w3id.org/jp-cos/7BV11>.
+

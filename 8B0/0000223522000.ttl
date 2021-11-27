@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000223522000>
+  <http://purl.org/dc/terms/identifier> "8B00000223522000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "123"
+  ];
+  <http://schema.org/description> "(イ) 生徒が，基礎的・基本的な知識及び技能の習得も含め，学習内容を確実に身に付けることができるよう，それぞれの生徒に作成した個別の指導計画や学校の実態に応じて，指導方法や指導体制の工夫改善に努めること。その際，生徒の障害の状態や特性及び心身の発達の段階等並びに学習の進度を考慮して，個別指導を重視するとともに，グループ別学習，繰り返し学習，学習内容の習熟の程度に応じた学習，生徒の興味・関心等に応じた課題学習，補充的な学習や発展的な学習などの学習活動を取り入れることや，教師間の協力による指導体制を確保することなど，指導方法や指導体制の工夫改善により，個に応じた指導の充実を図ること。その際，第３款の１の(3) に示す情報手段や教材・教具の活用を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A2A3A5A2A2A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "生徒が，基礎的・基本的な知識及び技能の習得も含め，学習内容を確実に身に付けることができるよう，それぞれの生徒に作成した個別の指導計画や学校の実態に応じて，指導方法や指導体制の工夫改善に努めること。その際，生徒の障害の状態や特性及び心身の発達の段階等並びに学習の進度を考慮して，個別指導を重視するとともに，グループ別学習，繰り返し学習，学習内容の習熟の程度に応じた学習，生徒の興味・関心等に応じた課題学習，補充的な学習や発展的な学習などの学習活動を取り入れることや，教師間の協力による指導体制を確保することなど，指導方法や指導体制の工夫改善により，個に応じた指導の充実を図ること。その際，第3款の1の(3) に示す情報手段や教材・教具の活用を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000223520000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000223522000>.

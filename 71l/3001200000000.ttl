@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/71l3001200000000>
+  <http://purl.org/dc/terms/identifier> "71l3001200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "73"
+  ];
+  <http://schema.org/description> "(2) 身近な環境に自分からかかわり，発見を楽しんだり，考えたりし，それを生活に取り入れようとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
+  <https://w3id.org/jp-cos/fcode> "A7A1LlA3A0A0A1A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "身近な環境に自分からかかわり，発見を楽しんだり，考えたりし，それを生活に取り入れようとする。";
+  <https://w3id.org/jp-cos/subCategory> "ねらい";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/環境>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容> .
+<https://w3id.org/jp-cos/71l3001000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71l3001200000000>.

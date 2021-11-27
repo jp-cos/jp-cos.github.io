@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>
+  <http://purl.org/linked-data/cube#order> "122";
+  <http://schema.org/name> "Execution of Architectural Works"@en, "建築施工"@ja, "けんちくせこう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "Y";
+  <https://w3id.org/jp-cos/codePrefix> "74QY";
+  <https://w3id.org/jp-cos/fcode04> "UY";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQUY";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503350000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503360000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.
+<https://w3id.org/jp-cos/74QY505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/建築施工>.

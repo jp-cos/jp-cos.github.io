@@ -1,0 +1,52 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>
+  <http://purl.org/linked-data/cube#order> "95";
+  <http://schema.org/name> "Industrial Environmental Technology"@en, "工業環境技術"@ja, "こうぎょうかんきょうぎじゅつ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "9";
+  <https://w3id.org/jp-cos/codePrefix> "84Q9";
+  <https://w3id.org/jp-cos/fcode04> "A9";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQA9";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9503155000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.
+<https://w3id.org/jp-cos/84Q9505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/工業環境技術>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8440300210000000>
+  <http://purl.org/dc/terms/identifier> "8440300210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1212"
+  ];
+  <http://schema.org/description> "(1) 社会的な見方・考え方を働かせることをより一層重視する観点に立って，社会的事象等の意味や意義，事象の特色や事象間の関連，現実社会に見られる課題などについて，考察したことや構想したことを論理的に説明したり，立場や根拠を明確にして議論したりするなどの言語活動に関わる学習を一層重視すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A0A3A0A0A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "社会的な見方・考え方を働かせることをより一層重視する観点に立って，社会的事象等の意味や意義，事象の特色や事象間の関連，現実社会に見られる課題などについて，考察したことや構想したことを論理的に説明したり，立場や根拠を明確にして議論したりするなどの言語活動に関わる学習を一層重視すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8440300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8440300210000000>.

@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>
+  <http://purl.org/linked-data/cube#order> "209";
+  <http://schema.org/name> "Basic Nursing"@en, "基礎看護"@ja, "きそかんご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "84W1";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UWA1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503115000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503137000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1503146000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.
+<https://w3id.org/jp-cos/84W1505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/基礎看護>.

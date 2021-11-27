@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74P8505120000000>
+  <http://purl.org/dc/terms/identifier> "74P8505120000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2278"
+  ];
+  <http://schema.org/description> "イ　内容の(2)及び(3)については，観察や実験・実習を通して，草花の特性と栽培環境の相互関係から草花の生育と環境の調節について理解させ，草花生産に関する科学的な見方と実践力を育てること。なお，地域農業の実態，学科の特色や消費動向に応じて，題材として適切な草花を選定すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UPA8A5A0A5A1A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "内容の(2)及び(3)については，観察や実験・実習を通して，草花の特性と栽培環境の相互関係から草花の生育と環境の調節について理解させ，草花生産に関する科学的な見方と実践力を育てること。なお，地域農業の実態，学科の特色や消費動向に応じて，題材として適切な草花を選定すること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/草花>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/農業> .
+<https://w3id.org/jp-cos/74P8505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74P8505120000000>.

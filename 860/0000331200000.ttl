@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8600000331200000>
+  <http://purl.org/dc/terms/identifier> "8600000331200000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "26"
+  ];
+  <http://schema.org/description> "イ　学校において特に必要がある場合には，第２章以下に示していない内容を加えて指導することができる。また，第２章以下に示す内容の取扱いのうち内容の範囲や程度等を示す事項は，全ての児童又は生徒に対して指導するものとする内容の範囲や程度等を示したものであり，学校において特に必要がある場合には，この事項にかかわらず加えて指導することができる。ただし， これらの場合には，第２章以下に示す各教科，道徳科，外国語活動，特別活動及び自立活動の目標や内容並びに各学年や各段階，各分野又は各言語の目標や内容（知的障害者である児童又は生徒に対する教育を行う特別支援学校においては，外国語科及び外国語活動の各言語の内容）の趣旨を逸脱したり， 児童又は生徒の負担過重となったりすることのないようにしなければならない。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A3A3A1A2A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "学校において特に必要がある場合には，第2章以下に示していない内容を加えて指導することができる。また，第2章以下に示す内容の取扱いのうち内容の範囲や程度等を示す事項は，全ての児童又は生徒に対して指導するものとする内容の範囲や程度等を示したものであり，学校において特に必要がある場合には，この事項にかかわらず加えて指導することができる。ただし， これらの場合には，第2章以下に示す各教科，道徳科，外国語活動，特別活動及び自立活動の目標や内容並びに各学年や各段階，各分野又は各言語の目標や内容(知的障害者である児童又は生徒に対する教育を行う特別支援学校においては，外国語科及び外国語活動の各言語の内容)の趣旨を逸脱したり， 児童又は生徒の負担過重となったりすることのないようにしなければならない。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000331000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000331200000>.

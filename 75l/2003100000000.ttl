@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/75l2003100000000>
+  <http://purl.org/dc/terms/identifier> "75l2003100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "23"
+  ];
+  <http://schema.org/description> "(1)  健康の保持";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/75l2003110000000>, <https://w3id.org/jp-cos/75l2003120000000>, <https://w3id.org/jp-cos/75l2003130000000>, <https://w3id.org/jp-cos/75l2003140000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A5LlA2A0A0A3A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "健康の保持";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等> .
+<https://w3id.org/jp-cos/75l2003000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/75l2003100000000>.

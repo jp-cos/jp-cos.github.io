@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84P4505130000000>
+  <http://purl.org/dc/terms/identifier> "84P4505130000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3551"
+  ];
+  <http://schema.org/description> "ウ　〔指導項目〕の(2)及び(3)については，実習や産業現場の見学などを通して，農業の各分野において，情報と情報手段を適切かつ効果的に活用する能力を育むようにすること。また，農業技術の先進的な事例を基に農業経営の発展に向けた探究的な学習活動を取り入れるなど，農業科に属する他の科目との関連を図るようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UPA4A5A0A5A1A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> "〔指導項目〕の(2)及び(3)については，実習や産業現場の見学などを通して，農業の各分野において，情報と情報手段を適切かつ効果的に活用する能力を育むようにすること。また，農業技術の先進的な事例を基に農業経営の発展に向けた探究的な学習活動を取り入れるなど，農業科に属する他の科目との関連を図るようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/農業と情報>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/農業> .
+<https://w3id.org/jp-cos/84P4505100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84P4505130000000>.

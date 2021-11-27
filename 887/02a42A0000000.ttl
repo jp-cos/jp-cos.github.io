@@ -1,0 +1,27 @@
+<https://w3id.org/jp-cos/88702a42A0000000>
+  <http://purl.org/dc/terms/identifier> "88702a42A0000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "195"
+  ];
+  <http://schema.org/description> """コ  社会の仕組みと公共施設
+自分の家族や近隣に関心をもつこと及び公園等の公共施設に関わる学習活動を通して，次の事項を身に付けることができるよう指導する。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/88702a42A1000000>, <https://w3id.org/jp-cos/88702a42A2000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8A8A7A0A2LaA4A2UAA0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "コ";
+  <https://w3id.org/jp-cos/sectionText> """社会の仕組みと公共施設
+自分の家族や近隣に関心をもつこと及び公園等の公共施設に関わる学習活動を通して，次の事項を身に付けることができるよう指導する。""";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/ElementaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/1>;
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/生活> .
+<https://w3id.org/jp-cos/88702a4200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/88702a42A0000000>.

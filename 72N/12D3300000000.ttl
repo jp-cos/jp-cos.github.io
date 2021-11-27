@@ -1,0 +1,29 @@
+<https://w3id.org/jp-cos/72N12D3300000000>
+  <http://purl.org/dc/terms/identifier> "72N12D3300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2819"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2793"
+  ];
+  <http://schema.org/description> """〔第５学年及び第６学年〕
+学級を単位として，信頼し支え合って楽しく豊かな学級や学校の生活をつくるとともに，日常の生活や学習に自主的に取り組もうとする態度の向上に資する活動を行うこと。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2UNA1A2UDA3A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionText> """〔第5学年及び第6学年〕
+学級を単位として，信頼し支え合って楽しく豊かな学級や学校の生活をつくるとともに，日常の生活や学習に自主的に取り組もうとする態度の向上に資する活動を行うこと。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Elementary/2008/特別活動/学級活動>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/特別活動> .
+<https://w3id.org/jp-cos/72N1203000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/72N12D3300000000>.

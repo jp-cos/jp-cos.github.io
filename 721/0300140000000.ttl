@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7210300140000000>
+  <http://purl.org/dc/terms/identifier> "7210300140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "249"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "240"
+  ];
+  <http://schema.org/description> "(4) 第２の各学年の内容の「Ｂ書くこと」に関する指導については，第１学年及び第２学年では年間100単位時間程度，第３学年及び第４学年では年間85単位時間程度，第５学年及び第６学年では年間55単位時間程度を配当すること。その際，実際に文章を書く活動をなるべく多くすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2A1A0A3A0A0A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "第2の各学年の内容の「B書くこと」に関する指導については，第1学年及び第2学年では年間100単位時間程度，第3学年及び第4学年では年間85単位時間程度，第5学年及び第6学年では年間55単位時間程度を配当すること。その際，実際に文章を書く活動をなるべく多くすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/国語> .
+<https://w3id.org/jp-cos/7210300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7210300140000000>.

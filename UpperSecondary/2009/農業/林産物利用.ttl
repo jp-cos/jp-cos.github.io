@@ -1,0 +1,51 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>
+  <http://purl.org/linked-data/cube#order> "79";
+  <http://schema.org/name> "Utilization of Forest Products"@en, "林産物利用"@ja, "りんさんぶつりよう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "L";
+  <https://w3id.org/jp-cos/codePrefix> "74PL";
+  <https://w3id.org/jp-cos/fcode04> "UL";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UPUL";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503440000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.
+<https://w3id.org/jp-cos/74PL505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/林産物利用>.

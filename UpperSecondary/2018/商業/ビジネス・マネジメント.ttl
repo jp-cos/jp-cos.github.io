@@ -1,0 +1,57 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>
+  <http://purl.org/linked-data/cube#order> "153";
+  <http://schema.org/name> "Business Management"@en, "ビジネス・マネジメント"@ja, "びじねす・まねじめんと"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "84R8";
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503114000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.
+<https://w3id.org/jp-cos/84R8505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ビジネス・マネジメント>.

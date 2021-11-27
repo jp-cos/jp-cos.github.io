@@ -1,0 +1,65 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>
+  <http://purl.org/linked-data/cube#order> "211";
+  <http://schema.org/name> "Promotion of Disease Formation and Recovery"@en, "疾病の成り立ちと回復の促進"@ja, "しっぺいのなりたちとかいふくのそくしん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "3";
+  <https://w3id.org/jp-cos/codePrefix> "84W3";
+  <https://w3id.org/jp-cos/fcode04> "A3";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UWA3";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/看護> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503125000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503126000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503127000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503146000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503147000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503148000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503149000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W350314A000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W350314B000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.
+<https://w3id.org/jp-cos/84W3505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/疾病の成り立ちと回復の促進>.

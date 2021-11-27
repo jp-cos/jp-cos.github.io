@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/81l5005200000000>
+  <http://purl.org/dc/terms/identifier> "81l5005200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "183"
+  ];
+  <http://schema.org/description> "(2) 幼児の自己表現は素朴な形で行われることが多いので，教師はそのような表現を受容し，幼児自身の表現しようとする意欲を受け止めて，幼児が生活の中で幼児らしい様々な表現を楽しむことができるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1LlA5A0A0A5A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "幼児の自己表現は素朴な形で行われることが多いので，教師はそのような表現を受容し，幼児自身の表現しようとする意欲を受け止めて，幼児が生活の中で幼児らしい様々な表現を楽しむことができるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Kindergarten/2017/ねらい及び内容/表現>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/ねらい及び内容> .
+<https://w3id.org/jp-cos/81l5005000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/81l5005200000000>.

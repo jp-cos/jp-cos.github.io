@@ -1,0 +1,54 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>
+  <http://purl.org/linked-data/cube#order> "72";
+  <http://schema.org/name> "Food Chemistry"@en, "食品化学"@ja, "しょくひんかがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "G";
+  <https://w3id.org/jp-cos/codePrefix> "84PG";
+  <https://w3id.org/jp-cos/fcode04> "UG";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUG";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.
+<https://w3id.org/jp-cos/84PG505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品化学>.

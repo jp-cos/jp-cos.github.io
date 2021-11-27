@@ -1,0 +1,68 @@
+<https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>
+  <http://purl.org/linked-data/cube#order> "2";
+  <http://schema.org/name> "Aims and Content"@en, "ねらい及び内容"@ja, "ねらいおよびないよう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "l";
+  <https://w3id.org/jp-cos/codePrefix> "85l";
+  <https://w3id.org/jp-cos/fcode03> "Ll";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A5Ll";
+  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容/健康，人間関係，環境，言葉及び表現>, <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容/自立活動>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/Kindergarten/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017> .
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2017/ねらい及び内容> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l0000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l1000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2001000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003150000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003310000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003410000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003420000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003430000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003440000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003450000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003510000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003520000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003530000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003540000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003550000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003610000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003620000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003630000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003640000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2003650000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006231000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006232000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006233000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006250000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
+<https://w3id.org/jp-cos/85l2006500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7460300230000000>
+  <http://purl.org/dc/terms/identifier> "7460300230000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1254"
+  ];
+  <http://schema.org/description> "(3) 観察，実験，野外観察，調査などの指導に当たっては，関連する法規等に従い，事故防止について十分留意するとともに，使用薬品などの管理及び廃棄についても適切な措置を講ずること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A6A0A3A0A0A2A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "観察，実験，野外観察，調査などの指導に当たっては，関連する法規等に従い，事故防止について十分留意するとともに，使用薬品などの管理及び廃棄についても適切な措置を講ずること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理科> .
+<https://w3id.org/jp-cos/7460300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7460300230000000>.

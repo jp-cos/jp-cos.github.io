@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8100000436000000>
+  <http://purl.org/dc/terms/identifier> "8100000436000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "55"
+  ];
+  <http://schema.org/description> "(6) 幼児期は直接的な体験が重要であることを踏まえ，視聴覚教材やコンピュータなど情報機器を活用する際には，幼稚園生活では得難い体験を補完するなど，幼児の体験との関連を考慮すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A1A0A0A0A0A0A4A3A6A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "幼児期は直接的な体験が重要であることを踏まえ，視聴覚教材やコンピュータなど情報機器を活用する際には，幼稚園生活では得難い体験を補完するなど，幼児の体験との関連を考慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/総則> .
+<https://w3id.org/jp-cos/8100000430000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000436000000>.

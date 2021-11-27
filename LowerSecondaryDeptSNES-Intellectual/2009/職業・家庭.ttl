@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>
+  <http://purl.org/linked-data/cube#order> "15";
+  <http://schema.org/name> "Job and Home Economics"@en, "職業・家庭"@ja, "しょくぎょう・かてい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "D";
+  <https://w3id.org/jp-cos/codePrefix> "7AD";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "UD";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7UAUD";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/職業・家庭> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203700000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203800000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.
+<https://w3id.org/jp-cos/7AD0203900000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭>.

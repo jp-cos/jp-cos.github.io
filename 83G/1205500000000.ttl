@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/83G1205500000000>
+  <http://purl.org/dc/terms/identifier> "83G1205500000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1597"
+  ];
+  <http://schema.org/description> "(5) 集合，整頓，列の増減，方向変換などの行動の仕方を身に付け，能率的で安全な集団としての行動ができるようにするための指導については，内容の「Ａ体つくり運動」から「Ｇダンス」までの領域において適切に行うものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UGA1A2A0A5A5A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> "集合，整頓，列の増減，方向変換などの行動の仕方を身に付け，能率的で安全な集団としての行動ができるようにするための指導については，内容の「A体つくり運動」から「Gダンス」までの領域において適切に行うものとする。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育/体育分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/保健体育> .
+<https://w3id.org/jp-cos/83G1205000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83G1205500000000>.

@@ -1,0 +1,28 @@
+<https://w3id.org/jp-cos/7220265140000000>
+  <http://purl.org/dc/terms/identifier> "7220265140000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1394"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1385"
+  ];
+  <http://schema.org/description> "エ　アからクまでについては，例えば，次に掲げる人物を取り上げ，人物の働きを通して学習できるように指導すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7220265140100000>, <https://w3id.org/jp-cos/7220265140200000>, <https://w3id.org/jp-cos/7220265140300000>, <https://w3id.org/jp-cos/7220265140400000>, <https://w3id.org/jp-cos/7220265140500000>, <https://w3id.org/jp-cos/7220265140600000>, <https://w3id.org/jp-cos/7220265140700000>, <https://w3id.org/jp-cos/7220265140800000>, <https://w3id.org/jp-cos/7220265140900000>, <https://w3id.org/jp-cos/7220265141000000>, <https://w3id.org/jp-cos/7220265141100000>, <https://w3id.org/jp-cos/7220265141200000>, <https://w3id.org/jp-cos/7220265141300000>, <https://w3id.org/jp-cos/7220265141400000>, <https://w3id.org/jp-cos/7220265141500000>, <https://w3id.org/jp-cos/7220265141600000>, <https://w3id.org/jp-cos/7220265141700000>, <https://w3id.org/jp-cos/7220265141800000>, <https://w3id.org/jp-cos/7220265141900000>, <https://w3id.org/jp-cos/7220265142000000>, <https://w3id.org/jp-cos/7220265142100000>, <https://w3id.org/jp-cos/7220265142200000>, <https://w3id.org/jp-cos/7220265142300000>, <https://w3id.org/jp-cos/7220265142400000>, <https://w3id.org/jp-cos/7220265142500000>, <https://w3id.org/jp-cos/7220265142600000>, <https://w3id.org/jp-cos/7220265142700000>, <https://w3id.org/jp-cos/7220265142800000>, <https://w3id.org/jp-cos/7220265142900000>, <https://w3id.org/jp-cos/7220265143000000>, <https://w3id.org/jp-cos/7220265143100000>, <https://w3id.org/jp-cos/7220265143200000>, <https://w3id.org/jp-cos/7220265143300000>, <https://w3id.org/jp-cos/7220265143400000>, <https://w3id.org/jp-cos/7220265143500000>, <https://w3id.org/jp-cos/7220265143600000>, <https://w3id.org/jp-cos/7220265143700000>, <https://w3id.org/jp-cos/7220265143800000>, <https://w3id.org/jp-cos/7220265143900000>, <https://w3id.org/jp-cos/7220265144000000>, <https://w3id.org/jp-cos/7220265144100000>, <https://w3id.org/jp-cos/7220265144200000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A2A2A0A2A6A5A1A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionText> "アからクまでについては，例えば，次に掲げる人物を取り上げ，人物の働きを通して学習できるように指導すること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/社会> .
+<https://w3id.org/jp-cos/7220265100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7220265140000000>.

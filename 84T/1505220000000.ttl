@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84T1505220000000>
+  <http://purl.org/dc/terms/identifier> "84T1505220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "7381"
+  ];
+  <http://schema.org/description> "イ　〔指導項目〕の(2)については，水産物の安定供給並びに付加価値向上の必要性について基礎的な内容に触れること。また，社会や産業全体の課題を解決するために，水産業や海洋関連産業が果たしている役割，働くことの社会的意義や役割，職業人に求められる倫理観についても扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UTA1A5A0A5A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "〔指導項目〕の(2)については，水産物の安定供給並びに付加価値向上の必要性について基礎的な内容に触れること。また，社会や産業全体の課題を解決するために，水産業や海洋関連産業が果たしている役割，働くことの社会的意義や役割，職業人に求められる倫理観についても扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/水産海洋基礎>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/水産> .
+<https://w3id.org/jp-cos/84T1505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84T1505220000000>.

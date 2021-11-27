@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7C00000222115000>
+  <http://purl.org/dc/terms/identifier> "7C00000222115000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "52"
+  ];
+  <http://schema.org/description> "オ  理科のうち「科学と人間生活」，「物理基礎」，「化学基礎」，「生物基礎」及び「地学基礎」のうちから２科目 （うち１科目は「科学と人間生活」 とする。）又は「物理基礎」，  「化学基礎」，  「生物基礎」及び「地学基礎」のうちから３科目";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A7UCA0A0A0A0A0A2A2A2A1A1A5A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "オ";
+  <https://w3id.org/jp-cos/sectionText> "理科のうち「科学と人間生活」，「物理基礎」，「化学基礎」，「生物基礎」及び「地学基礎」のうちから2科目 (うち1科目は「科学と人間生活」 とする。)又は「物理基礎」，  「化学基礎」，  「生物基礎」及び「地学基礎」のうちから3科目";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2009/総則> .
+<https://w3id.org/jp-cos/7C00000222110000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7C00000222115000>.

@@ -1,0 +1,49 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>
+  <http://purl.org/linked-data/cube#order> "127";
+  <http://schema.org/name> "Surveying"@en, "測量"@ja, "そくりょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "d";
+  <https://w3id.org/jp-cos/codePrefix> "74Qd";
+  <https://w3id.org/jp-cos/fcode04> "Ld";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UQLd";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503430000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.
+<https://w3id.org/jp-cos/74Qd505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/測量>.

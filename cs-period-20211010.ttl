@@ -1,0 +1,70 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+#CS告示時期TTL
+<https://w3id.org/jp-cos/period/S22> a <https://w3id.org/jp-cos/Period>;
+ schema:name "昭和22年　告示"@ja; # ラベル
+ schema:name "Published in 1947"@en; # ラベル
+ schema:startDate "1947-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1947-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "0"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A0". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/S26> a <https://w3id.org/jp-cos/Period>;
+ schema:name "昭和26年　告示"@ja; # ラベル
+ schema:name "Published in 1951"@en; # ラベル
+ schema:startDate "1951-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1951-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "1"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A1". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/S33toS35> a <https://w3id.org/jp-cos/Period>;
+ schema:name "昭和33～35年　告示"@ja; # ラベル
+ schema:name "Published from 1958 to 1960"@en; # ラベル
+ schema:startDate "1958-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1960-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "2"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A2". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/S43toS45> a <https://w3id.org/jp-cos/Period>;
+ schema:name "昭和43～45年　告示"@ja; # ラベル
+ schema:name "Published from 1968 to 1970"@en; # ラベル
+ schema:startDate "1968-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1970-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "3"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A3". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/S52toS53> a <https://w3id.org/jp-cos/Period>;
+ schema:name "昭和52～53年　告示"@ja; # ラベル
+ schema:name "Published from 1977 to 1978"@en; # ラベル
+ schema:startDate "1977-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1978-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "4"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A4". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/H1> a <https://w3id.org/jp-cos/Period>;
+ schema:name "平成元年　告示"@ja; # ラベル
+ schema:name "Published in 1989"@en; # ラベル
+ schema:startDate "1989-01-08"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1989-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "5"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A5". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/H10toH11> a <https://w3id.org/jp-cos/Period>;
+ schema:name "平成10～11年　告示"@ja; # ラベル
+ schema:name "Published from 1998 to 1999"@en; # ラベル
+ schema:startDate "1998-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "1999-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "6"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A6". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/H20toH21> a <https://w3id.org/jp-cos/Period>;
+ schema:name "平成20～21年　告示"@ja; # ラベル
+ schema:name "Published from 2008 to 2009"@en; # ラベル
+ schema:startDate "2008-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "2009-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "7"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A7". # F学習指導要領コード1桁目の値
+<https://w3id.org/jp-cos/period/H29toH31> a <https://w3id.org/jp-cos/Period>;
+ schema:name "平成29～31年　告示"@ja; # ラベル
+ schema:name "Published from 2017 to 2019"@en; # ラベル
+ schema:startDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分開始
+ schema:endDate "2019-12-31"^^<http://www.w3.org/2001/XMLSchema#date>; # 告示年の区分終了
+ cs:code01 "8"; # 学習指導要領コード1桁目の値
+ cs:fcode01 "A8". # F学習指導要領コード1桁目の値
+

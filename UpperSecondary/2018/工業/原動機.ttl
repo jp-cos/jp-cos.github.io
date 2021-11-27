@@ -1,0 +1,52 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>
+  <http://purl.org/linked-data/cube#order> "98";
+  <http://schema.org/name> "Prime Movers"@en, "原動機"@ja, "げんどうき"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "C";
+  <https://w3id.org/jp-cos/codePrefix> "84QC";
+  <https://w3id.org/jp-cos/fcode04> "UC";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQUC";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.
+<https://w3id.org/jp-cos/84QC505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/原動機>.

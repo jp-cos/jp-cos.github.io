@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/84H0300180000000>
+  <http://purl.org/dc/terms/identifier> "84H0300180000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3071"
+  ];
+  <http://schema.org/description> "(8) 言語活動で扱う題材は，生徒の興味・関心に合ったものとし，国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UHA0A3A0A0A1A8A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(8)";
+  <https://w3id.org/jp-cos/sectionText> "言語活動で扱う題材は，生徒の興味・関心に合ったものとし，国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語> .
+<https://w3id.org/jp-cos/84H0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84H0300180000000>.

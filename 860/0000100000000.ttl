@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8600000100000000>
+  <http://purl.org/dc/terms/identifier> "8600000100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2"
+  ];
+  <http://schema.org/description> """第１節　教育目標
+小学部及び中学部における教育については，学校教育法第 72 条に定める目的を実現するために，児童及び生徒の障害の状態や特性及び心身の発達の段階等を十分考慮して，次に掲げる目標の達成に努めなければならない。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000110000000>, <https://w3id.org/jp-cos/8600000120000000>, <https://w3id.org/jp-cos/8600000130000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "第1節";
+  <https://w3id.org/jp-cos/sectionText> """教育目標
+小学部及び中学部における教育については，学校教育法第 72 条に定める目的を実現するために，児童及び生徒の障害の状態や特性及び心身の発達の段階等を十分考慮して，次に掲げる目標の達成に努めなければならない。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000100000000>.

@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/83212A2200000000>
+  <http://purl.org/dc/terms/identifier> "83212A2200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "309"
+  ];
+  <http://schema.org/description> "(2) 地理に関わる事象の意味や意義，特色や相互の関連を，位置や分布，場所，人間と自然環境との相互依存関係，空間的相互依存作用，地域などに着目して，多面的・多角的に考察したり，地理的な課題の解決に向けて公正に選択・判断したりする力，思考・判断したことを説明したり，それらを基に議論したりする力を養う。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A2A1A2UAA2A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "地理に関わる事象の意味や意義，特色や相互の関連を，位置や分布，場所，人間と自然環境との相互依存関係，空間的相互依存作用，地域などに着目して，多面的・多角的に考察したり，地理的な課題の解決に向けて公正に選択・判断したりする力，思考・判断したことを説明したり，それらを基に議論したりする力を養う。";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/社会/地理的分野>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会> .
+<https://w3id.org/jp-cos/83212A2000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83212A2200000000>.

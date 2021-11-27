@@ -1,0 +1,51 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>
+  <http://purl.org/linked-data/cube#order> "80";
+  <http://schema.org/name> "Agricultural Civil Engineering Design"@en, "農業土木設計"@ja, "のうぎょうどぼくせっけい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "M";
+  <https://w3id.org/jp-cos/codePrefix> "74PM";
+  <https://w3id.org/jp-cos/fcode04> "UM";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UPUM";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503340000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503350000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503510000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503520000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503530000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM503540000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.
+<https://w3id.org/jp-cos/74PM505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/農業/農業土木設計>.

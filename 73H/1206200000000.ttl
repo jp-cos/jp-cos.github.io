@@ -1,0 +1,32 @@
+<https://w3id.org/jp-cos/73H1206200000000>
+  <http://purl.org/dc/terms/identifier> "73H1206200000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1528"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1522"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1522"
+  ];
+  <http://schema.org/description> "(2) 教材は，聞くこと，話すこと，読むこと，書くことなどのコミュニケーション能力を総合的に育成するため，実際の言語の使用場面や言語の働きに十分配慮したものを取り上げるものとする。その際，英語を使用している人々を中心とする世界の人々及び日本人の日常生活，風俗習慣，物語，地理，歴史，伝統文化や自然科学などに関するものの中から，生徒の発達の段階及び興味・関心に即して適切な題材を変化をもたせて取り上げるものとし，次の観点に配慮する必要がある。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/73H1206210000000>, <https://w3id.org/jp-cos/73H1206220000000>, <https://w3id.org/jp-cos/73H1206230000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3UHA1A2A0A6A2A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionText> "教材は，聞くこと，話すこと，読むこと，書くことなどのコミュニケーション能力を総合的に育成するため，実際の言語の使用場面や言語の働きに十分配慮したものを取り上げるものとする。その際，英語を使用している人々を中心とする世界の人々及び日本人の日常生活，風俗習慣，物語，地理，歴史，伝統文化や自然科学などに関するものの中から，生徒の発達の段階及び興味・関心に即して適切な題材を変化をもたせて取り上げるものとし，次の観点に配慮する必要がある。";
+  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/外国語/英語>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/外国語> .
+<https://w3id.org/jp-cos/73H1206000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73H1206200000000>.

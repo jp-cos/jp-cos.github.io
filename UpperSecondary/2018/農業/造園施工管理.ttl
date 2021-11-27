@@ -1,0 +1,67 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>
+  <http://purl.org/linked-data/cube#order> "82";
+  <http://schema.org/name> "Landscape Gardening Construction Management"@en, "造園施工管理"@ja, "ぞうえんせこうかんり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "Q";
+  <https://w3id.org/jp-cos/codePrefix> "84PQ";
+  <https://w3id.org/jp-cos/fcode04> "UQ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUQ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503137000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503155000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503156000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503163000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.
+<https://w3id.org/jp-cos/84PQ505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/造園施工管理>.

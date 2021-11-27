@@ -1,0 +1,34 @@
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>
+  <http://purl.org/linked-data/cube#order> "41";
+  <http://schema.org/name> "Project Study"@en, "課題研究"@ja, "かだいけんきゅう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "8Eh8";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8UELhA8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/印刷/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/8Eh8505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.

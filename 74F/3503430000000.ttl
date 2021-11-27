@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/74F3503430000000>
+  <http://purl.org/dc/terms/identifier> "74F3503430000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1959"
+  ];
+  <http://schema.org/description> """ウ　衣生活の管理と環境
+　被服の管理方法や被服材料の性能，被服の構成などについて科学的に理解させ，健康や安全，資源・環境などに配慮した衣生活を主体的に営むことができるようにする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UFA3A5A0A3A4A3A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ウ";
+  <https://w3id.org/jp-cos/sectionText> """衣生活の管理と環境
+ 被服の管理方法や被服材料の性能，被服の構成などについて科学的に理解させ，健康や安全，資源・環境などに配慮した衣生活を主体的に営むことができるようにする。""";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭/生活デザイン>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭> .
+<https://w3id.org/jp-cos/74F3503400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74F3503430000000>.

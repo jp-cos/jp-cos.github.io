@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>no title - 学習指導要領LOD</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="no title - 学習指導要領LOD">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="navbar-brand" href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+        <div class="jumbotron">
+      <div class="container">
+        <h1>no title</h1>
+        <p><small><span class="glyphicon glyphicon-link"></span> <a href="https://w3id.org/jp-cos/SubjectAreaShape">https://w3id.org/jp-cos/SubjectAreaShape</a></small></p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>詳細情報</h2>
+          <dl>
+
+  <dt>Type</dt>
+  
+    <dd><a href="http://www.w3.org/ns/shacl#NodeShape">http://www.w3.org/ns/shacl#NodeShape</a></dd>
+  
+
+  <dt>Targetclass</dt>
+  
+    <dd><a href="SubjectArea">教科等を表すリソース</a></dd>
+  
+
+  <dt>Property</dt>
+  
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="sourceRevisionOfCos">学習指導要領（一部改正情報）</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">学習指導要領（一部改正情報）</dd>
+    
+    <dd lang="en">Course Of Study Revision</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">複数の改正がある場合、改正の件数分、繰り返される。</dd>
+    
+    <dd lang="en">Repeatable. It corresponds to the revisions of the course of study.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><a href="LowerSecondary/2017/2017">中学校学習指導要領 平成29年3月 告示</a></dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Class</dt>
+  
+    <dd><a href="CourseOfStudyRevison">https://w3id.org/jp-cos/CourseOfStudyRevison</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>1</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="http://purl.org/linked-data/cube#order">http://purl.org/linked-data/cube#order</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">学習指導要領掲載順</dd>
+    
+    <dd lang="en">Listing order of the course of study</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">表示順を決める場合などで利用</dd>
+    
+    <dd lang="en">This is used in the order of the listings.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/2001/XMLSchema#integer">http://www.w3.org/2001/XMLSchema#integer</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>2</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="disabilityCategory/">障害分類</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">障害分類</dd>
+    
+    <dd lang="en">Disability Category</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">学習指導要領コードの2桁目に対応</dd>
+    
+    <dd lang="en">It corresponds to the second digit of the course of study code.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><a href="disabilityCategory/Intellectual">知的</a></dd>
+  
+
+  <dt>Class</dt>
+  
+    <dd><a href="DisabilityCategory">障害分類を表すリソース</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>3</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="school/">学校種別</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">学校種別</dd>
+    
+    <dd lang="en">Type of School</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">学習指導要領コードの2桁目に対応</dd>
+    
+    <dd lang="en">It corresponds to the second digit of the course of study code.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><a href="school/LowerSecondary">中学校</a></dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>2</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Class</dt>
+  
+    <dd><a href="School">学校種別を表すリソース</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>4</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="http://schema.org/name">http://schema.org/name</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">教科名</dd>
+    
+    <dd lang="en">Name</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</dd>
+    
+    <dd lang="en">Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>3</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</a></dd>
+  
+
+  <dt>Languagein</dt>
+  
+    <dd><dl>
+
+  <dt>Rest</dt>
+  
+    <dd><dl>
+
+  <dt>Rest</dt>
+  
+    <dd><dl>
+
+  <dt>Rest</dt>
+  
+    <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">http://www.w3.org/1999/02/22-rdf-syntax-ns#nil</a></dd>
+  
+
+  <dt>First</dt>
+  
+    <dd>en</dd>
+  
+</dl>
+</dd>
+  
+
+  <dt>First</dt>
+  
+    <dd>ja-Hira</dd>
+  
+</dl>
+</dd>
+  
+
+  <dt>First</dt>
+  
+    <dd>ja</dd>
+  
+</dl>
+</dd>
+  
+
+  <dt>Uniquelang</dt>
+  
+    <dd>true</dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>5</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="sourceOfEnglishName">英語表記出典</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">英語表記出典</dd>
+    
+    <dd lang="en">Source for the English name</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
+    
+    <dd lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
+    
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Node</dt>
+  
+    <dd><a href="SourceOfEnglishNameShape">no title</a></dd>
+  
+
+  <dt>Nodekind</dt>
+  
+    <dd><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>6</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="code03">学習指導要領コード3桁目</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">学習指導要領コード3桁目</dd>
+    
+    <dd lang="en">3th Digit Code of Course of Study Item</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>7</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="fcode03">学習指導要領コード3桁目に対応するFコード</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">学習指導要領コード3桁目に対応するFコード</dd>
+    
+    <dd lang="en">Fcode Correspond to 3th Digit Code of Course of Study Item</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">学習指導要領コードの3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</dd>
+    
+    <dd lang="en">It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd>A1</dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>8</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="codePrefix">教科コード</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">教科コード</dd>
+    
+    <dd lang="en">Code of Subject Area</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">学習指導要領コードの1桁目から3桁目。</dd>
+    
+    <dd lang="en">The first through third digits of the course of study code</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd>821</dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>9</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="fcodePrefix">F教科コード</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">F教科コード</dd>
+    
+    <dd lang="en">Fcode of Subject Area</dd>
+    
+  
+
+  <dt>Description</dt>
+  
+    
+    <dd lang="ja">学習指導要領コードの1桁目から3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</dd>
+    
+    <dd lang="en">It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 3th one of course of study item easier to handle in Excel filters and pivot tables.</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd>A8A2A1</dd>
+  
+
+  <dt>Maxcount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Datatype</dt>
+  
+    <dd><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>10</dd>
+  
+</dl>
+</dd>
+    
+    <dd><dl>
+
+  <dt>Path</dt>
+  
+    <dd><a href="hasSubject">科目がある</a></dd>
+  
+
+  <dt>Name</dt>
+  
+    
+    <dd lang="ja">科目がある</dd>
+    
+    <dd lang="en">has a subject</dd>
+    
+  
+
+  <dt>Example</dt>
+  
+    <dd><a href="LowerSecondary/2017/外国語/英語">英語</a></dd>
+  
+
+  <dt>Mincount</dt>
+  
+    <dd>1</dd>
+  
+
+  <dt>Class</dt>
+  
+    <dd><a href="Subject">科目等を表すリソース</a></dd>
+  
+
+  <dt>Order</dt>
+  
+    <dd>11</dd>
+  
+</dl>
+</dd>
+    
+  
+</dl>
+
+        </div>
+      </div>
+      
+    </div>
+
+    <hr>
+    <footer>
+      <p class="pull-right"><a href="https://w3id.org/jp-cos/SubjectAreaShape.ttl"><img src="https://www.w3.org/RDF/icons/rdf_flyer.24" alt="RDFデータ"></a></p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

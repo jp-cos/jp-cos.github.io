@@ -1,0 +1,46 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>
+  <http://purl.org/linked-data/cube#order> "242";
+  <http://schema.org/name> "Welfare and Information Technology"@en, "福祉情報"@ja, "ふくしじょうほう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "9";
+  <https://w3id.org/jp-cos/codePrefix> "84Y9";
+  <https://w3id.org/jp-cos/fcode04> "A9";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UYA9";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/福祉> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.
+<https://w3id.org/jp-cos/84Y9505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>.

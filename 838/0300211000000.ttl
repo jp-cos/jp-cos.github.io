@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8380300211000000>
+  <http://purl.org/dc/terms/identifier> "8380300211000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1275"
+  ];
+  <http://schema.org/description> "ア　音楽活動を通して，それぞれの教材等に応じ，音や音楽が生活に果たす役割を考えさせるなどして，生徒が音や音楽と生活や社会との関わりを実感できるよう指導を工夫すること。なお，適宜，自然音や環境音などについても取り扱い，音環境への関心を高めることができるよう指導を工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3A8A0A3A0A0A2A1A1A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> "音楽活動を通して，それぞれの教材等に応じ，音や音楽が生活に果たす役割を考えさせるなどして，生徒が音や音楽と生活や社会との関わりを実感できるよう指導を工夫すること。なお，適宜，自然音や環境音などについても取り扱い，音環境への関心を高めることができるよう指導を工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/音楽> .
+<https://w3id.org/jp-cos/8380300210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8380300211000000>.

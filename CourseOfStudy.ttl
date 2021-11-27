@@ -1,0 +1,32 @@
+<https://w3id.org/jp-cos/CourseOfStudy>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code>"@en, "このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Course of Study Resources"@en, "学習指導要領を表すリソース"@ja;
+  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary/2017> .
+<https://w3id.org/jp-cos/Elementary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/Elementary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/Elementary/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/Elementary/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/Kindergarten/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/Kindergarten/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/LowerSecondary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/LowerSecondary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/LowerSecondary/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/LowerSecondary/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/UpperSecondary/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/UpperSecondary/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/hasSubjectArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/issuedPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/courseOfStudy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/curriculum> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudy>.

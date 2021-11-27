@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8500000740000000>
+  <http://purl.org/dc/terms/identifier> "8500000740000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "80"
+  ];
+  <http://schema.org/description> "４  学校や地域の実態等により，特別支援学校間に加え，保育所，幼保連携型認定こども園，幼稚園，小学校，中学校及び高等学校などとの間の連携や交流を図るものとする。特に，幼稚部における教育と小学部における教育又は小学校教育の円滑な接続のため，幼稚部の幼児と小学部又は小学校の児童との交流の機会を積極的に設けるようにするものとする。また，障害のない幼児児童生徒との交流及び共同学習の機会を設け，組織的かつ計画的に行うものとし，共に尊重し合いながら協働して生活していく態度を育むよう努めるものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A7A4A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionText> "学校や地域の実態等により，特別支援学校間に加え，保育所，幼保連携型認定こども園，幼稚園，小学校，中学校及び高等学校などとの間の連携や交流を図るものとする。特に，幼稚部における教育と小学部における教育又は小学校教育の円滑な接続のため，幼稚部の幼児と小学部又は小学校の児童との交流の機会を積極的に設けるようにするものとする。また，障害のない幼児児童生徒との交流及び共同学習の機会を設け，組織的かつ計画的に行うものとし，共に尊重し合いながら協働して生活していく態度を育むよう努めるものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8500000700000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000740000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74I2505400000000>
+  <http://purl.org/dc/terms/identifier> "74I2505400000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2040"
+  ];
+  <http://schema.org/description> "(4) 内容の(4)については，生徒が主体的に考え，討議し，発表し合うなどの活動を取り入れること。アについては，情報機器や情報通信ネットワークの様々な機能を簡単に操作できるようにする工夫及び高齢者や障害者による利用を容易にする工夫などについても扱うこと。イについては，情報通信ネットワークなどを使用した犯罪などについて取り上げ，情報セキュリティなどに関する情報技術の適切な活用方法についても扱うこと。ウについては，情報技術を適切に活用するための個人の責任や態度について取り上げ，情報技術を社会の発展に役立てようとする心構えを身に付けさせること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UIA2A5A0A5A4A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "内容の(4)については，生徒が主体的に考え，討議し，発表し合うなどの活動を取り入れること。アについては，情報機器や情報通信ネットワークの様々な機能を簡単に操作できるようにする工夫及び高齢者や障害者による利用を容易にする工夫などについても扱うこと。イについては，情報通信ネットワークなどを使用した犯罪などについて取り上げ，情報セキュリティなどに関する情報技術の適切な活用方法についても扱うこと。ウについては，情報技術を適切に活用するための個人の責任や態度について取り上げ，情報技術を社会の発展に役立てようとする心構えを身に付けさせること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/情報/情報の科学>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/情報> .
+<https://w3id.org/jp-cos/74I2505000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74I2505400000000>.

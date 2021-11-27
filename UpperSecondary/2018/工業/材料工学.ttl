@@ -1,0 +1,57 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>
+  <http://purl.org/linked-data/cube#order> "132";
+  <http://schema.org/name> "Industrial Materials Engineering"@en, "材料工学"@ja, "ざいりょうっこうがく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "k";
+  <https://w3id.org/jp-cos/codePrefix> "84Qk";
+  <https://w3id.org/jp-cos/fcode04> "Lk";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQLk";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.
+<https://w3id.org/jp-cos/84Qk505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/材料工学>.

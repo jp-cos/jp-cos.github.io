@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/82K0100000000000>
+  <http://purl.org/dc/terms/identifier> "82K0100000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3435"
+  ];
+  <http://schema.org/description> """第１　目標
+第１章総則の第１の２の(2)に示す道徳教育の目標に基づき，よりよく生きるための基盤となる道徳性を養うため，道徳的諸価値についての理解を基に，自己を見つめ，物事を多面的・多角的に考え，自己の生き方についての考えを深める学習を通して，道徳的な判断力，心情，実践意欲と態度を育てる。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UKA0A1A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+第1章総則の第1の2の(2)に示す道徳教育の目標に基づき，よりよく生きるための基盤となる道徳性を養うため，道徳的諸価値についての理解を基に，自己を見つめ，物事を多面的・多角的に考え，自己の生き方についての考えを深める学習を通して，道徳的な判断力，心情，実践意欲と態度を育てる。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/特別の教科　道徳> .
+<https://w3id.org/jp-cos/82K0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82K0100000000000>.

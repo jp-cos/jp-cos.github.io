@@ -1,0 +1,44 @@
+<https://w3id.org/jp-cos/8C00000223112100>
+  <http://purl.org/dc/terms/identifier> "8C00000223112100";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "29"
+  ];
+  <http://schema.org/description> """【摘要】教科等（科目：標準単位数）
+国語（現代の国語：２，言語文化：２，論理国語：４，文学国語：４，国語表現：４，古典探究：４）
+地理歴史（地理総合：２，地理探究：３，歴史総合：２，日本史探究：３，世界史探究：３）
+公民（公共：２，倫理：２，政治・経済：２）
+数学（数学Ⅰ：３，数学Ⅱ：４，数学Ⅲ：３,数学Ａ：２，数学Ｂ：２，数学Ｃ：２）
+理科（科学と人間生活：２，物理基礎：２，物理：４，化学基礎：２，化学：４，生物基礎：２，生物：４，地学基礎：２，地学：４）
+保健体育（体育：７～８，保健：２）
+芸術（音楽Ⅰ：２，音楽Ⅱ：２，音楽Ⅲ：２，美術Ⅰ：２，美術Ⅱ：２，美術Ⅲ：２，工芸Ⅰ：２，工芸Ⅱ：２，工芸Ⅲ：２，書道Ⅰ：２，書道Ⅱ：２，書道Ⅲ：２）
+外国語（英語コミュニケーションⅠ：３，英語コミュニケーションⅡ：４，英語コミュニケーションⅢ：４，論理・表現Ⅰ：２，論理・表現Ⅱ：２，論理・表現Ⅲ：２）
+家庭（家庭基礎：２，家庭総合：４）
+情報（情報Ⅰ：２，情報Ⅱ：２）
+理数（理数探究基礎：１，理数探究：２～５）""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Visual>;
+  <https://w3id.org/jp-cos/fcode> "A8UCA0A0A0A0A0A2A2A3A1A1A2A1A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionText> """【摘要】教科等(科目：標準単位数)
+国語(現代の国語：2，言語文化：2，論理国語：4，文学国語：4，国語表現：4，古典探究：4)
+地理歴史(地理総合：2，地理探究：3，歴史総合：2，日本史探究：3，世界史探究：3)
+公民(公共：2，倫理：2，政治・経済：2)
+数学(数学Ⅰ：3，数学Ⅱ：4，数学Ⅲ：3,数学A：2，数学B：2，数学C：2)
+理科(科学と人間生活：2，物理基礎：2，物理：4，化学基礎：2，化学：4，生物基礎：2，生物：4，地学基礎：2，地学：4)
+保健体育(体育：7～8，保健：2)
+芸術(音楽Ⅰ：2，音楽Ⅱ：2，音楽Ⅲ：2，美術Ⅰ：2，美術Ⅱ：2，美術Ⅲ：2，工芸Ⅰ：2，工芸Ⅱ：2，工芸Ⅲ：2，書道Ⅰ：2，書道Ⅱ：2，書道Ⅲ：2)
+外国語(英語コミュニケーションⅠ：3，英語コミュニケーションⅡ：4，英語コミュニケーションⅢ：4，論理・表現Ⅰ：2，論理・表現Ⅱ：2，論理・表現Ⅲ：2)
+家庭(家庭基礎：2，家庭総合：4)
+情報(情報Ⅰ：2，情報Ⅱ：2)
+理数(理数探究基礎：1，理数探究：2～5)""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2019/総則> .
+<https://w3id.org/jp-cos/8C00000223112000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8C00000223112100>.

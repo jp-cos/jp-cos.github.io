@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7500000313000000>
+  <http://purl.org/dc/terms/identifier> "7500000313000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "16"
+  ];
+  <http://schema.org/description> "３   幼稚部の１日の教育課程に係る教育時間は，  ４時間を標準とすること。ただし，幼児の障害の状態や発達の程度， 季節等に適切に配慮すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A5A0A0A0A0A0A3A1A3A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "3";
+  <https://w3id.org/jp-cos/sectionText> "幼稚部の1日の教育課程に係る教育時間は，  4時間を標準とすること。ただし，幼児の障害の状態や発達の程度， 季節等に適切に配慮すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7500000310000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7500000313000000>.

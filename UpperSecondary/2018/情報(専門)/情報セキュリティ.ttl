@@ -1,0 +1,47 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>
+  <http://purl.org/linked-data/cube#order> "226";
+  <http://schema.org/name> "Information Security"@en, "情報セキュリティ"@ja, "じょうほうせきゅりてぃ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "5";
+  <https://w3id.org/jp-cos/codePrefix> "84X5";
+  <https://w3id.org/jp-cos/fcode04> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UXA5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.
+<https://w3id.org/jp-cos/84X5505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報セキュリティ>.

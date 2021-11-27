@@ -1,0 +1,53 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>
+  <http://purl.org/linked-data/cube#order> "16";
+  <http://schema.org/name> "Mathematics I"@en, "数学I"@ja, "すうがくI"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "1";
+  <https://w3id.org/jp-cos/codePrefix> "7451";
+  <https://w3id.org/jp-cos/fcode04> "A1";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A5A1";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/数学> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503213000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503233000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503234000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503235000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503236000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503321000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503322000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.
+<https://w3id.org/jp-cos/7451505300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/数学/数学I>.

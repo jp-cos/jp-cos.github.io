@@ -1,0 +1,65 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>
+  <http://purl.org/linked-data/cube#order> "71";
+  <http://schema.org/name> "Food Production"@en, "食品製造"@ja, "しょくひんせいぞう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "F";
+  <https://w3id.org/jp-cos/codePrefix> "84PF";
+  <https://w3id.org/jp-cos/fcode04> "UF";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUF";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503170000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503171000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503172000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503173000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503174000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503175000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF503180000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505270000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.
+<https://w3id.org/jp-cos/84PF505280000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/食品製造>.

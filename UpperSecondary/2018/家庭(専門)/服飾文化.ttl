@@ -1,0 +1,40 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>
+  <http://purl.org/linked-data/cube#order> "196";
+  <http://schema.org/name> "Culture of Clothing"@en, "服飾文化"@ja, "ふくしょくぶんか"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "9";
+  <https://w3id.org/jp-cos/codePrefix> "84U9";
+  <https://w3id.org/jp-cos/fcode04> "A9";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UUA9";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.
+<https://w3id.org/jp-cos/84U9505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/服飾文化>.

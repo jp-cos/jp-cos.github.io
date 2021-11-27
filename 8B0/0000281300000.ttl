@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8B00000281300000>
+  <http://purl.org/dc/terms/identifier> "8B00000281300000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "195"
+  ];
+  <http://schema.org/description> "(3) 視覚障害者，聴覚障害者，肢体不自由者又は病弱者である生徒に対する教育を行う特別支援学校の外国語科に属する科目及び知的障害者である生徒に対する教育を行う特別支援学校の外国語科については，小学部・中学部学習指導要領に示す外国語活動の目標及び内容の一部を取り入れることができること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A8A1A3A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "視覚障害者，聴覚障害者，肢体不自由者又は病弱者である生徒に対する教育を行う特別支援学校の外国語科に属する科目及び知的障害者である生徒に対する教育を行う特別支援学校の外国語科については，小学部・中学部学習指導要領に示す外国語活動の目標及び内容の一部を取り入れることができること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000281000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000281300000>.

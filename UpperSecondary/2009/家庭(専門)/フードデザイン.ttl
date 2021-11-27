@@ -1,0 +1,43 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>
+  <http://purl.org/linked-data/cube#order> "205";
+  <http://schema.org/name> "Food Design"@en, "フードデザイン"@ja, "ふーどでざいん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "E";
+  <https://w3id.org/jp-cos/codePrefix> "74UE";
+  <https://w3id.org/jp-cos/fcode04> "UE";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UUUE";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503310000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503320000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503330000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503410000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE503420000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.
+<https://w3id.org/jp-cos/74UE505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/家庭(専門)/フードデザイン>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/71l4005100000000>
+  <http://purl.org/dc/terms/identifier> "71l4005100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "112"
+  ];
+  <http://schema.org/description> "(1) 言葉は，身近な人に親しみをもって接し，自分の感情や意志などを伝え，それに相手が応答し，その言葉を聞くことを通して次第に獲得されていくものであることを考慮して，幼児が教師や他の幼児とかかわることにより心を動かすような体験をし，言葉を交わす喜びを味わえるようにすること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
+  <https://w3id.org/jp-cos/fcode> "A7A1LlA4A0A0A5A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "言葉は，身近な人に親しみをもって接し，自分の感情や意志などを伝え，それに相手が応答し，その言葉を聞くことを通して次第に獲得されていくものであることを考慮して，幼児が教師や他の幼児とかかわることにより心を動かすような体験をし，言葉を交わす喜びを味わえるようにすること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/言葉>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容> .
+<https://w3id.org/jp-cos/71l4005000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71l4005100000000>.

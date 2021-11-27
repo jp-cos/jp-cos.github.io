@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/7B00000245000000>
+  <http://purl.org/dc/terms/identifier> "7B00000245000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "118"
+  ];
+  <http://schema.org/description> """５   教育課程の実施等に当たって配慮すべき事項
+以上のほか， 次の事項について配慮するものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7B00000245100000>, <https://w3id.org/jp-cos/7B00000245200000>, <https://w3id.org/jp-cos/7B00000245300000>, <https://w3id.org/jp-cos/7B00000245400000>, <https://w3id.org/jp-cos/7B00000245500000>, <https://w3id.org/jp-cos/7B00000245600000>, <https://w3id.org/jp-cos/7B00000245700000>, <https://w3id.org/jp-cos/7B00000245800000>, <https://w3id.org/jp-cos/7B00000245900000>, <https://w3id.org/jp-cos/7B00000245A00000>, <https://w3id.org/jp-cos/7B00000245B00000>, <https://w3id.org/jp-cos/7B00000245C00000>, <https://w3id.org/jp-cos/7B00000245D00000>, <https://w3id.org/jp-cos/7B00000245E00000>, <https://w3id.org/jp-cos/7B00000245F00000>, <https://w3id.org/jp-cos/7B00000245G00000>, <https://w3id.org/jp-cos/7B00000245H00000>, <https://w3id.org/jp-cos/7B00000245I00000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7UBA0A0A0A0A0A2A4A5A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "5";
+  <https://w3id.org/jp-cos/sectionText> """教育課程の実施等に当たって配慮すべき事項
+以上のほか， 次の事項について配慮するものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7B00000240000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7B00000245000000>.

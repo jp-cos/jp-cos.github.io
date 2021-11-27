@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8B00000270000000>
+  <http://purl.org/dc/terms/identifier> "8B00000270000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "186"
+  ];
+  <http://schema.org/description> """第７款　道徳教育に関する配慮事項
+道徳教育を進めるに当たっては，道徳教育の特質を踏まえ，第１節及び第１款から第６款までに示す事項に加え，次の事項に配慮するものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000271000000>, <https://w3id.org/jp-cos/8B00000272000000>, <https://w3id.org/jp-cos/8B00000273000000>, <https://w3id.org/jp-cos/8B00000274000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A7A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "第7款";
+  <https://w3id.org/jp-cos/sectionText> """道徳教育に関する配慮事項
+道徳教育を進めるに当たっては，道徳教育の特質を踏まえ，第1節及び第1款から第6款までに示す事項に加え，次の事項に配慮するものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> .
+<https://w3id.org/jp-cos/8B00000200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000270000000>.

@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7600000242000000>
+  <http://purl.org/dc/terms/identifier> "7600000242000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "41"
+  ];
+  <http://schema.org/description> "２   以上のほか， 次の事項に配慮するものとする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000242000001>, <https://w3id.org/jp-cos/7600000242100000>, <https://w3id.org/jp-cos/7600000242200000>, <https://w3id.org/jp-cos/7600000242300000>, <https://w3id.org/jp-cos/7600000242400000>, <https://w3id.org/jp-cos/7600000242500000>, <https://w3id.org/jp-cos/7600000242600000>, <https://w3id.org/jp-cos/7600000242700000>, <https://w3id.org/jp-cos/7600000242800000>, <https://w3id.org/jp-cos/7600000242900000>, <https://w3id.org/jp-cos/7600000242A00000>, <https://w3id.org/jp-cos/7600000242B00000>, <https://w3id.org/jp-cos/7600000242C00000>, <https://w3id.org/jp-cos/7600000242D00000>, <https://w3id.org/jp-cos/7600000242E00000>, <https://w3id.org/jp-cos/7600000242F00000>, <https://w3id.org/jp-cos/7600000242G00000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A4A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "2";
+  <https://w3id.org/jp-cos/sectionText> "以上のほか， 次の事項に配慮するものとする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000240000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000242000000>.

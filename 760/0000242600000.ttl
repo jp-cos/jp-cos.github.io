@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7600000242600000>
+  <http://purl.org/dc/terms/identifier> "7600000242600000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "48"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "47"
+  ];
+  <http://schema.org/description> "(6) 小学部の各教科等の指導に当たっては， 児童が学習課題や活動を選択したり，  自らの将来について考えたりする機会を設けるなど工夫すること。 また， 中学部においては， 生徒が学校や学級での生活によりよく適応するとともに， 現在及び将来の生き方を考え行動する態度や能力を育成することができるよう， 学校の教育活動全体を通じ， ガイダンスの機能の充実を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A4A2A6A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "小学部の各教科等の指導に当たっては， 児童が学習課題や活動を選択したり，  自らの将来について考えたりする機会を設けるなど工夫すること。 また， 中学部においては， 生徒が学校や学級での生活によりよく適応するとともに， 現在及び将来の生き方を考え行動する態度や能力を育成することができるよう， 学校の教育活動全体を通じ， ガイダンスの機能の充実を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000242000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000242600000>.

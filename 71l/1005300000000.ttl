@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/71l1005300000000>
+  <http://purl.org/dc/terms/identifier> "71l1005300000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "38"
+  ];
+  <http://schema.org/description> "(3) 自然の中で伸び伸びと体を動かして遊ぶことにより，体の諸機能の発達が促されることに留意し，幼児の興味や関心が戸外にも向くようにすること。その際，幼児の動線に配慮した園庭や遊具の配置などを工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
+  <https://w3id.org/jp-cos/fcode> "A7A1LlA1A0A0A5A3A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
+  <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionText> "自然の中で伸び伸びと体を動かして遊ぶことにより，体の諸機能の発達が促されることに留意し，幼児の興味や関心が戸外にも向くようにすること。その際，幼児の動線に配慮した園庭や遊具の配置などを工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/健康>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容> .
+<https://w3id.org/jp-cos/71l1005000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71l1005300000000>.

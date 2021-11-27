@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/74d3502000000000>
+  <http://purl.org/dc/terms/identifier> "74d3502000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8112"
+  ];
+  <http://schema.org/description> """１　目標
+　英語を通じて，積極的にコミュニケーションを図ろうとする態度を育成するとともに，事実や意見などを多様な観点から考察し，論理の展開や表現の方法を工夫しながら伝える能力を一層伸ばす。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4LdA3A5A0A2A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "1";
+  <https://w3id.org/jp-cos/sectionText> """目 標
+ 英語を通じて，積極的にコミュニケーションを図ろうとする態度を育成するとともに，事実や意見などを多様な観点から考察し，論理の展開や表現の方法を工夫しながら伝える能力を一層伸ばす。""";
+  <https://w3id.org/jp-cos/subCategory> "目標";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語表現>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)> .
+<https://w3id.org/jp-cos/74d3500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74d3502000000000>.

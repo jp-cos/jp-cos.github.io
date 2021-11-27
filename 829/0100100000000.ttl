@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/8290100100000000>
+  <http://purl.org/dc/terms/identifier> "8290100100000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2862"
+  ];
+  <http://schema.org/description> "(1) 対象や事象を捉える造形的な視点について自分の感覚や行為を通して理解するとともに，材料や用具を使い，表し方などを工夫して，創造的につくったり表したりすることができるようにする。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2A9A0A1A0A0A1A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "対象や事象を捉える造形的な視点について自分の感覚や行為を通して理解するとともに，材料や用具を使い，表し方などを工夫して，創造的につくったり表したりすることができるようにする。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/図画工作> .
+<https://w3id.org/jp-cos/8290100000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8290100100000000>.

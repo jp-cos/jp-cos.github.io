@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8G202a4221100000>
+  <http://purl.org/dc/terms/identifier> "8G202a4221100000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2730"
+  ];
+  <http://schema.org/description> "㋐ 生活に関係の深い公共施設や公共物の役割とその必要性を理解すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode> "A8UGA2A0A2LaA4A2A2A1A1A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "㋐";
+  <https://w3id.org/jp-cos/sectionText> "生活に関係の深い公共施設や公共物の役割とその必要性を理解すること。";
+  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/UpperSecondaryDepartmentofSpecialNeedsEducationSchool-IntellectualDisability/1>;
+  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/社会> .
+<https://w3id.org/jp-cos/8G202a4221000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8G202a4221100000>.

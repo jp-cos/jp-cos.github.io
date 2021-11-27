@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/8600000700000000>
+  <http://purl.org/dc/terms/identifier> "8600000700000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "102"
+  ];
+  <http://schema.org/description> """第７節　道徳教育に関する配慮事項
+道徳教育を進めるに当たっては，道徳教育の特質を踏まえ，前項までに示す事項に加え，次の事項に配慮するものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000710000000>, <https://w3id.org/jp-cos/8600000720000000>, <https://w3id.org/jp-cos/8600000730000000>, <https://w3id.org/jp-cos/8600000740000000>, <https://w3id.org/jp-cos/8600000750000000>, <https://w3id.org/jp-cos/8600000760000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A7A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "第7節";
+  <https://w3id.org/jp-cos/sectionText> """道徳教育に関する配慮事項
+道徳教育を進めるに当たっては，道徳教育の特質を踏まえ，前項までに示す事項に加え，次の事項に配慮するものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則> .
+<https://w3id.org/jp-cos/8600000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000700000000>.

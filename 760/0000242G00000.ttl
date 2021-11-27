@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7600000242G00000>
+  <http://purl.org/dc/terms/identifier> "7600000242G00000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "58"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "57"
+  ];
+  <http://schema.org/description> "(16)小学校又は中学校等の要請により，障害のある児童，生徒又は当該児童若しくは生徒の教育を担当する教師等に対して必要な助言又は援助を行ったり， 地域の実態や家庭の要請等により保護者等に対して教育相談を行ったりするなど， 各学校の教師の専門性や施設・設備を生かした地域における特別支援教育のセンターとしての役割を果たすよう努めること。 その際，学校として組織的に取り組むことができるよう校内体制を整備するとともに，他の特別支援学校や地域の小学校又は中学校等との連携を図ること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A4A2UGA0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(16)";
+  <https://w3id.org/jp-cos/sectionText> "小学校又は中学校等の要請により，障害のある児童，生徒又は当該児童若しくは生徒の教育を担当する教師等に対して必要な助言又は援助を行ったり， 地域の実態や家庭の要請等により保護者等に対して教育相談を行ったりするなど， 各学校の教師の専門性や施設・設備を生かした地域における特別支援教育のセンターとしての役割を果たすよう努めること。 その際，学校として組織的に取り組むことができるよう校内体制を整備するとともに，他の特別支援学校や地域の小学校又は中学校等との連携を図ること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000242000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000242G00000>.

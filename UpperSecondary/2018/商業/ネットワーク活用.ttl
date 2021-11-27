@@ -1,0 +1,49 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>
+  <http://purl.org/linked-data/cube#order> "164";
+  <http://schema.org/name> "Network Application"@en, "ネットワーク活用"@ja, "ねっとわーくかつよう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "J";
+  <https://w3id.org/jp-cos/codePrefix> "84RJ";
+  <https://w3id.org/jp-cos/fcode04> "UJ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URUJ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.
+<https://w3id.org/jp-cos/84RJ505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/ネットワーク活用>.

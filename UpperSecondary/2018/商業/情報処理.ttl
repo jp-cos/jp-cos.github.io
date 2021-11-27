@@ -1,0 +1,53 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>
+  <http://purl.org/linked-data/cube#order> "161";
+  <http://schema.org/name> "Information Processing"@en, "情報処理"@ja, "じょうほうしょり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "G";
+  <https://w3id.org/jp-cos/codePrefix> "84RG";
+  <https://w3id.org/jp-cos/fcode04> "UG";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4URUG";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.
+<https://w3id.org/jp-cos/84RG505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/情報処理>.

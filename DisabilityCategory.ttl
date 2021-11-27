@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/DisabilityCategory>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "Resources for visual, hearing and other disability categories. It corresponds to the second digit of the course of study code.<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code>"@en, "視覚、聴覚などの障害分類を表すリソースです。学習指導要領コードの2桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></code>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Disability Category Resources"@en, "障害分類を表すリソース"@ja;
+  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/disabilityCategory/Intellectual> .
+<https://w3id.org/jp-cos/disabilityCategory/Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>.
+<https://w3id.org/jp-cos/disabilityCategory/Hearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>.
+<https://w3id.org/jp-cos/disabilityCategory/Intellectual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>.
+<https://w3id.org/jp-cos/disabilityCategory/Physical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>.
+<https://w3id.org/jp-cos/disabilityCategory/Visual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>.
+<https://w3id.org/jp-cos/disabilityCategory> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/DisabilityCategory>.
+<https://w3id.org/jp-cos/DisabilityCategoryShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/DisabilityCategory>.

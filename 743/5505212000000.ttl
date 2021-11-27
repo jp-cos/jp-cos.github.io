@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/7435505212000000>
+  <http://purl.org/dc/terms/identifier> "7435505212000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "469"
+  ];
+  <http://schema.org/description> "(イ) イについては，世界諸地域の生活・文化について世界を広く大観する学習と事例地域を通して考察する学習を組み合わせて扱うこと。その際，生活と宗教のかかわりなどについて考察させるとともに，日本との共通性や異質性に着目させ，異なる習慣や価値観などをもっている人々と共存していくことの意義に気付かせること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4A3A5A5A0A5A2A1A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "イについては，世界諸地域の生活・文化について世界を広く大観する学習と事例地域を通して考察する学習を組み合わせて扱うこと。その際，生活と宗教のかかわりなどについて考察させるとともに，日本との共通性や異質性に着目させ，異なる習慣や価値観などをもっている人々と共存していくことの意義に気付かせること。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史> .
+<https://w3id.org/jp-cos/7435505210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7435505212000000>.

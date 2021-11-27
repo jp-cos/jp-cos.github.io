@@ -1,0 +1,56 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>
+  <http://purl.org/linked-data/cube#order> "136";
+  <http://schema.org/name> "Ceramic Industry"@en, "セラミック工業"@ja, "せらみっくこうぎょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "o";
+  <https://w3id.org/jp-cos/codePrefix> "84Qo";
+  <https://w3id.org/jp-cos/fcode04> "Lo";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UQLo";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.
+<https://w3id.org/jp-cos/84Qo505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/工業/セラミック工業>.

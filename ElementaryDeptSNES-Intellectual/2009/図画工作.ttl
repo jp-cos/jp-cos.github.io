@@ -1,0 +1,31 @@
+<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>
+  <http://purl.org/linked-data/cube#order> "6";
+  <http://schema.org/name> "Art and Handicraft"@en, "図画工作"@ja, "ずがこうさく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "9";
+  <https://w3id.org/jp-cos/codePrefix> "789";
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
+  <https://w3id.org/jp-cos/fcode03> "A9";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A8A9";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2008>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/図画工作> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/7890200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/7890202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/7890203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902a3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902a3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902a3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902b3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902b3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902b3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902c3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902c3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902c3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/78902c3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.

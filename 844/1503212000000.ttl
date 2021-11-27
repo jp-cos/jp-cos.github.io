@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/8441503212000000>
+  <http://purl.org/dc/terms/identifier> "8441503212000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1068"
+  ];
+  <http://schema.org/description> "(イ) 政治参加と公正な世論の形成，地方自治，国家主権，領土（領海，領空を含む。），我が国の安全保障と防衛，国際貢献を含む国際社会における我が国の役割などに関わる現実社会の事柄や課題を基に，よりよい社会は，憲法の下，個人が議論に参加し，意見や利害の対立状況を調整して合意を形成することなどを通して築かれるものであることについて理解すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A4A1A5A0A3A2A1A2A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
+  <https://w3id.org/jp-cos/sectionText> "政治参加と公正な世論の形成，地方自治，国家主権，領土(領海，領空を含む。)，我が国の安全保障と防衛，国際貢献を含む国際社会における我が国の役割などに関わる現実社会の事柄や課題を基に，よりよい社会は，憲法の下，個人が議論に参加し，意見や利害の対立状況を調整して合意を形成することなどを通して築かれるものであることについて理解すること。";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/公民/公共>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/公民> .
+<https://w3id.org/jp-cos/8441503210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8441503212000000>.

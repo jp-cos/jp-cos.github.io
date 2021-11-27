@@ -1,0 +1,60 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>
+  <http://purl.org/linked-data/cube#order> "182";
+  <http://schema.org/name> "Small Boats"@en, "小型船舶"@ja, "こがたせんぱく"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "H";
+  <https://w3id.org/jp-cos/codePrefix> "84TH";
+  <https://w3id.org/jp-cos/fcode04> "UH";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UTUH";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503113000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503124000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503136000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503160000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503161000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH503162000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.
+<https://w3id.org/jp-cos/84TH505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/水産/小型船舶>.

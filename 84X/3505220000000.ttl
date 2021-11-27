@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/84X3505220000000>
+  <http://purl.org/dc/terms/identifier> "84X3505220000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9416"
+  ];
+  <http://schema.org/description> "イ　〔指導項目〕の(2)のアについては，情報を有効に共有し活用するために必要な情報の整理や分類の重要性及び様々なドキュメントの作成方法について扱うこと。イについては，コンピュータを用いて，情報の階層化や構造化による整理や分類及び情報を活用するために必要な抽出や共有などを扱うこと。ウについては，情報の適切な保護と管理，安全かつ有効な共有と活用について扱うこと。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "各科目";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4UXA3A5A0A5A2A2A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionText> "〔指導項目〕の(2)のアについては，情報を有効に共有し活用するために必要な情報の整理や分類の重要性及び様々なドキュメントの作成方法について扱うこと。イについては，コンピュータを用いて，情報の階層化や構造化による整理や分類及び情報を活用するために必要な抽出や共有などを扱うこと。ウについては，情報の適切な保護と管理，安全かつ有効な共有と活用について扱うこと。";
+  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
+  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)/情報の表現と管理>;
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/情報(専門)> .
+<https://w3id.org/jp-cos/84X3505200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84X3505220000000>.

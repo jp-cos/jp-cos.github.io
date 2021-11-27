@@ -1,0 +1,56 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>
+  <http://purl.org/linked-data/cube#order> "28";
+  <http://schema.org/name> "Period for Inquiry-Based Cross-Disciplinary Study"@en, "総合的な探究の時間"@ja, "そうごうてきなたんきゅうのじかん"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "M";
+  <https://w3id.org/jp-cos/codePrefix> "84M";
+  <https://w3id.org/jp-cos/fcode03> "UM";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UM";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0100100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0100200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0100300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207610000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207620000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207630000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0207700000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300150000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300160000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300170000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300180000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300250000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300260000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300270000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300280000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M0300290000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
+<https://w3id.org/jp-cos/84M03002A0000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.

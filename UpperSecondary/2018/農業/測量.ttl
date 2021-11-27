@@ -1,0 +1,57 @@
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>
+  <http://purl.org/linked-data/cube#order> "84";
+  <http://schema.org/name> "Surveying"@en, "測量"@ja, "そくりょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "S";
+  <https://w3id.org/jp-cos/codePrefix> "84PS";
+  <https://w3id.org/jp-cos/fcode04> "US";
+  <https://w3id.org/jp-cos/fcodePrefix> "A8A4UPUS";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/UpperSecondary/2018/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503131000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503132000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503133000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503134000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503135000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503141000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503142000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503143000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503144000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503145000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503146000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503150000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503151000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503152000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503153000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503154000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS503155000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.
+<https://w3id.org/jp-cos/84PS505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/農業/測量>.

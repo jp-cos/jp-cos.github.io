@@ -1,0 +1,24 @@
+<https://w3id.org/jp-cos/8400000255000000>
+  <http://purl.org/dc/terms/identifier> "8400000255000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "110"
+  ];
+  <http://schema.org/description> """(5) 学校が，その指導計画に，各教科・科目又は特別活動について体系的に行われるラジオ放送，テレビ放送その他の多様なメディアを利用して行う学習を計画的かつ継続的に取り入れた場合で，生徒がこれらの方法により学習し，報告課題の作成等により，その成果が満足できると認められるときは，その生徒について，その各教科・科目の面接指導の時間数又は特別活動の時間数（以下「面接指導等時間数」という。）のうち，10分の６以内の時間数を免除することができる。また，生徒の実態等を考慮して特に必要がある場合は，面接指導等時間数のうち，複数のメディアを利用することにより，各メディアごとにそれぞれ10分の６以内の時間数を免除することができる。ただし，免除する時間数は，合わせて10分の８を超えることができない。
+なお，生徒の面接指導等時間数を免除しようとする場合には，本来行われるべき学習の量と質を低下させることがないよう十分配慮しなければならない。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A5A5A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionText> """学校が，その指導計画に，各教科・科目又は特別活動について体系的に行われるラジオ放送，テレビ放送その他の多様なメディアを利用して行う学習を計画的かつ継続的に取り入れた場合で，生徒がこれらの方法により学習し，報告課題の作成等により，その成果が満足できると認められるときは，その生徒について，その各教科・科目の面接指導の時間数又は特別活動の時間数(以下「面接指導等時間数」という。)のうち，10分の6以内の時間数を免除することができる。また，生徒の実態等を考慮して特に必要がある場合は，面接指導等時間数のうち，複数のメディアを利用することにより，各メディアごとにそれぞれ10分の6以内の時間数を免除することができる。ただし，免除する時間数は，合わせて10分の8を超えることができない。
+なお，生徒の面接指導等時間数を免除しようとする場合には，本来行われるべき学習の量と質を低下させることがないよう十分配慮しなければならない。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000250000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000255000000>.

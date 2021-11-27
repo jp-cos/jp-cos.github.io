@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2>
+  <http://schema.org/citation> "文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-08.";
+  <http://schema.org/description> """　知的障害の程度は，１段階ほどではないが，他人との意思の疎通に困難があり，日常生活を営むのに頻繁に援助を必要とする者を対象とした内容を示している。
+　この段階では，１段階を踏まえ，主として教師からの言葉掛けによる援助を受けながら，教師が示した動作や動きを模倣したりするなどして，目的をもった遊びや行動をとったり，児童が基本的な行動を身に付けることをねらいとする内容を示している。""";
+  <http://schema.org/name> "Stage 2"@en, "２段階"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>;
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/02/04/1399950_4.pdf>;
+  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/IntellectualDisability>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDepartmentofSpecialNeedsEducationSchool> .

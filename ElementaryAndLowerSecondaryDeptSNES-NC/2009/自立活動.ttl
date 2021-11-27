@@ -1,0 +1,68 @@
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>
+  <http://purl.org/linked-data/cube#order> "28";
+  <http://schema.org/name> "Autonomous Activities"@en, "自立活動"@ja, "じりつかつどう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "O";
+  <https://w3id.org/jp-cos/codePrefix> "76O";
+  <https://w3id.org/jp-cos/fcode03> "UO";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A6UO";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> .
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/自立活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300231000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300232000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300233000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300234000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300300000001> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0300700000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400120000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400130000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400140000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400210000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400310000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400320000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400330000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400340000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400410000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400420000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400430000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400440000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400450000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400510000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400520000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400530000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400540000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400550000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400610000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400620000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400630000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400640000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.
+<https://w3id.org/jp-cos/76O0400650000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動>.

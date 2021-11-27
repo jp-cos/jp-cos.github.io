@@ -1,0 +1,23 @@
+<https://w3id.org/jp-cos/74T0000000000000>
+  <http://purl.org/dc/terms/identifier> "74T0000000000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "5502"
+  ];
+  <http://schema.org/description> "第４節　水　　　産";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74T0100000000000>, <https://w3id.org/jp-cos/74T0300000000000>, <https://w3id.org/jp-cos/74T0500000000000>, <https://w3id.org/jp-cos/74T1500000000000>, <https://w3id.org/jp-cos/74T2500000000000>, <https://w3id.org/jp-cos/74T3500000000000>, <https://w3id.org/jp-cos/74T4500000000000>, <https://w3id.org/jp-cos/74T5500000000000>, <https://w3id.org/jp-cos/74T6500000000000>, <https://w3id.org/jp-cos/74T7500000000000>, <https://w3id.org/jp-cos/74T8500000000000>, <https://w3id.org/jp-cos/74T9500000000000>, <https://w3id.org/jp-cos/74TA500000000000>, <https://w3id.org/jp-cos/74TB500000000000>, <https://w3id.org/jp-cos/74TC500000000000>, <https://w3id.org/jp-cos/74TD500000000000>, <https://w3id.org/jp-cos/74TE500000000000>, <https://w3id.org/jp-cos/74TF500000000000>, <https://w3id.org/jp-cos/74TG500000000000>, <https://w3id.org/jp-cos/74TH500000000000>, <https://w3id.org/jp-cos/74TI500000000000>, <https://w3id.org/jp-cos/74TJ500000000000>, <https://w3id.org/jp-cos/74TK500000000000>, <https://w3id.org/jp-cos/74TL500000000000>, <https://w3id.org/jp-cos/74TM500000000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A4UTA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "第4節";
+  <https://w3id.org/jp-cos/sectionText> "水   産";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/水産> .
+<https://w3id.org/jp-cos/74n0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74T0000000000000>.

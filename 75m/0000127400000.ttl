@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/75m0000127400000>
+  <http://purl.org/dc/terms/identifier> "75m0000127400000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "98"
+  ];
+  <http://schema.org/description> "(4) 肢体不自由者である幼児に対する教育を行う特別支援学校においては， 幼児の身体の動きや健康の状態等に応じ， 可能な限り体験的な活動を通して経験を広めるようにすること。 また，幼児が興味や関心をもって，進んで身体を動かそうとしたり，表現したりするような環境を創意工夫すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
+  <https://w3id.org/jp-cos/fcode> "A7A5LmA0A0A0A0A1A2A7A4A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionText> "肢体不自由者である幼児に対する教育を行う特別支援学校においては， 幼児の身体の動きや健康の状態等に応じ， 可能な限り体験的な活動を通して経験を広めるようにすること。 また，幼児が興味や関心をもって，進んで身体を動かそうとしたり，表現したりするような環境を創意工夫すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項> .
+<https://w3id.org/jp-cos/75m0000127000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/75m0000127400000>.

@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/83K0300210000000>
+  <http://purl.org/dc/terms/identifier> "83K0300210000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2085"
+  ];
+  <http://schema.org/description> "(1) 学級担任の教師が行うことを原則とするが，校長や教頭などの参加，他の教師との協力的な指導などについて工夫し，道徳教育推進教師を中心とした指導体制を充実すること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A3UKA0A3A0A0A2A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "学級担任の教師が行うことを原則とするが，校長や教頭などの参加，他の教師との協力的な指導などについて工夫し，道徳教育推進教師を中心とした指導体制を充実すること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/特別の教科　道徳> .
+<https://w3id.org/jp-cos/83K0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83K0300210000000>.

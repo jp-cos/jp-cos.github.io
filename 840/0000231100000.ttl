@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/8400000231100000>
+  <http://purl.org/dc/terms/identifier> "8400000231100000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "21"
+  ];
+  <http://schema.org/description> """ア　卒業までに履修させる単位数等
+各学校においては，卒業までに履修させるイからオまでに示す各教科・科目及びその単位数，総合的な探究の時間の単位数並びに特別活動及びその授業時数に関する事項を定めるものとする。この場合，各教科・科目及び総合的な探究の時間の単位数の計は，(2)のア，イ及びウの(ア)に掲げる各教科・科目の単位数並びに総合的な探究の時間の単位数を含めて74単位以上とする。
+単位については，１単位時間を50分とし，35単位時間の授業を１単位として計算することを標準とする。ただし，通信制の課程においては，５に定めるところによるものとする。""";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
+  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A1A1A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionText> """卒業までに履修させる単位数等
+各学校においては，卒業までに履修させるイからオまでに示す各教科・科目及びその単位数，総合的な探究の時間の単位数並びに特別活動及びその授業時数に関する事項を定めるものとする。この場合，各教科・科目及び総合的な探究の時間の単位数の計は，(2)のア，イ及びウの(ア)に掲げる各教科・科目の単位数並びに総合的な探究の時間の単位数を含めて74単位以上とする。
+単位については，1単位時間を50分とし，35単位時間の授業を1単位として計算することを標準とする。ただし，通信制の課程においては，5に定めるところによるものとする。""";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則> .
+<https://w3id.org/jp-cos/8400000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231100000>.

@@ -1,0 +1,26 @@
+<https://w3id.org/jp-cos/7600000241600000>
+  <http://purl.org/dc/terms/identifier> "7600000241600000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V21>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "41"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "40"
+  ];
+  <http://schema.org/description> "(6) 学校がその目的を達成するため， 地域や学校の実態等に応じ， 家庭や地域の人々の協力を得るなど家庭や地域社会との連携を深めること。 また， 学校相互の連携や交流を図ることにも努めること。 特に， 児童又は生徒の経験を広めて積極的な態度を養い， 社会性や豊かな人間性をはぐくむために， 学校の教育活動全体を通じて， 小学校の児童又は中学校の生徒などと交流及び共同学習を計画的， 組織的に行うとともに， 地域の人々などと活動を共にする機会を積極的に設けること。";
+  <http://schema.org/edition> "一部改正なし";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A4A1A6A0A0A0A0A0";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
+  <https://w3id.org/jp-cos/sectionNumber> "(6)";
+  <https://w3id.org/jp-cos/sectionText> "学校がその目的を達成するため， 地域や学校の実態等に応じ， 家庭や地域の人々の協力を得るなど家庭や地域社会との連携を深めること。 また， 学校相互の連携や交流を図ることにも努めること。 特に， 児童又は生徒の経験を広めて積極的な態度を養い， 社会性や豊かな人間性をはぐくむために， 学校の教育活動全体を通じて， 小学校の児童又は中学校の生徒などと交流及び共同学習を計画的， 組織的に行うとともに， 地域の人々などと活動を共にする機会を積極的に設けること。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則> .
+<https://w3id.org/jp-cos/7600000241000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000241600000>.

@@ -1,0 +1,50 @@
+<https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>
+  <http://purl.org/linked-data/cube#order> "29";
+  <http://schema.org/name> "Basic Earth Science"@en, "地学基礎"@ja, "ちがくきそ"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/code04> "8";
+  <https://w3id.org/jp-cos/codePrefix> "7468";
+  <https://w3id.org/jp-cos/fcode04> "A8";
+  <https://w3id.org/jp-cos/fcodePrefix> "A7A4A6A8";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
+  ];
+  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/UpperSecondary/2009/理科> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503111000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503112000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503121000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503122000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503123000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503211000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503212000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503241000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503242000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468503250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.
+<https://w3id.org/jp-cos/7468505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/理科/地学基礎>.

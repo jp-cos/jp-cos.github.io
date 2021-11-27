@@ -1,0 +1,22 @@
+<https://w3id.org/jp-cos/7300000431000001>
+  <http://purl.org/dc/terms/identifier> "7300000431000001";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "41"
+  ];
+  <http://schema.org/description> "(1) 各学校においては，第１の２に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師（以下「道徳教育推進教師」 という。）を中心に，全教師が協力して道徳教育を展開すること。 なお， 道徳教育の全体計画の作成に当たっては，生徒，学校及び地域の実態を考慮して，学校の道徳教育の重点目標を設定するとともに，道徳科の指導方針，第３章特別の教科道徳の第２に示す内容との関連を踏まえた各教科，総合的な学習の時間及び特別活動における指導の内容及び時期並びに家庭や地域社会との連携の方法を示すこと。";
+  <http://schema.org/edition> "一部改正（１回目）";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "区分なし";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
+  <https://w3id.org/jp-cos/courseOfStudyRevison> <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
+  <https://w3id.org/jp-cos/fcode> "A7A3A0A0A0A0A0A4A3A1A0A0A0A0A0A1";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "各学校においては，第1の2に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師(以下「道徳教育推進教師」 という。)を中心に，全教師が協力して道徳教育を展開すること。 なお， 道徳教育の全体計画の作成に当たっては，生徒，学校及び地域の実態を考慮して，学校の道徳教育の重点目標を設定するとともに，道徳科の指導方針，第3章特別の教科道徳の第2に示す内容との関連を踏まえた各教科，総合的な学習の時間及び特別活動における指導の内容及び時期並びに家庭や地域社会との連携の方法を示すこと。";
+  <https://w3id.org/jp-cos/subCategory> "区分なし";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/総則> .
+<https://w3id.org/jp-cos/7300000400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7300000431000001>.
