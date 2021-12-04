@@ -4,801 +4,437 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <title>教科等を表すリソース - 学習指導要領LOD</title>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="教科等を表すリソース - 学習指導要領LOD">
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="navbar-brand" href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="navbar-brand" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="/about">About</a>
+          </li>
         </ul>
       </div>
     </nav>
         <div class="jumbotron">
       <div class="container">
         <h1>教科等を表すリソース</h1>
-        <p><small><span class="glyphicon glyphicon-link"></span> <a href="https://w3id.org/jp-cos/SubjectArea">https://w3id.org/jp-cos/SubjectArea</a></small></p>
+        <p><i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/SubjectArea">https://w3id.org/jp-cos/SubjectArea</a></p>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>詳細情報</h2>
-          <dl>
-
-  <dt>Type</dt>
-  
-    <dd><a href="http://www.w3.org/2000/01/rdf-schema#Class">http://www.w3.org/2000/01/rdf-schema#Class</a></dd>
-  
-
-  <dt>Comment</dt>
-  
-    
-    <dd lang="ja">算数などの教科等を示すリソースです。元データの「教科等」列の値。学習指導要領コードの3桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code></dd>
-    
-    <dd lang="en">This resource represents subject area such as mathematics. The value of the "Subject, etc." column in the original data. It corresponds to the 3th digit of the course of study code.<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code></dd>
-    
-  
-
-  <dt>Example</dt>
-  
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/2019/外国語">https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/2019/外国語</a></dd>
-  
-
-  <dt>Label</dt>
-  
-    
-    <dd lang="ja">教科等を表すリソース</dd>
-    
-    <dd lang="en">Subject Area Resources</dd>
-    
-  
-</dl>
-
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  教科等を表すリソース
+                </li>
+            </ol>
+          </nav>
         </div>
       </div>
-      
+      <div class="row">
+        <div class="col-md-12">
+          <h2>詳細情報</h2>
+          <dl class="row">
+  <dt class="col-sm-3">Type</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/2000/01/rdf-schema#Class">http://www.w3.org/2000/01/rdf-schema#Class</a></dd>
+  <dt class="col-sm-3">Comment</dt>
+    
+      <dd class="col-sm-9" lang="ja">算数などの教科等を示すリソースです。元データの「教科等」列の値。学習指導要領コードの3桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code></dd>
+    
+      <dd class="col-sm-9 offset-sm-3" lang="en">This resource represents subject area such as mathematics. The value of the "Subject, etc." column in the original data. It corresponds to the 3th digit of the course of study code.<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code></dd>
+    
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="UpperSecondaryDeptSNES-Intellectual/2019/2019/外国語">https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/2019/外国語</a></dd>
+  <dt class="col-sm-3">Label</dt>
+    
+      <dd class="col-sm-9" lang="ja">教科等を表すリソース</dd>
+    
+      <dd class="col-sm-9 offset-sm-3" lang="en">Subject Area Resources</dd>
+    
+</dl>
+        </div>
+      </div>
       <div class="row inverse">
         <div class="col-md-12">
           <h2>被参照情報</h2>
-          <dl>
-
-  <dt>Domain</dt>
-  
+          <dl class="row">
+  <dt class="col-sm-3">&#39;Domain&#39;としての参照元:</dt>
+      <dd class="col-sm-9"><a href="code03">学習指導要領コード3桁目</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="codePrefix">教科コード</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="disabilityCategory/">障害分類</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="fcode03">学習指導要領コード3桁目に対応するFコード</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="fcodePrefix">F教科コード</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="hasSubject">科目がある</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="school/">学校種別</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="sourceOfEnglishName">英語表記出典</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="sourceRevisionOfCos">学習指導要領（一部改正情報）</a></dd>
+  <dt class="col-sm-3">&#39;Range&#39;としての参照元:</dt>
+      <dd class="col-sm-9"><a href="hasSubjectArea">教科がある</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="subjectArea">教科等</a></dd>
+  <dt class="col-sm-3">&#39;Class&#39;としての参照元:</dt>
+      <dd class="col-sm-9"><dl class="row">
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="hasSubjectArea">教科がある</a></dd>
+  <dt class="col-sm-3">Name</dt>
     
-    <dd><a href="code03">学習指導要領コード3桁目</a></dd>
+      <dd class="col-sm-9" lang="ja">教科がある</dd>
     
-    <dd><a href="codePrefix">教科コード</a></dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">has a subject area</dd>
     
-    <dd><a href="disabilityCategory/">障害分類</a></dd>
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="Elementary/2017/国語">国語</a></dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="SubjectArea">教科等を表すリソース</a></dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">9</dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="subjectArea">教科等</a></dd>
+  <dt class="col-sm-3">Name</dt>
     
-    <dd><a href="fcode03">学習指導要領コード3桁目に対応するFコード</a></dd>
+      <dd class="col-sm-9" lang="ja">教科等</dd>
     
-    <dd><a href="fcodePrefix">F教科コード</a></dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Subject Area</dd>
     
-    <dd><a href="hasSubject">科目がある</a></dd>
+  <dt class="col-sm-3">Description</dt>
     
-    <dd><a href="school">学校種別</a></dd>
+      <dd class="col-sm-9" lang="ja">元データの「教科等」列の値。学習指導要領コードの3桁目に対応</dd>
     
-    <dd><a href="sourceOfEnglishName">英語表記出典</a></dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the 3rd digit of the course of study code.</dd>
     
-    <dd><a href="sourceRevisionOfCos">学習指導要領（一部改正情報）</a></dd>
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="LowerSecondary/2017/外国語/">外国語</a></dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="SubjectArea">教科等を表すリソース</a></dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">10</dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="http://purl.org/dc/terms/relation">http://purl.org/dc/terms/relation</a></dd>
+  <dt class="col-sm-3">Name</dt>
     
-  
-
-  <dt>Range</dt>
-  
+      <dd class="col-sm-9" lang="ja">関係がある</dd>
     
-    <dd><a href="hasSubjectArea">教科がある</a></dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Related</dd>
     
-    <dd><a href="subjectArea">教科等</a></dd>
-    
-  
-
-  <dt>Class</dt>
-  
-    
-    <dd><dl>
-
-  <dt>Path</dt>
-  
-    <dd><a href="hasSubjectArea">教科がある</a></dd>
-  
-
-  <dt>Name</dt>
-  
-    
-    <dd lang="ja">教科がある</dd>
-    
-    <dd lang="en">has a subject area</dd>
-    
-  
-
-  <dt>Example</dt>
-  
-    <dd><a href="Elementary/2017/国語">国語</a></dd>
-  
-
-  <dt>Mincount</dt>
-  
-    <dd>1</dd>
-  
-
-  <dt>Class</dt>
-  
-    <dd><a href="SubjectArea">教科等を表すリソース</a></dd>
-  
-
-  <dt>Order</dt>
-  
-    <dd>9</dd>
-  
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="UpperSecondaryDeptSNES-Intellectual/2019/外国語/">外国語</a></dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="SubjectArea">教科等を表すリソース</a></dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">1</dd>
+</dl></dd>
+  <dt class="col-sm-3">&#39;Targetclass&#39;としての参照元:</dt>
+    <dd class="col-sm-9"><a href="SubjectAreaShape">no title</a></dd>
+  <dt class="col-sm-3">&#39;Type&#39;としての参照元:</dt>
+      <dd class="col-sm-9"><a href="Kindergarten/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Kindergarten/2017/ねらい及び内容/">ねらい及び内容</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Kindergarten/2017/教育課程に係る教育時間の終了後等に行う教育活動などの留意事項">教育課程に係る教育時間の終了後等に行う教育活動などの留意事項</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/社会">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/算数">算数</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/理科">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/生活">生活</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/図画工作">図画工作</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/家庭">家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/体育">体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/各教科(共通)">各教科(共通)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/特別の教科道徳">特別の教科道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/外国語活動/">外国語活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2017/特別活動/">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/社会/">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/数学">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/理科/">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/美術">美術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/保健体育/">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/技術・家庭/">技術・家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/特別の教科道徳">特別の教科道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2017/特別活動/">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/国語/">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/地理歴史/">地理歴史</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/公民/">公民</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/数学/">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/理科/">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/保健体育/">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/芸術/">芸術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/家庭/">家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/情報/">情報</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/理数/">理数</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/各教科(共通)">各教科(共通)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/農業/">農業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/工業/">工業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/商業/">商業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/水産/">水産</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/家庭(専門)/">家庭(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/看護/">看護</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/情報(専門)/">情報(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/福祉/">福祉</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/理数(専門)/">理数(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/体育(専門)/">体育(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/音楽(専門)/">音楽(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/美術(専門)/">美術(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/英語(専門)/">英語(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/各教科(専門)">各教科(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/総合的な探究の時間">総合的な探究の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2018/特別活動/">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="KindergartenDeptSNES-NC/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="KindergartenDeptSNES-NC/2017/ねらい及び内容/">ねらい及び内容</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-VHPH/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-VHPH/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/生活">生活</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/算数">算数</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/図画工作">図画工作</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/体育">体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/社会">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/数学">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/理科">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/美術">美術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/保健体育">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/">職業・家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科(小学部)">各教科(小学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-VHPH/2017/各教科(小学部)">各教科(小学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/各教科(小学部)">各教科(小学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科(中学部)">各教科(中学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-VHPH/2017/各教科(中学部)">各教科(中学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)">各教科(中学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/特別の教科道徳">特別の教科道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/外国語活動">外国語活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-VHPH/2017/外国語活動">外国語活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2017/外国語活動/">外国語活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/特別活動">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動">自立活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2019/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-VHPH/2019/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2019/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2019/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2019/保健理療/">保健理療</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2019/理療/">理療</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2019/理学療法/">理学療法</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2019/印刷/">印刷</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2019/理容・美容/">理容・美容</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2019/クリーニング/">クリーニング</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2019/歯科技工/">歯科技工</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/社会">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/数学">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/理科">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/美術">美術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/保健体育">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/職業">職業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/家庭">家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/情報">情報</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-VHPH/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Physical/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Health/2019/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/家政">家政</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/農業">農業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/工業">工業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/流通・サービス">流通・サービス</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/福祉">福祉</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/各教科(専門)">各教科(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/特別の教科道徳">特別の教科道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間">総合的な探究の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/総合的な探究の時間">総合的な探究の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2019/特別活動">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2019/特別活動">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2019/自立活動">自立活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Kindergarten/2008/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Kindergarten/2008/ねらい及び内容/">ねらい及び内容</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Kindergarten/2008/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項">指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/各教科(共通)">各教科(共通)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/国語/">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/地理歴史/">地理歴史</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/公民/">公民</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/数学/">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/理科/">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/保健体育/">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/芸術/">芸術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/家庭/">家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/情報/">情報</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/各教科(専門)">各教科(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/農業/">農業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/工業/">工業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/商業/">商業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/水産/">水産</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/家庭(専門)/">家庭(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/看護/">看護</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/情報(専門)/">情報(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/福祉/">福祉</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/理数(専門)/">理数(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/体育(専門)/">体育(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/音楽(専門)/">音楽(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/美術(専門)/">美術(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/英語(専門)/">英語(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondary/2009/特別活動/">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="KindergartenDeptSNES-NC/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="KindergartenDeptSNES-NC/2009/ねらい及び内容等/">ねらい及び内容等</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項">指導計画の作成に当たっての留意事項</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-VHPH/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2009/保健理療/">保健理療</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2009/理療/">理療</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2009/理学療法/">理学療法</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2009/印刷/">印刷</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2009/理容・美容/">理容・美容</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2009/クリーニング/">クリーニング</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2009/歯科技工/">歯科技工</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/社会">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/数学">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/理科">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/美術">美術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/保健体育">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/職業">職業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/家庭">家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/情報">情報</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-VHPH/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Visual/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Hearing/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Physical/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Health/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/家政">家政</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/農業">農業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/工業">工業</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス">流通・サービス</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/福祉">福祉</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/各教科(専門)">各教科(専門)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/道徳">道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2009/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2009/特別活動">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-Intellectual/2009/特別活動">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="UpperSecondaryDeptSNES-NC/2009/自立活動">自立活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/生活">生活</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/社会">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/算数">算数</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/理科">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/生活">生活</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/図画工作">図画工作</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/家庭">家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/体育">体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/道徳">道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/外国語活動">外国語活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="Elementary/2008/特別活動/">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/総則">総則</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/社会/">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/数学">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/理科/">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/美術">美術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/保健体育/">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/技術・家庭/">技術・家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/道徳">道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondary/2008/特別活動/">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/算数">算数</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/図画工作">図画工作</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/体育">体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/国語">国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/社会">社会</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/数学">数学</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/理科">理科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/音楽">音楽</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/美術">美術</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/保健体育">保健体育</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭">職業・家庭</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/外国語/">外国語</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/各教科">各教科</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/各教科(小学部)">各教科(小学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-VHPH/2009/各教科(小学部)">各教科(小学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryDeptSNES-Intellectual/2009/各教科(小学部)">各教科(小学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/各教科(中学部)">各教科(中学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-VHPH/2009/各教科(中学部)">各教科(中学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)">各教科(中学部)</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳">特別の教科道徳</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/外国語活動">外国語活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/総合的な学習の時間">総合的な学習の時間</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別活動">特別活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動">自立活動</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/道徳">道徳</a></dd>
 </dl>
-</dd>
-    
-    <dd><dl>
-
-  <dt>Path</dt>
-  
-    <dd><a href="subjectArea">教科等</a></dd>
-  
-
-  <dt>Name</dt>
-  
-    
-    <dd lang="ja">教科等</dd>
-    
-    <dd lang="en">Subject Area</dd>
-    
-  
-
-  <dt>Description</dt>
-  
-    
-    <dd lang="ja">元データの「教科等」列の値。学習指導要領コードの3桁目に対応</dd>
-    
-    <dd lang="en">It corresponds to the 3rd digit of the course of study code.</dd>
-    
-  
-
-  <dt>Example</dt>
-  
-    <dd><a href="LowerSecondary/2017/外国語">外国語</a></dd>
-  
-
-  <dt>Maxcount</dt>
-  
-    <dd>1</dd>
-  
-
-  <dt>Mincount</dt>
-  
-    <dd>1</dd>
-  
-
-  <dt>Class</dt>
-  
-    <dd><a href="SubjectArea">教科等を表すリソース</a></dd>
-  
-
-  <dt>Order</dt>
-  
-    <dd>10</dd>
-  
-</dl>
-</dd>
-    
-    <dd><dl>
-
-  <dt>Path</dt>
-  
-    <dd><a href="http://purl.org/dc/terms/relation">http://purl.org/dc/terms/relation</a></dd>
-  
-
-  <dt>Name</dt>
-  
-    
-    <dd lang="ja">関係がある</dd>
-    
-    <dd lang="en">Related</dd>
-    
-  
-
-  <dt>Example</dt>
-  
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/外国語">外国語</a></dd>
-  
-
-  <dt>Class</dt>
-  
-    <dd><a href="SubjectArea">教科等を表すリソース</a></dd>
-  
-
-  <dt>Order</dt>
-  
-    <dd>1</dd>
-  
-</dl>
-</dd>
-    
-  
-
-  <dt>Targetclass</dt>
-  
-    <dd><a href="SubjectAreaShape">no title</a></dd>
-  
-
-  <dt>Type</dt>
-  
-    
-    <dd><a href="Kindergarten/2017/総則">総則</a></dd>
-    
-    <dd><a href="Kindergarten/2017/ねらい及び内容">ねらい及び内容</a></dd>
-    
-    <dd><a href="Kindergarten/2017/教育課程に係る教育時間の終了後等に行う教育活動などの留意事項">教育課程に係る教育時間の終了後等に行う教育活動などの留意事項</a></dd>
-    
-    <dd><a href="Elementary/2017/総則">総則</a></dd>
-    
-    <dd><a href="Elementary/2017/国語">国語</a></dd>
-    
-    <dd><a href="Elementary/2017/社会">社会</a></dd>
-    
-    <dd><a href="Elementary/2017/算数">算数</a></dd>
-    
-    <dd><a href="Elementary/2017/理科">理科</a></dd>
-    
-    <dd><a href="Elementary/2017/生活">生活</a></dd>
-    
-    <dd><a href="Elementary/2017/音楽">音楽</a></dd>
-    
-    <dd><a href="Elementary/2017/図画工作">図画工作</a></dd>
-    
-    <dd><a href="Elementary/2017/家庭">家庭</a></dd>
-    
-    <dd><a href="Elementary/2017/体育">体育</a></dd>
-    
-    <dd><a href="Elementary/2017/外国語">外国語</a></dd>
-    
-    <dd><a href="Elementary/2017/各教科(共通)">各教科(共通)</a></dd>
-    
-    <dd><a href="Elementary/2017/特別の教科道徳">特別の教科道徳</a></dd>
-    
-    <dd><a href="Elementary/2017/外国語活動">外国語活動</a></dd>
-    
-    <dd><a href="Elementary/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="Elementary/2017/特別活動">特別活動</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/総則">総則</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/各教科">各教科</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/国語">国語</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/社会">社会</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/数学">数学</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/理科">理科</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/音楽">音楽</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/美術">美術</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/保健体育">保健体育</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/技術・家庭">技術・家庭</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/外国語">外国語</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/特別の教科道徳">特別の教科道徳</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="LowerSecondary/2017/特別活動">特別活動</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/国語">国語</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/地理歴史">地理歴史</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/公民">公民</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/数学">数学</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/理科">理科</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/保健体育">保健体育</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/芸術">芸術</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/外国語">外国語</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/家庭">家庭</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/情報">情報</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/理数">理数</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/各教科(共通)">各教科(共通)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/農業">農業</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/工業">工業</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/商業">商業</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/水産">水産</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/家庭(専門)">家庭(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/看護">看護</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/情報(専門)">情報(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/福祉">福祉</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/理数(専門)">理数(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/体育(専門)">体育(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/音楽(専門)">音楽(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/美術(専門)">美術(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/英語(専門)">英語(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/各教科(専門)">各教科(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/総合的な探究の時間">総合的な探究の時間</a></dd>
-    
-    <dd><a href="UpperSecondary/2018/特別活動">特別活動</a></dd>
-    
-    <dd><a href="KindergartenDeptSNES-NC/2017/総則">総則</a></dd>
-    
-    <dd><a href="KindergartenDeptSNES-NC/2017/ねらい及び内容">ねらい及び内容</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則">総則</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-VHPH/2017/総則">総則</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-VHPH/2017/総則">総則</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/総則">総則</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/総則">総則</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/生活">生活</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/国語">国語</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/算数">算数</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/音楽">音楽</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/図画工作">図画工作</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/体育">体育</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/国語">国語</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/社会">社会</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/数学">数学</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/理科">理科</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/音楽">音楽</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/美術">美術</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/保健体育">保健体育</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭">職業・家庭</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/外国語">外国語</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科">各教科</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科(小学部)">各教科(小学部)</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-VHPH/2017/各教科(小学部)">各教科(小学部)</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/各教科(小学部)">各教科(小学部)</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科(中学部)">各教科(中学部)</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-VHPH/2017/各教科(中学部)">各教科(中学部)</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/各教科(中学部)">各教科(中学部)</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/特別の教科道徳">特別の教科道徳</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/外国語活動">外国語活動</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-VHPH/2017/外国語活動">外国語活動</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2017/外国語活動">外国語活動</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/特別活動">特別活動</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動">自立活動</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2019/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-VHPH/2019/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2019/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2019/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2019/保健理療">保健理療</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2019/理療">理療</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2019/理学療法">理学療法</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2019/印刷">印刷</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2019/理容・美容">理容・美容</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2019/クリーニング">クリーニング</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2019/歯科技工">歯科技工</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/国語">国語</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/社会">社会</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/数学">数学</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/理科">理科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/音楽">音楽</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/美術">美術</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/保健体育">保健体育</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/職業">職業</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/家庭">家庭</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/外国語">外国語</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/情報">情報</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-VHPH/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Physical/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Health/2019/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/家政">家政</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/農業">農業</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/工業">工業</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/流通・サービス">流通・サービス</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/福祉">福祉</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/各教科(専門)">各教科(専門)</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/特別の教科道徳">特別の教科道徳</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間">総合的な探究の時間</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/総合的な探究の時間">総合的な探究の時間</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2019/特別活動">特別活動</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2019/特別活動">特別活動</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2019/自立活動">自立活動</a></dd>
-    
-    <dd><a href="Kindergarten/2008/総則">総則</a></dd>
-    
-    <dd><a href="Kindergarten/2008/ねらい及び内容">ねらい及び内容</a></dd>
-    
-    <dd><a href="Kindergarten/2008/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項">指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/各教科(共通)">各教科(共通)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/国語">国語</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/地理歴史">地理歴史</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/公民">公民</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/数学">数学</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/理科">理科</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/保健体育">保健体育</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/芸術">芸術</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/外国語">外国語</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/家庭">家庭</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/情報">情報</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/各教科(専門)">各教科(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/農業">農業</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/工業">工業</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/商業">商業</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/水産">水産</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/家庭(専門)">家庭(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/看護">看護</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/情報(専門)">情報(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/福祉">福祉</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/理数(専門)">理数(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/体育(専門)">体育(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/音楽(専門)">音楽(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/美術(専門)">美術(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/英語(専門)">英語(専門)</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="UpperSecondary/2009/特別活動">特別活動</a></dd>
-    
-    <dd><a href="KindergartenDeptSNES-NC/2009/総則">総則</a></dd>
-    
-    <dd><a href="KindergartenDeptSNES-NC/2009/ねらい及び内容等">ねらい及び内容等</a></dd>
-    
-    <dd><a href="KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項">指導計画の作成に当たっての留意事項</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-VHPH/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/総則">総則</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2009/保健理療">保健理療</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2009/理療">理療</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2009/理学療法">理学療法</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2009/印刷">印刷</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2009/理容・美容">理容・美容</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2009/クリーニング">クリーニング</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2009/歯科技工">歯科技工</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/国語">国語</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/社会">社会</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/数学">数学</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/理科">理科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/音楽">音楽</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/美術">美術</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/保健体育">保健体育</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/職業">職業</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/家庭">家庭</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/外国語">外国語</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/情報">情報</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-VHPH/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Visual/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Hearing/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Physical/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Health/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/家政">家政</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/農業">農業</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/工業">工業</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス">流通・サービス</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/福祉">福祉</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/各教科(専門)">各教科(専門)</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/道徳">道徳</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2009/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2009/特別活動">特別活動</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-Intellectual/2009/特別活動">特別活動</a></dd>
-    
-    <dd><a href="UpperSecondaryDeptSNES-NC/2009/自立活動">自立活動</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/生活">生活</a></dd>
-    
-    <dd><a href="Elementary/2008/総則">総則</a></dd>
-    
-    <dd><a href="Elementary/2008/国語">国語</a></dd>
-    
-    <dd><a href="Elementary/2008/社会">社会</a></dd>
-    
-    <dd><a href="Elementary/2008/算数">算数</a></dd>
-    
-    <dd><a href="Elementary/2008/理科">理科</a></dd>
-    
-    <dd><a href="Elementary/2008/生活">生活</a></dd>
-    
-    <dd><a href="Elementary/2008/音楽">音楽</a></dd>
-    
-    <dd><a href="Elementary/2008/図画工作">図画工作</a></dd>
-    
-    <dd><a href="Elementary/2008/家庭">家庭</a></dd>
-    
-    <dd><a href="Elementary/2008/体育">体育</a></dd>
-    
-    <dd><a href="Elementary/2008/各教科">各教科</a></dd>
-    
-    <dd><a href="Elementary/2008/道徳">道徳</a></dd>
-    
-    <dd><a href="Elementary/2008/外国語活動">外国語活動</a></dd>
-    
-    <dd><a href="Elementary/2008/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="Elementary/2008/特別活動">特別活動</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/総則">総則</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/国語">国語</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/社会">社会</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/数学">数学</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/理科">理科</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/音楽">音楽</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/美術">美術</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/保健体育">保健体育</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/技術・家庭">技術・家庭</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/外国語">外国語</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/各教科">各教科</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/道徳">道徳</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="LowerSecondary/2008/特別活動">特別活動</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/国語">国語</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/算数">算数</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/音楽">音楽</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/図画工作">図画工作</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/体育">体育</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/国語">国語</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/社会">社会</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/数学">数学</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/理科">理科</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/音楽">音楽</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/美術">美術</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/保健体育">保健体育</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/職業・家庭">職業・家庭</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/外国語">外国語</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/各教科">各教科</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/各教科(小学部)">各教科(小学部)</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-VHPH/2009/各教科(小学部)">各教科(小学部)</a></dd>
-    
-    <dd><a href="ElementaryDeptSNES-Intellectual/2009/各教科(小学部)">各教科(小学部)</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/各教科(中学部)">各教科(中学部)</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-VHPH/2009/各教科(中学部)">各教科(中学部)</a></dd>
-    
-    <dd><a href="LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)">各教科(中学部)</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳">特別の教科道徳</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/外国語活動">外国語活動</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/総合的な学習の時間">総合的な学習の時間</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別活動">特別活動</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動">自立活動</a></dd>
-    
-    <dd><a href="ElementaryAndLowerSecondaryDeptSNES-NC/2009/道徳">道徳</a></dd>
-    
-  
-</dl>
-
         </div>
       </div>
-      
     </div>
-
     <hr>
     <footer>
-      <p class="pull-right"><a href="https://w3id.org/jp-cos/SubjectArea.ttl"><img src="https://www.w3.org/RDF/icons/rdf_flyer.24" alt="RDFデータ"></a></p>
+      <p class="text-right"><a href="SubjectArea.ttl"><img src="https://www.w3.org/RDF/icons/rdf_flyer.24" alt="RDFデータ"></a></p>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>

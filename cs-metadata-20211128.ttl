@@ -4,54 +4,54 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 #TTL CSメインリソース
 <https://w3id.org/jp-cos/Elementary/1989> a <https://w3id.org/jp-cos/CourseOfStudy>;
-  schema:name "小学校学習指導要領"@ja;
-  schema:name "しょうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Elementary School Curriculum Guideline"@en;
+  schema:name "小学校学習指導要領 1989年3月 告示"@ja;
+  schema:name "しょうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-Hira;
+  schema:name "Elementary School Curriculum Guideline 1989-03 Notification"@en;
   schema:datePublished "1989-03-15"^^xsd:date;
   schema:startDate "1992-04-01"^^xsd:date;
   cs:school cs:school\/Elementary;
   schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000125>.
 <https://w3id.org/jp-cos/LowerSecondary/1989> a <https://w3id.org/jp-cos/CourseOfStudy>;
-  schema:name "中学校学習指導要領"@ja;
-  schema:name "ちゅうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Lower Secondary School Curriculum Guideline"@en;
+  schema:name "中学校学習指導要領 1989年3月 告示"@ja;
+  schema:name "ちゅうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-Hira;
+  schema:name "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en;
   schema:datePublished "1989-03-15"^^xsd:date;
   schema:startDate "1993-04-01"^^xsd:date;
   cs:school cs:school\/LowerSecondary;
   schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>.
 <https://w3id.org/jp-cos/UpperSecondary/1989> a <https://w3id.org/jp-cos/CourseOfStudy>;
-  schema:name "高等学校学習指導要領"@ja;
-  schema:name "こうとうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Upper Secondary School Curriculum Guideline"@en;
+  schema:name "高等学校学習指導要領 1989年3月 告示"@ja;
+  schema:name "こうとうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-Hira;
+  schema:name "Upper Secondary School Curriculum Guideline 1989-03 Notification"@en;
   schema:datePublished "1989-03-15"^^xsd:date;
   schema:startDate "1994-04-01"^^xsd:date;
   cs:school cs:school\/UpperSecondary;
   schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000127>.
 <https://w3id.org/jp-cos/Elementary/1998> a <https://w3id.org/jp-cos/CourseOfStudy>;
-  schema:name "小学校学習指導要領"@ja;
-  schema:name "しょうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Elementary School Curriculum Guideline"@en;
+  schema:name "小学校学習指導要領 1998年12月 告示"@ja;
+  schema:name "しょうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-Hira;
+  schema:name "Elementary School Curriculum Guideline 1998-12 Notification"@en;
   schema:datePublished "1998-12-14"^^xsd:date;
   schema:startDate "2002-04-01"^^xsd:date;
   cs:school cs:school\/Elementary;
   schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>.
 <https://w3id.org/jp-cos/LowerSecondary/1998> a <https://w3id.org/jp-cos/CourseOfStudy>;
-  schema:name "中学校学習指導要領"@ja;
-  schema:name "ちゅうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Lower Secondary School Curriculum Guideline"@en;
+  schema:name "中学校学習指導要領 1998年12月 告示"@ja;
+  schema:name "ちゅうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-Hira;
+  schema:name "Lower Secondary School Curriculum Guideline 1998-12 Notification"@en;
   schema:datePublished "1998-12-14"^^xsd:date;
   schema:startDate "2002-04-01"^^xsd:date;
   cs:school cs:school\/LowerSecondary;
   schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1320061.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000134>.
 <https://w3id.org/jp-cos/UpperSecondary/1999> a <https://w3id.org/jp-cos/CourseOfStudy>;
-  schema:name "高等学校学習指導要領"@ja;
-  schema:name "こうとうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Upper Secondary School Curriculum Guideline"@en;
+  schema:name "高等学校学習指導要領 1999年3月 告示"@ja;
+  schema:name "こうとうがっこうがくしゅうしどうようりょう 1999ねん3がつ こくじ"@ja-Hira;
+  schema:name "Upper Secondary School Curriculum Guideline 1999-03 Notification"@en;
   schema:datePublished "1999-03-29"^^xsd:date;
   schema:startDate "2003-04-01"^^xsd:date;
   cs:school cs:school\/UpperSecondary;
@@ -59,9 +59,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000135>.
 <https://w3id.org/jp-cos/Elementary/2008> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "小学校学習指導要領"@ja;
-  schema:name "しょうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Elementary School Curriculum Guideline"@en;
+  schema:name "小学校学習指導要領 2008年3月 告示"@ja;
+  schema:name "しょうがっこうがくしゅうしどうようりょう 2008ねん3がつ こくじ"@ja-Hira;
+  schema:name "Elementary School Curriculum Guideline 2008-03 Notification"@en;
   schema:datePublished "2008-03-28"^^xsd:date;
   schema:startDate "2011-04-01"^^xsd:date;
   cs:school cs:school\/Elementary;
@@ -69,9 +69,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000147>.
 <https://w3id.org/jp-cos/LowerSecondary/2008> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "中学校学習指導要領"@ja;
-  schema:name "ちゅうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Lower Secondary School Curriculum Guideline"@en;
+  schema:name "中学校学習指導要領 2008年3月 告示"@ja;
+  schema:name "ちゅうがっこうがくしゅうしどうようりょう 2008ねん3がつ こくじ"@ja-Hira;
+  schema:name "Lower Secondary School Curriculum Guideline 2008-03 Notification"@en;
   schema:datePublished "2008-03-28"^^xsd:date;
   schema:startDate "2012-04-01"^^xsd:date;
   cs:school cs:school\/LowerSecondary;
@@ -79,9 +79,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000148>.
 <https://w3id.org/jp-cos/UpperSecondary/2009> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "高等学校学習指導要領"@ja;
-  schema:name "こうとうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Upper Secondary School Curriculum Guideline"@en;
+  schema:name "高等学校学習指導要領 2009年3月 告示"@ja;
+  schema:name "こうとうがっこうがくしゅうしどうようりょう 2009ねん3がつ こくじ"@ja-Hira;
+  schema:name "Upper Secondary School Curriculum Guideline 2009-03 Notification"@en;
   schema:datePublished "2009-03-09"^^xsd:date;
   schema:startDate "2013-04-01"^^xsd:date;
   cs:school cs:school\/UpperSecondary;
@@ -89,9 +89,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000149>.
 <https://w3id.org/jp-cos/Elementary/2017> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "小学校学習指導要領"@ja;
-  schema:name "しょうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Elementary School Curriculum Guideline"@en;
+  schema:name "小学校学習指導要領 2017年3月 告示"@ja;
+  schema:name "しょうがっこうがくしゅうしどうようりょう 2017ねん3がつ こくじ"@ja-Hira;
+  schema:name "Elementary School Curriculum Guideline 2017-03 Notification"@en;
   schema:datePublished "2017-03-31"^^xsd:date;
   schema:startDate "2020-04-01"^^xsd:date;
   cs:school cs:school\/Elementary;
@@ -99,9 +99,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000154>.
 <https://w3id.org/jp-cos/LowerSecondary/2017> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "中学校学習指導要領"@ja;
-  schema:name "ちゅうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Lower Secondary School Curriculum Guideline"@en;
+  schema:name "中学校学習指導要領 2017年3月 告示"@ja;
+  schema:name "ちゅうがっこうがくしゅうしどうようりょう 2017ねん3がつ こくじ"@ja-Hira;
+  schema:name "Lower Secondary School Curriculum Guideline 2017-03 Notification"@en;
   schema:datePublished "2017-03-31"^^xsd:date;
   schema:startDate "2021-04-01"^^xsd:date;
   cs:school cs:school\/LowerSecondary;
@@ -109,9 +109,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000155>.
 <https://w3id.org/jp-cos/UpperSecondary/2018> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "高等学校学習指導要領"@ja;
-  schema:name "こうとうがっこうがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Upper Secondary School Curriculum Guideline"@en;
+  schema:name "高等学校学習指導要領 2018年3月 告示"@ja;
+  schema:name "こうとうがっこうがくしゅうしどうようりょう 2018ねん3がつ こくじ"@ja-Hira;
+  schema:name "Upper Secondary School Curriculum Guideline 2018-03 Notification"@en;
   schema:datePublished "2018-03-30"^^xsd:date;
   schema:startDate "2022-04-01"^^xsd:date;
   cs:school cs:school\/UpperSecondary;
@@ -119,9 +119,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000158>.
 <https://w3id.org/jp-cos/Kindergarten/2008> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "幼稚園教育要領"@ja;
-  schema:name "ようちえんきょういくようりょう"@ja-Hira;
-  schema:name "Kindergarten Curriculum Guideline"@en;
+  schema:name "幼稚園教育要領 2008年3月 告示"@ja;
+  schema:name "ようちえんきょういくようりょう 2008ねん3がつ こくじ"@ja-Hira;
+  schema:name "Kindergarten Curriculum Guideline 2008-03 Notification"@en;
   schema:datePublished "2008-03-28"^^xsd:date;
   schema:startDate "2009-04-01"^^xsd:date;
   cs:school cs:school\/Kindergarten;
@@ -129,9 +129,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000146/>.
 <https://w3id.org/jp-cos/Kindergarten/2017> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "幼稚園教育要領"@ja;
-  schema:name "ようちえんきょういくようりょう"@ja-Hira;
-  schema:name "Kindergarten Curriculum Guideline"@en;
+  schema:name "幼稚園教育要領 2017年3月 告示"@ja;
+  schema:name "ようちえんきょういくようりょう 2017ねん3がつ こくじ"@ja-Hira;
+  schema:name "Kindergarten Curriculum Guideline 2017-03 Notification"@en;
   schema:datePublished "2017-03-31"^^xsd:date;
   schema:startDate "2018-04-01"^^xsd:date;
   cs:school cs:school\/Kindergarten;
@@ -139,9 +139,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000153>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "特別支援学校幼稚部教育要領"@ja;
-  schema:name "とくべつしえんがっこうようちぶきょういくようりょう"@ja-Hira;
-  schema:name "Kindergarten Department of Special Needs Education School Curriculum Guideline"@en;
+  schema:name "特別支援学校幼稚部教育要領 2009年3月 告示"@ja;
+  schema:name "とくべつしえんがっこうようちぶきょういくようりょう 2009ねん3がつ こくじ"@ja-Hira;
+  schema:name "Kindergarten Department of Special Needs Education School Curriculum Guideline 2009-03 Notification"@en;
   schema:datePublished "2009-03-09"^^xsd:date;
   schema:startDate "2009-04-01"^^xsd:date;
   cs:school cs:school\/KindergartenDeptSNES;
@@ -149,9 +149,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000150>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "特別支援学校幼稚部教育要領"@ja;
-  schema:name "とくべつしえんがっこうようちぶきょういくようりょう"@ja-Hira;
-  schema:name "Kindergarten Department of Special Needs Education School Curriculum Guideline"@en;
+  schema:name "特別支援学校幼稚部教育要領 2017年4月 告示"@ja;
+  schema:name "とくべつしえんがっこうようちぶきょういくようりょう 2017ねん4がつ こくじ"@ja-Hira;
+  schema:name "Kindergarten Department of Special Needs Education School Curriculum Guideline 2017-04 Notification"@en;
   schema:datePublished "2017-04-28"^^xsd:date;
   schema:startDate "2018-04-01"^^xsd:date;
   cs:school cs:school\/KindergartenDeptSNES;
@@ -159,9 +159,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000156>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "特別支援学校小学部・中学部学習指導要領"@ja;
-  schema:name "とくべつしえんがっこうしょうがくぶ・ちゅうがくぶがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Elementary and Lower Secondary Department of Special Needs Education School Curriculum Guideline"@en;
+  schema:name "特別支援学校小学部・中学部学習指導要領 2009年3月 告示"@ja;
+  schema:name "とくべつしえんがっこうしょうがくぶ・ちゅうがくぶがくしゅうしどうようりょう 2009ねん3がつ こくじ"@ja-Hira;
+  schema:name "Elementary and Lower Secondary Department of Special Needs Education School Curriculum Guideline 2009-03 Notification"@en;
   schema:datePublished "2009-03-09"^^xsd:date;
   schema:startDate "2011-04-01"^^xsd:date;
   cs:school cs:school\/ElementaryDeptSNES,cs:school\/LowerSecondaryDeptSNES;
@@ -169,9 +169,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000151>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "特別支援学校小学部・中学部学習指導要領"@ja;
-  schema:name "とくべつしえんがっこうしょうがくぶ・ちゅうがくぶがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Elementary and Lower Secondary Department of Special Needs Education School Curriculum Guideline"@en;
+  schema:name "特別支援学校小学部・中学部学習指導要領 2017年4月 告示"@ja;
+  schema:name "とくべつしえんがっこうしょうがくぶ・ちゅうがくぶがくしゅうしどうようりょう 2017ねん4がつ こくじ"@ja-Hira;
+  schema:name "Elementary and Lower Secondary Department of Special Needs Education School Curriculum Guideline 2017-04 Notification"@en;
   schema:datePublished "2017-04-28"^^xsd:date;
   schema:startDate "2020-04-01"^^xsd:date;
   cs:school cs:school\/ElementaryDeptSNES,cs:school\/LowerSecondaryDeptSNES;
@@ -179,9 +179,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000157>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H20toH21>;
-  schema:name "特別支援学校高等部学習指導要領"@ja;
-  schema:name "とくべつしえんがっこうこうとうぶがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Upper Secondary Department of Special Needs Education School Curriculum Guideline"@en;
+  schema:name "特別支援学校高等部学習指導要領 2009年3月 告示"@ja;
+  schema:name "とくべつしえんがっこうこうとうぶがくしゅうしどうようりょう 2009ねん3がつ こくじ"@ja-Hira;
+  schema:name "Upper Secondary Department of Special Needs Education School Curriculum Guideline 2009-03 Notification"@en;
   schema:datePublished "2009-03-09"^^xsd:date;
   schema:startDate "2013-04-01"^^xsd:date;
   cs:school cs:school\/UpperSecondaryDeptSNES;
@@ -189,9 +189,9 @@
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000152>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> a <https://w3id.org/jp-cos/CourseOfStudy>;
   cs:issuedPeriod <https://w3id.org/jp-cos/period/H29toH31>;
-  schema:name "特別支援学校高等部学習指導要領"@ja;
-  schema:name "とくべつしえんがっこうこうとうぶがくしゅうしどうようりょう"@ja-Hira;
-  schema:name "Upper Secondary Department of Special Needs Education School Curriculum Guideline"@en;
+  schema:name "特別支援学校高等部学習指導要領 2019年2月 告示"@ja;
+  schema:name "とくべつしえんがっこうこうとうぶがくしゅうしどうようりょう 2019ねん2がつ こくじ"@ja-Hira;
+  schema:name "Upper Secondary Department of Special Needs Education School Curriculum Guideline 2019-02 Notification"@en;
   schema:datePublished "2019-02-04"^^xsd:date;
   schema:startDate "2022-04-01"^^xsd:date;
   cs:school cs:school\/UpperSecondaryDeptSNES;

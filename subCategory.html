@@ -4,129 +4,107 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <title>項目 - 学習指導要領LOD</title>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="項目 - 学習指導要領LOD">
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="navbar-brand" href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="navbar-brand" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="/about">About</a>
+          </li>
         </ul>
       </div>
     </nav>
         <div class="jumbotron">
       <div class="container">
         <h1>項目</h1>
-        <p><small><span class="glyphicon glyphicon-link"></span> <a href="https://w3id.org/jp-cos/subCategory">https://w3id.org/jp-cos/subCategory</a></small></p>
+        <p><i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/subCategory">https://w3id.org/jp-cos/subCategory</a></p>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>詳細情報</h2>
-          <dl>
-
-  <dt>Type</dt>
-  
-    <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</a></dd>
-  
-
-  <dt>Domain</dt>
-  
-    <dd><a href="Item">学習指導要領の細目を表すリソース</a></dd>
-  
-
-  <dt>Label</dt>
-  
-    
-    <dd lang="en">Sub Category</dd>
-    
-    <dd lang="ja">項目</dd>
-    
-  
-
-  <dt>Range</dt>
-  
-    <dd><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal">http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal</a></dd>
-  
-</dl>
-
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  項目
+                </li>
+            </ol>
+          </nav>
         </div>
       </div>
-      
+      <div class="row">
+        <div class="col-md-12">
+          <h2>詳細情報</h2>
+          <dl class="row">
+  <dt class="col-sm-3">Type</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</a></dd>
+  <dt class="col-sm-3">Domain</dt>
+    <dd class="col-sm-9"><a href="Item">学習指導要領の細目を表すリソース</a></dd>
+  <dt class="col-sm-3">Label</dt>
+    
+      <dd class="col-sm-9" lang="en">Sub Category</dd>
+    
+      <dd class="col-sm-9 offset-sm-3" lang="ja">項目</dd>
+    
+  <dt class="col-sm-3">Range</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal">http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal</a></dd>
+</dl>
+        </div>
+      </div>
       <div class="row inverse">
         <div class="col-md-12">
           <h2>被参照情報</h2>
-          <dl>
-
-  <dt>Path</dt>
-  
-    <dd><dl>
-
-  <dt>Path</dt>
-  
-    <dd><a href="subCategory">項目</a></dd>
-  
-
-  <dt>Name</dt>
-  
+          <dl class="row">
+  <dt class="col-sm-3">&#39;Path&#39;としての参照元:</dt>
+    <dd class="col-sm-9"><dl class="row">
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="subCategory">項目</a></dd>
+  <dt class="col-sm-3">Name</dt>
     
-    <dd lang="ja">項目</dd>
+      <dd class="col-sm-9" lang="ja">項目</dd>
     
-    <dd lang="en">Sub Category</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Sub Category</dd>
     
-  
-
-  <dt>Description</dt>
-  
+  <dt class="col-sm-3">Description</dt>
     
-    <dd lang="ja">学習指導要領コードの7桁目に対応</dd>
+      <dd class="col-sm-9" lang="ja">学習指導要領コードの7桁目に対応</dd>
     
-    <dd lang="en">It corresponds to the 7th digit of the course of study code.</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the 7th digit of the course of study code.</dd>
     
-  
-
-  <dt>Example</dt>
-  
-    <dd>内容</dd>
-  
-
-  <dt>Maxcount</dt>
-  
-    <dd>1</dd>
-  
-
-  <dt>Datatype</dt>
-  
-    <dd><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
-  
-
-  <dt>Order</dt>
-  
-    <dd>15</dd>
-  
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9">内容</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Datatype</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">15</dd>
+</dl></dd>
 </dl>
-</dd>
-  
-</dl>
-
         </div>
       </div>
-      
     </div>
-
     <hr>
     <footer>
-      <p class="pull-right"><a href="https://w3id.org/jp-cos/subCategory.ttl"><img src="https://www.w3.org/RDF/icons/rdf_flyer.24" alt="RDFデータ"></a></p>
+      <p class="text-right"><a href="subCategory.ttl"><img src="https://www.w3.org/RDF/icons/rdf_flyer.24" alt="RDFデータ"></a></p>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
