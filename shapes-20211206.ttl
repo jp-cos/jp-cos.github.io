@@ -733,7 +733,7 @@
     sh:order 1
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-cos/curriculum>;
+    sh:path <https://w3id.org/jp-cos/courseOfStudy>;
     sh:name "対応学習指導要領"@ja;
     sh:name "Reference to a curriculum guideline"@en;
     sh:description "学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。"@ja;

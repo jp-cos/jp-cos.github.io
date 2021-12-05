@@ -1,5 +1,5 @@
 <https://w3id.org/jp-cos/courseOfStudy>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study"@en, "学習指導要領"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy> .

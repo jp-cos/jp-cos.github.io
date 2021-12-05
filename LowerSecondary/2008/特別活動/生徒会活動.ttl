@@ -11,7 +11,7 @@
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/LowerSecondary/2008>
+    <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>
   ] .
 <https://w3id.org/jp-cos/LowerSecondary/2008> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動/生徒会活動>.
 <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2008/特別活動/生徒会活動>.
