@@ -4,15 +4,15 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "M";
   <https://w3id.org/jp-cos/codePrefix> "84M";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
   <https://w3id.org/jp-cos/fcode03> "UM";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4UM";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
-    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2018>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondary/2018>
+  ] .
 <https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
 <https://w3id.org/jp-cos/84M0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.
 <https://w3id.org/jp-cos/84M0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総合的な探究の時間>.

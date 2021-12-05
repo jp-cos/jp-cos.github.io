@@ -4,12 +4,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "k";
   <https://w3id.org/jp-cos/codePrefix> "7Ek";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode03> "Lk";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELk";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/小児歯科技工学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯の解剖学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯冠修復技工学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工情報活用>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工関係法規>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科理工学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/矯正歯科技工学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/課題研究>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/顎口腔機能学>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/歯科技工> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工>.
 <https://w3id.org/jp-cos/7Ek0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工>.

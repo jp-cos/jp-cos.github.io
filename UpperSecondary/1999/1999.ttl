@@ -8,7 +8,7 @@
   <http://schema.org/name> "Upper Secondary School Curriculum Guideline 1999-03 Notification"@en, "高等学校学習指導要領 1999年3月 告示"@ja;
   <http://schema.org/startDate> "2003-04-01";
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1320144.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000135>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RevisionOfCourseOfStudy>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/99093610>, <https://ci.nii.ac.jp/ncid/BA42594153>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/1999> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>.

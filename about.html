@@ -43,9 +43,207 @@
       </div>
       <div class="row">
         <div class="col-md">
-            <h3>学習指導要領を表すリソース</h3>
-            <p>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code></p>
-            <p>学習指導要領を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>学習指導要領の別バージョン</h3>
+            <p>一部改正された学習指導要領を表すクラス。10年の間に一部改正が行われた場合などに利用。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></p>
+            <p>学習指導要領の別バージョンリソースが持つプロパティを下表に示します</p>
+            <table class="table table-condensed">
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td>告示時期</td>
+      <td>https://w3id.org/jp-cos/period/H29toH31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目に対応</td>
+    </tr>
+    <tr>
+      <td><code>http://schema.org/name</code></td>
+      <td>別バージョンの名称</td>
+      <td><ul><li>"中学校学習指導要領 平成22年11月 一部改正"@ja</li><li>"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td><code>http://schema.org/citation</code></td>
+      <td>出典</td>
+      <td><ul><li>"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）"@ja</li><li>"\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)"@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl></td>
+    </tr>
+    <tr>
+      <td><code>http://schema.org/url</code></td>
+      <td>本文URL</td>
+      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td>関連リンク</td>
+      <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク。</td>
+    </tr>
+    <tr>
+      <td><code>http://schema.org/isbn</code></td>
+      <td>ISBN</td>
+      <td>9784491034607</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>http://dl.nier.go.jp/library/vocab/itemID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
+      <td>071221843</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>http://dl.nier.go.jp/library/vocab/callNumber</code></td>
+      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
+      <td>375.92||1||1989d</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>区切り記号は、「||」である。</td>
+    </tr>
+    <tr>
+      <td><code>http://dl.nier.go.jp/library/vocab/recordID</code></td>
+      <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
+      <td>BB80025218</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
+    </tr>
+    <tr>
+      <td><code>http://schema.org/startDate</code></td>
+      <td>施行年月日</td>
+      <td>2020-04-01</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>http://schema.org/datePublished</code></td>
+      <td>告示日（改正日）</td>
+      <td>1989-03-15</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td>学校種別</td>
+      <td>https://w3id.org/jp-cos/school/Elementary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td><code>https://w3id.org/jp-cos/dataset</code></td>
+      <td>データセット</td>
+      <td>https://w3id.org/jp-cos/82V11</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+            <h3>学習指導要領</h3>
+            <p>学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></p>
+            <p>学習指導要領リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -182,12 +380,26 @@
       </td>
       <td></td>
     </tr>
+    <tr>
+      <td><code>https://w3id.org/jp-cos/hasSubject</code></td>
+      <td>科目がある</td>
+      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
-            <h3>データセットを表すリソース</h3>
-            <p>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code></p>
-            <p>データセットを表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>データセット</h3>
+            <p>データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>データセットID</var></p>
+            <p>データセットリソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -271,9 +483,9 @@
   </tbody>
 </table>
 
-            <h3>障害分類を表すリソース</h3>
-            <p>視覚、聴覚などの障害分類を表すリソースです。学習指導要領コードの2桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></code></p>
-            <p>障害分類を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>障害分類</h3>
+            <p>障害を表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></p>
+            <p>障害分類リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -329,9 +541,9 @@
   </tbody>
 </table>
 
-            <h3>学習指導要領の細目を表すリソース</h3>
-            <p>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学習指導要領コード</var></code></p>
-            <p>学習指導要領の細目を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>学習指導要領の細目</h3>
+            <p>学習指導要領の細目を表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学習指導要領コード</var></p>
+            <p>学習指導要領の細目リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -357,7 +569,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevison</code></td>
+      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
       <td>学習指導要領（一部改正情報）</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -672,9 +884,9 @@
   </tbody>
 </table>
 
-            <h3>項番を表すリソース</h3>
-            <p></p>
-            <p>項番を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>項番</h3>
+            <p>学習指導要領コードのデータセットの中での項番を表すクラス。</p>
+            <p>項番リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -716,9 +928,9 @@
   </tbody>
 </table>
 
-            <h3>告示時期を表すリソース</h3>
-            <p>学習指導要領コードの1桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code></p>
-            <p>告示時期を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>告示時期</h3>
+            <p>10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/period/<var>告示時期</var></p>
+            <p>告示時期リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -802,9 +1014,9 @@
   </tbody>
 </table>
 
-            <h3>関係のある教科等を表すリソース</h3>
-            <p>障害分類が異なる教科をまとめるための特別なリソース。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var></code></p>
-            <p>関係のある教科等を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>関係のある教科等</h3>
+            <p>障害分類のある教科の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var></p>
+            <p>関係のある教科等リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -832,9 +1044,9 @@
   </tbody>
 </table>
 
-            <h3>関係のある科目等を表すリソース</h3>
-            <p>障害分類が異なる科目をまとめるための特別なリソース。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code></p>
-            <p>関係のある科目等を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>関係のある科目等</h3>
+            <p>障害分類のある科目等の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></p>
+            <p>関係のある科目等リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -862,207 +1074,9 @@
   </tbody>
 </table>
 
-            <h3>学習指導要領の別バージョンを表すリソース</h3>
-            <p>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></code></p>
-            <p>学習指導要領の別バージョンを表すリソースリソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
-  <tr>
-    <th>プロパティ名</th>
-    <th>説明</th>
-    <th>プロパティ値の例</th>
-    <th>必須・省略の別<br>
-        繰り返しの有無</th>
-    <th>備考</th>
-  </tr>
-  <tbody>
-    <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
-      <td>告示時期</td>
-      <td>https://w3id.org/jp-cos/period/H29toH31</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領コードの1桁目に対応</td>
-    </tr>
-    <tr>
-      <td><code>http://schema.org/name</code></td>
-      <td>別バージョンの名称</td>
-      <td><ul><li>"中学校学習指導要領 平成22年11月 一部改正"@ja</li><li>"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision"@en</li></ul></td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
-    </tr>
-    <tr>
-      <td><code>http://schema.org/citation</code></td>
-      <td>出典</td>
-      <td><ul><li>"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）"@ja</li><li>"\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)"@en</li></ul></td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl></td>
-    </tr>
-    <tr>
-      <td><code>http://schema.org/url</code></td>
-      <td>本文URL</td>
-      <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
-    </tr>
-    <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
-      <td>関連リンク</td>
-      <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク。</td>
-    </tr>
-    <tr>
-      <td><code>http://schema.org/isbn</code></td>
-      <td>ISBN</td>
-      <td>9784491034607</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/itemID</code></td>
-      <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
-      <td>071221843</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/callNumber</code></td>
-      <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
-      <td>375.92||1||1989d</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>区切り記号は、「||」である。</td>
-    </tr>
-    <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/recordID</code></td>
-      <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
-      <td>BB80025218</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
-    </tr>
-    <tr>
-      <td><code>http://schema.org/startDate</code></td>
-      <td>施行年月日</td>
-      <td>2020-04-01</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>http://schema.org/datePublished</code></td>
-      <td>告示日（改正日）</td>
-      <td>1989-03-15</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
-      <td>学校種別</td>
-      <td>https://w3id.org/jp-cos/school/Elementary</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>学習指導要領コードの2桁目に対応</td>
-    </tr>
-    <tr>
-      <td><code>https://w3id.org/jp-cos/dataset</code></td>
-      <td>データセット</td>
-      <td>https://w3id.org/jp-cos/82V11</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-            <h3>学校種別を表すリソース</h3>
-            <p>小学校、中学校等の学校を示すリソースです。学習指導要領コードの2桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/<var>学校種別</var></code></p>
-            <p>学校種別を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>学校種別</h3>
+            <p>学校を表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/school/school/<var>学校種別</var></p>
+            <p>学校種別リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -1118,9 +1132,9 @@
   </tbody>
 </table>
 
-            <h3>英語表記の出典を表すリソース</h3>
+            <h3>Sourceofenglishname</h3>
             <p></p>
-            <p>英語表記の出典を表すリソースリソースが持つプロパティを下表に示します</p>
+            <p>Sourceofenglishnameリソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -1176,9 +1190,9 @@
   </tbody>
 </table>
 
-            <h3>段階を表すリソース</h3>
-            <p>特別支援学校（知的）の段階を表すリソースです。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code></p>
-            <p>段階を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>段階</h3>
+            <p>知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></p>
+            <p>段階リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -1276,9 +1290,9 @@
   </tbody>
 </table>
 
-            <h3>教科等を表すリソース</h3>
-            <p>算数などの教科等を示すリソースです。元データの「教科等」列の値。学習指導要領コードの3桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code></p>
-            <p>教科等を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>教科等</h3>
+            <p>教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></p>
+            <p>教科等リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -1290,7 +1304,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/sourceRevisionOfCos</code></td>
+      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
       <td>学習指導要領（一部改正情報）</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -1507,9 +1521,9 @@
   </tbody>
 </table>
 
-            <h3>科目等を表すリソース</h3>
-            <p>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code></p>
-            <p>科目等を表すリソースリソースが持つプロパティを下表に示します</p>
+            <h3>科目等</h3>
+            <p>科目や分類などを表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></p>
+            <p>科目等リソースが持つプロパティを下表に示します</p>
             <table class="table table-condensed">
   <tr>
     <th>プロパティ名</th>
@@ -1521,7 +1535,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/sourceRevisionOfCos</code></td>
+      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
       <td>学習指導要領（一部改正情報）</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -1666,7 +1680,7 @@
       </td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code03</code></td>
+      <td><code>https://w3id.org/jp-cos/code04</code></td>
       <td>学習指導要領コード4桁目</td>
       <td>1</td>
       <td>
@@ -1680,7 +1694,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode03</code></td>
+      <td><code>https://w3id.org/jp-cos/fcode04</code></td>
       <td>学習指導要領コード4桁目に対応するFコード</td>
       <td>A1</td>
       <td>

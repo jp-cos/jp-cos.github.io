@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
   <https://w3id.org/jp-cos/code04> "5";
   <https://w3id.org/jp-cos/codePrefix> "8Ek5";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A5";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELkA5";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/歯科技工/顎口腔機能学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/顎口腔機能学>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/顎口腔機能学>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/顎口腔機能学>.

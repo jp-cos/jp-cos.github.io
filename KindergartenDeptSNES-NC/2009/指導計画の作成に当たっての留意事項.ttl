@@ -4,10 +4,10 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "m";
   <https://w3id.org/jp-cos/codePrefix> "75m";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/fcode03> "Lm";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A5Lm";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES> .
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/指導計画の作成に当たっての留意事項> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項>.
 <https://w3id.org/jp-cos/75m0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項>.

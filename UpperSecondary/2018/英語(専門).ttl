@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "d";
   <https://w3id.org/jp-cos/codePrefix> "84d";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
   <https://w3id.org/jp-cos/fcode03> "Ld";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4Ld";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/エッセイライティングI>, <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/エッセイライティングII>, <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/ディベート・ディスカッションI>, <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/ディベート・ディスカッションII>, <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語I>, <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語II>, <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語III>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)>.
 <https://w3id.org/jp-cos/84d0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)>.
 <https://w3id.org/jp-cos/84d0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)>.

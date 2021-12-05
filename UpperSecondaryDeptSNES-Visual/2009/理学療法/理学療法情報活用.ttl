@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
   <https://w3id.org/jp-cos/code04> "9";
   <https://w3id.org/jp-cos/codePrefix> "7Dg9";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode04> "A9";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLgA9";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理学療法/理学療法情報活用> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/理学療法情報活用>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/理学療法情報活用>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/理学療法情報活用>.

@@ -2,7 +2,7 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
   <http://www.w3.org/ns/shacl#property> [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/IssuedPeriod>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#maxCount> "1";
     <http://www.w3.org/ns/shacl#minCount> "1";
@@ -63,8 +63,8 @@
     <http://www.w3.org/ns/shacl#path> <http://schema.org/url>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudyRevison>;
-    <http://www.w3.org/ns/shacl#description> "Repeatable. It corresponds to the revisions of the course of study."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
+    <http://www.w3.org/ns/shacl#description> "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
     <http://www.w3.org/ns/shacl#minCount> "1";
     <http://www.w3.org/ns/shacl#name> "Other versions"@en, "別バージョン"@ja;
     <http://www.w3.org/ns/shacl#order> "7";
@@ -82,5 +82,12 @@
     <http://www.w3.org/ns/shacl#name> "has a subject area"@en, "教科がある"@ja;
     <http://www.w3.org/ns/shacl#order> "9";
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubjectArea>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>;
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "has a subject"@en, "科目がある"@ja;
+    <http://www.w3.org/ns/shacl#order> "10";
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubject>
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudy> .

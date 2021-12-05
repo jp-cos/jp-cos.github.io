@@ -1,8 +1,7 @@
 <https://w3id.org/jp-cos/School>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "This resource represents type of schools such as elementary schools. It corresponds to the second digit of the course of study code.<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code>"@en, "小学校、中学校等の学校を示すリソースです。学習指導要領コードの2桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/<var>学校種別</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "School Resources"@en, "学校種別を表すリソース"@ja;
-  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/Elementary> .
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/school/school/<var>type of schools</var>"@en, "学校を表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/school/school/<var>学校種別</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Type of School"@en, "学校種別"@ja .
 <https://w3id.org/jp-cos/school/Elementary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
 <https://w3id.org/jp-cos/school/ElementaryDeptSNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
 <https://w3id.org/jp-cos/school/Kindergarten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.

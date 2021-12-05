@@ -4,10 +4,10 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
   <https://w3id.org/jp-cos/code04> "1";
   <https://w3id.org/jp-cos/codePrefix> "75l1";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/fcode04> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A5LlA1";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES> .
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/ねらい及び内容等/健康，人間関係，環境，言葉及び表現> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/健康，人間関係，環境，言葉及び表現>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/健康，人間関係，環境，言葉及び表現>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/健康，人間関係，環境，言葉及び表現>.

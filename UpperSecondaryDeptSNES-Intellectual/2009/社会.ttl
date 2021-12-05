@@ -4,6 +4,7 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "2";
   <https://w3id.org/jp-cos/codePrefix> "7G2";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
   <https://w3id.org/jp-cos/fcode03> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UGA2";
@@ -11,8 +12,7 @@
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Education in Japan, 2000, 13th ed, p.67"@en, "Education in Japan, 2000, 13版, p.67"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://ci.nii.ac.jp/ncid/BA06708576>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  ] .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/社会> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/社会>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/社会>.
 <https://w3id.org/jp-cos/7G20200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/社会>.

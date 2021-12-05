@@ -4,10 +4,10 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
   <https://w3id.org/jp-cos/code04> "2";
   <https://w3id.org/jp-cos/codePrefix> "8322";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
   <https://w3id.org/jp-cos/fcode04> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A3A2A2";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/LowerSecondary/2017/2017> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary> .
 <https://w3id.org/jp-cos/LowerSecondary/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/社会/歴史的分野>.
 <https://w3id.org/jp-cos/LowerSecondary/2017/社会> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/社会/歴史的分野>.
 <https://w3id.org/jp-cos/8322200000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/社会/歴史的分野>.

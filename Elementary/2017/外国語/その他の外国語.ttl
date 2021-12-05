@@ -4,10 +4,10 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
   <https://w3id.org/jp-cos/code04> "2";
   <https://w3id.org/jp-cos/codePrefix> "82H2";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode04> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A2UHA2";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/Elementary/2017/2017> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary> .
 <https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Elementary/2017/外国語/その他の外国語>.
 <https://w3id.org/jp-cos/Elementary/2017/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Elementary/2017/外国語/その他の外国語>.
 <https://w3id.org/jp-cos/82H22D0000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/Elementary/2017/外国語/その他の外国語>.

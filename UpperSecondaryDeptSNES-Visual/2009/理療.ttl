@@ -4,12 +4,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "f";
   <https://w3id.org/jp-cos/codePrefix> "7Df";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode03> "Lf";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLf";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/人体の構造と機能>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/医療と社会>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/地域理療と理療経営>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/基礎理療学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療臨床実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/生活と疾病>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/疾病の成り立ちと予防>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/臨床理療学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/課題研究>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理療> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療>.
 <https://w3id.org/jp-cos/7Df0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療>.

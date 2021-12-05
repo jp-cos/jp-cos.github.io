@@ -13,6 +13,145 @@
 @prefix textbook-rc: <http://dl.nier.go.jp/library/vocab/textbook-rc/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
+<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> a sh:NodeShape;
+  sh:targetClass <https://w3id.org/jp-cos/CourseOfStudyRevision>;
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/issuedPeriod>;
+    sh:name "告示時期"@ja;
+    sh:name "Issued Period"@en;
+    sh:description "学習指導要領コードの1桁目に対応"@ja;
+    sh:description "It corresponds to the first digit of the course of study code."@en;
+    skos:example <https://w3id.org/jp-cos/period/H29toH31>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-cos/Period>;
+    sh:order 1
+  ];
+  sh:property [
+    sh:path <http://schema.org/name>;
+    sh:name "別バージョンの名称"@ja;
+    sh:name "Name of the revision"@en;
+    sh:description "一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    sh:description "If the revision is on a part of a guideline, the name of the revision will be assigned such as \"Partial revision in December 2003\". Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en;
+    skos:example "<ul><li>\"中学校学習指導要領 平成22年11月 一部改正\"@ja</li><li>\"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision\"@en</li></ul>";
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    sh:languageIn ("ja" "en");
+    sh:uniqueLang true;
+    sh:order 2
+  ];
+  sh:property [
+    sh:path <http://schema.org/citation>;
+    sh:name "出典"@ja;
+    sh:name "Reference"@en;
+    sh:description "文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl>"@ja;
+    sh:description "Refer to the official announcement and its publication. Using language tags, Japanese and English names shown. The meanings of language tags are as follows: <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en;
+    skos:example "<ul><li>\"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）\"@ja</li><li>\"\\\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\\\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)\"@en</li></ul>";
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    sh:languageIn ("ja" "en");
+    sh:uniqueLang true;
+    sh:order 3
+  ];
+  sh:property [
+    sh:path <http://schema.org/url>;
+    sh:name "本文URL"@ja;
+    sh:name "Fulltext URL"@en;
+    sh:description "繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja;
+    sh:description "Repeatable. Links to the fulltext(s), such as MEXT website and <a href=\"http://www.nier.go.jp/guideline/\">NIER Curriculum Guidelines Database</a>."@en;
+    skos:example <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 4
+  ];
+  sh:property [
+    sh:path <http://www.w3.org/2000/01/rdf-schema#seeAlso>;
+    sh:name "関連リンク"@ja;
+    sh:name "Related links"@en;
+    sh:description "繰り返しあり。<a href=\"http://iss.ndl.go.jp/\">国立国会図書館サーチ</a>、<a href=\"https://ci.nii.ac.jp/books/\">CiNii Books</a>へのリンク。"@ja;
+    sh:description "Repeatable. Links to <a href=\"http://iss.ndl.go.jp/\">NDL Search</a> and <a href=\"https://ci.nii.ac.jp/books/\">CiNii Books</a>."@en;
+    skos:example <http://id.ndl.go.jp/jpno/89034331>;
+    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
+    sh:order 5
+  ];
+  sh:property [
+    sh:path <http://schema.org/isbn>;
+    sh:name "ISBN"@ja;
+    sh:name "ISBN"@en;
+    skos:example "9784491034607";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 6
+  ];
+  sh:property [
+    sh:path <http://dl.nier.go.jp/library/vocab/itemID>;
+    sh:name "国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID"@ja;
+    sh:name "Item identifier at the NIER Education Library"@en;
+    skos:example "071221843";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 7
+  ];
+  sh:property [
+    sh:path <http://dl.nier.go.jp/library/vocab/callNumber>;
+    sh:name "国立教育政策研究所教育図書館の所蔵資料に対する請求記号"@ja;
+    sh:name "Call number at the NIER Education Library"@en;
+    sh:description "区切り記号は、「||」である。"@ja;
+    sh:description "Delimiter for a call number is \"||\"."@en;
+    skos:example "375.92||1||1989d";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 8
+  ];
+  sh:property [
+    sh:path <http://dl.nier.go.jp/library/vocab/recordID>;
+    sh:name "国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID"@ja;
+    sh:name "Record identifier at the NIER Education Library"@en;
+    sh:description "<code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能"@ja;
+    sh:description "Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>."@en;
+    skos:example "BB80025218";
+    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
+    sh:order 9
+  ];
+  sh:property [
+    sh:path <http://schema.org/startDate>;
+    sh:name "施行年月日"@ja;
+    sh:name "Date of Enforcement"@en;
+    skos:example "2020-04-01";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#date>;
+    sh:order 10
+  ];
+  sh:property [
+    sh:path <http://schema.org/datePublished>;
+    sh:name "告示日（改正日）"@ja;
+    sh:name "Date of announcement (date of revision)"@en;
+    skos:example "1989-03-15";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype <http://www.w3.org/2001/XMLSchema#date>;
+    sh:order 11
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/school>;
+    sh:name "学校種別"@ja;
+    sh:name "Type of School"@en;
+    sh:description "学習指導要領コードの2桁目に対応"@ja;
+    sh:description "It corresponds to the second digit of the course of study code."@en;
+    skos:example <https://w3id.org/jp-cos/school/Elementary>;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-cos/School>;
+    sh:order 12
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/dataset>;
+    sh:name "データセット"@ja;
+    sh:name "Dataset"@en;
+    skos:example <https://w3id.org/jp-cos/82V11>;
+    sh:class <https://w3id.org/jp-cos/Dataset>;
+    sh:order 13
+  ].
+
 <https://w3id.org/jp-cos/CourseOfStudyShape> a sh:NodeShape;
   sh:targetClass <https://w3id.org/jp-cos/CourseOfStudy>;
   sh:property [
@@ -24,7 +163,7 @@
     skos:example <https://w3id.org/jp-cos/period/H29toH31>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/IssuedPeriod>;
+    sh:class <https://w3id.org/jp-cos/Period>;
     sh:order 1
   ];
   sh:property [
@@ -88,10 +227,10 @@
     sh:name "別バージョン"@ja;
     sh:name "Other versions"@en;
     sh:description "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
-    sh:description "Repeatable. It corresponds to the revisions of the course of study."@en;
+    sh:description "Repeatable. It corresponds to the course of study revision."@en;
     skos:example <https://w3id.org/jp-cos/Elementary/2017/2017>;
     sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevison>;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     sh:order 7
   ];
   sh:property [
@@ -110,6 +249,15 @@
     sh:minCount 1;
     sh:class <https://w3id.org/jp-cos/SubjectArea>;
     sh:order 9
+  ];
+  sh:property [
+    sh:path <https://w3id.org/jp-cos/hasSubject>;
+    sh:name "科目がある"@ja;
+    sh:name "has a subject"@en;
+    skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>;
+    sh:minCount 1;
+    sh:class <https://w3id.org/jp-cos/Subject>;
+    sh:order 10
   ].
 
 <https://w3id.org/jp-cos/DatasetShape> a sh:NodeShape;
@@ -219,14 +367,14 @@
     sh:order 1
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-cos/courseOfStudyRevison>;
+    sh:path <https://w3id.org/jp-cos/courseOfStudyRevision>;
     sh:name "学習指導要領（一部改正情報）"@ja;
     sh:name "Course Of Study Revision"@en;
     sh:description "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
-    sh:description "Repeatable. It corresponds to the revisions of the course of study."@en;
+    sh:description "Repeatable. It corresponds to the course of study revision."@en;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
     sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevison>;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     sh:order 2
   ];
   sh:property [
@@ -282,7 +430,7 @@
     skos:example <https://w3id.org/jp-cos/period/H29toH31>;
     sh:maxCount 1;
     sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/IssuedPeriod>;
+    sh:class <https://w3id.org/jp-cos/Period>;
     sh:order 7
   ];
   sh:property [
@@ -531,145 +679,6 @@
     sh:order 1
   ].
 
-<https://w3id.org/jp-cos/RevisionOfCourseOfStudyShape> a sh:NodeShape;
-  sh:targetClass <https://w3id.org/jp-cos/RevisionOfCourseOfStudy>;
-  sh:property [
-    sh:path <https://w3id.org/jp-cos/issuedPeriod>;
-    sh:name "告示時期"@ja;
-    sh:name "Issued Period"@en;
-    sh:description "学習指導要領コードの1桁目に対応"@ja;
-    sh:description "It corresponds to the first digit of the course of study code."@en;
-    skos:example <https://w3id.org/jp-cos/period/H29toH31>;
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/IssuedPeriod>;
-    sh:order 1
-  ];
-  sh:property [
-    sh:path <http://schema.org/name>;
-    sh:name "別バージョンの名称"@ja;
-    sh:name "Name of the revision"@en;
-    sh:description "一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
-    sh:description "If the revision is on a part of a guideline, the name of the revision will be assigned such as \"Partial revision in December 2003\". Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en;
-    skos:example "<ul><li>\"中学校学習指導要領 平成22年11月 一部改正\"@ja</li><li>\"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision\"@en</li></ul>";
-    sh:maxCount 2;
-    sh:minCount 1;
-    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    sh:languageIn ("ja" "en");
-    sh:uniqueLang true;
-    sh:order 2
-  ];
-  sh:property [
-    sh:path <http://schema.org/citation>;
-    sh:name "出典"@ja;
-    sh:name "Reference"@en;
-    sh:description "文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl>"@ja;
-    sh:description "Refer to the official announcement and its publication. Using language tags, Japanese and English names shown. The meanings of language tags are as follows: <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en;
-    skos:example "<ul><li>\"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）\"@ja</li><li>\"\\\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\\\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)\"@en</li></ul>";
-    sh:maxCount 2;
-    sh:minCount 1;
-    sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    sh:languageIn ("ja" "en");
-    sh:uniqueLang true;
-    sh:order 3
-  ];
-  sh:property [
-    sh:path <http://schema.org/url>;
-    sh:name "本文URL"@ja;
-    sh:name "Fulltext URL"@en;
-    sh:description "繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja;
-    sh:description "Repeatable. Links to the fulltext(s), such as MEXT website and <a href=\"http://www.nier.go.jp/guideline/\">NIER Curriculum Guidelines Database</a>."@en;
-    skos:example <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>;
-    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
-    sh:order 4
-  ];
-  sh:property [
-    sh:path <http://www.w3.org/2000/01/rdf-schema#seeAlso>;
-    sh:name "関連リンク"@ja;
-    sh:name "Related links"@en;
-    sh:description "繰り返しあり。<a href=\"http://iss.ndl.go.jp/\">国立国会図書館サーチ</a>、<a href=\"https://ci.nii.ac.jp/books/\">CiNii Books</a>へのリンク。"@ja;
-    sh:description "Repeatable. Links to <a href=\"http://iss.ndl.go.jp/\">NDL Search</a> and <a href=\"https://ci.nii.ac.jp/books/\">CiNii Books</a>."@en;
-    skos:example <http://id.ndl.go.jp/jpno/89034331>;
-    sh:nodeKind <http://www.w3.org/ns/shacl#IRI>;
-    sh:order 5
-  ];
-  sh:property [
-    sh:path <http://schema.org/isbn>;
-    sh:name "ISBN"@ja;
-    sh:name "ISBN"@en;
-    skos:example "9784491034607";
-    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
-    sh:order 6
-  ];
-  sh:property [
-    sh:path <http://dl.nier.go.jp/library/vocab/itemID>;
-    sh:name "国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID"@ja;
-    sh:name "Item identifier at the NIER Education Library"@en;
-    skos:example "071221843";
-    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
-    sh:order 7
-  ];
-  sh:property [
-    sh:path <http://dl.nier.go.jp/library/vocab/callNumber>;
-    sh:name "国立教育政策研究所教育図書館の所蔵資料に対する請求記号"@ja;
-    sh:name "Call number at the NIER Education Library"@en;
-    sh:description "区切り記号は、「||」である。"@ja;
-    sh:description "Delimiter for a call number is \"||\"."@en;
-    skos:example "375.92||1||1989d";
-    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
-    sh:order 8
-  ];
-  sh:property [
-    sh:path <http://dl.nier.go.jp/library/vocab/recordID>;
-    sh:name "国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID"@ja;
-    sh:name "Record identifier at the NIER Education Library"@en;
-    sh:description "<code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能"@ja;
-    sh:description "Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>."@en;
-    skos:example "BB80025218";
-    sh:datatype <http://www.w3.org/2001/XMLSchema#string>;
-    sh:order 9
-  ];
-  sh:property [
-    sh:path <http://schema.org/startDate>;
-    sh:name "施行年月日"@ja;
-    sh:name "Date of Enforcement"@en;
-    skos:example "2020-04-01";
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:datatype <http://www.w3.org/2001/XMLSchema#date>;
-    sh:order 10
-  ];
-  sh:property [
-    sh:path <http://schema.org/datePublished>;
-    sh:name "告示日（改正日）"@ja;
-    sh:name "Date of announcement (date of revision)"@en;
-    skos:example "1989-03-15";
-    sh:maxCount 1;
-    sh:minCount 1;
-    sh:datatype <http://www.w3.org/2001/XMLSchema#date>;
-    sh:order 11
-  ];
-  sh:property [
-    sh:path <https://w3id.org/jp-cos/school>;
-    sh:name "学校種別"@ja;
-    sh:name "Type of School"@en;
-    sh:description "学習指導要領コードの2桁目に対応"@ja;
-    sh:description "It corresponds to the second digit of the course of study code."@en;
-    skos:example <https://w3id.org/jp-cos/school/Elementary>;
-    sh:maxCount 2;
-    sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/School>;
-    sh:order 12
-  ];
-  sh:property [
-    sh:path <https://w3id.org/jp-cos/dataset>;
-    sh:name "データセット"@ja;
-    sh:name "Dataset"@en;
-    skos:example <https://w3id.org/jp-cos/82V11>;
-    sh:class <https://w3id.org/jp-cos/Dataset>;
-    sh:order 13
-  ].
-
 <https://w3id.org/jp-cos/SchoolShape> a sh:NodeShape;
   sh:targetClass <https://w3id.org/jp-cos/School>;
   sh:property [
@@ -815,14 +824,14 @@
 <https://w3id.org/jp-cos/SubjectAreaShape> a sh:NodeShape;
   sh:targetClass <https://w3id.org/jp-cos/SubjectArea>;
   sh:property [
-    sh:path <https://w3id.org/jp-cos/sourceRevisionOfCos>;
+    sh:path <https://w3id.org/jp-cos/courseOfStudyRevision>;
     sh:name "学習指導要領（一部改正情報）"@ja;
     sh:name "Course Of Study Revision"@en;
     sh:description "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
     sh:description "Repeatable. It corresponds to the revisions of the course of study."@en;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
     sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevison>;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     sh:order 1
   ];
   sh:property [
@@ -943,14 +952,14 @@
 <https://w3id.org/jp-cos/SubjectShape> a sh:NodeShape;
   sh:targetClass <https://w3id.org/jp-cos/Subject>;
   sh:property [
-    sh:path <https://w3id.org/jp-cos/sourceRevisionOfCos>;
+    sh:path <https://w3id.org/jp-cos/courseOfStudyRevision>;
     sh:name "学習指導要領（一部改正情報）"@ja;
     sh:name "Course Of Study Revision"@en;
     sh:description "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
     sh:description "Repeatable. It corresponds to the revisions of the course of study."@en;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
     sh:minCount 1;
-    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevison>;
+    sh:class <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     sh:order 1
   ];
   sh:property [
@@ -1013,7 +1022,7 @@
     sh:order 6
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-cos/code03>;
+    sh:path <https://w3id.org/jp-cos/code04>;
     sh:name "学習指導要領コード4桁目"@ja;
     sh:name "4th Digit Code of Course of Study Item"@en;
     skos:example "1";
@@ -1023,7 +1032,7 @@
     sh:order 7
   ];
   sh:property [
-    sh:path <https://w3id.org/jp-cos/fcode03>;
+    sh:path <https://w3id.org/jp-cos/fcode04>;
     sh:name "学習指導要領コード4桁目に対応するFコード"@ja;
     sh:name "Fcode Correspond to 4th Digit Code of Course of Study Item"@en;
     sh:description "学習指導要領コードの4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;

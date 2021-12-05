@@ -2,12 +2,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
   <http://www.w3.org/ns/shacl#property> [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudyRevison>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     <http://www.w3.org/ns/shacl#description> "Repeatable. It corresponds to the revisions of the course of study."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
     <http://www.w3.org/ns/shacl#minCount> "1";
     <http://www.w3.org/ns/shacl#name> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
     <http://www.w3.org/ns/shacl#order> "1";
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sourceRevisionOfCos>
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "1";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;

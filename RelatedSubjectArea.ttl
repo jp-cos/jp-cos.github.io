@@ -1,6 +1,5 @@
 <https://w3id.org/jp-cos/RelatedSubjectArea>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "Special resources for bringing together subject areas with different disability classifications.<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var></code>"@en, "障害分類が異なる教科をまとめるための特別なリソース。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Related Subject Area Resources"@en, "関係のある教科等を表すリソース"@ja;
-  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/外国語> .
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var>"@en, "障害分類のある教科の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Related Subject Area"@en, "関係のある教科等"@ja .
 <https://w3id.org/jp-cos/RelatedSubjectAreaShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/RelatedSubjectArea>.

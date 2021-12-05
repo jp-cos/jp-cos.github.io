@@ -4,12 +4,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "h";
   <https://w3id.org/jp-cos/codePrefix> "7Eh";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode03> "Lh";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELh";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真製版>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷デザイン>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷情報技術基礎>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷機械・材料>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷総合実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/文書処理・管理>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/画像技術>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/課題研究>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/印刷> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷>.
 <https://w3id.org/jp-cos/7Eh0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷>.

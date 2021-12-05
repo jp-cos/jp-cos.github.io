@@ -4,14 +4,14 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "K";
   <https://w3id.org/jp-cos/codePrefix> "72K";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
   <https://w3id.org/jp-cos/fcode03> "UK";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A2UK";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en, "2013年 文部科学白書（英文）"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015> .
+  ] .
 <https://w3id.org/jp-cos/Elementary/2008> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2008/道徳>.
 <https://w3id.org/jp-cos/72K0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/道徳>.
 <https://w3id.org/jp-cos/72K0000000000001> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/道徳>.

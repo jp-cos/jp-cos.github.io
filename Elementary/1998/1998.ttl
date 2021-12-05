@@ -8,7 +8,7 @@
   <http://schema.org/name> "Elementary School Curriculum Guideline 1998-12 Notification"@en, "小学校学習指導要領 1998年12月 告示"@ja;
   <http://schema.org/startDate> "2002-04-01";
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RevisionOfCourseOfStudy>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/99078687>, <https://ci.nii.ac.jp/ncid/BA59906840>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary> .
 <https://w3id.org/jp-cos/Elementary/1998> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/1998/1998>.

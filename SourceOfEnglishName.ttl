@@ -1,6 +1,0 @@
-<https://w3id.org/jp-cos/SourceOfEnglishName>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> ""@en, ""@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Resources of Referrence for English name"@en, "英語表記の出典を表すリソース"@ja .
-<https://w3id.org/jp-cos/curriculum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/SourceOfEnglishNameShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/SourceOfEnglishName>.

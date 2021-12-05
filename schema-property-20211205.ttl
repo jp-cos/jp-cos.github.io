@@ -25,11 +25,11 @@
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study"@en, "学習指導要領"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/courseOfStudyRevison>
+<https://w3id.org/jp-cos/courseOfStudyRevision>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudyRevison>.
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudyRevision>.
 <https://w3id.org/jp-cos/curriculum>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:SourceOfEnglishName;
@@ -105,11 +105,6 @@
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:SubjectArea,cs:Subject;
   <http://www.w3.org/2000/01/rdf-schema#label> "Source for the English name"@en, "英語表記出典"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/sourceRevisionOfCos>
-  a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> cs:SubjectArea,cs:Subject;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudyRevison>.
 <https://w3id.org/jp-cos/stage>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item;

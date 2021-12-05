@@ -1,8 +1,7 @@
 <https://w3id.org/jp-cos/Dataset>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code>"@en, "このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Dataset Resources"@en, "データセットを表すリソース"@ja;
-  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/86V11> .
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/<var>dataset ID</var>"@en, "データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>データセットID</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en, "データセット"@ja .
 <https://w3id.org/jp-cos/71V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
 <https://w3id.org/jp-cos/72V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
 <https://w3id.org/jp-cos/72V20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.

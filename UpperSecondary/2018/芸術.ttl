@@ -4,6 +4,7 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "B";
   <https://w3id.org/jp-cos/codePrefix> "84B";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
   <https://w3id.org/jp-cos/fcode03> "UB";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4UB";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/工芸I>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/工芸II>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/工芸III>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/書道I>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/書道II>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/書道III>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/美術I>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/美術II>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/美術III>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽I>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽II>, <https://w3id.org/jp-cos/UpperSecondary/2018/芸術/音楽III>;
@@ -11,9 +12,8 @@
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondary/2009>
+  ] .
 <https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術>.
 <https://w3id.org/jp-cos/84B0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術>.
 <https://w3id.org/jp-cos/84B0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/芸術>.

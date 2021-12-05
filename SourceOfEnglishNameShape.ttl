@@ -1,5 +1,7 @@
 <https://w3id.org/jp-cos/SourceOfEnglishNameShape>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "教科や科目などの英訳の出典を表すクラス。"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Referrence for English name"@en, "英語表記の出典"@ja;
   <http://www.w3.org/ns/shacl#property> [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"小学校学習指導要領英訳版（仮訳）(平成20年3月)\"@ja</li><li>\"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)\"@en</li></ul>";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;

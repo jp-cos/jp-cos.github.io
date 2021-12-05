@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "Z";
   <https://w3id.org/jp-cos/codePrefix> "74Z";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
   <https://w3id.org/jp-cos/fcode03> "UZ";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A4UZ";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数化学>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数地学>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数数学I>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数数学II>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数数学特論>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数物理>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/理数生物>, <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)/課題研究>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)>.
 <https://w3id.org/jp-cos/74Z0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)>.
 <https://w3id.org/jp-cos/74Z0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/理数(専門)>.

@@ -1,8 +1,8 @@
-<https://w3id.org/jp-cos/RevisionOfCourseOfStudyShape>
+<https://w3id.org/jp-cos/CourseOfStudyRevisionShape>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
   <http://www.w3.org/ns/shacl#property> [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/IssuedPeriod>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#maxCount> "1";
     <http://www.w3.org/ns/shacl#minCount> "1";
@@ -115,4 +115,4 @@
     <http://www.w3.org/ns/shacl#order> "13";
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/dataset>
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/RevisionOfCourseOfStudy> .
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudyRevision> .

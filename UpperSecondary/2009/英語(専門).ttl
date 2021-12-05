@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "d";
   <https://w3id.org/jp-cos/codePrefix> "74d";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
   <https://w3id.org/jp-cos/fcode03> "Ld";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A4Ld";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>, <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/異文化理解>, <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/総合英語>, <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>, <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語表現>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)>.
 <https://w3id.org/jp-cos/74d0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)>.
 <https://w3id.org/jp-cos/74d0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)>.

@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "a";
   <https://w3id.org/jp-cos/codePrefix> "84a";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
   <https://w3id.org/jp-cos/fcode03> "La";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4La";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツI>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツII>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIV>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツV>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツVI>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ概論>, <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)>.
 <https://w3id.org/jp-cos/84a0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)>.
 <https://w3id.org/jp-cos/84a0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)>.

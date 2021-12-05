@@ -4,6 +4,7 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "L";
   <https://w3id.org/jp-cos/codePrefix> "82L";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode03> "UL";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A2UL";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Elementary/2017/外国語活動/英語>;
@@ -11,9 +12,8 @@
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en, "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/ElementarySchool/2017>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/Elementary/2017/2017> .
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/Elementary/2017>
+  ] .
 <https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/外国語活動>.
 <https://w3id.org/jp-cos/82L00C0000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/外国語活動>.
 <https://w3id.org/jp-cos/82L01C0000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/外国語活動>.

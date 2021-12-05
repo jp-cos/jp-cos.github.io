@@ -4,12 +4,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "g";
   <https://w3id.org/jp-cos/codePrefix> "7Dg";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode03> "Lg";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLg";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/人体の構造と機能>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/保健・医療・福祉とリハビリテーション>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/基礎理学療法学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/理学療法情報活用>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/理学療法治療学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/理学療法評価学>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/疾病と障害>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/臨床実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/課題研究>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理学療法> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法>.
 <https://w3id.org/jp-cos/7Dg0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法>.

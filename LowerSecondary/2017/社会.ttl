@@ -4,6 +4,7 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "2";
   <https://w3id.org/jp-cos/codePrefix> "832";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
   <https://w3id.org/jp-cos/fcode03> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A3A2";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/社会/公民的分野>, <https://w3id.org/jp-cos/LowerSecondary/2017/社会/地理的分野>, <https://w3id.org/jp-cos/LowerSecondary/2017/社会/歴史的分野>;
@@ -11,8 +12,7 @@
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Education in Japan, 2000, 13th ed, p.67"@en, "Education in Japan, 2000, 13版, p.67"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://ci.nii.ac.jp/ncid/BA06708576>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/LowerSecondary/2017/2017> .
+  ] .
 <https://w3id.org/jp-cos/LowerSecondary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会>.
 <https://w3id.org/jp-cos/8320000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会>.
 <https://w3id.org/jp-cos/8320100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会>.

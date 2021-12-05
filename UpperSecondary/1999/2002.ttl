@@ -3,6 +3,6 @@
   <http://schema.org/datePublished> "2002-05-24";
   <http://schema.org/name> "Upper Secondary School Curriculum Guideline 2002-05 Notification of Partial Revision"@en, "高等学校学習指導要領 2002年5月 一部改正"@ja;
   <http://schema.org/startDate> "2003-04-01";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RevisionOfCourseOfStudy>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/1999> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/UpperSecondary/1999/2002>.

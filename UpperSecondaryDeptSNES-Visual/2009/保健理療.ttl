@@ -4,12 +4,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "e";
   <https://w3id.org/jp-cos/codePrefix> "7De";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode03> "Le";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLe";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/人体の構造と機能>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/保健理療基礎実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/保健理療情報活用>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/保健理療臨床実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/医療と社会>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/地域保健理療と保健理療経営>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/基礎保健理療>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/生活と疾病>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/疾病の成り立ちと予防>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/臨床保健理療>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療/課題研究>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健理療> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療>.
 <https://w3id.org/jp-cos/7De0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療>.

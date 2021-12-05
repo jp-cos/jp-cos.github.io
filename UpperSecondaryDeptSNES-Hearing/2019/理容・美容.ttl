@@ -4,12 +4,12 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "i";
   <https://w3id.org/jp-cos/codePrefix> "8Ei";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode03> "Li";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELi";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/保健>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/文化論>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/理容・美容情報>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/理容・美容技術理論>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/理容実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/美容実習>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/課題研究>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/運営管理>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/関係法規・制度>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/香粧品化学>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理容・美容> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容>.
 <https://w3id.org/jp-cos/8Ei0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容>.

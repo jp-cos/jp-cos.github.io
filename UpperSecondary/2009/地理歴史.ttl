@@ -4,6 +4,7 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "3";
   <https://w3id.org/jp-cos/codePrefix> "743";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
   <https://w3id.org/jp-cos/fcode03> "A3";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A4A3";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/世界史A>, <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/世界史B>, <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>, <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理B>, <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/日本史A>, <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/日本史B>;
@@ -11,9 +12,8 @@
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondarySchool/2009>
-  ];
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2009/2009> .
+    <https://w3id.org/jp-cos/curriculum> <https://w3id.org/jp-cos/UpperSecondary/2009>
+  ] .
 <https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史>.
 <https://w3id.org/jp-cos/7430000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史>.
 <https://w3id.org/jp-cos/7430100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史>.

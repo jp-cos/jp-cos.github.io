@@ -4,11 +4,11 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "H";
   <https://w3id.org/jp-cos/codePrefix> "84H";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
   <https://w3id.org/jp-cos/fcode03> "UH";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4UH";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションI>, <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションII>, <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語コミュニケーションIII>, <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/英語以外の外国語>, <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現I>, <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現II>, <https://w3id.org/jp-cos/UpperSecondary/2018/外国語/論理・表現III>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceRevisionOfCos> <https://w3id.org/jp-cos/UpperSecondary/2018/2018> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .
 <https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語>.
 <https://w3id.org/jp-cos/84H0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語>.
 <https://w3id.org/jp-cos/84H0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/外国語>.

@@ -1,8 +1,7 @@
 <https://w3id.org/jp-cos/SubjectArea>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "This resource represents subject area such as mathematics. The value of the \"Subject, etc.\" column in the original data. It corresponds to the 3th digit of the course of study code.<br>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code>"@en, "算数などの教科等を示すリソースです。元データの「教科等」列の値。学習指導要領コードの3桁目と対応します。<br>このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Subject Area Resources"@en, "教科等を表すリソース"@ja;
-  <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/2019/外国語> .
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var>"@en, "教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Subject Area"@en, "教科等"@ja .
 <https://w3id.org/jp-cos/Elementary/2008/体育> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/Elementary/2008/各教科> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/Elementary/2008/図画工作> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>.
@@ -285,7 +284,6 @@
 <https://w3id.org/jp-cos/hasSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/sourceOfEnglishName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SubjectArea>.
-<https://w3id.org/jp-cos/sourceRevisionOfCos> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/hasSubjectArea> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/subjectArea> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/SubjectArea>.
