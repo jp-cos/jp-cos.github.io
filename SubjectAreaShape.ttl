@@ -99,7 +99,6 @@
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>;
-    <http://www.w3.org/ns/shacl#minCount> "1";
     <http://www.w3.org/ns/shacl#name> "has a subject"@en, "科目がある"@ja;
     <http://www.w3.org/ns/shacl#order> "11";
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubject>

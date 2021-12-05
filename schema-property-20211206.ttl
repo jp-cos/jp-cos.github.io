@@ -12,7 +12,7 @@
   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
 <https://w3id.org/jp-cos/code03>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> cs:SubjectArea,cs:Subject;
+  <http://www.w3.org/2000/01/rdf-schema#domain> cs:SubjectArea;
   <http://www.w3.org/2000/01/rdf-schema#label> "3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
 <https://w3id.org/jp-cos/codePrefix>
@@ -22,7 +22,7 @@
   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
 <https://w3id.org/jp-cos/courseOfStudy>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item;
+  <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item,cs:SourceOfEnglishName;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study"@en, "学習指導要領"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/courseOfStudyRevision>
@@ -30,11 +30,6 @@
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudyRevision>.
-<https://w3id.org/jp-cos/curriculum>
-  a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> cs:SourceOfEnglishName;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Reference to a curriculum guideline"@en, "対応学習指導要領"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/dataset>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:CourseOfStudy,cs:CourseOfStudyRevision;
@@ -57,7 +52,7 @@
   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
 <https://w3id.org/jp-cos/fcode03>
   a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> cs:SubjectArea,cs:Subject;
+  <http://www.w3.org/2000/01/rdf-schema#domain> cs:SubjectArea;
   <http://www.w3.org/2000/01/rdf-schema#label> "Fcode Correspond to 3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目に対応するFコード"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
 <https://w3id.org/jp-cos/fcodePrefix>
@@ -125,4 +120,14 @@
   <http://www.w3.org/2000/01/rdf-schema#domain> cs:Item;
   <http://www.w3.org/2000/01/rdf-schema#label> "Subject Area"@en, "教科等"@ja;
   <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/SubjectArea>.
+<https://w3id.org/jp-cos/code04>
+  a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> cs:Subject;
+  <http://www.w3.org/2000/01/rdf-schema#label> "4th Digit Code of Course of Study Item"@en, "学習指導要領コード4桁目"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
+<https://w3id.org/jp-cos/fcode04>
+  a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+  <http://www.w3.org/2000/01/rdf-schema#domain> cs:Subject;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Fcode Correspond to 4th Digit Code of Course of Study Item"@en, "学習指導要領コード4桁目に対応するFコード"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
 
