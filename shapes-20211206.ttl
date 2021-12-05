@@ -944,7 +944,6 @@
     sh:name "科目がある"@ja;
     sh:name "has a subject"@en;
     skos:example <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>;
-    sh:minCount 1;
     sh:class <https://w3id.org/jp-cos/Subject>;
     sh:order 11
   ].
