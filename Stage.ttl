@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/Stage>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var>"@en, "知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code>"@en, "知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code>"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Stage"@en, "段階"@ja .
 <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
 <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.

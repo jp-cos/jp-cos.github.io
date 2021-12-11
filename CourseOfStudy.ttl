@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/CourseOfStudy>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>"@en, "学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code>"@en, "学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code>"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course of Study"@en, "学習指導要領"@ja .
 <https://w3id.org/jp-cos/Elementary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/Elementary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.

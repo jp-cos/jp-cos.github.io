@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/Period>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br>https://w3id.org/jp-cos/period/<var>issued period</var>"@en, "10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br>https://w3id.org/jp-cos/period/<var>告示時期</var>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code>"@en, "10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code>"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Issued Period"@en, "告示時期"@ja .
 <https://w3id.org/jp-cos/period/H1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
 <https://w3id.org/jp-cos/period/H10toH11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
