@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 #TTL CSメインリソース
 <https://w3id.org/jp-cos/Elementary/1989> a <https://w3id.org/jp-cos/CourseOfStudy>;
+  cs:issuedPeriod <https://w3id.org/jp-cos/period/H1>;
   schema:name "小学校学習指導要領 1989年3月 告示"@ja;
   schema:name "しょうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-Hira;
   schema:name "Elementary School Curriculum Guideline 1989-03 Notification"@en;
@@ -13,6 +14,7 @@
   schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000125>.
 <https://w3id.org/jp-cos/LowerSecondary/1989> a <https://w3id.org/jp-cos/CourseOfStudy>;
+  cs:issuedPeriod <https://w3id.org/jp-cos/period/H1>;
   schema:name "中学校学習指導要領 1989年3月 告示"@ja;
   schema:name "ちゅうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-Hira;
   schema:name "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en;
@@ -22,6 +24,7 @@
   schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>.
 <https://w3id.org/jp-cos/UpperSecondary/1989> a <https://w3id.org/jp-cos/CourseOfStudy>;
+  cs:issuedPeriod <https://w3id.org/jp-cos/period/H1>;
   schema:name "高等学校学習指導要領 1989年3月 告示"@ja;
   schema:name "こうとうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-Hira;
   schema:name "Upper Secondary School Curriculum Guideline 1989-03 Notification"@en;
@@ -31,6 +34,7 @@
   schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000127>.
 <https://w3id.org/jp-cos/Elementary/1998> a <https://w3id.org/jp-cos/CourseOfStudy>;
+  cs:issuedPeriod <https://w3id.org/jp-cos/period/H10toH11>;
   schema:name "小学校学習指導要領 1998年12月 告示"@ja;
   schema:name "しょうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-Hira;
   schema:name "Elementary School Curriculum Guideline 1998-12 Notification"@en;
@@ -40,6 +44,7 @@
   schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>.
 <https://w3id.org/jp-cos/LowerSecondary/1998> a <https://w3id.org/jp-cos/CourseOfStudy>;
+  cs:issuedPeriod <https://w3id.org/jp-cos/period/H10toH11>;
   schema:name "中学校学習指導要領 1998年12月 告示"@ja;
   schema:name "ちゅうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-Hira;
   schema:name "Lower Secondary School Curriculum Guideline 1998-12 Notification"@en;
@@ -49,6 +54,7 @@
   schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1320061.htm>;
   schema:url <https://erid.nier.go.jp/cer/database/YOURYO/AG00000134>.
 <https://w3id.org/jp-cos/UpperSecondary/1999> a <https://w3id.org/jp-cos/CourseOfStudy>;
+  cs:issuedPeriod <https://w3id.org/jp-cos/period/H10toH11>;
   schema:name "高等学校学習指導要領 1999年3月 告示"@ja;
   schema:name "こうとうがっこうがくしゅうしどうようりょう 1999ねん3がつ こくじ"@ja-Hira;
   schema:name "Upper Secondary School Curriculum Guideline 1999-03 Notification"@en;
