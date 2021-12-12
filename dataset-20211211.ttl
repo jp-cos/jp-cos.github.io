@@ -1,0 +1,84 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cs: <https://w3id.org/jp-cos/> .
+
+_:toplevel a void:Dataset;
+    foaf:homepage <https://w3id.org/jp-cos/>;
+    foaf:page <https://jp-cos.github.io/>;
+    dct:title "学習指導要領LOD"@ja;
+    dct:title "Japanese Course of Study LOD"@en;
+    dct:description "学習指導要領LODは、初等教育、中等教育で使われている学習指導要領およびそのコード情報をLinked Open Data (LOD)として公開します。"@ja;
+    dct:description "Japanese Course of Study Linked Open Data (LOD) is a dataset which includes information for course of studies published, as well as the related information such as the subject areas, the subjects, and the course of study codes."@en;
+    dct:available "2021-12-12"^^xsd:date;
+    dct:source <https://www.mext.go.jp/a_menu/other/data_00001.htm>;
+    dct:publisher [
+		a foaf:Project;
+		foaf:name "学習指導要領LODプロジェクト"@ja;
+		foaf:name "Japanese Course of Study LOD Project"@ja;
+		foaf:member [
+			a foaf:Person;
+			foaf:name "江草由佳"@ja;
+			foaf:name "Yuka Egusa"@en;
+			foaf:mbox "mailto:yuka@nier.go.jp";
+			foaf:homepage <https://www.nier.go.jp/yuka/>;
+		], [
+			a foaf:Person;
+			foaf:name "高久雅生"@ja;
+			foaf:name "Masao Takaku"@en;
+			foaf:mbox "mailto:masao@slis.tsukuba.ac.jp";
+			foaf:homepage <https://masao.jpn.org>;
+		];
+	];
+    dct:license <https://creativecommons.org/licenses/by/4.0/>;
+    void:feature <http://www.w3.org/ns/formats/Turtle> .
+
+_:code2broader-20211008 a void:Dataset;
+    void:dataDump cs:code2broader-20211008.ttl .
+_:cs-items-20211206 a void:Dataset;
+    void:dataDump cs:cs-items-20211206.ttl.gz .
+_:cs-metadata-20211211 a void:Dataset;
+    void:dataDump cs:cs-metadata-20211211.ttl .
+_:cs-period-20211010 a void:Dataset;
+    void:dataDump cs:cs-period-20211010.ttl .
+_:cs-revision-20211211 a void:Dataset;
+    void:dataDump cs:cs-revision-20211211.ttl .
+_:dataset-20211122 a void:Dataset;
+    void:dataDump cs:dataset-20211122.ttl .
+_:disability-category-20211122 a void:Dataset;
+    void:dataDump cs:disability-category-20211122.ttl .
+_:schema-class-20211207 a void:Dataset;
+    void:dataDump cs:schema-class-20211207.ttl .
+_:schema-property-20211206 a void:Dataset;
+    void:dataDump cs:schema-property-20211206.ttl .
+_:school-20211122 a void:Dataset;
+    void:dataDump cs:school-20211122.ttl .
+_:section-label-20211204 a void:Dataset;
+    void:dataDump cs:section-label-20211204.ttl .
+_:shapes-20211206 a void:Dataset;
+    void:dataDump cs:shapes-20211206.ttl .
+_:stage-20211205 a void:Dataset;
+    void:dataDump cs:stage-20211205.ttl .
+_:subject-20211206 a void:Dataset;
+    void:dataDump cs:subject-20211206.ttl .
+_:subjectArea-20211206 a void:Dataset;
+    void:dataDump cs:subjectArea-20211206.ttl .
+_:v1.0 a void:Dataset;
+	dct:issued "2021-12-12"^^xsd:date;
+	pav:version "1.0";
+	void:triples 902593;
+	dcat:byteSize 3888360;
+	void:dataDump cs:all-20211212.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "初期バージョンを公開しました。"@ja;
+		rdfs:comment "The first dataset release."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/1?closed=1>
+	];
+	void:subset _:code2broader-20211008, _:cs-items-20211206, _:cs-metadata-20211211, _:cs-period-20211010, _:cs-revision-20211211, _:dataset-20211122, _:disability-category-20211122, _:schema-class-20211207, _:schema-property-20211206, _:school-20211122, _:section-label-20211204, _:shapes-20211206, _:stage-20211205, _:subject-20211206, _:subjectArea-20211206 .
+_:toplevel pav:hasCurrentVersion _:v1.0 .
