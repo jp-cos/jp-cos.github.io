@@ -6,7 +6,9 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix cs: <https://w3id.org/jp-cos/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
 _:toplevel a void:Dataset;
     foaf:homepage <https://w3id.org/jp-cos/>;
@@ -18,23 +20,48 @@ _:toplevel a void:Dataset;
     dct:available "2021-12-12"^^xsd:date;
     dct:source <https://www.mext.go.jp/a_menu/other/data_00001.htm>;
     dct:publisher [
-		a foaf:Project;
-		foaf:name "学習指導要領LODプロジェクト"@ja;
-		foaf:name "Japanese Course of Study LOD Project"@ja;
-		foaf:member [
-			a foaf:Person;
-			foaf:name "江草由佳"@ja;
-			foaf:name "Yuka Egusa"@en;
-			foaf:mbox "mailto:yuka@nier.go.jp";
-			foaf:homepage <https://www.nier.go.jp/yuka/>;
-		], [
-			a foaf:Person;
-			foaf:name "高久雅生"@ja;
-			foaf:name "Masao Takaku"@en;
-			foaf:mbox "mailto:masao@slis.tsukuba.ac.jp";
-			foaf:homepage <https://masao.jpn.org>;
-		];
+        a foaf:Group;
+	foaf:name "教育データプラス研究会"@ja;
+	foaf:name "Education Data Plus Research Group"@en;
+        foaf:mbox <mailto:yuka@nier.go.jp>;
+	foaf:member [
+        	a foaf:Person;
+		foaf:name "阿児雄之"@ja;
+		foaf:name "Takayuki Ako"@en;
+                vcard:organization-name "東京国立博物館"@ja;
+                vcard:organization-name "Tokyo National Museum"@en;
+	], [
+		a foaf:Person;
+		foaf:name "有山裕美子"@ja;
+		foaf:name "Yumiko Ariyama"@en;
+                vcard:organization-name "軽井沢風越学園"@ja;
+                vcard:organization-name "Karuizawa Kazakoshi Gakuen School"@en;
+	], [
+		a foaf:Person;
+		foaf:name "江草由佳"@ja;
+		foaf:name "Yuka Egusa"@en;
+                vcard:organization-name "国立教育政策研究所"@ja;
+                vcard:organization-name "National Institute for Educational Policy Research"@en;
+	], [
+		a foaf:Person;
+		foaf:name "榎本聡"@ja;
+		foaf:name "Satoshi Enomoto"@en;
+                vcard:organization-name "日本女子大学"@ja;
+                vcard:organization-name "Japan Women's University"@en;
+	], [
+		a foaf:Person;
+		foaf:name "大井将生"@ja;
+		foaf:name "Masao Oi"@en;
+                vcard:organization-name "東京大学"@ja;
+                vcard:organization-name "University of Tokyo"@en;
+	], [
+		a foaf:Person;
+		foaf:name "高久雅生"@ja;
+		foaf:name "Masao Takaku"@en;
+                vcard:organization-name "筑波大学"@ja;
+                vcard:organization-name "University of Tsukuba"@en;
 	];
+    ];
     dct:license [
       rdf:value <https://creativecommons.org/licenses/by/4.0/>;
       rdfs:label "クリエイティブ・コモンズライセンス 表示 4.0"@ja;
