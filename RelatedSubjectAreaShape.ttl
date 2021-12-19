@@ -6,5 +6,25 @@
     <http://www.w3.org/ns/shacl#name> "Related"@en, "関係がある"@ja;
     <http://www.w3.org/ns/shacl#order> "1";
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/relation>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"外国語\"@ja</li><li>\"がいこくご\"@ja-Hira</li><li>\"Foreign Languages\"@en</li></ul>";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/ns/shacl#description> "Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled \"Education in Japan\" published by the MEXT."@en, "言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。"@ja;
+    <http://www.w3.org/ns/shacl#languageIn> [
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja-Hira";
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+          <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
+          <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+        ]
+      ]
+    ];
+    <http://www.w3.org/ns/shacl#maxCount> "3";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Name"@en, "関係のある教科名"@ja;
+    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
+    <http://www.w3.org/ns/shacl#uniqueLang> "true"
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/RelatedSubjectArea> .

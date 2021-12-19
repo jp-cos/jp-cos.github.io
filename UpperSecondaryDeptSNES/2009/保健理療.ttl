@@ -1,2 +1,4 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健理療>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療> .
+  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/保健理療>;
+  <http://schema.org/name> "Massage And Finger Pressure Therapy"@en, "保健理療"@ja, "ほけんりりょう"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea> .

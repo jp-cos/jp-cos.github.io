@@ -1,2 +1,4 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/職業・家庭/職業分野>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野> .
+  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>;
+  <http://schema.org/name> "Job Field"@en, "職業分野"@ja, "しょくぎょうぶんや"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject> .

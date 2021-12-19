@@ -1,2 +1,4 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/外国語/その他の外国語>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語/その他の外国語> .
+  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/外国語/その他の外国語>;
+  <http://schema.org/name> "Other Foreign Languages"@en, "その他の外国語"@ja, "そのたのがいこくご"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject> .

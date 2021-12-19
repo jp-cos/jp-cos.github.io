@@ -1,2 +1,4 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理容・美容/運営管理>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/運営管理> .
+  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/運営管理>;
+  <http://schema.org/name> "Operation Management"@en, "運営管理"@ja, "うんえいかんり"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject> .

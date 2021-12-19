@@ -1,2 +1,8 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/社会>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/社会> .
+  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/社会>;
+  <http://schema.org/name> "Social Studies"@en, "社会"@ja, "しゃかい"@ja-hira;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "Education in Japan, 2000, 13th ed, p.67"@en, "Education in Japan, 2000, 13版, p.67"@ja;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://ci.nii.ac.jp/ncid/BA06708576>
+  ] .
