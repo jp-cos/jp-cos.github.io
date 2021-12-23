@@ -1,13 +1,19 @@
 <https://w3id.org/jp-cos/Elementary/2017/特別の教科道徳>
   <http://purl.org/linked-data/cube#order> "13";
-  <http://schema.org/name> "特別の教科道徳"@ja, ""@ja-hira;
+  <http://schema.org/name> "Special Subject Morality"@en, "特別の教科道徳"@ja, "とくべつのきょうか　どうとく"@ja-hira;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "K";
   <https://w3id.org/jp-cos/codePrefix> "82K";
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode03> "UK";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A2UK";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary> .
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> [
+    <http://schema.org/name> "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en, "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
+    <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>
+  ] .
 <https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/特別の教科道徳>.
 <https://w3id.org/jp-cos/82K0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/特別の教科道徳>.
 <https://w3id.org/jp-cos/82K0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/特別の教科道徳>.

@@ -10,8 +10,9 @@
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
     <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-    <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>, <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
+    <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>, <https://w3id.org/jp-cos/UpperSecondary/2009>
   ] .
 <https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/現代社会>.
 <https://w3id.org/jp-cos/UpperSecondary/2009/公民> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/公民/現代社会>.

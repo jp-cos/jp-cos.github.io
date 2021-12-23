@@ -1,9 +1,51 @@
+@prefix schema: <http://schema.org/>.
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix cs: <https://w3id.org/jp-cos/>.
 @prefix qb: <http://purl.org/linked-data/cube#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix schema: <http://schema.org/>.
+_:Elementary-2008 a cs:SourceOfEnglishName ;
+    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
+    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
+    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>.
+_:LowerSecondary-2008 a cs:SourceOfEnglishName ;
+    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
+    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
+    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>.
+_:UpperSecondary-2009 a cs:SourceOfEnglishName ;
+    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
+    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
+    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
+    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>.
+_:WhitePaper-2013 a cs:SourceOfEnglishName ;
+    schema:name "2013年 文部科学白書（英文）"@ja;
+    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
+    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>.
+_:EducationInJapan-2013 a cs:SourceOfEnglishName ;
+    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
+    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
+    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>.
+_:Report-2008 a cs:SourceOfEnglishName ;
+    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
+    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
+    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>.
+_:UpperSecondary-2018 a cs:SourceOfEnglishName ;
+    schema:name "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en;
+    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2018>;
+    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>.
+_:Kindergarten-2008 a cs:SourceOfEnglishName ;
+    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
+    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
+    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
+    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>.
+_:Elementary-2017-ForeignLanguageActivities a cs:SourceOfEnglishName ;
+    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
+    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
+    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
+    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>.
 #教科等TTL
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/流通・サービス> cs:courseOfStudyRevision <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>. #対応学習指導要領Rivision
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> cs:hasSubjectArea <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/流通・サービス>. #教科とメイン学習指導要領と紐づけ
@@ -94,12 +136,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "8G6"; #教科コード
@@ -108,12 +145,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "理科"@ja; #教科名
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "りか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理科> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/理科>.
@@ -146,12 +178,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "8GG"; #教科コード
@@ -160,12 +187,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健体育> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "保健体育"@ja; #教科名
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "ほけんたいいく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健体育> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
@@ -178,11 +200,7 @@
   schema:name "福祉"@ja; #教科名
   schema:name "ふくし"@ja-Hira; #教科名よみ
   schema:name "Welfare"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Y"; #3桁目
   cs:fcode03 "UY"; #3桁目F
   cs:codePrefix "8GY"; #教科コード
@@ -191,11 +209,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/福祉> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "福祉"@ja; #教科名
   schema:name "Welfare"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "ふくし"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/福祉> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/福祉>.
@@ -208,12 +222,7 @@
   schema:name "美術"@ja; #教科名
   schema:name "びじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "A"; #3桁目
   cs:fcode03 "UA"; #3桁目F
   cs:codePrefix "8GA"; #教科コード
@@ -222,12 +231,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/美術> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "美術"@ja; #教科名
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "びじゅつ"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/美術> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/美術>.
@@ -240,11 +244,7 @@
   schema:name "農業"@ja; #教科名
   schema:name "のうぎょう"@ja-Hira; #教科名よみ
   schema:name "Agriculture"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "P"; #3桁目
   cs:fcode03 "UP"; #3桁目F
   cs:codePrefix "8GP"; #教科コード
@@ -253,11 +253,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/農業> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "農業"@ja; #教科名
   schema:name "Agriculture"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "のうぎょう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/農業> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/農業>.
@@ -269,12 +265,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "8BN"; #教科コード
@@ -283,12 +274,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/特別活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "特別活動"@ja; #教科名
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "とくべつかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/特別活動> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/特別活動>.
@@ -301,12 +287,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "8GN"; #教科コード
@@ -319,7 +300,9 @@
   cs:disabilityCategory cs:disabilityCategory\/Intellectual;
   cs:school cs:school\/UpperSecondaryDeptSNES; #学校種別
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira; #教科名よみ
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira; #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "8GK"; #教科コード
@@ -327,7 +310,9 @@
 #関連のある教科リソース
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/特別の教科道徳> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira. #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/特別の教科道徳> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/特別の教科道徳>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則> cs:courseOfStudyRevision <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>. #対応学習指導要領Rivision
@@ -338,12 +323,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "8B0"; #教科コード
@@ -352,12 +332,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/総則> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総則"@ja; #教科名
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "そうそく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/総則> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則>.
@@ -370,12 +345,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "8C0"; #教科コード
@@ -390,12 +360,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "8D0"; #教科コード
@@ -410,12 +375,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "8E0"; #教科コード
@@ -430,12 +390,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "8G0"; #教科コード
@@ -449,12 +404,7 @@
   schema:name "総合的な探究の時間"@ja; #教科名
   schema:name "そうごうてきなたんきゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "Period for Inquiry-Based Cross-Disciplinary Study"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2018>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2018; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "8BM"; #教科コード
@@ -463,12 +413,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/総合的な探究の時間> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総合的な探究の時間"@ja; #教科名
   schema:name "Period for Inquiry-Based Cross-Disciplinary Study"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2018>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2018; #英語の出典
   schema:name "そうごうてきなたんきゅうのじかん"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/総合的な探究の時間> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>.
@@ -481,12 +426,7 @@
   schema:name "総合的な探究の時間"@ja; #教科名
   schema:name "そうごうてきなたんきゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "Period for Inquiry-Based Cross-Disciplinary Study"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2018>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2018; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "8GM"; #教科コード
@@ -501,12 +441,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "8G5"; #教科コード
@@ -515,12 +450,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/数学> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "数学"@ja; #教科名
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "すうがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/数学> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/数学>.
@@ -553,12 +483,7 @@
   schema:name "情報"@ja; #教科名
   schema:name "じょうほう"@ja-Hira; #教科名よみ
   schema:name "Information"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "I"; #3桁目
   cs:fcode03 "UI"; #3桁目F
   cs:codePrefix "8GI"; #教科コード
@@ -567,12 +492,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/情報> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "情報"@ja; #教科名
   schema:name "Information"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   schema:name "じょうほう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/情報> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/情報>.
@@ -585,11 +505,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "8G2"; #教科コード
@@ -598,11 +514,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/社会> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "社会"@ja; #教科名
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   schema:name "しゃかい"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/社会> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/社会>.
@@ -614,11 +526,7 @@
   schema:name "自立活動"@ja; #教科名
   schema:name "じりつかつどう"@ja-Hira; #教科名よみ
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "O"; #3桁目
   cs:fcode03 "UO"; #3桁目F
   cs:codePrefix "8BO"; #教科コード
@@ -627,11 +535,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/自立活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "自立活動"@ja; #教科名
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "じりつかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/自立活動> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/自立活動>.
@@ -664,12 +568,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "8G1"; #教科コード
@@ -678,12 +577,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/国語> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "国語"@ja; #教科名
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "こくご"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/国語> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/国語>.
@@ -696,11 +590,7 @@
   schema:name "工業"@ja; #教科名
   schema:name "こうぎょう"@ja-Hira; #教科名よみ
   schema:name "Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Q"; #3桁目
   cs:fcode03 "UQ"; #3桁目F
   cs:codePrefix "8GQ"; #教科コード
@@ -709,11 +599,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/工業> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "工業"@ja; #教科名
   schema:name "Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "こうぎょう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/工業> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/工業>.
@@ -725,12 +611,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8Bn"; #教科コード
@@ -739,12 +620,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/各教科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "各教科"@ja; #教科名
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "かくきょうか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/各教科> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/各教科>.
@@ -757,12 +633,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8Gn"; #教科コード
@@ -777,12 +648,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8Cn"; #教科コード
@@ -797,12 +663,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8Dn"; #教科コード
@@ -817,12 +678,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8En"; #教科コード
@@ -837,12 +693,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8Fn"; #教科コード
@@ -857,12 +708,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "8Hn"; #教科コード
@@ -917,12 +763,7 @@
   schema:name "家庭"@ja; #教科名
   schema:name "かてい"@ja-Hira; #教科名よみ
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "F"; #3桁目
   cs:fcode03 "UF"; #3桁目F
   cs:codePrefix "8GF"; #教科コード
@@ -931,12 +772,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/家庭> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "家庭"@ja; #教科名
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "かてい"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/家庭> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/家庭>.
@@ -969,12 +805,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "8G8"; #教科コード
@@ -983,12 +814,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/音楽> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "音楽"@ja; #教科名
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "おんがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/音楽> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/音楽>.
@@ -1121,12 +947,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "7G6"; #教科コード
@@ -1135,12 +956,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "理科"@ja; #教科名
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "りか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理科> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/理科>.
@@ -1173,12 +989,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "7GG"; #教科コード
@@ -1187,12 +998,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健体育> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "保健体育"@ja; #教科名
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "ほけんたいいく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健体育> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
@@ -1205,11 +1011,7 @@
   schema:name "福祉"@ja; #教科名
   schema:name "ふくし"@ja-Hira; #教科名よみ
   schema:name "Welfare"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Y"; #3桁目
   cs:fcode03 "UY"; #3桁目F
   cs:codePrefix "7GY"; #教科コード
@@ -1218,11 +1020,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/福祉> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "福祉"@ja; #教科名
   schema:name "Welfare"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "ふくし"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/福祉> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/福祉>.
@@ -1235,12 +1033,7 @@
   schema:name "美術"@ja; #教科名
   schema:name "びじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "A"; #3桁目
   cs:fcode03 "UA"; #3桁目F
   cs:codePrefix "7GA"; #教科コード
@@ -1249,12 +1042,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/美術> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "美術"@ja; #教科名
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "びじゅつ"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/美術> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/美術>.
@@ -1267,11 +1055,7 @@
   schema:name "農業"@ja; #教科名
   schema:name "のうぎょう"@ja-Hira; #教科名よみ
   schema:name "Agriculture"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "P"; #3桁目
   cs:fcode03 "UP"; #3桁目F
   cs:codePrefix "7GP"; #教科コード
@@ -1280,11 +1064,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/農業> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "農業"@ja; #教科名
   schema:name "Agriculture"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "のうぎょう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/農業> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/農業>.
@@ -1296,12 +1076,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "7BN"; #教科コード
@@ -1310,12 +1085,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/特別活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "特別活動"@ja; #教科名
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "とくべつかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/特別活動> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/特別活動>.
@@ -1328,12 +1098,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "7GN"; #教科コード
@@ -1348,11 +1113,7 @@
   schema:name "道徳"@ja; #教科名
   schema:name "どうとく"@ja-Hira; #教科名よみ
   schema:name "Moral Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "2013年 文部科学白書（英文）"@ja;
-    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
-    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:WhitePaper-2013; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "7GK"; #教科コード
@@ -1361,11 +1122,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/道徳> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "道徳"@ja; #教科名
   schema:name "Moral Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "2013年 文部科学白書（英文）"@ja;
-    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
-    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:WhitePaper-2013; #英語の出典
   schema:name "どうとく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/道徳> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
@@ -1377,12 +1134,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "7B0"; #教科コード
@@ -1391,12 +1143,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/総則> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総則"@ja; #教科名
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "そうそく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/総則> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
@@ -1409,12 +1156,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "7C0"; #教科コード
@@ -1429,12 +1171,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "7D0"; #教科コード
@@ -1449,12 +1186,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "7E0"; #教科コード
@@ -1469,12 +1201,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "7G0"; #教科コード
@@ -1488,12 +1215,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "7BM"; #教科コード
@@ -1502,12 +1224,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/総合的な学習の時間> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/総合的な学習の時間> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総合的な学習の時間>.
@@ -1520,12 +1237,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "7G5"; #教科コード
@@ -1534,12 +1246,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/数学> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "数学"@ja; #教科名
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "すうがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/数学> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/数学>.
@@ -1572,12 +1279,7 @@
   schema:name "情報"@ja; #教科名
   schema:name "じょうほう"@ja-Hira; #教科名よみ
   schema:name "Information"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "I"; #3桁目
   cs:fcode03 "UI"; #3桁目F
   cs:codePrefix "7GI"; #教科コード
@@ -1586,12 +1288,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/情報> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "情報"@ja; #教科名
   schema:name "Information"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   schema:name "じょうほう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/情報> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>.
@@ -1604,11 +1301,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "7G2"; #教科コード
@@ -1617,11 +1310,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/社会> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "社会"@ja; #教科名
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   schema:name "しゃかい"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/社会> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/社会>.
@@ -1633,11 +1322,7 @@
   schema:name "自立活動"@ja; #教科名
   schema:name "じりつかつどう"@ja-Hira; #教科名よみ
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "O"; #3桁目
   cs:fcode03 "UO"; #3桁目F
   cs:codePrefix "7BO"; #教科コード
@@ -1646,11 +1331,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/自立活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "自立活動"@ja; #教科名
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "じりつかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/自立活動> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/自立活動>.
@@ -1683,12 +1364,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "7G1"; #教科コード
@@ -1697,12 +1373,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/国語> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "国語"@ja; #教科名
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "こくご"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/国語> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/国語>.
@@ -1715,11 +1386,7 @@
   schema:name "工業"@ja; #教科名
   schema:name "こうぎょう"@ja-Hira; #教科名よみ
   schema:name "Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Q"; #3桁目
   cs:fcode03 "UQ"; #3桁目F
   cs:codePrefix "7GQ"; #教科コード
@@ -1728,11 +1395,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/工業> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "工業"@ja; #教科名
   schema:name "Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "こうぎょう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/工業> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/工業>.
@@ -1745,12 +1408,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7Gn"; #教科コード
@@ -1759,12 +1417,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/各教科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "各教科"@ja; #教科名
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "かくきょうか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/各教科> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/各教科>.
@@ -1776,12 +1429,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7Bn"; #教科コード
@@ -1796,12 +1444,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7Cn"; #教科コード
@@ -1816,12 +1459,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7Dn"; #教科コード
@@ -1836,12 +1474,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7En"; #教科コード
@@ -1856,12 +1489,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7Fn"; #教科コード
@@ -1876,12 +1504,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "7Hn"; #教科コード
@@ -1936,12 +1559,7 @@
   schema:name "家庭"@ja; #教科名
   schema:name "かてい"@ja-Hira; #教科名よみ
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "F"; #3桁目
   cs:fcode03 "UF"; #3桁目F
   cs:codePrefix "7GF"; #教科コード
@@ -1950,12 +1568,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/家庭> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "家庭"@ja; #教科名
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "かてい"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/家庭> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/家庭>.
@@ -1988,12 +1601,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "7G8"; #教科コード
@@ -2002,12 +1610,7 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/音楽> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "音楽"@ja; #教科名
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "おんがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/音楽> dct:relation <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/音楽>.
@@ -2059,12 +1662,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "850"; #教科コード
@@ -2073,12 +1671,7 @@
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/総則> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総則"@ja; #教科名
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "そうそく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/総則> dct:relation <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則>.
@@ -2090,12 +1683,7 @@
   schema:name "ねらい及び内容"@ja; #教科名
   schema:name "ねらいおよびないよう"@ja-Hira; #教科名よみ
   schema:name "Aims and Content"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "l"; #3桁目
   cs:fcode03 "Ll"; #3桁目F
   cs:codePrefix "85l"; #教科コード
@@ -2104,12 +1692,7 @@
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/ねらい及び内容> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "ねらい及び内容"@ja; #教科名
   schema:name "Aims and Content"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "ねらいおよびないよう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/ねらい及び内容> dct:relation <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>.
@@ -2121,12 +1704,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "750"; #教科コード
@@ -2135,12 +1713,7 @@
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/総則> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総則"@ja; #教科名
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "そうそく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/総則> dct:relation <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/総則>.
@@ -2191,12 +1764,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "8A6"; #教科コード
@@ -2205,12 +1773,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/理科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "理科"@ja; #教科名
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "りか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/理科> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/理科>.
@@ -2223,12 +1786,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "8AG"; #教科コード
@@ -2237,12 +1795,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/保健体育> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "保健体育"@ja; #教科名
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "ほけんたいいく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/保健体育> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/保健体育>.
@@ -2255,12 +1808,7 @@
   schema:name "美術"@ja; #教科名
   schema:name "びじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "A"; #3桁目
   cs:fcode03 "UA"; #3桁目F
   cs:codePrefix "8AA"; #教科コード
@@ -2269,12 +1817,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/美術> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "美術"@ja; #教科名
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "びじゅつ"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/美術> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/美術>.
@@ -2286,12 +1829,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "86N"; #教科コード
@@ -2300,12 +1838,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/特別活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "特別活動"@ja; #教科名
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "とくべつかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/特別活動> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/特別活動>.
@@ -2315,7 +1848,9 @@
   qb:order 28; #表示順
   cs:school cs:school\/ElementaryDeptSNES,cs:school\/LowerSecondaryDeptSNES; #学校種別
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira; #教科名よみ
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira; #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "86K"; #教科コード
@@ -2323,7 +1858,9 @@
 #関連のある教科リソース
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/特別の教科道徳> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira. #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/特別の教科道徳> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/特別の教科道徳>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/体育> cs:courseOfStudyRevision <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>. #対応学習指導要領Rivision
@@ -2335,12 +1872,7 @@
   schema:name "体育"@ja; #教科名
   schema:name "たいいく"@ja-Hira; #教科名よみ
   schema:name "Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "88G"; #教科コード
@@ -2349,12 +1881,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/体育> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "体育"@ja; #教科名
   schema:name "Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "たいいく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/体育> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/体育>.
@@ -2366,12 +1893,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "860"; #教科コード
@@ -2380,12 +1902,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総則> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総則"@ja; #教科名
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "そうそく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総則> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則>.
@@ -2398,12 +1915,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "870"; #教科コード
@@ -2418,12 +1930,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "890"; #教科コード
@@ -2438,12 +1945,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "880"; #教科コード
@@ -2458,12 +1960,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "8A0"; #教科コード
@@ -2477,12 +1974,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "86M"; #教科コード
@@ -2491,12 +1983,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総合的な学習の時間> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総合的な学習の時間> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総合的な学習の時間>.
@@ -2509,12 +1996,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "8AM"; #教科コード
@@ -2529,12 +2011,7 @@
   schema:name "生活"@ja; #教科名
   schema:name "せいかつ"@ja-Hira; #教科名よみ
   schema:name "Living Environment Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "7"; #3桁目
   cs:fcode03 "A7"; #3桁目F
   cs:codePrefix "887"; #教科コード
@@ -2543,12 +2020,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/生活> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "生活"@ja; #教科名
   schema:name "Living Environment Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "せいかつ"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/生活> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/生活>.
@@ -2561,12 +2033,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "8A5"; #教科コード
@@ -2575,12 +2042,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/数学> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "数学"@ja; #教科名
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "すうがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/数学> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/数学>.
@@ -2593,12 +2055,7 @@
   schema:name "図画工作"@ja; #教科名
   schema:name "ずがこうさく"@ja-Hira; #教科名よみ
   schema:name "Art and Handicraft"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "9"; #3桁目
   cs:fcode03 "A9"; #3桁目F
   cs:codePrefix "889"; #教科コード
@@ -2607,12 +2064,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/図画工作> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "図画工作"@ja; #教科名
   schema:name "Art and Handicraft"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "ずがこうさく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/図画工作> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/図画工作>.
@@ -2645,11 +2097,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "8A2"; #教科コード
@@ -2658,11 +2106,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/社会> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "社会"@ja; #教科名
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   schema:name "しゃかい"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/社会> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/社会>.
@@ -2674,11 +2118,7 @@
   schema:name "自立活動"@ja; #教科名
   schema:name "じりつかつどう"@ja-Hira; #教科名よみ
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "O"; #3桁目
   cs:fcode03 "UO"; #3桁目F
   cs:codePrefix "86O"; #教科コード
@@ -2687,11 +2127,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/自立活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "自立活動"@ja; #教科名
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   schema:name "じりつかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/自立活動> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
@@ -2704,12 +2140,7 @@
   schema:name "算数"@ja; #教科名
   schema:name "さんすう"@ja-Hira; #教科名よみ
   schema:name "Arithmetic"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "885"; #教科コード
@@ -2718,12 +2149,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/算数> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "算数"@ja; #教科名
   schema:name "Arithmetic"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "さんすう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/算数> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/算数>.
@@ -2736,12 +2162,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "881"; #教科コード
@@ -2750,12 +2171,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/国語> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "国語"@ja; #教科名
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "こくご"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/国語> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
@@ -2768,12 +2184,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "8A1"; #教科コード
@@ -2787,12 +2198,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "86n"; #教科コード
@@ -2801,12 +2207,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "各教科"@ja; #教科名
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "かくきょうか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/各教科>.
@@ -2912,12 +2313,7 @@
   schema:name "外国語活動"@ja; #教科名
   schema:name "がいこくごかつどう"@ja-Hira; #教科名よみ
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "L"; #3桁目
   cs:fcode03 "UL"; #3桁目F
   cs:codePrefix "86L"; #教科コード
@@ -2926,12 +2322,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語活動> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "外国語活動"@ja; #教科名
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   schema:name "がいこくごかつどう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語活動> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/外国語活動>.
@@ -2944,12 +2335,7 @@
   schema:name "外国語活動"@ja; #教科名
   schema:name "がいこくごかつどう"@ja-Hira; #教科名よみ
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "L"; #3桁目
   cs:fcode03 "UL"; #3桁目F
   cs:codePrefix "87L"; #教科コード
@@ -2964,12 +2350,7 @@
   schema:name "外国語活動"@ja; #教科名
   schema:name "がいこくごかつどう"@ja-Hira; #教科名よみ
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "L"; #3桁目
   cs:fcode03 "UL"; #3桁目F
   cs:codePrefix "88L"; #教科コード
@@ -3004,12 +2385,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "888"; #教科コード
@@ -3018,12 +2394,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/音楽> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "音楽"@ja; #教科名
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "おんがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/音楽> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/音楽>.
@@ -3036,12 +2407,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "8A8"; #教科コード
@@ -3056,12 +2422,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "7A6"; #教科コード
@@ -3070,12 +2431,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/理科> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "理科"@ja; #教科名
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "りか"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/理科> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
@@ -3089,12 +2445,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "7AG"; #教科コード
@@ -3103,12 +2454,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/保健体育> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "保健体育"@ja; #教科名
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "ほけんたいいく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/保健体育> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/保健体育>.
@@ -3122,12 +2468,7 @@
   schema:name "美術"@ja; #教科名
   schema:name "びじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "A"; #3桁目
   cs:fcode03 "UA"; #3桁目F
   cs:codePrefix "7AA"; #教科コード
@@ -3136,12 +2477,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/美術> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "美術"@ja; #教科名
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "びじゅつ"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/美術> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/美術>.
@@ -3155,12 +2491,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "76N"; #教科コード
@@ -3172,7 +2503,9 @@
   qb:order 24; #表示順
   cs:school cs:school\/ElementaryDeptSNES,cs:school\/LowerSecondaryDeptSNES; #学校種別
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira; #教科名よみ
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira; #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "76K"; #教科コード
@@ -3180,7 +2513,9 @@
 #関連のある教科リソース
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/特別の教科道徳> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira. #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/特別の教科道徳> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/道徳> cs:courseOfStudyRevision <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>. #対応学習指導要領Rivision
@@ -3191,11 +2526,7 @@
   schema:name "道徳"@ja; #教科名
   schema:name "どうとく"@ja-Hira; #教科名よみ
   schema:name "Moral Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "2013年 文部科学白書（英文）"@ja;
-    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
-    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:WhitePaper-2013; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "76K"; #教科コード
@@ -3204,11 +2535,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/道徳> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "道徳"@ja; #教科名
   schema:name "Moral Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "2013年 文部科学白書（英文）"@ja;
-    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
-    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:WhitePaper-2013; #英語の出典
   schema:name "どうとく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/道徳> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/道徳>.
@@ -3221,12 +2548,7 @@
   schema:name "体育"@ja; #教科名
   schema:name "たいいく"@ja-Hira; #教科名よみ
   schema:name "Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "78G"; #教科コード
@@ -3235,12 +2557,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/体育> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "体育"@ja; #教科名
   schema:name "Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "たいいく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/体育> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
@@ -3253,12 +2570,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "760"; #教科コード
@@ -3267,12 +2579,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/総則> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "総則"@ja; #教科名
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   schema:name "そうそく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/総則> dct:relation <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則>.
@@ -3286,12 +2593,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "76M"; #教科コード
@@ -3306,12 +2608,7 @@
   schema:name "生活"@ja; #教科名
   schema:name "せいかつ"@ja-Hira; #教科名よみ
   schema:name "Living Environment Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "7"; #3桁目
   cs:fcode03 "A7"; #3桁目F
   cs:codePrefix "787"; #教科コード
@@ -3320,12 +2617,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/生活> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "生活"@ja; #教科名
   schema:name "Living Environment Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "せいかつ"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/生活> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/生活>.
@@ -3339,12 +2631,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "7A5"; #教科コード
@@ -3353,12 +2640,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/数学> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "数学"@ja; #教科名
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   schema:name "すうがく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/数学> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
@@ -3372,12 +2654,7 @@
   schema:name "図画工作"@ja; #教科名
   schema:name "ずがこうさく"@ja-Hira; #教科名よみ
   schema:name "Art and Handicraft"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "9"; #3桁目
   cs:fcode03 "A9"; #3桁目F
   cs:codePrefix "789"; #教科コード
@@ -3386,12 +2663,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/図画工作> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "図画工作"@ja; #教科名
   schema:name "Art and Handicraft"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "ずがこうさく"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/図画工作> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
@@ -3426,11 +2698,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "7A2"; #教科コード
@@ -3439,11 +2707,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/社会> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "社会"@ja; #教科名
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   schema:name "しゃかい"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/社会> dct:relation <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/社会>.
@@ -3457,11 +2721,7 @@
   schema:name "自立活動"@ja; #教科名
   schema:name "じりつかつどう"@ja-Hira; #教科名よみ
   schema:name "Autonomous Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "O"; #3桁目
   cs:fcode03 "UO"; #3桁目F
   cs:codePrefix "76O"; #教科コード
@@ -3476,12 +2736,7 @@
   schema:name "算数"@ja; #教科名
   schema:name "さんすう"@ja-Hira; #教科名よみ
   schema:name "Arithmetic"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "785"; #教科コード
@@ -3490,12 +2745,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/算数> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "算数"@ja; #教科名
   schema:name "Arithmetic"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "さんすう"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/算数> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/算数>.
@@ -3509,12 +2759,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "781"; #教科コード
@@ -3523,12 +2768,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/国語> a <https://w3id.org/jp-cos/RelatedSubjectArea>; #教科リソース定義開始
   schema:name "国語"@ja; #教科名
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   schema:name "こくご"@ja-Hira. #教科名よみ
 
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/国語> dct:relation <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
@@ -3542,12 +2782,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "7A1"; #教科コード
@@ -3563,12 +2798,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "76n"; #教科コード
@@ -3671,12 +2901,7 @@
   schema:name "外国語活動"@ja; #教科名
   schema:name "がいこくごかつどう"@ja-Hira; #教科名よみ
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "L"; #3桁目
   cs:fcode03 "UL"; #3桁目F
   cs:codePrefix "76L"; #教科コード
@@ -3713,12 +2938,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "788"; #教科コード
@@ -3733,12 +2953,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "7A8"; #教科コード
@@ -3753,12 +2968,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "810"; #教科コード
@@ -3771,12 +2981,7 @@
   schema:name "ねらい及び内容"@ja; #教科名
   schema:name "ねらいおよびないよう"@ja-Hira; #教科名よみ
   schema:name "Aims and Content"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "l"; #3桁目
   cs:fcode03 "Ll"; #3桁目F
   cs:codePrefix "81l"; #教科コード
@@ -3789,12 +2994,7 @@
   schema:name "教育課程に係る教育時間の終了後等に行う教育活動などの留意事項"@ja; #教科名
   schema:name "きょういくかていにかかわるきょういくじかんのしゅりょうごとうにおこなうきょういくかつどうなどのりゅういじこう"@ja-Hira; #教科名よみ
   schema:name "Points for Consideration for Educational Activities Provided during Extracurricular Hours"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "m"; #3桁目
   cs:fcode03 "Lm"; #3桁目F
   cs:codePrefix "81m"; #教科コード
@@ -3807,12 +3007,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "820"; #教科コード
@@ -3825,12 +3020,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "821"; #教科コード
@@ -3843,11 +3033,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "822"; #教科コード
@@ -3860,12 +3046,7 @@
   schema:name "算数"@ja; #教科名
   schema:name "さんすう"@ja-Hira; #教科名よみ
   schema:name "Arithmetic"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "825"; #教科コード
@@ -3878,12 +3059,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "826"; #教科コード
@@ -3896,12 +3072,7 @@
   schema:name "生活"@ja; #教科名
   schema:name "せいかつ"@ja-Hira; #教科名よみ
   schema:name "Living Environment Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "7"; #3桁目
   cs:fcode03 "A7"; #3桁目F
   cs:codePrefix "827"; #教科コード
@@ -3914,12 +3085,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "828"; #教科コード
@@ -3932,12 +3098,7 @@
   schema:name "図画工作"@ja; #教科名
   schema:name "ずがこうさく"@ja-Hira; #教科名よみ
   schema:name "Art and Handicraft"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "9"; #3桁目
   cs:fcode03 "A9"; #3桁目F
   cs:codePrefix "829"; #教科コード
@@ -3950,12 +3111,7 @@
   schema:name "家庭"@ja; #教科名
   schema:name "かてい"@ja-Hira; #教科名よみ
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "F"; #3桁目
   cs:fcode03 "UF"; #3桁目F
   cs:codePrefix "82F"; #教科コード
@@ -3968,12 +3124,7 @@
   schema:name "体育"@ja; #教科名
   schema:name "たいいく"@ja-Hira; #教科名よみ
   schema:name "Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "82G"; #教科コード
@@ -3998,12 +3149,7 @@
   schema:name "各教科(共通)"@ja; #教科名
   schema:name "かくきょうか(きょうつう)"@ja-Hira; #教科名よみ
   schema:name "Subjects (Common)"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "82n"; #教科コード
@@ -4014,7 +3160,9 @@
   qb:order 13; #表示順
   cs:school cs:school\/Elementary; #学校種別
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira; #教科名よみ
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira; #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "82K"; #教科コード
@@ -4027,12 +3175,7 @@
   schema:name "外国語活動"@ja; #教科名
   schema:name "がいこくごかつどう"@ja-Hira; #教科名よみ
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "L"; #3桁目
   cs:fcode03 "UL"; #3桁目F
   cs:codePrefix "82L"; #教科コード
@@ -4045,12 +3188,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "82M"; #教科コード
@@ -4063,12 +3201,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "82N"; #教科コード
@@ -4081,12 +3214,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "830"; #教科コード
@@ -4099,12 +3227,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "83n"; #教科コード
@@ -4117,12 +3240,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "831"; #教科コード
@@ -4135,11 +3253,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "832"; #教科コード
@@ -4152,12 +3266,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "835"; #教科コード
@@ -4170,12 +3279,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "836"; #教科コード
@@ -4188,12 +3292,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "838"; #教科コード
@@ -4206,12 +3305,7 @@
   schema:name "美術"@ja; #教科名
   schema:name "びじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "A"; #3桁目
   cs:fcode03 "UA"; #3桁目F
   cs:codePrefix "83A"; #教科コード
@@ -4224,12 +3318,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "83G"; #教科コード
@@ -4242,12 +3331,7 @@
   schema:name "技術・家庭"@ja; #教科名
   schema:name "ぎじゅつ・かてい"@ja-Hira; #教科名よみ
   schema:name "Technology and Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "C"; #3桁目
   cs:fcode03 "UC"; #3桁目F
   cs:codePrefix "83C"; #教科コード
@@ -4270,7 +3354,9 @@
   qb:order 12; #表示順
   cs:school cs:school\/LowerSecondary; #学校種別
   schema:name "特別の教科道徳"@ja; #教科名
-  schema:name ""@ja-Hira; #教科名よみ
+  schema:name "とくべつのきょうか　どうとく"@ja-Hira; #教科名よみ
+  schema:name "Special Subject Morality"@en; #教科名英語
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "83K"; #教科コード
@@ -4283,12 +3369,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "83M"; #教科コード
@@ -4301,12 +3382,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "83N"; #教科コード
@@ -4319,12 +3395,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "840"; #教科コード
@@ -4337,12 +3408,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "841"; #教科コード
@@ -4355,12 +3421,7 @@
   schema:name "地理歴史"@ja; #教科名
   schema:name "ちりれきし"@ja-Hira; #教科名よみ
   schema:name "Geography and History"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "3"; #3桁目
   cs:fcode03 "A3"; #3桁目F
   cs:codePrefix "843"; #教科コード
@@ -4373,12 +3434,7 @@
   schema:name "公民"@ja; #教科名
   schema:name "こうみん"@ja-Hira; #教科名よみ
   schema:name "Civics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "4"; #3桁目
   cs:fcode03 "A4"; #3桁目F
   cs:codePrefix "844"; #教科コード
@@ -4391,12 +3447,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "845"; #教科コード
@@ -4409,12 +3460,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "846"; #教科コード
@@ -4427,12 +3473,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "84G"; #教科コード
@@ -4445,12 +3486,7 @@
   schema:name "芸術"@ja; #教科名
   schema:name "げいじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "B"; #3桁目
   cs:fcode03 "UB"; #3桁目F
   cs:codePrefix "84B"; #教科コード
@@ -4475,12 +3511,7 @@
   schema:name "家庭"@ja; #教科名
   schema:name "かてい"@ja-Hira; #教科名よみ
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "F"; #3桁目
   cs:fcode03 "UF"; #3桁目F
   cs:codePrefix "84F"; #教科コード
@@ -4493,12 +3524,7 @@
   schema:name "情報"@ja; #教科名
   schema:name "じょうほう"@ja-Hira; #教科名よみ
   schema:name "Information"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "I"; #3桁目
   cs:fcode03 "UI"; #3桁目F
   cs:codePrefix "84I"; #教科コード
@@ -4523,12 +3549,7 @@
   schema:name "各教科(共通)"@ja; #教科名
   schema:name "かくきょうか(きょうつう)"@ja-Hira; #教科名よみ
   schema:name "Subjects (Common)"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "84n"; #教科コード
@@ -4541,11 +3562,7 @@
   schema:name "農業"@ja; #教科名
   schema:name "のうぎょう"@ja-Hira; #教科名よみ
   schema:name "Agriculture"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "P"; #3桁目
   cs:fcode03 "UP"; #3桁目F
   cs:codePrefix "84P"; #教科コード
@@ -4558,11 +3575,7 @@
   schema:name "工業"@ja; #教科名
   schema:name "こうぎょう"@ja-Hira; #教科名よみ
   schema:name "Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Q"; #3桁目
   cs:fcode03 "UQ"; #3桁目F
   cs:codePrefix "84Q"; #教科コード
@@ -4575,11 +3588,7 @@
   schema:name "商業"@ja; #教科名
   schema:name "しょうぎょう"@ja-Hira; #教科名よみ
   schema:name "Business"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "R"; #3桁目
   cs:fcode03 "UR"; #3桁目F
   cs:codePrefix "84R"; #教科コード
@@ -4592,11 +3601,7 @@
   schema:name "水産"@ja; #教科名
   schema:name "すいさん"@ja-Hira; #教科名よみ
   schema:name "Marine Products Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "T"; #3桁目
   cs:fcode03 "UT"; #3桁目F
   cs:codePrefix "84T"; #教科コード
@@ -4621,11 +3626,7 @@
   schema:name "看護"@ja; #教科名
   schema:name "かんご"@ja-Hira; #教科名よみ
   schema:name "Nursing"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "W"; #3桁目
   cs:fcode03 "UW"; #3桁目F
   cs:codePrefix "84W"; #教科コード
@@ -4650,11 +3651,7 @@
   schema:name "福祉"@ja; #教科名
   schema:name "ふくし"@ja-Hira; #教科名よみ
   schema:name "Welfare"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Y"; #3桁目
   cs:fcode03 "UY"; #3桁目F
   cs:codePrefix "84Y"; #教科コード
@@ -4739,12 +3736,7 @@
   schema:name "総合的な探究の時間"@ja; #教科名
   schema:name "そうごうてきなたんきゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "Period for Inquiry-Based Cross-Disciplinary Study"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2018>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2018; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "84M"; #教科コード
@@ -4757,12 +3749,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "84N"; #教科コード
@@ -4775,12 +3762,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "710"; #教科コード
@@ -4793,12 +3775,7 @@
   schema:name "ねらい及び内容"@ja; #教科名
   schema:name "ねらいおよびないよう"@ja-Hira; #教科名よみ
   schema:name "Aims and Content"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "l"; #3桁目
   cs:fcode03 "Ll"; #3桁目F
   cs:codePrefix "71l"; #教科コード
@@ -4809,7 +3786,9 @@
   qb:order 3; #表示順
   cs:school cs:school\/Kindergarten; #学校種別
   schema:name "指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項"@ja; #教科名
-  schema:name ""@ja-Hira; #教科名よみ
+  schema:name "しどうけいかくおよびきょういくかていにかかるきょういくじかんのしゅうりょうごとうにおこなうきょういくかつどうなどのりゅういじこう"@ja-Hira; #教科名よみ
+  schema:name "Points for Consideration in the Formulation of Instructions and for Educational Activities Provided during Extracurricular Hours"@en; #教科名英語
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "m"; #3桁目
   cs:fcode03 "Lm"; #3桁目F
   cs:codePrefix "71m"; #教科コード
@@ -4822,12 +3801,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "740"; #教科コード
@@ -4840,12 +3814,7 @@
   schema:name "各教科(共通)"@ja; #教科名
   schema:name "かくきょうか(きょうつう)"@ja-Hira; #教科名よみ
   schema:name "Subjects (Common)"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "74n"; #教科コード
@@ -4858,12 +3827,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "741"; #教科コード
@@ -4876,12 +3840,7 @@
   schema:name "地理歴史"@ja; #教科名
   schema:name "ちりれきし"@ja-Hira; #教科名よみ
   schema:name "Geography and History"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "3"; #3桁目
   cs:fcode03 "A3"; #3桁目F
   cs:codePrefix "743"; #教科コード
@@ -4894,12 +3853,7 @@
   schema:name "公民"@ja; #教科名
   schema:name "こうみん"@ja-Hira; #教科名よみ
   schema:name "Civics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "4"; #3桁目
   cs:fcode03 "A4"; #3桁目F
   cs:codePrefix "744"; #教科コード
@@ -4912,12 +3866,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "745"; #教科コード
@@ -4930,12 +3879,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "746"; #教科コード
@@ -4948,12 +3892,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "74G"; #教科コード
@@ -4966,12 +3905,7 @@
   schema:name "芸術"@ja; #教科名
   schema:name "げいじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "B"; #3桁目
   cs:fcode03 "UB"; #3桁目F
   cs:codePrefix "74B"; #教科コード
@@ -4996,12 +3930,7 @@
   schema:name "家庭"@ja; #教科名
   schema:name "かてい"@ja-Hira; #教科名よみ
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "F"; #3桁目
   cs:fcode03 "UF"; #3桁目F
   cs:codePrefix "74F"; #教科コード
@@ -5014,12 +3943,7 @@
   schema:name "情報"@ja; #教科名
   schema:name "じょうほう"@ja-Hira; #教科名よみ
   schema:name "Information"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "高等学校学習指導要領英訳版（仮訳）(平成21年3月)"@ja;
-    schema:name "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2009-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/UpperSecondary/2009>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298353.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:UpperSecondary-2009; #英語の出典
   cs:code03 "I"; #3桁目
   cs:fcode03 "UI"; #3桁目F
   cs:codePrefix "74I"; #教科コード
@@ -5044,11 +3968,7 @@
   schema:name "農業"@ja; #教科名
   schema:name "のうぎょう"@ja-Hira; #教科名よみ
   schema:name "Agriculture"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "P"; #3桁目
   cs:fcode03 "UP"; #3桁目F
   cs:codePrefix "74P"; #教科コード
@@ -5061,11 +3981,7 @@
   schema:name "工業"@ja; #教科名
   schema:name "こうぎょう"@ja-Hira; #教科名よみ
   schema:name "Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Q"; #3桁目
   cs:fcode03 "UQ"; #3桁目F
   cs:codePrefix "74Q"; #教科コード
@@ -5078,11 +3994,7 @@
   schema:name "商業"@ja; #教科名
   schema:name "しょうぎょう"@ja-Hira; #教科名よみ
   schema:name "Business"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "R"; #3桁目
   cs:fcode03 "UR"; #3桁目F
   cs:codePrefix "74R"; #教科コード
@@ -5095,11 +4007,7 @@
   schema:name "水産"@ja; #教科名
   schema:name "すいさん"@ja-Hira; #教科名よみ
   schema:name "Marine Products Industry"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "T"; #3桁目
   cs:fcode03 "UT"; #3桁目F
   cs:codePrefix "74T"; #教科コード
@@ -5124,11 +4032,7 @@
   schema:name "看護"@ja; #教科名
   schema:name "かんご"@ja-Hira; #教科名よみ
   schema:name "Nursing"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "W"; #3桁目
   cs:fcode03 "UW"; #3桁目F
   cs:codePrefix "74W"; #教科コード
@@ -5153,11 +4057,7 @@
   schema:name "福祉"@ja; #教科名
   schema:name "ふくし"@ja-Hira; #教科名よみ
   schema:name "Welfare"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    schema:name "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en;
-    rdfs:seeAlso <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Report-2008; #英語の出典
   cs:code03 "Y"; #3桁目
   cs:fcode03 "UY"; #3桁目F
   cs:codePrefix "74Y"; #教科コード
@@ -5230,12 +4130,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "74M"; #教科コード
@@ -5248,12 +4143,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "74N"; #教科コード
@@ -5267,12 +4157,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "720"; #教科コード
@@ -5286,12 +4171,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "721"; #教科コード
@@ -5305,11 +4185,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "722"; #教科コード
@@ -5323,12 +4199,7 @@
   schema:name "算数"@ja; #教科名
   schema:name "さんすう"@ja-Hira; #教科名よみ
   schema:name "Arithmetic"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "725"; #教科コード
@@ -5342,12 +4213,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "726"; #教科コード
@@ -5361,12 +4227,7 @@
   schema:name "生活"@ja; #教科名
   schema:name "せいかつ"@ja-Hira; #教科名よみ
   schema:name "Living Environment Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "7"; #3桁目
   cs:fcode03 "A7"; #3桁目F
   cs:codePrefix "727"; #教科コード
@@ -5380,12 +4241,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "728"; #教科コード
@@ -5399,12 +4255,7 @@
   schema:name "図画工作"@ja; #教科名
   schema:name "ずがこうさく"@ja-Hira; #教科名よみ
   schema:name "Art and Handicraft"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "9"; #3桁目
   cs:fcode03 "A9"; #3桁目F
   cs:codePrefix "729"; #教科コード
@@ -5418,12 +4269,7 @@
   schema:name "家庭"@ja; #教科名
   schema:name "かてい"@ja-Hira; #教科名よみ
   schema:name "Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "F"; #3桁目
   cs:fcode03 "UF"; #3桁目F
   cs:codePrefix "72F"; #教科コード
@@ -5437,12 +4283,7 @@
   schema:name "体育"@ja; #教科名
   schema:name "たいいく"@ja-Hira; #教科名よみ
   schema:name "Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "72G"; #教科コード
@@ -5456,12 +4297,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "72n"; #教科コード
@@ -5475,11 +4311,7 @@
   schema:name "道徳"@ja; #教科名
   schema:name "どうとく"@ja-Hira; #教科名よみ
   schema:name "Moral Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "2013年 文部科学白書（英文）"@ja;
-    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
-    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:WhitePaper-2013; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "72K"; #教科コード
@@ -5493,12 +4325,7 @@
   schema:name "外国語活動"@ja; #教科名
   schema:name "がいこくごかつどう"@ja-Hira; #教科名よみ
   schema:name "Foreign Language Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    schema:name "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2017>;
-    rdfs:seeAlso <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2017-ForeignLanguageActivities; #英語の出典
   cs:code03 "L"; #3桁目
   cs:fcode03 "UL"; #3桁目F
   cs:codePrefix "72L"; #教科コード
@@ -5512,12 +4339,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "72M"; #教科コード
@@ -5531,12 +4353,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "72N"; #教科コード
@@ -5551,12 +4368,7 @@
   schema:name "総則"@ja; #教科名
   schema:name "そうそく"@ja-Hira; #教科名よみ
   schema:name "General Provisions"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
-    schema:name "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Kindergarten/2008>;
-    rdfs:seeAlso <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Kindergarten-2008; #英語の出典
   cs:code03 "0"; #3桁目
   cs:fcode03 "A0"; #3桁目F
   cs:codePrefix "730"; #教科コード
@@ -5571,12 +4383,7 @@
   schema:name "国語"@ja; #教科名
   schema:name "こくご"@ja-Hira; #教科名よみ
   schema:name "Japanese Language"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "1"; #3桁目
   cs:fcode03 "A1"; #3桁目F
   cs:codePrefix "731"; #教科コード
@@ -5591,11 +4398,7 @@
   schema:name "社会"@ja; #教科名
   schema:name "しゃかい"@ja-Hira; #教科名よみ
   schema:name "Social Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "Education in Japan, 2000, 13版, p.67"@ja;
-    schema:name "Education in Japan, 2000, 13th ed, p.67"@en;
-    rdfs:seeAlso <https://ci.nii.ac.jp/ncid/BA06708576>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:EducationInJapan-2013; #英語の出典
   cs:code03 "2"; #3桁目
   cs:fcode03 "A2"; #3桁目F
   cs:codePrefix "732"; #教科コード
@@ -5610,12 +4413,7 @@
   schema:name "数学"@ja; #教科名
   schema:name "すうがく"@ja-Hira; #教科名よみ
   schema:name "Mathematics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "5"; #3桁目
   cs:fcode03 "A5"; #3桁目F
   cs:codePrefix "735"; #教科コード
@@ -5630,12 +4428,7 @@
   schema:name "理科"@ja; #教科名
   schema:name "りか"@ja-Hira; #教科名よみ
   schema:name "Science"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "6"; #3桁目
   cs:fcode03 "A6"; #3桁目F
   cs:codePrefix "736"; #教科コード
@@ -5650,12 +4443,7 @@
   schema:name "音楽"@ja; #教科名
   schema:name "おんがく"@ja-Hira; #教科名よみ
   schema:name "Music"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "8"; #3桁目
   cs:fcode03 "A8"; #3桁目F
   cs:codePrefix "738"; #教科コード
@@ -5670,12 +4458,7 @@
   schema:name "美術"@ja; #教科名
   schema:name "びじゅつ"@ja-Hira; #教科名よみ
   schema:name "Art"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "A"; #3桁目
   cs:fcode03 "UA"; #3桁目F
   cs:codePrefix "73A"; #教科コード
@@ -5690,12 +4473,7 @@
   schema:name "保健体育"@ja; #教科名
   schema:name "ほけんたいいく"@ja-Hira; #教科名よみ
   schema:name "Health and Physical Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "G"; #3桁目
   cs:fcode03 "UG"; #3桁目F
   cs:codePrefix "73G"; #教科コード
@@ -5710,12 +4488,7 @@
   schema:name "技術・家庭"@ja; #教科名
   schema:name "ぎじゅつ・かてい"@ja-Hira; #教科名よみ
   schema:name "Technology and Home Economics"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "C"; #3桁目
   cs:fcode03 "UC"; #3桁目F
   cs:codePrefix "73C"; #教科コード
@@ -5744,12 +4517,7 @@
   schema:name "各教科"@ja; #教科名
   schema:name "かくきょうか"@ja-Hira; #教科名よみ
   schema:name "Subjects"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/LowerSecondary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:LowerSecondary-2008; #英語の出典
   cs:code03 "n"; #3桁目
   cs:fcode03 "Ln"; #3桁目F
   cs:codePrefix "73n"; #教科コード
@@ -5764,11 +4532,7 @@
   schema:name "道徳"@ja; #教科名
   schema:name "どうとく"@ja-Hira; #教科名よみ
   schema:name "Moral Education"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "2013年 文部科学白書（英文）"@ja;
-    schema:name "2013 White Paper on Education, Culture, Sports, Science and Technology (English Version)"@en;
-    rdfs:seeAlso <http://www.mext.go.jp/b_menu/hakusho/html/hpab201301/1360652.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:WhitePaper-2013; #英語の出典
   cs:code03 "K"; #3桁目
   cs:fcode03 "UK"; #3桁目F
   cs:codePrefix "73K"; #教科コード
@@ -5783,12 +4547,7 @@
   schema:name "総合的な学習の時間"@ja; #教科名
   schema:name "そうごうてきながくしゅうのじかん"@ja-Hira; #教科名よみ
   schema:name "the Period for Integrated Studies"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "M"; #3桁目
   cs:fcode03 "UM"; #3桁目F
   cs:codePrefix "73M"; #教科コード
@@ -5803,12 +4562,7 @@
   schema:name "特別活動"@ja; #教科名
   schema:name "とくべつかつどう"@ja-Hira; #教科名よみ
   schema:name "Special Activities"@en; #教科名英語
-  cs:sourceOfEnglishName [
-    schema:name "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
-    schema:name "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en;
-    cs:courseOfStudy <https://w3id.org/jp-cos/Elementary/2008>;
-    rdfs:seeAlso <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
-  ]; #英語の出典
+  cs:sourceOfEnglishName _:Elementary-2008; #英語の出典
   cs:code03 "N"; #3桁目
   cs:fcode03 "UN"; #3桁目F
   cs:codePrefix "73N"; #教科コード
