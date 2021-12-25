@@ -1,4 +1,5 @@
 <https://w3id.org/jp-cos/8A802d4311000000>
+  <http://id.loc.gov/ontologies/bibframe/note> "The sixth digit of the original course of study code in code table 86V11 is \"0\", but the correct value is \"d\". The URI and related property values (course of study code, stage, etc.) were changed to match."@en, "コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「d」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。"@ja;
   <http://purl.org/dc/terms/identifier> "8A802d4311000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V11>;
   <http://purl.org/linked-data/cube#order> [

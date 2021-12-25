@@ -164,5 +164,20 @@
     <http://www.w3.org/ns/shacl#name> "Text"@en, "テキスト"@ja;
     <http://www.w3.org/ns/shacl#order> "20";
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionText>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is \"0\", but the correct value is \"e\". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul>";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/ns/shacl#description> "Using language tags, this property represents an original note and English note. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese note</dd><dt>@en</dt><dd>English note</dd></dl>"@en, "言語コードを用いて、備考を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語の備考</dd><dt>@en</dt><dd>英語の備考</dd></dl>"@ja;
+    <http://www.w3.org/ns/shacl#languageIn> [
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+      ]
+    ];
+    <http://www.w3.org/ns/shacl#name> "Note"@en, "備考"@ja;
+    <http://www.w3.org/ns/shacl#order> "21";
+    <http://www.w3.org/ns/shacl#path> <http://id.loc.gov/ontologies/bibframe/note>;
+    <http://www.w3.org/ns/shacl#uniqueLang> "true"
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Item> .
