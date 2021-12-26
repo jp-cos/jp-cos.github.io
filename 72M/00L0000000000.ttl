@@ -12,7 +12,7 @@
   ];
   <http://schema.org/description> "第５章　総合的な学習の時間";
   <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/72M01L0000000000>;
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/72M01L0000000000>, <https://w3id.org/jp-cos/72M02L0000000000>, <https://w3id.org/jp-cos/72M03L0000000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
   <https://w3id.org/jp-cos/category> "区分なし";
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
