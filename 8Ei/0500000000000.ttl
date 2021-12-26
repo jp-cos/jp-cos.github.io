@@ -8,6 +8,7 @@
   ];
   <http://schema.org/description> "第２　各科目";
   <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8Ei1500000000000>, <https://w3id.org/jp-cos/8Ei2500000000000>, <https://w3id.org/jp-cos/8Ei3500000000000>, <https://w3id.org/jp-cos/8Ei4500000000000>, <https://w3id.org/jp-cos/8Ei5500000000000>, <https://w3id.org/jp-cos/8Ei6500000000000>, <https://w3id.org/jp-cos/8Ei7500000000000>, <https://w3id.org/jp-cos/8Ei8500000000000>, <https://w3id.org/jp-cos/8Ei9500000000000>, <https://w3id.org/jp-cos/8EiA500000000000>, <https://w3id.org/jp-cos/8EiB500000000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
   <https://w3id.org/jp-cos/category> "各科目";
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;

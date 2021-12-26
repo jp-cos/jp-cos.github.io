@@ -8,7 +8,7 @@
   ];
   <http://schema.org/description> "〔学級活動〕";
   <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/83N1202000000000>, <https://w3id.org/jp-cos/83N1203000000000>, <https://w3id.org/jp-cos/83N1205000000000>;
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/83N1202000000000>, <https://w3id.org/jp-cos/83N1203000000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
@@ -20,4 +20,4 @@
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学級活動>;
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動> .
-<https://w3id.org/jp-cos/83N0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83N1200000000000>.
+<https://w3id.org/jp-cos/83N0200000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83N1200000000000>.
