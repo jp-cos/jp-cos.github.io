@@ -1,0 +1,25 @@
+<https://w3id.org/jp-cos/82F02D3110000000>
+  <http://id.loc.gov/ontologies/bibframe/note> "The sixth digit of the original course of study code in code table 82V11 is \"5\", but the correct value is \"D\". The URI and related property values (course of study code, grade, etc.) were changed to match."@en, "コード表：82V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「5」となっているが、正しくは「D」であると判断し、URIや関連するプロパティ値（学習指導要領コードや学年など）もそれに合わせるように変更した。"@ja;
+  <http://purl.org/dc/terms/identifier> "82F02D3110000000";
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+  <http://purl.org/linked-data/cube#order> [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2966"
+  ];
+  <http://schema.org/description> "(1) 自分の成長と家族・家庭生活";
+  <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/82F02D3111000000>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
+  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
+  <https://w3id.org/jp-cos/fcode> "A8A2UFA0A2UDA3A1A1A0A0A0A0A0A0A0";
+  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionText> "自分の成長と家族・家庭生活";
+  <https://w3id.org/jp-cos/subCategory> "内容";
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/家庭> .
+<https://w3id.org/jp-cos/82F02D3100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82F02D3110000000>.
