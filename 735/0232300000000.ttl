@@ -1,16 +1,16 @@
 <https://w3id.org/jp-cos/7350232300000000>
   <http://purl.org/dc/terms/identifier> "7350232300000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "565"
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "559"
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "559"
   ];
@@ -25,7 +25,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";
-  <https://w3id.org/jp-cos/sectionText> "具体的な事象を調べることを通して，関数y＝ax2について理解するとともに，関数関係を見いだし表現し考察する能力を伸ばす。";
+  <https://w3id.org/jp-cos/sectionText> "具体的な事象を調べることを通して，関数<i>y</i>＝<i>ax</i><sup>2</sup>について理解するとともに，関数関係を見いだし表現し考察する能力を伸ばす。";
   <https://w3id.org/jp-cos/subCategory> "目標";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/数学> .
 <https://w3id.org/jp-cos/7350232000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7350232300000000>.

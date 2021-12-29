@@ -1,16 +1,16 @@
 <https://w3id.org/jp-cos/7350215600000000>
   <http://purl.org/dc/terms/identifier> "7350215600000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "506"
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V10>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "500"
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V20>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "500"
   ];
@@ -25,7 +25,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(6)";
-  <https://w3id.org/jp-cos/sectionText> "内容の「D資料の活用」の(1)に関連して，誤差や近似値，a×10nの形の表現を取り扱うものとする。";
+  <https://w3id.org/jp-cos/sectionText> "内容の「D資料の活用」の(1)に関連して，誤差や近似値，<i>a</i>×10<sup><i>n</i></sup>の形の表現を取り扱うものとする。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/数学> .
 <https://w3id.org/jp-cos/7350215000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7350215600000000>.

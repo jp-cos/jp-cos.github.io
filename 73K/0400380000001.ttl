@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/73K0400380000001>
   <http://purl.org/dc/terms/identifier> "73K0400380000001";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1559"
   ];
@@ -19,5 +19,5 @@
   <https://w3id.org/jp-cos/sectionText> """［我が国の伝統と文化の尊重，国を愛する態度］
  優れた伝統の継承と新しい文化の創造に貢献するとともに，日本人としての自覚をもって国を愛し，国家及び社会の形成者として，その発展に努めること。""";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/道徳> .
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別の教科道徳> .
 <https://w3id.org/jp-cos/73K0400300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0400380000001>.

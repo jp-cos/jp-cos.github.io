@@ -1,12 +1,12 @@
 <https://w3id.org/jp-cos/7210060160220000>
   <http://purl.org/dc/terms/identifier> "7210060160220000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V20>;
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V20>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1129"
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V10>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1120"
   ];

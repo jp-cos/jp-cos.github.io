@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/73K0300210000001>
   <http://purl.org/dc/terms/identifier> "73K0300210000001";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1569"
   ];
@@ -18,5 +18,5 @@
   <https://w3id.org/jp-cos/sectionNumber> "(1)";
   <https://w3id.org/jp-cos/sectionText> "学級担任の教師が行うことを原則とするが，校長や教頭などの参加，他の教師との協力的な指導などについて工夫し，道徳教育推進教師を中心とした指導体制を充実すること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/道徳> .
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別の教科道徳> .
 <https://w3id.org/jp-cos/73K0300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0300210000001>.

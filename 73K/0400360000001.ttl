@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/73K0400360000001>
   <http://purl.org/dc/terms/identifier> "73K0400360000001";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V31>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1557"
   ];
@@ -19,5 +19,5 @@
   <https://w3id.org/jp-cos/sectionText> """［よりよい学校生活，集団生活の充実］
  教師や学校の人々を敬愛し，学級や学校の一員としての自覚をもち，協力し合ってよりよい校風をつくるとともに，様々な集団の意義や集団の中での自分の役割と責任を自覚して集団生活の充実に努めること。""";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/道徳> .
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/特別の教科道徳> .
 <https://w3id.org/jp-cos/73K0400300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73K0400360000001>.
