@@ -115,4 +115,39 @@ _:v1.0 a void:Dataset;
 		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/1?closed=1>
 	];
 	void:subset _:code2broader-20211008, _:cs-items-20211206, _:cs-metadata-20211211, _:cs-period-20211010, _:cs-revision-20211211, _:cs-dataset-20211122, _:dataset-20211211,_:disability-category-20211122, _:schema-class-20211207, _:schema-property-20211206, _:school-20211122, _:section-label-20211204, _:shapes-20211206, _:stage-20211205, _:subject-20211206, _:subjectArea-20211206 .
-_:toplevel pav:hasCurrentVersion _:v1.0 .
+_:toplevel pav:hasVersion _:v1.0 .
+
+_:code2broader-20211230 a void:Dataset;
+    void:dataDump cs:code2broader-20211230.ttl .
+_:cs-items-20211229 a void:Dataset;
+    void:dataDump cs:cs-items-20211229.ttl.gz .
+_:cs-dataset-20211229 a void:Dataset;
+    void:dataDump cs:cs-dataset-20211229.ttl .
+_:dataset-20211230 a void:Dataset;
+    void:dataDump cs:dataset-20211230.ttl .
+_:schema-class-20211218 a void:Dataset;
+    void:dataDump cs:schema-class-20211218.ttl .
+_:section-label-20211229 a void:Dataset;
+    void:dataDump cs:section-label-20211229.ttl .
+_:shapes-20211223 a void:Dataset;
+    void:dataDump cs:shapes-20211223.ttl .
+_:stage-20211205 a void:Dataset;
+    void:dataDump cs:stage-20211205.ttl .
+_:subject-20211223 a void:Dataset;
+    void:dataDump cs:subject-20211223.ttl .
+_:subjectArea-20211223 a void:Dataset;
+    void:dataDump cs:subjectArea-20211223.ttl .
+_:v2.0 a void:Dataset;
+	dct:issued "2021-12-30"^^xsd:date;
+	pav:version "2.0";
+	void:triples 900772;
+	dcat:byteSize 3809542;
+	void:dataDump cs:all-20211230.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "元データセットを2021年12月28日更新版に更新しました。複数のデータの誤りなどを修正しました。"@ja;
+		rdfs:comment "The dataset has been updated to the upstream 2021-12-28 version. Corrected a number of data errors."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/2?closed=1>
+	];
+    void:subset _:code2broader-20211230, _:cs-items-20211229, _:cs-metadata-20211211, _:cs-period-20211010, _:cs-revision-20211211, _:cs-dataset-20211229, _:dataset-20211230, _:disability-category-20211122, _:schema-class-20211218, _:schema-property-20211206, _:school-20211122, _:section-label-20211229, _:shapes-20211223, _:stage-20211205, _:subject-20211223, _:subjectArea-20211223 .
+_:toplevel pav:hasCurrentVersion _:v2.0 .
