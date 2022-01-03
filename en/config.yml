@@ -1,0 +1,23 @@
+site_title: Japanese Course of Study LOD
+base_uri: https://w3id.org/jp-cos/
+uri_mappings:
+  - regexp: !ruby/regexp /^(\d\w\w)(\w{13})$/
+    path: '\1/\2'
+locale: en
+title_property_perclass:
+  https://w3id.org/jp-cos/Item: http://schema.org/description
+breadcrumbs:
+  - property: http://schema.org/hasPart
+    inverse: true
+    label: https://w3id.org/jp-cos/sectionNumber
+  - property: https://w3id.org/jp-cos/courseOfStudy
+top_class: https://w3id.org/jp-cos/CourseOfStudy
+admin_name: Education Data Plus Research group
+copyright_year: 2021
+css_file: ../style.css
+logo: ../logo.png
+google_analytics: G-ZW2V5CQLY9
+additional_link:
+  - label: 日本語
+    href: https://w3id.org/jp-cos/
+output_turtle: false
