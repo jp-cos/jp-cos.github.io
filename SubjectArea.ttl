@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/SubjectArea>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code>"@en, "教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents a subject, etc. It also includes other subjects, such as general rules.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code>"@en, "教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code>"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Subject Area"@en, "教科等"@ja .
 <https://w3id.org/jp-cos/Elementary/2008/体育> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>.
 <https://w3id.org/jp-cos/Elementary/2008/各教科> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>.
