@@ -54,6 +54,26 @@
       </div>
       <div class="row">
         <div class="col-md">
+        <h2>Overview</h2>
+<p>Japanese Course of Study Linked Open Data (LOD) is a dataset which covers codes, contents, and related information for course of studies published by the Ministry of Education, Culture, Sports, Science and Technology (MEXT). The target of LOD is the latest version of code tables from the past and present course of studies (including some revisions) for all school types. Specifically, it includes 18 published course of studies code tables.</p>
+<p>Not only the code table released as open data by MEXT be given a URI that can be widely used, but also other related information URIs are added for the utilization of basic learning data. We have built a data model with persistent identifiers and published it as a reusable LOD dataset.</p>
+<p>This dataset is published in a structured RDF/Turtle format under the same license as the original code table (CC BY 4.0) and is also provided as resolvable web data.</p> 
+
+<p>In the future, we will promote various utilizations by associating with content for learning, such as linking with "<a href="https://w3id.org/jp-textbook/">Textbook LOD</a>" and linking with digital archives like <a href="https://jpsearch.go.jp">Japan Search</a>..
+<p>If you have any inquiries, please <a href="#contact">contact us</a>.
+
+<h2>LOD vocabularies</h2>
+<p>
+The model diagram of the resources of the Course of Study LOD is shown below.
+The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is shown in the figure below using the prefix <code>cs:</code>.
+<p>
+<img src="lod-model.png" alt="Model diagram of Course of Study LOD">
+</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
           <h2 id="shapes">Resources description</h2>
             <h3>Course of Study Revision</h3>
             <p>It represents course of study revision class. It is used in cases where some revisions are made during the 10-year period.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code></p>
