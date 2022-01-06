@@ -4,3 +4,9 @@ nav.navbar {
 .jumbotron, .breadcrumb {
   background-color: rgb(255, 250, 229)
 }
+var:before {
+  content: "{"
+}
+var:after {
+  content: "}"
+}
