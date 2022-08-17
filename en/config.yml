@@ -21,3 +21,8 @@ additional_link:
   - label: 日本語
     href: https://w3id.org/jp-cos/
 output_turtle: false
+shape_orders:
+  - https://w3id.org/jp-cos/ItemShape
+  - https://w3id.org/jp-cos/DatasetShape
+  - https://w3id.org/jp-cos/CourseOfStudyShape
+  - https://w3id.org/jp-cos/CourseOfStudyRevisionShape

@@ -1,9 +1,10 @@
 site_title: 学習指導要領LOD
+admin_name: 教育データプラス研究会
+locale: ja
 base_uri: https://w3id.org/jp-cos/
 uri_mappings:
   - regexp: !ruby/regexp /^(\d\w\w)(\w{13})$/
     path: '\1/\2'
-locale: ja
 title_property_perclass:
   https://w3id.org/jp-cos/Item: http://schema.org/description
 breadcrumbs:
@@ -12,7 +13,6 @@ breadcrumbs:
     label: https://w3id.org/jp-cos/sectionNumber
   - property: https://w3id.org/jp-cos/courseOfStudy
 top_class: https://w3id.org/jp-cos/CourseOfStudy
-admin_name: 教育データプラス研究会
 copyright_year: 2021
 css_file: style.css
 logo: logo.png
@@ -20,3 +20,8 @@ google_analytics: G-ZW2V5CQLY9
 additional_link:
   - label: English
     href: https://w3id.org/jp-cos/en/
+shape_orders:
+  - https://w3id.org/jp-cos/ItemShape
+  - https://w3id.org/jp-cos/DatasetShape
+  - https://w3id.org/jp-cos/CourseOfStudyShape
+  - https://w3id.org/jp-cos/CourseOfStudyRevisionShape
