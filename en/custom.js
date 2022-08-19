@@ -1,0 +1,70 @@
+function get_nhk4school(cscode, page = 1) {
+    /// NHK for School APIにアクセス
+    const apiKey = 'QhnGtsNqZpAeaG4Sn4RlVhGs34XBL4Vq';
+    const api = `https://api.nhk.or.jp/school/v1/nfsvideos/cscode/${cscode}?apikey=${apiKey}&page=${page}`;
+    fetch(api)
+    .then(response => {
+        return response.json();
+    })
+    .then(data => {
+        nhk(data);
+    })
+    .catch(function (error) {
+        console.log(`失敗しました: ${error}`);
+        results("<p>Failed to fetch data from NHK for School.</p>", page, false);
+    });
+
+    //結果を表示
+    function results(html, page = 1, success = true) {
+        let elmResult = document.getElementById(`nhk4school-list-${page}`);
+        elmResult.innerHTML = html;
+        elmResult.style.display = "block";
+        if (success) {
+            let elmButton = document.getElementById(`nhk4school-button-${page}`);
+            elmButton.disabled = true;
+        }
+    }
+    function nhk(data) {
+        console.log(data);
+        console.log(data['counts']);
+        let html = ''; //出力するHTMLテキストを入れる変数
+        if (data['error'] || !data['counts']) {
+            html += "<p>No content is available.</p>";
+        } else {
+            //取得結果の概要を表示
+            const pageStart = data['perPage'] * (data['page']-1) + 1;
+            const pageEnd   = pageStart + data['result'].length - 1;
+            html += `<h4>Video from NHK for School: ${pageStart} - ${pageEnd} items from ${data['counts']} results</h4>`;
+            //コンテンツ一覧を表示
+            html +=  `<ul class="list-unstyled">`;
+            for (let i = 0; i < data['result'].length; i++){
+                let seriesTitle = "";
+                if (data['result'][i]['url'] && data['result'][i]['about'] && data['result'][i]['about']['nfsSeriesName']) {
+                    seriesTitle = ` (${data['result'][i]['about']['nfsSeriesName']})`;
+                }
+                const result = `
+                    <li class="media">
+                    <img class="bd-placeholder-img mr-3" width="25%" height="25%" src="${data['result'][i]['thumbnailUrl']}"></img>
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1"><a href="${data['result'][i]['url']}">${data['result'][i]['name']}</a>${seriesTitle}</h5>
+                            <p class="mt-0 mb-1">${data['result'][i]['description']}</p>
+                        </div>
+                    </li>
+                `;
+                // console.log(result);
+                html += result;
+            }
+            html += '</ul>';
+        }
+        if (data['page'] < data['totalPages']) {
+            const nextPage = data['page'] + 1;
+            html += `
+                <button id="nhk4school-button-${nextPage}" type="button" class="btn btn-nhk4school" onclick="get_nhk4school('${data['queryData']['curriculumStandardCode']}', ${nextPage})">
+                Retrieve the next ${data['perPage']} items <i class="bi bi-search"></i>
+                </button>
+                <div id="nhk4school-list-${nextPage}" />
+            `;
+        }
+        results(html, data['page']);
+    };
+};
