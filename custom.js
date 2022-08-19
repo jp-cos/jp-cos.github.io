@@ -34,7 +34,7 @@ function get_nhk4school(cscode, page = 1) {
             //取得結果の概要を表示
             const pageStart = data['perPage'] * (data['page']-1) + 1;
             const pageEnd   = pageStart + data['result'].length - 1;
-            html += `<h3>NHK for Schoolの動画: ${data['counts']}件中 ${pageStart} - ${pageEnd} 件</h3>`;
+            html += `<h4>NHK for Schoolの動画: ${data['counts']}件中 ${pageStart} - ${pageEnd} 件</h4>`;
             //コンテンツ一覧を表示
             html +=  `<ul class="list-unstyled">`;
             for (let i = 0; i < data['result'].length; i++){
@@ -44,9 +44,9 @@ function get_nhk4school(cscode, page = 1) {
                 }
                 const result = `
                     <li class="media">
-                    <img class="bd-placeholder-img mr-3" width=25% height=25% src="${data['result'][i]['thumbnailUrl']}"></img>
+                    <img class="bd-placeholder-img mr-3" width="25%" height="25%" src="${data['result'][i]['thumbnailUrl']}"></img>
                         <div class="media-body">
-                            <h4 class="mt-0 mb-1"><a href="${data['result'][i]['url']}">${data['result'][i]['name']}</a>${seriesTitle}</h4>
+                            <h5 class="mt-0 mb-1"><a href="${data['result'][i]['url']}">${data['result'][i]['name']}</a>${seriesTitle}</h5>
                             <p class="mt-0 mb-1">${data['result'][i]['description']}</p>
                         </div>
                     </li>
@@ -56,11 +56,10 @@ function get_nhk4school(cscode, page = 1) {
             }
             html += '</ul>';
         }
-        console.log(data['page'])
         if (data['page'] < data['totalPages']) {
             const nextPage = data['page'] + 1;
             html += `
-                <button id="nhk4school-button-${nextPage}" type="button" class="btn btn-nhk4school" onclick="get_nhk4school('8260243111100000', ${nextPage})">
+                <button id="nhk4school-button-${nextPage}" type="button" class="btn btn-nhk4school" onclick="get_nhk4school('${data['queryData']['curriculumStandardCode']}', ${nextPage})">
                 次の${data['perPage']}件を取得 <i class="bi bi-search"></i>
                 </button>
                 <div id="nhk4school-list-${nextPage}" />
