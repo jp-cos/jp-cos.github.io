@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +22,9 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="./"><img src="logo.png" height="30" alt="学習指導要領LOD"></a>
+      <a class="navbar-brand" href="./">
+        <img src="logo.png" style="max-height: 54px" alt="学習指導要領LOD">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -114,11 +116,11 @@
       <div class="row">
         <div class="col-md">
           <h2 id="shapes">各リソースの説明</h2>
-            <h3>学習指導要領の細目</h3>
+            <h3 id="ItemShape">学習指導要領の細目</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Item">https://w3id.org/jp-cos/Item</a></li></ul>
             <p>学習指導要領の細目を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学習指導要領コード</var></code></p>
             <p>学習指導要領の細目リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -129,7 +131,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>学習指導要領</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017</td>
       <td>
@@ -143,7 +145,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
+      <td><code>cs:courseOfStudyRevision</code></td>
       <td>学習指導要領（一部改正情報）</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -157,7 +159,7 @@
       <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/source</code></td>
+      <td><code>dct:source</code></td>
       <td>出典</td>
       <td>https://w3id.org/jp-cos/83V11</td>
       <td>
@@ -171,7 +173,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2"><code>http://purl.org/linked-data/cube#order</code></td>
+      <td rowspan="2"><code>qb:order</code></td>
       <td>項番</td>
       <td></td>
       <td>
@@ -187,7 +189,7 @@
     <tr>
       <td colspan="4">
         ブランクノードの内容は以下の内容からなる構造を持ちます。
-        <div class="blank_node"><table class="table table-condensed">
+        <div class="blank_node"><table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -198,7 +200,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</code></td>
+      <td><code>rdf:value</code></td>
       <td>項番</td>
       <td>122</td>
       <td>
@@ -212,7 +214,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/source</code></td>
+      <td><code>dct:source</code></td>
       <td>出典</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -226,13 +228,22 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-</div>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table></div>
       </td>
     </tr>
     <tr>
-      <td><code>http://schema.org/description</code></td>
+      <td><code>schema:description</code></td>
       <td>学習指導要領テキスト</td>
       <td>'''(イ) 語と語の連結による音の変化'''</td>
       <td>
@@ -246,7 +257,7 @@
       <td>元データの「学習指導要領テキスト」列の値。</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/identifier</code></td>
+      <td><code>dct:identifier</code></td>
       <td>学習指導要領コード</td>
       <td>83H1203111200000</td>
       <td>
@@ -260,7 +271,7 @@
       <td>元データの「学習指導要領コード」列の値。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td><code>cs:issuedPeriod</code></td>
       <td>告示時期</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
       <td>
@@ -274,7 +285,7 @@
       <td>学習指導要領コードの1桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>cs:school/LowerSecondary</td>
       <td>
@@ -288,7 +299,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>障害分類</td>
       <td>cs:disabilityCategory/Intellectual</td>
       <td>
@@ -302,7 +313,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/subjectArea</code></td>
+      <td><code>cs:subjectArea</code></td>
       <td>教科等</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
       <td>
@@ -316,7 +327,7 @@
       <td>元データの「教科等」列の値。学習指導要領コードの3桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/subject</code></td>
+      <td><code>cs:subject</code></td>
       <td>分野・科目・分類</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
       <td>
@@ -330,7 +341,7 @@
       <td>学習指導要領コードの4桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/category</code></td>
+      <td><code>cs:category</code></td>
       <td>大項目</td>
       <td>目標及び内容（大項目）</td>
       <td>
@@ -344,7 +355,7 @@
       <td>学習指導要領コードの5桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/grade</code></td>
+      <td><code>cs:grade</code></td>
       <td>学年</td>
       <td>1,2</td>
       <td>
@@ -358,7 +369,7 @@
       <td>学習指導要領コードの6桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/stage</code></td>
+      <td><code>cs:stage</code></td>
       <td>段階</td>
       <td>https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
       <td>
@@ -372,7 +383,7 @@
       <td>学習指導要領コードの6桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/subCategory</code></td>
+      <td><code>cs:subCategory</code></td>
       <td>項目</td>
       <td>内容</td>
       <td>
@@ -386,7 +397,7 @@
       <td>学習指導要領コードの7桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/edition</code></td>
+      <td><code>schema:edition</code></td>
       <td>改正情報</td>
       <td>一部改正なし</td>
       <td>
@@ -400,7 +411,7 @@
       <td>学習指導要領コードの16桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode</code></td>
+      <td><code>cs:fcode</code></td>
       <td>F学習指導要領コード</td>
       <td>A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0</td>
       <td>
@@ -414,7 +425,7 @@
       <td>学習指導要領コードをExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/hasPart</code></td>
+      <td><code>schema:hasPart</code></td>
       <td>子</td>
       <td>https://w3id.org/jp-cos/8GH12a4222140000</td>
       <td>
@@ -428,7 +439,7 @@
       <td>子供の学習指導要領細目を表す。学習指導要領コードの規則性を利用してプログラムで自動作成。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/sectionNumber</code></td>
+      <td><code>cs:sectionNumber</code></td>
       <td>節番号</td>
       <td>(イ)</td>
       <td>
@@ -442,7 +453,7 @@
       <td>学習指導要領テキスト中の節番号を表す。ないこともある。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/sectionText</code></td>
+      <td><code>cs:sectionText</code></td>
       <td>テキスト</td>
       <td>''語と語の連結による音の変化'''</td>
       <td>
@@ -456,7 +467,7 @@
       <td>学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
     </tr>
     <tr>
-      <td><code>http://id.loc.gov/ontologies/bibframe/note</code></td>
+      <td><code>bf:note</code></td>
       <td>備考</td>
       <td><ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is "0", but the correct value is "e". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul></td>
       <td>
@@ -470,13 +481,28 @@
       <td>言語コードを用いて、備考を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語の備考</dd><dt>@en</dt><dd>英語の備考</dd></dl></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>データセット</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>bf:</code></dt>
+      <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="DatasetShape">データセット</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Dataset">https://w3id.org/jp-cos/Dataset</a></li></ul>
             <p>データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code></p>
             <p>データセットリソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -487,7 +513,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/dc/terms/identifier</code></td>
+      <td><code>dct:identifier</code></td>
       <td>データセットのID</td>
       <td>82V11</td>
       <td>
@@ -501,7 +527,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/version</code></td>
+      <td><code>schema:version</code></td>
       <td>データセットのバージョン</td>
       <td>1.1</td>
       <td>
@@ -515,7 +541,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>名称</td>
       <td><ul><li>"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）"@ja</li><li>"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）"@en</li></ul></td>
       <td>
@@ -529,7 +555,7 @@
       <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>https://w3id.org/jp-cos/school/Elementary</td>
       <td>
@@ -543,7 +569,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/releaseDate</code></td>
+      <td><code>schema:releaseDate</code></td>
       <td>公表年月日</td>
       <td>2021-08-20</td>
       <td>
@@ -557,13 +583,24 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>学習指導要領</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="CourseOfStudyShape">学習指導要領</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CourseOfStudy">https://w3id.org/jp-cos/CourseOfStudy</a></li></ul>
             <p>学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code></p>
             <p>学習指導要領リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -574,7 +611,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td><code>cs:issuedPeriod</code></td>
       <td>告示時期</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
       <td>
@@ -588,7 +625,7 @@
       <td>学習指導要領コードの1桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>名称</td>
       <td><ul><li>"小学校学習指導要領"@ja</li><li>"しょうがっこうがくしゅうしどうようりょう"@ja-Hira</li><li>"Elementary School Curriculum Guideline"@en</li></ul></td>
       <td>
@@ -602,7 +639,7 @@
       <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/datePublished</code></td>
+      <td><code>schema:datePublished</code></td>
       <td>告示日</td>
       <td>2017-03-31</td>
       <td>
@@ -616,7 +653,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/startDate</code></td>
+      <td><code>schema:startDate</code></td>
       <td>施行年月日</td>
       <td>2020-04-01</td>
       <td>
@@ -630,7 +667,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>https://w3id.org/jp-cos/school/Elementary</td>
       <td>
@@ -644,7 +681,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/url</code></td>
+      <td><code>schema:url</code></td>
       <td>本文URL</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm</td>
       <td>
@@ -658,7 +695,7 @@
       <td>繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/hasVersion</code></td>
+      <td><code>dct:hasVersion</code></td>
       <td>別バージョン</td>
       <td>https://w3id.org/jp-cos/Elementary/2017/2017</td>
       <td>
@@ -672,7 +709,7 @@
       <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/dataset</code></td>
+      <td><code>cs:dataset</code></td>
       <td>データセット</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -686,7 +723,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/hasSubjectArea</code></td>
+      <td><code>cs:hasSubjectArea</code></td>
       <td>教科がある</td>
       <td>https://w3id.org/jp-cos/Elementary/2017/国語</td>
       <td>
@@ -700,7 +737,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/hasSubject</code></td>
+      <td><code>cs:hasSubject</code></td>
       <td>科目がある</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
       <td>
@@ -714,13 +751,24 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>学習指導要領の別バージョン</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="CourseOfStudyRevisionShape">学習指導要領の別バージョン</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CourseOfStudyRevision">https://w3id.org/jp-cos/CourseOfStudyRevision</a></li></ul>
             <p>一部改正された学習指導要領を表すクラス。10年の間に一部改正が行われた場合などに利用。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></code></p>
             <p>学習指導要領の別バージョンリソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -731,7 +779,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td><code>cs:issuedPeriod</code></td>
       <td>告示時期</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
       <td>
@@ -745,7 +793,7 @@
       <td>学習指導要領コードの1桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>別バージョンの名称</td>
       <td><ul><li>"中学校学習指導要領 平成22年11月 一部改正"@ja</li><li>"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision"@en</li></ul></td>
       <td>
@@ -759,7 +807,7 @@
       <td>一部改正であれば、「平成15年12月 一部改正」のような表現となります。また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/citation</code></td>
+      <td><code>schema:citation</code></td>
       <td>出典</td>
       <td><ul><li>"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）"@ja</li><li>"\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)"@en</li></ul></td>
       <td>
@@ -773,7 +821,7 @@
       <td>文部科学省（文部省）の告示タイトルおよび掲載された官報についての情報。また、言語コードを用いて、出典に加え、英語の出典を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語出典（漢字表記）</dd><dt>@en</dt><dd>英語出典</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/url</code></td>
+      <td><code>schema:url</code></td>
       <td>本文URL</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
       <td>
@@ -787,7 +835,7 @@
       <td>繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href="http://www.nier.go.jp/guideline/">国立教育政策研究所学習指導要領データベース</a>へのリンク。</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>関連リンク</td>
       <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
       <td>
@@ -801,7 +849,7 @@
       <td>繰り返しあり。<a href="http://iss.ndl.go.jp/">国立国会図書館サーチ</a>、<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>へのリンク。</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/isbn</code></td>
+      <td><code>schema:isbn</code></td>
       <td>ISBN</td>
       <td>9784491034607</td>
       <td>
@@ -815,7 +863,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/itemID</code></td>
+      <td><code>nier:itemID</code></td>
       <td>国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID</td>
       <td>071221843</td>
       <td>
@@ -829,7 +877,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/callNumber</code></td>
+      <td><code>nier:callNumber</code></td>
       <td>国立教育政策研究所教育図書館の所蔵資料に対する請求記号</td>
       <td>375.92||1||1989d</td>
       <td>
@@ -843,7 +891,7 @@
       <td>区切り記号は、「||」である。</td>
     </tr>
     <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/recordID</code></td>
+      <td><code>nier:recordID</code></td>
       <td>国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID</td>
       <td>BB80025218</td>
       <td>
@@ -857,7 +905,7 @@
       <td><code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/startDate</code></td>
+      <td><code>schema:startDate</code></td>
       <td>施行年月日</td>
       <td>2020-04-01</td>
       <td>
@@ -871,7 +919,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/datePublished</code></td>
+      <td><code>schema:datePublished</code></td>
       <td>告示日（改正日）</td>
       <td>1989-03-15</td>
       <td>
@@ -885,7 +933,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>https://w3id.org/jp-cos/school/Elementary</td>
       <td>
@@ -899,7 +947,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/dataset</code></td>
+      <td><code>cs:dataset</code></td>
       <td>データセット</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -913,13 +961,26 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>障害分類</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="DisabilityCategoryShape">障害分類</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/DisabilityCategory">https://w3id.org/jp-cos/DisabilityCategory</a></li></ul>
             <p>障害を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></code></p>
             <p>障害分類リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -930,7 +991,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>コード割り当て表掲載順</td>
       <td>2</td>
       <td>
@@ -944,7 +1005,7 @@
       <td>表示順を決める場合などで利用</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>関連リンク</td>
       <td class="url">http://ja.dbpedia.org/resource/知的障害</td>
       <td>
@@ -958,7 +1019,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>名称</td>
       <td><ul><li>"知的"@ja</li><li>"知的"@ja-Hira</li><li>"Intellectual Disability"@en</li></ul></td>
       <td>
@@ -972,13 +1033,24 @@
       <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>項番</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="NumberShape">項番</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Number">https://w3id.org/jp-cos/Number</a></li></ul>
             <p>学習指導要領コードのデータセットの中での項番を表すクラス。</p>
             <p>項番リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -989,7 +1061,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</code></td>
+      <td><code>rdf:value</code></td>
       <td>項番</td>
       <td>122</td>
       <td>
@@ -1003,7 +1075,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/source</code></td>
+      <td><code>dct:source</code></td>
       <td>出典</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -1017,13 +1089,22 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>告示時期</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="PeriodShape">告示時期</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Period">https://w3id.org/jp-cos/Period</a></li></ul>
             <p>10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code></p>
             <p>告示時期リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1034,7 +1115,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>名称</td>
       <td><ul><li>"平成29～31年　告示"@ja</li><li>"Published from 2017 to 2019"@en</li></ul></td>
       <td>
@@ -1048,7 +1129,7 @@
       <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/startDate</code></td>
+      <td><code>schema:startDate</code></td>
       <td>時期開始日</td>
       <td>2017-01-01</td>
       <td>
@@ -1062,7 +1143,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/endDate</code></td>
+      <td><code>schema:endDate</code></td>
       <td>時期終了日</td>
       <td>2019-12-31</td>
       <td>
@@ -1076,7 +1157,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code01</code></td>
+      <td><code>cs:code01</code></td>
       <td>学習指導要領コード1桁目</td>
       <td>8</td>
       <td>
@@ -1090,7 +1171,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode01</code></td>
+      <td><code>cs:fcode01</code></td>
       <td>学習指導要領コード1桁目に対応するFコード</td>
       <td>A8</td>
       <td>
@@ -1104,13 +1185,22 @@
       <td>学習指導要領コードの1桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>関係のある教科等</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="RelatedSubjectAreaShape">関係のある教科等</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/RelatedSubjectArea">https://w3id.org/jp-cos/RelatedSubjectArea</a></li></ul>
             <p>障害分類のある教科の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var></code></p>
             <p>関係のある教科等リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1121,7 +1211,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/dc/terms/relation</code></td>
+      <td><code>dct:relation</code></td>
       <td>関係がある</td>
       <td>https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語</td>
       <td>
@@ -1135,7 +1225,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>関係のある教科名</td>
       <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
       <td>
@@ -1149,13 +1239,22 @@
       <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>関係のある科目等</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="RelatedSubjectShape">関係のある科目等</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/RelatedSubject">https://w3id.org/jp-cos/RelatedSubject</a></li></ul>
             <p>障害分類のある科目等の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code></p>
             <p>関係のある科目等リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1166,7 +1265,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/dc/terms/relation</code></td>
+      <td><code>dct:relation</code></td>
       <td>関係がある</td>
       <td>https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語</td>
       <td>
@@ -1180,7 +1279,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>関係のある科目名</td>
       <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
       <td>
@@ -1194,13 +1293,22 @@
       <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>学校種別</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SchoolShape">学校種別</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/School">https://w3id.org/jp-cos/School</a></li></ul>
             <p>学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code></p>
             <p>学校種別リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1211,7 +1319,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>コード割り当て表掲載順</td>
       <td>2</td>
       <td>
@@ -1225,7 +1333,7 @@
       <td>表示順を決める場合などで利用</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2002/07/owl#sameAs</code></td>
+      <td><code>owl:sameAs</code></td>
       <td>同一リソース</td>
       <td class="url">http://ja.dbpedia.org/resource/小学校</td>
       <td>
@@ -1239,7 +1347,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>名称</td>
       <td><ul><li>"小学校"@ja</li><li>"しょうがっこう"@ja-Hira</li><li>"Elementary School"@en</li></ul></td>
       <td>
@@ -1253,13 +1361,24 @@
       <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>英語表記の出典</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>owl:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2002/07/owl#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SourceOfEnglishNameShape">英語表記の出典</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/SourceOfEnglishName">https://w3id.org/jp-cos/SourceOfEnglishName</a></li></ul>
             <p>教科や科目などの英訳の出典を表すクラス。</p>
             <p>英語表記の出典リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1270,7 +1389,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>英語表記出典の名称</td>
       <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
       <td>
@@ -1284,7 +1403,7 @@
       <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>対応学習指導要領</td>
       <td>https://w3id.org/jp-cos/Elementary/2008</td>
       <td>
@@ -1298,7 +1417,7 @@
       <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>関連リンク</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
       <td>
@@ -1312,13 +1431,24 @@
       <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>段階</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="StageShape">段階</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Stage">https://w3id.org/jp-cos/Stage</a></li></ul>
             <p>知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code></p>
             <p>段階リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1329,7 +1459,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>名称</td>
       <td><ul><li>"Stage 1"@en</li><li>"１段階"@ja</li></ul></td>
       <td>
@@ -1343,7 +1473,7 @@
       <td>また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/description</code></td>
+      <td><code>schema:description</code></td>
       <td>説明</td>
       <td></td>
       <td>
@@ -1357,9 +1487,9 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/citation</code></td>
+      <td><code>schema:citation</code></td>
       <td>出典</td>
-      <td>文部科学省. "第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
+      <td>文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
       <td>
         <div>
           <strong>必須</strong>
@@ -1371,7 +1501,7 @@
       <td>文部科学省（文部省）が発行した文書についての情報。</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>関連リンク</td>
       <td class="url">http://ja.dbpedia.org/resource/知的障害</td>
       <td>
@@ -1385,7 +1515,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>障害分類</td>
       <td>https://w3id.org/jp-cos/disabilityCategory/Intellectual</td>
       <td>
@@ -1399,7 +1529,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>https://w3id.org/jp-cos/school/ElementaryDeptSNES</td>
       <td>
@@ -1413,13 +1543,24 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>教科等</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectAreaShape">教科等</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/SubjectArea">https://w3id.org/jp-cos/SubjectArea</a></li></ul>
             <p>教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code></p>
             <p>教科等リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1430,7 +1571,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
+      <td><code>cs:courseOfStudyRevision</code></td>
       <td>学習指導要領（一部改正情報）</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -1444,7 +1585,7 @@
       <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>学習指導要領掲載順</td>
       <td>1</td>
       <td>
@@ -1458,7 +1599,7 @@
       <td>表示順を決める場合などで利用</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>障害分類</td>
       <td>https://w3id.org/jp-cos/disabilityCategory/Intellectual</td>
       <td>
@@ -1472,7 +1613,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>https://w3id.org/jp-cos/school/LowerSecondary</td>
       <td>
@@ -1486,7 +1627,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>教科名</td>
       <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
       <td>
@@ -1500,7 +1641,7 @@
       <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
     </tr>
     <tr>
-      <td rowspan="2"><code>https://w3id.org/jp-cos/sourceOfEnglishName</code></td>
+      <td rowspan="2"><code>cs:sourceOfEnglishName</code></td>
       <td>英語表記出典</td>
       <td></td>
       <td>
@@ -1516,7 +1657,7 @@
     <tr>
       <td colspan="4">
         ブランクノードの内容は以下の内容からなる構造を持ちます。
-        <div class="blank_node"><table class="table table-condensed">
+        <div class="blank_node"><table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1527,7 +1668,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>英語表記出典の名称</td>
       <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
       <td>
@@ -1541,7 +1682,7 @@
       <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>対応学習指導要領</td>
       <td>https://w3id.org/jp-cos/Elementary/2008</td>
       <td>
@@ -1555,7 +1696,7 @@
       <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>関連リンク</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
       <td>
@@ -1569,13 +1710,24 @@
       <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
     </tr>
   </tbody>
-</table>
-
-</div>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table></div>
       </td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code03</code></td>
+      <td><code>cs:code03</code></td>
       <td>学習指導要領コード3桁目</td>
       <td>1</td>
       <td>
@@ -1589,7 +1741,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode03</code></td>
+      <td><code>cs:fcode03</code></td>
       <td>学習指導要領コード3桁目に対応するFコード</td>
       <td>A1</td>
       <td>
@@ -1603,7 +1755,7 @@
       <td>学習指導要領コードの3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/codePrefix</code></td>
+      <td><code>cs:codePrefix</code></td>
       <td>教科コード</td>
       <td>821</td>
       <td>
@@ -1617,7 +1769,7 @@
       <td>学習指導要領コードの1桁目から3桁目。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcodePrefix</code></td>
+      <td><code>cs:fcodePrefix</code></td>
       <td>F教科コード</td>
       <td>A8A2A1</td>
       <td>
@@ -1631,7 +1783,7 @@
       <td>学習指導要領コードの1桁目から3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/hasSubject</code></td>
+      <td><code>cs:hasSubject</code></td>
       <td>科目がある</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
       <td>
@@ -1645,13 +1797,24 @@
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>科目等</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectShape">科目等</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/Subject">https://w3id.org/jp-cos/Subject</a></li></ul>
             <p>科目や分類などを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code></p>
             <p>科目等リソースが持つプロパティを下表に示します</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1662,7 +1825,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
+      <td><code>cs:courseOfStudyRevision</code></td>
       <td>学習指導要領（一部改正情報）</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -1676,7 +1839,7 @@
       <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>学習指導要領掲載順</td>
       <td>10</td>
       <td>
@@ -1690,7 +1853,7 @@
       <td>表示順を決める場合などで利用</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>障害分類</td>
       <td>https://w3id.org/jp-cos/Intellectual</td>
       <td>
@@ -1704,7 +1867,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>学校種別</td>
       <td>https://w3id.org/jp-cos/school/LowerSecondary</td>
       <td>
@@ -1718,7 +1881,7 @@
       <td>学習指導要領コードの2桁目に対応</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>科目名</td>
       <td><ul><li>"英語"@ja</li><li>"えいご"@ja-Hira</li><li>"English"@en</li></ul></td>
       <td>
@@ -1732,7 +1895,7 @@
       <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
     </tr>
     <tr>
-      <td rowspan="2"><code>https://w3id.org/jp-cos/sourceOfEnglishName</code></td>
+      <td rowspan="2"><code>cs:sourceOfEnglishName</code></td>
       <td>英語表記出典</td>
       <td></td>
       <td>
@@ -1748,7 +1911,7 @@
     <tr>
       <td colspan="4">
         ブランクノードの内容は以下の内容からなる構造を持ちます。
-        <div class="blank_node"><table class="table table-condensed">
+        <div class="blank_node"><table class="table table-sm">
   <tr>
     <th>プロパティ名</th>
     <th>説明</th>
@@ -1759,7 +1922,7 @@
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>英語表記出典の名称</td>
       <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
       <td>
@@ -1773,7 +1936,7 @@
       <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>対応学習指導要領</td>
       <td>https://w3id.org/jp-cos/Elementary/2008</td>
       <td>
@@ -1787,7 +1950,7 @@
       <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>関連リンク</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
       <td>
@@ -1801,13 +1964,24 @@
       <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
     </tr>
   </tbody>
-</table>
-
-</div>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table></div>
       </td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code04</code></td>
+      <td><code>cs:code04</code></td>
       <td>学習指導要領コード4桁目</td>
       <td>1</td>
       <td>
@@ -1821,7 +1995,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode04</code></td>
+      <td><code>cs:fcode04</code></td>
       <td>学習指導要領コード4桁目に対応するFコード</td>
       <td>A1</td>
       <td>
@@ -1835,7 +2009,7 @@
       <td>学習指導要領コードの4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/codePrefix</code></td>
+      <td><code>cs:codePrefix</code></td>
       <td>科目コード</td>
       <td>83H1</td>
       <td>
@@ -1849,7 +2023,7 @@
       <td>学習指導要領コードの1桁目から4桁目。</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcodePrefix</code></td>
+      <td><code>cs:fcodePrefix</code></td>
       <td>F科目コード</td>
       <td>A8A3UHA1</td>
       <td>
@@ -1863,9 +2037,20 @@
       <td>学習指導要領コードの1桁目から4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
     </tr>
   </tbody>
-</table>
-
-        </div>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>        </div>
       </div>
       <div class="row">
         <div class="col-md">

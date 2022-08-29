@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/School>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "It represents school class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code>"@en, "学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code>"@en, "学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code>"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Type of School"@en, "学校種別"@ja .
 <https://w3id.org/jp-cos/school/Elementary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
 <https://w3id.org/jp-cos/school/ElementaryDeptSNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.

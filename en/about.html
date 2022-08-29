@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +22,9 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="./"><img src="https://w3id.org/jp-cos/logo.png" height="30" alt="Japanese Course of Study LOD"></a>
+      <a class="navbar-brand" href="./">
+        <img src="https://w3id.org/jp-cos/logo.png" style="max-height: 54px" alt="Japanese Course of Study LOD">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -96,11 +98,11 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <div class="row">
         <div class="col-md">
           <h2 id="shapes">Resources description</h2>
-            <h3>Course Of Study Item</h3>
+            <h3 id="ItemShape">Course Of Study Item</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Item">https://w3id.org/jp-cos/Item</a></li></ul>
-            <p>It represents course of study item class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>Course Of Study Code</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>Course Of Study Code</var></code></p>
             <p>The properties for the Course Of Study Item resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -111,7 +113,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>Course Of Study</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017</td>
       <td>
@@ -125,7 +127,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
+      <td><code>cs:courseOfStudyRevision</code></td>
       <td>Course Of Study Revision</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -139,7 +141,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. It corresponds to the course of study revision.</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/source</code></td>
+      <td><code>dct:source</code></td>
       <td>Source</td>
       <td>https://w3id.org/jp-cos/83V11</td>
       <td>
@@ -153,7 +155,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2"><code>http://purl.org/linked-data/cube#order</code></td>
+      <td rowspan="2"><code>qb:order</code></td>
       <td>Item Number</td>
       <td></td>
       <td>
@@ -169,7 +171,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
     <tr>
       <td colspan="4">
         The structural contents of a blank node are as follows:
-        <div class="blank_node"><table class="table table-condensed">
+        <div class="blank_node"><table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -180,7 +182,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</code></td>
+      <td><code>rdf:value</code></td>
       <td>Number</td>
       <td>122</td>
       <td>
@@ -194,7 +196,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/source</code></td>
+      <td><code>dct:source</code></td>
       <td>Source</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -208,13 +210,22 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-</div>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table></div>
       </td>
     </tr>
     <tr>
-      <td><code>http://schema.org/description</code></td>
+      <td><code>schema:description</code></td>
       <td>Description of Course Of Study Item</td>
       <td>'''(イ) 語と語の連結による音の変化'''</td>
       <td>
@@ -228,7 +239,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>The value of the "Text of Course of Study" column of the original data.</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/identifier</code></td>
+      <td><code>dct:identifier</code></td>
       <td>Code of Course of Study Item</td>
       <td>83H1203111200000</td>
       <td>
@@ -242,7 +253,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>The value of the "Course of Study Code" column of the original data.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td><code>cs:issuedPeriod</code></td>
       <td>Issued Period</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
       <td>
@@ -256,7 +267,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the first digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>cs:school/LowerSecondary</td>
       <td>
@@ -270,7 +281,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>Disability Category</td>
       <td>cs:disabilityCategory/Intellectual</td>
       <td>
@@ -284,7 +295,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/subjectArea</code></td>
+      <td><code>cs:subjectArea</code></td>
       <td>Subject Area</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
       <td>
@@ -298,7 +309,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 3rd digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/subject</code></td>
+      <td><code>cs:subject</code></td>
       <td>Subject</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
       <td>
@@ -312,7 +323,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 4th digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/category</code></td>
+      <td><code>cs:category</code></td>
       <td>Category</td>
       <td>目標及び内容（大項目）</td>
       <td>
@@ -326,7 +337,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 5th digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/grade</code></td>
+      <td><code>cs:grade</code></td>
       <td>Grade</td>
       <td>1,2</td>
       <td>
@@ -340,7 +351,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 6th digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/stage</code></td>
+      <td><code>cs:stage</code></td>
       <td>Stage</td>
       <td>https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
       <td>
@@ -354,7 +365,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 6th digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/subCategory</code></td>
+      <td><code>cs:subCategory</code></td>
       <td>Sub Category</td>
       <td>内容</td>
       <td>
@@ -368,7 +379,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 7th digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/edition</code></td>
+      <td><code>schema:edition</code></td>
       <td>Edition of Course Of Study Item</td>
       <td>一部改正なし</td>
       <td>
@@ -382,7 +393,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the 16th digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode</code></td>
+      <td><code>cs:fcode</code></td>
       <td>Fcode of Course of Study</td>
       <td>A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0</td>
       <td>
@@ -396,7 +407,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make course of study code easier to handle in Excel filters and pivot tables.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/hasPart</code></td>
+      <td><code>schema:hasPart</code></td>
       <td>Child</td>
       <td>https://w3id.org/jp-cos/8GH12a4222140000</td>
       <td>
@@ -410,7 +421,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Child of the cource of study item. It is created automatically by the program using the regularity of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/sectionNumber</code></td>
+      <td><code>cs:sectionNumber</code></td>
       <td>Section Number</td>
       <td>(イ)</td>
       <td>
@@ -424,7 +435,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is the section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/sectionText</code></td>
+      <td><code>cs:sectionText</code></td>
       <td>Text</td>
       <td>''語と語の連結による音の変化'''</td>
       <td>
@@ -438,7 +449,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
     </tr>
     <tr>
-      <td><code>http://id.loc.gov/ontologies/bibframe/note</code></td>
+      <td><code>bf:note</code></td>
       <td>Note</td>
       <td><ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is "0", but the correct value is "e". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul></td>
       <td>
@@ -452,13 +463,28 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, this property represents an original note and English note. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese note</dd><dt>@en</dt><dd>English note</dd></dl></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Dataset</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>bf:</code></dt>
+      <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="DatasetShape">Dataset</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Dataset">https://w3id.org/jp-cos/Dataset</a></li></ul>
-            <p>It represents dataset class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code></p>
             <p>The properties for the Dataset resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -469,7 +495,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/dc/terms/identifier</code></td>
+      <td><code>dct:identifier</code></td>
       <td>Dataset ID</td>
       <td>82V11</td>
       <td>
@@ -483,7 +509,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/version</code></td>
+      <td><code>schema:version</code></td>
       <td>Version</td>
       <td>1.1</td>
       <td>
@@ -497,7 +523,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）"@ja</li><li>"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）"@en</li></ul></td>
       <td>
@@ -511,7 +537,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>https://w3id.org/jp-cos/school/Elementary</td>
       <td>
@@ -525,7 +551,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/releaseDate</code></td>
+      <td><code>schema:releaseDate</code></td>
       <td>Date of Release</td>
       <td>2021-08-20</td>
       <td>
@@ -539,13 +565,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Course of Study</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="CourseOfStudyShape">Course of Study</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/CourseOfStudy">https://w3id.org/jp-cos/CourseOfStudy</a></li></ul>
-            <p>It represents course of study class. Major revisions are made once every 10 years.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code></p>
             <p>The properties for the Course of Study resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -556,7 +593,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td><code>cs:issuedPeriod</code></td>
       <td>Issued Period</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
       <td>
@@ -570,7 +607,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the first digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"小学校学習指導要領"@ja</li><li>"しょうがっこうがくしゅうしどうようりょう"@ja-Hira</li><li>"Elementary School Curriculum Guideline"@en</li></ul></td>
       <td>
@@ -584,7 +621,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/datePublished</code></td>
+      <td><code>schema:datePublished</code></td>
       <td>Date of Announcement</td>
       <td>2017-03-31</td>
       <td>
@@ -598,7 +635,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/startDate</code></td>
+      <td><code>schema:startDate</code></td>
       <td>Date of Enforcement</td>
       <td>2020-04-01</td>
       <td>
@@ -612,7 +649,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>https://w3id.org/jp-cos/school/Elementary</td>
       <td>
@@ -626,7 +663,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/url</code></td>
+      <td><code>schema:url</code></td>
       <td>Fulltext URL</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm</td>
       <td>
@@ -640,7 +677,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. Link to the fulltext possibly at the MEXT website and Curriculum guidelines database at NIER</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/hasVersion</code></td>
+      <td><code>dct:hasVersion</code></td>
       <td>Other versions</td>
       <td>https://w3id.org/jp-cos/Elementary/2017/2017</td>
       <td>
@@ -654,7 +691,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. It corresponds to the course of study revision.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/dataset</code></td>
+      <td><code>cs:dataset</code></td>
       <td>Dataset</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -668,7 +705,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/hasSubjectArea</code></td>
+      <td><code>cs:hasSubjectArea</code></td>
       <td>has a subject area</td>
       <td>https://w3id.org/jp-cos/Elementary/2017/国語</td>
       <td>
@@ -682,7 +719,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/hasSubject</code></td>
+      <td><code>cs:hasSubject</code></td>
       <td>has a subject</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
       <td>
@@ -696,13 +733,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Course of Study Revision</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="CourseOfStudyRevisionShape">Course of Study Revision</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/CourseOfStudyRevision">https://w3id.org/jp-cos/CourseOfStudyRevision</a></li></ul>
-            <p>It represents course of study revision class. It is used in cases where some revisions are made during the 10-year period.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code></p>
             <p>The properties for the Course of Study Revision resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -713,7 +761,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/issuedPeriod</code></td>
+      <td><code>cs:issuedPeriod</code></td>
       <td>Issued Period</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
       <td>
@@ -727,7 +775,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the first digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name of the revision</td>
       <td><ul><li>"中学校学習指導要領 平成22年11月 一部改正"@ja</li><li>"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision"@en</li></ul></td>
       <td>
@@ -741,7 +789,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>If the revision is on a part of a guideline, the name of the revision will be assigned such as "Partial revision in December 2003". Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/citation</code></td>
+      <td><code>schema:citation</code></td>
       <td>Reference</td>
       <td><ul><li>"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）"@ja</li><li>"\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)"@en</li></ul></td>
       <td>
@@ -755,7 +803,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Refer to the official announcement and its publication. Using language tags, Japanese and English names shown. The meanings of language tags are as follows: <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/url</code></td>
+      <td><code>schema:url</code></td>
       <td>Fulltext URL</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm</td>
       <td>
@@ -769,7 +817,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. Links to the fulltext(s), such as MEXT website and <a href="http://www.nier.go.jp/guideline/">NIER Curriculum Guidelines Database</a>.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>Related links</td>
       <td class="url">http://id.ndl.go.jp/jpno/89034331</td>
       <td>
@@ -783,7 +831,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. Links to <a href="http://iss.ndl.go.jp/">NDL Search</a> and <a href="https://ci.nii.ac.jp/books/">CiNii Books</a>.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/isbn</code></td>
+      <td><code>schema:isbn</code></td>
       <td>ISBN</td>
       <td>9784491034607</td>
       <td>
@@ -797,7 +845,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/itemID</code></td>
+      <td><code>nier:itemID</code></td>
       <td>Item identifier at the NIER Education Library</td>
       <td>071221843</td>
       <td>
@@ -811,7 +859,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/callNumber</code></td>
+      <td><code>nier:callNumber</code></td>
       <td>Call number at the NIER Education Library</td>
       <td>375.92||1||1989d</td>
       <td>
@@ -825,7 +873,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Delimiter for a call number is "||".</td>
     </tr>
     <tr>
-      <td><code>http://dl.nier.go.jp/library/vocab/recordID</code></td>
+      <td><code>nier:recordID</code></td>
       <td>Record identifier at the NIER Education Library</td>
       <td>BB80025218</td>
       <td>
@@ -839,7 +887,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/startDate</code></td>
+      <td><code>schema:startDate</code></td>
       <td>Date of Enforcement</td>
       <td>2020-04-01</td>
       <td>
@@ -853,7 +901,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/datePublished</code></td>
+      <td><code>schema:datePublished</code></td>
       <td>Date of announcement (date of revision)</td>
       <td>1989-03-15</td>
       <td>
@@ -867,7 +915,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>https://w3id.org/jp-cos/school/Elementary</td>
       <td>
@@ -881,7 +929,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/dataset</code></td>
+      <td><code>cs:dataset</code></td>
       <td>Dataset</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -895,13 +943,26 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Disability Category</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>nier:</code></dt>
+      <dd class="col-sm-10">http://dl.nier.go.jp/library/vocab/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="DisabilityCategoryShape">Disability Category</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/DisabilityCategory">https://w3id.org/jp-cos/DisabilityCategory</a></li></ul>
-            <p>Class representing a disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code></p>
             <p>The properties for the Disability Category resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -912,7 +973,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>Listing order of the code assignment table</td>
       <td>2</td>
       <td>
@@ -926,7 +987,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>This is used in the order of the listings.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>Related link(s)</td>
       <td class="url">http://ja.dbpedia.org/resource/知的障害</td>
       <td>
@@ -940,7 +1001,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"知的"@ja</li><li>"知的"@ja-Hira</li><li>"Intellectual Disability"@en</li></ul></td>
       <td>
@@ -954,13 +1015,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Line Number</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="NumberShape">Line Number</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Number">https://w3id.org/jp-cos/Number</a></li></ul>
-            <p>A class that represents a item number in a data set of study guide codes.</p>
+            <p>学習指導要領コードのデータセットの中での項番を表すクラス。</p>
             <p>The properties for the Line Number resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -971,7 +1043,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</code></td>
+      <td><code>rdf:value</code></td>
       <td>Number</td>
       <td>122</td>
       <td>
@@ -985,7 +1057,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://purl.org/dc/terms/source</code></td>
+      <td><code>dct:source</code></td>
       <td>Source</td>
       <td>https://w3id.org/jp-cos/82V11</td>
       <td>
@@ -999,13 +1071,22 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Issued Period</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="PeriodShape">Issued Period</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Period">https://w3id.org/jp-cos/Period</a></li></ul>
-            <p>Classes for grouping the Courses of Study, which are revised once every 10 years, across school types.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code></p>
             <p>The properties for the Issued Period resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1016,7 +1097,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"平成29～31年　告示"@ja</li><li>"Published from 2017 to 2019"@en</li></ul></td>
       <td>
@@ -1030,7 +1111,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/startDate</code></td>
+      <td><code>schema:startDate</code></td>
       <td>Start Date</td>
       <td>2017-01-01</td>
       <td>
@@ -1044,7 +1125,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/endDate</code></td>
+      <td><code>schema:endDate</code></td>
       <td>End Date</td>
       <td>2019-12-31</td>
       <td>
@@ -1058,7 +1139,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code01</code></td>
+      <td><code>cs:code01</code></td>
       <td>First Digit Code of Course of Study Item</td>
       <td>8</td>
       <td>
@@ -1072,7 +1153,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode01</code></td>
+      <td><code>cs:fcode01</code></td>
       <td>Fcode Correspond to First Digit Code of Course of Study Item</td>
       <td>A8</td>
       <td>
@@ -1086,13 +1167,22 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the first digit code of course of study item easier to handle in Excel filters and pivot tables.</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Related Subject Area</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="RelatedSubjectAreaShape">Related Subject Area</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/RelatedSubjectArea">https://w3id.org/jp-cos/RelatedSubjectArea</a></li></ul>
-            <p>A class to group together across disability categories for subject areas with disability categories.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var></code></p>
             <p>The properties for the Related Subject Area resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1103,7 +1193,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/dc/terms/relation</code></td>
+      <td><code>dct:relation</code></td>
       <td>Related</td>
       <td>https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語</td>
       <td>
@@ -1117,7 +1207,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
       <td>
@@ -1131,13 +1221,22 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Related Subject</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="RelatedSubjectShape">Related Subject</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/RelatedSubject">https://w3id.org/jp-cos/RelatedSubject</a></li></ul>
-            <p>A class to group together across disability categories for subjects with disability categories.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject</var></code></p>
             <p>The properties for the Related Subject resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1148,7 +1247,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/dc/terms/relation</code></td>
+      <td><code>dct:relation</code></td>
       <td>Related</td>
       <td>https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語</td>
       <td>
@@ -1162,7 +1261,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
       <td>
@@ -1176,13 +1275,22 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Type of School</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SchoolShape">Type of School</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/School">https://w3id.org/jp-cos/School</a></li></ul>
-            <p>It represents school class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code></p>
             <p>The properties for the Type of School resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1193,7 +1301,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>Listing order of the code assignment table</td>
       <td>2</td>
       <td>
@@ -1207,7 +1315,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>This is used in the order of the listings.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2002/07/owl#sameAs</code></td>
+      <td><code>owl:sameAs</code></td>
       <td>Equivalent resource</td>
       <td class="url">http://ja.dbpedia.org/resource/小学校</td>
       <td>
@@ -1221,7 +1329,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"小学校"@ja</li><li>"しょうがっこう"@ja-Hira</li><li>"Elementary School"@en</li></ul></td>
       <td>
@@ -1235,13 +1343,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Referrence for English name</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>owl:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2002/07/owl#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SourceOfEnglishNameShape">Referrence for English name</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/SourceOfEnglishName">https://w3id.org/jp-cos/SourceOfEnglishName</a></li></ul>
-            <p>A class that represents the source of an English translation of a subject or subject area.</p>
+            <p>教科や科目などの英訳の出典を表すクラス。</p>
             <p>The properties for the Referrence for English name resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1252,7 +1371,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name for the source</td>
       <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
       <td>
@@ -1266,7 +1385,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese and English names are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>Reference to a curriculum guideline</td>
       <td>https://w3id.org/jp-cos/Elementary/2008</td>
       <td>
@@ -1280,7 +1399,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>If the source is the English translation of the curriculum guideline, this property refer to the corresponding guideline.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>Related links</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
       <td>
@@ -1294,13 +1413,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Links to the referenced website and the bibliographic information such as <a href="https://ci.nii.ac.jp/books/">CiNii Books</a> when the source is a book.</td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Stage</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="StageShape">Stage</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Stage">https://w3id.org/jp-cos/Stage</a></li></ul>
-            <p>A class representing a stage in the case of intellectual disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code></p>
             <p>The properties for the Stage resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1311,7 +1441,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"Stage 1"@en</li><li>"１段階"@ja</li></ul></td>
       <td>
@@ -1325,7 +1455,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/description</code></td>
+      <td><code>schema:description</code></td>
       <td>Descriotion</td>
       <td></td>
       <td>
@@ -1339,9 +1469,9 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>http://schema.org/citation</code></td>
+      <td><code>schema:citation</code></td>
       <td>Reference</td>
-      <td>文部科学省. "第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
+      <td>文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
       <td>
         <div>
           <strong>Required</strong>
@@ -1353,7 +1483,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Refer to the official publication.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>Related link(s)</td>
       <td class="url">http://ja.dbpedia.org/resource/知的障害</td>
       <td>
@@ -1367,7 +1497,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>Disability Category</td>
       <td>https://w3id.org/jp-cos/disabilityCategory/Intellectual</td>
       <td>
@@ -1381,7 +1511,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>https://w3id.org/jp-cos/school/ElementaryDeptSNES</td>
       <td>
@@ -1395,13 +1525,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Subject Area</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectAreaShape">Subject Area</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/SubjectArea">https://w3id.org/jp-cos/SubjectArea</a></li></ul>
-            <p>A class that represents a subject, etc. It also includes other subjects, such as general rules.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code></p>
             <p>The properties for the Subject Area resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1412,7 +1553,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
+      <td><code>cs:courseOfStudyRevision</code></td>
       <td>Course Of Study Revision</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -1426,7 +1567,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. It corresponds to the revisions of the course of study.</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>Listing order of the course of study</td>
       <td>1</td>
       <td>
@@ -1440,7 +1581,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>This is used in the order of the listings.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>Disability Category</td>
       <td>https://w3id.org/jp-cos/disabilityCategory/Intellectual</td>
       <td>
@@ -1454,7 +1595,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>https://w3id.org/jp-cos/school/LowerSecondary</td>
       <td>
@@ -1468,7 +1609,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name</td>
       <td><ul><li>"外国語"@ja</li><li>"がいこくご"@ja-Hira</li><li>"Foreign Languages"@en</li></ul></td>
       <td>
@@ -1482,7 +1623,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
     </tr>
     <tr>
-      <td rowspan="2"><code>https://w3id.org/jp-cos/sourceOfEnglishName</code></td>
+      <td rowspan="2"><code>cs:sourceOfEnglishName</code></td>
       <td>Source for the English name</td>
       <td></td>
       <td>
@@ -1498,7 +1639,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
     <tr>
       <td colspan="4">
         The structural contents of a blank node are as follows:
-        <div class="blank_node"><table class="table table-condensed">
+        <div class="blank_node"><table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1509,7 +1650,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name for the source</td>
       <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
       <td>
@@ -1523,7 +1664,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese and English names are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>Reference to a curriculum guideline</td>
       <td>https://w3id.org/jp-cos/Elementary/2008</td>
       <td>
@@ -1537,7 +1678,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>If the source is the English translation of the curriculum guideline, this property refer to the corresponding guideline.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>Related links</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
       <td>
@@ -1551,13 +1692,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Links to the referenced website and the bibliographic information such as <a href="https://ci.nii.ac.jp/books/">CiNii Books</a> when the source is a book.</td>
     </tr>
   </tbody>
-</table>
-
-</div>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table></div>
       </td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code03</code></td>
+      <td><code>cs:code03</code></td>
       <td>3th Digit Code of Course of Study Item</td>
       <td>1</td>
       <td>
@@ -1571,7 +1723,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode03</code></td>
+      <td><code>cs:fcode03</code></td>
       <td>Fcode Correspond to 3th Digit Code of Course of Study Item</td>
       <td>A1</td>
       <td>
@@ -1585,7 +1737,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/codePrefix</code></td>
+      <td><code>cs:codePrefix</code></td>
       <td>Code of Subject Area</td>
       <td>821</td>
       <td>
@@ -1599,7 +1751,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>The first through third digits of the course of study code</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcodePrefix</code></td>
+      <td><code>cs:fcodePrefix</code></td>
       <td>Fcode of Subject Area</td>
       <td>A8A2A1</td>
       <td>
@@ -1613,7 +1765,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 3th one of course of study item easier to handle in Excel filters and pivot tables.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/hasSubject</code></td>
+      <td><code>cs:hasSubject</code></td>
       <td>has a subject</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
       <td>
@@ -1627,13 +1779,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
   </tbody>
-</table>
-
-            <h3>Subject</h3>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>            <h3 id="SubjectShape">Subject</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Subject">https://w3id.org/jp-cos/Subject</a></li></ul>
-            <p>A class that represents a subject, classification, etc.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject</var></code></p>
+            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject</var></code></p>
             <p>The properties for the Subject resources are as follows:</p>
-            <table class="table table-condensed">
+            <table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1644,7 +1807,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudyRevision</code></td>
+      <td><code>cs:courseOfStudyRevision</code></td>
       <td>Course Of Study Revision</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017/2017</td>
       <td>
@@ -1658,7 +1821,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Repeatable. It corresponds to the revisions of the course of study.</td>
     </tr>
     <tr>
-      <td><code>http://purl.org/linked-data/cube#order</code></td>
+      <td><code>qb:order</code></td>
       <td>Listing order of the course of study</td>
       <td>10</td>
       <td>
@@ -1672,7 +1835,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>This is used in the order of the listings.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/disabilityCategory</code></td>
+      <td><code>cs:disabilityCategory</code></td>
       <td>Disability Category</td>
       <td>https://w3id.org/jp-cos/Intellectual</td>
       <td>
@@ -1686,7 +1849,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/school</code></td>
+      <td><code>cs:school</code></td>
       <td>Type of School</td>
       <td>https://w3id.org/jp-cos/school/LowerSecondary</td>
       <td>
@@ -1700,7 +1863,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It corresponds to the second digit of the course of study code.</td>
     </tr>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Subject Name</td>
       <td><ul><li>"英語"@ja</li><li>"えいご"@ja-Hira</li><li>"English"@en</li></ul></td>
       <td>
@@ -1714,7 +1877,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
     </tr>
     <tr>
-      <td rowspan="2"><code>https://w3id.org/jp-cos/sourceOfEnglishName</code></td>
+      <td rowspan="2"><code>cs:sourceOfEnglishName</code></td>
       <td>Source for the English name</td>
       <td></td>
       <td>
@@ -1730,7 +1893,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
     <tr>
       <td colspan="4">
         The structural contents of a blank node are as follows:
-        <div class="blank_node"><table class="table table-condensed">
+        <div class="blank_node"><table class="table table-sm">
   <tr>
     <th>Property name</th>
     <th>Description</th>
@@ -1741,7 +1904,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
-      <td><code>http://schema.org/name</code></td>
+      <td><code>schema:name</code></td>
       <td>Name for the source</td>
       <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
       <td>
@@ -1755,7 +1918,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Using language tags, Japanese and English names are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/courseOfStudy</code></td>
+      <td><code>cs:courseOfStudy</code></td>
       <td>Reference to a curriculum guideline</td>
       <td>https://w3id.org/jp-cos/Elementary/2008</td>
       <td>
@@ -1769,7 +1932,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>If the source is the English translation of the curriculum guideline, this property refer to the corresponding guideline.</td>
     </tr>
     <tr>
-      <td><code>http://www.w3.org/2000/01/rdf-schema#seeAlso</code></td>
+      <td><code>rdfs:seeAlso</code></td>
       <td>Related links</td>
       <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
       <td>
@@ -1783,13 +1946,24 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Links to the referenced website and the bibliographic information such as <a href="https://ci.nii.ac.jp/books/">CiNii Books</a> when the source is a book.</td>
     </tr>
   </tbody>
-</table>
-
-</div>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>rdfs:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table></div>
       </td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/code04</code></td>
+      <td><code>cs:code04</code></td>
       <td>4th Digit Code of Course of Study Item</td>
       <td>1</td>
       <td>
@@ -1803,7 +1977,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td></td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcode04</code></td>
+      <td><code>cs:fcode04</code></td>
       <td>Fcode Correspond to 4th Digit Code of Course of Study Item</td>
       <td>A1</td>
       <td>
@@ -1817,7 +1991,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 4th digit code of course of study item easier to handle in Excel filters and pivot tables.</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/codePrefix</code></td>
+      <td><code>cs:codePrefix</code></td>
       <td>Code of Subject</td>
       <td>83H1</td>
       <td>
@@ -1831,7 +2005,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>The first through 4th digits of the course of study code</td>
     </tr>
     <tr>
-      <td><code>https://w3id.org/jp-cos/fcodePrefix</code></td>
+      <td><code>cs:fcodePrefix</code></td>
       <td>Fcode of Subject</td>
       <td>A8A3UHA1</td>
       <td>
@@ -1845,9 +2019,20 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 4th one of course of study item easier to handle in Excel filters and pivot tables.</td>
     </tr>
   </tbody>
-</table>
-
-        </div>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      </dl>
+  </td></tr>
+  </tfoot>
+</table>        </div>
       </div>
       <div class="row">
         <div class="col-md">

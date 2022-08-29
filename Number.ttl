@@ -1,5 +1,5 @@
 <https://w3id.org/jp-cos/Number>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents a item number in a data set of study guide codes."@en, "学習指導要領コードのデータセットの中での項番を表すクラス。"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "学習指導要領コードのデータセットの中での項番を表すクラス。"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Line Number"@en, "項番"@ja .
 <https://w3id.org/jp-cos/NumberShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Number>.

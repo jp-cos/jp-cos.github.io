@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +23,9 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="./"><img src="https://w3id.org/jp-cos/logo.png" height="30" alt="Japanese Course of Study LOD"></a>
+      <a class="navbar-brand" href="./">
+        <img src="https://w3id.org/jp-cos/logo.png" style="max-height: 54px" alt="Japanese Course of Study LOD">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -65,23 +67,20 @@
   <dt class="col-sm-3">Type</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#NodeShape">http://www.w3.org/ns/shacl#NodeShape</a></dd>
   <dt class="col-sm-3">Property</dt>
-      <dd class="col-sm-9"><dl class="row">
+      <dd class="col-sm-9"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9"><ul><li>"Stage 1"@en</li><li>"１段階"@ja</li></ul></dd>
   <dt class="col-sm-3">Datatype</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</a></dd>
   <dt class="col-sm-3">Description</dt>
-    
       <dd class="col-sm-9" lang="ja">また、言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></dd>
-    
   <dt class="col-sm-3">Languagein</dt>
-    <dd class="col-sm-9"><dl class="row">
+    <dd class="col-sm-9"><dl class="row border">
   <dt class="col-sm-3">First</dt>
     <dd class="col-sm-9">ja</dd>
   <dt class="col-sm-3">Rest</dt>
-    <dd class="col-sm-9"><dl class="row">
+    <dd class="col-sm-9"><dl class="row border">
   <dt class="col-sm-3">First</dt>
     <dd class="col-sm-9">en</dd>
   <dt class="col-sm-3">Rest</dt>
@@ -93,11 +92,8 @@
   <dt class="col-sm-3">Mincount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Name</dt>
-    
       <dd class="col-sm-9" lang="ja">名称</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Name</dd>
-    
   <dt class="col-sm-3">Order</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Path</dt>
@@ -105,7 +101,7 @@
   <dt class="col-sm-3">Uniquelang</dt>
     <dd class="col-sm-9">true</dd>
 </dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Datatype</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
   <dt class="col-sm-3">Maxcount</dt>
@@ -113,53 +109,41 @@
   <dt class="col-sm-3">Mincount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Name</dt>
-    
       <dd class="col-sm-9" lang="ja">説明</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Descriotion</dd>
-    
   <dt class="col-sm-3">Order</dt>
     <dd class="col-sm-9">2</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="http://schema.org/description">http://schema.org/description</a></dd>
 </dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9">文部科学省. "第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</dd>
+    <dd class="col-sm-9">文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</dd>
   <dt class="col-sm-3">Datatype</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
   <dt class="col-sm-3">Description</dt>
-    
       <dd class="col-sm-9" lang="ja">文部科学省（文部省）が発行した文書についての情報。</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Refer to the official publication.</dd>
-    
   <dt class="col-sm-3">Maxcount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Mincount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Name</dt>
-    
       <dd class="col-sm-9" lang="ja">出典</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Reference</dd>
-    
   <dt class="col-sm-3">Order</dt>
     <dd class="col-sm-9">3</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="http://schema.org/citation">http://schema.org/citation</a></dd>
 </dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9"><a href="http://ja.dbpedia.org/resource/知的障害">http://ja.dbpedia.org/resource/知的障害</a></dd>
   <dt class="col-sm-3">Mincount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Name</dt>
-    
       <dd class="col-sm-9" lang="ja">関連リンク</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Related link(s)</dd>
-    
   <dt class="col-sm-3">Nodekind</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#IRI">http://www.w3.org/ns/shacl#IRI</a></dd>
   <dt class="col-sm-3">Order</dt>
@@ -167,7 +151,7 @@
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">http://www.w3.org/2000/01/rdf-schema#seeAlso</a></dd>
 </dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9"><a href="disabilityCategory/Intellectual">Intellectual Disability</a></dd>
   <dt class="col-sm-3">Class</dt>
@@ -177,17 +161,14 @@
   <dt class="col-sm-3">Mincount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Name</dt>
-    
       <dd class="col-sm-9" lang="ja">障害分類</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Disability Category</dd>
-    
   <dt class="col-sm-3">Order</dt>
     <dd class="col-sm-9">5</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="disabilityCategory/">Disability Category</a></dd>
 </dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row">
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9"><a href="school/ElementaryDeptSNES">Elementary Department of Special Needs Education School</a></dd>
   <dt class="col-sm-3">Class</dt>
@@ -197,11 +178,8 @@
   <dt class="col-sm-3">Mincount</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Name</dt>
-    
       <dd class="col-sm-9" lang="ja">学校種別</dd>
-    
       <dd class="col-sm-9 offset-sm-3" lang="en">Type of School</dd>
-    
   <dt class="col-sm-3">Order</dt>
     <dd class="col-sm-9">6</dd>
   <dt class="col-sm-3">Path</dt>
