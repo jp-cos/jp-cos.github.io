@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/CourseOfStudyRevision>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code>"@en, "一部改正された学習指導要領を表すクラス。10年の間に一部改正が行われた場合などに利用。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></code>"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "It represents course of study revision class. It is used in cases where some revisions are made during the 10-year period.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code>"@en, "一部改正された学習指導要領を表すクラス。10年の間に一部改正が行われた場合などに利用。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></code>"@ja;
   <http://www.w3.org/2000/01/rdf-schema#label> "Course of Study Revision"@en, "学習指導要領の別バージョン"@ja .
 <https://w3id.org/jp-cos/Elementary/1989/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>.
 <https://w3id.org/jp-cos/Elementary/1998/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>.

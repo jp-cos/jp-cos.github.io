@@ -92,6 +92,10 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
 <p>
 <img src="lod-model.png" alt="Model diagram of Course of Study LOD">
 </p>
+<figure class="figure border p-1">
+  <img class="figure-img img-fluid" src="lod-model.png" alt="Model diagram of Course of Study LOD">
+  <figcaption class="figure-caption">Data model of Course of Study LOD, excerpt from the course of study item "<a href="https://w3id.org/jp-cos/83212A3200000000">83212A3200000000</a>" of the Geographical Field of Social Studies in Lower Secondary School</figcaption>
+</figure>
 
         </div>
       </div>
@@ -100,7 +104,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
           <h2 id="shapes">Resources description</h2>
             <h3 id="ItemShape">Course Of Study Item</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Item">https://w3id.org/jp-cos/Item</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>Course Of Study Code</var></code></p>
+            <p>It represents course of study item class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>Course Of Study Code</var></code></p>
             <p>The properties for the Course Of Study Item resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -482,7 +486,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="DatasetShape">Dataset</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Dataset">https://w3id.org/jp-cos/Dataset</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code></p>
+            <p>It represents dataset class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code></p>
             <p>The properties for the Dataset resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -580,7 +584,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="CourseOfStudyShape">Course of Study</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/CourseOfStudy">https://w3id.org/jp-cos/CourseOfStudy</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code></p>
+            <p>It represents course of study class. Major revisions are made once every 10 years.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code></p>
             <p>The properties for the Course of Study resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -748,7 +752,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="CourseOfStudyRevisionShape">Course of Study Revision</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/CourseOfStudyRevision">https://w3id.org/jp-cos/CourseOfStudyRevision</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code></p>
+            <p>It represents course of study revision class. It is used in cases where some revisions are made during the 10-year period.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code></p>
             <p>The properties for the Course of Study Revision resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -960,7 +964,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="DisabilityCategoryShape">Disability Category</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/DisabilityCategory">https://w3id.org/jp-cos/DisabilityCategory</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code></p>
+            <p>Class representing a disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code></p>
             <p>The properties for the Disability Category resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1030,7 +1034,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="NumberShape">Line Number</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Number">https://w3id.org/jp-cos/Number</a></li></ul>
-            <p>学習指導要領コードのデータセットの中での項番を表すクラス。</p>
+            <p>A class that represents a item number in a data set of study guide codes.</p>
             <p>The properties for the Line Number resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1084,7 +1088,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="PeriodShape">Issued Period</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Period">https://w3id.org/jp-cos/Period</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code></p>
+            <p>Classes for grouping the Courses of Study, which are revised once every 10 years, across school types.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code></p>
             <p>The properties for the Issued Period resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1180,7 +1184,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="RelatedSubjectAreaShape">Related Subject Area</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/RelatedSubjectArea">https://w3id.org/jp-cos/RelatedSubjectArea</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var></code></p>
+            <p>A class to group together across disability categories for subject areas with disability categories.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var></code></p>
             <p>The properties for the Related Subject Area resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1234,7 +1238,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="RelatedSubjectShape">Related Subject</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/RelatedSubject">https://w3id.org/jp-cos/RelatedSubject</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject</var></code></p>
+            <p>A class to group together across disability categories for subjects with disability categories.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject</var></code></p>
             <p>The properties for the Related Subject resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1288,7 +1292,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="SchoolShape">Type of School</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/School">https://w3id.org/jp-cos/School</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code></p>
+            <p>It represents school class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code></p>
             <p>The properties for the Type of School resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1358,7 +1362,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="SourceOfEnglishNameShape">Referrence for English name</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/SourceOfEnglishName">https://w3id.org/jp-cos/SourceOfEnglishName</a></li></ul>
-            <p>教科や科目などの英訳の出典を表すクラス。</p>
+            <p>A class that represents the source of an English translation of a subject or subject area.</p>
             <p>The properties for the Referrence for English name resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1428,7 +1432,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="StageShape">Stage</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Stage">https://w3id.org/jp-cos/Stage</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code></p>
+            <p>A class representing a stage in the case of intellectual disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code></p>
             <p>The properties for the Stage resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1471,7 +1475,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
     <tr>
       <td><code>schema:citation</code></td>
       <td>Reference</td>
-      <td>文部科学省. \"第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方\". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
+      <td>文部科学省. "第４章 知的障害である児童生徒に対する教育を行う特別支援学校の各教科 第 1 節 知的障害者である児童生徒に対する教育を行う特別支援学校の各教科等の基本的な考え方 ５　段階の考え方". 特別支援学校学習指導要領解説　各教科等変（小学部・中学部） 平成30年3月.　p.23-25. 参照日：2021-08-07.</td>
       <td>
         <div>
           <strong>Required</strong>
@@ -1540,7 +1544,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="SubjectAreaShape">Subject Area</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/SubjectArea">https://w3id.org/jp-cos/SubjectArea</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code></p>
+            <p>A class that represents a subject, etc. It also includes other subjects, such as general rules.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code></p>
             <p>The properties for the Subject Area resources are as follows:</p>
             <table class="table table-sm">
   <tr>
@@ -1794,7 +1798,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tfoot>
 </table>            <h3 id="SubjectShape">Subject</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/Subject">https://w3id.org/jp-cos/Subject</a></li></ul>
-            <p>URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject</var></code></p>
+            <p>A class that represents a subject, classification, etc.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject</var></code></p>
             <p>The properties for the Subject resources are as follows:</p>
             <table class="table table-sm">
   <tr>
