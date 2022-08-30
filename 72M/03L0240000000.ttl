@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "72M03L0240000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2806"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2780"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2806"
   ];
   <http://schema.org/description> "(4) 体験活動については，第１の目標並びに第２の各学校において定める目標及び内容を踏まえ，問題の解決や探究活動の過程に適切に位置付けること。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,6 +21,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第5章 / 第3 / 2 / (4)";
   <https://w3id.org/jp-cos/sectionText> "体験活動については，第1の目標並びに第2の各学校において定める目標及び内容を踏まえ，問題の解決や探究活動の過程に適切に位置付けること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/総合的な学習の時間> .

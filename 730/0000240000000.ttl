@@ -2,15 +2,15 @@
   <http://purl.org/dc/terms/identifier> "7300000240000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"
   ];
@@ -24,6 +24,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2 / 4";
   <https://w3id.org/jp-cos/sectionText> "学校において2以上の学年の生徒で編制する学級について特に必要がある場合には，各教科の目標の達成に支障のない範囲内で，各教科の目標及び内容について学年別の順序によらないことができる。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/総則> .

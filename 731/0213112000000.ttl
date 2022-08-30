@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7310213112000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "58"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "52"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "52"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "58"
   ];
   <http://schema.org/description> "イ　全体と部分，事実と意見との関係に注意して話を構成し，相手の反応を踏まえながら話すこと。";
   <http://schema.org/edition> "一部改正なし";
@@ -25,6 +25,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 第2 / 〔第1学年〕 / 2 / A / (1) / イ";
   <https://w3id.org/jp-cos/sectionText> "全体と部分，事実と意見との関係に注意して話を構成し，相手の反応を踏まえながら話すこと。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/国語> .

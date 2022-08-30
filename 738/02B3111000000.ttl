@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73802B3111000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "912"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "906"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "906"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "912"
   ];
   <http://schema.org/description> "ア　歌詞の内容や曲想を味わい，曲にふさわしい表現を工夫して歌うこと。";
   <http://schema.org/edition> "一部改正なし";
@@ -25,6 +25,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第5節 / 第2 / 〔第2学年及び第3学年〕 / 2 / A / (1) / ア";
   <https://w3id.org/jp-cos/sectionText> "歌詞の内容や曲想を味わい，曲にふさわしい表現を工夫して歌うこと。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/音楽> .

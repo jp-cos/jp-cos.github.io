@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73A0300220000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1059"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1053"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1053"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1059"
   ];
   <http://schema.org/description> "(2) 各学年の「Ｂ鑑賞」の題材については，日本及び諸外国の児童生徒の作品，アジアの文化遺産についても取り上げるとともに，美術館・博物館等の施設や文化財などを積極的に活用するようにすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -24,6 +24,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第6節 / 第3 / 2 / (2)";
   <https://w3id.org/jp-cos/sectionText> "各学年の「B鑑賞」の題材については，日本及び諸外国の児童生徒の作品，アジアの文化遺産についても取り上げるとともに，美術館・博物館等の施設や文化財などを積極的に活用するようにすること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/美術> .

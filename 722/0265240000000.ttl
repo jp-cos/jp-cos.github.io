@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7220265240000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1442"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1433"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1442"
   ];
   <http://schema.org/description> "エ　イの「天皇の地位」については，日本国憲法に定める天皇の国事に関する行為など児童に理解しやすい具体的な事項を取り上げ，歴史に関する学習との関連も図りながら，天皇についての理解と敬愛の念を深めるようにすること。また，イの「国民としての権利及び義務」については，参政権，納税の義務などを取り上げること。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,6 +21,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "エ";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 〔第6学年〕 / 3 / (2) / エ";
   <https://w3id.org/jp-cos/sectionText> "イの「天皇の地位」については，日本国憲法に定める天皇の国事に関する行為など児童に理解しやすい具体的な事項を取り上げ，歴史に関する学習との関連も図りながら，天皇についての理解と敬愛の念を深めるようにすること。また，イの「国民としての権利及び義務」については，参政権，納税の義務などを取り上げること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/社会> .

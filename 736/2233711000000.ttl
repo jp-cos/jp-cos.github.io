@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7362233711000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "813"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "807"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "807"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "813"
   ];
   <http://schema.org/description> """(ア) 自然界のつり合い
 微生物の働きを調べ，植物，動物及び微生物を栄養の面から相互に関連付けてとらえるとともに，自然界では，これらの生物がつり合いを保って生活していることを見いだすこと。""";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(ア)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 第2 / 〔第2分野〕 / 2 / (7) / ア / (ア)";
   <https://w3id.org/jp-cos/sectionText> """自然界のつり合い
 微生物の働きを調べ，植物，動物及び微生物を栄養の面から相互に関連付けてとらえるとともに，自然界では，これらの生物がつり合いを保って生活していることを見いだすこと。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

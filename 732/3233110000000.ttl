@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7323233110000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "375"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "369"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "369"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "375"
   ];
   <http://schema.org/description> """ア　私たちが生きる現代社会と文化
 現代日本の特色として少子高齢化，情報化，グローバル化などがみられることを理解させるとともに，それらが政治，経済，国際関係に影響を与えていることに気付かせる。また，現代社会における文化の意義や影響を理解させるとともに，我が国の伝統と文化に関心をもたせ，文化の継承と創造の意義に気付かせる。""";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2 / 〔公民的分野〕 / 2 / (1) / ア";
   <https://w3id.org/jp-cos/sectionText> """私たちが生きる現代社会と文化
 現代日本の特色として少子高齢化，情報化，グローバル化などがみられることを理解させるとともに，それらが政治，経済，国際関係に影響を与えていることに気付かせる。また，現代社会における文化の意義や影響を理解させるとともに，我が国の伝統と文化に関心をもたせ，文化の継承と創造の意義に気付かせる。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

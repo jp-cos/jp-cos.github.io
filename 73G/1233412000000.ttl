@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73G1233412000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1161"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1155"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1155"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1161"
   ];
   <http://schema.org/description> "イ  平泳ぎでは，手と足，呼吸のバランスを保ち，安定したペースで長く泳いだり速く泳いだりすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -25,6 +25,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第7節 / 第2 / 〔体育分野 第3学年〕 / 2 / D / (1) / イ";
   <https://w3id.org/jp-cos/sectionText> "平泳ぎでは，手と足，呼吸のバランスを保ち，安定したペースで長く泳いだり速く泳いだりすること。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/保健体育/体育分野>;

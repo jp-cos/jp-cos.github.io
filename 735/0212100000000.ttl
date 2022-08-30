@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7350212100000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "426"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "420"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "420"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "426"
   ];
   <http://schema.org/description> "(1) 数を正の数と負の数まで拡張し，数の概念についての理解を深める。また，文字を用いることや方程式の必要性と意味を理解するとともに，数量の関係や法則などを一般的にかつ簡潔に表現して処理したり，一元一次方程式を用いたりする能力を培う。";
   <http://schema.org/edition> "一部改正なし";
@@ -25,6 +25,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3節 / 第2 / 〔第1学年〕 / 1 / (1)";
   <https://w3id.org/jp-cos/sectionText> "数を正の数と負の数まで拡張し，数の概念についての理解を深める。また，文字を用いることや方程式の必要性と意味を理解するとともに，数量の関係や法則などを一般的にかつ簡潔に表現して処理したり，一元一次方程式を用いたりする能力を培う。";
   <https://w3id.org/jp-cos/subCategory> "目標";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/数学> .

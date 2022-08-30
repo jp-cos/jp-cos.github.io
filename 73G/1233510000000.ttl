@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73G1233510000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1168"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1162"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1162"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1168"
   ];
   <http://schema.org/description> "(1) 次の運動について，勝敗を競う楽しさや喜びを味わい，作戦に応じた技能で仲間と連携しゲームが展開できるようにする。";
   <http://schema.org/edition> "一部改正なし";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第7節 / 第2 / 〔体育分野 第3学年〕 / 2 / E / (1)";
   <https://w3id.org/jp-cos/sectionText> "次の運動について，勝敗を競う楽しさや喜びを味わい，作戦に応じた技能で仲間と連携しゲームが展開できるようにする。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/保健体育/体育分野>;

@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7362223300000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "777"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "771"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "771"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "777"
   ];
   <http://schema.org/description> """(3) 動物の生活と生物の変遷
 生物の体は細胞からできていることを観察を通して理解させる。また，動物などについての観察，実験を通して，動物の体のつくりと働きを理解させ，動物の生活と種類についての認識を深めるとともに，生物の変遷について理解させる。""";
@@ -27,6 +27,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 第2 / 〔第2分野〕 / 2 / (3)";
   <https://w3id.org/jp-cos/sectionText> """動物の生活と生物の変遷
 生物の体は細胞からできていることを観察を通して理解させる。また，動物などについての観察，実験を通して，動物の体のつくりと働きを理解させ，動物の生活と種類についての認識を深めるとともに，生物の変遷について理解させる。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

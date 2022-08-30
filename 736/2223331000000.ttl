@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7362223331000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "784"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "778"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "778"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "784"
   ];
   <http://schema.org/description> """(ア) 脊椎《せきつい》動物の仲間
 脊椎《せきつい》動物の観察記録に基づいて，体のつくりや子の生まれ方などの特徴を比較，整理し，脊椎《せきつい》動物が幾つかの仲間に分類できることを見いだすこと。""";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(ア)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 第2 / 〔第2分野〕 / 2 / (3) / ウ / (ア)";
   <https://w3id.org/jp-cos/sectionText> """脊椎《せきつい》動物の仲間
 脊椎《せきつい》動物の観察記録に基づいて，体のつくりや子の生まれ方などの特徴を比較，整理し，脊椎《せきつい》動物が幾つかの仲間に分類できることを見いだすこと。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

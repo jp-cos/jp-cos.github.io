@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7310300310000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "225"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "219"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "219"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "225"
   ];
   <http://schema.org/description> "(1) 教材は，話すこと・聞くことの能力，書くことの能力，読むことの能力などを偏りなく養うことや読書に親しむ態度の育成をねらいとし，生徒の発達の段階に即して適切な話題や題材を精選して調和的に取り上げること。また，第２の各学年の内容の「Ａ話すこと・聞くこと」，「Ｂ書くこと」及び「Ｃ読むこと」のそれぞれの(2)に掲げる言語活動が十分行われるよう教材を選定すること。";
   <http://schema.org/edition> "一部改正なし";
@@ -24,6 +24,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 第3 / 3 / (1)";
   <https://w3id.org/jp-cos/sectionText> "教材は，話すこと・聞くことの能力，書くことの能力，読むことの能力などを偏りなく養うことや読書に親しむ態度の育成をねらいとし，生徒の発達の段階に即して適切な話題や題材を精選して調和的に取り上げること。また，第2の各学年の内容の「A話すこと・聞くこと」，「B書くこと」及び「C読むこと」のそれぞれの(2)に掲げる言語活動が十分行われるよう教材を選定すること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/国語> .

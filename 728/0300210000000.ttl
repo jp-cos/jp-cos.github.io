@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7280300210000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2223"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2214"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2223"
   ];
   <http://schema.org/description> "(1) 各学年の「Ａ表現」及び「Ｂ鑑賞」の指導に当たっては，音楽との一体感を味わい，想像力を働かせて音楽とかかわることができるよう，指導のねらいに即して体を動かす活動を取り入れること。";
   <http://schema.org/edition> "一部改正なし";
@@ -20,6 +20,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第6節 / 第3 / 2 / (1)";
   <https://w3id.org/jp-cos/sectionText> "各学年の「A表現」及び「B鑑賞」の指導に当たっては，音楽との一体感を味わい，想像力を働かせて音楽とかかわることができるよう，指導のねらいに即して体を動かす活動を取り入れること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/音楽> .

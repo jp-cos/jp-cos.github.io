@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7250262400000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1804"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1795"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1804"
   ];
   <http://schema.org/description> "(4) 比や比例について理解し，数量の関係の考察に関数の考えを用いることができるようにするとともに，文字を用いて式に表すことができるようにする。また，資料の散らばりを調べ統計的に考察することができるようにする。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,6 +21,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(4)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3節 / 第2 / 〔第6学年〕 / 1 / (4)";
   <https://w3id.org/jp-cos/sectionText> "比や比例について理解し，数量の関係の考察に関数の考えを用いることができるようにするとともに，文字を用いて式に表すことができるようにする。また，資料の散らばりを調べ統計的に考察することができるようにする。";
   <https://w3id.org/jp-cos/subCategory> "目標";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/算数> .

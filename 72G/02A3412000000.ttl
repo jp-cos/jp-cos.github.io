@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "72G02A3412000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2467"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2458"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2467"
   ];
   <http://schema.org/description> "イ　浮く・もぐる遊びでは，水に浮いたりもぐったり，水中で息を吐いたりすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,6 +21,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第9節 / 第2 / 〔第1学年及び第2学年〕 / 2 / D / (1) / イ";
   <https://w3id.org/jp-cos/sectionText> "浮く・もぐる遊びでは，水に浮いたりもぐったり，水中で息を吐いたりすること。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/体育> .

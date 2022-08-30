@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7250300230000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1858"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1849"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1858"
   ];
   <http://schema.org/description> "(3) 各学年の内容に示す〔用語・記号〕は，当該学年で取り上げる内容の程度や範囲を明確にするために示したものであり，その指導に当たっては，各学年の内容と密接に関連させて取り上げるようにし，それらを用いて表したり考えたりすることのよさが分かるようにすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -20,6 +20,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3節 / 第3 / 2 / (3)";
   <https://w3id.org/jp-cos/sectionText> "各学年の内容に示す〔用語・記号〕は，当該学年で取り上げる内容の程度や範囲を明確にするために示したものであり，その指導に当たっては，各学年の内容と密接に関連させて取り上げるようにし，それらを用いて表したり考えたりすることのよさが分かるようにすること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/算数> .

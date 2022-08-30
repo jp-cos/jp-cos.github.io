@@ -2,11 +2,11 @@
   <http://purl.org/dc/terms/identifier> "7200000240000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"
   ];
@@ -20,6 +20,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "4";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2 / 4";
   <https://w3id.org/jp-cos/sectionText> "学年の目標及び内容を2学年まとめて示した教科及び外国語活動の内容は，2学年間かけて指導する事項を示したものである。各学校においては，これらの事項を地域や学校及び児童の実態に応じ，2学年間を見通して計画的に指導することとし，特に示す場合を除き，いずれかの学年に分けて，又はいずれの学年においても指導するものとする。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/総則> .

@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "72702A3900000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2053"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2044"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2053"
   ];
   <http://schema.org/description> "(9) 自分自身の成長を振り返り，多くの人々の支えにより自分が大きくなったこと，自分でできるようになったこと，役割が増えたことなどが分かり，これまでの生活や成長を支えてくれた人々に感謝の気持ちをもつとともに，これからの成長への願いをもって，意欲的に生活することができるようにする。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,6 +21,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(9)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第5節 / 第2 / 2 / (9)";
   <https://w3id.org/jp-cos/sectionText> "自分自身の成長を振り返り，多くの人々の支えにより自分が大きくなったこと，自分でできるようになったこと，役割が増えたことなどが分かり，これまでの生活や成長を支えてくれた人々に感謝の気持ちをもつとともに，これからの成長への願いをもって，意欲的に生活することができるようにする。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/生活> .

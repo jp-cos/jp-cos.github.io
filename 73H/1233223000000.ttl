@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73H1233223000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1467"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1461"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1461"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1467"
   ];
   <http://schema.org/description> """(ウ) 第３学年における言語活動
 第２学年までの学習を基礎として，言語の使用場面や言語の働きを一層広げた言語活動を行わせること。その際，第１学年及び第２学年における学習内容を繰り返して指導し定着を図るとともに，様々な考えや意見などの中からコミュニケーションが図れるような話題を取り上げること。""";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(ウ)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第9節 / 第2 / 英 語 / 2 / (2) / イ / (ウ)";
   <https://w3id.org/jp-cos/sectionText> """第3学年における言語活動
 第2学年までの学習を基礎として，言語の使用場面や言語の働きを一層広げた言語活動を行わせること。その際，第1学年及び第2学年における学習内容を繰り返して指導し定着を図るとともに，様々な考えや意見などの中からコミュニケーションが図れるような話題を取り上げること。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

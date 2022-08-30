@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "72M03L0150000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2797"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2771"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2797"
   ];
   <http://schema.org/description> "(5) 学習活動については，学校の実態に応じて，例えば国際理解，情報，環境，福祉・健康などの横断的・総合的な課題についての学習活動，児童の興味・関心に基づく課題についての学習活動，地域の人々の暮らし，伝統と文化など地域や学校の特色に応じた課題についての学習活動などを行うこと。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,6 +21,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(5)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第5章 / 第3 / 1 / (5)";
   <https://w3id.org/jp-cos/sectionText> "学習活動については，学校の実態に応じて，例えば国際理解，情報，環境，福祉・健康などの横断的・総合的な課題についての学習活動，児童の興味・関心に基づく課題についての学習活動，地域の人々の暮らし，伝統と文化など地域や学校の特色に応じた課題についての学習活動などを行うこと。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/総合的な学習の時間> .

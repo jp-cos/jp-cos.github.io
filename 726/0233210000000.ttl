@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7260233210000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1886"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1877"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1886"
   ];
   <http://schema.org/description> """(1) 昆虫と植物
 　身近な昆虫や植物を探したり育てたりして，成長の過程や体のつくりを調べ，それらの成長のきまりや体のつくりについての考えをもつことができるようにする。""";
@@ -23,6 +23,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(1)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 〔第3学年〕 / 2 / B / (1)";
   <https://w3id.org/jp-cos/sectionText> """昆虫と植物
  身近な昆虫や植物を探したり育てたりして，成長の過程や体のつくりを調べ，それらの成長のきまりや体のつくりについての考えをもつことができるようにする。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

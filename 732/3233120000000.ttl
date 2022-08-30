@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7323233120000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "376"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "370"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "370"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "376"
   ];
   <http://schema.org/description> """イ  現代社会をとらえる見方や考え方　
 　人間は本来社会的存在であることに着目させ，社会生活における物事の決定の仕方，きまりの意義について考えさせ，現代社会をとらえる見方や考え方の基礎として，対立と合意，効率と公正などについて理解させる。その際，個人の尊厳と両性の本質的平等，契約の重要性やそれを守ることの意義及び個人の責任などに気付かせる。""";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2 / 〔公民的分野〕 / 2 / (1) / イ";
   <https://w3id.org/jp-cos/sectionText> """現代社会をとらえる見方や考え方 
  人間は本来社会的存在であることに着目させ，社会生活における物事の決定の仕方，きまりの意義について考えさせ，現代社会をとらえる見方や考え方の基礎として，対立と合意，効率と公正などについて理解させる。その際，個人の尊厳と両性の本質的平等，契約の重要性やそれを守ることの意義及び個人の責任などに気付かせる。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

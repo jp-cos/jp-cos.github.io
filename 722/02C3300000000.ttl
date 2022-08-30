@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "72202C3300000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1303"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1294"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1303"
   ];
   <http://schema.org/description> "(3) 地域の人々の生活にとって必要な飲料水，電気，ガスの確保や廃棄物の処理について，次のことを見学，調査したり資料を活用したりして調べ，これらの対策や事業は地域の人々の健康な生活や良好な生活環境の維持と向上に役立っていることを考えるようにする。";
   <http://schema.org/edition> "一部改正なし";
@@ -22,6 +22,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 〔第3学年及び第4学年〕 / 2 / (3)";
   <https://w3id.org/jp-cos/sectionText> "地域の人々の生活にとって必要な飲料水，電気，ガスの確保や廃棄物の処理について，次のことを見学，調査したり資料を活用したりして調べ，これらの対策や事業は地域の人々の健康な生活や良好な生活環境の維持と向上に役立っていることを考えるようにする。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/社会> .

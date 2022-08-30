@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7290300120000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2351"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2342"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2351"
   ];
   <http://schema.org/description> "(2) 第２の各学年の内容の「Ａ表現」の(2)の指導に配当する授業時数については，工作に表すことの内容に配当する授業時数が，絵や立体に表すことの内容に配当する授業時数とおよそ等しくなるように計画すること。";
   <http://schema.org/edition> "一部改正なし";
@@ -20,6 +20,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(2)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第7節 / 第3 / 1 / (2)";
   <https://w3id.org/jp-cos/sectionText> "第2の各学年の内容の「A表現」の(2)の指導に配当する授業時数については，工作に表すことの内容に配当する授業時数が，絵や立体に表すことの内容に配当する授業時数とおよそ等しくなるように計画すること。";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/図画工作> .

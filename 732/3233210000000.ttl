@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "7323233210000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "378"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "372"
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "372"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "378"
   ];
   <http://schema.org/description> """ア  市場の働きと経済
 　身近な消費生活を中心に経済活動の意義を理解させるとともに，価格の働きに着目させて市場経済の基本的な考え方について理解させる。また，現代の生産や金融などの仕組みや働きを理解させるとともに，社会における企業の役割と責任について考えさせる。その際，社会生活における職業の意義と役割及び雇用と労働条件の改善について，勤労の権利と義務，労働組合の意義及び労働基準法の精神と関連付けて考えさせる。""";
@@ -26,6 +26,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "ア";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2 / 〔公民的分野〕 / 2 / (2) / ア";
   <https://w3id.org/jp-cos/sectionText> """市場の働きと経済
  身近な消費生活を中心に経済活動の意義を理解させるとともに，価格の働きに着目させて市場経済の基本的な考え方について理解させる。また，現代の生産や金融などの仕組みや働きを理解させるとともに，社会における企業の役割と責任について考えさせる。その際，社会生活における職業の意義と役割及び雇用と労働条件の改善について，勤労の権利と義務，労働組合の意義及び労働基準法の精神と関連付けて考えさせる。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

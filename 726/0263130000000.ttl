@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7260263130000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1987"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1978"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1987"
   ];
   <http://schema.org/description> """(3) てこの規則性
 　てこを使い，力の加わる位置や大きさを変えて，てこの仕組みや働きを調べ，てこの規則性についての考えをもつことができるようにする。""";
@@ -23,6 +23,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 〔第6学年〕 / 2 / A / (3)";
   <https://w3id.org/jp-cos/sectionText> """てこの規則性
  てこを使い，力の加わる位置や大きさを変えて，てこの仕組みや働きを調べ，てこの規則性についての考えをもつことができるようにする。""";
   <https://w3id.org/jp-cos/subCategory> "内容";

@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "72L0660222000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2785"
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2759"
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2785"
   ];
   <http://schema.org/description> """イ　第６学年における活動
 　第５学年の学習を基礎として，友達とのかかわりを大切にしながら，児童の日常生活や学校生活に加え，国際理解にかかわる交流等を含んだ体験的なコミュニケーション活動を行うようにすること。""";
@@ -22,6 +22,7 @@
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";
+  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / イ";
   <https://w3id.org/jp-cos/sectionText> """第6学年における活動
  第5学年の学習を基礎として，友達とのかかわりを大切にしながら，児童の日常生活や学校生活に加え，国際理解にかかわる交流等を含んだ体験的なコミュニケーション活動を行うようにすること。""";
   <https://w3id.org/jp-cos/subCategory> "区分なし";
