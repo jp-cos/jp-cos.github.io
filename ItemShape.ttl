@@ -156,13 +156,22 @@
     <http://www.w3.org/ns/shacl#order> "19";
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionNumber>
   ], [
+    <http://www.w3.org/2004/02/skos/core#example> "第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#description> "It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号の全階層分を表す。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#name> "Hierarchical Section Numbers"@en, "節番号（階層）"@ja;
+    <http://www.w3.org/ns/shacl#order> "20";
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionNumberHierarchy>
+  ], [
     <http://www.w3.org/2004/02/skos/core#example> "''語と語の連結による音の変化'''";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
     <http://www.w3.org/ns/shacl#maxCount> "1";
     <http://www.w3.org/ns/shacl#minCount> "1";
     <http://www.w3.org/ns/shacl#name> "Text"@en, "テキスト"@ja;
-    <http://www.w3.org/ns/shacl#order> "20";
+    <http://www.w3.org/ns/shacl#order> "21";
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionText>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is \"0\", but the correct value is \"e\". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul>";
@@ -176,7 +185,7 @@
       ]
     ];
     <http://www.w3.org/ns/shacl#name> "Note"@en, "備考"@ja;
-    <http://www.w3.org/ns/shacl#order> "21";
+    <http://www.w3.org/ns/shacl#order> "22";
     <http://www.w3.org/ns/shacl#path> <http://id.loc.gov/ontologies/bibframe/note>;
     <http://www.w3.org/ns/shacl#uniqueLang> "true"
   ];
