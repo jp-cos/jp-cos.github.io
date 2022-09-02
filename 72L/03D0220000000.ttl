@@ -12,6 +12,7 @@
   ];
   <http://schema.org/description> "(2) 児童の学習段階を考慮して各学年の指導に当たっては，次のような点に配慮するものとする。";
   <http://schema.org/edition> "一部改正なし";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/72L0350221000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
   <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;

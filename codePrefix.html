@@ -67,8 +67,8 @@
   <dt class="col-sm-3">Type</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</a></dd>
   <dt class="col-sm-3">Domain</dt>
-      <dd class="col-sm-9"><a href="SubjectArea">教科等</a></dd>
-      <dd class="col-sm-9 offset-sm-3"><a href="Subject">科目等</a></dd>
+      <dd class="col-sm-9"><a href="Subject">科目等</a></dd>
+      <dd class="col-sm-9 offset-sm-3"><a href="SubjectArea">教科等</a></dd>
   <dt class="col-sm-3">Label</dt>
       <dd class="col-sm-9" lang="en">Code of Subject Area</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">教科コード</dd>
@@ -89,24 +89,6 @@
   <dt class="col-sm-3">Property</dt>
       <dd class="col-sm-9"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9"><a href="LowerSecondary/2017/2017">中学校学習指導要領 2017年3月 告示</a></dd>
-  <dt class="col-sm-3">Class</dt>
-    <dd class="col-sm-9"><a href="CourseOfStudyRevision">学習指導要領の別バージョン</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">複数の改正がある場合、改正の件数分、繰り返される。</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Repeatable. It corresponds to the revisions of the course of study.</dd>
-  <dt class="col-sm-3">Mincount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領（一部改正情報）</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Course Of Study Revision</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="courseOfStudyRevision">学習指導要領（一部改正情報）</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Datatype</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#integer">http://www.w3.org/2001/XMLSchema#integer</a></dd>
@@ -124,42 +106,6 @@
     <dd class="col-sm-9">2</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="http://purl.org/linked-data/cube#order">http://purl.org/linked-data/cube#order</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9"><a href="disabilityCategory/Intellectual">知的</a></dd>
-  <dt class="col-sm-3">Class</dt>
-    <dd class="col-sm-9"><a href="DisabilityCategory">障害分類</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コードの2桁目に対応</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the second digit of the course of study code.</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">障害分類</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Disability Category</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">3</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="disabilityCategory/">障害分類</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9"><a href="school/LowerSecondary">中学校</a></dd>
-  <dt class="col-sm-3">Class</dt>
-    <dd class="col-sm-9"><a href="School">学校種別</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コードの2桁目に対応</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the second digit of the course of study code.</dd>
-  <dt class="col-sm-3">Maxcount</dt>
-    <dd class="col-sm-9">2</dd>
-  <dt class="col-sm-3">Mincount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">学校種別</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Type of School</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">4</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="school/">学校種別</a></dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
@@ -201,24 +147,6 @@
     <dd class="col-sm-9">true</dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
-  <dt class="col-sm-3">Maxcount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">英語表記出典</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Source for the English name</dd>
-  <dt class="col-sm-3">Node</dt>
-    <dd class="col-sm-9"><a href="SourceOfEnglishNameShape">no title</a></dd>
-  <dt class="col-sm-3">Nodekind</dt>
-    <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">6</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="sourceOfEnglishName">英語表記出典</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Datatype</dt>
@@ -234,26 +162,6 @@
     <dd class="col-sm-9">7</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="code03">学習指導要領コード3桁目</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9">A1</dd>
-  <dt class="col-sm-3">Datatype</dt>
-    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コードの3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables.</dd>
-  <dt class="col-sm-3">Maxcount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Mincount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コード3桁目に対応するFコード</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Fcode Correspond to 3th Digit Code of Course of Study Item</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">8</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="fcode03">学習指導要領コード3桁目に対応するFコード</a></dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
@@ -274,6 +182,60 @@
     <dd class="col-sm-9">9</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="codePrefix">教科コード</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="LowerSecondary/2017/2017">中学校学習指導要領 2017年3月 告示</a></dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="CourseOfStudyRevision">学習指導要領の別バージョン</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">複数の改正がある場合、改正の件数分、繰り返される。</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Repeatable. It corresponds to the revisions of the course of study.</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領（一部改正情報）</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Course Of Study Revision</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="courseOfStudyRevision">学習指導要領（一部改正情報）</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="disabilityCategory/Intellectual">知的</a></dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="DisabilityCategory">障害分類</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コードの2桁目に対応</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the second digit of the course of study code.</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">障害分類</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Disability Category</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">3</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="disabilityCategory/">障害分類</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9">A1</dd>
+  <dt class="col-sm-3">Datatype</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コードの3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables.</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コード3桁目に対応するFコード</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Fcode Correspond to 3th Digit Code of Course of Study Item</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">8</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="fcode03">学習指導要領コード3桁目に対応するFコード</a></dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
@@ -308,66 +270,6 @@
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="hasSubject">科目がある</a></dd>
 </dl></dd>
-</dl></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3"><a href="SubjectShape">no title</a></dt>
-  <dd class="col-sm-9"><dl class="row">
-  <dt class="col-sm-3">Property</dt>
-      <dd class="col-sm-9"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9"><a href="LowerSecondary/2017/2017">中学校学習指導要領 2017年3月 告示</a></dd>
-  <dt class="col-sm-3">Class</dt>
-    <dd class="col-sm-9"><a href="CourseOfStudyRevision">学習指導要領の別バージョン</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">複数の改正がある場合、改正の件数分、繰り返される。</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Repeatable. It corresponds to the revisions of the course of study.</dd>
-  <dt class="col-sm-3">Mincount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領（一部改正情報）</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Course Of Study Revision</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="courseOfStudyRevision">学習指導要領（一部改正情報）</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9">10</dd>
-  <dt class="col-sm-3">Datatype</dt>
-    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#integer">http://www.w3.org/2001/XMLSchema#integer</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">表示順を決める場合などで利用</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">This is used in the order of the listings.</dd>
-  <dt class="col-sm-3">Maxcount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Mincount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領掲載順</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Listing order of the course of study</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">2</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="http://purl.org/linked-data/cube#order">http://purl.org/linked-data/cube#order</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9"><a href="Intellectual">https://w3id.org/jp-cos/Intellectual</a></dd>
-  <dt class="col-sm-3">Class</dt>
-    <dd class="col-sm-9"><a href="DisabilityCategory">障害分類</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コードの2桁目に対応</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the second digit of the course of study code.</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">障害分類</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Disability Category</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">3</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="disabilityCategory/">障害分類</a></dd>
-</dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9"><a href="school/LowerSecondary">中学校</a></dd>
@@ -387,6 +289,50 @@
     <dd class="col-sm-9">4</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="school/">学校種別</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">英語表記出典</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Source for the English name</dd>
+  <dt class="col-sm-3">Node</dt>
+    <dd class="col-sm-9"><a href="SourceOfEnglishNameShape">no title</a></dd>
+  <dt class="col-sm-3">Nodekind</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">6</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="sourceOfEnglishName">英語表記出典</a></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3"><a href="SubjectShape">no title</a></dt>
+  <dd class="col-sm-9"><dl class="row">
+  <dt class="col-sm-3">Property</dt>
+      <dd class="col-sm-9"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9">10</dd>
+  <dt class="col-sm-3">Datatype</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#integer">http://www.w3.org/2001/XMLSchema#integer</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">表示順を決める場合などで利用</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">This is used in the order of the listings.</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領掲載順</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Listing order of the course of study</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">2</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="http://purl.org/linked-data/cube#order">http://purl.org/linked-data/cube#order</a></dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
@@ -428,24 +374,6 @@
     <dd class="col-sm-9">true</dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
-  <dt class="col-sm-3">Maxcount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">英語表記出典</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Source for the English name</dd>
-  <dt class="col-sm-3">Node</dt>
-    <dd class="col-sm-9"><a href="SourceOfEnglishNameShape">no title</a></dd>
-  <dt class="col-sm-3">Nodekind</dt>
-    <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">6</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="sourceOfEnglishName">英語表記出典</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9">1</dd>
   <dt class="col-sm-3">Datatype</dt>
@@ -461,26 +389,6 @@
     <dd class="col-sm-9">7</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="code04">学習指導要領コード4桁目</a></dd>
-</dl></dd>
-      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
-  <dt class="col-sm-3">Example</dt>
-    <dd class="col-sm-9">A1</dd>
-  <dt class="col-sm-3">Datatype</dt>
-    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
-  <dt class="col-sm-3">Description</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コードの4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 4th digit code of course of study item easier to handle in Excel filters and pivot tables.</dd>
-  <dt class="col-sm-3">Maxcount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Mincount</dt>
-    <dd class="col-sm-9">1</dd>
-  <dt class="col-sm-3">Name</dt>
-      <dd class="col-sm-9" lang="ja">学習指導要領コード4桁目に対応するFコード</dd>
-      <dd class="col-sm-9 offset-sm-3" lang="en">Fcode Correspond to 4th Digit Code of Course of Study Item</dd>
-  <dt class="col-sm-3">Order</dt>
-    <dd class="col-sm-9">8</dd>
-  <dt class="col-sm-3">Path</dt>
-    <dd class="col-sm-9"><a href="fcode04">学習指導要領コード4桁目に対応するFコード</a></dd>
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
@@ -504,6 +412,60 @@
 </dl></dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
   <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="LowerSecondary/2017/2017">中学校学習指導要領 2017年3月 告示</a></dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="CourseOfStudyRevision">学習指導要領の別バージョン</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">複数の改正がある場合、改正の件数分、繰り返される。</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Repeatable. It corresponds to the revisions of the course of study.</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領（一部改正情報）</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Course Of Study Revision</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="courseOfStudyRevision">学習指導要領（一部改正情報）</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="Intellectual">https://w3id.org/jp-cos/Intellectual</a></dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="DisabilityCategory">障害分類</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コードの2桁目に対応</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the second digit of the course of study code.</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">障害分類</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Disability Category</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">3</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="disabilityCategory/">障害分類</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9">A1</dd>
+  <dt class="col-sm-3">Datatype</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コードの4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 4th digit code of course of study item easier to handle in Excel filters and pivot tables.</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コード4桁目に対応するFコード</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Fcode Correspond to 4th Digit Code of Course of Study Item</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">8</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="fcode04">学習指導要領コード4桁目に対応するFコード</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
     <dd class="col-sm-9">A8A3UHA1</dd>
   <dt class="col-sm-3">Datatype</dt>
     <dd class="col-sm-9"><a href="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema#string</a></dd>
@@ -521,6 +483,44 @@
     <dd class="col-sm-9">10</dd>
   <dt class="col-sm-3">Path</dt>
     <dd class="col-sm-9"><a href="fcodePrefix">F教科コード</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Example</dt>
+    <dd class="col-sm-9"><a href="school/LowerSecondary">中学校</a></dd>
+  <dt class="col-sm-3">Class</dt>
+    <dd class="col-sm-9"><a href="School">学校種別</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja">学習指導要領コードの2桁目に対応</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">It corresponds to the second digit of the course of study code.</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">2</dd>
+  <dt class="col-sm-3">Mincount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">学校種別</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Type of School</dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">4</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="school/">学校種別</a></dd>
+</dl></dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="ja"><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>.</dd>
+  <dt class="col-sm-3">Maxcount</dt>
+    <dd class="col-sm-9">1</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="ja">英語表記出典</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="en">Source for the English name</dd>
+  <dt class="col-sm-3">Node</dt>
+    <dd class="col-sm-9"><a href="SourceOfEnglishNameShape">no title</a></dd>
+  <dt class="col-sm-3">Nodekind</dt>
+    <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  <dt class="col-sm-3">Order</dt>
+    <dd class="col-sm-9">6</dd>
+  <dt class="col-sm-3">Path</dt>
+    <dd class="col-sm-9"><a href="sourceOfEnglishName">英語表記出典</a></dd>
 </dl></dd>
 </dl></dd>
 </dl></dd>
