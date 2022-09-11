@@ -1,4 +1,4 @@
-default: clean all ttl2html
+default: clean all ttl2html check
 
 all:
 	catttl cs-items cs-metadata cs-period cs-revision cs-dataset dataset disability-category \
@@ -13,3 +13,6 @@ ttl2html:
 
 clean:
 	-rm -rf [78][0-9A-Za-z][0-9A-Za-z]/ Kidergarden*/ Elementary*/ LowerSecondary*/ UpperSecondary*/ disabilityCategory/ period/ school/ stage/
+
+check:
+	-gzip -cd `ls -1 all-*.ttl.gz|tail -1` | pyshacl -s `ls -1 shapes-*.ttl | tail -1` -o pyshacl.log -
