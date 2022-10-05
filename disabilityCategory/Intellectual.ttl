@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/disabilityCategory/Intellectual>
-  <http://purl.org/linked-data/cube#order> "4";
-  <http://schema.org/name> "Intellectual Disability"@en, "知的"@ja, "ちてき"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 4;
+  <http://schema.org/name> "Intellectual Disability"@en, "ちてき"@ja-hira, "知的"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ja.dbpedia.org/resource/知的障害> .
 <https://w3id.org/jp-cos/7810000000000000> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.

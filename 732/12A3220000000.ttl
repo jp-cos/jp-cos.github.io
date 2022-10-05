@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "255"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 255
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "255"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 255
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "261"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 261
   ];
   <http://schema.org/description> """イ　世界と比べた日本の地域的特色
 世界的視野や日本全体の視野から見た日本の地域的特色を取り上げ，我が国の国土の特色を様々な面から大観させる。""";
@@ -23,7 +23,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A2A1A2UAA3A2A2A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/grade> 1, 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";

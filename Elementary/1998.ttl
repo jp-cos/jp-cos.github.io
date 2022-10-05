@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/Elementary/1998>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/1998/1998>, <https://w3id.org/jp-cos/Elementary/1998/2003>, <https://w3id.org/jp-cos/Elementary/1998/2007>;
-  <http://schema.org/datePublished> "1998-12-14";
-  <http://schema.org/name> "Elementary School Curriculum Guideline 1998-12 Notification"@en, "小学校学習指導要領 1998年12月 告示"@ja, "しょうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2002-04-01";
+  <http://schema.org/datePublished> "1998-12-14"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Elementary School Curriculum Guideline 1998-12 Notification"@en, "しょうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-hira, "小学校学習指導要領 1998年12月 告示"@ja;
+  <http://schema.org/startDate> "2002-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H10toH11>;

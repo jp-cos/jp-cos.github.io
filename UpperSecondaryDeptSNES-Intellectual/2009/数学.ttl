@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/数学>
-  <http://purl.org/linked-data/cube#order> "16";
-  <http://schema.org/name> "Mathematics"@en, "数学"@ja, "すうがく"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 16;
+  <http://schema.org/name> "Mathematics"@en, "すうがく"@ja-hira, "数学"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "5";
   <https://w3id.org/jp-cos/codePrefix> "7G5";
@@ -10,7 +10,7 @@
   <https://w3id.org/jp-cos/fcodePrefix> "A7UGA5";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://schema.org/name> "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "Lower Secondary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja, "中学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>, <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298356.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008>

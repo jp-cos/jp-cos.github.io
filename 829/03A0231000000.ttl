@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2941"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2941
   ];
   <http://schema.org/description> "ア　第１学年及び第２学年においては，いろいろな形や色，触った感じなどを捉えること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2A9A0A3UAA0A2A3A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/grade> 1, 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "ア";

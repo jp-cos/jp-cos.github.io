@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/school/KindergartenDeptSNES>
-  <http://purl.org/linked-data/cube#order> "5";
-  <http://schema.org/name> "Kindergarten Department of Special Needs Education School"@en, "特別支援学校幼稚部"@ja, "とくべつしえんがっこうようちぶ"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 5;
+  <http://schema.org/name> "Kindergarten Department of Special Needs Education School"@en, "とくべつしえんがっこうようちぶ"@ja-hira, "特別支援学校幼稚部"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School> .
 <https://w3id.org/jp-cos/7500000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>.
 <https://w3id.org/jp-cos/7500000100000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>.

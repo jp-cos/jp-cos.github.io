@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
-  <http://schema.org/datePublished> "2009-03-09";
-  <http://schema.org/name> "Kindergarten Department of Special Needs Education School Curriculum Guideline 2009-03 Notification"@en, "特別支援学校幼稚部教育要領 2009年3月 告示"@ja, "とくべつしえんがっこうようちぶきょういくようりょう 2009ねん3がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2009-04-01";
+  <http://schema.org/datePublished> "2009-03-09"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Kindergarten Department of Special Needs Education School Curriculum Guideline 2009-03 Notification"@en, "とくべつしえんがっこうようちぶきょういくようりょう 2009ねん3がつ こくじ"@ja-hira, "特別支援学校幼稚部教育要領 2009年3月 告示"@ja;
+  <http://schema.org/startDate> "2009-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <https://erid.nier.go.jp/cer/database/YOURYO/AG00000150>, <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2009/09/09/1284518_1.pdf>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/75V10>, <https://w3id.org/jp-cos/75V11>;

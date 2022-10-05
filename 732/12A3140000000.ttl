@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "252"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 252
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "252"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 252
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "258"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 258
   ];
   <http://schema.org/description> """エ　世界の様々な地域の調査
 　世界の諸地域に暮らす人々の生活の様子を的確に把握できる地理的事象を取り上げ，様々な地域又は国の地域的特色をとらえる適切な主題を設けて追究し，世界の地理的認識を深めさせるとともに，世界の様々な地域又は国の調査を行う際の視点や方法を身に付けさせる。""";
@@ -22,7 +22,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A2A1A2UAA3A1A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/grade> 1, 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "エ";

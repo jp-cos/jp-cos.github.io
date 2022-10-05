@@ -4,11 +4,11 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2763"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2763
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2789"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2789
   ];
   <http://schema.org/description> """１　目標
 各学校においては，第１の目標を踏まえ，各学校の総合的な学習の時間の目標を定める。""";
@@ -18,7 +18,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A2UMA0A2ULA2A0A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4", "5", "6";
+  <https://w3id.org/jp-cos/grade> 3, 4, 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "1";

@@ -1,7 +1,7 @@
 <https://w3id.org/jp-cos/73V21>
   <http://purl.org/dc/terms/identifier> "73V21";
   <http://schema.org/name> "【73V21】Code for Lower Secondary School Course of Guideline published in 2010年, version 2.1 （2021-12-28 release）"@en, "【73V21】中学校学習指導要領コード 平成22年告示：バージョン2.1 （令和3年12月28日公表）"@ja;
-  <http://schema.org/releaseDate> "2021-12-28";
+  <http://schema.org/releaseDate> "2021-12-28"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/version> "2.1";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary> .

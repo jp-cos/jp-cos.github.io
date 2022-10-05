@@ -4,34 +4,34 @@
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     <http://www.w3.org/ns/shacl#description> "Repeatable. It corresponds to the revisions of the course of study."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
-    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#order> 1;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "1";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
     <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Listing order of the course of study"@en, "学習指導要領掲載順"@ja;
-    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/DisabilityCategory>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#name> "Disability Category"@en, "障害分類"@ja;
-    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#order> 3;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/disabilityCategory>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/LowerSecondary>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
-    <http://www.w3.org/ns/shacl#order> "4";
+    <http://www.w3.org/ns/shacl#order> 4;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"外国語\"@ja</li><li>\"がいこくご\"@ja-Hira</li><li>\"Foreign Languages\"@en</li></ul>";
@@ -47,60 +47,60 @@
         ]
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> "3";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 3;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Name"@en, "教科名"@ja;
-    <http://www.w3.org/ns/shacl#order> "5";
+    <http://www.w3.org/ns/shacl#order> 5;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ], [
-    <http://www.w3.org/ns/shacl#description> "This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>."@en, "<code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#description> "<code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。"@ja, "This has a blank node which consists of three properties: <code>schema:name</code>, <code>cs:curriculum</code> and <code>rdfs:seeAlso</code>."@en;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#name> "Source for the English name"@en, "英語表記出典"@ja;
     <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/SourceOfEnglishNameShape>;
     <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNode>;
-    <http://www.w3.org/ns/shacl#order> "6";
+    <http://www.w3.org/ns/shacl#order> 6;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sourceOfEnglishName>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "1";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目"@ja;
-    <http://www.w3.org/ns/shacl#order> "7";
+    <http://www.w3.org/ns/shacl#order> 7;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/code03>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "A1";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードの3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Fcode Correspond to 3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目に対応するFコード"@ja;
-    <http://www.w3.org/ns/shacl#order> "8";
+    <http://www.w3.org/ns/shacl#order> 8;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcode03>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "821";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "The first through third digits of the course of study code"@en, "学習指導要領コードの1桁目から3桁目。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Code of Subject Area"@en, "教科コード"@ja;
-    <http://www.w3.org/ns/shacl#order> "9";
+    <http://www.w3.org/ns/shacl#order> 9;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/codePrefix>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "A8A2A1";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 3th one of course of study item easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードの1桁目から3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Fcode of Subject Area"@en, "F教科コード"@ja;
-    <http://www.w3.org/ns/shacl#order> "10";
+    <http://www.w3.org/ns/shacl#order> 10;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcodePrefix>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>;
     <http://www.w3.org/ns/shacl#name> "has a subject"@en, "科目がある"@ja;
-    <http://www.w3.org/ns/shacl#order> "11";
+    <http://www.w3.org/ns/shacl#order> 11;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubject>
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/SubjectArea> .

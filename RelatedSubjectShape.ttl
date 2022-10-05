@@ -4,7 +4,7 @@
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>;
     <http://www.w3.org/ns/shacl#name> "Related"@en, "関係がある"@ja;
-    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#order> 1;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/relation>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"外国語\"@ja</li><li>\"がいこくご\"@ja-Hira</li><li>\"Foreign Languages\"@en</li></ul>";
@@ -20,11 +20,11 @@
         ]
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> "3";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 3;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Name"@en, "関係のある科目名"@ja;
-    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/RelatedSubject> .

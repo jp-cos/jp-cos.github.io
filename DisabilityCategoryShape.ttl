@@ -4,16 +4,16 @@
     <http://www.w3.org/2004/02/skos/core#example> "2";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
     <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Listing order of the code assignment table"@en, "コード割り当て表掲載順"@ja;
-    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#order> 1;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <http://ja.dbpedia.org/resource/知的障害>;
     <http://www.w3.org/ns/shacl#name> "Related link(s)"@en, "関連リンク"@ja;
     <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
-    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#seeAlso>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"知的\"@ja</li><li>\"知的\"@ja-Hira</li><li>\"Intellectual Disability\"@en</li></ul>";
@@ -29,11 +29,11 @@
         ]
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> "3";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 3;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
-    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#order> 3;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/DisabilityCategory> .

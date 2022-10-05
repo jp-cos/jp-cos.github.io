@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/UpperSecondary/2018>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <http://schema.org/datePublished> "2018-03-30";
-  <http://schema.org/name> "Upper Secondary School Curriculum Guideline 2018-03 Notification"@en, "高等学校学習指導要領 2018年3月 告示"@ja, "こうとうがっこうがくしゅうしどうようりょう 2018ねん3がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2022-04-01";
+  <http://schema.org/datePublished> "2018-03-30"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Upper Secondary School Curriculum Guideline 2018-03 Notification"@en, "こうとうがっこうがくしゅうしどうようりょう 2018ねん3がつ こくじ"@ja-hira, "高等学校学習指導要領 2018年3月 告示"@ja;
+  <http://schema.org/startDate> "2022-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/new-cs/1384661.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000158>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/84V10>;

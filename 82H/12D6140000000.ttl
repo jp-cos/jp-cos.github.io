@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3410"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3410
   ];
   <http://schema.org/description> "エ　児童が英語に多く触れることが期待される英語学習の特質を踏まえ，必要に応じて，特定の事項を取り上げて第１章総則の第２の３の(2)のウの(イ)に掲げる指導を行うことにより，指導の効果を高めるよう工夫すること。このような指導を行う場合には，当該指導のねらいやそれを関連付けて指導を行う事項との関係を明確にするとともに，単元など内容や時間のまとまりを見通して，資質・能力が偏りなく育成されるよう計画的に指導すること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UHA1A2UDA6A1A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/grade> 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "エ";

@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/school/Kindergarten>
-  <http://purl.org/linked-data/cube#order> "1";
-  <http://schema.org/name> "Kindergarten"@en, "幼稚園"@ja, "ようちえん"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 1;
+  <http://schema.org/name> "Kindergarten"@en, "ようちえん"@ja-hira, "幼稚園"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>;
   <http://www.w3.org/2002/07/owl#sameAs> <http://ja.dbpedia.org/resource/幼稚園> .
 <https://w3id.org/jp-cos/7100000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>.

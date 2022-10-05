@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容>
-  <http://purl.org/linked-data/cube#order> "2";
-  <http://schema.org/name> "Aims and Content"@en, "ねらい及び内容"@ja, "ねらいおよびないよう"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 2;
+  <http://schema.org/name> "Aims and Content"@en, "ねらいおよびないよう"@ja-hira, "ねらい及び内容"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "l";
   <https://w3id.org/jp-cos/codePrefix> "71l";
@@ -10,7 +10,7 @@
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/人間関係>, <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/健康>, <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/環境>, <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/表現>, <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/言葉>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
+    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>, <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>, <https://w3id.org/jp-cos/Kindergarten/2008>

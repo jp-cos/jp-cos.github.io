@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "291"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 291
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "291"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 291
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "297"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 297
   ];
   <http://schema.org/description> "エ　エについては，学校所在地の事情を踏まえて観察や調査を指導計画に位置付け実施すること。その際，縮尺の大きな地図や統計その他の資料に親しませ，それらの活用の技能を高めるようにすること。また，観察や調査の結果をまとめる際には，地図を有効に活用して事象を説明したり，自分の解釈を加えて論述したり，意見交換したりするなどの学習活動を充実させること。なお，学習の効果を高めることができる場合には，内容の(2)のウの中の学校所在地を含む地域の学習と結び付けて扱ってもよいこと。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,7 +21,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A2A1A2UAA5A4A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/grade> 1, 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "エ";

@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "101"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 101
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "101"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 101
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "107"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 107
   ];
   <http://schema.org/description> "(1) 目的や場面に応じ，社会生活にかかわることなどについて立場や考えの違いを踏まえて話す能力，考えを比べながら聞く能力，相手の立場を尊重して話し合う能力を身に付けさせるとともに，話したり聞いたりして考えを広げようとする態度を育てる。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,7 +21,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A1A0A2A2A2A1A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "2";
+  <https://w3id.org/jp-cos/grade> 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(1)";

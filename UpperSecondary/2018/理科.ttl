@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/UpperSecondary/2018/理科>
-  <http://purl.org/linked-data/cube#order> "6";
-  <http://schema.org/name> "Science"@en, "理科"@ja, "りか"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 6;
+  <http://schema.org/name> "Science"@en, "りか"@ja-hira, "理科"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "6";
   <https://w3id.org/jp-cos/codePrefix> "846";
@@ -10,7 +10,7 @@
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/理科/化学>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/化学基礎>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/地学>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/地学基礎>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/物理>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/物理基礎>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/生物>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/生物基礎>, <https://w3id.org/jp-cos/UpperSecondary/2018/理科/科学と人間生活>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>, <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>, <https://w3id.org/jp-cos/Elementary/2008>

@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/LowerSecondary/2008/社会>
-  <http://purl.org/linked-data/cube#order> "3";
-  <http://schema.org/name> "Social Studies"@en, "社会"@ja, "しゃかい"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 3;
+  <http://schema.org/name> "Social Studies"@en, "しゃかい"@ja-hira, "社会"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "2";
   <https://w3id.org/jp-cos/codePrefix> "732";

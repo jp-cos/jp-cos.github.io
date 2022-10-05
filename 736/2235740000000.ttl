@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "842"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 842
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "842"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 842
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "848"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 848
   ];
   <http://schema.org/description> "エ　イの(ウ)の「惑星」については，大きさ，大気組成，表面温度，衛星の存在などを取り上げること。その際，地球には生命を支える条件が備わっていることにも触れること。「恒星」については，自ら光を放つことや太陽もその一つであることを扱うこと。その際，恒星の集団としての銀河系の存在にも触れること。「太陽系の構造」における惑星の見え方については，金星を取り上げ，その満ち欠けと見かけの大きさを扱うこと。また，惑星以外の天体が存在することにも触れること。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,7 +21,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A6A2A2A3A5A7A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/grade> 3;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "エ";

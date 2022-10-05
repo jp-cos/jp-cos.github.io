@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "201"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 201
   ];
   <http://schema.org/description> "ア　相手や目的を意識して，経験したことや想像したことなどから書くことを選び，集めた材料を比較したり分類したりして，伝えたいことを明確にすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2A1A0A2UCA3A2A2A1A1A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/grade> 3, 4;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "ア";

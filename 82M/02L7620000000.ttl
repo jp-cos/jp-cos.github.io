@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3660"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3660
   ];
   <http://schema.org/description> "イ　思考力，判断力，表現力等については，課題の設定，情報の収集，整理・分析，まとめ・表現などの探究的な学習の過程において発揮され，未知の状況において活用できるものとして身に付けられるようにすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UMA0A2ULA7A6A2A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4", "5", "6";
+  <https://w3id.org/jp-cos/grade> 3, 4, 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";

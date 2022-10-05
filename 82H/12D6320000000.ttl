@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3425"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3425
   ];
   <http://schema.org/description> "イ　英語を使用している人々を中心とする世界の人々や日本人の日常生活，風俗習慣，物語，地理，歴史，伝統文化，自然などに関するものの中から，児童の発達の段階や興味・関心に即して適切な題材を変化をもたせて取り上げるものとし，次の観点に配慮すること。";
   <http://schema.org/edition> "一部改正なし";
@@ -14,7 +14,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UHA1A2UDA6A3A2A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/grade> 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";

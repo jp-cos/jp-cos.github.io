@@ -3,10 +3,10 @@
   <http://dl.nier.go.jp/library/vocab/itemID> "071221855";
   <http://dl.nier.go.jp/library/vocab/recordID> "BB00122343";
   <http://schema.org/citation> "\"Notification No. 175 in 1998 of the Ministry of Education, Science and Culture\" (Official Gazette, 1998-12-14, Extra Edition No. 261, pp.10-45)"@en, "『平成10年 文部省告示第百七十五号』（官報. 平成10年12月14日, 号外第261号, pp.10-45）"@ja;
-  <http://schema.org/datePublished> "1998-12-14";
+  <http://schema.org/datePublished> "1998-12-14"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/isbn> "4171533201";
   <http://schema.org/name> "Elementary School Curriculum Guideline 1998-12 Notification"@en, "小学校学習指導要領 1998年12月 告示"@ja;
-  <http://schema.org/startDate> "2002-04-01";
+  <http://schema.org/startDate> "2002-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/99078687>, <https://ci.nii.ac.jp/ncid/BA59906840>;

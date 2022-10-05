@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/課題研究>
-  <http://purl.org/linked-data/cube#order> "189";
-  <http://schema.org/name> "Project Study"@en, "課題研究"@ja, "かだいけんきゅう"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 189;
+  <http://schema.org/name> "Project Study"@en, "かだいけんきゅう"@ja-hira, "課題研究"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
   <https://w3id.org/jp-cos/code04> "2";
   <https://w3id.org/jp-cos/codePrefix> "84U2";
@@ -9,7 +9,7 @@
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4UUA2";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
+    <http://schema.org/name> "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "Upper Secondary School Curriculum Guideline English Version (Tentative Translation) (2018-03)"@en, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja, "高等学校学習指導要領英訳版（仮訳）(平成30年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>, <https://www.mext.go.jp/a_menu/shotou/new-cs/1417513.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>, <https://w3id.org/jp-cos/UpperSecondary/2018>

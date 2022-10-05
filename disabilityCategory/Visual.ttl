@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/disabilityCategory/Visual>
-  <http://purl.org/linked-data/cube#order> "1";
-  <http://schema.org/name> "Visual Impairment"@en, "視覚"@ja, "しかく"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 1;
+  <http://schema.org/name> "Visual Impairment"@en, "しかく"@ja-hira, "視覚"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ja.dbpedia.org/resource/視覚障害者> .
 <https://w3id.org/jp-cos/77n0000000000000> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>.

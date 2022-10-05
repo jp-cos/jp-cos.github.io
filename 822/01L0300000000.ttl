@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1368"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1368
   ];
   <http://schema.org/description> "(3) 社会的事象について，よりよい社会を考え主体的に問題解決しようとする態度を養うとともに，多角的な思考や理解を通して，地域社会に対する誇りと愛情，地域社会の一員としての自覚，我が国の国土と歴史に対する愛情，我が国の将来を担う国民としての自覚，世界の国々の人々と共に生きていくことの大切さについての自覚などを養う。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2A2A0A1ULA0A3A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4", "5", "6";
+  <https://w3id.org/jp-cos/grade> 3, 4, 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";

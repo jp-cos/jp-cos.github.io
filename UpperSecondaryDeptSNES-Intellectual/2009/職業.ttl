@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/職業>
-  <http://purl.org/linked-data/cube#order> "21";
-  <http://schema.org/name> "Job"@en, "職業"@ja, "しょくぎょう"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 21;
+  <http://schema.org/name> "Job"@en, "しょくぎょう"@ja-hira, "職業"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "E";
   <https://w3id.org/jp-cos/codePrefix> "7GE";

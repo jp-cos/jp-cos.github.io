@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/disabilityCategory/Hearing>
-  <http://purl.org/linked-data/cube#order> "2";
-  <http://schema.org/name> "Hearing Impairment"@en, "聴覚"@ja, "ちょうかく"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 2;
+  <http://schema.org/name> "Hearing Impairment"@en, "ちょうかく"@ja-hira, "聴覚"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ja.dbpedia.org/resource/聴覚障害者> .
 <https://w3id.org/jp-cos/77n0000000000000> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>.

@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "373"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 373
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "373"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 373
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "379"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 379
   ];
   <http://schema.org/description> """イ　国民の生活と政府の役割
 　国民の生活と福祉の向上を図るために，社会資本の整備，公害の防止など環境の保全，社会保障の充実，消費者の保護など，市場の働きにゆだねることが難しい諸問題に関して，国や地方公共団体が果たしている役割について考えさせる。また，財源の確保と配分という観点から財政の役割について考えさせる。その際，租税の意義と役割について考えさせるとともに，国民の納税の義務について理解させる。""";
@@ -22,7 +22,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A2A3A2A3A3A2A2A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/grade> 3;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";

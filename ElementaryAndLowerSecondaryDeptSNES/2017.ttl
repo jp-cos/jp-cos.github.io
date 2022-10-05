@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <http://schema.org/datePublished> "2017-04-28";
-  <http://schema.org/name> "Elementary and Lower Secondary Department of Special Needs Education School Curriculum Guideline 2017-04 Notification"@en, "特別支援学校小学部・中学部学習指導要領 2017年4月 告示"@ja, "とくべつしえんがっこうしょうがくぶ・ちゅうがくぶがくしゅうしどうようりょう 2017ねん4がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2020-04-01";
+  <http://schema.org/datePublished> "2017-04-28"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Elementary and Lower Secondary Department of Special Needs Education School Curriculum Guideline 2017-04 Notification"@en, "とくべつしえんがっこうしょうがくぶ・ちゅうがくぶがくしゅうしどうようりょう 2017ねん4がつ こくじ"@ja-hira, "特別支援学校小学部・中学部学習指導要領 2017年4月 告示"@ja;
+  <http://schema.org/startDate> "2020-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <https://erid.nier.go.jp/cer/database/YOURYO/AG00000157>, <https://www.mext.go.jp/content/20200407-mxt_tokubetu01-100002983_1.pdf>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/86V10>, <https://w3id.org/jp-cos/86V11>, <https://w3id.org/jp-cos/86V12>;

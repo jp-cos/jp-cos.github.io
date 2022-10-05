@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>
-  <http://purl.org/linked-data/cube#order> "23";
-  <http://schema.org/name> "Subjects (Elementary Department)"@en, "各教科(小学部)"@ja, "かくきょうか(しょうがくぶ)"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 23;
+  <http://schema.org/name> "Subjects (Elementary Department)"@en, "かくきょうか(しょうがくぶ)"@ja-hira, "各教科(小学部)"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "n";
   <https://w3id.org/jp-cos/codePrefix> "87n";

@@ -3,10 +3,10 @@
   <http://dl.nier.go.jp/library/vocab/itemID> "400031202";
   <http://dl.nier.go.jp/library/vocab/recordID> "BB20056598";
   <http://schema.org/citation> "\"Notification No. 72 in 2017 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2017-04-28, Extra Edition No. 93, pp.14-22)"@en, "『平成29年 文部科学省告示第七十二号』（官報. 平成29年4月28日, 号外第93号, pp.14-22）"@ja;
-  <http://schema.org/datePublished> "2017-04-28";
+  <http://schema.org/datePublished> "2017-04-28"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/isbn> "9784303124243";
   <http://schema.org/name> "Kindergarten Department of Special Needs Education School Curriculum Guideline 2017-04 Notification"@en, "特別支援学校幼稚部教育要領 2017年4月 告示"@ja;
-  <http://schema.org/startDate> "2018-04-01";
+  <http://schema.org/startDate> "2018-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <https://erid.nier.go.jp/cer/database/YOURYO/AG00000156>, <https://www.mext.go.jp/a_menu/shotou/tokubetu/main/1386427.htm>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/23032642>, <https://ci.nii.ac.jp/ncid/BB25783612>, <https://web.archive.org/web/20210419001014/https://www.mext.go.jp/a_menu/shotou/tokubetu/main/1386427.htm>;

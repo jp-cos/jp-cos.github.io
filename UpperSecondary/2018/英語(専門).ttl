@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)>
-  <http://purl.org/linked-data/cube#order> "26";
-  <http://schema.org/name> "English (Special)"@en, "英語(専門)"@ja, "えいご(せんもん)"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 26;
+  <http://schema.org/name> "English (Special)"@en, "えいご(せんもん)"@ja-hira, "英語(専門)"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "d";
   <https://w3id.org/jp-cos/codePrefix> "84d";

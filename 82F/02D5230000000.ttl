@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3028"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3028
   ];
   <http://schema.org/description> "ウ　(3)のアの(ア)については，五大栄養素と食品の体内での主な働きを中心に扱うこと。(ウ)については，献立を構成する要素として主食，主菜，副菜について扱うこと。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UFA0A2UDA5A2A3A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/grade> 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "ウ";

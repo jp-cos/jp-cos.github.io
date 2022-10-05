@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/理学療法>
-  <http://purl.org/linked-data/cube#order> "9";
-  <http://schema.org/name> "Physical Therapy"@en, "理学療法"@ja, "りがくりょうほう"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 9;
+  <http://schema.org/name> "Physical Therapy"@en, "りがくりょうほう"@ja-hira, "理学療法"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "g";
   <https://w3id.org/jp-cos/codePrefix> "8Dg";

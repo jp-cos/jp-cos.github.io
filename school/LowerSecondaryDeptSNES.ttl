@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>
-  <http://purl.org/linked-data/cube#order> "7";
-  <http://schema.org/name> "Lower Secondary Department of Special Needs Education School"@en, "特別支援学校中学部"@ja, "とくべつしえんがっこうちゅうがくぶ"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 7;
+  <http://schema.org/name> "Lower Secondary Department of Special Needs Education School"@en, "とくべつしえんがっこうちゅうがくぶ"@ja-hira, "特別支援学校中学部"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School> .
 <https://w3id.org/jp-cos/7600000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7600000100000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>.

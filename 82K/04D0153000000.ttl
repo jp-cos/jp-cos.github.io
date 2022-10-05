@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3457"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3457
   ];
   <http://schema.org/description> """〔第５学年及び第６学年〕 
 より高い目標を立て，希望と勇気をもち，困難があってもくじけずに努力して物事をやり抜くこと。""";
@@ -14,7 +14,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UKA0A4UDA0A1A5A3A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/grade> 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第2 / A / ［希望と勇気，努力と強い意志］ / 〔第5学年及び第6学年〕 ";

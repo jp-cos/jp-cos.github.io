@@ -1,9 +1,9 @@
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/ねらい及び内容>
   <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/ねらい及び内容>;
-  <http://schema.org/name> "Aims and Content"@en, "ねらい及び内容"@ja, "ねらいおよびないよう"@ja-hira;
+  <http://schema.org/name> "Aims and Content"@en, "ねらいおよびないよう"@ja-hira, "ねらい及び内容"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
+    <http://schema.org/name> "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "Course of study for Kindergarten, English Version (Tentative Translation) (2008-03)"@en, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja, "幼稚園教育指導要領（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>, <https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1298368.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>, <https://w3id.org/jp-cos/Kindergarten/2008>

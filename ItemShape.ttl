@@ -3,175 +3,175 @@
   <http://www.w3.org/ns/shacl#property> [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudy>;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Course Of Study"@en, "学習指導要領"@ja;
-    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#order> 1;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudy>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
     <http://www.w3.org/ns/shacl#description> "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
-    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/83V11>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>;
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Source"@en, "出典"@ja;
-    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#order> 3;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/source>
   ], [
     <http://www.w3.org/ns/shacl#description> "Repeatable. The value of the \"No\" column of the original data. A item number information consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:source</code>."@en, "元データの「No」列の値。データセットの数だけ繰り返される。<code>rdf:value</code>, <code>dct:source</code>の2つの項番用プロパティを持つ。"@ja;
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Item Number"@en, "項番"@ja;
     <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/NumberShape>;
     <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNode>;
-    <http://www.w3.org/ns/shacl#order> "4";
+    <http://www.w3.org/ns/shacl#order> 4;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "'''(イ) 語と語の連結による音の変化'''";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "The value of the \"Text of Course of Study\" column of the original data."@en, "元データの「学習指導要領テキスト」列の値。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Description of Course Of Study Item"@en, "学習指導要領テキスト"@ja;
-    <http://www.w3.org/ns/shacl#order> "5";
+    <http://www.w3.org/ns/shacl#order> 5;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/description>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "83H1203111200000";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "The value of the \"Course of Study Code\" column of the original data."@en, "元データの「学習指導要領コード」列の値。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Code of Course of Study Item"@en, "学習指導要領コード"@ja;
-    <http://www.w3.org/ns/shacl#order> "6";
+    <http://www.w3.org/ns/shacl#order> 6;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/identifier>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Issued Period"@en, "告示時期"@ja;
-    <http://www.w3.org/ns/shacl#order> "7";
+    <http://www.w3.org/ns/shacl#order> 7;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <cs:school/LowerSecondary>;
+    <http://www.w3.org/2004/02/skos/core#example> "cs:school/LowerSecondary";
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
-    <http://www.w3.org/ns/shacl#order> "8";
+    <http://www.w3.org/ns/shacl#order> 8;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <cs:disabilityCategory/Intellectual>;
+    <http://www.w3.org/2004/02/skos/core#example> "cs:disabilityCategory/Intellectual";
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/DisabilityCategory>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#name> "Disability Category"@en, "障害分類"@ja;
-    <http://www.w3.org/ns/shacl#order> "9";
+    <http://www.w3.org/ns/shacl#order> 9;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/disabilityCategory>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/SubjectArea>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 3rd digit of the course of study code."@en, "元データの「教科等」列の値。学習指導要領コードの3桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Subject Area"@en, "教科等"@ja;
-    <http://www.w3.org/ns/shacl#order> "10";
+    <http://www.w3.org/ns/shacl#order> 10;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subjectArea>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 4th digit of the course of study code."@en, "学習指導要領コードの4桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#name> "Subject"@en, "分野・科目・分類"@ja;
-    <http://www.w3.org/ns/shacl#order> "11";
+    <http://www.w3.org/ns/shacl#order> 11;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subject>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "目標及び内容（大項目）";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 5th digit of the course of study code."@en, "学習指導要領コードの5桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Category"@en, "大項目"@ja;
-    <http://www.w3.org/ns/shacl#order> "12";
+    <http://www.w3.org/ns/shacl#order> 12;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/category>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "1,2";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 6th digit of the course of study code."@en, "学習指導要領コードの6桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#name> "Grade"@en, "学年"@ja;
-    <http://www.w3.org/ns/shacl#order> "13";
+    <http://www.w3.org/ns/shacl#order> 13;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/grade>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Stage>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 6th digit of the course of study code."@en, "学習指導要領コードの6桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#name> "Stage"@en, "段階"@ja;
-    <http://www.w3.org/ns/shacl#order> "14";
+    <http://www.w3.org/ns/shacl#order> 14;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/stage>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "内容";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 7th digit of the course of study code."@en, "学習指導要領コードの7桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#name> "Sub Category"@en, "項目"@ja;
-    <http://www.w3.org/ns/shacl#order> "15";
+    <http://www.w3.org/ns/shacl#order> 15;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subCategory>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "一部改正なし";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the 16th digit of the course of study code."@en, "学習指導要領コードの16桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Edition of Course Of Study Item"@en, "改正情報"@ja;
-    <http://www.w3.org/ns/shacl#order> "16";
+    <http://www.w3.org/ns/shacl#order> 16;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/edition>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make course of study code easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードをExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Fcode of Course of Study"@en, "F学習指導要領コード"@ja;
-    <http://www.w3.org/ns/shacl#order> "17";
+    <http://www.w3.org/ns/shacl#order> 17;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcode>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/8GH12a4222140000>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>;
     <http://www.w3.org/ns/shacl#description> "Child of the cource of study item. It is created automatically by the program using the regularity of the course of study code."@en, "子供の学習指導要領細目を表す。学習指導要領コードの規則性を利用してプログラムで自動作成。"@ja;
     <http://www.w3.org/ns/shacl#name> "Child"@en, "子"@ja;
-    <http://www.w3.org/ns/shacl#order> "18";
+    <http://www.w3.org/ns/shacl#order> 18;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/hasPart>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "(イ)";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is the section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号を表す。ないこともある。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#name> "Section Number"@en, "節番号"@ja;
-    <http://www.w3.org/ns/shacl#order> "19";
+    <http://www.w3.org/ns/shacl#order> 19;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionNumber>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号の全階層分を表す。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Hierarchical Section Numbers"@en, "節番号（階層）"@ja;
-    <http://www.w3.org/ns/shacl#order> "20";
+    <http://www.w3.org/ns/shacl#order> 20;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionNumberHierarchy>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "''語と語の連結による音の変化'''";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Text"@en, "テキスト"@ja;
-    <http://www.w3.org/ns/shacl#order> "21";
+    <http://www.w3.org/ns/shacl#order> 21;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionText>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is \"0\", but the correct value is \"e\". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul>";
@@ -185,8 +185,8 @@
       ]
     ];
     <http://www.w3.org/ns/shacl#name> "Note"@en, "備考"@ja;
-    <http://www.w3.org/ns/shacl#order> "22";
+    <http://www.w3.org/ns/shacl#order> 22;
     <http://www.w3.org/ns/shacl#path> <http://id.loc.gov/ontologies/bibframe/note>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Item> .

@@ -3,10 +3,10 @@
   <http://dl.nier.go.jp/library/vocab/itemID> "031210508";
   <http://dl.nier.go.jp/library/vocab/recordID> "BB80051880";
   <http://schema.org/citation> "\"Notification No. 173 in 2003 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2003-12-26, Extra Edition No. 296, pp.32-35)"@en, "『平成15年 文部科学省告示第百七十三号』（官報. 平成15年12月26日, 号外第296号, pp.32-35）"@ja;
-  <http://schema.org/datePublished> "2003-12-26";
+  <http://schema.org/datePublished> "2003-12-26"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/isbn> "4171534216";
   <http://schema.org/name> "Lower Secondary School Curriculum Guideline 2003-12 Notification of Partial Revision"@en, "中学校学習指導要領 2003年12月 一部改正"@ja;
-  <http://schema.org/startDate> "2003-12-16";
+  <http://schema.org/startDate> "2003-12-16"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1320101.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000141>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/20537091>, <https://ci.nii.ac.jp/ncid/BA65817042>;

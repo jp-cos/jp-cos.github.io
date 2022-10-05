@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1223"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1223
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1223"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1223
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1229"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1229
   ];
   <http://schema.org/description> "ウ　喫煙，飲酒，薬物乱用などの行為は，心身に様々な影響を与え，健康を損なう原因となること。また，これらの行為には，個人の心理状態や人間関係，社会環境が影響することから，それぞれの要因に適切に対処する必要があること。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,7 +21,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3UGA2A2A3A3A4A3A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/grade> 3;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "ウ";

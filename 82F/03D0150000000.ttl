@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3042"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3042
   ];
   <http://schema.org/description> "(5) 題材の構成に当たっては，児童や学校，地域の実態を的確に捉えるとともに，内容相互の関連を図り，指導の効果を高めるようにすること。その際，他教科等との関連を明確にするとともに，中学校の学習を見据え，系統的に指導ができるようにすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UFA0A3UDA0A1A5A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "5", "6";
+  <https://w3id.org/jp-cos/grade> 5, 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(5)";

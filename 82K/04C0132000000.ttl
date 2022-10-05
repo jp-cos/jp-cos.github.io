@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3448"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3448
   ];
   <http://schema.org/description> """〔第３学年及び第４学年〕
 自分でできることは自分でやり，安全に気を付け，よく考えて行動し，節度のある生活をすること。""";
@@ -14,7 +14,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2UKA0A4UCA0A1A3A2A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/grade> 3, 4;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第2 / A / ［節度，節制］ / 〔第3学年及び第4学年〕";

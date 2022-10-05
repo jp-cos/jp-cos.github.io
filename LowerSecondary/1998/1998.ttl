@@ -3,10 +3,10 @@
   <http://dl.nier.go.jp/library/vocab/itemID> "071221870";
   <http://dl.nier.go.jp/library/vocab/recordID> "BB00122345";
   <http://schema.org/citation> "\"Notification No. 176 in 1998 of the Ministry of Education, Science and Culture\" (Official Gazette, 1998-12-14, Extra Edition No. 261, pp.58-106)"@en, "『平成10年 文部省告示第百七十六号』（官報. 平成10年12月14日, 号外第261号, pp.58-106）"@ja;
-  <http://schema.org/datePublished> "1998-12-14";
+  <http://schema.org/datePublished> "1998-12-14"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/isbn> "4171534208";
   <http://schema.org/name> "Lower Secondary School Curriculum Guideline 1998-12 Notification"@en, "中学校学習指導要領 1998年12月 告示"@ja;
-  <http://schema.org/startDate> "2002-04-01";
+  <http://schema.org/startDate> "2002-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1320061.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000134>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/99078688>, <https://ci.nii.ac.jp/ncid/BA45310092>;

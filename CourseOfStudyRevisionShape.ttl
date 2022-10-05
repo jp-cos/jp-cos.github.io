@@ -4,10 +4,10 @@
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Issued Period"@en, "告示時期"@ja;
-    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#order> 1;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"中学校学習指導要領 平成22年11月 一部改正\"@ja</li><li>\"Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision\"@en</li></ul>";
@@ -20,12 +20,12 @@
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Name of the revision"@en, "別バージョンの名称"@ja;
-    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）\"@ja</li><li>\"\\\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\\\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)\"@en</li></ul>";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
@@ -37,82 +37,82 @@
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Reference"@en, "出典"@ja;
-    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#order> 3;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/citation>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>;
     <http://www.w3.org/ns/shacl#description> "Repeatable. Links to the fulltext(s), such as MEXT website and <a href=\"http://www.nier.go.jp/guideline/\">NIER Curriculum Guidelines Database</a>."@en, "繰り返しあり。本文へのリンク。文部科学省ウェブページか<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja;
     <http://www.w3.org/ns/shacl#name> "Fulltext URL"@en, "本文URL"@ja;
     <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
-    <http://www.w3.org/ns/shacl#order> "4";
+    <http://www.w3.org/ns/shacl#order> 4;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/url>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <http://id.ndl.go.jp/jpno/89034331>;
     <http://www.w3.org/ns/shacl#description> "Repeatable. Links to <a href=\"http://iss.ndl.go.jp/\">NDL Search</a> and <a href=\"https://ci.nii.ac.jp/books/\">CiNii Books</a>."@en, "繰り返しあり。<a href=\"http://iss.ndl.go.jp/\">国立国会図書館サーチ</a>、<a href=\"https://ci.nii.ac.jp/books/\">CiNii Books</a>へのリンク。"@ja;
     <http://www.w3.org/ns/shacl#name> "Related links"@en, "関連リンク"@ja;
     <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
-    <http://www.w3.org/ns/shacl#order> "5";
+    <http://www.w3.org/ns/shacl#order> 5;
     <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2000/01/rdf-schema#seeAlso>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "9784491034607";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
-    <http://www.w3.org/ns/shacl#name> "ISBN"@en, "ISBN"@ja;
-    <http://www.w3.org/ns/shacl#order> "6";
+    <http://www.w3.org/ns/shacl#name> "ISBN"@ja, "ISBN"@en;
+    <http://www.w3.org/ns/shacl#order> 6;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/isbn>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "071221843";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#name> "Item identifier at the NIER Education Library"@en, "国立教育政策研究所教育図書館の蔵書データベースにおける所蔵資料ID"@ja;
-    <http://www.w3.org/ns/shacl#order> "7";
+    <http://www.w3.org/ns/shacl#order> 7;
     <http://www.w3.org/ns/shacl#path> <http://dl.nier.go.jp/library/vocab/itemID>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "375.92||1||1989d";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
     <http://www.w3.org/ns/shacl#description> "Delimiter for a call number is \"||\"."@en, "区切り記号は、「||」である。"@ja;
     <http://www.w3.org/ns/shacl#name> "Call number at the NIER Education Library"@en, "国立教育政策研究所教育図書館の所蔵資料に対する請求記号"@ja;
-    <http://www.w3.org/ns/shacl#order> "8";
+    <http://www.w3.org/ns/shacl#order> 8;
     <http://www.w3.org/ns/shacl#path> <http://dl.nier.go.jp/library/vocab/callNumber>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "BB80025218";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
-    <http://www.w3.org/ns/shacl#description> "Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>."@en, "<code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能"@ja;
+    <http://www.w3.org/ns/shacl#description> "<code>https://nieropac.nier.go.jp/ebopac/<var>レコードID</var></code>の形式で参照可能"@ja, "Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>."@en;
     <http://www.w3.org/ns/shacl#name> "Record identifier at the NIER Education Library"@en, "国立教育政策研究所教育図書館の蔵書データベースにおけるレコードID"@ja;
-    <http://www.w3.org/ns/shacl#order> "9";
+    <http://www.w3.org/ns/shacl#order> 9;
     <http://www.w3.org/ns/shacl#path> <http://dl.nier.go.jp/library/vocab/recordID>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "2020-04-01";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date>;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Date of Enforcement"@en, "施行年月日"@ja;
-    <http://www.w3.org/ns/shacl#order> "10";
+    <http://www.w3.org/ns/shacl#order> 10;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/startDate>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "1989-03-15";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date>;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Date of announcement (date of revision)"@en, "告示日（改正日）"@ja;
-    <http://www.w3.org/ns/shacl#order> "11";
+    <http://www.w3.org/ns/shacl#order> 11;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/datePublished>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/Elementary>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
-    <http://www.w3.org/ns/shacl#order> "12";
+    <http://www.w3.org/ns/shacl#order> 12;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>;
     <http://www.w3.org/ns/shacl#name> "Dataset"@en, "データセット"@ja;
-    <http://www.w3.org/ns/shacl#order> "13";
+    <http://www.w3.org/ns/shacl#order> 13;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/dataset>
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudyRevision> .

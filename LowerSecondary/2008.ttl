@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/LowerSecondary/2008>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
-  <http://schema.org/datePublished> "2008-03-28";
-  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 2008-03 Notification"@en, "中学校学習指導要領 2008年3月 告示"@ja, "ちゅうがっこうがくしゅうしどうようりょう 2008ねん3がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2012-04-01";
+  <http://schema.org/datePublished> "2008-03-28"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 2008-03 Notification"@en, "ちゅうがっこうがくしゅうしどうようりょう 2008ねん3がつ こくじ"@ja-hira, "中学校学習指導要領 2008年3月 告示"@ja;
+  <http://schema.org/startDate> "2012-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/1304424.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000148>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/73V10>, <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V20>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V30>, <https://w3id.org/jp-cos/73V31>, <https://w3id.org/jp-cos/73V32>;

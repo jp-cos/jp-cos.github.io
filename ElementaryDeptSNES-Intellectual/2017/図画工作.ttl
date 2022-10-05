@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/図画工作>
-  <http://purl.org/linked-data/cube#order> "10";
-  <http://schema.org/name> "Art and Handicraft"@en, "図画工作"@ja, "ずがこうさく"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 10;
+  <http://schema.org/name> "Art and Handicraft"@en, "ずがこうさく"@ja-hira, "図画工作"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "9";
   <https://w3id.org/jp-cos/codePrefix> "889";
@@ -10,7 +10,7 @@
   <https://w3id.org/jp-cos/fcodePrefix> "A8A8A9";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>, <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>, <https://w3id.org/jp-cos/Elementary/2008>

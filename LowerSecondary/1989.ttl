@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/LowerSecondary/1989>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>;
-  <http://schema.org/datePublished> "1989-03-15";
-  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en, "中学校学習指導要領 1989年3月 告示"@ja, "ちゅうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "1993-04-01";
+  <http://schema.org/datePublished> "1989-03-15"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en, "ちゅうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-hira, "中学校学習指導要領 1989年3月 告示"@ja;
+  <http://schema.org/startDate> "1993-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H1>;

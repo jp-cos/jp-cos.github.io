@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1460"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1460
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1460"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1460
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1466"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1466
   ];
   <http://schema.org/description> """(イ) 第２学年における言語活動
 第１学年の学習を基礎として，言語の使用場面や言語の働きを更に広げた言語活動を行わせること。その際，第１学年における学習内容を繰り返して指導し定着を図るとともに，事実関係を伝えたり，物事について判断したりした内容などの中からコミュニケーションを図れるような話題を取り上げること。""";
@@ -22,7 +22,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3UHA1A2A2A3A2A2A2A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "2";
+  <https://w3id.org/jp-cos/grade> 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(イ)";

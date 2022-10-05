@@ -4,11 +4,11 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1238"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1238
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1247"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1247
   ];
   <http://schema.org/description> "派";
   <http://schema.org/edition> "一部改正なし";
@@ -17,7 +17,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A2A1A0A0A6A0A1A6A1A4A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "6";
+  <https://w3id.org/jp-cos/grade> 6;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 別表 学 年 別 漢 字 配 当 表 / 第六学年(181字) / 派";

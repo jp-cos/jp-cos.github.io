@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/UpperSecondary/1999/2003>
   <http://schema.org/citation> "\"Notification No. 76 in 2003 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2003-04-30, No. 3596, pp.5)"@en, "『平成15年 文部科学省告示第七十六号』（官報. 平成15年4月30日, 第3596号, pp.5）"@ja;
-  <http://schema.org/datePublished> "2003-04-30";
+  <http://schema.org/datePublished> "2003-04-30"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/name> "Upper Secondary School Curriculum Guideline 2003-04 Notification of Partial Revision"@en, "高等学校学習指導要領 2003年4月 一部改正"@ja;
-  <http://schema.org/startDate> "2003-04-30";
+  <http://schema.org/startDate> "2003-04-30"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H10toH11>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary> .

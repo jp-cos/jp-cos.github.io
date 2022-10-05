@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/Elementary/2008/生活>
-  <http://purl.org/linked-data/cube#order> "6";
-  <http://schema.org/name> "Living Environment Studies"@en, "生活"@ja, "せいかつ"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 6;
+  <http://schema.org/name> "Living Environment Studies"@en, "せいかつ"@ja-hira, "生活"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
   <https://w3id.org/jp-cos/code03> "7";
   <https://w3id.org/jp-cos/codePrefix> "727";
@@ -9,7 +9,7 @@
   <https://w3id.org/jp-cos/fcodePrefix> "A7A2A7";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
+    <http://schema.org/name> "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja, "小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>, <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm>;
     <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>, <https://w3id.org/jp-cos/Elementary/2008>

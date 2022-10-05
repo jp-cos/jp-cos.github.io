@@ -1,7 +1,7 @@
 <https://w3id.org/jp-cos/period/S52toS53>
-  <http://schema.org/endDate> "1978-12-31";
+  <http://schema.org/endDate> "1978-12-31"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/name> "Published from 1977 to 1978"@en, "昭和52～53年　告示"@ja;
-  <http://schema.org/startDate> "1977-01-01";
+  <http://schema.org/startDate> "1977-01-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>;
   <https://w3id.org/jp-cos/code01> "4";
   <https://w3id.org/jp-cos/fcode01> "A4" .

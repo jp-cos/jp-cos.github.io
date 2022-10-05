@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/school/ElementaryDeptSNES>
-  <http://purl.org/linked-data/cube#order> "6";
-  <http://schema.org/name> "Elementary Department of Special Needs Education School"@en, "特別支援学校小学部"@ja, "とくべつしえんがっこうしょうがくぶ"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 6;
+  <http://schema.org/name> "Elementary Department of Special Needs Education School"@en, "とくべつしえんがっこうしょうがくぶ"@ja-hira, "特別支援学校小学部"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School> .
 <https://w3id.org/jp-cos/7600000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/7600000100000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.

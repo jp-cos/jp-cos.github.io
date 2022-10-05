@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "384"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 384
   ];
   <http://schema.org/description> "イ　地図の読図や作図，景観写真の読み取り，地域に関する情報の収集や処理などの地理的技能を身に付けるに当たっては，系統性に留意して計画的に指導すること。その際，教科用図書「地図」を十分に活用すること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A3A2A1A2UAA5A2A2A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "1", "2";
+  <https://w3id.org/jp-cos/grade> 1, 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "イ";

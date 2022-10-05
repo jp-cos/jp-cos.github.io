@@ -4,11 +4,11 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1318"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1318
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1327"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1327
   ];
   <http://schema.org/description> "(4) 内容の(4)の「災害」については，火災，風水害，地震などの中から選択して取り上げ，「事故の防止」については，交通事故などの事故防止や防犯を取り上げるものとする。";
   <http://schema.org/edition> "一部改正なし";
@@ -17,7 +17,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A2A2A0A2UCA5A4A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/grade> 3, 4;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "(4)";

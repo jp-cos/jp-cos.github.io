@@ -1,7 +1,7 @@
 <https://w3id.org/jp-cos/82V10>
   <http://purl.org/dc/terms/identifier> "82V10";
   <http://schema.org/name> "【82V10】Code for Elementary School Course of Guideline published in 2017, version 1.0 （2020-10-16 release）"@en, "【82V10】小学校学習指導要領コード 平成29年告示：バージョン1.0 （令和2年10月16日公表）"@ja;
-  <http://schema.org/releaseDate> "2020-10-16";
+  <http://schema.org/releaseDate> "2020-10-16"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/version> "1.0";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary> .

@@ -4,11 +4,11 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2792"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2792
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "2818"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2818
   ];
   <http://schema.org/description> """〔第３学年及び第４学年〕
 学級を単位として，協力し合って楽しい学級生活をつくるとともに，日常の生活や学習に意欲的に取り組もうとする態度の育成に資する活動を行うこと。""";
@@ -18,7 +18,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A2UNA1A2UCA3A2A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/grade> 3, 4;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第6章 / 第2 / 〔学級活動〕 / 2 / 〔第3学年及び第4学年〕";

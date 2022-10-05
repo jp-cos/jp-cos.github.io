@@ -3,10 +3,10 @@
   <http://dl.nier.go.jp/library/vocab/itemID> "400031990";
   <http://dl.nier.go.jp/library/vocab/recordID> "BB20057254";
   <http://schema.org/citation> "\"Notification No. 62 in 2017 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2017-03-31, Extra Edition No. 70, pp.3-14)"@en, "『平成29年 文部科学省告示第六十二号』（官報. 平成29年3月31日, 号外第70号, pp.3-14）"@ja;
-  <http://schema.org/datePublished> "2017-03-31";
+  <http://schema.org/datePublished> "2017-03-31"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/isbn> "9784827815634";
   <http://schema.org/name> "Kindergarten Curriculum Guideline 2017-03 Notification"@en, "幼稚園教育要領 2017年3月 告示"@ja;
-  <http://schema.org/startDate> "2018-04-01";
+  <http://schema.org/startDate> "2018-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <https://erid.nier.go.jp/cer/database/YOURYO/AG00000153>, <https://www.mext.go.jp/a_menu/shotou/new-cs/1384661.htm>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/23047631>, <https://ci.nii.ac.jp/ncid/BB25845323>, <https://web.archive.org/web/20210419035425/https://www.mext.go.jp/a_menu/shotou/new-cs/1384661.htm>;

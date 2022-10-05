@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1075"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1075
   ];
   <http://schema.org/description> """㋑　気象観測
 校庭などで気象観測を継続的に行い，その観測記録などに基づいて，気温，湿度，気圧，風向などの変化と天気との関係を見いだして理解するとともに，観測方法や記録の仕方を身に付けること。""";
@@ -14,7 +14,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A3A6A2A2A2A3A4A1A1A2A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "2";
+  <https://w3id.org/jp-cos/grade> 2;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "㋑";

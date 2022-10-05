@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "886"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 886
   ];
   <http://schema.org/description> "(3) 内容の「Ａ数と式」の(3)のアの(イ)とイの(ア)については，ax^2＝b（a，bは有理数）の二次方程式及びx^2＋px＋q＝0(p，qは整数）の二次方程式を取り扱うものとする。因数分解して解くことの指導においては，内容の「Ａ数と式」の(2)のアの(イ)に示した公式を用いることができるものを中心に取り扱うものとする。また，平方の形に変形して解くことの指導においては，xの係数が偶数であるものを中心に取り扱うものとする。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A3A5A0A2A3A5A3A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3";
+  <https://w3id.org/jp-cos/grade> 3;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "(3)";

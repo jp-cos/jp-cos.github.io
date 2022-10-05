@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/school/UpperSecondary>
-  <http://purl.org/linked-data/cube#order> "4";
-  <http://schema.org/name> "Upper Secondary School"@en, "高等学校"@ja, "こうとうがっこう"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 4;
+  <http://schema.org/name> "Upper Secondary School"@en, "こうとうがっこう"@ja-hira, "高等学校"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>;
   <http://www.w3.org/2002/07/owl#sameAs> <http://ja.dbpedia.org/resource/高等学校> .
 <https://w3id.org/jp-cos/7400000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.

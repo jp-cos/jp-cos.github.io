@@ -1,6 +1,6 @@
 <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>
-  <http://purl.org/linked-data/cube#order> "8";
-  <http://schema.org/name> "Upper Secondary Department of Special Needs Education School"@en, "特別支援学校高等部"@ja, "とくべつしえんがっこうこうとうぶ"@ja-hira;
+  <http://purl.org/linked-data/cube#order> 8;
+  <http://schema.org/name> "Upper Secondary Department of Special Needs Education School"@en, "とくべつしえんがっこうこうとうぶ"@ja-hira, "特別支援学校高等部"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School> .
 <https://w3id.org/jp-cos/7B00000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7B00000100000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.

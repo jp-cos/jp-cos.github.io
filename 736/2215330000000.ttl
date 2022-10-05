@@ -4,15 +4,15 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "823"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 823
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "823"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 823
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "829"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 829
   ];
   <http://schema.org/description> "ウ　イの(ア)については，地層を形成している代表的な堆《たい》積岩も取り上げること。「野外観察」については，学校内外の地層を観察する活動とすること。「地層」については，断層，褶《しゅう》曲にも触れること。「化石」については，示相化石及び示準化石を取り上げること。「地質年代」の区分は古生代，中生代，新生代の第三紀及び第四紀を取り上げること。";
   <http://schema.org/edition> "一部改正なし";
@@ -21,7 +21,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
   <https://w3id.org/jp-cos/fcode> "A7A3A6A2A2A1A5A3A3A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "1";
+  <https://w3id.org/jp-cos/grade> 1;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
   <https://w3id.org/jp-cos/sectionNumber> "ウ";

@@ -4,7 +4,7 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3640"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3640
   ];
   <http://schema.org/description> "カ　各単元や各時間の指導に当たっては，コミュニケーションを行う目的，場面，状況などを明確に設定し，言語活動を通して育成すべき資質・能力を明確に示すことにより，児童が学習の見通しを立てたり，振り返ったりすることができるようにすること。";
   <http://schema.org/edition> "一部改正なし";
@@ -13,7 +13,7 @@
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
   <https://w3id.org/jp-cos/fcode> "A8A2ULA1A2UCA6A2A6A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> "3", "4";
+  <https://w3id.org/jp-cos/grade> 3, 4;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
   <https://w3id.org/jp-cos/sectionNumber> "カ";

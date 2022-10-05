@@ -4,11 +4,11 @@
   <http://purl.org/linked-data/cube#order> [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "255"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 255
   ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "264"
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 264
   ];
   <http://schema.org/description> "(2) 教材は，次のような観点に配慮して取り上げること。";
   <http://schema.org/edition> "一部改正なし";

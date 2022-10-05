@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
-  <http://schema.org/datePublished> "2019-02-04";
-  <http://schema.org/name> "Upper Secondary Department of Special Needs Education School Curriculum Guideline 2019-02 Notification"@en, "特別支援学校高等部学習指導要領 2019年2月 告示"@ja, "とくべつしえんがっこうこうとうぶがくしゅうしどうようりょう 2019ねん2がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2022-04-01";
+  <http://schema.org/datePublished> "2019-02-04"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Upper Secondary Department of Special Needs Education School Curriculum Guideline 2019-02 Notification"@en, "とくべつしえんがっこうこうとうぶがくしゅうしどうようりょう 2019ねん2がつ こくじ"@ja-hira, "特別支援学校高等部学習指導要領 2019年2月 告示"@ja;
+  <http://schema.org/startDate> "2022-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <https://erid.nier.go.jp/cer/database/YOURYO/AG00000159>, <https://www.mext.go.jp/content/20200619-mxt_tokubetu01-100002983_1.pdf>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/8BV10>, <https://w3id.org/jp-cos/8BV11>, <https://w3id.org/jp-cos/8BV12>;

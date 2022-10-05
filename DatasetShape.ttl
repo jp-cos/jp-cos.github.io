@@ -2,17 +2,17 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
   <http://www.w3.org/ns/shacl#property> [
     <http://www.w3.org/2004/02/skos/core#example> "82V11";
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Dataset ID"@en, "データセットのID"@ja;
-    <http://www.w3.org/ns/shacl#order> "1";
+    <http://www.w3.org/ns/shacl#order> 1;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/identifier>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "1.1";
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Version"@en, "データセットのバージョン"@ja;
-    <http://www.w3.org/ns/shacl#order> "2";
+    <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/version>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>";
@@ -25,28 +25,28 @@
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
-    <http://www.w3.org/ns/shacl#order> "3";
+    <http://www.w3.org/ns/shacl#order> 3;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> "true"
+    <http://www.w3.org/ns/shacl#uniqueLang> true
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/Elementary>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> "2";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
-    <http://www.w3.org/ns/shacl#order> "4";
+    <http://www.w3.org/ns/shacl#order> 4;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "2021-08-20";
     <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date>;
-    <http://www.w3.org/ns/shacl#maxCount> "1";
-    <http://www.w3.org/ns/shacl#minCount> "1";
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Date of Release"@en, "公表年月日"@ja;
-    <http://www.w3.org/ns/shacl#order> "5";
+    <http://www.w3.org/ns/shacl#order> 5;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/releaseDate>
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Dataset> .

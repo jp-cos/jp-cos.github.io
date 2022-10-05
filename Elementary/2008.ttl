@@ -1,8 +1,8 @@
 <https://w3id.org/jp-cos/Elementary/2008>
   <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
-  <http://schema.org/datePublished> "2008-03-28";
-  <http://schema.org/name> "Elementary School Curriculum Guideline 2008-03 Notification"@en, "小学校学習指導要領 2008年3月 告示"@ja, "しょうがっこうがくしゅうしどうようりょう 2008ねん3がつ こくじ"@ja-hira;
-  <http://schema.org/startDate> "2011-04-01";
+  <http://schema.org/datePublished> "2008-03-28"^^<http://www.w3.org/2001/XMLSchema#date>;
+  <http://schema.org/name> "Elementary School Curriculum Guideline 2008-03 Notification"@en, "しょうがっこうがくしゅうしどうようりょう 2008ねん3がつ こくじ"@ja-hira, "小学校学習指導要領 2008年3月 告示"@ja;
+  <http://schema.org/startDate> "2011-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/1304417.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000147>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/72V10>, <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V20>, <https://w3id.org/jp-cos/72V21>;

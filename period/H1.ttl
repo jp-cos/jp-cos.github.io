@@ -1,7 +1,7 @@
 <https://w3id.org/jp-cos/period/H1>
-  <http://schema.org/endDate> "1989-12-31";
+  <http://schema.org/endDate> "1989-12-31"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/name> "Published in 1989"@en, "平成元年　告示"@ja;
-  <http://schema.org/startDate> "1989-01-08";
+  <http://schema.org/startDate> "1989-01-08"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>;
   <https://w3id.org/jp-cos/code01> "5";
   <https://w3id.org/jp-cos/fcode01> "A5" .

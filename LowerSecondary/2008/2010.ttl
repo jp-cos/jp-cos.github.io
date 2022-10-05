@@ -3,10 +3,10 @@
   <http://dl.nier.go.jp/library/vocab/itemID> "400020642";
   <http://dl.nier.go.jp/library/vocab/recordID> "BB20023926";
   <http://schema.org/citation> "\"Notification No. 161 in 2010 of the Ministry of Education, Culture, Sports, Science and Technology\" (Official Gazette, 2010-11-30, Extra Edition No. 250, pp.90)"@en, "『平成22年 文部科学省告示第百六十一号』（官報. 平成22年11月30日, 号外第250号, pp.90）"@ja;
-  <http://schema.org/datePublished> "2010-11-30";
+  <http://schema.org/datePublished> "2010-11-30"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/isbn> "9784827815405";
   <http://schema.org/name> "Lower Secondary School Curriculum Guideline 2010-11 Notification of Partial Revision"@en, "中学校学習指導要領 2010年11月 一部改正"@ja;
-  <http://schema.org/startDate> "2010-11-30";
+  <http://schema.org/startDate> "2010-11-30"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/chu/index.htm>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/22817829>, <https://ci.nii.ac.jp/ncid/BB08428807>;
