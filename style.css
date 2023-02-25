@@ -11,6 +11,13 @@ var:after {
   content: "}"
 }
 
+dd[lang]::after {
+  content: "@"attr(lang);
+  font-size: smaller;
+  color: green;
+  padding-left: 1px;
+}
+
 .btn-nhk4school {
   background-color: rgb(253, 208, 0);
   border-color: rgb(253, 208, 0);
