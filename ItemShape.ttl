@@ -59,7 +59,7 @@
     <http://www.w3.org/ns/shacl#order> 7;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "cs:school/LowerSecondary";
+    <http://www.w3.org/2004/02/skos/core#example> <cs:school/LowerSecondary>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#maxCount> 2;
@@ -68,7 +68,7 @@
     <http://www.w3.org/ns/shacl#order> 8;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "cs:disabilityCategory/Intellectual";
+    <http://www.w3.org/2004/02/skos/core#example> <cs:disabilityCategory/Intellectual>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/DisabilityCategory>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#name> "Disability Category"@en, "障害分類"@ja;
