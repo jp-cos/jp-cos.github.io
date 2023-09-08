@@ -1,0 +1,229 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cs: <https://w3id.org/jp-cos/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+_:toplevel a void:Dataset;
+    foaf:homepage <https://w3id.org/jp-cos/>;
+    foaf:page <https://jp-cos.github.io/>;
+    dct:title "学習指導要領LOD"@ja;
+    dct:title "Japanese Course of Study LOD"@en;
+    dct:description "学習指導要領LODは、文部科学省が公開している学習指導要領と教育要領の内容・コードおよび関連する情報をLinked Open Data (LOD) として公開します。LOD化の対象は、現在公開されている全ての学校種別の新旧学習指導要領と教育要領（一部改正を含む）コード表の最新版です。<div class=\"text-right\"><small>出典: 文部科学省「<a href=\"https://www.mext.go.jp/a_menu/other/data_00002.htm\">学習指導要領コードのコード表（全体版）について</a>」</small></div>"@ja;
+    dct:description "Japanese Course of Study Linked Open Data (LOD) is a dataset which includes information for course of studies published, as well as the related information such as the subject areas, the subjects, and the course of study codes.<div class=\"text-right\"><small>Sources: <a href=\"https://www.mext.go.jp/a_menu/other/data_00002.htm\">学習指導要領コードのコード表（全体版）について</a> by Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan</small></div>"@en;
+    dct:available "2021-12-12"^^xsd:date;
+    dct:source <https://www.mext.go.jp/a_menu/other/data_00001.htm>;
+    dct:publisher [
+        a foaf:Group;
+	foaf:name "教育データプラス研究会"@ja;
+	foaf:name "Education Data Plus Research Group"@en;
+        foaf:mbox <mailto:yuka@nier.go.jp>;
+	foaf:member [
+        	a foaf:Person;
+		foaf:name "阿児雄之"@ja;
+		foaf:name "Takayuki Ako"@en;
+                vcard:organization-name "東京国立博物館"@ja;
+                vcard:organization-name "Tokyo National Museum"@en;
+	], [
+		a foaf:Person;
+		foaf:name "有山裕美子"@ja;
+		foaf:name "Yumiko Ariyama"@en;
+                vcard:organization-name "滋賀文教短期大学"@ja;
+                vcard:organization-name "Shiga Bunkyo Junior College"@en;
+	], [
+		a foaf:Person;
+		foaf:name "江草由佳"@ja;
+		foaf:name "Yuka Egusa"@en;
+                vcard:organization-name "国立教育政策研究所"@ja;
+                vcard:organization-name "National Institute for Educational Policy Research"@en;
+	], [
+		a foaf:Person;
+		foaf:name "榎本聡"@ja;
+		foaf:name "Satoshi Enomoto"@en;
+                vcard:organization-name "日本女子大学"@ja;
+                vcard:organization-name "Japan Women's University"@en;
+	], [
+		a foaf:Person;
+		foaf:name "大井将生"@ja;
+		foaf:name "Masao Oi"@en;
+                vcard:organization-name "人間文化研究機構"@ja;
+                vcard:organization-name "National Institutes for the Humanities"@en;
+	], [
+		a foaf:Person;
+		foaf:name "高久雅生"@ja;
+		foaf:name "Masao Takaku"@en;
+                vcard:organization-name "筑波大学"@ja;
+                vcard:organization-name "University of Tsukuba"@en;
+	];
+    ];
+    dct:license [
+      rdf:value <https://creativecommons.org/licenses/by/4.0/>;
+      rdfs:label "クリエイティブ・コモンズライセンス 表示 4.0"@ja;
+      rdfs:label "Creative Commons license Attribution 4.0"@en;
+      foaf:thumbnail <https://licensebuttons.net/l/by/4.0/88x31.png>
+    ];
+    void:feature <http://www.w3.org/ns/formats/Turtle> .
+
+_:code2broader-20211008 a void:Dataset;
+    void:dataDump cs:code2broader-20211008.ttl .
+_:cs-items-20211206 a void:Dataset;
+    void:dataDump cs:cs-items-20211206.ttl.gz .
+_:cs-metadata-20211211 a void:Dataset;
+    void:dataDump cs:cs-metadata-20211211.ttl .
+_:cs-period-20211010 a void:Dataset;
+    void:dataDump cs:cs-period-20211010.ttl .
+_:cs-revision-20211211 a void:Dataset;
+    void:dataDump cs:cs-revision-20211211.ttl .
+_:cs-dataset-20211122 a void:Dataset;
+    void:dataDump cs:cs-dataset-20211122.ttl .
+_:dataset-20211211 a void:Dataset;
+    void:dataDump cs:dataset-20211211.ttl .
+_:disability-category-20211122 a void:Dataset;
+    void:dataDump cs:disability-category-20211122.ttl .
+_:schema-class-20211207 a void:Dataset;
+    void:dataDump cs:schema-class-20211207.ttl .
+_:schema-property-20211206 a void:Dataset;
+    void:dataDump cs:schema-property-20211206.ttl .
+_:school-20211122 a void:Dataset;
+    void:dataDump cs:school-20211122.ttl .
+_:section-label-20211204 a void:Dataset;
+    void:dataDump cs:section-label-20211204.ttl .
+_:shapes-20211206 a void:Dataset;
+    void:dataDump cs:shapes-20211206.ttl .
+_:stage-20211205 a void:Dataset;
+    void:dataDump cs:stage-20211205.ttl .
+_:subject-20211206 a void:Dataset;
+    void:dataDump cs:subject-20211206.ttl .
+_:subjectArea-20211206 a void:Dataset;
+    void:dataDump cs:subjectArea-20211206.ttl .
+_:v1.0 a void:Dataset;
+	dct:issued "2021-12-12"^^xsd:date;
+	pav:version "1.0";
+	void:triples 902593;
+	dcat:byteSize 3888360;
+	void:dataDump cs:all-20211212.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "初期バージョンを公開しました。"@ja;
+		rdfs:comment "The first dataset release."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/1?closed=1>
+	];
+	void:subset _:code2broader-20211008, _:cs-items-20211206, _:cs-metadata-20211211, _:cs-period-20211010, _:cs-revision-20211211, _:cs-dataset-20211122, _:dataset-20211211,_:disability-category-20211122, _:schema-class-20211207, _:schema-property-20211206, _:school-20211122, _:section-label-20211204, _:shapes-20211206, _:stage-20211205, _:subject-20211206, _:subjectArea-20211206 .
+_:toplevel pav:hasVersion _:v1.0 .
+
+_:code2broader-20211230 a void:Dataset;
+    void:dataDump cs:code2broader-20211230.ttl .
+_:cs-items-20211229 a void:Dataset;
+    void:dataDump cs:cs-items-20211229.ttl.gz .
+_:cs-dataset-20211229 a void:Dataset;
+    void:dataDump cs:cs-dataset-20211229.ttl .
+_:dataset-20211230 a void:Dataset;
+    void:dataDump cs:dataset-20211230.ttl .
+_:schema-class-20211218 a void:Dataset;
+    void:dataDump cs:schema-class-20211218.ttl .
+_:section-label-20211229 a void:Dataset;
+    void:dataDump cs:section-label-20211229.ttl .
+_:shapes-20211223 a void:Dataset;
+    void:dataDump cs:shapes-20211223.ttl .
+_:stage-20211205 a void:Dataset;
+    void:dataDump cs:stage-20211205.ttl .
+_:subject-20211223 a void:Dataset;
+    void:dataDump cs:subject-20211223.ttl .
+_:subjectArea-20211223 a void:Dataset;
+    void:dataDump cs:subjectArea-20211223.ttl .
+_:v2.0 a void:Dataset;
+	dct:issued "2021-12-30"^^xsd:date;
+	pav:version "2.0";
+	void:triples 900772;
+	dcat:byteSize 3809542;
+	void:dataDump cs:all-20211230.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "元データセットを2021年12月28日更新版に更新しました。複数のデータの誤りなどを修正しました。"@ja;
+		rdfs:comment "The dataset has been updated to the upstream 2021-12-28 version. Corrected a number of data errors."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/2?closed=1>
+	];
+    void:subset _:code2broader-20211230, _:cs-items-20211229, _:cs-metadata-20211211, _:cs-period-20211010, _:cs-revision-20211211, _:cs-dataset-20211229, _:dataset-20211230, _:disability-category-20211122, _:schema-class-20211218, _:schema-property-20211206, _:school-20211122, _:section-label-20211229, _:shapes-20211223, _:stage-20211205, _:subject-20211223, _:subjectArea-20211223 .
+_:toplevel pav:hasVersion _:v2.0 .
+
+_:cs-items-20220830 a void:Dataset;
+    void:dataDump cs:cs-items-20220830.ttl.gz.
+_:dataset-20220902 a void:Dataset;
+    void:dataDump cs:dataset-20220902.ttl.
+_:schema-class-20220104 a void:Dataset;
+    void:dataDump cs:schema-class-20220104.ttl.
+_:schema-property-20220830 a void:Dataset;
+    void:dataDump cs:schema-property-20220830.ttl.
+_:section-hierarchy-20220902 a void:Dataset;
+    void:dataDump cs:section-hierarchy-20220902.ttl.
+_:shapes-20220830 a void:Dataset;
+    void:dataDump cs:shapes-20220830.ttl. 
+_:subjectArea-20220830 a void:Dataset;
+    void:dataDump cs:subjectArea-20220830.ttl.
+_:v2.1 a void:Dataset;
+	dct:issued "2022-09-02"^^xsd:date;
+	pav:version "2.1";
+	void:triples 940817;
+	dcat:byteSize 4144494;
+	void:dataDump cs:all-20220902.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "NHK for School検索機能を追加しました。英語版サイトを追加しました。節番号階層を表現する<code>cs:sectionNumberHierarchy</code>プロパティを追加しました。その他データを修正、調整しました。"@ja;
+		rdfs:comment "Add Search function for \"NHK for School\" contents. Add English version of the website. Add <code>cs:sectionNumberHierarchy</code> property to express hierarchical section number(s). Add many data corrections."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/3?closed=1>
+	];
+    void:subset _:cs-items-20220830,
+    _:cs-metadata-20211211,
+    _:cs-period-20211010,
+    _:cs-revision-20211211,
+    _:cs-dataset-20211229,
+    _:dataset-20220902,
+    _:disability-category-20211122,
+    _:schema-class-20220104,
+    _:schema-property-20220830,
+    _:school-20211122,
+    _:section-hierarchy-20220902,
+    _:shapes-20220830,
+    _:stage-20211205,
+    _:subject-20211223,
+    _:subjectArea-20220830.
+_:toplevel pav:hasVersion _:v2.1 .
+
+_:dataset-20221006 a void:Dataset;
+    void:dataDump cs:dataset-20221006.ttl.
+_:schema-property-20220930 a void:Dataset;
+    void:dataDump cs:schema-property-20220930.ttl.
+_:v2.2 a void:Dataset;
+	dct:issued "2022-10-06"^^xsd:date;
+	pav:version "2.2";
+	void:triples 940856;
+	dcat:byteSize 4145288;
+	void:dataDump cs:all-20221006.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "教材や単元リソースから特定の学習指導要領リソースを指し示すプロパティ<code>cs:cosItem</code>を定義しました。個別リソースのTurtle形式にデータ型が付与されていなかった問題を改善しました。"@ja;
+		rdfs:comment "Defined the property <code>cs:cosItem</code> that points to a specific Course Of Study Item resource from other resources such as teaching materials or teaching units. Fix a bug that the Turtle format of individual resources did not include a data type."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/4?closed=1>
+	];
+    void:subset _:cs-items-20220830,
+    _:cs-metadata-20211211,
+    _:cs-period-20211010,
+    _:cs-revision-20211211,
+    _:cs-dataset-20211229,
+    _:dataset-20221006,
+    _:disability-category-20211122,
+    _:schema-class-20220104,
+    _:schema-property-20220930,
+    _:school-20211122,
+    _:section-hierarchy-20220902,
+    _:shapes-20220830,
+    _:stage-20211205,
+    _:subject-20211223,
+    _:subjectArea-20220830.
+_:toplevel pav:hasCurrentVersion _:v2.2 .
