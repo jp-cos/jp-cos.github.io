@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "77n0000410000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 103
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 92
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 103
   ];
   <http://schema.org/description> "(1) 児童の授業時数の制約や病気の状態等に応じて， 指導内容を適切に精選し， 基礎的・基本的な事項に重点を置くとともに， 各教科等相互の関連を図ったり， 指導内容の連続性に配慮した工夫を行ったりして， 効果的な学習活動が展開できるようにすること。";
   <http://schema.org/edition> "一部改正なし";

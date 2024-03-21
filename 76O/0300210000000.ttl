@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "76O0300210000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 367
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 356
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 367
   ];
   <http://schema.org/description> "(1) 個々の児童又は生徒について， 障害の状態， 発達や経験の程度， 興味・関心， 生活や学習環境などの実態を的確に把握すること。";
   <http://schema.org/edition> "一部改正なし";

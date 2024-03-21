@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "76O0300233000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 372
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 361
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 372
   ];
   <http://schema.org/description> "ウ  個々の児童又は生徒の発達の進んでいる側面を更に伸ばすことによって， 遅れている側面を補うことができるような指導内容も取り上げること。";
   <http://schema.org/edition> "一部改正なし";

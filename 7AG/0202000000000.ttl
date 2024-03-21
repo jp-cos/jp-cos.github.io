@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "7AG0202000000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 285
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 274
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 285
   ];
   <http://schema.org/description> """１　目標
 適切な運動の経験や健康・ 安全についての理解を通して， 健康の保持増進と体力の向上を図るとともに，明るく豊かな生活を営む態度を育てる。""";

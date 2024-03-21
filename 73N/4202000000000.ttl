@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73N4202000000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1634
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1627
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1627
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1634
   ];
   <http://schema.org/description> """１　目標
 　生徒会活動を通して，望ましい人間関係を形成し，集団や社会の一員としてよりよい学校生活づくりに参画し，協力して諸問題を解決しようとする自主的，実践的な態度を育てる。""";

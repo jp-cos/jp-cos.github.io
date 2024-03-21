@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "76O0300700000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 379
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 368
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 379
   ];
   <http://schema.org/description> "７   児童又は生徒の障害の状態により，必要に応じて，専門の医師及びその他の専門家の指導・助言を求めるなどして， 適切な指導ができるようにするものとする。";
   <http://schema.org/edition> "一部改正なし";

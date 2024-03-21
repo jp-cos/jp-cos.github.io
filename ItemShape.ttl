@@ -188,5 +188,12 @@
     <http://www.w3.org/ns/shacl#order> 22;
     <http://www.w3.org/ns/shacl#path> <http://id.loc.gov/ontologies/bibframe/note>;
     <http://www.w3.org/ns/shacl#uniqueLang> true
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_001.pdf#page=25>;
+    <http://www.w3.org/ns/shacl#description> "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Commentary Page"@en, "学習指導要領解説へのリンク"@ja;
+    <http://www.w3.org/ns/shacl#order> 23;
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/commentaryPage>
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Item> .

@@ -2,10 +2,6 @@
   <http://purl.org/dc/terms/identifier> "73N5203000000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1643
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1636
@@ -13,6 +9,10 @@
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1636
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1643
   ];
   <http://schema.org/description> """２　内容
 　全校又は学年を単位として，学校生活に秩序と変化を与え，学校生活の充実と発展に資する体験的な活動を行うこと。""";

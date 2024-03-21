@@ -2,13 +2,13 @@
   <http://purl.org/dc/terms/identifier> "77n0000120000000";
   <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
   <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 85
-  ], [
     <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 74
+  ], [
+    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 85
   ];
   <http://schema.org/description> "(2) 児童の視覚障害の状態等に応じて， 点字又は普通の文字の読み書きを系統的に指導し， 習熟させること。 なお， 点字を常用して学習する児童に対しても， 漢字・漢語の理解を促すため， 児童の発達の段階等に応じて適切な指導が行われるようにすること。";
   <http://schema.org/edition> "一部改正なし";
