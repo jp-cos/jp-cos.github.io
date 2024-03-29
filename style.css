@@ -22,3 +22,7 @@ dd[lang]::after {
   background-color: rgb(253, 208, 0);
   border-color: rgb(253, 208, 0);
 }
+
+span.url, td.url {
+  word-break: break-all;
+}

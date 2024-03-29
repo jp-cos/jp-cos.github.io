@@ -193,6 +193,7 @@
     <http://www.w3.org/ns/shacl#description> "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja;
     <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#name> "Commentary Page"@en, "学習指導要領解説へのリンク"@ja;
+    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
     <http://www.w3.org/ns/shacl#order> 23;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/commentaryPage>
   ];
