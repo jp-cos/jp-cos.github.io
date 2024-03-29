@@ -74,7 +74,7 @@ function get_sukilam_data(cos_id) {
     let div = document.getElementById("sukilam-result");
     let sparql = `
     select * where {
-      ?s <https://w3id.org/sukilam-educational-metadata/term/property#指導要領コード> <https://w3id.org/jp-cos/${cos_id}>. 
+      ?s <https://w3id.org/sukilam-educational-metadata/term/property#指導要領コード> <https://w3id.org/jp-cos/${cos_id}>.
       ?s rdfs:label ?label.
       ?s <https://w3id.org/sukilam-educational-metadata/term/property#学習指導案> ?url.
     }`;
@@ -88,17 +88,22 @@ function get_sukilam_data(cos_id) {
     .then(obj => {
         console.log(obj);
         results = obj["results"]["bindings"];
-        let html = "<ul>";
-        results.forEach(element => {
-            let url = element["url"]["value"];
-            let label = element["label"]["value"];
-          html += `<li><a href="${url}">${label}</a>`
-        });
-        html += "</ul>";
+        let html = "";
+        if (results.length == 0) {
+            html = "<p>該当するコンテンツはありません</p>";
+        } else {
+            html = "<ul>";
+            results.forEach(element => {
+                let url = element["url"]["value"];
+                let label = element["label"]["value"];
+                html += `<li><a href="${url}">${label}</a>`
+            });
+            html += "</ul>";
+        }
         console.log(html);
-      div.innerHTML = html;
-      let elmButton = document.getElementById(`sukilam-button`);
-      elmButton.disabled = true;
+        div.innerHTML = html;
+        let elmButton = document.getElementById(`sukilam-button`);
+        elmButton.disabled = true;
     })
     .catch(error => {
         console.error(error);
