@@ -68,3 +68,39 @@ function get_nhk4school(cscode, page = 1) {
         results(html, data['page']);
     };
 };
+
+function get_sukilam_data(cos_id) {
+    console.log(cos_id);
+    let div = document.getElementById("sukilam-result");
+    let sparql = `
+    select * where {
+      ?s <https://w3id.org/sukilam-educational-metadata/term/property#指導要領コード> <https://w3id.org/jp-cos/${cos_id}>. 
+      ?s rdfs:label ?label.
+      ?s <https://w3id.org/sukilam-educational-metadata/term/property#学習指導案> ?url.
+    }`;
+    console.log(sparql);
+    let url = `https://dydra.com/ut-digital-archives/oi/sparql?query=${encodeURIComponent(sparql)}&output=json`;
+    console.log(url);
+    fetch(url, {
+        format: "json"
+    })
+    .then(res => res.json())
+    .then(obj => {
+        console.log(obj);
+        results = obj["results"]["bindings"];
+        let html = "<ul>";
+        results.forEach(element => {
+            let url = element["url"]["value"];
+            let label = element["label"]["value"];
+          html += `<li><a href="${url}">${label}</a>`
+        });
+        html += "</ul>";
+        console.log(html);
+      div.innerHTML = html;
+      let elmButton = document.getElementById(`sukilam-button`);
+      elmButton.disabled = true;
+    })
+    .catch(error => {
+        console.error(error);
+    });
+};
