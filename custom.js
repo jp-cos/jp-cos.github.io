@@ -3,7 +3,7 @@ $(function() {
         var cos_id = document.getElementById('cos-code').value;
         window.location.href = `https://w3id.org/jp-cos/${cos_id}`;
     });
- }); 
+ });
 
 function get_nhk4school(cscode, page = 1) {
     /// NHK for School APIにアクセス
