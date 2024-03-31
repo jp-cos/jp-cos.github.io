@@ -1,8 +1,7 @@
 $(function() {
-    var button = "#display-cos-id";
-    var cos_id = document.getElementById('cos-code').value;
-    $(button).click(function(){
-         window.location.href = `https://w3id.org/jp-cos/${cos_id}`;
+    $("#display-cos-id").click(function(){
+        var cos_id = document.getElementById('cos-code').value;
+        window.location.href = `https://w3id.org/jp-cos/${cos_id}`;
     });
  }); 
 
