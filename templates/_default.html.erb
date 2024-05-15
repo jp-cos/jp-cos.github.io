@@ -1,3 +1,15 @@
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") -%>
+<div class="row mb-1">
+  <div class="col-sm-12">
+    <h3>教科書単元検索</h3>
+    <button id="textbook-button" class="btn btn-textbook" onclick="teaching_unit_search('<%=h param[:data]["http://purl.org/dc/terms/identifier"].first %>')">
+      対応する教科書単元を取得
+      <i class="bi bi-search"></i>
+    </button>
+    <div id="teaching_unit_result"></div>
+  </div>
+</div>
+<%- end -%>
 <%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/subjectArea"].first =~ %r!\Ahttps://w3id.org/jp-cos/(Elementary|LowerSecondary)/2017/(社会|理科)\z!o -%>
 <div class="row mb-1">
   <div class="col-sm-12">
