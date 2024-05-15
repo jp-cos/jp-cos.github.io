@@ -166,7 +166,9 @@ function teaching_unit_search(cos_id) {
         }
         console.log(html);
         div.innerHTML = html;
-    }).catch(error => {
+        let elmButton = document.getElementById(`textbook-button`);
+        elmButton.disabled = true;
+  }).catch(error => {
         console.error(error);
     });
 };
