@@ -10,7 +10,7 @@
   </div>
 </div>
 <%- end -%>
-<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/subjectArea"].first =~ %r!\Ahttps://w3id.org/jp-cos/(Elementary|LowerSecondary)/2017/(社会|理科)\z!o -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") -%>
 <div class="row mb-1">
   <div class="col-sm-12">
     <h3>NHK for School検索</h3>

@@ -8,7 +8,7 @@ $(function() {
 function get_nhk4school(cscode, page = 1) {
     /// NHK for School APIにアクセス
     const apiKey = 'QhnGtsNqZpAeaG4Sn4RlVhGs34XBL4Vq';
-    const api = `https://api.nhk.or.jp/school/v1/nfsvideos/cscode/${cscode}?apikey=${apiKey}&page=${page}`;
+    const api = `https://api.nhk.or.jp/school/v2/nfsvideos/cscode/${cscode}?apikey=${apiKey}&page=${page}`;
     fetch(api)
     .then(response => {
         return response.json();
