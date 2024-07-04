@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../style.css">
     <title>Japanese Course of Study LOD</title>
     <meta name="twitter:card" content="summary">
@@ -12,7 +12,7 @@
     <meta property="og:title" content="Japanese Course of Study LOD">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://w3id.org/jp-cos/logo.png">
-    <meta name="generator" content="ttl2html 2.0.8">
+    <meta name="generator" content="ttl2html 2.0.10">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZW2V5CQLY9"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -47,6 +47,11 @@
       <div class="container">
         <h1>Japanese Course of Study LOD</h1>
         <p>Japanese Course of Study Linked Open Data (LOD) is a dataset which includes information for course of studies published, as well as the related information such as the subject areas, the subjects, and the course of study codes.<div class="text-right"><small>Sources: <a href="https://www.mext.go.jp/a_menu/other/data_00002.htm">学習指導要領コードのコード表（全体版）について</a> by Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan</small></div></p>
+        <div class="description"><div class="text-center">
+    <label for="cos-code">CoS code:</label>
+    <input type="text" name="cos-code" id="cos-code" placeholder="8220233112000000">
+    <button class="btn btn-secondary" id="display-cos-id">Display</button>
+</div></div>
         <p><i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/">https://w3id.org/jp-cos/</a></p>
         <p><a class="btn btn-info" href="about.html">About Japanese Course of Study LOD &raquo;</a></p>
       </div>
@@ -103,13 +108,13 @@
         <div class="col-md">
           <h2 id="versions">Latest dataset <i class="bi bi-info-circle"></i></h2>
           <dl>
-                    <dt>2024-03-27</dt>
-        <dd>Version 2.3 released.</dd>
-        <dd>Added links to PDF files of the Commentary to the Course of Studies (Imported the contents of <a href="https://ictconnect21.jp/cscode2023/">Commentary to the Course of Study Dataset</a> built and published by ICT CONNECT 21). Added a search functionality on the website.
-        Please refer to <a href="https://github.com/jp-cos/jp-cos.github.io/milestone/5?closed=1">here</a> for the revision details.
+                    <dt>2024-03-31</dt>
+        <dd>Version 2.4 released.</dd>
+        <dd>Added a search function for <a href="https://adeac.jp/adeac-lab/top/SxUKILAM/index.html">the SxUKILAM learning materials archive</a>. You can search for learning materials that correspond to an item of the course of study. Added a function to display the item of the course of study directly on the top page.
+        Please refer to <a href="https://github.com/jp-cos/jp-cos.github.io/milestone/6?closed=1">here</a> for the revision details.
         </dd>
-        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20240327.ttl.gz">all-20240327.ttl.gz</a>
-  (949,172 triples, 3.99 MB)
+        <dd><ul>  <li><a href="https://w3id.org/jp-cos/all-20240331.ttl.gz">all-20240331.ttl.gz</a>
+  (949,204 triples, 3.99 MB)
     <ul>
       <li><a href="https://w3id.org/jp-cos/cs-commentary-20240322.ttl">cs-commentary-20240322.ttl</a>
   </li>
@@ -129,10 +134,10 @@
       <li><a href="https://w3id.org/jp-cos/cs-dataset-20211229.ttl">cs-dataset-20211229.ttl</a>
   </li>
 
-      <li><a href="https://w3id.org/jp-cos/dataset-20240327.ttl">dataset-20240327.ttl</a>
+      <li><a href="https://w3id.org/jp-cos/dataset-20240331.ttl">dataset-20240331.ttl</a>
   </li>
 
-      <li><a href="https://w3id.org/jp-cos/shapes-20240315.ttl">shapes-20240315.ttl</a>
+      <li><a href="https://w3id.org/jp-cos/shapes-20240327.ttl">shapes-20240327.ttl</a>
   </li>
 
       <li><a href="https://w3id.org/jp-cos/disability-category-20211122.ttl">disability-category-20211122.ttl</a>
@@ -174,6 +179,12 @@
           </p>
         </div>
       </div>
+      <div class="col-md">
+        <h2 id="sparql-endpoint">SPARQL Endpoint <i class="bi bi-database-add"></i></h2>
+        <p>
+        The SPARQL endpoint for the dataset is available at: <a href="https://dydra.com/masao/jp-cos/sparql">https://dydra.com/masao/jp-cos/sparql</a>
+        </p>
+      </div>
     </div>
 
     <hr>
@@ -185,9 +196,8 @@
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="custom.js"></script>
   </body>
 </html>

@@ -22,3 +22,15 @@ dd[lang]::after {
   background-color: rgb(253, 208, 0);
   border-color: rgb(253, 208, 0);
 }
+.btn-sukilam {
+  background-color: #567B8A;
+  border-color: #567B8A;
+}
+.btn-textbook {
+  background-color: #0f254d;
+  color: white;
+}
+
+span.url, td.url {
+  word-break: break-all;
+}

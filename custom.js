@@ -1,7 +1,14 @@
+$(function() {
+    $("#display-cos-id").click(function(){
+        var cos_id = document.getElementById('cos-code').value;
+        window.location.href = `https://w3id.org/jp-cos/${cos_id}`;
+    });
+ });
+
 function get_nhk4school(cscode, page = 1) {
     /// NHK for School APIにアクセス
     const apiKey = 'QhnGtsNqZpAeaG4Sn4RlVhGs34XBL4Vq';
-    const api = `https://api.nhk.or.jp/school/v1/nfsvideos/cscode/${cscode}?apikey=${apiKey}&page=${page}`;
+    const api = `https://api.nhk.or.jp/school/v2/nfsvideos/cscode/${cscode}?apikey=${apiKey}&page=${page}`;
     fetch(api)
     .then(response => {
         return response.json();
@@ -67,4 +74,101 @@ function get_nhk4school(cscode, page = 1) {
         }
         results(html, data['page']);
     };
+};
+
+function get_sukilam_data(cos_id) {
+    console.log(cos_id);
+    let div = document.getElementById("sukilam-result");
+    let sparql = `
+    select * where {
+      ?s <https://w3id.org/sukilam-educational-metadata/term/property#指導要領コード> <https://w3id.org/jp-cos/${cos_id}>.
+      ?s rdfs:label ?label.
+      ?s <https://w3id.org/sukilam-educational-metadata/term/property#学習指導案> ?url.
+    }`;
+    console.log(sparql);
+    let url = `https://dydra.com/ut-digital-archives/oi/sparql?query=${encodeURIComponent(sparql)}&output=json`;
+    console.log(url);
+    fetch(url, {
+        format: "json"
+    })
+    .then(res => res.json())
+    .then(obj => {
+        console.log(obj);
+        results = obj["results"]["bindings"];
+        let html = "";
+        if (results.length == 0) {
+            html = "<p>該当するコンテンツはありません</p>";
+        } else {
+            html = "<ul>";
+            results.forEach(element => {
+                let url = element["url"]["value"];
+                let label = element["label"]["value"];
+                html += `<li><a href="${url}">${label}</a>`
+            });
+            html += "</ul>";
+        }
+        console.log(html);
+        div.innerHTML = html;
+        let elmButton = document.getElementById(`sukilam-button`);
+        elmButton.disabled = true;
+    })
+    .catch(error => {
+        console.error(error);
+    });
+};
+
+function teaching_unit_search(cos_id) {
+    console.log(cos_id);
+    let div = document.getElementById("teaching_unit_result");
+    let sparql = `
+      PREFIX textbook: <https://w3id.org/jp-textbook/>
+      PREFIX cos: <https://w3id.org/jp-cos/>
+      PREFIX schema: <http://schema.org/>
+      SELECT * WHERE {
+        ?teachingUnit a textbook:TeachingUnit;
+          cos:cosItem cos:${cos_id};
+          schema:name ?name;
+          schema:workExample [
+            schema:isPartOf ?textbook;
+            schema:pagination ?page
+          ].
+        ?textbook <http://purl.org/dc/terms/bibliographicCitation> ?textbook_title.
+      }`;
+    console.log(sparql);
+    let url = `https://dydra.com/masao/jp-textbook/sparql?query=${encodeURIComponent(sparql)}&output=json`;
+    console.log(url);
+    fetch(url, {
+        format: "json"
+    })
+    .then(res => res.json())
+    .then(obj => {
+        console.log(obj);
+        results = obj["results"]["bindings"];
+        let html = "<ul>";
+        let done = {};
+        if (results.length == 0) {
+            html = "<p>該当するコンテンツはありません</p>";
+        } else {
+            results.forEach(element => {
+                let url = element["teachingUnit"]["value"];
+                let label = element["name"]["value"];
+                let textbook_uri = element["textbook"]["value"];
+                let textbook_title = element["textbook_title"]["value"];
+                let page = element["page"]["value"];
+                if (done[textbook_uri]) {
+                    html += `<li><a href="${url}">${label}</a> (${textbook_title} ${page})`;
+                } else {
+                    html += `<li><a href="${url}">${label}</a> (<a href="${textbook_uri}">${textbook_title}</a> ${page})`;
+                }
+                done[textbook_uri] = true;
+            });
+            html += "</ul>";
+        }
+        console.log(html);
+        div.innerHTML = html;
+        let elmButton = document.getElementById(`textbook-button`);
+        elmButton.disabled = true;
+  }).catch(error => {
+        console.error(error);
+    });
 };

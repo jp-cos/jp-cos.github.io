@@ -1,4 +1,16 @@
-<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/subjectArea"].first =~ %r!\Ahttps://w3id.org/jp-cos/(Elementary|LowerSecondary)/2017/(社会|理科)\z!o -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") -%>
+<div class="row mb-1">
+  <div class="col-sm-12">
+    <h3>教科書単元検索</h3>
+    <button id="textbook-button" class="btn btn-textbook" onclick="teaching_unit_search('<%=h param[:data]["http://purl.org/dc/terms/identifier"].first %>')">
+      対応する教科書単元を取得
+      <i class="bi bi-search"></i>
+    </button>
+    <div id="teaching_unit_result"></div>
+  </div>
+</div>
+<%- end -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") -%>
 <div class="row mb-1">
   <div class="col-sm-12">
     <h3>NHK for School検索</h3>
@@ -7,6 +19,18 @@
       <i class="bi bi-search"></i>
     </button>
     <div id="nhk4school-list-1"></div>
+  </div>
+</div>
+<%- end -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") -%>
+<div class="row mb-1">
+  <div class="col-sm-12">
+    <h3>S×UKILAM連携教材コンテンツ <a href="https://adeac.jp/adeac-lab/top/SxUKILAM/index.html" title="「SxUKILAM（スキラム）連携：多様な資料を活用した教材アーカイブ」とは?"><i class="bi bi-info-circle"></i></a></h3>
+    <button id="sukilam-button" class="btn btn-sukilam" onclick="get_sukilam_data('<%=h param[:data]["http://purl.org/dc/terms/identifier"].first %>')">
+      教材一覧を取得
+      <i class="bi bi-search"></i>
+    </button>
+    <div id="sukilam-result"></div>
   </div>
 </div>
 <%- end -%>
