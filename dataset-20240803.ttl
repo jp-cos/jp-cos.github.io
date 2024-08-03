@@ -19,7 +19,7 @@ _:toplevel a void:Dataset;
     dct:description "Japanese Course of Study Linked Open Data (LOD) is a dataset which includes information for course of studies published, as well as the related information such as the subject areas, the subjects, and the course of study codes.<div class=\"text-right\"><small>Sources: <a href=\"https://www.mext.go.jp/a_menu/other/data_00002.htm\">学習指導要領コードのコード表（全体版）について</a> by Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan</small></div>"@en;
     dct:available "2021-12-12"^^xsd:date;
     dct:source <https://www.mext.go.jp/a_menu/other/data_00001.htm>;
-    void:sparqlEndpoint <https://dydra.com/masao/jp-cos/sparql>;
+    void:sparqlEndpoint <https://dydra.com/masao/jp-cos/@query>;
     dct:publisher [
         a foaf:Group;
 	foaf:name "教育データプラス研究会"@ja;
