@@ -9,11 +9,7 @@
   <https://w3id.org/jp-cos/fcodePrefix> "A8A4UY";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/こころとからだの理解>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/コミュニケーション技術>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/介護実習>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/介護福祉基礎>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/介護総合演習>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/介護過程>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/生活支援技術>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/社会福祉基礎>, <https://w3id.org/jp-cos/UpperSecondary/2018/福祉/福祉情報>;
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "Concerning improvements to the courses of study for elementary, lower secondary and upper secondary schools"@en, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja, "幼稚園、小学校、中学校、高等学校及び特別支援学校の学習指導要領等の改善について（答申）（英訳）"@ja;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>, <https://w3id.org/jp-cos/SourceOfEnglishName>;
-    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>, <https://www.nier.go.jp/04_kenkyu_annai/pdf/improvement_of_the_courses_of_study.pdf>
-  ] .
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018> .
 <https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉>.
 <https://w3id.org/jp-cos/84Y0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉>.
 <https://w3id.org/jp-cos/84Y0100000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/福祉>.

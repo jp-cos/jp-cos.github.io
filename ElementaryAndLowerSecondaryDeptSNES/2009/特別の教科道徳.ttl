@@ -1,10 +1,5 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/特別の教科道徳>
   <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別の教科道徳>;
-  <http://schema.org/name> "Special Subject Morality"@en, "とくべつのきょうか　どうとく"@ja-hira, "特別の教科道徳"@ja;
+  <http://schema.org/name> "Moral education as a special subject"@en, "とくべつのきょうか　どうとく"@ja-hira, "特別の教科道徳"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> [
-    <http://schema.org/name> "The National Curriculum Standards for Grade 3 and Grade 4 in Elementary School -- Chapter 4 Foreign Language Activities(2017-03)"@en, "小学校学習指導要領英訳版 -- 第4章 外国語活動(平成29年3月)"@ja;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>;
-    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.mext.go.jp/content/20201218-kyoiku01-000011246_1.pdf>;
-    <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>
-  ] .
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017> .
