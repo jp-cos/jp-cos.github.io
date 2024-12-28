@@ -1478,6 +1478,20 @@
       </td>
       <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
     </tr>
+    <tr>
+      <td><code>dct:date</code></td>
+      <td>参照日</td>
+      <td>"2018-08-12"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>この出典を参照した日</td>
+    </tr>
   </tbody>
   <tfoot>
     <tr><td colspan="5">
@@ -1489,6 +1503,8 @@
       <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
       <dt class="col-sm-2"><code>rdfs:</code></dt>
       <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
       </dl>
   </td></tr>
   </tfoot>
@@ -1689,9 +1705,9 @@
       <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
     </tr>
     <tr>
-      <td rowspan="2"><code>cs:sourceOfEnglishName</code></td>
+      <td><code>cs:sourceOfEnglishName</code></td>
       <td>英語表記出典</td>
-      <td></td>
+      <td>https://w3id.org/jp-cos/source/Elementary-2008</td>
       <td>
         <div>
         省略可能
@@ -1700,79 +1716,7 @@
         繰り返し無し
         </div>
       </td>
-      <td><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</td>
-    </tr>
-    <tr>
-      <td colspan="4">
-        ブランクノードの内容は以下の内容からなる構造を持ちます。
-        <div class="blank_node"><table class="table table-sm">
-  <tr>
-    <th>プロパティ名</th>
-    <th>説明</th>
-    <th>プロパティ値の例</th>
-    <th>必須・省略の別<br>
-        繰り返しの有無</th>
-    <th>備考</th>
-  </tr>
-  <tbody>
-    <tr>
-      <td><code>schema:name</code></td>
-      <td>英語表記出典の名称</td>
-      <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
-    </tr>
-    <tr>
-      <td><code>cs:courseOfStudy</code></td>
-      <td>対応学習指導要領</td>
-      <td>https://w3id.org/jp-cos/Elementary/2008</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
-    </tr>
-    <tr>
-      <td><code>rdfs:seeAlso</code></td>
-      <td>関連リンク</td>
-      <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr><td colspan="5">
-    表内で用いている名前空間URIは以下の通りです
-      <dl class="row small">
-      <dt class="col-sm-2"><code>schema:</code></dt>
-      <dd class="col-sm-10">http://schema.org/</dd>
-      <dt class="col-sm-2"><code>cs:</code></dt>
-      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
-      <dt class="col-sm-2"><code>rdfs:</code></dt>
-      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
-      </dl>
-  </td></tr>
-  </tfoot>
-</table></div>
-      </td>
+      <td>英語表記の根拠となる出典情報を表す。</td>
     </tr>
     <tr>
       <td><code>cs:code03</code></td>
@@ -1943,9 +1887,9 @@
       <td>言語コードを用いて、教科名に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。教科名のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>教科名の英語名称</dd></dl>注意：英訳名称は、文部科学省の正式なものではありません。翻訳の責任は、江草、高久にあります。 理由：大半の教科については、文部科学省が発表している正式な英語訳を見つけられませんでした（教育図書館へのレファレンス調査も実施済み）。 なお、学習指導要領の英訳（仮訳） （小学校、 中学校、 高等学校） に記載されている教科はそれらに由来するものです。 また、小学校、中学校の教科については、文部科学省が出している英語ガイド（Education In JAPAN, 13版）67ページの記載も参考にしました。 いずれにも記載のない教科名は、江草・高久によって一から英訳したものです。</td>
     </tr>
     <tr>
-      <td rowspan="2"><code>cs:sourceOfEnglishName</code></td>
+      <td><code>cs:sourceOfEnglishName</code></td>
       <td>英語表記出典</td>
-      <td></td>
+      <td>https://w3id.org/jp-cos/source/Elementary-2008</td>
       <td>
         <div>
         省略可能
@@ -1954,79 +1898,7 @@
         繰り返し無し
         </div>
       </td>
-      <td><code>schema:name</code>, <code>cs:curriculum</code>, <code>rdfs:seeAlso</code>の3つのプロパティを持つ。</td>
-    </tr>
-    <tr>
-      <td colspan="4">
-        ブランクノードの内容は以下の内容からなる構造を持ちます。
-        <div class="blank_node"><table class="table table-sm">
-  <tr>
-    <th>プロパティ名</th>
-    <th>説明</th>
-    <th>プロパティ値の例</th>
-    <th>必須・省略の別<br>
-        繰り返しの有無</th>
-    <th>備考</th>
-  </tr>
-  <tbody>
-    <tr>
-      <td><code>schema:name</code></td>
-      <td>英語表記出典の名称</td>
-      <td><ul><li>"小学校学習指導要領英訳版（仮訳）(平成20年3月)"@ja</li><li>"Elementary School Curriculum Guideline English Version (Tentative Translation) (2008-03)"@en</li></ul></td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
-    </tr>
-    <tr>
-      <td><code>cs:courseOfStudy</code></td>
-      <td>対応学習指導要領</td>
-      <td>https://w3id.org/jp-cos/Elementary/2008</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。</td>
-    </tr>
-    <tr>
-      <td><code>rdfs:seeAlso</code></td>
-      <td>関連リンク</td>
-      <td class="url">http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/eiyaku/1261037.htm</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>出典した本文を参照できるWebページへのリンクや、出典が本の場合は書誌データ（<a href="https://ci.nii.ac.jp/books/">CiNii Books</a>）へのリンクなど。</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr><td colspan="5">
-    表内で用いている名前空間URIは以下の通りです
-      <dl class="row small">
-      <dt class="col-sm-2"><code>schema:</code></dt>
-      <dd class="col-sm-10">http://schema.org/</dd>
-      <dt class="col-sm-2"><code>cs:</code></dt>
-      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
-      <dt class="col-sm-2"><code>rdfs:</code></dt>
-      <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
-      </dl>
-  </td></tr>
-  </tfoot>
-</table></div>
-      </td>
+      <td>英語表記の根拠となる出典情報を表す。</td>
     </tr>
     <tr>
       <td><code>cs:code04</code></td>
