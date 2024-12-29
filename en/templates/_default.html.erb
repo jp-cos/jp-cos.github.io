@@ -1,3 +1,15 @@
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") -%>
+<div class="row mb-1">
+  <div class="col-sm-12">
+    <h3>Search on Textbook Teaching Units</h3>
+    <button id="textbook-button" class="btn btn-textbook" onclick="teaching_unit_search('<%=h param[:data]["http://purl.org/dc/terms/identifier"].first %>')">
+      Retrieve teaching units corresponding to this item
+      <i class="bi bi-search"></i>
+    </button>
+    <div id="teaching_unit_result"></div>
+  </div>
+</div>
+<%- end -%>
 <%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/subjectArea"].first =~ %r!\Ahttps://w3id.org/jp-cos/(Elementary|LowerSecondary)/2017/(社会|理科)\z!o -%>
 <div class="row mb-1">
   <div class="col-sm-12">
@@ -7,6 +19,18 @@
       <i class="bi bi-search"></i>
     </button>
     <div id="nhk4school-list-1"></div>
+  </div>
+</div>
+<%- end -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") -%>
+<div class="row mb-1">
+  <div class="col-sm-12">
+    <h3>Search on Teaching materials from S×UKILAM Workshop<a href="https://adeac.jp/adeac-lab/top/SxUKILAM/index.html" title="What is \"SxUKILAM Workshop: A teaching material archives using a variety of materials\"?"><i class="bi bi-info-circle"></i></a></h3>
+    <button id="sukilam-button" class="btn btn-sukilam" onclick="get_sukilam_data('<%=h param[:data]["http://purl.org/dc/terms/identifier"].first %>')">
+      Retrieve teaching materials on this item
+      <i class="bi bi-search"></i>
+    </button>
+    <div id="sukilam-result"></div>
   </div>
 </div>
 <%- end -%>
