@@ -55,7 +55,7 @@
     <http://www.w3.org/ns/shacl#uniqueLang> true
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/source/Elementary-2008>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-textbook/SourceOfEnglishName>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/SourceOfEnglishName>;
     <http://www.w3.org/ns/shacl#description> "To provide the source information that serves as the basis for the English notation."@en, "英語表記の根拠となる出典情報を表す。"@ja;
     <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#name> "Source for the English name"@en, "英語表記出典"@ja;
