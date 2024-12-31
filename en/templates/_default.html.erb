@@ -1,4 +1,4 @@
-<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and ( param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") or param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/LowerSecondary") ) -%>
 <div class="row mb-1">
   <div class="col-sm-12">
     <h3>Search on Textbook Teaching Units</h3>
