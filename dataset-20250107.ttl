@@ -299,4 +299,50 @@ _:v2.4 a void:Dataset;
     _:stage-20211205,
     _:subject-20211223,
     _:subjectArea-20220830.
-_:toplevel pav:hasCurrentVersion _:v2.4 .
+_:toplevel pav:hasVersion _:v2.4 .
+
+_:dataset-20250107 a void:Dataset;
+    void:dataDump cs:dataset-20250107.ttl .
+_:section-hierarchy-20240704 a void:Dataset;
+    void:dataDump cs:section-hierarchy-20240704.ttl .
+_:shapes-20241228 a void:Dataset;
+    void:dataDump cs:shapes-20241228.ttl .
+_:subject-20241220 a void:Dataset;
+    void:dataDump cs:subject-20241220.ttl .
+_:subjectArea-20241228 a void:Dataset;
+    void:dataDump cs:subjectArea-20241228.ttl .
+_:source-20241228 a void:Dataset;
+    void:dataDump cs:source-20241228.ttl .
+_:v2.5 a void:Dataset;
+	dct:issued "2025-01-07"^^xsd:date;
+	pav:version "2.5";
+	void:triples 949284;
+	dcat:byteSize 4180286;
+	void:dataDump cs:all-20250107.ttl.gz;
+	prov:qualifiedRevision [
+		a prov:Revision;
+		rdfs:comment "教科書LODの単元情報の検索機能を追加しました。教科、科目名称の英訳を最新版に修正しました。SPARQLエンドポイントを試験公開しました。NHK for School APIバージョン2に対応しました。"@ja;
+		rdfs:comment "Added the search function for unit information in Japanese Textbook LOD. Updated the English translations of subject areas and subjects names to the latest version. The SPARQL endpoint (experimental) made publicly available. Supported NHK for School API version 2."@en;
+		rdfs:seeAlso <https://github.com/jp-cos/jp-cos.github.io/milestone/7?closed=1>
+	];
+    void:subset _:cs-commentary-20240322,
+    _:cs-items-20220830,
+    _:cs-metadata-20211211,
+    _:cs-period-20211010,
+    _:cs-revision-20211211,
+    _:cs-dataset-20211229,
+    _:dataset-20250107,
+    _:shapes-20240327,
+    _:disability-category-20211122,
+    _:schema-class-20220104,
+    _:schema-property-20220930,
+    _:school-20211122,
+    _:section-hierarchy-20240704,
+    _:shapes-20241228,
+    _:stage-20211205,
+    _:subject-20241220,
+    _:subjectArea-20241228,
+    _:subject-20211223,
+    _:subjectArea-20220830,
+    _:source-20241228 .
+_:toplevel pav:hasCurrentVersion _:v2.5 .
