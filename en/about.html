@@ -129,6 +129,230 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
   </tr>
   <tbody>
     <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>Code of Course of Study Item</td>
+      <td>83H1203111200000</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>The value of the "Course of Study Code" column of the original data.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>Description of Course Of Study Item</td>
+      <td>'''(イ) 語と語の連結による音の変化'''</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>The value of the "Text of Course of Study" column of the original data.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionNumberHierarchy</code></td>
+      <td>Hierarchical Section Numbers</td>
+      <td>第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:commentaryPage</code></td>
+      <td>Commentary Page</td>
+      <td class="url">https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_001.pdf#page=25</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>Link to the corresponding Course of Study Commentary with this item.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>Type of School</td>
+      <td>cs:school/LowerSecondary</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>It corresponds to the second digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:disabilityCategory</code></td>
+      <td>Disability Category</td>
+      <td>cs:disabilityCategory/Intellectual</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>It corresponds to the second digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subjectArea</code></td>
+      <td>Subject Area</td>
+      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 3rd digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subject</code></td>
+      <td>Subject</td>
+      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 4th digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:grade</code></td>
+      <td>Grade</td>
+      <td>1,2</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 6th digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:stage</code></td>
+      <td>Stage</td>
+      <td>https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 6th digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:category</code></td>
+      <td>Category</td>
+      <td>目標及び内容（大項目）</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 5th digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subCategory</code></td>
+      <td>Sub Category</td>
+      <td>内容</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 7th digit of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionNumber</code></td>
+      <td>Section Number</td>
+      <td>(イ)</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It is the section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionText</code></td>
+      <td>Text</td>
+      <td>''語と語の連結による音の変化'''</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>Child</td>
+      <td>https://w3id.org/jp-cos/8GH12a4222140000</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Child of the cource of study item. It is created automatically by the program using the regularity of the course of study code.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:issuedPeriod</code></td>
+      <td>Issued Period</td>
+      <td>https://w3id.org/jp-cos/period/H29toH31</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It corresponds to the first digit of the course of study code.</td>
+    </tr>
+    <tr>
       <td class="url"><code>cs:courseOfStudy</code></td>
       <td>Course Of Study</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017</td>
@@ -155,6 +379,20 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         </div>
       </td>
       <td>Repeatable. It corresponds to the course of study revision.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:edition</code></td>
+      <td>Edition of Course Of Study Item</td>
+      <td>一部改正なし</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>It corresponds to the 16th digit of the course of study code.</td>
     </tr>
     <tr>
       <td class="url"><code>dct:source</code></td>
@@ -241,174 +479,6 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       </td>
     </tr>
     <tr>
-      <td class="url"><code>schema:description</code></td>
-      <td>Description of Course Of Study Item</td>
-      <td>'''(イ) 語と語の連結による音の変化'''</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>The value of the "Text of Course of Study" column of the original data.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>dct:identifier</code></td>
-      <td>Code of Course of Study Item</td>
-      <td>83H1203111200000</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>The value of the "Course of Study Code" column of the original data.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:issuedPeriod</code></td>
-      <td>Issued Period</td>
-      <td>https://w3id.org/jp-cos/period/H29toH31</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It corresponds to the first digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:school</code></td>
-      <td>Type of School</td>
-      <td>cs:school/LowerSecondary</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Repeatable
-        </div>
-      </td>
-      <td>It corresponds to the second digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:disabilityCategory</code></td>
-      <td>Disability Category</td>
-      <td>cs:disabilityCategory/Intellectual</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Repeatable
-        </div>
-      </td>
-      <td>It corresponds to the second digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:subjectArea</code></td>
-      <td>Subject Area</td>
-      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 3rd digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:subject</code></td>
-      <td>Subject</td>
-      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 4th digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:category</code></td>
-      <td>Category</td>
-      <td>目標及び内容（大項目）</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 5th digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:grade</code></td>
-      <td>Grade</td>
-      <td>1,2</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 6th digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:stage</code></td>
-      <td>Stage</td>
-      <td>https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 6th digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:subCategory</code></td>
-      <td>Sub Category</td>
-      <td>内容</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 7th digit of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>schema:edition</code></td>
-      <td>Edition of Course Of Study Item</td>
-      <td>一部改正なし</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It corresponds to the 16th digit of the course of study code.</td>
-    </tr>
-    <tr>
       <td class="url"><code>cs:fcode</code></td>
       <td>Fcode of Course of Study</td>
       <td>A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0</td>
@@ -421,62 +491,6 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         </div>
       </td>
       <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make course of study code easier to handle in Excel filters and pivot tables.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>schema:hasPart</code></td>
-      <td>Child</td>
-      <td>https://w3id.org/jp-cos/8GH12a4222140000</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Repeatable
-        </div>
-      </td>
-      <td>Child of the cource of study item. It is created automatically by the program using the regularity of the course of study code.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:sectionNumber</code></td>
-      <td>Section Number</td>
-      <td>(イ)</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It is the section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:sectionNumberHierarchy</code></td>
-      <td>Hierarchical Section Numbers</td>
-      <td>第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:sectionText</code></td>
-      <td>Text</td>
-      <td>''語と語の連結による音の変化'''</td>
-      <td>
-        <div>
-          <strong>Required</strong>
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
     </tr>
     <tr>
       <td class="url"><code>bf:note</code></td>
@@ -492,33 +506,19 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       </td>
       <td>Using language tags, this property represents an original note and English note. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese note</dd><dt>@en</dt><dd>English note</dd></dl></td>
     </tr>
-    <tr>
-      <td class="url"><code>cs:commentaryPage</code></td>
-      <td>Commentary Page</td>
-      <td class="url">https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_001.pdf#page=25</td>
-      <td>
-        <div>
-        Optional
-        </div>
-        <div>
-        Non repeatable
-        </div>
-      </td>
-      <td>Link to the corresponding Course of Study Commentary with this item.</td>
-    </tr>
   </tbody>
   <tfoot>
     <tr><td colspan="5">
     The namespace URIs used in the table are as follows:
       <dl class="row small">
-      <dt class="col-sm-2"><code>cs:</code></dt>
-      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
       <dt class="col-sm-2"><code>dct:</code></dt>
       <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
-      <dt class="col-sm-2"><code>qb:</code></dt>
-      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
       <dt class="col-sm-2"><code>schema:</code></dt>
       <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
       <dt class="col-sm-2"><code>bf:</code></dt>
       <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
       </dl>

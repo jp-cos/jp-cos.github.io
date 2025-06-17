@@ -177,6 +177,230 @@
   </tr>
   <tbody>
     <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>学習指導要領コード</td>
+      <td>83H1203111200000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「学習指導要領コード」列の値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>学習指導要領テキスト</td>
+      <td>'''(イ) 語と語の連結による音の変化'''</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「学習指導要領テキスト」列の値。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionNumberHierarchy</code></td>
+      <td>節番号（階層）</td>
+      <td>第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領テキスト中の節番号の全階層分を表す。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:commentaryPage</code></td>
+      <td>学習指導要領解説へのリンク</td>
+      <td class="url">https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_001.pdf#page=25</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学習指導要領解説へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td>cs:school/LowerSecondary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:disabilityCategory</code></td>
+      <td>障害分類</td>
+      <td>cs:disabilityCategory/Intellectual</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの2桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subjectArea</code></td>
+      <td>教科等</td>
+      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「教科等」列の値。学習指導要領コードの3桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subject</code></td>
+      <td>分野・科目・分類</td>
+      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの4桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:grade</code></td>
+      <td>学年</td>
+      <td>1,2</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの6桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:stage</code></td>
+      <td>段階</td>
+      <td>https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>学習指導要領コードの6桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:category</code></td>
+      <td>大項目</td>
+      <td>目標及び内容（大項目）</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの5桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subCategory</code></td>
+      <td>項目</td>
+      <td>内容</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの7桁目に対応</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionNumber</code></td>
+      <td>節番号</td>
+      <td>(イ)</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領テキスト中の節番号を表す。ないこともある。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:sectionText</code></td>
+      <td>テキスト</td>
+      <td>''語と語の連結による音の変化'''</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>子</td>
+      <td>https://w3id.org/jp-cos/8GH12a4222140000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>子供の学習指導要領細目を表す。学習指導要領コードの規則性を利用してプログラムで自動作成。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:issuedPeriod</code></td>
+      <td>告示時期</td>
+      <td>https://w3id.org/jp-cos/period/H29toH31</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの1桁目に対応</td>
+    </tr>
+    <tr>
       <td class="url"><code>cs:courseOfStudy</code></td>
       <td>学習指導要領</td>
       <td>https://w3id.org/jp-cos/LowerSecondary/2017</td>
@@ -203,6 +427,20 @@
         </div>
       </td>
       <td>複数の改正がある場合、改正の件数分、繰り返される。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:edition</code></td>
+      <td>改正情報</td>
+      <td>一部改正なし</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>学習指導要領コードの16桁目に対応</td>
     </tr>
     <tr>
       <td class="url"><code>dct:source</code></td>
@@ -289,174 +527,6 @@
       </td>
     </tr>
     <tr>
-      <td class="url"><code>schema:description</code></td>
-      <td>学習指導要領テキスト</td>
-      <td>'''(イ) 語と語の連結による音の変化'''</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>元データの「学習指導要領テキスト」列の値。</td>
-    </tr>
-    <tr>
-      <td class="url"><code>dct:identifier</code></td>
-      <td>学習指導要領コード</td>
-      <td>83H1203111200000</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>元データの「学習指導要領コード」列の値。</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:issuedPeriod</code></td>
-      <td>告示時期</td>
-      <td>https://w3id.org/jp-cos/period/H29toH31</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領コードの1桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:school</code></td>
-      <td>学校種別</td>
-      <td>cs:school/LowerSecondary</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>学習指導要領コードの2桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:disabilityCategory</code></td>
-      <td>障害分類</td>
-      <td>cs:disabilityCategory/Intellectual</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>学習指導要領コードの2桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:subjectArea</code></td>
-      <td>教科等</td>
-      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>元データの「教科等」列の値。学習指導要領コードの3桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:subject</code></td>
-      <td>分野・科目・分類</td>
-      <td>https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領コードの4桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:category</code></td>
-      <td>大項目</td>
-      <td>目標及び内容（大項目）</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領コードの5桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:grade</code></td>
-      <td>学年</td>
-      <td>1,2</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>学習指導要領コードの6桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:stage</code></td>
-      <td>段階</td>
-      <td>https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>学習指導要領コードの6桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:subCategory</code></td>
-      <td>項目</td>
-      <td>内容</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領コードの7桁目に対応</td>
-    </tr>
-    <tr>
-      <td class="url"><code>schema:edition</code></td>
-      <td>改正情報</td>
-      <td>一部改正なし</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領コードの16桁目に対応</td>
-    </tr>
-    <tr>
       <td class="url"><code>cs:fcode</code></td>
       <td>F学習指導要領コード</td>
       <td>A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0</td>
@@ -469,62 +539,6 @@
         </div>
       </td>
       <td>学習指導要領コードをExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。</td>
-    </tr>
-    <tr>
-      <td class="url"><code>schema:hasPart</code></td>
-      <td>子</td>
-      <td>https://w3id.org/jp-cos/8GH12a4222140000</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し有り
-        </div>
-      </td>
-      <td>子供の学習指導要領細目を表す。学習指導要領コードの規則性を利用してプログラムで自動作成。</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:sectionNumber</code></td>
-      <td>節番号</td>
-      <td>(イ)</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領テキスト中の節番号を表す。ないこともある。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:sectionNumberHierarchy</code></td>
-      <td>節番号（階層）</td>
-      <td>第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領テキスト中の節番号の全階層分を表す。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
-    </tr>
-    <tr>
-      <td class="url"><code>cs:sectionText</code></td>
-      <td>テキスト</td>
-      <td>''語と語の連結による音の変化'''</td>
-      <td>
-        <div>
-          <strong>必須</strong>
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。</td>
     </tr>
     <tr>
       <td class="url"><code>bf:note</code></td>
@@ -540,33 +554,19 @@
       </td>
       <td>言語コードを用いて、備考を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語の備考</dd><dt>@en</dt><dd>英語の備考</dd></dl></td>
     </tr>
-    <tr>
-      <td class="url"><code>cs:commentaryPage</code></td>
-      <td>学習指導要領解説へのリンク</td>
-      <td class="url">https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_001.pdf#page=25</td>
-      <td>
-        <div>
-        省略可能
-        </div>
-        <div>
-        繰り返し無し
-        </div>
-      </td>
-      <td>対応する学習指導要領解説へのリンク</td>
-    </tr>
   </tbody>
   <tfoot>
     <tr><td colspan="5">
     表内で用いている名前空間URIは以下の通りです
       <dl class="row small">
-      <dt class="col-sm-2"><code>cs:</code></dt>
-      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
       <dt class="col-sm-2"><code>dct:</code></dt>
       <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
-      <dt class="col-sm-2"><code>qb:</code></dt>
-      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
       <dt class="col-sm-2"><code>schema:</code></dt>
       <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
       <dt class="col-sm-2"><code>bf:</code></dt>
       <dd class="col-sm-10">http://id.loc.gov/ontologies/bibframe/</dd>
       </dl>
