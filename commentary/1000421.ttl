@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000421>
+  <http://purl.org/dc/terms/identifier> "1000421";
+  <http://purl.org/linked-data/cube#order> 1000421;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253300000000>, <https://w3id.org/jp-cos/8220253310000000>, <https://w3id.org/jp-cos/8220253311000000>, <https://w3id.org/jp-cos/8220253312000000>, <https://w3id.org/jp-cos/8220253313000000>, <https://w3id.org/jp-cos/8220253314000000>, <https://w3id.org/jp-cos/8220253320000000>, <https://w3id.org/jp-cos/8220253321000000>, <https://w3id.org/jp-cos/8220253322000000>, <https://w3id.org/jp-cos/8220253323000000>;
+  <http://schema.org/description> "　この内容は，主として「現代社会の仕組みや働きと人々の生活」に区分されるものであり，我が国の工業生産についての学習で身に付ける事項を示している。我が国の工業生産とは，我が国における工場での生産活動であり，原材料を加工しその形や性質を変えたり，部品を組み立てたりして生活や産業に役立つ製品を作り出している工業を指している。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=86> .
+<https://w3id.org/jp-cos/commentary/1000411> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000421>.

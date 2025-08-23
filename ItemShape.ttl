@@ -124,13 +124,33 @@
     <http://www.w3.org/ns/shacl#order> 15;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/hasPart>
   ], [
+    <http://www.w3.org/ns/shacl#description> "Basic items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Basic item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>."@en, "当該学習指導要領細目の基礎となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。"@ja;
+    <http://www.w3.org/ns/shacl#name> "Basic Course of Study Item"@en, "基礎の細目"@ja;
+    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/StructuredItemShape>;
+    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNode>;
+    <http://www.w3.org/ns/shacl#order> 16;
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/basicItem>
+  ], [
+    <http://www.w3.org/ns/shacl#description> "Advanced items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Advanced item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>."@en, "当該学習指導要領細目の応用となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。"@ja;
+    <http://www.w3.org/ns/shacl#name> "Advanced Course of Study Item"@en, "応用の細目"@ja;
+    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/StructuredItemShape>;
+    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNode>;
+    <http://www.w3.org/ns/shacl#order> 17;
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/advancedItem>
+  ], [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>;
+    <http://www.w3.org/ns/shacl#description> "Course Of Study Items referenced in the text"@en, "テキスト中に参照された他の学習指導要領細目"@ja;
+    <http://www.w3.org/ns/shacl#name> "Reference To Other Items"@en, "他の細目への参照"@ja;
+    <http://www.w3.org/ns/shacl#order> 18;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/citation>
+  ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>;
     <http://www.w3.org/ns/shacl#description> "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
     <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Issued Period"@en, "告示時期"@ja;
-    <http://www.w3.org/ns/shacl#order> 16;
+    <http://www.w3.org/ns/shacl#order> 19;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017>;
@@ -138,7 +158,7 @@
     <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Course Of Study"@en, "学習指導要領"@ja;
-    <http://www.w3.org/ns/shacl#order> 17;
+    <http://www.w3.org/ns/shacl#order> 20;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudy>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
@@ -146,7 +166,7 @@
     <http://www.w3.org/ns/shacl#description> "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
     <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
-    <http://www.w3.org/ns/shacl#order> 18;
+    <http://www.w3.org/ns/shacl#order> 21;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "一部改正なし";
@@ -155,14 +175,14 @@
     <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Edition of Course Of Study Item"@en, "改正情報"@ja;
-    <http://www.w3.org/ns/shacl#order> 19;
+    <http://www.w3.org/ns/shacl#order> 22;
     <http://www.w3.org/ns/shacl#path> <http://schema.org/edition>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/83V11>;
     <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>;
     <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Source"@en, "出典"@ja;
-    <http://www.w3.org/ns/shacl#order> 20;
+    <http://www.w3.org/ns/shacl#order> 23;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/source>
   ], [
     <http://www.w3.org/ns/shacl#description> "Repeatable. The value of the \"No\" column of the original data. A item number information consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:source</code>."@en, "元データの「No」列の値。データセットの数だけ繰り返される。<code>rdf:value</code>, <code>dct:source</code>の2つの項番用プロパティを持つ。"@ja;
@@ -170,7 +190,7 @@
     <http://www.w3.org/ns/shacl#name> "Item Number"@en, "項番"@ja;
     <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/NumberShape>;
     <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNode>;
-    <http://www.w3.org/ns/shacl#order> 21;
+    <http://www.w3.org/ns/shacl#order> 24;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0";
@@ -179,7 +199,7 @@
     <http://www.w3.org/ns/shacl#maxCount> 1;
     <http://www.w3.org/ns/shacl#minCount> 1;
     <http://www.w3.org/ns/shacl#name> "Fcode of Course of Study"@en, "F学習指導要領コード"@ja;
-    <http://www.w3.org/ns/shacl#order> 22;
+    <http://www.w3.org/ns/shacl#order> 25;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcode>
   ], [
     <http://www.w3.org/2004/02/skos/core#example> "<ul><li>'''コード表：86V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「0」となっているが、正しくは「e」であると判断し、URIや関連するプロパティ値（学習指導要領コードや段階など）もそれに合わせるように変更した。'''@ja</li><li>'''The sixth digit of the original course of study code in code table 86V11 is \"0\", but the correct value is \"e\". The URI and related property values (course of study code, stage, etc.) were changed to match.'''@en</li></ul>";
@@ -193,7 +213,7 @@
       ]
     ];
     <http://www.w3.org/ns/shacl#name> "Note"@en, "備考"@ja;
-    <http://www.w3.org/ns/shacl#order> 23;
+    <http://www.w3.org/ns/shacl#order> 26;
     <http://www.w3.org/ns/shacl#path> <http://id.loc.gov/ontologies/bibframe/note>;
     <http://www.w3.org/ns/shacl#uniqueLang> true
   ];

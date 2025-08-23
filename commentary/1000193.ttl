@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000193>
+  <http://purl.org/dc/terms/identifier> "1000193";
+  <http://purl.org/linked-data/cube#order> 1000193;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260263131100000>, <https://w3id.org/jp-cos/8260263132000000>;
+  <http://schema.org/description> "(ア) てこを働かせたときの，力を加える位置や力の大きさに着目して，てこのつり合いの条件を制御しながら調べる。これらの活動を通して，力を加える位置や力の大きさとてこを傾ける働きとの関係について，より妥当な考えをつくりだし，表現するとともに，力を加える位置や力の大きさを変えると，てこを傾ける働きが変わり，てこがつり合うときにはそれらの間に規則性があることを捉えるようにする。その際，１カ所で支えて水平になった棒の支点から左右に等距離の位置に物をつり下げ，両側の物の重さが等しいとき，棒が水平になってつり合うことも捉えるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=86> .
+<https://w3id.org/jp-cos/commentary/1000185> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000193>.

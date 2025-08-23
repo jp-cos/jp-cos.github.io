@@ -11,6 +11,15 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253131000000>, <https://w3id.org/jp-cos/8260253132000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000056>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243130000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000056>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260263140000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=71>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +34,11 @@
 電流がつくる磁力について，電流の大きさや向き，コイルの巻数などに着目して，それらの条件を制御しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000050> <http://schema.org/about> <https://w3id.org/jp-cos/8260253130000000>.
+<https://w3id.org/jp-cos/commentary/1000056> <http://schema.org/about> <https://w3id.org/jp-cos/8260253130000000>.
+<https://w3id.org/jp-cos/commentary/1000057> <http://schema.org/about> <https://w3id.org/jp-cos/8260253130000000>.
+<https://w3id.org/jp-cos/commentary/1000060> <http://schema.org/about> <https://w3id.org/jp-cos/8260253130000000>.
+<https://w3id.org/jp-cos/commentary/1000061> <http://schema.org/about> <https://w3id.org/jp-cos/8260253130000000>.
+<https://w3id.org/jp-cos/commentary/1000062> <http://schema.org/about> <https://w3id.org/jp-cos/8260253130000000>.
+<https://w3id.org/jp-cos/commentary/1000207> <http://schema.org/citation> <https://w3id.org/jp-cos/8260253130000000>.
 <https://w3id.org/jp-cos/8260253100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253130000000>.

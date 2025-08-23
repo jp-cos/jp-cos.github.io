@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000131>
+  <http://purl.org/dc/terms/identifier> "1000131";
+  <http://purl.org/linked-data/cube#order> 1000131;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260253241200000>, <https://w3id.org/jp-cos/8260253242000000>, <https://w3id.org/jp-cos/8260255600000000>;
+  <http://schema.org/description> "　(イ) 数日間の雲の量や動きに着目して，それらと気象衛星などから得た雲の量や動きの情報とを関係付けて，天気の変化の仕方を調べる。これらの活動を通して，天気の変化の仕方についての予想や仮説を基に，解決の方法を発想し，表現するとともに，天気はおよそ西から東へ変化していくという規則性があり，映像などの気象情報を用いて予想ができることを捉えるようにする。その際，台風の進路についてはこの規則性が当てはまらないことや，台風がもたらす降雨は短時間に多量になることにも触れるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=79> .
+<https://w3id.org/jp-cos/commentary/1000120> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000131>.

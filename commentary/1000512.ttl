@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000512>
+  <http://purl.org/dc/terms/identifier> "1000512";
+  <http://purl.org/linked-data/cube#order> 1000512;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253521000000>;
+  <http://schema.org/description> "　<b>災害の種類</b>に着目するとは，我が国で発生した主な自然災害の種類や被害の状況について調べることである。<b>発生の位置や時期</b>に着目するとは，我が国で発生した主な自然災害の位置や発生した時期について調べることである。<b>防災対策</b>に着目するとは，国や県などが進めてきた砂防ダムや堤防などの整備，ハザードマップの作成などの防災・減災に向けた対策や事業について調べることである。このようにして調べたことを手掛かりに，<b>国土の自然災害の状況</b>を捉えることができるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=98> .
+<https://w3id.org/jp-cos/commentary/1000489> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000512>.

@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2468
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8260253231300000>;
   <http://schema.org/description> "(5) 内容の「Ｂ生命・地球」の(3)のアの(ウ)については，自然災害についても触れること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,11 @@
   <https://w3id.org/jp-cos/sectionText> "内容の「B生命・地球」の(3)のアの(ウ)については，自然災害についても触れること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000110> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
+<https://w3id.org/jp-cos/commentary/1000112> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
+<https://w3id.org/jp-cos/commentary/1000113> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
+<https://w3id.org/jp-cos/commentary/1000116> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
+<https://w3id.org/jp-cos/commentary/1000117> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
+<https://w3id.org/jp-cos/commentary/1000118> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
+<https://w3id.org/jp-cos/commentary/1000119> <http://schema.org/about> <https://w3id.org/jp-cos/8260255500000000>.
 <https://w3id.org/jp-cos/8260255000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260255500000000>.

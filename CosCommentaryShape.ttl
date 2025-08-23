@@ -1,0 +1,69 @@
+<https://w3id.org/jp-cos/CosCommentaryShape>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
+    <http://www.w3.org/ns/shacl#description> "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    <http://www.w3.org/ns/shacl#languageIn> [
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja-hira";
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
+          <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
+          <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+        ]
+      ]
+    ];
+    <http://www.w3.org/ns/shacl#maxCount> 3;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
+    <http://www.w3.org/ns/shacl#order> 1;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
+    <http://www.w3.org/ns/shacl#uniqueLang> true
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
+    <http://www.w3.org/ns/shacl#maxCount> 2;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
+    <http://www.w3.org/ns/shacl#order> 2;
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary/2017/社会>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/SubjectArea>;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Subject Area"@en, "教科等"@ja;
+    <http://www.w3.org/ns/shacl#order> 3;
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subjectArea>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "2017";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear>;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Publication Year"@en, "出版年"@ja;
+    <http://www.w3.org/ns/shacl#order> 4;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/issued>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf>;
+    <http://www.w3.org/ns/shacl#description> "Link to the fulltext"@en, "本文へのリンク"@ja;
+    <http://www.w3.org/ns/shacl#name> "Fulltext URL"@en, "本文URL"@ja;
+    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
+    <http://www.w3.org/ns/shacl#order> 5;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/url>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000302>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>;
+    <http://www.w3.org/ns/shacl#description> "Child of the item."@en, "子供の細目を表す。"@ja;
+    <http://www.w3.org/ns/shacl#name> "Child"@en, "子"@ja;
+    <http://www.w3.org/ns/shacl#order> 6;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/hasPart>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "2003";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
+    <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Listing order of the item"@en, "順番"@ja;
+    <http://www.w3.org/ns/shacl#order> 7;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CosCommentary> .

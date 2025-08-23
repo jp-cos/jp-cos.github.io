@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000653>
+  <http://purl.org/dc/terms/identifier> "1000653";
+  <http://purl.org/linked-data/cube#order> 1000653;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220263211000000>, <https://w3id.org/jp-cos/822026321C000000>, <https://w3id.org/jp-cos/8220263221000000>;
+  <http://schema.org/description> "　この内容は，「くに」としての我が国の歴史が形づくられるまでの学習で身に付ける事項を示している。ここでは，狩猟・採集や農耕の生活，古墳，大和朝廷（大和政権）による統一の三つの事象を取り上げる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=114> .
+<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000653>.

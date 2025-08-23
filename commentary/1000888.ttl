@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/commentary/1000888>
+  <http://purl.org/dc/terms/identifier> "1000888";
+  <http://purl.org/linked-data/cube#order> 1000888;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220265220000000>;
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263211000000>, <https://w3id.org/jp-cos/8220263212000000>, <https://w3id.org/jp-cos/8220263213000000>, <https://w3id.org/jp-cos/8220263214000000>, <https://w3id.org/jp-cos/8220263215000000>, <https://w3id.org/jp-cos/8220263216000000>, <https://w3id.org/jp-cos/8220263217000000>, <https://w3id.org/jp-cos/8220263218000000>, <https://w3id.org/jp-cos/8220263219000000>, <https://w3id.org/jp-cos/822026321A000000>, <https://w3id.org/jp-cos/822026321B000000>;
+  <http://schema.org/description> "　ここでは歴史上の主な事象と関連の深い国宝，重要文化財，世界文化遺産などの中から適切なものを取り上げ，我が国の代表的な文化遺産を通して学習が具体的に展開できるよう配慮する必要がある。なお，地域の実態を生かし，歴史上の主な事象に対する関心や理解を深める観点から，自分たちの住む県や市によって指定されている文化財などを取り上げることも一つの方法である。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=130> .
+<https://w3id.org/jp-cos/commentary/1000832> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000888>.

@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000341>
+  <http://purl.org/dc/terms/identifier> "1000341";
+  <http://purl.org/linked-data/cube#order> 1000341;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253111000000>, <https://w3id.org/jp-cos/8220253113000000>, <https://w3id.org/jp-cos/8220253121000000>;
+  <http://schema.org/description> "　ここでは，我が国の国土の概要に関する内容と国土の自然環境に関する内容から構成されている。我が国の国土の概要に関する内容については，アの(ア)及び(ウ)とイの(ア)を関連付けて指導する。例えば，<b>世界の大陸と主な海洋，主な国の位置，海洋に囲まれ多数の島からなる国土の構成などに着目して，地図帳や地球儀，各種の資料で調べ，まとめ，我が国の国土の様子を捉え，その特色を考え，表現すること</b>を通して，<b>世界の中における我が国の国土の位置，国土の構成，領土の範囲などを大まかに理解</b>できるようにすることである。その際，領土とは，我が国の法律が及ぶ地理的な範囲であることなど，小学校の段階に応じた指導を行うようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=77> .
+<https://w3id.org/jp-cos/commentary/1000332> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000341>.

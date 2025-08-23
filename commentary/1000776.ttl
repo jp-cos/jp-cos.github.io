@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000776>
+  <http://purl.org/dc/terms/identifier> "1000776";
+  <http://purl.org/linked-data/cube#order> 1000776;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220263218000000>, <https://w3id.org/jp-cos/822026321C000000>;
+  <http://schema.org/description> "　例えば，歌舞伎や浮世絵の作品，『解体新書』や日本地図などの学問の成果などを資料で調べ，それらをまとめることが考えられる。ここでは，当時の作品などの資料から文化や学問に関する情報を適切に読み取る技能，調べたことをまとめる技能などを身に付けるようにすることが大切である。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=123> .
+<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000776>.

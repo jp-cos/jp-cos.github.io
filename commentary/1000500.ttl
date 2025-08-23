@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000500>
+  <http://purl.org/dc/terms/identifier> "1000500";
+  <http://purl.org/linked-data/cube#order> 1000500;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253511000000>, <https://w3id.org/jp-cos/8220253514000000>, <https://w3id.org/jp-cos/8220253521000000>;
+  <http://schema.org/description> "　ここでは，国土の自然災害に関する内容，森林資源の働きに関する内容，公害の防止と生活環境に関する内容から構成されている。国土の自然災害に関する内容については，アの(ア)及び(エ)とイの(ア)を関連付けて指導する。例えば，<b>災害の種類や発生の位置や時期，防災対策などに着目して，地図帳や各種の資料で調べ，まとめ，国土の自然災害の状況を捉え，自然条件との関連を考え，表現すること</b>を通して，<b>自然災害は国土の自然条件などと関連して発生していることや，自然災害から国土を保全し国民生活を守るために国や県などが様々な対策や事業を進めていることを理解</b>できるようにすることである。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=96> .
+<https://w3id.org/jp-cos/commentary/1000489> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000500>.

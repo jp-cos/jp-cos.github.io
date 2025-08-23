@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1543
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253522000000>, <https://w3id.org/jp-cos/8220253523000000>;
   <http://schema.org/description> "ウ　イの(イ)及び(ウ)については，国土の環境保全について，自分たちにできることなどを考えたり選択・判断したりできるよう配慮すること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,6 @@
   <https://w3id.org/jp-cos/sectionText> "イの(イ)及び(ウ)については，国土の環境保全について，自分たちにできることなどを考えたり選択・判断したりできるよう配慮すること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000531> <http://schema.org/about> <https://w3id.org/jp-cos/8220255530000000>.
+<https://w3id.org/jp-cos/commentary/1000532> <http://schema.org/about> <https://w3id.org/jp-cos/8220255530000000>.
 <https://w3id.org/jp-cos/8220255500000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255530000000>.

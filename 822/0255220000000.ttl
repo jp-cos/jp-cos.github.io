@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1533
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253221000000>, <https://w3id.org/jp-cos/8220253222000000>;
   <http://schema.org/description> "イ　イの(ア)及び(イ)については，消費者や生産者の立場などから多角的に考えて，これからの農業などの発展について，自分の考えをまとめることができるよう配慮すること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,8 @@
   <https://w3id.org/jp-cos/sectionText> "イの(ア)及び(イ)については，消費者や生産者の立場などから多角的に考えて，これからの農業などの発展について，自分の考えをまとめることができるよう配慮すること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000407> <http://schema.org/about> <https://w3id.org/jp-cos/8220255220000000>.
+<https://w3id.org/jp-cos/commentary/1000408> <http://schema.org/about> <https://w3id.org/jp-cos/8220255220000000>.
+<https://w3id.org/jp-cos/commentary/1000409> <http://schema.org/about> <https://w3id.org/jp-cos/8220255220000000>.
+<https://w3id.org/jp-cos/commentary/1000410> <http://schema.org/about> <https://w3id.org/jp-cos/8220255220000000>.
 <https://w3id.org/jp-cos/8220255200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255220000000>.

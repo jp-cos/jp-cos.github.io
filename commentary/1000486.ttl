@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/commentary/1000486>
+  <http://purl.org/dc/terms/identifier> "1000486";
+  <http://purl.org/linked-data/cube#order> 1000486;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220255420000000>;
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253412000000>, <https://w3id.org/jp-cos/8220253422000000>;
+  <http://schema.org/description> "　ここでは，「様々な産業」について，「販売，運輸，観光，医療，福祉など」情報を活用して発展している産業の中から選択して取り上げることが考えられる。取り上げる事例としては，例えば，販売情報を収集・分析して商品の入荷量や販売量を予測したり，インターネット上で商品の管理を行ったりしている販売業，交通や位置，気象などの情報を活用したり，倉庫を運営する産業と連携して迅速かつ効率的な輸送に努めたりしている運輸業，魅力ある地域の観光資源について情報を発信して地域の活性化に努めている観光業，様々な機関と連携したり離れた地域間で情報を共有したりすることによりサービスの向上に努めている医療や福祉などの産業が考えられる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=95> .
+<https://w3id.org/jp-cos/commentary/1000478> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000486>.

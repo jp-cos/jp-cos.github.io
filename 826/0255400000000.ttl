@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2467
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8260253221200000>;
   <http://schema.org/description> "(4) 内容の「Ｂ生命・地球」の(2)のアの(イ)については，人の受精に至る過程は取り扱わないものとする。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,11 @@
   <https://w3id.org/jp-cos/sectionText> "内容の「B生命・地球」の(2)のアの(イ)については，人の受精に至る過程は取り扱わないものとする。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000094> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
+<https://w3id.org/jp-cos/commentary/1000096> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
+<https://w3id.org/jp-cos/commentary/1000097> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
+<https://w3id.org/jp-cos/commentary/1000099> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
+<https://w3id.org/jp-cos/commentary/1000100> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
+<https://w3id.org/jp-cos/commentary/1000101> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
+<https://w3id.org/jp-cos/commentary/1000102> <http://schema.org/about> <https://w3id.org/jp-cos/8260255400000000>.
 <https://w3id.org/jp-cos/8260255000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260255400000000>.

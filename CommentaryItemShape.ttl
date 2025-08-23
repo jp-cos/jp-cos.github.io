@@ -1,0 +1,75 @@
+<https://w3id.org/jp-cos/CommentaryItemShape>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
+  <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> "1000031";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#description> "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "ID"@ja, "ID"@en;
+    <http://www.w3.org/ns/shacl#order> 1;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/identifier>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#description> "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Description"@en, "テキスト"@ja;
+    <http://www.w3.org/ns/shacl#order> 2;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/description>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/8260253110000000>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>;
+    <http://www.w3.org/ns/shacl#description> "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja;
+    <http://www.w3.org/ns/shacl#name> "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja;
+    <http://www.w3.org/ns/shacl#order> 3;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/about>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/8260233110000000>;
+    <http://www.w3.org/ns/shacl#description> "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja;
+    <http://www.w3.org/ns/shacl#name> "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja;
+    <http://www.w3.org/ns/shacl#order> 4;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/citation>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000400>;
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>;
+    <http://www.w3.org/ns/shacl#description> "Child of the item."@en, "子供の細目を表す。"@ja;
+    <http://www.w3.org/ns/shacl#name> "Child"@en, "子"@ja;
+    <http://www.w3.org/ns/shacl#order> 5;
+    <http://www.w3.org/ns/shacl#path> <http://schema.org/hasPart>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68>;
+    <http://www.w3.org/ns/shacl#description> "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Commentary Page"@en, "学習指導要領解説へのリンク"@ja;
+    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
+    <http://www.w3.org/ns/shacl#order> 6;
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/commentaryPage>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "(1) 物の溶け方";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#description> "When an item represents a section title, it denotes the same content as the “Description.”"@en, "細目が節タイトルを表している場合は「テキスト」と同内容を表す。"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Section Title"@en, "節タイトル"@ja;
+    <http://www.w3.org/ns/shacl#order> 7;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/title>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "(1)";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string>;
+    <http://www.w3.org/ns/shacl#description> "Abbreviated section title, intended for use in breadcrumbs and similar contexts."@en, "「節タイトル」の短縮版。パンくずリストなどの利用を想定。"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Abbreviated title"@en, "短縮タイトル"@ja;
+    <http://www.w3.org/ns/shacl#order> 8;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/alternative>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "1";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
+    <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Listing order of the item"@en, "順番"@ja;
+    <http://www.w3.org/ns/shacl#order> 9;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CommentaryItem> .

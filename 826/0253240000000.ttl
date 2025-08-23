@@ -11,6 +11,15 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253241000000>, <https://w3id.org/jp-cos/8260253242000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000128>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243240000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000128>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8362223400000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=78>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +34,11 @@
 天気の変化の仕方について，雲の様子を観測したり，映像などの気象情報を活用したりする中で，雲の量や動きに着目して，それらと天気の変化とを関係付けて調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000120> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
+<https://w3id.org/jp-cos/commentary/1000128> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
+<https://w3id.org/jp-cos/commentary/1000129> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
+<https://w3id.org/jp-cos/commentary/1000132> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
+<https://w3id.org/jp-cos/commentary/1000133> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
+<https://w3id.org/jp-cos/commentary/1000134> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
+<https://w3id.org/jp-cos/commentary/1000135> <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>.
 <https://w3id.org/jp-cos/8260253200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253240000000>.

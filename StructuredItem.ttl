@@ -1,0 +1,5 @@
+<https://w3id.org/jp-cos/StructuredItem>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "A class representing a Course of Study item and its provenance."@en, "学習指導要領の細目とその由来などを表すクラス。"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Structured Item"@en, "構造化細目"@ja .
+<https://w3id.org/jp-cos/StructuredItemShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/StructuredItem>.

@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1539
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253412000000>, <https://w3id.org/jp-cos/8220253422000000>;
   <http://schema.org/description> "イ　アの(イ)及びイの(イ)については，情報や情報技術を活用して発展している販売，運輸，観光，医療，福祉などに関わる産業の中から選択して取り上げること。その際，産業と国民の立場から多角的に考えて，情報化の進展に伴う産業の発展や国民生活の向上について，自分の考えをまとめることができるよう配慮すること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,8 @@
   <https://w3id.org/jp-cos/sectionText> "アの(イ)及びイの(イ)については，情報や情報技術を活用して発展している販売，運輸，観光，医療，福祉などに関わる産業の中から選択して取り上げること。その際，産業と国民の立場から多角的に考えて，情報化の進展に伴う産業の発展や国民生活の向上について，自分の考えをまとめることができるよう配慮すること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000485> <http://schema.org/about> <https://w3id.org/jp-cos/8220255420000000>.
+<https://w3id.org/jp-cos/commentary/1000486> <http://schema.org/about> <https://w3id.org/jp-cos/8220255420000000>.
+<https://w3id.org/jp-cos/commentary/1000487> <http://schema.org/about> <https://w3id.org/jp-cos/8220255420000000>.
+<https://w3id.org/jp-cos/commentary/1000488> <http://schema.org/about> <https://w3id.org/jp-cos/8220255420000000>.
 <https://w3id.org/jp-cos/8220255400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255420000000>.

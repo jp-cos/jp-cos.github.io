@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/commentary/1000521>
+  <http://purl.org/dc/terms/alternative> "内容(5)の内容の取扱い";
+  <http://purl.org/dc/terms/identifier> "1000521";
+  <http://purl.org/dc/terms/title> "（内容の取扱い）内容(5)";
+  <http://purl.org/linked-data/cube#order> 1000521;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220255500000000>;
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253500000000>;
+  <http://schema.org/description> "（内容の取扱い）";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000526>, <https://w3id.org/jp-cos/commentary/1000527>, <https://w3id.org/jp-cos/commentary/1000528>, <https://w3id.org/jp-cos/commentary/1000529>, <https://w3id.org/jp-cos/commentary/1000530>, <https://w3id.org/jp-cos/commentary/1000531>, <https://w3id.org/jp-cos/commentary/1000532>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=99> .
+<https://w3id.org/jp-cos/commentary/1000331> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000521>.

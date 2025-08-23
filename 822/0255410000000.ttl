@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1538
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253411000000>;
   <http://schema.org/description> "ア　アの(ア)の「放送，新聞などの産業」については，それらの中から選択して取り上げること。その際，情報を有効に活用することについて，情報の送り手と受け手の立場から多角的に考え，受け手として正しく判断することや送り手として責任をもつことが大切であることに気付くようにすること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,7 @@
   <https://w3id.org/jp-cos/sectionText> "アの(ア)の「放送，新聞などの産業」については，それらの中から選択して取り上げること。その際，情報を有効に活用することについて，情報の送り手と受け手の立場から多角的に考え，受け手として正しく判断することや送り手として責任をもつことが大切であることに気付くようにすること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000482> <http://schema.org/about> <https://w3id.org/jp-cos/8220255410000000>.
+<https://w3id.org/jp-cos/commentary/1000483> <http://schema.org/about> <https://w3id.org/jp-cos/8220255410000000>.
+<https://w3id.org/jp-cos/commentary/1000484> <http://schema.org/about> <https://w3id.org/jp-cos/8220255410000000>.
 <https://w3id.org/jp-cos/8220255400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255410000000>.

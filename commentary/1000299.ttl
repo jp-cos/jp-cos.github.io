@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000299>
+  <http://purl.org/dc/terms/identifier> "1000299";
+  <http://purl.org/linked-data/cube#order> 1000299;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260263250000000>, <https://w3id.org/jp-cos/8260265600000000>;
+  <http://schema.org/description> "　ここで扱う対象としては，太陽が沈んでから見える月の他に，昼間に観察できる月も考えられる。また，月を観察する際には，クレーターなど，表面の様子にも目を向けて，月に対する興味・関心を高めるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97> .
+<https://w3id.org/jp-cos/commentary/1000289> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000299>.

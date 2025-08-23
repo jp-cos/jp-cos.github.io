@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1535
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253312000000>, <https://w3id.org/jp-cos/8220253322000000>;
   <http://schema.org/description> "ア　アの(イ)及びイの(イ)については，工業の盛んな地域の具体的事例を通して調べることとし，金属工業，機械工業，化学工業，食料品工業などの中から一つを取り上げること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,7 @@
   <https://w3id.org/jp-cos/sectionText> "アの(イ)及びイの(イ)については，工業の盛んな地域の具体的事例を通して調べることとし，金属工業，機械工業，化学工業，食料品工業などの中から一つを取り上げること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000448> <http://schema.org/about> <https://w3id.org/jp-cos/8220255310000000>.
+<https://w3id.org/jp-cos/commentary/1000449> <http://schema.org/about> <https://w3id.org/jp-cos/8220255310000000>.
+<https://w3id.org/jp-cos/commentary/1000450> <http://schema.org/about> <https://w3id.org/jp-cos/8220255310000000>.
 <https://w3id.org/jp-cos/8220255300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255310000000>.

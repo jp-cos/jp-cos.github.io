@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1528
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253113000000>;
   <http://schema.org/description> "イ　アの(ウ)については，地図帳や地球儀を用いて，方位，緯度や経度などによる位置の表し方について取り扱うこと。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,6 @@
   <https://w3id.org/jp-cos/sectionText> "アの(ウ)については，地図帳や地球儀を用いて，方位，緯度や経度などによる位置の表し方について取り扱うこと。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000368> <http://schema.org/about> <https://w3id.org/jp-cos/8220255120000000>.
+<https://w3id.org/jp-cos/commentary/1000369> <http://schema.org/about> <https://w3id.org/jp-cos/8220255120000000>.
 <https://w3id.org/jp-cos/8220255100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255120000000>.

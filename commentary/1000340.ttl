@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000340>
+  <http://purl.org/dc/terms/identifier> "1000340";
+  <http://purl.org/linked-data/cube#order> 1000340;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253100000000>, <https://w3id.org/jp-cos/8220253110000000>, <https://w3id.org/jp-cos/8220253111000000>, <https://w3id.org/jp-cos/8220253112000000>, <https://w3id.org/jp-cos/8220253113000000>, <https://w3id.org/jp-cos/8220253120000000>, <https://w3id.org/jp-cos/8220253121000000>, <https://w3id.org/jp-cos/8220253122000000>;
+  <http://schema.org/description> "　この内容は，主として「地理的環境と人々の生活」に区分されるものであり，我が国の国土の様子と国民生活についての学習で身に付ける事項を示している。我が国の国土の様子と国民生活とは，世界における我が国の地理的位置や国土の構成，我が国の国土の自然環境やこれに適応している人々の生活を指している。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=77> .
+<https://w3id.org/jp-cos/commentary/1000332> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000340>.

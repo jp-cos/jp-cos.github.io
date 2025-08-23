@@ -11,6 +11,15 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253221000000>, <https://w3id.org/jp-cos/8260253222000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000096>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243220000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000096>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8362233511000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=75>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +34,10 @@
 動物の発生や成長について，魚を育てたり人の発生についての資料を活用したりする中で，卵や胎児の様子に着目して，時間の経過と関係付けて調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000088> <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>.
+<https://w3id.org/jp-cos/commentary/1000096> <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>.
+<https://w3id.org/jp-cos/commentary/1000097> <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>.
+<https://w3id.org/jp-cos/commentary/1000100> <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>.
+<https://w3id.org/jp-cos/commentary/1000101> <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>.
+<https://w3id.org/jp-cos/commentary/1000102> <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>.
 <https://w3id.org/jp-cos/8260253200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253220000000>.

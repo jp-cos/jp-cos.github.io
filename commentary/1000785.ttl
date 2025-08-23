@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000785>
+  <http://purl.org/dc/terms/identifier> "1000785";
+  <http://purl.org/linked-data/cube#order> 1000785;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220263219000000>, <https://w3id.org/jp-cos/822026321C000000>, <https://w3id.org/jp-cos/8220263221000000>;
+  <http://schema.org/description> "　この内容は，幕末から明治の初めの頃の学習で身に付ける事項を示している。ここでは，黒船の来航，廃藩置県や四民平等などの改革，文明開化などの事象を取り上げる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=124> .
+<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000785>.

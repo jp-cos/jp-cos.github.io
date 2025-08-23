@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000384>
+  <http://purl.org/dc/terms/identifier> "1000384";
+  <http://purl.org/linked-data/cube#order> 1000384;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253211000000>, <https://w3id.org/jp-cos/8220253213000000>, <https://w3id.org/jp-cos/8220253221000000>;
+  <http://schema.org/description> "　ここでは，我が国の食料生産の概要に関する内容と食料生産に関わる人々の工夫や努力に関する内容から構成されている。我が国の食料生産の概要に関する内容については，アの(ア)及び(ウ)とイの(ア)を関連付けて指導する。例えば，<b>生産物の種類や分布，生産量の変化，輸入など外国との関わりなどに着目して，地図帳や地球儀，各種の資料で調べ，まとめ，食料生産の概要を捉え，食料生産が国民生活に果たす役割を考え，表現すること</b>を通して，<b>我が国の食料生産は，自然条件を生かして営まれていることや，国民の食料を確保する重要な役割を果たしていることを理解</b>できるようにすることである。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=82> .
+<https://w3id.org/jp-cos/commentary/1000375> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000384>.

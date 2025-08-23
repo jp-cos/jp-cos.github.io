@@ -1,0 +1,11 @@
+<https://w3id.org/jp-cos/commentary/1000001>
+  <http://purl.org/dc/terms/alternative> "第3節 第5学年";
+  <http://purl.org/dc/terms/identifier> "1000001";
+  <http://purl.org/dc/terms/title> "第３節　第５学年の目標及び内容";
+  <http://purl.org/linked-data/cube#order> 1000001;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260250000000000>;
+  <http://schema.org/description> "第３節　第５学年の目標及び内容";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000002>, <https://w3id.org/jp-cos/commentary/1000020>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=66> .
+<https://w3id.org/jp-cos/commentary/Elementary/2017/理科> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000001>.

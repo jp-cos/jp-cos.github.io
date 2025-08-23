@@ -96,7 +96,7 @@
       <dd class="col-sm-9" lang="en">Note</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">備考</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">23</dd>
+      <dd class="col-sm-9">26</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="http://id.loc.gov/ontologies/bibframe/note">http://id.loc.gov/ontologies/bibframe/note</a></dd>
   <dt class="col-sm-3">Uniquelang</dt>
@@ -135,7 +135,7 @@
       <dd class="col-sm-9" lang="en">Source</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">出典</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">20</dd>
+      <dd class="col-sm-9">23</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="http://purl.org/dc/terms/source">http://purl.org/dc/terms/source</a></dd>
 </dl>
@@ -154,9 +154,24 @@
   <dt class="col-sm-3">Nodekind</dt>
       <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">21</dd>
+      <dd class="col-sm-9">24</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="http://purl.org/linked-data/cube#order">http://purl.org/linked-data/cube#order</a></dd>
+</dl>
+</dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Class</dt>
+      <dd class="col-sm-9"><a href="Item">学習指導要領の細目</a></dd>
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="en">Course Of Study Items referenced in the text</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="ja">テキスト中に参照された他の学習指導要領細目</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="en">Reference To Other Items</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="ja">他の細目への参照</dd>
+  <dt class="col-sm-3">Order</dt>
+      <dd class="col-sm-9">18</dd>
+  <dt class="col-sm-3">Path</dt>
+      <dd class="col-sm-9"><a href="http://schema.org/citation">http://schema.org/citation</a></dd>
 </dl>
 </dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
@@ -196,7 +211,7 @@
       <dd class="col-sm-9" lang="en">Edition of Course Of Study Item</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">改正情報</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">19</dd>
+      <dd class="col-sm-9">22</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="http://schema.org/edition">http://schema.org/edition</a></dd>
 </dl>
@@ -216,6 +231,40 @@
       <dd class="col-sm-9">15</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="http://schema.org/hasPart">http://schema.org/hasPart</a></dd>
+</dl>
+</dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="en">Advanced items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Advanced item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>.</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="ja">当該学習指導要領細目の応用となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="en">Advanced Course of Study Item</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="ja">応用の細目</dd>
+  <dt class="col-sm-3">Node</dt>
+      <dd class="col-sm-9"><a href="StructuredItemShape">no title</a></dd>
+  <dt class="col-sm-3">Nodekind</dt>
+      <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  <dt class="col-sm-3">Order</dt>
+      <dd class="col-sm-9">17</dd>
+  <dt class="col-sm-3">Path</dt>
+      <dd class="col-sm-9"><a href="advancedItem">応用の細目</a></dd>
+</dl>
+</dd>
+      <dd class="col-sm-9 offset-sm-3"><dl class="row border">
+  <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9" lang="en">Basic items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Basic item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>.</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="ja">当該学習指導要領細目の基礎となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。</dd>
+  <dt class="col-sm-3">Name</dt>
+      <dd class="col-sm-9" lang="en">Basic Course of Study Item</dd>
+      <dd class="col-sm-9 offset-sm-3" lang="ja">基礎の細目</dd>
+  <dt class="col-sm-3">Node</dt>
+      <dd class="col-sm-9"><a href="StructuredItemShape">no title</a></dd>
+  <dt class="col-sm-3">Nodekind</dt>
+      <dd class="col-sm-9"><a href="http://www.w3.org/ns/shacl#BlankNode">http://www.w3.org/ns/shacl#BlankNode</a></dd>
+  <dt class="col-sm-3">Order</dt>
+      <dd class="col-sm-9">16</dd>
+  <dt class="col-sm-3">Path</dt>
+      <dd class="col-sm-9"><a href="basicItem">基礎の細目</a></dd>
 </dl>
 </dd>
       <dd class="col-sm-9 offset-sm-3"><dl class="row border">
@@ -271,7 +320,7 @@
       <dd class="col-sm-9" lang="en">Course Of Study</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">学習指導要領</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">17</dd>
+      <dd class="col-sm-9">20</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="courseOfStudy">学習指導要領</a></dd>
 </dl>
@@ -290,7 +339,7 @@
       <dd class="col-sm-9" lang="en">Course Of Study Revision</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">学習指導要領（一部改正情報）</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">18</dd>
+      <dd class="col-sm-9">21</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="courseOfStudyRevision">学習指導要領（一部改正情報）</a></dd>
 </dl>
@@ -328,7 +377,7 @@
       <dd class="col-sm-9" lang="en">Fcode of Course of Study</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">F学習指導要領コード</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">22</dd>
+      <dd class="col-sm-9">25</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="fcode">F学習指導要領コード</a></dd>
 </dl>
@@ -366,7 +415,7 @@
       <dd class="col-sm-9" lang="en">Issued Period</dd>
       <dd class="col-sm-9 offset-sm-3" lang="ja">告示時期</dd>
   <dt class="col-sm-3">Order</dt>
-      <dd class="col-sm-9">16</dd>
+      <dd class="col-sm-9">19</dd>
   <dt class="col-sm-3">Path</dt>
       <dd class="col-sm-9"><a href="issuedPeriod">告示時期</a></dd>
 </dl>

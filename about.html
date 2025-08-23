@@ -387,6 +387,160 @@
       <td>子供の学習指導要領細目を表す。学習指導要領コードの規則性を利用してプログラムで自動作成。</td>
     </tr>
     <tr>
+      <td rowspan="2" class="url"><code>cs:basicItem</code></td>
+      <td>基礎の細目</td>
+      <td></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>当該学習指導要領細目の基礎となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>学習指導要領の細目</td>
+      <td>https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>出典</td>
+      <td>https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>cs:advancedItem</code></td>
+      <td>応用の細目</td>
+      <td></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>当該学習指導要領細目の応用となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        ブランクノードの内容は以下の内容からなる構造を持ちます。
+        <div class="blank_node"><table class="table table-sm">
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>学習指導要領の細目</td>
+      <td>https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>出典</td>
+      <td>https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>他の細目への参照</td>
+      <td></td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>テキスト中に参照された他の学習指導要領細目</td>
+    </tr>
+    <tr>
       <td class="url"><code>cs:issuedPeriod</code></td>
       <td>告示時期</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
@@ -1050,6 +1204,290 @@
       </dl>
     </td></tr>
   </tfoot>
+</table>            <h3 id="CommentaryItemShape">学習指導要領解説の細目</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CommentaryItem">https://w3id.org/jp-cos/CommentaryItem</a></li></ul>
+            <p>学習指導要領解説の細目を表すクラス。</p>
+            <p>学習指導要領解説の細目リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>ID</td>
+      <td>1000031</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>IDは数字7桁（独自のID）。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>テキスト</td>
+      <td>"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。"</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>元データの「学習指導要領解説」の内容。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:about</code></td>
+      <td>対象となる学習指導要領細目</td>
+      <td>https://w3id.org/jp-cos/8260253110000000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>本解説で対象としている学習指導要領の細目</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>参照した学習指導要領細目</td>
+      <td>https://w3id.org/jp-cos/8260233110000000</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>本解説で参照した学習指導要領の細目</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>子</td>
+      <td>https://w3id.org/jp-cos/commentary/1000400</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>子供の細目を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:commentaryPage</code></td>
+      <td>学習指導要領解説へのリンク</td>
+      <td class="url">https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>対応する学習指導要領解説へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:title</code></td>
+      <td>節タイトル</td>
+      <td>(1) 物の溶け方</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>細目が節タイトルを表している場合は「テキスト」と同内容を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:alternative</code></td>
+      <td>短縮タイトル</td>
+      <td>(1)</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>「節タイトル」の短縮版。パンくずリストなどの利用を想定。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>順番</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CosCommentaryShape">学習指導要領解説</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/CosCommentary">https://w3id.org/jp-cos/CosCommentary</a></li></ul>
+            <p>学習指導要領解説を表すクラス。</p>
+            <p>学習指導要領解説リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>名称</td>
+      <td><ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul></td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>学校種別</td>
+      <td>https://w3id.org/jp-cos/Elementary</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subjectArea</code></td>
+      <td>教科等</td>
+      <td>https://w3id.org/jp-cos/Elementary/2017/社会</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:issued</code></td>
+      <td>出版年</td>
+      <td>2017</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>本文URL</td>
+      <td class="url">https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>本文へのリンク</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>子</td>
+      <td>https://w3id.org/jp-cos/commentary/1000302</td>
+      <td>
+        <div>
+        省略可能
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td>子供の細目を表す。</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>順番</td>
+      <td>2003</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し無し
+        </div>
+      </td>
+      <td>表示順を決める場合などで利用</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
 </table>            <h3 id="DisabilityCategoryShape">障害分類</h3>
             <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/DisabilityCategory">https://w3id.org/jp-cos/DisabilityCategory</a></li></ul>
             <p>障害を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></code></p>
@@ -1643,6 +2081,60 @@
       <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
       <dt class="col-sm-2"><code>cs:</code></dt>
       <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="StructuredItemShape">構造化細目</h3>
+            <ul><li>対象クラス: <a href="https://w3id.org/jp-cos/StructuredItem">https://w3id.org/jp-cos/StructuredItem</a></li></ul>
+            <p>学習指導要領の細目とその由来などを表すクラス。</p>
+            <p>構造化細目リソースが持つプロパティを下表に示します</p>
+            <table class="table table-sm">
+  <tr>
+    <th>プロパティ名</th>
+    <th>説明</th>
+    <th>プロパティ値の例</th>
+    <th>必須・省略の別<br>
+        繰り返しの有無</th>
+    <th>備考</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>学習指導要領の細目</td>
+      <td>https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>出典</td>
+      <td>https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>必須</strong>
+        </div>
+        <div>
+        繰り返し有り
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    表内で用いている名前空間URIは以下の通りです
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
       </dl>
     </td></tr>
   </tfoot>

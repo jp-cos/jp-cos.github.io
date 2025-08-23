@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000802>
+  <http://purl.org/dc/terms/identifier> "1000802";
+  <http://purl.org/linked-data/cube#order> 1000802;
+  <http://schema.org/about> <https://w3id.org/jp-cos/822026321A000000>, <https://w3id.org/jp-cos/822026321C000000>, <https://w3id.org/jp-cos/8220263221000000>;
+  <http://schema.org/description> "　この内容は，明治中・後期から大正期までの学習で身に付ける事項を示している。ここでは，大日本帝国憲法の発布，<ruby>日清<rt>にっしん</rt></ruby>・日露の戦争，条約改正，科学の発展などの事象を取り上げる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=125> .
+<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000802>.

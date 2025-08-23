@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000422>
+  <http://purl.org/dc/terms/identifier> "1000422";
+  <http://purl.org/linked-data/cube#order> 1000422;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253311000000>, <https://w3id.org/jp-cos/8220253314000000>, <https://w3id.org/jp-cos/8220253321000000>;
+  <http://schema.org/description> "　ここでは，我が国の工業生産の概要に関する内容と工業生産に関わる人々の工夫や努力に関する内容，貿易や運輸に関する内容から構成されている。我が国の工業生産の概要に関する内容については，アの(ア)及び(エ)とイの(ア)を関連付けて指導する。例えば，<b>工業の種類，工業の盛んな地域の分布，工業製品の改良などに着目して，地図帳や地球儀，各種の資料で調べ，まとめ，工業生産の概要を捉え，工業生産が国民生活に果たす役割を考え，表現すること</b>を通して，<b>我が国では様々な工業生産が行われていることや，国土には工業の盛んな地域が広がっていること及び工業製品は国民生活の向上に重要な役割を果たしていることを理解</b>できるようにすることである。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=86> .
+<https://w3id.org/jp-cos/commentary/1000411> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000422>.

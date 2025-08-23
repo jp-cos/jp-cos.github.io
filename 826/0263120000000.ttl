@@ -11,6 +11,19 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263121000000>, <https://w3id.org/jp-cos/8260263122000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000176>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260253110000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000176>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8361213212000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000176>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8361223412000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=84>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +38,13 @@
 水溶液について，溶けている物に着目して，それらによる水溶液の性質や働きの違いを多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000169> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000170> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000176> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000177> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000181> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000182> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000183> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000184> <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>.
+<https://w3id.org/jp-cos/commentary/1000031> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263120000000>.
 <https://w3id.org/jp-cos/8260263100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263120000000>.

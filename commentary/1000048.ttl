@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000048>
+  <http://purl.org/dc/terms/identifier> "1000048";
+  <http://purl.org/linked-data/cube#order> 1000048;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260253120000000>;
+  <http://schema.org/description> "　ここでの指導に当たっては，振り子の長さや振れ幅を一定にしておもりの重さを変えるなど，変える条件と変えない条件を制御しながら実験を行うことによって，実験の結果を適切に処理し，考察することができるようにする。その際，振れ幅が極端に大きくならないように適切な振れ幅で実験を行うようにする。また，振り子の長さは糸などをつるした位置からおもりの重心までであることに留意する。さらに，伸びの少ない糸などを用いることや，おもりの数を増やして実験するときに，おもりを下につなげてつるすと振り子の長さも変わってしまうことがあること，測定中の振れ幅の減少ができるだけ小さい振り子を使用することなどに留意する必要がある。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=70> .
+<https://w3id.org/jp-cos/commentary/1000040> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000048>.

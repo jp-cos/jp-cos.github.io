@@ -1,0 +1,11 @@
+<https://w3id.org/jp-cos/commentary/1000002>
+  <http://purl.org/dc/terms/alternative> "1 目標";
+  <http://purl.org/dc/terms/identifier> "1000002";
+  <http://purl.org/dc/terms/title> "１　第５学年の目標";
+  <http://purl.org/linked-data/cube#order> 1000002;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260252000000000>;
+  <http://schema.org/description> "１　第５学年の目標";
+  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000011>, <https://w3id.org/jp-cos/commentary/1000012>, <https://w3id.org/jp-cos/commentary/1000013>, <https://w3id.org/jp-cos/commentary/1000017>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=66> .
+<https://w3id.org/jp-cos/commentary/1000001> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000002>.

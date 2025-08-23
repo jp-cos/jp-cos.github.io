@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000820>
+  <http://purl.org/dc/terms/identifier> "1000820";
+  <http://purl.org/linked-data/cube#order> 1000820;
+  <http://schema.org/about> <https://w3id.org/jp-cos/822026321B000000>, <https://w3id.org/jp-cos/822026321C000000>, <https://w3id.org/jp-cos/8220263221000000>;
+  <http://schema.org/description> "　この内容は，おおむね昭和の時期の学習で身に付ける事項を示している。ここでは，日中戦争や我が国に関わる第二次世界大戦，日本国憲法の制定，オリンピック・パラリンピックの開催などの事象を取り上げる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=127> .
+<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000820>.

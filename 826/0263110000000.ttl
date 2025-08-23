@@ -11,6 +11,19 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263111000000>, <https://w3id.org/jp-cos/8260263112000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000163>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243110000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000163>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8361213211000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000163>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8361223412000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=82>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +38,12 @@
 燃焼の仕組みについて，空気の変化に着目して，物の燃え方を多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000158> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000159> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000163> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000164> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000165> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000166> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000167> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
+<https://w3id.org/jp-cos/commentary/1000168> <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>.
 <https://w3id.org/jp-cos/8260263100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263110000000>.

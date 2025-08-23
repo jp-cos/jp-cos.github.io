@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1532
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253212000000>, <https://w3id.org/jp-cos/8220253222000000>;
   <http://schema.org/description> "ア　アの(イ)及びイの(イ)については，食料生産の盛んな地域の具体的事例を通して調べることとし，稲作のほか，野菜，果物，畜産物，水産物などの中から一つを取り上げること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,7 @@
   <https://w3id.org/jp-cos/sectionText> "アの(イ)及びイの(イ)については，食料生産の盛んな地域の具体的事例を通して調べることとし，稲作のほか，野菜，果物，畜産物，水産物などの中から一つを取り上げること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000404> <http://schema.org/about> <https://w3id.org/jp-cos/8220255210000000>.
+<https://w3id.org/jp-cos/commentary/1000405> <http://schema.org/about> <https://w3id.org/jp-cos/8220255210000000>.
+<https://w3id.org/jp-cos/commentary/1000406> <http://schema.org/about> <https://w3id.org/jp-cos/8220255210000000>.
 <https://w3id.org/jp-cos/8220255200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255210000000>.

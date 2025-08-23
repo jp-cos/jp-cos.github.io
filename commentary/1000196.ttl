@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000196>
+  <http://purl.org/dc/terms/identifier> "1000196";
+  <http://purl.org/linked-data/cube#order> 1000196;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260263130000000>;
+  <http://schema.org/description> "　ここでの指導に当たっては，支点からの距離とおもりの重さとの関係を表などに整理するなど，てこの規則性について考えたり，説明したりする活動の充実を図り，これらの活動を通して，てこがつり合っている場合は，「左側の（力点にかかるおもりの重さ）×（支点から力点までの距離）＝右側の（力点にかかるおもりの重さ）×（支点から力点までの距離）」という関係式が成立することを捉えるようにする。このことから，てこを傾ける働きの大きさが，（力点にかかるおもりの重さ）×（支点から力点までの距離）で決まり，両側のてこを傾ける働きの大きさが等しいときにつり合うというてこの規則性を捉えるようにする。その際，算数科の反比例の学習と関連を図ることが考えられる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=86> .
+<https://w3id.org/jp-cos/commentary/1000185> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000196>.

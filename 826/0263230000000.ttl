@@ -11,6 +11,27 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263231000000>, <https://w3id.org/jp-cos/8260263232000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000263>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243220000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000263>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8362233711000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000281>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243230000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000281>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260253230000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000281>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8362213200000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=92>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +46,12 @@
 生物と環境について，動物や植物の生活を観察したり資料を活用したりする中で，生物と環境との関わりに着目して，それらを多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000252> <http://schema.org/about> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000253> <http://schema.org/about> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000263> <http://schema.org/about> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000264> <http://schema.org/about> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000268> <http://schema.org/about> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000269> <http://schema.org/about> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000259> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263230000000>.
+<https://w3id.org/jp-cos/commentary/1000260> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263230000000>.
 <https://w3id.org/jp-cos/8260263200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263230000000>.

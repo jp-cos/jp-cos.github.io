@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1527
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253111000000>;
   <http://schema.org/description> "ア　アの(ア)の「領土の範囲」については，竹島や北方領土，尖閣諸島が我が国の固有の領土であることに触れること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,9 @@
   <https://w3id.org/jp-cos/sectionText> "アの(ア)の「領土の範囲」については，竹島や北方領土，尖閣諸島が我が国の固有の領土であることに触れること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000363> <http://schema.org/about> <https://w3id.org/jp-cos/8220255110000000>.
+<https://w3id.org/jp-cos/commentary/1000364> <http://schema.org/about> <https://w3id.org/jp-cos/8220255110000000>.
+<https://w3id.org/jp-cos/commentary/1000365> <http://schema.org/about> <https://w3id.org/jp-cos/8220255110000000>.
+<https://w3id.org/jp-cos/commentary/1000366> <http://schema.org/about> <https://w3id.org/jp-cos/8220255110000000>.
+<https://w3id.org/jp-cos/commentary/1000367> <http://schema.org/about> <https://w3id.org/jp-cos/8220255110000000>.
 <https://w3id.org/jp-cos/8220255100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255110000000>.

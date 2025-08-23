@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/commentary/1000405>
+  <http://purl.org/dc/terms/identifier> "1000405";
+  <http://purl.org/linked-data/cube#order> 1000405;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220255210000000>;
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253212000000>, <https://w3id.org/jp-cos/8220253222000000>;
+  <http://schema.org/description> "　ここでは，食料生産に関わる人々について，農業や水産業における食料生産の盛んな地域の具体的事例を通して調べるようにする。その際，国民の主食を確保する上で重要な役割を果たしている「稲作」については必ず取り上げる。また，国民の食生活と関わりの深い「野菜，果物，畜産物，水産物など」については，それらの中から一つを選択して取り上げるようにする。事例の選択に当たっては，児童の興味・関心や学習経験の広がりなどを考慮し，第３学年の「地域に見られる生産の仕事」において取り上げた事例に配慮する必要がある。地域の農産物を生産する仕事として，例えば，野菜の生産を取り上げて学習してきた場合には，果物，畜産物，水産物などの生産の中から事例を選択することが考えられる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=85> .
+<https://w3id.org/jp-cos/commentary/1000400> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000405>.

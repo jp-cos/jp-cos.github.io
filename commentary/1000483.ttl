@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/commentary/1000483>
+  <http://purl.org/dc/terms/identifier> "1000483";
+  <http://purl.org/linked-data/cube#order> 1000483;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220255410000000>;
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253411000000>, <https://w3id.org/jp-cos/8220253421000000>;
+  <http://schema.org/description> "　ここでは，「放送，新聞などの産業」の中から一つを選択して取り上げ，その産業のもつ働き，国民生活との関わりについて具体的に調べられるようにする。事例の選択に当たっては，地域の実態や児童の興味・関心，教材の収集状況などから判断するようにする。放送については，テレビやラジオなどの放送局で働く人々は国民に多様な情報を伝えるため様々な番組を制作していること，情報を分かりやすく伝えるため映像や音声を編集していることを取り上げることが考えられる。新聞については，新聞社で働く人々は国民に正確な情報を伝えるために取材をしていること，情報を分かりやすく伝えるために記事を選択・加工したり編集したりしていることを取り上げることが考えられる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=94> .
+<https://w3id.org/jp-cos/commentary/1000478> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000483>.

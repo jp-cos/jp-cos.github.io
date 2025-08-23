@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/commentary/1000369>
+  <http://purl.org/dc/terms/identifier> "1000369";
+  <http://purl.org/linked-data/cube#order> 1000369;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220255120000000>;
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253113000000>;
+  <http://schema.org/description> "　地球儀の特徴や使い方については，具体的な活動を通して丁寧に指導する必要がある。例えば，地球儀を用いて２点間の方位や距離を確かめたり，緯度や経度等を使って位置を説明したりする活動が考えられる。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=80> .
+<https://w3id.org/jp-cos/commentary/1000357> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000369>.

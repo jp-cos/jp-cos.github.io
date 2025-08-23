@@ -1,0 +1,7 @@
+<https://w3id.org/jp-cos/CosCommentary>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2000/01/rdf-schema#comment> "A class representing a Commentary on the Course of Study."@en, "学習指導要領解説を表すクラス。"@ja;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Commentary on the Course of Study"@en, "学習指導要領解説"@ja .
+<https://w3id.org/jp-cos/commentary/Elementary/2017/理科> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CosCommentary>.
+<https://w3id.org/jp-cos/commentary/Elementary/2017/社会> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CosCommentary>.
+<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CosCommentary>.

@@ -11,6 +11,19 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263141000000>, <https://w3id.org/jp-cos/8260263142000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000207>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260253130000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000207>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8361223311000000>
+  ], [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000207>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8361233700000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=87>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -25,4 +38,11 @@
 発電や蓄電，電気の変換について，電気の量や働きに着目して，それらを多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+<https://w3id.org/jp-cos/commentary/1000198> <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>.
+<https://w3id.org/jp-cos/commentary/1000207> <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>.
+<https://w3id.org/jp-cos/commentary/1000208> <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>.
+<https://w3id.org/jp-cos/commentary/1000212> <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>.
+<https://w3id.org/jp-cos/commentary/1000213> <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>.
+<https://w3id.org/jp-cos/commentary/1000214> <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>.
+<https://w3id.org/jp-cos/commentary/1000056> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263140000000>.
 <https://w3id.org/jp-cos/8260263100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263140000000>.

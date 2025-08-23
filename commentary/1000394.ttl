@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000394>
+  <http://purl.org/dc/terms/identifier> "1000394";
+  <http://purl.org/linked-data/cube#order> 1000394;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220253221000000>;
+  <http://schema.org/description> "　<b>生産物の種類や分布</b>に着目するとは，我が国における主な農産物や畜産物，水産物の種類や生産量，主な生産地の分布について調べることである。<b>生産量の変化</b>に着目するとは，主な農産物の生産量や主な水産物の漁獲量の過去から現在に至る変化について調べることである。<b>輸入など外国との関わり</b>に着目するとは，我が国の食料の輸出入品目や相手国，食料自給率などについて調べることである。このようにして調べたことを手掛かりに<b>食料生産の概要</b>を捉えることができるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=83> .
+<https://w3id.org/jp-cos/commentary/1000375> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000394>.

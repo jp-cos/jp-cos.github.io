@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1590
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263211000000>, <https://w3id.org/jp-cos/8220263212000000>, <https://w3id.org/jp-cos/8220263213000000>, <https://w3id.org/jp-cos/8220263214000000>, <https://w3id.org/jp-cos/8220263215000000>, <https://w3id.org/jp-cos/8220263216000000>, <https://w3id.org/jp-cos/8220263217000000>, <https://w3id.org/jp-cos/8220263218000000>, <https://w3id.org/jp-cos/8220263219000000>, <https://w3id.org/jp-cos/822026321A000000>, <https://w3id.org/jp-cos/822026321B000000>;
   <http://schema.org/description> "イ　アの(ア)から(サ)までについては，例えば，国宝，重要文化財に指定されているものや，世界文化遺産に登録されているものなどを取り上げ，我が国の代表的な文化遺産を通して学習できるように配慮すること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,8 @@
   <https://w3id.org/jp-cos/sectionText> "アの(ア)から(サ)までについては，例えば，国宝，重要文化財に指定されているものや，世界文化遺産に登録されているものなどを取り上げ，我が国の代表的な文化遺産を通して学習できるように配慮すること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000886> <http://schema.org/about> <https://w3id.org/jp-cos/8220265220000000>.
+<https://w3id.org/jp-cos/commentary/1000887> <http://schema.org/about> <https://w3id.org/jp-cos/8220265220000000>.
+<https://w3id.org/jp-cos/commentary/1000888> <http://schema.org/about> <https://w3id.org/jp-cos/8220265220000000>.
+<https://w3id.org/jp-cos/commentary/1000889> <http://schema.org/about> <https://w3id.org/jp-cos/8220265220000000>.
 <https://w3id.org/jp-cos/8220265200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220265220000000>.

@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000586>
+  <http://purl.org/dc/terms/identifier> "1000586";
+  <http://purl.org/linked-data/cube#order> 1000586;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8220263122000000>;
+  <http://schema.org/description> "　<b>政策の内容や計画から実施までの過程</b>に着目するとは，国民の願い，国や地方公共団体の政策の内容，その計画から実施までの期間や過程などについて調べることである。<b>法令や予算との関わり</b>に着目するとは，国や地方公共団体の政治の取組を実施するための基になる法令や予算について調べることである。このようにして調べたことを手掛かりに，<b>国や地方公共団体の政治の取組</b>を捉えることができるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=107> .
+<https://w3id.org/jp-cos/commentary/1000564> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000586>.

@@ -9,6 +9,11 @@
   <http://schema.org/description> "(イ) 工業生産に関わる人々は，消費者の需要や社会の変化に対応し，優れた製品を生産するよう様々な工夫や努力をして，工業生産を支えていることを理解すること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/basicItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000449>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8220233200000000>
+  ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=87>;
   <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
@@ -22,4 +27,12 @@
   <https://w3id.org/jp-cos/sectionText> "工業生産に関わる人々は，消費者の需要や社会の変化に対応し，優れた製品を生産するよう様々な工夫や努力をして，工業生産を支えていることを理解すること。";
   <https://w3id.org/jp-cos/subCategory> "内容";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000421> <http://schema.org/about> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/commentary/1000423> <http://schema.org/about> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/commentary/1000426> <http://schema.org/about> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/commentary/1000428> <http://schema.org/about> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/8220255310000000> <http://schema.org/citation> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/commentary/1000448> <http://schema.org/citation> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/commentary/1000449> <http://schema.org/citation> <https://w3id.org/jp-cos/8220253312000000>.
+<https://w3id.org/jp-cos/commentary/1000450> <http://schema.org/citation> <https://w3id.org/jp-cos/8220253312000000>.
 <https://w3id.org/jp-cos/8220253310000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220253312000000>.

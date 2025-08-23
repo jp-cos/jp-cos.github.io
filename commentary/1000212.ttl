@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/commentary/1000212>
+  <http://purl.org/dc/terms/identifier> "1000212";
+  <http://purl.org/linked-data/cube#order> 1000212;
+  <http://schema.org/about> <https://w3id.org/jp-cos/8260263140000000>;
+  <http://schema.org/description> "　ここで扱う対象としては，電気を蓄える物として，例えば，コンデンサーなどの蓄電器が考えられる。電気をつくりだしたり，蓄電器などに電気を蓄えたりすることができることについては，豆電球や発光ダイオードの点灯やモーターの回転などによって捉えるようにする。";
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=88> .
+<https://w3id.org/jp-cos/commentary/1000198> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000212>.

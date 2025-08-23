@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1635
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263212000000>, <https://w3id.org/jp-cos/8220263213000000>, <https://w3id.org/jp-cos/8220263214000000>, <https://w3id.org/jp-cos/8220263215000000>, <https://w3id.org/jp-cos/8220263216000000>, <https://w3id.org/jp-cos/8220263217000000>, <https://w3id.org/jp-cos/8220263218000000>, <https://w3id.org/jp-cos/8220263219000000>, <https://w3id.org/jp-cos/822026321A000000>, <https://w3id.org/jp-cos/822026321B000000>;
   <http://schema.org/description> "オ　アの(イ)から(サ)までについては，当時の世界との関わりにも目を向け，我が国の歴史を広い視野から捉えられるよう配慮すること。";
   <http://schema.org/edition> "一部改正なし";
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
@@ -22,4 +23,5 @@
   <https://w3id.org/jp-cos/sectionText> "アの(イ)から(サ)までについては，当時の世界との関わりにも目を向け，我が国の歴史を広い視野から捉えられるよう配慮すること。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000897> <http://schema.org/about> <https://w3id.org/jp-cos/8220265250000000>.
 <https://w3id.org/jp-cos/8220265200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220265250000000>.

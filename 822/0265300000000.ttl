@@ -6,6 +6,7 @@
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1638
   ];
+  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263300000000>;
   <http://schema.org/description> "(3) 内容の(3)については，次のとおり取り扱うものとする。";
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220265310000000>, <https://w3id.org/jp-cos/8220265320000000>, <https://w3id.org/jp-cos/8220265330000000>, <https://w3id.org/jp-cos/8220265340000000>, <https://w3id.org/jp-cos/8220265350000000>;
@@ -23,4 +24,5 @@
   <https://w3id.org/jp-cos/sectionText> "内容の(3)については，次のとおり取り扱うものとする。";
   <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
   <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会> .
+<https://w3id.org/jp-cos/commentary/1000929> <http://schema.org/about> <https://w3id.org/jp-cos/8220265300000000>.
 <https://w3id.org/jp-cos/8220265000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220265300000000>.

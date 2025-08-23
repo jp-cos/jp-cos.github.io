@@ -339,6 +339,160 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <td>Child of the cource of study item. It is created automatically by the program using the regularity of the course of study code.</td>
     </tr>
     <tr>
+      <td rowspan="2" class="url"><code>cs:basicItem</code></td>
+      <td>Basic Course of Study Item</td>
+      <td></td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Basic items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Basic item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>.</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        The structural contents of a blank node are as follows:
+        <div class="blank_node"><table class="table table-sm">
+  <tr>
+    <th>Property name</th>
+    <th>Description</th>
+    <th>Example of the property value(s)</th>
+    <th>Required?<br>
+        Repeatable?</th>
+    <th>Notes</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>Course Of Study Item</td>
+      <td>https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>Source</td>
+      <td>https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="url"><code>cs:advancedItem</code></td>
+      <td>Advanced Course of Study Item</td>
+      <td></td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Advanced items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Advanced item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>.</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        The structural contents of a blank node are as follows:
+        <div class="blank_node"><table class="table table-sm">
+  <tr>
+    <th>Property name</th>
+    <th>Description</th>
+    <th>Example of the property value(s)</th>
+    <th>Required?<br>
+        Repeatable?</th>
+    <th>Notes</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>Course Of Study Item</td>
+      <td>https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>Source</td>
+      <td>https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>Reference To Other Items</td>
+      <td></td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Course Of Study Items referenced in the text</td>
+    </tr>
+    <tr>
       <td class="url"><code>cs:issuedPeriod</code></td>
       <td>Issued Period</td>
       <td>https://w3id.org/jp-cos/period/H29toH31</td>
@@ -1002,6 +1156,290 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       </dl>
     </td></tr>
   </tfoot>
+</table>            <h3 id="CommentaryItemShape">Item of Commentary on the Course of Study</h3>
+            <ul><li>Target class: <a href="https://w3id.org/jp-cos/CommentaryItem">https://w3id.org/jp-cos/CommentaryItem</a></li></ul>
+            <p>A class representing a Item of Commentary on the Course of Study.</p>
+            <p>The properties for the Item of Commentary on the Course of Study resources are as follows:</p>
+            <table class="table table-sm">
+  <tr>
+    <th>Property name</th>
+    <th>Description</th>
+    <th>Example of the property value(s)</th>
+    <th>Required?<br>
+        Repeatable?</th>
+    <th>Notes</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>dct:identifier</code></td>
+      <td>ID</td>
+      <td>1000031</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>The ID is a 7-digit number. The ID is an original identifier.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:description</code></td>
+      <td>Description</td>
+      <td>"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。"</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>The value of the "Text of  Commentary on the Course of Study".</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:about</code></td>
+      <td>The target Course of Study item</td>
+      <td>https://w3id.org/jp-cos/8260253110000000</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>The Course of Study item addressed in this commentary</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:citation</code></td>
+      <td>The referenced Course of Study item</td>
+      <td>https://w3id.org/jp-cos/8260233110000000</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>The Course of Study items referenced in this commentary</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>Child</td>
+      <td>https://w3id.org/jp-cos/commentary/1000400</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Child of the item.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:commentaryPage</code></td>
+      <td>Commentary Page</td>
+      <td class="url">https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>Link to the corresponding Course of Study Commentary with this item.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:title</code></td>
+      <td>Section Title</td>
+      <td>(1) 物の溶け方</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>When an item represents a section title, it denotes the same content as the “Description.”</td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:alternative</code></td>
+      <td>Abbreviated title</td>
+      <td>(1)</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>Abbreviated section title, intended for use in breadcrumbs and similar contexts.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>Listing order of the item</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>This is used in the order of the listings.</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="CosCommentaryShape">Commentary on the Course of Study</h3>
+            <ul><li>Target class: <a href="https://w3id.org/jp-cos/CosCommentary">https://w3id.org/jp-cos/CosCommentary</a></li></ul>
+            <p>A class representing a Commentary on the Course of Study.</p>
+            <p>The properties for the Commentary on the Course of Study resources are as follows:</p>
+            <table class="table table-sm">
+  <tr>
+    <th>Property name</th>
+    <th>Description</th>
+    <th>Example of the property value(s)</th>
+    <th>Required?<br>
+        Repeatable?</th>
+    <th>Notes</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>schema:name</code></td>
+      <td>Name</td>
+      <td><ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul></td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:school</code></td>
+      <td>Type of School</td>
+      <td>https://w3id.org/jp-cos/Elementary</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>cs:subjectArea</code></td>
+      <td>Subject Area</td>
+      <td>https://w3id.org/jp-cos/Elementary/2017/社会</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:issued</code></td>
+      <td>Publication Year</td>
+      <td>2017</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:url</code></td>
+      <td>Fulltext URL</td>
+      <td class="url">https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Link to the fulltext</td>
+    </tr>
+    <tr>
+      <td class="url"><code>schema:hasPart</code></td>
+      <td>Child</td>
+      <td>https://w3id.org/jp-cos/commentary/1000302</td>
+      <td>
+        <div>
+        Optional
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td>Child of the item.</td>
+    </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>Listing order of the item</td>
+      <td>2003</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>This is used in the order of the listings.</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>schema:</code></dt>
+      <dd class="col-sm-10">http://schema.org/</dd>
+      <dt class="col-sm-2"><code>cs:</code></dt>
+      <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
 </table>            <h3 id="DisabilityCategoryShape">Disability Category</h3>
             <ul><li>Target class: <a href="https://w3id.org/jp-cos/DisabilityCategory">https://w3id.org/jp-cos/DisabilityCategory</a></li></ul>
             <p>Class representing a disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code></p>
@@ -1595,6 +2033,60 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <dd class="col-sm-10">http://www.w3.org/2000/01/rdf-schema#</dd>
       <dt class="col-sm-2"><code>cs:</code></dt>
       <dd class="col-sm-10">https://w3id.org/jp-cos/</dd>
+      </dl>
+    </td></tr>
+  </tfoot>
+</table>            <h3 id="StructuredItemShape">Structured Item</h3>
+            <ul><li>Target class: <a href="https://w3id.org/jp-cos/StructuredItem">https://w3id.org/jp-cos/StructuredItem</a></li></ul>
+            <p>A class representing a Course of Study item and its provenance.</p>
+            <p>The properties for the Structured Item resources are as follows:</p>
+            <table class="table table-sm">
+  <tr>
+    <th>Property name</th>
+    <th>Description</th>
+    <th>Example of the property value(s)</th>
+    <th>Required?<br>
+        Repeatable?</th>
+    <th>Notes</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td class="url"><code>rdf:value</code></td>
+      <td>Course Of Study Item</td>
+      <td>https://w3id.org/jp-cos/8260233210000000</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="url"><code>dct:provenance</code></td>
+      <td>Source</td>
+      <td>https://w3id.org/jp-cos/commentary/1000246</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Repeatable
+        </div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="5">
+    The namespace URIs used in the table are as follows:
+      <dl class="row small">
+      <dt class="col-sm-2"><code>rdf:</code></dt>
+      <dd class="col-sm-10">http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+      <dt class="col-sm-2"><code>dct:</code></dt>
+      <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
       </dl>
     </td></tr>
   </tfoot>
