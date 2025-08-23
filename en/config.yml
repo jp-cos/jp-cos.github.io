@@ -6,6 +6,7 @@ uri_mappings:
 locale: en
 title_property_perclass:
   https://w3id.org/jp-cos/Item: http://schema.org/description
+  https://w3id.org/jp-cos/CommentaryItem: http://schema.org/description
 breadcrumbs:
   - property: http://schema.org/hasPart
     inverse: true
