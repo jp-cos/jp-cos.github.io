@@ -1,4 +1,4 @@
-<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and ( param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") or param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/LowerSecondary") ) -%>
+<%- if param[:data][RDF.type.to_s] and param[:data][RDF.type.to_s].include?("https://w3id.org/jp-cos/Item") and ( param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/Elementary") or param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/LowerSecondary") or param[:data]["https://w3id.org/jp-cos/school"].include?("https://w3id.org/jp-cos/school/UpperSecondary") ) -%>
 <div class="row mb-1">
   <div class="col-sm-12">
     <h3>教科書単元検索</h3>
