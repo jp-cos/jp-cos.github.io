@@ -11,14 +11,15 @@
   <http://schema.org/edition> "一部改正なし";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253221000000>, <https://w3id.org/jp-cos/8260253222000000>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
+  <https://w3id.org/jp-cos/advancedItem> [
+    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000096>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <https://w3id.org/jp-cos/8362233511000000>
+  ];
   <https://w3id.org/jp-cos/basicItem> [
     <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000096>;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
-    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8260243220000000>
-  ], [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000096>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
-    <http://www.w3.org/2000/01/rdf-schema#value> <https://w3id.org/jp-cos/8362233511000000>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <https://w3id.org/jp-cos/8260243220000000>
   ];
   <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
   <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=75>;
