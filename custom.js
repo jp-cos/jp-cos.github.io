@@ -1,9 +1,16 @@
 $(function() {
+    if (location.pathname.startsWith("/en/commentary/")) {
+        document.body.classList.add("english", "commentary");
+    } else if (location.pathname.startsWith("/en/")) {
+        document.body.classList.add("english");
+    } else if (location.pathname.startsWith("/commentary/")) {
+        document.body.classList.add("commentary");
+    }
     $("#display-cos-id").click(function(){
         var cos_id = document.getElementById('cos-code').value;
         window.location.href = `https://w3id.org/jp-cos/${cos_id}`;
     });
- });
+});
 
 function get_nhk4school(cscode, page = 1) {
     /// NHK for School APIにアクセス

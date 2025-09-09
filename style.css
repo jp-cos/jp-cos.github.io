@@ -52,3 +52,37 @@ dd i {
 .presentation { background-color: #28a745; } /* 緑 (研究発表) */
 .award { background-color: #ffc107; color: black; } /* 黄 (受賞) */
 .info { background-color: #6c757d; } /* グレー (その他お知らせ) */
+
+/* For commentary resources */
+/* h1 の前にバッジ */
+body.commentary h1::before {
+  content: "解説";
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #E65C00; /* オレンジ */
+  border-radius: 12px;
+  vertical-align: middle;
+}
+/* a の後ろにバッジ */
+a[href$="/commentary/"]::after {
+  content: "解説";
+  display: inline-block;
+  margin-left: 6px;  /* リンク文字との間隔 */
+  padding: 2px 6px;
+  font-size: 12px;   /* リンク用に少し小さめ */
+  font-weight: bold;
+  color: #fff;
+  background-color: #007acc; /* 青系で差別化 */
+  border-radius: 10px;
+  vertical-align: middle;
+}
+body.commentary.english h1::before {
+  content: "Commentary";
+}
+body.english a[href$="/commentary/"]::after {
+  content: "Commentary";
+}
