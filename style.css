@@ -68,7 +68,7 @@ body.commentary h1::before {
   vertical-align: middle;
 }
 /* a の後ろにバッジ */
-dd a[href*="/commentary/"]::after {
+dd a.link-commentary::after {
   content: "解説";
   display: inline-block;
   margin-left: 6px;  /* リンク文字との間隔 */
@@ -83,6 +83,6 @@ dd a[href*="/commentary/"]::after {
 body.commentary.english h1::before {
   content: "Commentary";
 }
-body.english dd a[href*="/commentary/"]::after {
+body.english dd a.link-commentary::after {
   content: "Commentary";
 }

@@ -6,6 +6,22 @@ $(function() {
     } else if (location.pathname.startsWith("/commentary/")) {
         document.body.classList.add("commentary");
     }
+    var anchors = document.querySelectorAll('a[href]');
+    anchors.forEach(function (a) {
+        var href = a.getAttribute('href');
+        // 絶対URLに解決（相対パスでもOK）
+        var url;
+        try {
+            url = new URL(href, location.href);
+        } catch (e) {
+            return; // 解析できない href はスキップ
+        }
+        // 同一オリジンのみ対象（外部ドメインは除外）
+        if (url.origin !== location.origin) return;
+        if (url.pathname.indexOf('/commentary/') === 0) {
+            a.classList.add('link-commentary');
+        }
+    });
     $("#display-cos-id").click(function(){
         var cos_id = document.getElementById('cos-code').value;
         window.location.href = `https://w3id.org/jp-cos/${cos_id}`;
