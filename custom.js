@@ -12,6 +12,43 @@ $(function() {
     });
 });
 
+const translations = {
+    ja: {
+        "get_nhk4school.fetch_errror": "<p>取得に失敗しました。</p>",
+        "nhk.no_content": "該当するコンテンツはありません",
+        "nhk.list_heading": "<h4>NHK for Schoolの動画: ${counts}件中 ${pageStart} - ${pageEnd} 件</h4>",
+        "nhk.list_pagination": "次の${perPage}件を取得 <i class=\"bi bi-search\"></i>",
+        "get_sukilam_data.no_content": "<p>該当するコンテンツはありません</p>",
+        "teaching_unit_search.no_content": "<p>該当するコンテンツはありません</p>",
+    },
+    en: {
+        "get_nhk4school.fetch_errror": "<p>Failed to fetch data from NHK for School</p>",
+        "nhk.no_content": "No content is available.",
+        "nhk.list_heading": "<h4>Video from NHK for School: ${pageStart} - ${pageEnd} items from ${counts} results</h4>",
+        "nhk.list_pagination": "Retrieve the next ${perPage} items <i class=\"bi bi-search\"></i>",
+        "get_sukilam_data.no_content": "<p>No contents found.</p>",
+        "teaching_unit_search.no_content": "<p>No teaching unit found.</p>",
+    }
+};
+function detectLang() {
+    const path = location.pathname;
+    if (path.startsWith("/en")) return "en";
+    return "ja"; // デフォルト
+}
+let currentLang = detectLang();
+// --- プレースホルダ置換 ---
+function interpolate(template, vars = {}) {
+    return String(template).replace(/\$\{(\w+)\}/g, (_, key) =>
+    Object.prototype.hasOwnProperty.call(vars, key) ? String(vars[key]) : ""
+    );
+}
+function t(key, vars = {}) {
+    const table = translations[currentLang] || {};
+    const template = table[key];
+    if (!template) return key;
+    return interpolate(template, vars);
+}
+
 function get_nhk4school(cscode, page = 1) {
     /// NHK for School APIにアクセス
     const apiKey = 'QhnGtsNqZpAeaG4Sn4RlVhGs34XBL4Vq';
@@ -25,9 +62,8 @@ function get_nhk4school(cscode, page = 1) {
     })
     .catch(function (error) {
         console.log(`失敗しました: ${error}`);
-        results("<p>取得に失敗しました。</p>", page, false);
+        results(t("get_nhk4school.fetch_errror"), page, false);
     });
-
     //結果を表示
     function results(html, page = 1, success = true) {
         let elmResult = document.getElementById(`nhk4school-list-${page}`);
@@ -43,12 +79,12 @@ function get_nhk4school(cscode, page = 1) {
         console.log(data['counts']);
         let html = ''; //出力するHTMLテキストを入れる変数
         if (data['error'] || !data['counts']) {
-            html += "該当するコンテンツはありません";
+            html += t("nhk.no_content");
         } else {
             //取得結果の概要を表示
             const pageStart = data['perPage'] * (data['page']-1) + 1;
             const pageEnd   = pageStart + data['result'].length - 1;
-            html += `<h4>NHK for Schoolの動画: ${data['counts']}件中 ${pageStart} - ${pageEnd} 件</h4>`;
+            html += t("nhk.list_heading", {counts: ${data['counts']}, pageStart: pageStart, pageEnd: pageEnd});
             //コンテンツ一覧を表示
             html +=  `<ul class="list-unstyled">`;
             for (let i = 0; i < data['result'].length; i++){
@@ -73,9 +109,9 @@ function get_nhk4school(cscode, page = 1) {
         if (data['page'] < data['totalPages']) {
             const nextPage = data['page'] + 1;
             html += `
-                <button id="nhk4school-button-${nextPage}" type="button" class="btn btn-nhk4school" onclick="get_nhk4school('${data['queryData']['curriculumStandardCode']}', ${nextPage})">
-                次の${data['perPage']}件を取得 <i class="bi bi-search"></i>
-                </button>
+                <button id="nhk4school-button-${nextPage}" type="button" class="btn btn-nhk4school" onclick="get_nhk4school('${data['queryData']['curriculumStandardCode']}', ${nextPage})">`;
+            html += t("nhk.list_pagination", {perPage: data['perPage']});
+            html += `</button>
                 <div id="nhk4school-list-${nextPage}" />
             `;
         }
@@ -104,7 +140,7 @@ function get_sukilam_data(cos_id) {
         results = obj["results"]["bindings"];
         let html = "";
         if (results.length == 0) {
-            html = "<p>該当するコンテンツはありません</p>";
+            html = t("get_sukilam_data.no_content");
         } else {
             html = "<ul>";
             results.forEach(element => {
@@ -154,7 +190,7 @@ function teaching_unit_search(cos_id) {
         let html = "<ul>";
         let done = {};
         if (results.length == 0) {
-            html = "<p>該当するコンテンツはありません</p>";
+            html = t("teaching_unit_search.no_content");
         } else {
             results.forEach(element => {
                 let url = element["teachingUnit"]["value"];
