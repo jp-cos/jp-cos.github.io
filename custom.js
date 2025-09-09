@@ -84,7 +84,7 @@ function get_nhk4school(cscode, page = 1) {
             //取得結果の概要を表示
             const pageStart = data['perPage'] * (data['page']-1) + 1;
             const pageEnd   = pageStart + data['result'].length - 1;
-            html += t("nhk.list_heading", {counts: ${data['counts']}, pageStart: pageStart, pageEnd: pageEnd});
+            html += t("nhk.list_heading", {counts: data['counts'], pageStart: pageStart, pageEnd: pageEnd});
             //コンテンツ一覧を表示
             html +=  `<ul class="list-unstyled">`;
             for (let i = 0; i < data['result'].length; i++){
