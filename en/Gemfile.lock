@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/masao/ttl2html.git
-  revision: ffc2fee26120bcc099330d97dbc3bfbcc30922e4
+  revision: 3470206bd2e6a4ddcd3ab7efa221a8424ada726f
   specs:
-    ttl2html (2.2.1)
+    ttl2html (2.2.2)
       actionview
       csv
       getoptlong
@@ -105,7 +105,7 @@ GEM
       rdf (~> 3.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    unicode-types (1.10.0)
+    unicode-types (1.11.0)
     uri (1.0.3)
 
 PLATFORMS
