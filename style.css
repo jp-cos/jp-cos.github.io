@@ -33,6 +33,7 @@ dd[lang]::after {
 
 span.url, td.url {
   word-break: break-all;
+  min-width: 7rem;
 }
 
 /* about */
