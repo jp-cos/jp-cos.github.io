@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/masao/ttl2html.git
-  revision: 3470206bd2e6a4ddcd3ab7efa221a8424ada726f
+  revision: ded0dcec17c68426ccb674366827b33d80b5cce9
   specs:
     ttl2html (2.2.2)
       actionview
@@ -16,13 +16,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionview (8.0.2.1)
-      activesupport (= 8.0.2.1)
+    actionview (8.0.3)
+      activesupport (= 8.0.3)
       builder (~> 3.1)
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    activesupport (8.0.2.1)
+    activesupport (8.0.3)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -65,7 +65,7 @@ GEM
       nokogiri (>= 1.12.0)
     matrix (0.4.3)
     minitest (5.25.5)
-    nokogiri (1.18.9-x86_64-linux-gnu)
+    nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
     ostruct (0.6.3)
     parallel (1.27.0)
