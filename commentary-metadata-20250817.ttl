@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+#学習指導要領解説リソースTTL
+<https://w3id.org/jp-cos/commentary/Elementary/2017/社会> a <https://w3id.org/jp-cos/CosCommentary> ;
+  schema:name '【社会編】小学校学習指導要領（平成29年告示）解説'@ja, '【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en ;
+  cs:school <https://w3id.org/jp-cos/school/Elementary> ;
+  cs:subjectArea <https://w3id.org/jp-cos/Elementary/2017/社会> ;
+  schema:url <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf> ;
+  dct:issued 2017;
+  qb:order 2003 .
+<https://w3id.org/jp-cos/commentary/Elementary/2017/理科> a <https://w3id.org/jp-cos/CosCommentary> ;
+  schema:name '【理科編】小学校学習指導要領（平成29年告示）解説'@ja, '【りかへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, 'Commentary on the Elementary School Course of Study (Science), Notification 2017'@en ;
+  cs:school <https://w3id.org/jp-cos/school/Elementary> ;
+  cs:subjectArea <https://w3id.org/jp-cos/Elementary/2017/理科> ;
+  schema:url <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf> ;
+  dct:issued 2017;
+  qb:order 2005 .
+

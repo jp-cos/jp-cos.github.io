@@ -1,0 +1,218 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix schema: <http://schema.org/>.
+#基礎・応用TTL
+<https://w3id.org/jp-cos/8260253110000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260233110000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000031>
+  ].
+<https://w3id.org/jp-cos/8260253110000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260263120000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000031>
+  ].
+<https://w3id.org/jp-cos/8260253120000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260233120000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000045>
+  ].
+<https://w3id.org/jp-cos/8260253120000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260263130000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000045>
+  ].
+<https://w3id.org/jp-cos/8260253130000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243130000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000056>
+  ].
+<https://w3id.org/jp-cos/8260253130000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260263140000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000056>
+  ].
+<https://w3id.org/jp-cos/8260253210000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243220000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000080>
+  ].
+<https://w3id.org/jp-cos/8260253210000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362213112000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000080>
+  ].
+<https://w3id.org/jp-cos/8260253210000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362233511000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000080>
+  ].
+<https://w3id.org/jp-cos/8260253220000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243220000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000096>
+  ].
+<https://w3id.org/jp-cos/8260253220000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362233511000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000096>
+  ].
+<https://w3id.org/jp-cos/8260253230000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243230000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000112>
+  ].
+<https://w3id.org/jp-cos/8260253230000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260263240000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000112>
+  ].
+<https://w3id.org/jp-cos/8260253230000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243230000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000117>
+  ].
+<https://w3id.org/jp-cos/8260253240000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243240000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000128>
+  ].
+<https://w3id.org/jp-cos/8260253240000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362223400000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000128>
+  ].
+<https://w3id.org/jp-cos/8260263110000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243110000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000163>
+  ].
+<https://w3id.org/jp-cos/8260263110000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361213211000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000163>
+  ].
+<https://w3id.org/jp-cos/8260263110000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361223412000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000163>
+  ].
+<https://w3id.org/jp-cos/8260263120000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260253110000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000176>
+  ].
+<https://w3id.org/jp-cos/8260263120000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361213212000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000176>
+  ].
+<https://w3id.org/jp-cos/8260263120000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361223412000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000176>
+  ].
+<https://w3id.org/jp-cos/8260263130000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260253120000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000191>
+  ].
+<https://w3id.org/jp-cos/8260263130000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361213112000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000191>
+  ].
+<https://w3id.org/jp-cos/8260263140000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260253130000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000207>
+  ].
+<https://w3id.org/jp-cos/8260263140000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361223311000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000207>
+  ].
+<https://w3id.org/jp-cos/8260263140000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8361233700000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000207>
+  ].
+<https://w3id.org/jp-cos/8260263210000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243210000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000232>
+  ].
+<https://w3id.org/jp-cos/8260263210000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362223313000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000232>
+  ].
+<https://w3id.org/jp-cos/8260263220000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260233210000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000246>
+  ].
+<https://w3id.org/jp-cos/8260263220000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362223312000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000246>
+  ].
+<https://w3id.org/jp-cos/8260263230000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243220000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000263>
+  ].
+<https://w3id.org/jp-cos/8260263230000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362233711000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000263>
+  ].
+<https://w3id.org/jp-cos/8260263230000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243230000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000281>
+  ].
+<https://w3id.org/jp-cos/8260263230000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260253230000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000281>
+  ].
+<https://w3id.org/jp-cos/8260263230000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362213200000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000281>
+  ].
+<https://w3id.org/jp-cos/8260263240000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243230000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000286>
+  ].
+<https://w3id.org/jp-cos/8260263240000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260253230000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000286>
+  ].
+<https://w3id.org/jp-cos/8260263250000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8260243250000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000296>
+  ].
+<https://w3id.org/jp-cos/8260263250000000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362233600000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000296>
+  ].
+<https://w3id.org/jp-cos/8260263251100000> cs:advancedItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8362233600000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000298>
+  ].
+<https://w3id.org/jp-cos/8220253312000000> cs:basicItem [
+    a <https://w3id.org/jp-cos/StructuredItem> ;
+    rdf:value <https://w3id.org/jp-cos/8220233200000000> ;
+    dct:provenance <https://w3id.org/jp-cos/commentary/1000449>
+  ].
+

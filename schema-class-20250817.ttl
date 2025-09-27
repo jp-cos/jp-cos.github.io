@@ -1,0 +1,88 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+#TTL
+<https://w3id.org/jp-cos/Item>
+  a rdfs:Class;
+  rdfs:comment "学習指導要領の細目を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学習指導要領コード</var></code>"@ja;
+  rdfs:comment "It represents course of study item class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>Course Of Study Code</var></code>"@en;
+  rdfs:label "学習指導要領の細目"@ja, "Course Of Study Item"@en.
+<https://w3id.org/jp-cos/CourseOfStudy>
+  a rdfs:Class;
+  rdfs:comment "学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code>"@ja;
+  rdfs:comment "It represents course of study class. Major revisions are made once every 10 years.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code>"@en;
+  rdfs:label "学習指導要領"@ja, "Course of Study"@en.
+<https://w3id.org/jp-cos/CourseOfStudyRevision>
+  a rdfs:Class;
+  rdfs:comment "一部改正された学習指導要領を表すクラス。10年の間に一部改正が行われた場合などに利用。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>初版の告示年</var>/<var>告示年（改正年）</var></code>"@ja;
+  rdfs:comment "It represents course of study revision class. It is used in cases where some revisions are made during the 10-year period.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published of the first version</var>/<var>date published</var></code>"@en;
+  rdfs:label "学習指導要領の別バージョン"@ja, "Course of Study Revision"@en.
+<https://w3id.org/jp-cos/Dataset>
+  a rdfs:Class;
+  rdfs:comment "データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code>"@ja;
+  rdfs:comment "It represents dataset class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code>"@en;
+  rdfs:label "データセット"@ja, "Dataset"@en.
+<https://w3id.org/jp-cos/Period>
+  a rdfs:Class;
+  rdfs:comment "10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code>"@ja;
+  rdfs:comment "Classes for grouping the Courses of Study, which are revised once every 10 years, across school types.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code>"@en;
+  rdfs:label "告示時期"@ja, "Issued Period"@en.
+<https://w3id.org/jp-cos/School>
+  a rdfs:Class;
+  rdfs:comment "学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code>"@ja;
+  rdfs:comment "It represents school class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code>"@en;
+  rdfs:label "学校種別"@ja, "Type of School"@en.
+<https://w3id.org/jp-cos/DisabilityCategory>
+  a rdfs:Class;
+  rdfs:comment "障害を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>障害分類</var></code>"@ja;
+  rdfs:comment "Class representing a disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/disabilityCategory/<var>disability category</var></code>"@en;
+  rdfs:label "障害分類"@ja, "Disability Category"@en.
+<https://w3id.org/jp-cos/Stage>
+  a rdfs:Class;
+  rdfs:comment "知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code>"@ja;
+  rdfs:comment "A class representing a stage in the case of intellectual disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code>"@en;
+  rdfs:label "段階"@ja, "Stage"@en.
+<https://w3id.org/jp-cos/SubjectArea>
+  a rdfs:Class;
+  rdfs:comment "教科などを表すクラス。「総則」など、教科以外のものも含まれる。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var></code>"@ja;
+  rdfs:comment "A class that represents a subject, etc. It also includes other subjects, such as general rules.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject area</var></code>"@en;
+  rdfs:label "教科等"@ja, "Subject Area"@en.
+<https://w3id.org/jp-cos/SourceOfEnglishName>
+  a rdfs:Class;
+  rdfs:comment "教科や科目などの英訳の出典を表すクラス。"@ja;
+  rdfs:comment "A class that represents the source of an English translation of a subject or subject area."@en;
+  rdfs:label "英語表記の出典"@ja, "Referrence for English name"@en.
+<https://w3id.org/jp-cos/RelatedSubjectArea>
+  a rdfs:Class;
+  rdfs:comment "障害分類のある教科の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var></code>"@ja;
+  rdfs:comment "A class to group together across disability categories for subject areas with disability categories.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject area</var></code>"@en;
+  rdfs:label "関係のある教科等"@ja, "Related Subject Area"@en.
+<https://w3id.org/jp-cos/Subject>
+  a rdfs:Class;
+  rdfs:comment "科目や分類などを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code>"@ja;
+  rdfs:comment "A class that represents a subject, classification, etc.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject</var></code>"@en;
+  rdfs:label "科目等"@ja, "Subject"@en.
+<https://w3id.org/jp-cos/RelatedSubject>
+  a rdfs:Class;
+  rdfs:comment "障害分類のある科目等の場合に、障害分類を超えてまとめるためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code>"@ja;
+  rdfs:comment "A class to group together across disability categories for subjects with disability categories.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var>/<var>name of subject</var></code>"@en;
+  rdfs:label "関係のある科目等"@ja, "Related Subject"@en.
+<https://w3id.org/jp-cos/Number>
+  a rdfs:Class;
+  rdfs:comment "学習指導要領コードのデータセットの中での項番を表すクラス。"@ja;
+  rdfs:comment "A class that represents a item number in a data set of study guide codes."@en;
+  rdfs:label "項番"@ja, "Line Number"@en.
+<https://w3id.org/jp-cos/StructuredItem>
+  a rdfs:Class;
+  rdfs:comment "学習指導要領の細目とその由来などを表すクラス。"@ja;
+  rdfs:comment "A class representing a Course of Study item and its provenance."@en;
+  rdfs:label "構造化細目"@ja, "Structured Item"@en.
+<https://w3id.org/jp-cos/CosCommentary>
+  a rdfs:Class;
+  rdfs:comment "学習指導要領解説を表すクラス。"@ja;
+  rdfs:comment "A class representing a Commentary on the Course of Study."@en;
+  rdfs:label "学習指導要領解説"@ja, "Commentary on the Course of Study"@en.
+<https://w3id.org/jp-cos/CommentaryItem>
+  a rdfs:Class;
+  rdfs:comment "学習指導要領解説の細目を表すクラス。"@ja;
+  rdfs:comment "A class representing a Item of Commentary on the Course of Study."@en;
+  rdfs:label "学習指導要領解説の細目"@ja, "Item of Commentary on the Course of Study"@en.
