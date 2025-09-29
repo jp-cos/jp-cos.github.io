@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>学習指導要領LOD検索</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="学習指導要領LOD検索">
+    <meta property="og:title" content="学習指導要領LOD検索">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://w3id.org/jp-cos/logo.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZW2V5CQLY9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZW2V5CQLY9');
+    </script>
+<style> /* 検索用 */
+  .desc{ white-space:pre-wrap; }
+  .muted{ color:#666; font-size:.9em; }
+  .desc-block{ margin:4px 0 10px; }
+  .desc-label{ font-weight:600; font-size:.95rem; margin-bottom:.25rem; }
+
+  /* ベースのハイライト（明るい黄色＋角丸＋薄いインセット影） */
+  mark{
+    background:#ffef6e;
+    color:#111;
+    padding:0 .18em;
+    border-radius:.22rem;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.08);
+  }
+  .table-striped tbody tr:nth-of-type(odd) mark{ background:#ffe760; }
+  .table-hover tbody tr:hover mark{ box-shadow: inset 0 0 0 2px rgba(0,0,0,.20); }
+
+  /* 常時強調モード（body に .highlight-strong を常時付与） */
+  .highlight-strong mark{
+    background:#ffb300;
+    color:#0b0b0b;
+    font-weight:700;
+    text-decoration: underline;
+    text-decoration-thickness: .08em;
+    text-underline-offset: .08em;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.28);
+  }
+  .highlight-strong .table-striped tbody tr:nth-of-type(odd) mark{ background:#ffa800; }
+  .highlight-strong .table-hover tbody tr:hover mark{ box-shadow: inset 0 0 0 3px rgba(0,0,0,.35); }
+
+  @media (prefers-color-scheme: dark){
+    mark{ background:#ffd95a; color:#111; }
+    .highlight-strong mark{ background:#ff9800; color:#111; }
+  }
+
+  details#error-raw{ margin-top:.5rem; }
+  details#error-raw summary{ cursor:pointer; font-weight:600; }
+</style>
+  </head>
+  <body class="highlight-strong">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="./">
+        <img src="logo.png" style="max-height: 54px" alt="学習指導要領LOD">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+            <li class="nav-item"><a class="nav-link" href="https://w3id.org/jp-cos/en/">English</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>学習指導要領LOD検索</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <form id="searchForm">
+          <div class="form-row align-items-center">
+            <div class="col-md-8 mb-2">
+              <label for="q" class="sr-only">キーワード</label>
+              <div class="input-group">
+                <input id="q" type="search" class="form-control" placeholder="キーワード（例：貴族 武士 …／空白区切り＝AND）">
+                <div class="input-group-append">
+                  <button id="btnRun" type="button" class="btn btn-primary">検索</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2 text-md-right">
+              <button id="clear" type="button" class="btn btn-outline-secondary">クリア</button>
+            </div>
+          </div>
+          <div class="form-row mt-2">
+            <div class="col-md-12">
+              <div class="custom-control custom-checkbox custom-control-inline" title="平成29・30・31年 (2017・18・19) 改訂の学習指導要領データのみを対象にします">
+                <input type="checkbox" class="custom-control-input" id="currentOnly" checked>
+                <label class="custom-control-label" for="currentOnly">現行学習指導要領のみ</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="commentary" checked>
+                <label class="custom-control-label" for="commentary">解説細目（CommentaryItem）も含める</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="regex">
+                <label class="custom-control-label" for="regex">正規表現</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <div id="status" class="mt-3"></div>
+      </div>
+    </div>
+    <!-- Results -->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="table-responsive">
+          <table id="result" class="table table-striped table-hover mb-0" hidden>
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">細目URI</th>
+                <th scope="col">学校種別</th>
+                <th scope="col">教科</th>
+                <th scope="col">科目</th>
+                <th scope="col">区分</th>
+                <th scope="col">学年</th>
+                <th scope="col" style="min-width:28rem;">本文（細目・解説細目を統合表示）</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <footer>
+      <p>
+        &copy; 2021-2025
+        教育データプラス研究会
+      </p>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+<script>
+const ENDPOINT = "https://dydra.com/masao/jp-cos/sparql";
+const PREFIXES = `
+PREFIX cs:     <https://w3id.org/jp-cos/>
+PREFIX schema: <http://schema.org/>
+`;
+
+// ---------- Utils ----------
+function escHtml(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':"&quot;","'":"&#39;"}[m])); }
+function escSparqlString(s){ return String(s).replace(/\\/g,"\\\\").replace(/'/g,"\\'"); }
+function escRegex(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+function highlight(text, terms, useRegex){
+  const safe = escHtml(text || "");
+  if (!terms.length) return safe;
+  try{
+    const pattern = useRegex ? terms.filter(Boolean).join("|") : terms.map(escRegex).join("|");
+    if(!pattern) return safe;
+    const re = new RegExp(pattern,"gi");
+    return safe.replace(re, m=>`<mark>${m}</mark>`);
+  }catch{ return safe; }
+}
+
+// ---------- SPARQL ----------
+function buildQuery(term, includeCommentary, useRegex, restrictCurrent){
+  const typeValues = includeCommentary ? "VALUES ?t { cs:Item cs:CommentaryItem }" : "VALUES ?t { cs:Item }";
+  const terms = term.split(/\s+/).filter(Boolean);
+  let filter = "";
+  if (terms.length){
+    filter = useRegex
+      ? terms.map(t => `FILTER ( regex(STR(?desc), '${escSparqlString(t)}', 'i') )`).join("\n")
+      : terms.map(t => `FILTER ( CONTAINS(LCASE(STR(?desc)), LCASE('${escSparqlString(t)}')) )`).join("\n");
+  }
+  const periodClause = restrictCurrent ? `\n  # 現行学習指導要領に限定\n  ?base cs:issuedPeriod cs:period\\/H29toH31 .\n` : "";
+
+  return PREFIXES + `
+SELECT ?base ?item ?t ?desc
+       (SAMPLE(?bdesc) AS ?baseDesc)
+       (COALESCE(GROUP_CONCAT(DISTINCT ?schoolName; separator=', '), '') AS ?school)
+       (COALESCE(GROUP_CONCAT(DISTINCT ?saName;     separator=', '), '') AS ?subjectArea)
+       (COALESCE(GROUP_CONCAT(DISTINCT ?subjName;   separator=', '), '') AS ?subject)
+       (COALESCE(GROUP_CONCAT(DISTINCT ?catS;       separator=', '), '') AS ?category)
+       (COALESCE(GROUP_CONCAT(DISTINCT ?subCatS;    separator=', '), '') AS ?subCategory)
+       (COALESCE(GROUP_CONCAT(DISTINCT ?gradeS;     separator=', '), '') AS ?grade)
+WHERE {
+  ${typeValues}
+  ?item a ?t ; schema:description ?desc .
+  OPTIONAL { ?item schema:about ?about . }
+  BIND( COALESCE(?about, ?item) AS ?base )
+  ${periodClause}
+  OPTIONAL { ?base schema:description ?bdesc . }
+
+  OPTIONAL { ?base cs:school ?schoolRes .
+            OPTIONAL { ?schoolRes schema:name ?schoolName . FILTER(LANG(?schoolName) = "ja") } }
+  OPTIONAL { ?base cs:subjectArea ?saRes .
+            OPTIONAL { ?saRes     schema:name ?saName     . FILTER(LANG(?saName)     = "ja") } }
+  OPTIONAL { ?base cs:subject ?subjRes .
+            OPTIONAL { ?subjRes   schema:name ?subjName   . FILTER(LANG(?subjName)   = "ja") } }
+
+  OPTIONAL { ?base cs:category ?catLit .    BIND(STR(?catLit) AS ?catS) }
+  OPTIONAL { ?base cs:subCategory ?subLit . BIND(STR(?subLit) AS ?subCatS) }
+
+  OPTIONAL { ?base cs:grade ?g . BIND(STR(?g) AS ?gradeS) }
+
+  ${filter}
+}
+GROUP BY ?base ?item ?t ?desc
+ORDER BY ?base ?item
+LIMIT 500
+`;
+}
+
+// ---------- Fetch with fallbacks ----------
+async function fetchWithFallback(query, signal){
+  try{
+    console.debug("[SPARQL] POST application/sparql-query");
+    return await fetch(ENDPOINT, {
+      method:"POST",
+      headers:{ "Accept":"application/sparql-results+json", "Content-Type":"application/sparql-query" },
+      body:query, signal
+    });
+  }catch(e1){ console.warn("POST (application/sparql-query) failed, trying form POST", e1); }
+  try{
+    const body = new URLSearchParams({ query });
+    console.debug("[SPARQL] POST x-www-form-urlencoded (query=...)");
+    return await fetch(ENDPOINT, {
+      method:"POST",
+      headers:{ "Accept":"application/sparql-results+json", "Content-Type":"application/x-www-form-urlencoded" },
+      body: body.toString(), signal
+    });
+  }catch(e2){ console.warn("POST (form) failed, trying GET", e2); }
+  const url = new URL(ENDPOINT); url.searchParams.set("query", query);
+  console.debug("[SPARQL] GET with query param:", url.toString());
+  return await fetch(url.toString(), { method:"GET", headers:{ "Accept":"application/sparql-results+json" }, signal });
+}
+
+// ---------- Run ----------
+async function run(){
+  const q = document.getElementById('q').value.trim();
+  const includeCommentary = document.getElementById('commentary').checked;
+  const useRegex = document.getElementById('regex').checked;
+  const restrictCurrent = document.getElementById('currentOnly').checked;
+  const terms = q.split(/\s+/).filter(Boolean);
+
+  const status = document.getElementById('status');
+  const table = document.getElementById('result');
+  const tbody = table.querySelector('tbody');
+  tbody.innerHTML = '';
+  table.hidden = true;
+
+  const oldRaw = document.getElementById("error-raw"); if (oldRaw) oldRaw.remove();
+
+  const query = buildQuery(q, includeCommentary, useRegex, restrictCurrent);
+  console.log("[SPARQL] ----------\n" + query + "\n--------------------");
+
+  status.className = "mt-3 alert alert-info";
+  status.textContent = "検索中…";
+
+  try{
+    const ctrl = new AbortController();
+    const t = setTimeout(()=>ctrl.abort(), 20000);
+
+    const res = await fetchWithFallback(query, ctrl.signal);
+    clearTimeout(t);
+
+    if (!res.ok){
+      const rawText = await res.clone().text().catch(()=> "");
+      status.className = "mt-3 alert alert-danger";
+      status.textContent = `HTTP ${res.status} ${res.statusText}`;
+
+      const details = document.createElement("details");
+      details.id = "error-raw"; details.open = true;
+      const sum = document.createElement("summary"); sum.textContent = "サーバからのエラーメッセージ（クリックで開閉）";
+      const pre = document.createElement("pre"); pre.id = "error-raw-pre"; pre.style.whiteSpace = "pre-wrap"; pre.style.maxHeight="40vh"; pre.style.overflow="auto";
+      pre.textContent = rawText || "(ボディは空でした)";
+      details.appendChild(sum); details.appendChild(pre);
+      status.insertAdjacentElement("afterend", details);
+      return;
+    }
+
+    const data = await res.json();
+    const rows = data.results?.bindings ?? [];
+    if (rows.length === 0){
+      status.className = "mt-3 alert alert-warning";
+      status.textContent = "該当なし。条件を変えてお試しください。";
+      return;
+    }
+
+    // Group by base
+    const grouped = new Map();
+    for (const r of rows){
+      const base = r.base?.value ?? "";
+      const item = r.item?.value ?? "";
+      const type = r.t?.value ?? "";
+      const desc = r.desc?.value ?? "";
+      const baseDesc = r.baseDesc?.value ?? "";
+      const school = r.school?.value ?? "";
+      const sa     = r.subjectArea?.value ?? "";
+      const subj   = r.subject?.value ?? "";
+      const cat    = r.category?.value ?? "";
+      const subCat = r.subCategory?.value ?? "";
+      const grade  = r.grade?.value ?? "";
+
+      if (!grouped.has(base)) grouped.set(base, { base, baseDesc, school, sa, subj, cat, subCat, grade, items: [] });
+      const g = grouped.get(base);
+      if (!g.baseDesc && baseDesc) g.baseDesc = baseDesc;
+      if (!g.school && school) g.school = school;
+      if (!g.sa && sa) g.sa = sa;
+      if (!g.subj && subj) g.subj = subj;
+      if (!g.cat && cat) g.cat = cat;
+      if (!g.subCat && subCat) g.subCat = subCat;
+      if (!g.grade && grade) g.grade = grade;
+      g.items.push({ item, type, desc });
+    }
+
+    for (const g of grouped.values()){
+      const tr = document.createElement('tr');
+      // 本文
+      let html = "";
+      if (g.baseDesc){
+        html += `<div class="desc-block"><div class="desc-label">学習指導要領細目 (Item)</div><div class="desc">${highlight(g.baseDesc, terms, useRegex)}</div></div>`;
+      }
+      const commentaries = g.items.filter(x => /CommentaryItem$/.test(x.type));
+      const itemSelfs    = g.items.filter(x => /Item$/.test(x.type));
+
+      if (commentaries.length){
+        html += `<div class="desc-label">解説細目（CommentaryItem）</div><ul class="list-unstyled mb-0">`;
+        for (const c of commentaries){
+          html += `<li><span class="muted">⟶ </span><a href="${escHtml(c.item)}" target="_blank" rel="noopener">${escHtml(c.item)}</a><div class="desc">${highlight(c.desc, terms, useRegex)}</div></li>`;
+        }
+        html += `</ul>`;
+      }
+      if (itemSelfs.length && g.baseDesc === ""){
+        html = `<div class="desc-block"><div class="desc-label">学習指導要領細目 (Item)</div><div class="desc">${highlight(itemSelfs[0].desc, terms, useRegex)}</div></div>` + html;
+      }
+      if (!html) html = `<span class="muted">本文が見つかりませんでした。</span>`;
+
+      const catDisplay = [g.cat, g.subCat].filter(Boolean).join(' / ');
+
+      tr.innerHTML = `
+        <td><a href="${escHtml(g.base)}" target="_blank" rel="noopener">${escHtml(g.base)}</a></td>
+        <td>${highlight(g.school, terms, useRegex)}</td>
+        <td>${highlight(g.sa, terms, useRegex)}</td>
+        <td>${highlight(g.subj, terms, useRegex)}</td>
+        <td>${highlight(catDisplay, terms, useRegex)}</td>
+        <td>${escHtml(g.grade || "")}</td>
+        <td>${html}</td>
+      `;
+      table.querySelector('tbody').appendChild(tr);
+    }
+
+    table.hidden = false;
+    status.className = "mt-3 alert alert-success";
+    status.textContent = `${grouped.size} 細目（統合後）／ ${rows.length} 行（全件数）`;
+  }catch(e){
+    const msg = (e.name === 'AbortError') ? "タイムアウトしました（20秒）。エンドポイントの混雑/応答遅延の可能性。" : `エラー: ${e.message}`;
+    status.className = "mt-3 alert alert-danger";
+    status.textContent = msg + "（エンドポイント: " + ENDPOINT + "）";
+  }
+}
+
+// イベント登録
+document.getElementById('btnRun').addEventListener('click', run);
+document.getElementById('searchForm').addEventListener('submit', e => { e.preventDefault(); run(); });
+document.getElementById('q').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); run(); }});
+document.getElementById('clear').addEventListener('click', () => {
+  document.getElementById('q').value = '';
+  const status = document.getElementById('status'); status.className = ""; status.textContent = "";
+  const old = document.getElementById('error-raw'); if (old) old.remove();
+  document.querySelector('#result tbody').innerHTML = '';
+  document.getElementById('result').hidden = true;
+});
+</script>
+  </body>
+</html>
