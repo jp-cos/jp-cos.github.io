@@ -251,7 +251,9 @@ async function fetchWithFallback(query, signal){
 }
 
 // ---------- Run ----------
-async function run(){
+async function run(fromPopstate=false){
+  // UI→URL 反映（popstate 起因の再実行時は履歴を増やさない）
+  updateURL(!fromPopstate);
   const q = document.getElementById('q').value.trim();
   const includeCommentary = document.getElementById('commentary').checked;
   const useRegex = document.getElementById('regex').checked;
@@ -375,16 +377,81 @@ async function run(){
   }
 }
 
+// ===== URL<->UI 同期 =====
+function readStateFromURL(){
+  const p = new URLSearchParams(location.search);
+  return {
+    q:   p.get('q')  ?? '',
+    c:   p.get('c')  === null ? true  : p.get('c')  === '1', // commentary 既定: true
+    r:   p.get('r')  === '1',                                 // regex     既定: false
+    cur: p.get('cur')=== null ? true  : p.get('cur')=== '1'   // 現行のみ 既定: true
+  };
+}
+function applyStateToControls(st){
+  document.getElementById('q').value = st.q || '';
+  document.getElementById('commentary').checked = !!st.c;
+  document.getElementById('regex').checked      = !!st.r;
+  document.getElementById('currentOnly').checked= !!st.cur;
+}
+function readStateFromControls(){
+  return {
+    q:   document.getElementById('q').value.trim(),
+    c:   document.getElementById('commentary').checked,
+    r:   document.getElementById('regex').checked,
+    cur: document.getElementById('currentOnly').checked
+  };
+}
+function stateToQueryString(st){
+  const p = new URLSearchParams();
+  if (st.q) p.set('q', st.q);
+  p.set('c',   st.c   ? '1' : '0');   // 既定も明示
+  p.set('r',   st.r   ? '1' : '0');
+  p.set('cur', st.cur ? '1' : '0');
+  return '?' + p.toString();
+}
+/** push=true で pushState、false で replaceState */
+function updateURL(push=true){
+  const st = readStateFromControls();
+  if (!st.q) return location.search;
+  const qs = stateToQueryString(st);
+  const url = location.pathname + qs;
+  if (push) history.pushState(st, '', url);
+  else      history.replaceState(st, '', url);
+  return url;
+}
+
+// 起動時：URL→UI 反映し、q があれば自動検索
+(function initFromURL(){
+  const st = readStateFromURL();
+  applyStateToControls(st);
+  if (st.q) {
+    history.replaceState(st, '', stateToQueryString(st)); // 初期履歴
+    run(true);  // ← 自動検索（fromPopstate=true）
+  }
+})();
+
+// 戻る/進む
+window.addEventListener('popstate', (ev) => {
+  const st = ev.state || readStateFromURL();
+  applyStateToControls(st);
+  if (st.q) run(true);  // 履歴移動時に再実行
+});
+
 // イベント登録
 document.getElementById('btnRun').addEventListener('click', run);
 document.getElementById('searchForm').addEventListener('submit', e => { e.preventDefault(); run(); });
 document.getElementById('q').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); run(); }});
 document.getElementById('clear').addEventListener('click', () => {
   document.getElementById('q').value = '';
+  document.getElementById('commentary').checked = true;
+  document.getElementById('regex').checked = false;
+  document.getElementById('currentOnly').checked = true;
   const status = document.getElementById('status'); status.className = ""; status.textContent = "";
   const old = document.getElementById('error-raw'); if (old) old.remove();
   document.querySelector('#result tbody').innerHTML = '';
   document.getElementById('result').hidden = true;
+  // URL も初期状態へ（replace）
+  updateURL(false);
 });
 </script>
   </body>
