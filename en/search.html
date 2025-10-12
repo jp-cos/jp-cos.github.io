@@ -293,6 +293,7 @@ async function fetchWithFallback(query, signal){
 async function run(fromPopstate=false){
   // UI→URL 反映（popstate 起因の再実行時は履歴を増やさない）
   updateURL(!fromPopstate);
+  toggleHelp();
   const q = document.getElementById('q').value.trim();
   const includeCommentary = document.getElementById('commentary').checked;
   const useRegex = document.getElementById('regex').checked;
@@ -477,14 +478,14 @@ window.addEventListener('popstate', (ev) => {
 });
 
 // 検索欄が空ならヘルプ表示、入力があれば非表示
-const qInput = document.getElementById('q');
-const helpBox = document.getElementById('searchHelp');
 function toggleHelp(){
+  const qInput = document.getElementById('q');
+  const helpBox = document.getElementById('searchHelp');
   if (qInput.value.trim() === "") helpBox.style.display = "block";
   else helpBox.style.display = "none";
 }
-qInput.addEventListener('input', toggleHelp);
-document.addEventListener('DOMContentLoaded', toggleHelp);
+//qInput.addEventListener('input', toggleHelp);
+//document.addEventListener('DOMContentLoaded', toggleHelp);
 
 // イベント登録
 document.getElementById('btnRun').addEventListener('click', run);
