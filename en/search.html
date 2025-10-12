@@ -312,7 +312,7 @@ async function run(fromPopstate=false){
   console.log("[SPARQL] ----------\n" + query + "\n--------------------");
 
   status.className = "mt-3 alert alert-info";
-  status.textContent = "検索中…";
+  status.textContent = "Searching...";
 
   try{
     const ctrl = new AbortController();
@@ -389,9 +389,9 @@ async function run(fromPopstate=false){
         html += `</ul>`;
       }
       if (itemSelfs.length && g.baseDesc === ""){
-        html = `<div class="desc-block"><div class="desc-label">学習指導要領細目 (Item)</div><div class="desc">${highlight(itemSelfs[0].desc, terms, useRegex)}</div></div>` + html;
+        html = `<div class="desc-block"><div class="desc-label">CoS Item(s)</div><div class="desc">${highlight(itemSelfs[0].desc, terms, useRegex)}</div></div>` + html;
       }
-      if (!html) html = `<span class="muted">本文が見つかりませんでした。</span>`;
+      if (!html) html = `<span class="muted">No description found.</span>`;
 
       const catDisplay = [g.cat, g.subCat].filter(Boolean).join(' / ');
 
