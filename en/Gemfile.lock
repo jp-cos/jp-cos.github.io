@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/masao/ttl2html.git
-  revision: df353095aa7fdfa2c3d1a82ad3a4e2bfa553e84a
+  revision: dc6a18e83f77e86aa3ec0828580a2332b030f398
   specs:
     ttl2html (2.2.2)
       actionview
@@ -16,20 +16,20 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionview (8.0.3)
-      activesupport (= 8.0.3)
+    actionview (8.1.1)
+      activesupport (= 8.1.1)
       builder (~> 3.1)
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    activesupport (8.0.3)
+    activesupport (8.1.1)
       base64
-      benchmark (>= 0.3)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.3.1)
       connection_pool (>= 2.2.5)
       drb
       i18n (>= 1.6, < 2)
+      json
       logger (>= 1.4.2)
       minitest (>= 5.1)
       securerandom (>= 0.3)
@@ -37,11 +37,10 @@ GEM
       uri (>= 0.13.1)
     base64 (0.3.0)
     bcp47_spec (0.2.1)
-    benchmark (0.4.1)
     bigdecimal (3.3.1)
     builder (3.3.0)
-    concurrent-ruby (1.3.5)
-    connection_pool (2.5.4)
+    concurrent-ruby (1.3.6)
+    connection_pool (3.0.2)
     crass (1.0.6)
     csv (3.3.5)
     drb (2.2.3)
@@ -54,21 +53,24 @@ GEM
       unicode-types (~> 1.8)
     erubi (1.13.1)
     getoptlong (0.2.1)
-    htmlentities (4.3.4)
+    htmlentities (4.4.2)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    io-console (0.8.1)
+    io-console (0.8.2)
+    json (2.18.0)
     link_header (0.0.8)
     logger (1.7.0)
-    loofah (2.24.1)
+    loofah (2.25.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     matrix (0.4.3)
-    minitest (5.26.0)
+    minitest (6.0.0)
+      prism (~> 1.5)
     nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
     ostruct (0.6.3)
     parallel (1.27.0)
+    prism (1.7.0)
     racc (1.8.1)
     rails-dom-testing (2.3.0)
       activesupport (>= 5.0.0)
@@ -91,7 +93,7 @@ GEM
       rdf (~> 3.3)
     readline (0.0.4)
       reline
-    reline (0.6.2)
+    reline (0.6.3)
       io-console (~> 0.5)
     roo (2.10.1)
       nokogiri (~> 1)
@@ -106,7 +108,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-types (1.11.0)
-    uri (1.0.4)
+    uri (1.1.1)
 
 PLATFORMS
   x86_64-linux
