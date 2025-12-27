@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/masao/ttl2html.git
-  revision: dc6a18e83f77e86aa3ec0828580a2332b030f398
+  revision: 02e739cc1df217d02f3311ba93d94429816b7d00
   specs:
-    ttl2html (2.2.2)
+    ttl2html (2.3.0)
       actionview
       csv
       getoptlong
@@ -54,7 +54,7 @@ GEM
     erubi (1.13.1)
     getoptlong (0.2.1)
     htmlentities (4.4.2)
-    i18n (1.14.7)
+    i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     io-console (0.8.2)
     json (2.18.0)
@@ -64,7 +64,7 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     matrix (0.4.3)
-    minitest (6.0.0)
+    minitest (6.0.1)
       prism (~> 1.5)
     nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
