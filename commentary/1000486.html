@@ -48,7 +48,65 @@
         <div class="jumbotron">
       <div class="container">
         <h1>　ここでは，「様々な産業」について，「販売，運輸，観光，医療，福祉など」情報を活用して発展している産業の中から選択して取り上げることが考えられる。取り上げる事例としては，例えば，販売情報を収集・分析して商品の入荷量や販売量を予測したり，インターネット上で商品の管理を行ったりしている...</h1>
-        <p><i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/commentary/1000486">https://w3id.org/jp-cos/commentary/1000486</a></p>
+        <p>
+        <i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/commentary/1000486">https://w3id.org/jp-cos/commentary/1000486</a>
+        <button id="copy-link" class="btn btn-sm btn-outline-secondary" aria-live="polite">
+        <i class="bi bi-clipboard"></i> <span class="copy-link-text">リンクをコピー</span>
+        </button>
+        </p>
+        <script>
+        (() => {
+          const btn = document.getElementById("copy-link");
+          const url = 'https://w3id.org/jp-cos/commentary/1000486';
+          const originalHTML = btn.innerHTML;
+          let timerId = null;
+          async function copyText(text) {
+            // Clipboard API, or fallback
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(text);
+              return;
+            }
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+          }
+          function setCopiedState() {
+            btn.innerHTML = `<i class="bi bi-check2"></i> <span class="btn-label">Copied!</span>`;
+            btn.classList.remove("btn-outline-secondary");
+            btn.classList.add("btn-outline-success");
+          }
+          function resetState() {
+            btn.innerHTML = originalHTML;
+            btn.classList.remove("btn-outline-success");
+            btn.classList.add("btn-outline-secondary");
+          }
+          btn.addEventListener("click", async () => {
+            btn.disabled = true;
+            try {
+              await copyText(url);
+              setCopiedState();
+              clearTimeout(timerId);
+              timerId = setTimeout(() => {
+                resetState();
+                btn.disabled = false;
+              }, 1500);
+            } catch (e) {
+              // fail...
+              btn.innerHTML = `<span class="btn-label">Copy failed...</span>`;
+              clearTimeout(timerId);
+              timerId = setTimeout(() => {
+                resetState();
+                btn.disabled = false;
+              }, 1500);
+            }
+          });
+        })();
+        </script>
       </div>
     </div>
     <div class="container">

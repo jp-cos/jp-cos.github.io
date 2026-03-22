@@ -48,7 +48,65 @@
         <div class="jumbotron">
       <div class="container">
         <h1>(ア) 交易の広がりとその影響，統一政権の諸政策の目的，産業の発達と文化の担い手の変化，社会の変化と幕府の政策の変化などに着目して，事象を相互に関連付けるなどして，アの(ア)から(エ)までについて近世の社会の変化の様子を多面的・多角的に考察し，表現すること。</h1>
-        <p><i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/8322203232100000">https://w3id.org/jp-cos/8322203232100000</a></p>
+        <p>
+        <i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/8322203232100000">https://w3id.org/jp-cos/8322203232100000</a>
+        <button id="copy-link" class="btn btn-sm btn-outline-secondary" aria-live="polite">
+        <i class="bi bi-clipboard"></i> <span class="copy-link-text">リンクをコピー</span>
+        </button>
+        </p>
+        <script>
+        (() => {
+          const btn = document.getElementById("copy-link");
+          const url = 'https://w3id.org/jp-cos/8322203232100000';
+          const originalHTML = btn.innerHTML;
+          let timerId = null;
+          async function copyText(text) {
+            // Clipboard API, or fallback
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(text);
+              return;
+            }
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+          }
+          function setCopiedState() {
+            btn.innerHTML = `<i class="bi bi-check2"></i> <span class="btn-label">Copied!</span>`;
+            btn.classList.remove("btn-outline-secondary");
+            btn.classList.add("btn-outline-success");
+          }
+          function resetState() {
+            btn.innerHTML = originalHTML;
+            btn.classList.remove("btn-outline-success");
+            btn.classList.add("btn-outline-secondary");
+          }
+          btn.addEventListener("click", async () => {
+            btn.disabled = true;
+            try {
+              await copyText(url);
+              setCopiedState();
+              clearTimeout(timerId);
+              timerId = setTimeout(() => {
+                resetState();
+                btn.disabled = false;
+              }, 1500);
+            } catch (e) {
+              // fail...
+              btn.innerHTML = `<span class="btn-label">Copy failed...</span>`;
+              clearTimeout(timerId);
+              timerId = setTimeout(() => {
+                resetState();
+                btn.disabled = false;
+              }, 1500);
+            }
+          });
+        })();
+        </script>
       </div>
     </div>
     <div class="container">

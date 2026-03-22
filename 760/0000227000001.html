@@ -48,7 +48,65 @@
         <div class="jumbotron">
       <div class="container">
         <h1>７  知的障害者である児童又は生徒に対する教育を行う特別支援学校において，各教科の指導に当たっては，各教科（小学部においては各教科の各段階。以下この項において同じ。）に示す内容を基に，児童又は生徒の知的障害の状態や経験等に応じて，具体的に指導内容を設定するものとする。また，各教科，...</h1>
-        <p><i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/7600000227000001">https://w3id.org/jp-cos/7600000227000001</a></p>
+        <p>
+        <i class="bi bi-link-45deg"></i> <a href="https://w3id.org/jp-cos/7600000227000001">https://w3id.org/jp-cos/7600000227000001</a>
+        <button id="copy-link" class="btn btn-sm btn-outline-secondary" aria-live="polite">
+        <i class="bi bi-clipboard"></i> <span class="copy-link-text">リンクをコピー</span>
+        </button>
+        </p>
+        <script>
+        (() => {
+          const btn = document.getElementById("copy-link");
+          const url = 'https://w3id.org/jp-cos/7600000227000001';
+          const originalHTML = btn.innerHTML;
+          let timerId = null;
+          async function copyText(text) {
+            // Clipboard API, or fallback
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(text);
+              return;
+            }
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+          }
+          function setCopiedState() {
+            btn.innerHTML = `<i class="bi bi-check2"></i> <span class="btn-label">Copied!</span>`;
+            btn.classList.remove("btn-outline-secondary");
+            btn.classList.add("btn-outline-success");
+          }
+          function resetState() {
+            btn.innerHTML = originalHTML;
+            btn.classList.remove("btn-outline-success");
+            btn.classList.add("btn-outline-secondary");
+          }
+          btn.addEventListener("click", async () => {
+            btn.disabled = true;
+            try {
+              await copyText(url);
+              setCopiedState();
+              clearTimeout(timerId);
+              timerId = setTimeout(() => {
+                resetState();
+                btn.disabled = false;
+              }, 1500);
+            } catch (e) {
+              // fail...
+              btn.innerHTML = `<span class="btn-label">Copy failed...</span>`;
+              clearTimeout(timerId);
+              timerId = setTimeout(() => {
+                resetState();
+                btn.disabled = false;
+              }, 1500);
+            }
+          });
+        })();
+        </script>
       </div>
     </div>
     <div class="container">
