@@ -15,4 +15,9 @@
     <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/provenance>
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/StructuredItem> .
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/StructuredItem>.
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/StructuredItemShape>
+  ], [
+    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/StructuredItemShape>
+  ].

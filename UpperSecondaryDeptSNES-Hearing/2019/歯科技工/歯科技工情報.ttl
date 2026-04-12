@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "UB";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELkUB";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/歯科技工/歯科技工情報> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8EkB500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
 <https://w3id.org/jp-cos/8EkB502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
 <https://w3id.org/jp-cos/8EkB502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
@@ -39,3 +36,6 @@
 <https://w3id.org/jp-cos/8EkB505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
 <https://w3id.org/jp-cos/8EkB505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
 <https://w3id.org/jp-cos/8EkB505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/歯科技工/歯科技工情報> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯科技工情報>.

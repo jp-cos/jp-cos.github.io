@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELkA2";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/歯科技工/歯科技工学概論> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Ek2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
 <https://w3id.org/jp-cos/7Ek2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
 <https://w3id.org/jp-cos/7Ek2503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
@@ -31,3 +28,6 @@
 <https://w3id.org/jp-cos/7Ek2505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
 <https://w3id.org/jp-cos/7Ek2505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
 <https://w3id.org/jp-cos/7Ek2505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/歯科技工/歯科技工学概論> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/歯科技工学概論>.

@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "UG";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UGUG";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健体育> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
 <https://w3id.org/jp-cos/8GG0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
 <https://w3id.org/jp-cos/8GG0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
 <https://w3id.org/jp-cos/8GG0202100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
@@ -117,3 +115,5 @@
 <https://w3id.org/jp-cos/8GG02b4290000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
 <https://w3id.org/jp-cos/8GG02b4291000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
 <https://w3id.org/jp-cos/8GG02b4292000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健体育> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/保健体育>.

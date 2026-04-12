@@ -8,9 +8,7 @@
   <https://w3id.org/jp-cos/fcode03> "UO";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A6UO";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/自立活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
 <https://w3id.org/jp-cos/86O0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
 <https://w3id.org/jp-cos/86O0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
 <https://w3id.org/jp-cos/86O0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
@@ -66,3 +64,5 @@
 <https://w3id.org/jp-cos/86O0400630000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
 <https://w3id.org/jp-cos/86O0400640000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
 <https://w3id.org/jp-cos/86O0400650000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/自立活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.

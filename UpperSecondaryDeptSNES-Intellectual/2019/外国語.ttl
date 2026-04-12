@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "UH";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UGUH";
   <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/その他の外国語>, <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/外国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8GH0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
 <https://w3id.org/jp-cos/8GH0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
 <https://w3id.org/jp-cos/8GH0202100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
@@ -143,3 +141,8 @@
 <https://w3id.org/jp-cos/8GH12b4222200000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
 <https://w3id.org/jp-cos/8GH22a4200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
 <https://w3id.org/jp-cos/8GH22b4200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
+<https://w3id.org/jp-cos/RelatedSubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>
+  ].
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/外国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.

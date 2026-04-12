@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A8A1";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
 <https://w3id.org/jp-cos/8810200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
 <https://w3id.org/jp-cos/8810202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
 <https://w3id.org/jp-cos/8810202100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
@@ -139,3 +137,5 @@
 <https://w3id.org/jp-cos/88102c4223200000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
 <https://w3id.org/jp-cos/88102c4223300000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
 <https://w3id.org/jp-cos/88102c4223400000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/国語>.

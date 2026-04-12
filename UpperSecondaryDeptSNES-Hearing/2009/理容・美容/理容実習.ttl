@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A8";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELiA8";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理容・美容/理容実習> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Ei8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
 <https://w3id.org/jp-cos/7Ei8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
 <https://w3id.org/jp-cos/7Ei8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
@@ -45,3 +42,6 @@
 <https://w3id.org/jp-cos/7Ei8505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
 <https://w3id.org/jp-cos/7Ei8505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
 <https://w3id.org/jp-cos/7Ei8505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理容・美容/理容実習> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/理容・美容/理容実習>.

@@ -1,7 +1,7 @@
 <https://w3id.org/jp-cos/Item>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "It represents course of study item class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>Course Of Study Code</var></code>"@en, "学習指導要領の細目を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学習指導要領コード</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Item"@en, "学習指導要領の細目"@ja .
+  <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Item"@en, "学習指導要領の細目"@ja.
 <https://w3id.org/jp-cos/7100000000000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/7100000100000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/7100000110000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>.
@@ -39960,9 +39960,24 @@
 <https://w3id.org/jp-cos/8Hn0000244000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/8Hn0000245000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/8Hn0000246000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/advancedItem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/basicItem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
+<https://w3id.org/jp-cos/CommentaryItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>
+  ].
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>
+  ], [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Item>.
+<https://w3id.org/jp-cos/StructuredItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>
+  ].
+<https://w3id.org/jp-cos/advancedItem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
+<https://w3id.org/jp-cos/basicItem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
+  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/category> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
+<https://w3id.org/jp-cos/cosItem> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/courseOfStudy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/courseOfStudyRevision> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/disabilityCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
@@ -39977,7 +39992,3 @@
 <https://w3id.org/jp-cos/subCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/subject> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
 <https://w3id.org/jp-cos/subjectArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/advancedItem> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/basicItem> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/cosItem> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Item>.

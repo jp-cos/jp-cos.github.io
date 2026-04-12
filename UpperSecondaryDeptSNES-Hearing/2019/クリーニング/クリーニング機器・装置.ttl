@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A5";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELjA5";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/クリーニング/クリーニング機器・装置> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8Ej5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
 <https://w3id.org/jp-cos/8Ej5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
 <https://w3id.org/jp-cos/8Ej5502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
@@ -48,3 +45,6 @@
 <https://w3id.org/jp-cos/8Ej5505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
 <https://w3id.org/jp-cos/8Ej5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
 <https://w3id.org/jp-cos/8Ej5505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/クリーニング/クリーニング機器・装置> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>.

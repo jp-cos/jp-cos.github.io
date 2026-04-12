@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELhA1";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/印刷/印刷概論> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Eh1500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
 <https://w3id.org/jp-cos/7Eh1502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
 <https://w3id.org/jp-cos/7Eh1503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
@@ -47,3 +44,6 @@
 <https://w3id.org/jp-cos/7Eh1505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
 <https://w3id.org/jp-cos/7Eh1505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
 <https://w3id.org/jp-cos/7Eh1505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/印刷/印刷概論> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷概論>.

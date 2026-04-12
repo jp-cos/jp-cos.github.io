@@ -8,8 +8,7 @@
   <https://w3id.org/jp-cos/fcode03> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A2A2";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/EducationInJapan-2000> .
-<https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/EducationInJapan-2000>.
 <https://w3id.org/jp-cos/82200L0000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
 <https://w3id.org/jp-cos/82201L0000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
 <https://w3id.org/jp-cos/82201L0100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
@@ -302,4 +301,8 @@
 <https://w3id.org/jp-cos/82203L0220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
 <https://w3id.org/jp-cos/82203L0230000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
 <https://w3id.org/jp-cos/82203L0240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
+<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary/2017/社会>
+  ].
+<https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
 <https://w3id.org/jp-cos/commentary/Elementary/2017/社会> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.

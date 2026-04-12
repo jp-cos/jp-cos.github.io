@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELiA2";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理容・美容/衛生管理> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8Ei2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
 <https://w3id.org/jp-cos/8Ei2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
 <https://w3id.org/jp-cos/8Ei2502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
@@ -43,3 +40,6 @@
 <https://w3id.org/jp-cos/8Ei2505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
 <https://w3id.org/jp-cos/8Ei2505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
 <https://w3id.org/jp-cos/8Ei2505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理容・美容/衛生管理> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/理容・美容/衛生管理>.

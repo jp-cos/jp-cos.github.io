@@ -1,13 +1,17 @@
 <https://w3id.org/jp-cos/CourseOfStudy>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "It represents course of study class. Major revisions are made once every 10 years.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code>"@en, "学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Course of Study"@en, "学習指導要領"@ja .
+  <http://www.w3.org/2000/01/rdf-schema#label> "Course of Study"@en, "学習指導要領"@ja.
+<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/Elementary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/Elementary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/Elementary/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/Elementary/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudy>
+  ].
 <https://w3id.org/jp-cos/Kindergarten/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/Kindergarten/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
@@ -16,15 +20,17 @@
 <https://w3id.org/jp-cos/LowerSecondary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/LowerSecondary/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/LowerSecondary/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/SourceOfEnglishNameShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudy>
+  ].
 <https://w3id.org/jp-cos/UpperSecondary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/UpperSecondary/1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/UpperSecondary/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/UpperSecondary/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
+<https://w3id.org/jp-cos/courseOfStudy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/hasSubjectArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/issuedPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
 <https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/courseOfStudy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudy>.

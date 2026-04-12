@@ -7,10 +7,7 @@
   <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
   <https://w3id.org/jp-cos/fcode04> "A2";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A5LlA2";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES> .
-<https://w3id.org/jp-cos/KindergartenDeptSNES/2009/ねらい及び内容等/自立活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
-<https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
-<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>.
 <https://w3id.org/jp-cos/75l2000000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
 <https://w3id.org/jp-cos/75l2001000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
 <https://w3id.org/jp-cos/75l2003000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
@@ -58,3 +55,6 @@
 <https://w3id.org/jp-cos/75l2006300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
 <https://w3id.org/jp-cos/75l2006400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
 <https://w3id.org/jp-cos/75l2006500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.
+<https://w3id.org/jp-cos/KindergartenDeptSNES/2009/ねらい及び内容等/自立活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>.

@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "UG";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UGUG";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健体育> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
 <https://w3id.org/jp-cos/7GG0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
 <https://w3id.org/jp-cos/7GG0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
 <https://w3id.org/jp-cos/7GG0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
@@ -23,3 +21,5 @@
 <https://w3id.org/jp-cos/7GG02b3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
 <https://w3id.org/jp-cos/7GG02b3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
 <https://w3id.org/jp-cos/7GG02b3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/保健体育> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育>.

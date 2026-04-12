@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A5";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELhA5";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/印刷/写真化学・光学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Eh5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
 <https://w3id.org/jp-cos/7Eh5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
 <https://w3id.org/jp-cos/7Eh5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
@@ -44,3 +41,6 @@
 <https://w3id.org/jp-cos/7Eh5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
 <https://w3id.org/jp-cos/7Eh5505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
 <https://w3id.org/jp-cos/7Eh5505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/印刷/写真化学・光学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/写真化学・光学>.

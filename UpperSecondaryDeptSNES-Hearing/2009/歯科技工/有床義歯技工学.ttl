@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A6";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELkA6";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/歯科技工/有床義歯技工学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Ek6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
 <https://w3id.org/jp-cos/7Ek6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
 <https://w3id.org/jp-cos/7Ek6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
@@ -30,3 +27,6 @@
 <https://w3id.org/jp-cos/7Ek6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
 <https://w3id.org/jp-cos/7Ek6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
 <https://w3id.org/jp-cos/7Ek6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/歯科技工/有床義歯技工学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工/有床義歯技工学>.

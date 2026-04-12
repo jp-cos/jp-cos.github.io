@@ -8,9 +8,7 @@
   <https://w3id.org/jp-cos/fcode03> "A0";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UBA0";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/総則> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
 <https://w3id.org/jp-cos/7B00000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
 <https://w3id.org/jp-cos/7B00000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
 <https://w3id.org/jp-cos/7B00000110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
@@ -82,3 +80,5 @@
 <https://w3id.org/jp-cos/7B00000270000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
 <https://w3id.org/jp-cos/7B00000271000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
 <https://w3id.org/jp-cos/7B00000272000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/総則> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.

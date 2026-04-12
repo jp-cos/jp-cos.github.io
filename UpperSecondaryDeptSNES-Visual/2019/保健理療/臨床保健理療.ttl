@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode04> "A6";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UDLeA6";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健理療/臨床保健理療> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8De6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
 <https://w3id.org/jp-cos/8De6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
 <https://w3id.org/jp-cos/8De6502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
@@ -82,3 +79,6 @@
 <https://w3id.org/jp-cos/8De6505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
 <https://w3id.org/jp-cos/8De6505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
 <https://w3id.org/jp-cos/8De6505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健理療/臨床保健理療> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>.

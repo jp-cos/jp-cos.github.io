@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "A9";
   <https://w3id.org/jp-cos/fcodePrefix> "A7A8A9";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/図画工作> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
 <https://w3id.org/jp-cos/7890200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
 <https://w3id.org/jp-cos/7890202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
 <https://w3id.org/jp-cos/7890203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
@@ -25,3 +23,5 @@
 <https://w3id.org/jp-cos/78902c3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
 <https://w3id.org/jp-cos/78902c3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
 <https://w3id.org/jp-cos/78902c3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/図画工作> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作>.

@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "A5";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UAA5";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/数学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
 <https://w3id.org/jp-cos/7A50200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
 <https://w3id.org/jp-cos/7A50202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
 <https://w3id.org/jp-cos/7A50203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
@@ -19,3 +17,5 @@
 <https://w3id.org/jp-cos/7A50203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
 <https://w3id.org/jp-cos/7A50203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
 <https://w3id.org/jp-cos/7A50203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/数学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/数学>.

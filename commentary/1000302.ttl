@@ -7,5 +7,8 @@
   <http://schema.org/description> "第 3 節　第５学年の目標及び内容";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000303>, <https://w3id.org/jp-cos/commentary/1000331>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=74> .
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=74>.
+<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000302>
+  ].
 <https://w3id.org/jp-cos/commentary/Elementary/2017/社会> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000302>.

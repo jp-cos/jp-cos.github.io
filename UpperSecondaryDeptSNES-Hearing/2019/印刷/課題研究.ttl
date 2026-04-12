@@ -9,10 +9,7 @@
   <https://w3id.org/jp-cos/fcode04> "A8";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELhA8";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/印刷/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
 <https://w3id.org/jp-cos/8Eh8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
 <https://w3id.org/jp-cos/8Eh8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
 <https://w3id.org/jp-cos/8Eh8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
@@ -28,3 +25,6 @@
 <https://w3id.org/jp-cos/8Eh8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
 <https://w3id.org/jp-cos/8Eh8505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
 <https://w3id.org/jp-cos/8Eh8505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/印刷/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/印刷/課題研究>.

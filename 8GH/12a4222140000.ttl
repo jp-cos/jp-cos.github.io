@@ -23,5 +23,8 @@
   <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1>;
   <https://w3id.org/jp-cos/subCategory> "目標及び内容";
   <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語> .
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
 <https://w3id.org/jp-cos/8GH12a4222100000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GH12a4222140000>.
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/8GH12a4222140000>
+  ].

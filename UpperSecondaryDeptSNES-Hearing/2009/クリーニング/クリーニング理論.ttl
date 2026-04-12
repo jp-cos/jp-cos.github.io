@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A3";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UELjA3";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/クリーニング/クリーニング理論> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Ej3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
 <https://w3id.org/jp-cos/7Ej3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
 <https://w3id.org/jp-cos/7Ej3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
@@ -57,3 +54,6 @@
 <https://w3id.org/jp-cos/7Ej3505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
 <https://w3id.org/jp-cos/7Ej3505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
 <https://w3id.org/jp-cos/7Ej3505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/クリーニング/クリーニング理論> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/クリーニング理論>.

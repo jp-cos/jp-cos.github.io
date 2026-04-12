@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode04> "UA";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLfUA";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理療/理療情報活用> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7DfA500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
 <https://w3id.org/jp-cos/7DfA502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
 <https://w3id.org/jp-cos/7DfA503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
@@ -33,3 +30,6 @@
 <https://w3id.org/jp-cos/7DfA505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
 <https://w3id.org/jp-cos/7DfA505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
 <https://w3id.org/jp-cos/7DfA505230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理療/理療情報活用> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療情報活用>.

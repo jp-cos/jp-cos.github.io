@@ -33,15 +33,18 @@
   <https://w3id.org/jp-cos/sectionText> """土地のつくりと変化
 土地のつくりと変化について，土地やその中に含まれる物に着目して，土地のつくりやでき方を多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科> .
+  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科>.
+<https://w3id.org/jp-cos/8260253230000000> <https://w3id.org/jp-cos/advancedItem> [
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <https://w3id.org/jp-cos/8260263240000000>
+  ].
+<https://w3id.org/jp-cos/8260263200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263240000000>.
+<https://w3id.org/jp-cos/commentary/1000112> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000270> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000271> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
+<https://w3id.org/jp-cos/commentary/1000277> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263240000000>.
+<https://w3id.org/jp-cos/commentary/1000278> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000281> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000282> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000286> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000287> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
 <https://w3id.org/jp-cos/commentary/1000288> <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>.
-<https://w3id.org/jp-cos/commentary/1000112> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263240000000>.
-<https://w3id.org/jp-cos/commentary/1000277> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263240000000>.
-<https://w3id.org/jp-cos/commentary/1000278> <http://schema.org/citation> <https://w3id.org/jp-cos/8260263240000000>.
-<https://w3id.org/jp-cos/8260263200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260263240000000>.

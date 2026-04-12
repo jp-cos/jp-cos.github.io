@@ -2,7 +2,7 @@
   <http://purl.org/linked-data/cube#order> 4;
   <http://schema.org/name> "Intellectual Disability"@en, "ちてき"@ja-hira, "知的"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/DisabilityCategory>;
-  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ja.dbpedia.org/resource/知的障害> .
+  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ja.dbpedia.org/resource/知的障害>.
 <https://w3id.org/jp-cos/7810000000000000> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
 <https://w3id.org/jp-cos/7810202000000000> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
 <https://w3id.org/jp-cos/7810203000000000> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
@@ -4268,6 +4268,12 @@
 <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/家庭分野> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
 <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
 <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/音楽> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
+<https://w3id.org/jp-cos/StageShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>
+  ].
+<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>
+  ].
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/保健体育> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/各教科> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.
 <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/各教科(専門)> <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>.

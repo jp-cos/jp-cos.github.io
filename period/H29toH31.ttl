@@ -4,7 +4,7 @@
   <http://schema.org/startDate> "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>;
   <https://w3id.org/jp-cos/code01> "8";
-  <https://w3id.org/jp-cos/fcode01> "A8" .
+  <https://w3id.org/jp-cos/fcode01> "A8".
 <https://w3id.org/jp-cos/8100000000000000> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/8100000100000000> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/8100000110000000> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
@@ -23841,10 +23841,19 @@
 <https://w3id.org/jp-cos/8Hn0000244000000> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/8Hn0000245000000> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/8Hn0000246000000> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
+<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>
+  ].
+<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>
+  ].
 <https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/Elementary/2017/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/period/H29toH31>
+  ].
 <https://w3id.org/jp-cos/Kindergarten/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/Kindergarten/2017/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.
 <https://w3id.org/jp-cos/KindergartenDeptSNES/2017> <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>.

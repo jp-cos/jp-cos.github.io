@@ -8,8 +8,7 @@
   <https://w3id.org/jp-cos/fcode03> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A2A1";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008> .
-<https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008>.
 <https://w3id.org/jp-cos/8210000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
 <https://w3id.org/jp-cos/8210000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
 <https://w3id.org/jp-cos/8210010110000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
@@ -1281,3 +1280,7 @@
 <https://w3id.org/jp-cos/82103A0170000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
 <https://w3id.org/jp-cos/82103A0216400000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
 <https://w3id.org/jp-cos/82103L0216300000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
+<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary/2017/国語>
+  ].
+<https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.

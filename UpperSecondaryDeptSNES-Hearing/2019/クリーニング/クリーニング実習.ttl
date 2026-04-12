@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
   <https://w3id.org/jp-cos/fcode04> "A6";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELjA6";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/クリーニング/クリーニング実習> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8Ej6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
 <https://w3id.org/jp-cos/8Ej6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
 <https://w3id.org/jp-cos/8Ej6502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
@@ -45,3 +42,6 @@
 <https://w3id.org/jp-cos/8Ej6505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
 <https://w3id.org/jp-cos/8Ej6505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
 <https://w3id.org/jp-cos/8Ej6505220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/クリーニング/クリーニング実習> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング実習>.

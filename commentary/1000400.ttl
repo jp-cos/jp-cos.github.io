@@ -8,5 +8,8 @@
   <http://schema.org/description> "（内容の取扱い）";
   <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000404>, <https://w3id.org/jp-cos/commentary/1000405>, <https://w3id.org/jp-cos/commentary/1000406>, <https://w3id.org/jp-cos/commentary/1000407>, <https://w3id.org/jp-cos/commentary/1000408>, <https://w3id.org/jp-cos/commentary/1000409>, <https://w3id.org/jp-cos/commentary/1000410>;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=85> .
+  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=85>.
+<https://w3id.org/jp-cos/CommentaryItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000400>
+  ].
 <https://w3id.org/jp-cos/commentary/1000331> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000400>.

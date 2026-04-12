@@ -9,9 +9,7 @@
   <https://w3id.org/jp-cos/fcode03> "Ln";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELn";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/各教科> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
 <https://w3id.org/jp-cos/8En0000220000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
 <https://w3id.org/jp-cos/8En0000221000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
 <https://w3id.org/jp-cos/8En0000222000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
@@ -19,3 +17,5 @@
 <https://w3id.org/jp-cos/8En0000224000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
 <https://w3id.org/jp-cos/8En0000225000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
 <https://w3id.org/jp-cos/8En0000226000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/各教科> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/各教科>.

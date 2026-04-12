@@ -8,9 +8,7 @@
   <https://w3id.org/jp-cos/fcode04> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A3UHA1";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008> .
-<https://w3id.org/jp-cos/LowerSecondary/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
-<https://w3id.org/jp-cos/LowerSecondary/2017/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
 <https://w3id.org/jp-cos/83H1200000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
 <https://w3id.org/jp-cos/83H1202000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
 <https://w3id.org/jp-cos/83H1202100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
@@ -193,3 +191,14 @@
 <https://w3id.org/jp-cos/83H1206321000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
 <https://w3id.org/jp-cos/83H1206322000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
 <https://w3id.org/jp-cos/83H1206323000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
+<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>
+  ].
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>
+  ].
+<https://w3id.org/jp-cos/LowerSecondary/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
+<https://w3id.org/jp-cos/LowerSecondary/2017/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>.
+<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/LowerSecondary/2017/外国語/英語>
+  ].

@@ -9,10 +9,7 @@
   <https://w3id.org/jp-cos/fcode04> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UAUHA1";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語/英語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
-<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
 <https://w3id.org/jp-cos/8AH1203000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
 <https://w3id.org/jp-cos/8AH1203100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
 <https://w3id.org/jp-cos/8AH1203110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
@@ -67,3 +64,6 @@
 <https://w3id.org/jp-cos/8AH1203222222000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
 <https://w3id.org/jp-cos/8AH1203222230000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
 <https://w3id.org/jp-cos/8AH1203222231000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語/英語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語>.

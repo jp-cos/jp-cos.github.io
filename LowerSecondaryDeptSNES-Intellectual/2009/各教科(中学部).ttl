@@ -8,9 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
   <https://w3id.org/jp-cos/fcode03> "Ln";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UALn";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/各教科(中学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7An0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
 <https://w3id.org/jp-cos/7An0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
 <https://w3id.org/jp-cos/7An0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
@@ -19,3 +17,5 @@
 <https://w3id.org/jp-cos/7An0300300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
 <https://w3id.org/jp-cos/7An0300400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
 <https://w3id.org/jp-cos/7An0300500000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/各教科(中学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/各教科(中学部)>.

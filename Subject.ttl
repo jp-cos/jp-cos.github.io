@@ -1,7 +1,10 @@
 <https://w3id.org/jp-cos/Subject>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents a subject, classification, etc.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school and disability category</var>/<var>date published</var>/<var>name of subject</var></code>"@en, "科目や分類などを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別・障害分類</var>/<var>告示年</var>/<var>教科名</var>/<var>科目名</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en, "科目等"@ja .
+  <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en, "科目等"@ja.
+<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>
+  ].
 <https://w3id.org/jp-cos/Elementary/2008/特別活動/クラブ活動> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/Elementary/2008/特別活動/児童会活動> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/Elementary/2008/特別活動/学校行事> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
@@ -14,6 +17,9 @@
 <https://w3id.org/jp-cos/Elementary/2017/特別活動/学校行事> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/Elementary/2017/特別活動/学級活動> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>
+  ].
 <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/人間関係> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/健康> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容/環境> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
@@ -62,6 +68,13 @@
 <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/外国語/英語> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/家庭分野> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
+<https://w3id.org/jp-cos/RelatedSubjectShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>
+  ].
+<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Subject>
+  ].
+<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>.
@@ -793,8 +806,7 @@
 <https://w3id.org/jp-cos/disabilityCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/fcode04> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/fcodePrefix> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>.
+<https://w3id.org/jp-cos/hasSubject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/sourceOfEnglishName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>.
-<https://w3id.org/jp-cos/hasSubject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Subject>.
 <https://w3id.org/jp-cos/subject> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Subject>.
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Subject>.

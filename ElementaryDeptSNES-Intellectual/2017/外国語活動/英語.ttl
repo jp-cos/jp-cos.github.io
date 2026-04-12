@@ -9,10 +9,7 @@
   <https://w3id.org/jp-cos/fcode04> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A8ULA1";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語活動/英語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
-<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
 <https://w3id.org/jp-cos/88L1003000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
 <https://w3id.org/jp-cos/88L1003100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
 <https://w3id.org/jp-cos/88L1003110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
@@ -46,3 +43,6 @@
 <https://w3id.org/jp-cos/88L1003222211000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
 <https://w3id.org/jp-cos/88L1003222220000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
 <https://w3id.org/jp-cos/88L1003222221000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語活動/英語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.
+<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>.

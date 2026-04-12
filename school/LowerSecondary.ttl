@@ -2,7 +2,7 @@
   <http://purl.org/linked-data/cube#order> 3;
   <http://schema.org/name> "Lower Secondary School"@en, "ちゅうがっこう"@ja-hira, "中学校"@ja;
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://ja.dbpedia.org/resource/中学校> .
+  <http://www.w3.org/2002/07/owl#sameAs> <http://ja.dbpedia.org/resource/中学校>.
 <https://w3id.org/jp-cos/7300000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
 <https://w3id.org/jp-cos/7300000100000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
 <https://w3id.org/jp-cos/7300000110000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
@@ -3998,3 +3998,9 @@
 <https://w3id.org/jp-cos/LowerSecondary/2017/総合的な学習の時間> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
 <https://w3id.org/jp-cos/LowerSecondary/2017/美術> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
 <https://w3id.org/jp-cos/LowerSecondary/2017/音楽> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
+<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/LowerSecondary>
+  ].
+<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/LowerSecondary>
+  ].

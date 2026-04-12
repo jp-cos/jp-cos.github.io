@@ -13,4 +13,7 @@
     <http://www.w3.org/ns/shacl#order> 2;
     <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/source>
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Number> .
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Number>.
+<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/NumberShape>
+  ].

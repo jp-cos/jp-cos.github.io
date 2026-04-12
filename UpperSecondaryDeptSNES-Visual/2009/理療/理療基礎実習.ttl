@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode04> "A8";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLfA8";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理療/理療基礎実習> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Df8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
 <https://w3id.org/jp-cos/7Df8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
 <https://w3id.org/jp-cos/7Df8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
@@ -47,3 +44,6 @@
 <https://w3id.org/jp-cos/7Df8505240000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
 <https://w3id.org/jp-cos/7Df8505250000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
 <https://w3id.org/jp-cos/7Df8505260000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理療/理療基礎実習> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/理療基礎実習>.

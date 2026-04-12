@@ -1,7 +1,7 @@
 <https://w3id.org/jp-cos/school/ElementaryDeptSNES>
   <http://purl.org/linked-data/cube#order> 6;
   <http://schema.org/name> "Elementary Department of Special Needs Education School"@en, "とくべつしえんがっこうしょうがくぶ"@ja-hira, "特別支援学校小学部"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School> .
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
 <https://w3id.org/jp-cos/7600000000000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/7600000100000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/7600000110000000> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
@@ -1575,6 +1575,9 @@
 <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/総則> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
+<https://w3id.org/jp-cos/StageShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>
+  ].
 <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/3> <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.

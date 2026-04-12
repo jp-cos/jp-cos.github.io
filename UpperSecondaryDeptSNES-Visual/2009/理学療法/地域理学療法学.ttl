@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>;
   <https://w3id.org/jp-cos/fcode04> "A7";
   <https://w3id.org/jp-cos/fcodePrefix> "A7UDLgA7";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理学療法/地域理学療法学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7Dg7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
 <https://w3id.org/jp-cos/7Dg7502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
 <https://w3id.org/jp-cos/7Dg7503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
@@ -29,3 +26,6 @@
 <https://w3id.org/jp-cos/7Dg7505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
 <https://w3id.org/jp-cos/7Dg7505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
 <https://w3id.org/jp-cos/7Dg7505210000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理学療法/地域理学療法学> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/地域理学療法学>.

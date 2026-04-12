@@ -8,10 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
   <https://w3id.org/jp-cos/fcode04> "A1";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UAUDA1";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/職業・家庭/職業分野> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
-<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/8AD1206220000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
 <https://w3id.org/jp-cos/8AD1206221000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
 <https://w3id.org/jp-cos/8AD1206222000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
@@ -72,3 +69,6 @@
 <https://w3id.org/jp-cos/8AD12b4230000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
 <https://w3id.org/jp-cos/8AD12b4231000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
 <https://w3id.org/jp-cos/8AD12b4232000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/職業・家庭/職業分野> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.
+<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>.

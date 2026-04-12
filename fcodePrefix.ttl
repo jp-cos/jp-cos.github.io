@@ -2,4 +2,10 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
   <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>, <https://w3id.org/jp-cos/SubjectArea>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Fcode of Subject Area"@en, "F教科コード"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal> .
+  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
+<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcodePrefix>
+  ].
+<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcodePrefix>
+  ].

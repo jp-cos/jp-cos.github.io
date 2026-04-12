@@ -8,9 +8,7 @@
   <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
   <https://w3id.org/jp-cos/fcode03> "Ln";
   <https://w3id.org/jp-cos/fcodePrefix> "A8A8Ln";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科(小学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>.
 <https://w3id.org/jp-cos/88n0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
 <https://w3id.org/jp-cos/88n0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
 <https://w3id.org/jp-cos/88n0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
@@ -22,3 +20,5 @@
 <https://w3id.org/jp-cos/88n0300600000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
 <https://w3id.org/jp-cos/88n0300700000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
 <https://w3id.org/jp-cos/88n0300800000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/各教科(小学部)> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/各教科(小学部)>.

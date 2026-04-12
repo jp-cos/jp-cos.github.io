@@ -1,7 +1,17 @@
 <https://w3id.org/jp-cos/CommentaryItem>
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
   <http://www.w3.org/2000/01/rdf-schema#comment> "A class representing a Item of Commentary on the Course of Study."@en, "学習指導要領解説の細目を表すクラス。"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Item of Commentary on the Course of Study"@en, "学習指導要領解説の細目"@ja .
+  <http://www.w3.org/2000/01/rdf-schema#label> "Item of Commentary on the Course of Study"@en, "学習指導要領解説の細目"@ja.
+<https://w3id.org/jp-cos/CommentaryItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>
+  ];
+  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CommentaryItem>.
+<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>
+  ].
+<https://w3id.org/jp-cos/StructuredItemShape> <http://www.w3.org/ns/shacl#property> [
+    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>
+  ].
 <https://w3id.org/jp-cos/commentary/1000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>.
 <https://w3id.org/jp-cos/commentary/1000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>.
 <https://w3id.org/jp-cos/commentary/1000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>.
@@ -657,4 +667,3 @@
 <https://w3id.org/jp-cos/commentary/1000953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>.
 <https://w3id.org/jp-cos/commentary/1000954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>.
 <https://w3id.org/jp-cos/commentary/1000955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>.
-<https://w3id.org/jp-cos/CommentaryItemShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CommentaryItem>.

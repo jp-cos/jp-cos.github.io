@@ -9,10 +9,7 @@
   <https://w3id.org/jp-cos/fcode04> "UC";
   <https://w3id.org/jp-cos/fcodePrefix> "A8UELkUC";
   <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018> .
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/歯科技工/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
 <https://w3id.org/jp-cos/8EkC500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
 <https://w3id.org/jp-cos/8EkC502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
 <https://w3id.org/jp-cos/8EkC502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
@@ -28,3 +25,6 @@
 <https://w3id.org/jp-cos/8EkC505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
 <https://w3id.org/jp-cos/8EkC505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
 <https://w3id.org/jp-cos/8EkC505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.
+<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/歯科技工/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/課題研究>.

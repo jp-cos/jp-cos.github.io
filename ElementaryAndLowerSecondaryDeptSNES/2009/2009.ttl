@@ -12,8 +12,7 @@
   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/21597792>, <https://ci.nii.ac.jp/ncid/BA90585459>, <https://web.archive.org/web/20210726150346/https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/tokushi/1284518.htm>;
   <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/76V10>, <https://w3id.org/jp-cos/76V11>;
   <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES> .
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>.
 <https://w3id.org/jp-cos/7600000000000000> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/7600000100000000> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/7600000110000000> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
@@ -391,6 +390,7 @@
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総合的な学習の時間> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/自立活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/道徳> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
+<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/各教科(小学部)> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
 <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/図画工作> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>.
