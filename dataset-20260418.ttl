@@ -21,8 +21,8 @@ _:toplevel a void:Dataset;
     dct:source <https://www.mext.go.jp/a_menu/other/data_00001.htm>;
     dcat:accessService [
       a dcat:DataService;
-      dcat:endpointURL <https://dydra.com/masao/jp-naaa/sparql>;
-      dcat:landingPage <https://dydra.com/masao/jp-naaa/@query>
+      dcat:endpointURL <https://dydra.com/masao/jp-cos/sparql>;
+      dcat:landingPage <https://dydra.com/masao/jp-cos/@query>
     ];
     dct:publisher [
         a foaf:Group;
@@ -39,8 +39,8 @@ _:toplevel a void:Dataset;
 		    a foaf:Person;
 		    foaf:name "有山裕美子"@ja;
 		    foaf:name "Yumiko Ariyama"@en;
-            vcard:organization-name "滋賀文教短期大学"@ja;
-            vcard:organization-name "Shiga Bunkyo Junior College"@en;
+            vcard:organization-name "大妻女子大学"@ja;
+            vcard:organization-name "Otsuma Women's University"@en;
 	    ], [
 		    a foaf:Person;
 		    foaf:name "江草由佳"@ja;
@@ -51,8 +51,6 @@ _:toplevel a void:Dataset;
 		    a foaf:Person;
 		    foaf:name "榎本聡"@ja;
 		    foaf:name "Satoshi Enomoto"@en;
-            vcard:organization-name "日本女子大学"@ja;
-            vcard:organization-name "Japan Women's University"@en;
 	    ], [
 		    a foaf:Person;
 		    foaf:name "大井将生"@ja;
