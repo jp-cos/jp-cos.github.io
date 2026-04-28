@@ -89,5 +89,14 @@
     <http://www.w3.org/ns/shacl#name> "has a subject"@en, "科目がある"@ja;
     <http://www.w3.org/ns/shacl#order> 10;
     <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubject>
+  ], [
+    <http://www.w3.org/2004/02/skos/core#example> "1";
+    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
+    <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    <http://www.w3.org/ns/shacl#maxCount> 1;
+    <http://www.w3.org/ns/shacl#minCount> 1;
+    <http://www.w3.org/ns/shacl#name> "Order"@en, "順"@ja;
+    <http://www.w3.org/ns/shacl#order> 11;
+    <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
   ];
   <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudy>.

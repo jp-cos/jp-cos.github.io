@@ -166,7 +166,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>The value of the "Course of Study Code" column of the original data.</td>
+      <td>The value of the "Course of Study Code" column of the original data.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>schema:description</code></td>
@@ -180,7 +180,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>The value of the "Text of Course of Study" column of the original data.</td>
+      <td>The value of the "Text of Course of Study" column of the original data.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:sectionNumberHierarchy</code></td>
@@ -194,7 +194,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
+      <td>It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:commentaryPage</code></td>
@@ -278,7 +278,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>It corresponds to the 6th digit of the course of study code.</td>
+      <td>It corresponds to the 6th digit of the course of study code.<br>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>cs:stage</code></td>
@@ -306,7 +306,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It corresponds to the 5th digit of the course of study code.</td>
+      <td>It corresponds to the 5th digit of the course of study code.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:subCategory</code></td>
@@ -320,7 +320,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It corresponds to the 7th digit of the course of study code.</td>
+      <td>It corresponds to the 7th digit of the course of study code.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:sectionNumber</code></td>
@@ -334,7 +334,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is the section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
+      <td>It is the section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:sectionText</code></td>
@@ -348,7 +348,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.</td>
+      <td>It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>schema:hasPart</code></td>
@@ -576,7 +576,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It corresponds to the 16th digit of the course of study code.</td>
+      <td>It corresponds to the 16th digit of the course of study code.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>dct:source</code></td>
@@ -633,7 +633,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>dct:source</code></td>
@@ -676,7 +676,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make course of study code easier to handle in Excel filters and pivot tables.</td>
+      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make course of study code easier to handle in Excel filters and pivot tables.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>bf:note</code></td>
@@ -690,7 +690,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, this property represents an original note and English note. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese note</dd><dt>@en</dt><dd>English note</dd></dl></td>
+      <td>Using language tags, this property represents an original note and English note. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese note</dd><dt>@en</dt><dd>English note</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
   </tbody>
   <tfoot>
@@ -766,7 +766,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>cs:school</code></td>
@@ -794,7 +794,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
   </tbody>
   <tfoot>
@@ -852,7 +852,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>schema:datePublished</code></td>
@@ -866,7 +866,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
     <tr>
       <td class="url"><code>schema:startDate</code></td>
@@ -880,7 +880,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
     <tr>
       <td class="url"><code>cs:school</code></td>
@@ -966,6 +966,20 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       </td>
       <td></td>
     </tr>
+    <tr>
+      <td class="url"><code>qb:order</code></td>
+      <td>Order</td>
+      <td>1</td>
+      <td>
+        <div>
+          <strong>Required</strong>
+        </div>
+        <div>
+        Non repeatable
+        </div>
+      </td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
+    </tr>
   </tbody>
   <tfoot>
     <tr><td colspan="5">
@@ -977,6 +991,8 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
       <dd class="col-sm-10">http://schema.org/</dd>
       <dt class="col-sm-2"><code>dct:</code></dt>
       <dd class="col-sm-10">http://purl.org/dc/terms/</dd>
+      <dt class="col-sm-2"><code>qb:</code></dt>
+      <dd class="col-sm-10">http://purl.org/linked-data/cube#</dd>
       </dl>
     </td></tr>
   </tfoot>
@@ -1022,7 +1038,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>If the revision is on a part of a guideline, the name of the revision will be assigned such as "Partial revision in December 2003". Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>If the revision is on a part of a guideline, the name of the revision will be assigned such as "Partial revision in December 2003". Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>schema:citation</code></td>
@@ -1036,7 +1052,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Refer to the official announcement and its publication. Using language tags, Japanese and English names shown. The meanings of language tags are as follows: <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Refer to the official announcement and its publication. Using language tags, Japanese and English names shown. The meanings of language tags are as follows: <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>schema:url</code></td>
@@ -1078,7 +1094,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>nier:itemID</code></td>
@@ -1092,7 +1108,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>nier:callNumber</code></td>
@@ -1106,7 +1122,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Delimiter for a call number is "||".</td>
+      <td>Delimiter for a call number is "||".<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>nier:recordID</code></td>
@@ -1120,7 +1136,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>.</td>
+      <td>Link is available as <code>https://nieropac.nier.go.jp/ebopac/<var>record identifier</var></code>.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>schema:startDate</code></td>
@@ -1134,7 +1150,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
     <tr>
       <td class="url"><code>schema:datePublished</code></td>
@@ -1148,7 +1164,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
     <tr>
       <td class="url"><code>cs:school</code></td>
@@ -1222,7 +1238,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>The ID is a 7-digit number. The ID is an original identifier.</td>
+      <td>The ID is a 7-digit number. The ID is an original identifier.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>schema:description</code></td>
@@ -1236,7 +1252,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>The value of the "Text of  Commentary on the Course of Study".</td>
+      <td>The value of the "Text of  Commentary on the Course of Study".<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>schema:about</code></td>
@@ -1306,7 +1322,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>When an item represents a section title, it denotes the same content as the “Description.”</td>
+      <td>When an item represents a section title, it denotes the same content as the “Description.”<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>dct:alternative</code></td>
@@ -1320,7 +1336,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>Abbreviated section title, intended for use in breadcrumbs and similar contexts.</td>
+      <td>Abbreviated section title, intended for use in breadcrumbs and similar contexts.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>qb:order</code></td>
@@ -1334,7 +1350,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>This is used in the order of the listings.</td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1380,7 +1396,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>cs:school</code></td>
@@ -1422,7 +1438,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:gYear</td>
     </tr>
     <tr>
       <td class="url"><code>schema:url</code></td>
@@ -1464,7 +1480,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>This is used in the order of the listings.</td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1510,7 +1526,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>This is used in the order of the listings.</td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>rdfs:seeAlso</code></td>
@@ -1538,7 +1554,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1582,7 +1598,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>dct:source</code></td>
@@ -1638,7 +1654,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>schema:startDate</code></td>
@@ -1652,7 +1668,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
     <tr>
       <td class="url"><code>schema:endDate</code></td>
@@ -1666,7 +1682,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:date</td>
     </tr>
     <tr>
       <td class="url"><code>cs:code01</code></td>
@@ -1680,7 +1696,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:fcode01</code></td>
@@ -1694,7 +1710,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the first digit code of course of study item easier to handle in Excel filters and pivot tables.</td>
+      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the first digit code of course of study item easier to handle in Excel filters and pivot tables.<br>Datatype: xsd:string</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1750,7 +1766,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
+      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.<br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1806,7 +1822,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
+      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.<br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1848,7 +1864,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>This is used in the order of the listings.</td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>owl:sameAs</code></td>
@@ -1876,7 +1892,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
   </tbody>
   <tfoot>
@@ -1920,7 +1936,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese and English names are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, Japanese and English names are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>cs:courseOfStudy</code></td>
@@ -1953,7 +1969,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
     <tr>
       <td class="url"><code>dct:date</code></td>
       <td>Reference Date</td>
-      <td>"2018-08-12"</td>
+      <td>"2018-08-12"<span class="datatype">^^xsd:date</span></td>
       <td>
         <div>
           <strong>Required</strong>
@@ -1962,7 +1978,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>Date of reference for this source</td>
+      <td>Date of reference for this source<br>Datatype: xsd:date</td>
     </tr>
   </tbody>
   <tfoot>
@@ -2008,7 +2024,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl></td>
+      <td>Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl><br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>schema:description</code></td>
@@ -2022,7 +2038,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>schema:citation</code></td>
@@ -2036,7 +2052,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>Refer to the official publication.</td>
+      <td>Refer to the official publication.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>rdfs:seeAlso</code></td>
@@ -2192,7 +2208,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>This is used in the order of the listings.</td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>cs:disabilityCategory</code></td>
@@ -2234,7 +2250,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
+      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.<br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>cs:sourceOfEnglishName</code></td>
@@ -2262,7 +2278,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:fcode03</code></td>
@@ -2276,7 +2292,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables.</td>
+      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 3th digit code of course of study item easier to handle in Excel filters and pivot tables.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:codePrefix</code></td>
@@ -2290,7 +2306,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>The first through third digits of the course of study code</td>
+      <td>The first through third digits of the course of study code<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:fcodePrefix</code></td>
@@ -2304,7 +2320,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 3th one of course of study item easier to handle in Excel filters and pivot tables.</td>
+      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 3th one of course of study item easier to handle in Excel filters and pivot tables.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:hasSubject</code></td>
@@ -2376,7 +2392,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>This is used in the order of the listings.</td>
+      <td>This is used in the order of the listings.<br>Datatype: xsd:integer</td>
     </tr>
     <tr>
       <td class="url"><code>cs:disabilityCategory</code></td>
@@ -2418,7 +2434,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Repeatable
         </div>
       </td>
-      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.</td>
+      <td>Using language tags, Japanese name, transcription of the name, and English name are shown. The meanings of language tags are as follows:  <dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). The name of the subject area is transcribed in Hiragana.</dd><dt>@en</dt><dd>English name of the subject area</dd></dl>Note that English names are unfficial one. Translation is done by the maintainers of this dataset. While we could not find the official English translations for the subject area, we refer to the tentative translations in the curriculum guidelines, and the English guide entitled "Education in Japan" published by the MEXT.<br>Datatype: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString</td>
     </tr>
     <tr>
       <td class="url"><code>cs:sourceOfEnglishName</code></td>
@@ -2446,7 +2462,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td></td>
+      <td>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:fcode04</code></td>
@@ -2460,7 +2476,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 4th digit code of course of study item easier to handle in Excel filters and pivot tables.</td>
+      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make the 4th digit code of course of study item easier to handle in Excel filters and pivot tables.<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:codePrefix</code></td>
@@ -2474,7 +2490,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>The first through 4th digits of the course of study code</td>
+      <td>The first through 4th digits of the course of study code<br>Datatype: xsd:string</td>
     </tr>
     <tr>
       <td class="url"><code>cs:fcodePrefix</code></td>
@@ -2488,7 +2504,7 @@ The base URI <code>https://w3id.org/jp-cos/</code> of the course of study LOD is
         Non repeatable
         </div>
       </td>
-      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 4th one of course of study item easier to handle in Excel filters and pivot tables.</td>
+      <td>It is assigned "A" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 4th one of course of study item easier to handle in Excel filters and pivot tables.<br>Datatype: xsd:string</td>
     </tr>
   </tbody>
   <tfoot>
