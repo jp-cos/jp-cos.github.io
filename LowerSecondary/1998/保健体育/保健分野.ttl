@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野>
+  <http://purl.org/linked-data/cube#order> 7;
+  <http://schema.org/name> "Health"@en, "ほけんぶんや"@ja-hira, "保健分野"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
+<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野>.
+<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野>.

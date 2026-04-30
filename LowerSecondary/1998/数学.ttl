@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/LowerSecondary/1998/数学>
+  <http://purl.org/linked-data/cube#order> 4;
+  <http://schema.org/name> "Mathematics"@en, "すうがく"@ja-hira, "数学"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "5";
+  <https://w3id.org/jp-cos/codePrefix> "635";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
+  <https://w3id.org/jp-cos/fcode03> "A5";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A3A5";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
+<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/1998/数学>.

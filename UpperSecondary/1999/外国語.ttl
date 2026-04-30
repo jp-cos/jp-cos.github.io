@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/外国語>
+  <http://purl.org/linked-data/cube#order> 9;
+  <http://schema.org/name> "Foreign Languages"@en, "がいこくご"@ja-hira, "外国語"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "H";
+  <https://w3id.org/jp-cos/codePrefix> "64H";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "UH";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UH";
+  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/オーラル・コミュニケーションI>, <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/オーラル・コミュニケーションII>, <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/英語I>, <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/英語II>, <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/リーディング>, <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/ライティング>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/外国語>.

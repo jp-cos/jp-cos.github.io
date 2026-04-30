@@ -1,0 +1,11 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/英語(専門)>
+  <http://purl.org/linked-data/cube#order> 25;
+  <http://schema.org/name> "English(Special)"@en, "えいご(せんもん)"@ja-hira, "英語(専門)"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "d";
+  <https://w3id.org/jp-cos/codePrefix> "64d";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "Ld";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4Ld";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/英語(専門)>.

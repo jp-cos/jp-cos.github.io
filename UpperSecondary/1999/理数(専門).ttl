@@ -1,0 +1,11 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/理数(専門)>
+  <http://purl.org/linked-data/cube#order> 21;
+  <http://schema.org/name> "specialized Science and Mathematics(Special)"@en, "りすう(せんもん)"@ja-hira, "理数(専門)"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "Z";
+  <https://w3id.org/jp-cos/codePrefix> "64Z";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "UZ";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UZ";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/理数(専門)>.

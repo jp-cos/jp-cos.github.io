@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/看護/成人・老人看護>
+  <http://purl.org/linked-data/cube#order> 207;
+  <http://schema.org/name> "Geriatric and Adult Nursing"@en, "せいじん・ろうじんかんご"@ja-hira, "成人・老人看護"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/看護/成人・老人看護>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/看護> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/看護/成人・老人看護>.

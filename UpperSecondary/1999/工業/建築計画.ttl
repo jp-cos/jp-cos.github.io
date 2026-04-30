@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/工業/建築計画>
+  <http://purl.org/linked-data/cube#order> 121;
+  <http://schema.org/name> "Architectural Planning"@en, "けんちくけいかく"@ja-hira, "建築計画"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/工業/建築計画>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/工業/建築計画>.

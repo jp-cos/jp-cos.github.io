@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/芸術/音楽II>
+  <http://purl.org/linked-data/cube#order> 37;
+  <http://schema.org/name> "Music II"@en, "おんがくII"@ja-hira, "音楽II"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/芸術/音楽II>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/芸術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/芸術/音楽II>.

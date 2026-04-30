@@ -1,0 +1,11 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/各教科(専門)>
+  <http://purl.org/linked-data/cube#order> 26;
+  <http://schema.org/name> "All Subjects(Special)"@en, "かくきょうか(せんもん)"@ja-hira, "各教科(専門)"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "o";
+  <https://w3id.org/jp-cos/codePrefix> "64o";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "Lo";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4Lo";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/各教科(専門)>.

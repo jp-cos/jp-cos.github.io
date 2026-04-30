@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/LowerSecondary/1998/特別活動/生徒会活動>
+  <http://purl.org/linked-data/cube#order> 13;
+  <http://schema.org/name> "the Student’s Association"@en, "せいとかいかつどう"@ja-hira, "生徒会活動"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
+<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/特別活動/生徒会活動>.
+<https://w3id.org/jp-cos/LowerSecondary/1998/特別活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/特別活動/生徒会活動>.

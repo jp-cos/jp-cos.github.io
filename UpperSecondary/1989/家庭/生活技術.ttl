@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/家庭/生活技術>
+  <http://purl.org/linked-data/cube#order> 59;
+  <http://schema.org/name> "Home Economics Technology"@en, "せいかつぎじゅつ"@ja-hira, "生活技術"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/生活技術>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/生活技術>.

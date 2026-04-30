@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/LowerSecondary/1998/外国語/その他の外国語>
+  <http://purl.org/linked-data/cube#order> 11;
+  <http://schema.org/name> "Other Foreign Languages"@en, "そのたのがいこくご"@ja-hira, "その他の外国語"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
+<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/外国語/その他の外国語>.
+<https://w3id.org/jp-cos/LowerSecondary/1998/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/外国語/その他の外国語>.

@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/英語/英語一般>
+  <http://purl.org/linked-data/cube#order> 282;
+  <http://schema.org/name> "General English"@en, "えいごいっぱん"@ja-hira, "英語一般"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/英語/英語一般>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/英語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/英語/英語一般>.

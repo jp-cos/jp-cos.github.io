@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/理数/理数化学>
+  <http://purl.org/linked-data/cube#order> 232;
+  <http://schema.org/name> "Chemistry for Science and Mathematics Course"@en, "りすうかがく"@ja-hira, "理数化学"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理数/理数化学>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/理数> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理数/理数化学>.

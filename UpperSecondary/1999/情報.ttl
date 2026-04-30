@@ -1,0 +1,13 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/情報>
+  <http://purl.org/linked-data/cube#order> 12;
+  <http://schema.org/name> "Informatics"@en, "じょうほう"@ja-hira, "情報"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "I";
+  <https://w3id.org/jp-cos/codePrefix> "64I";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "UI";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UI";
+  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報A>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報B>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報C>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報産業と社会>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/課題研究>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報実習>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報と表現>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/アルゴリズム>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/情報システムの開発>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/ネットワークシステム>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/モデル化とシミュレーション>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/コンピュータデザイン>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/図形と画像の処理>, <https://w3id.org/jp-cos/UpperSecondary/1999/情報/マルチメディア表現>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/情報>.

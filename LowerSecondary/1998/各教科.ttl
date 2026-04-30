@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/LowerSecondary/1998/各教科>
+  <http://purl.org/linked-data/cube#order> 11;
+  <http://schema.org/name> "All Subjects"@en, "かくきょうか"@ja-hira, "各教科"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "n";
+  <https://w3id.org/jp-cos/codePrefix> "63n";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
+  <https://w3id.org/jp-cos/fcode03> "Ln";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A3Ln";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
+<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/1998/各教科>.

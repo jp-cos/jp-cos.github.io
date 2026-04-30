@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/福祉/社会福祉制度>
+  <http://purl.org/linked-data/cube#order> 223;
+  <http://schema.org/name> "The Social Welfare System "@en, "しゃかいふくしせいど"@ja-hira, "社会福祉制度"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/福祉/社会福祉制度>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/福祉> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/福祉/社会福祉制度>.

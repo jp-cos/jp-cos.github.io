@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/Elementary/1998/生活>
+  <http://purl.org/linked-data/cube#order> 6;
+  <http://schema.org/name> "Living Environment Studies"@en, "せいかつ"@ja-hira, "生活"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "7";
+  <https://w3id.org/jp-cos/codePrefix> "627";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>;
+  <https://w3id.org/jp-cos/fcode03> "A7";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A2A7";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008>.
+<https://w3id.org/jp-cos/Elementary/1998> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/1998/生活>.

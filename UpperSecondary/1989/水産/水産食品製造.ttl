@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品製造>
+  <http://purl.org/linked-data/cube#order> 235;
+  <http://schema.org/name> "Manufacture of Fisheries Food Products"@en, "すいさんしょくひんせいぞう"@ja-hira, "水産食品製造"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品製造>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品製造>.

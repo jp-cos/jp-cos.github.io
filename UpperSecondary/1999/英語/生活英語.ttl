@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/英語/生活英語>
+  <http://purl.org/linked-data/cube#order> 265;
+  <http://schema.org/name> "Practical English"@en, "せいかつえいご"@ja-hira, "生活英語"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/英語/生活英語>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/英語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/英語/生活英語>.

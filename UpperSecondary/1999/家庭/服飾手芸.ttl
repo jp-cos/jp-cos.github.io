@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/家庭/服飾手芸>
+  <http://purl.org/linked-data/cube#order> 197;
+  <http://schema.org/name> "Clothes Handicraft"@en, "ふくしょくしゅげい"@ja-hira, "服飾手芸"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/家庭/服飾手芸>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/家庭/服飾手芸>.

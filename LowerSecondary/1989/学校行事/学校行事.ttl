@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/LowerSecondary/1989/学校行事/学校行事>
+  <http://purl.org/linked-data/cube#order> 12;
+  <http://schema.org/name> "School Events"@en, "がっこうぎょうじ"@ja-hira, "学校行事"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008>.
+<https://w3id.org/jp-cos/LowerSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1989/学校行事/学校行事>.
+<https://w3id.org/jp-cos/LowerSecondary/1989/学校行事> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1989/学校行事/学校行事>.

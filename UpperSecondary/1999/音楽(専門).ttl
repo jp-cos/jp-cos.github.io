@@ -1,0 +1,11 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/音楽(専門)>
+  <http://purl.org/linked-data/cube#order> 23;
+  <http://schema.org/name> "Music(Special)"@en, "おんがく(せんもん)"@ja-hira, "音楽(専門)"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "b";
+  <https://w3id.org/jp-cos/codePrefix> "64b";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "Lb";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4Lb";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/音楽(専門)>.

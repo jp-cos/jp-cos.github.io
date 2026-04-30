@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/家庭/家庭情報処理>
+  <http://purl.org/linked-data/cube#order> 188;
+  <http://schema.org/name> "Home Economics Information Processing"@en, "かていじょうほうしょり"@ja-hira, "家庭情報処理"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/家庭/家庭情報処理>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/家庭/家庭情報処理>.

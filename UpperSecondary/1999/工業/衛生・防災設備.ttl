@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/工業/衛生・防災設備>
+  <http://purl.org/linked-data/cube#order> 125;
+  <http://schema.org/name> "Sanitation and Disaster Prevention Equipment"@en, "えいせい・ぼうさいせつび"@ja-hira, "衛生・防災設備"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/工業/衛生・防災設備>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/工業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/工業/衛生・防災設備>.

@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/外国語/オーラル・コミュニケーションII>
+  <http://purl.org/linked-data/cube#order> 49;
+  <http://schema.org/name> "English Oral Communication II"@en, "おーらる・こみゅにけーしょんII"@ja-hira, "オーラル・コミュニケーションII"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/オーラル・コミュニケーションII>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/外国語/オーラル・コミュニケーションII>.

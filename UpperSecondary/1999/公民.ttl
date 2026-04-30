@@ -1,0 +1,13 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/公民>
+  <http://purl.org/linked-data/cube#order> 4;
+  <http://schema.org/name> "Civics"@en, "こうみん"@ja-hira, "公民"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "4";
+  <https://w3id.org/jp-cos/codePrefix> "644";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/fcode03> "A4";
+  <https://w3id.org/jp-cos/fcodePrefix> "A6A4A4";
+  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/公民/現代社会>, <https://w3id.org/jp-cos/UpperSecondary/1999/公民/倫理>, <https://w3id.org/jp-cos/UpperSecondary/1999/公民/政治・経済>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/公民>.

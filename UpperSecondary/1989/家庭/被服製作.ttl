@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服製作>
+  <http://purl.org/linked-data/cube#order> 72;
+  <http://schema.org/name> "Clothing Manufacture"@en, "ひふくせいさく"@ja-hira, "被服製作"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服製作>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服製作>.

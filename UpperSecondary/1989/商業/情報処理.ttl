@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/商業/情報処理>
+  <http://purl.org/linked-data/cube#order> 196;
+  <http://schema.org/name> "Information Processing"@en, "じょうほうしょり"@ja-hira, "情報処理"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/商業/情報処理>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/商業/情報処理>.

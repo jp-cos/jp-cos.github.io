@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/理数/理数数学探究>
+  <http://purl.org/linked-data/cube#order> 230;
+  <http://schema.org/name> "Mathematical and Scientific Inquiry"@en, "りすうすうがくたんきゅう"@ja-hira, "理数数学探究"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理数/理数数学探究>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/理数> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理数/理数数学探究>.

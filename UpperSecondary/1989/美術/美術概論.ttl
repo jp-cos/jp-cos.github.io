@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/美術/美術概論>
+  <http://purl.org/linked-data/cube#order> 265;
+  <http://schema.org/name> "Introduction to Art"@en, "びじゅつがいろん"@ja-hira, "美術概論"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/美術/美術概論>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/美術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/美術/美術概論>.

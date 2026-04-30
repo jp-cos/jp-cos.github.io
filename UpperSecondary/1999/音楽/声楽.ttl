@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/音楽/声楽>
+  <http://purl.org/linked-data/cube#order> 246;
+  <http://schema.org/name> "Vocal Music"@en, "せいがく"@ja-hira, "声楽"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/音楽/声楽>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/音楽> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/音楽/声楽>.

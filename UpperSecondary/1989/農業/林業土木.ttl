@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/農業/林業土木>
+  <http://purl.org/linked-data/cube#order> 101;
+  <http://schema.org/name> "Civil Engineering of Forestry"@en, "りんぎょうどぼく"@ja-hira, "林業土木"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/農業/林業土木>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/農業/林業土木>.

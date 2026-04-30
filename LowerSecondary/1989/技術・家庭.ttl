@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/LowerSecondary/1989/技術・家庭>
+  <http://purl.org/linked-data/cube#order> 9;
+  <http://schema.org/name> "Technology and Home Economics"@en, "ぎじゅつ・かてい"@ja-hira, "技術・家庭"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "C";
+  <https://w3id.org/jp-cos/codePrefix> "53C";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/fcode03> "UC";
+  <https://w3id.org/jp-cos/fcodePrefix> "A5A3UC";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
+<https://w3id.org/jp-cos/LowerSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/1989/技術・家庭>.

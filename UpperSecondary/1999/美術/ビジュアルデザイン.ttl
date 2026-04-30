@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/美術/ビジュアルデザイン>
+  <http://purl.org/linked-data/cube#order> 256;
+  <http://schema.org/name> "Visual Design"@en, "びじゅあるでざいん"@ja-hira, "ビジュアルデザイン"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/美術/ビジュアルデザイン>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/美術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/美術/ビジュアルデザイン>.

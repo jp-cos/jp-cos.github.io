@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/家庭/家庭看護・福祉>
+  <http://purl.org/linked-data/cube#order> 192;
+  <http://schema.org/name> "Nursing and Welfare of Home Economics"@en, "かていかんご・ふくし"@ja-hira, "家庭看護・福祉"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/家庭/家庭看護・福祉>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/家庭> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/家庭/家庭看護・福祉>.

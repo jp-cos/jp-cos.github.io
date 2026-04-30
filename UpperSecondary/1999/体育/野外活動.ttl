@@ -1,0 +1,8 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/体育/野外活動>
+  <http://purl.org/linked-data/cube#order> 241;
+  <http://schema.org/name> "Outdoor Education"@en, "やがいかつどう"@ja-hira, "野外活動"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/体育/野外活動>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/体育> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/体育/野外活動>.

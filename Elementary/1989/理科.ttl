@@ -1,0 +1,12 @@
+<https://w3id.org/jp-cos/Elementary/1989/理科>
+  <http://purl.org/linked-data/cube#order> 5;
+  <http://schema.org/name> "Science"@en, "りか"@ja-hira, "理科"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
+  <https://w3id.org/jp-cos/code03> "6";
+  <https://w3id.org/jp-cos/codePrefix> "526";
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>;
+  <https://w3id.org/jp-cos/fcode03> "A6";
+  <https://w3id.org/jp-cos/fcodePrefix> "A5A2A6";
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008>.
+<https://w3id.org/jp-cos/Elementary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/1989/理科>.

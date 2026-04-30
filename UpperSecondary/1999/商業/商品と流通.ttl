@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1999/商業/商品と流通>
+  <http://purl.org/linked-data/cube#order> 152;
+  <http://schema.org/name> "Goods and Distribution"@en, "しょうひんとりゅうつう"@ja-hira, "商品と流通"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
+<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/商業/商品と流通>.
+<https://w3id.org/jp-cos/UpperSecondary/1999/商業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/商業/商品と流通>.

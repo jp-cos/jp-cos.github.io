@@ -1,0 +1,9 @@
+<https://w3id.org/jp-cos/UpperSecondary/1989/国語/現代文>
+  <http://purl.org/linked-data/cube#order> 4;
+  <http://schema.org/name> "Contemporary Japanese Language"@en, "げんだいぶん"@ja-hira, "現代文"@ja;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
+  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
+  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
+  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
+<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/国語/現代文>.
+<https://w3id.org/jp-cos/UpperSecondary/1989/国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/国語/現代文>.
