@@ -1,26 +1,31 @@
-<https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>
-  <http://purl.org/linked-data/cube#order> 261;
-  <http://schema.org/name> "Solfége"@en, "するふぇーじゅ"@ja-hira, "ソルフェージュ"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "4";
-  <https://w3id.org/jp-cos/codePrefix> "84b4";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode04> "A4";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LbA4";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/84b4500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/84b4505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
-<https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/音楽(専門)/ソルフェージュ>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ
+  qb:order 261;
+  schema:name "Solfége"@en, "するふぇーじゅ"@ja-hira, "ソルフェージュ"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "4";
+  cs:codePrefix "84b4";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode04 "A4";
+  cs:fcodePrefix "A8A4LbA4";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:84b4500000000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4502000000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4502100000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4502200000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4502300000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4503000000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4503100000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4503110000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4503120000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4503130000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4505000000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4505100000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:84b4505200000000 cs:subject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:UpperSecondary\/2018 cs:hasSubject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.
+cs:UpperSecondary\/2018\/音楽\(専門\) cs:hasSubject cs:UpperSecondary\/2018\/音楽\(専門\)\/ソルフェージュ.

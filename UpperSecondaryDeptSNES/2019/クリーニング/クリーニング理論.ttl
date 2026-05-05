@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/クリーニング/クリーニング理論>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング理論>;
-  <http://schema.org/name> "Laundry Theory"@en, "くりーにんぐりろん"@ja-hira, "クリーニング理論"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/クリーニング\/クリーニング理論
+  dct:relation cs:UpperSecondaryDeptSNES-Hearing\/2019\/クリーニング\/クリーニング理論;
+  schema:name "Laundry Theory"@en, "くりーにんぐりろん"@ja-hira, "クリーニング理論"@ja;
+  rdf:type cs:RelatedSubject.

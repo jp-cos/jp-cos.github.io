@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>
-  <http://purl.org/linked-data/cube#order> 34;
-  <http://schema.org/name> "Distribution and Service"@en, "りゅうつう・さーびす"@ja-hira, "流通・サービス"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "S";
-  <https://w3id.org/jp-cos/codePrefix> "7GS";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "US";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7UGUS";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>.
-<https://w3id.org/jp-cos/7GS0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203410000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203420000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203430000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/7GS0203440000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/流通・サービス> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/流通・サービス>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス
+  qb:order 34;
+  schema:name "Distribution and Service"@en, "りゅうつう・さーびす"@ja-hira, "流通・サービス"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "S";
+  cs:codePrefix "7GS";
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "US";
+  cs:fcodePrefix "A7UGUS";
+  cs:school cs:school\/UpperSecondaryDeptSNES.
+cs:7GS0200000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0202000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203100000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203200000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203300000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203400000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203410000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203420000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203430000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:7GS0203440000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:UpperSecondaryDeptSNES\/2009 cs:hasSubjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.
+cs:UpperSecondaryDeptSNES\/2009\/流通・サービス dct:relation cs:UpperSecondaryDeptSNES-Intellectual\/2009\/流通・サービス.

@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/71l0000100000000>
-  <http://purl.org/dc/terms/identifier> "71l0000100000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 16
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:71l0000100000000
+  dct:identifier "71l0000100000000";
+  dct:source cs:71V11 cs:71V11;
+  qb:order [
+    dct:source cs:71V11 cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 16
   ];
-  <http://schema.org/description> """　この章に示すねらいは，幼稚園修了までに育つことが期待される生きる力の基礎となる心情，意欲，態度などであり，内容は，ねらいを達成するために指導する事項である。これらを幼児の発達の側面から，心身の健康に関する領域「健康」，人とのかかわりに関する領域「人間関係」，身近な環境とのかかわりに関する領域「環境」，言葉の獲得に関する領域「言葉」及び感性と表現に関する領域「表現」としてまとめ，示したものである。
+  schema:description """　この章に示すねらいは，幼稚園修了までに育つことが期待される生きる力の基礎となる心情，意欲，態度などであり，内容は，ねらいを達成するために指導する事項である。これらを幼児の発達の側面から，心身の健康に関する領域「健康」，人とのかかわりに関する領域「人間関係」，身近な環境とのかかわりに関する領域「環境」，言葉の獲得に関する領域「言葉」及び感性と表現に関する領域「表現」としてまとめ，示したものである。
 　各領域に示すねらいは，幼稚園における生活の全体を通じ，幼児が様々な体験を積み重ねる中で相互に関連をもちながら次第に達成に向かうものであること，内容は，幼児が環境にかかわって展開する具体的な活動を通して総合的に指導されるものであることに留意しなければならない。
 　なお，特に必要な場合には，各領域に示すねらいの趣旨に基づいて適切な，具体的な内容を工夫し，それを加えても差し支えないが，その場合には，それが第１章の第１に示す幼稚園教育の基本を逸脱しないよう慎重に配慮する必要がある。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
-  <https://w3id.org/jp-cos/fcode> "A7A1LlA0A0A0A0A1A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / この章に示すねらいは，幼稚園修了までに育つ...";
-  <https://w3id.org/jp-cos/sectionText> """この章に示すねらいは，幼稚園修了までに育つことが期待される生きる力の基礎となる心情，意欲，態度などであり，内容は，ねらいを達成するために指導する事項である。これらを幼児の発達の側面から，心身の健康に関する領域「健康」，人とのかかわりに関する領域「人間関係」，身近な環境とのかかわりに関する領域「環境」，言葉の獲得に関する領域「言葉」及び感性と表現に関する領域「表現」としてまとめ，示したものである。
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:Kindergarten\/2008;
+  cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;
+  cs:fcode "A7A1LlA0A0A0A0A1A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/Kindergarten;
+  cs:sectionNumberHierarchy "第1章 / 第2章 / この章に示すねらいは，幼稚園修了までに育つ...";
+  cs:sectionText """この章に示すねらいは，幼稚園修了までに育つことが期待される生きる力の基礎となる心情，意欲，態度などであり，内容は，ねらいを達成するために指導する事項である。これらを幼児の発達の側面から，心身の健康に関する領域「健康」，人とのかかわりに関する領域「人間関係」，身近な環境とのかかわりに関する領域「環境」，言葉の獲得に関する領域「言葉」及び感性と表現に関する領域「表現」としてまとめ，示したものである。
  各領域に示すねらいは，幼稚園における生活の全体を通じ，幼児が様々な体験を積み重ねる中で相互に関連をもちながら次第に達成に向かうものであること，内容は，幼児が環境にかかわって展開する具体的な活動を通して総合的に指導されるものであることに留意しなければならない。
  なお，特に必要な場合には，各領域に示すねらいの趣旨に基づいて適切な，具体的な内容を工夫し，それを加えても差し支えないが，その場合には，それが第1章の第1に示す幼稚園教育の基本を逸脱しないよう慎重に配慮する必要がある。""";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/ねらい及び内容>.
-<https://w3id.org/jp-cos/71l0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71l0000100000000>.
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Kindergarten\/2008\/ねらい及び内容.
+cs:71l0000000000000 schema:hasPart cs:71l0000100000000.

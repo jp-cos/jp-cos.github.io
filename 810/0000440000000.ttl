@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/8100000440000000>
-  <http://purl.org/dc/terms/identifier> "8100000440000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/81V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 58
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8100000440000000
+  dct:identifier "8100000440000000";
+  dct:source cs:81V10 cs:81V10;
+  qb:order [
+    dct:source cs:81V10 cs:81V10;
+    rdf:type cs:Number;
+    rdf:value 58
   ];
-  <http://schema.org/description> """４　幼児理解に基づいた評価の実施
+  schema:description """４　幼児理解に基づいた評価の実施
 　幼児一人一人の発達の理解に基づいた評価の実施に当たっては，次の事項に配慮するものとする。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000441000000>, <https://w3id.org/jp-cos/8100000442000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Kindergarten/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A1A0A0A0A0A0A4A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
-  <https://w3id.org/jp-cos/sectionNumber> "4";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第4 / 4";
-  <https://w3id.org/jp-cos/sectionText> """幼児理解に基づいた評価の実施
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8100000441000000, cs:8100000442000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:Kindergarten\/2017;
+  cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;
+  cs:fcode "A8A1A0A0A0A0A0A4A4A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Kindergarten;
+  cs:sectionNumber "4";
+  cs:sectionNumberHierarchy "第1章 / 第4 / 4";
+  cs:sectionText """幼児理解に基づいた評価の実施
  幼児一人一人の発達の理解に基づいた評価の実施に当たっては，次の事項に配慮するものとする。""";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2017/総則>.
-<https://w3id.org/jp-cos/8100000400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8100000440000000>.
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Kindergarten\/2017\/総則.
+cs:8100000400000000 schema:hasPart cs:8100000440000000.

@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000308>
-  <http://purl.org/dc/terms/identifier> "1000308";
-  <http://purl.org/linked-data/cube#order> 1000308;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220252000000000>, <https://w3id.org/jp-cos/8220252100000000>, <https://w3id.org/jp-cos/8220252200000000>, <https://w3id.org/jp-cos/8220252300000000>;
-  <http://schema.org/description> "　これは，教科の目標を受けて，第５学年の目標を示している。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=74>.
-<https://w3id.org/jp-cos/commentary/1000303> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000308>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000308
+  dct:identifier "1000308";
+  qb:order 1000308;
+  schema:about cs:8220252000000000, cs:8220252100000000, cs:8220252200000000, cs:8220252300000000;
+  schema:description "　これは，教科の目標を受けて，第５学年の目標を示している。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=74>.
+cs:commentary\/1000303 schema:hasPart cs:commentary\/1000308.

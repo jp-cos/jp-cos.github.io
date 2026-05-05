@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/82G02C3313000000>
-  <http://purl.org/dc/terms/identifier> "82G02C3313000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3134
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:82G02C3313000000
+  dct:identifier "82G02C3313000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 3134
   ];
-  <http://schema.org/description> "ウ　幅跳びでは，短い助走から踏み切って跳ぶこと";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=92>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2UGA0A2UCA3A3A1A3A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 3, 4;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ウ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第9節 / 第2 / 〔第3学年及び第4学年〕 / 2 / C / (1) / ウ";
-  <https://w3id.org/jp-cos/sectionText> "幅跳びでは，短い助走から踏み切って跳ぶこと";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/体育>.
-<https://w3id.org/jp-cos/82G02C3310000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82G02C3313000000>.
+  schema:description "ウ　幅跳びでは，短い助走から踏み切って跳ぶこと";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=92>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2UGA0A2UCA3A3A1A3A0A0A0A0A0A0";
+  cs:grade 3, 4;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "ウ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第9節 / 第2 / 〔第3学年及び第4学年〕 / 2 / C / (1) / ウ";
+  cs:sectionText "幅跳びでは，短い助走から踏み切って跳ぶこと";
+  cs:subCategory "内容";
+  cs:subjectArea cs:Elementary\/2017\/体育.
+cs:82G02C3310000000 schema:hasPart cs:82G02C3313000000.

@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭>
-  <http://purl.org/linked-data/cube#order> 9;
-  <http://schema.org/name> "Technology and Home Economics"@en, "ぎじゅつ・かてい"@ja-hira, "技術・家庭"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "C";
-  <https://w3id.org/jp-cos/codePrefix> "63C";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
-  <https://w3id.org/jp-cos/fcode03> "UC";
-  <https://w3id.org/jp-cos/fcodePrefix> "A6A3UC";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭/技術分野>, <https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭/家庭分野>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
-<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/1998\/技術・家庭
+  qb:order 9;
+  schema:name "Technology and Home Economics"@en, "ぎじゅつ・かてい"@ja-hira, "技術・家庭"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "C";
+  cs:codePrefix "63C";
+  cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998;
+  cs:fcode03 "UC";
+  cs:fcodePrefix "A6A3UC";
+  cs:hasSubject cs:LowerSecondary\/1998\/技術・家庭\/技術分野, cs:LowerSecondary\/1998\/技術・家庭\/家庭分野;
+  cs:school cs:school\/LowerSecondary;
+  cs:sourceOfEnglishName cs:source\/LowerSecondary-2008.
+cs:LowerSecondary\/1998 cs:hasSubjectArea cs:LowerSecondary\/1998\/技術・家庭.

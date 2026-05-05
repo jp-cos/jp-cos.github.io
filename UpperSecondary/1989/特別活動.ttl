@@ -1,12 +1,17 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/特別活動>
-  <http://purl.org/linked-data/cube#order> 24;
-  <http://schema.org/name> "Special Activities"@en, "とくべつかつどう"@ja-hira, "特別活動"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "N";
-  <https://w3id.org/jp-cos/codePrefix> "54N";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "UN";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4UN";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/特別活動>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/特別活動
+  qb:order 24;
+  schema:name "Special Activities"@en, "とくべつかつどう"@ja-hira, "特別活動"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "N";
+  cs:codePrefix "54N";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "UN";
+  cs:fcodePrefix "A5A4UN";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/特別活動.

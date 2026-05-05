@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000066>
-  <http://purl.org/dc/terms/identifier> "1000066";
-  <http://purl.org/linked-data/cube#order> 1000066;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260255100000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260253100000000>;
-  <http://schema.org/description> "　また，電流がつくる磁力を利用したものづくりとしては，電流の大きさなどによって電磁石の強さを変えるという観点から，例えば，物を動かすことを目的としたモーター，鉄を引き付けたり放したりして移動させることを目的としたクレーンなどが考えられる。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=72>.
-<https://w3id.org/jp-cos/commentary/1000063> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000066>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000066
+  dct:identifier "1000066";
+  qb:order 1000066;
+  schema:about cs:8260255100000000;
+  schema:citation cs:8260253100000000;
+  schema:description "　また，電流がつくる磁力を利用したものづくりとしては，電流の大きさなどによって電磁石の強さを変えるという観点から，例えば，物を動かすことを目的としたモーター，鉄を引き付けたり放したりして移動させることを目的としたクレーンなどが考えられる。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=72>.
+cs:commentary\/1000063 schema:hasPart cs:commentary\/1000066.

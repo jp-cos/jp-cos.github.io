@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000807>
-  <http://purl.org/dc/terms/identifier> "1000807";
-  <http://purl.org/linked-data/cube#order> 1000807;
-  <http://schema.org/about> <https://w3id.org/jp-cos/822026321A000000>;
-  <http://schema.org/description> "　<b>条約改正</b>については，幕末に欧米諸国との間で結ばれた不平等な条約を対等なものに改める交渉において，外務大臣であった<ruby>陸奥宗光<rt>むつむねみつ</rt></ruby>や<ruby>小村寿太郎<rt>こむらじゅたろう</rt></ruby>が大きな働きをし，条約改正に成功したことなどが分かることである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=126>.
-<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000807>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000807
+  dct:identifier "1000807";
+  qb:order 1000807;
+  schema:about cs:822026321A000000;
+  schema:description "　<b>条約改正</b>については，幕末に欧米諸国との間で結ばれた不平等な条約を対等なものに改める交渉において，外務大臣であった<ruby>陸奥宗光<rt>むつむねみつ</rt></ruby>や<ruby>小村寿太郎<rt>こむらじゅたろう</rt></ruby>が大きな働きをし，条約改正に成功したことなどが分かることである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=126>.
+cs:commentary\/1000612 schema:hasPart cs:commentary\/1000807.

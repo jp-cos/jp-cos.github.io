@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/7B00000245B00000>
-  <http://purl.org/dc/terms/identifier> "7B00000245B00000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 129
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7B00000245B00000
+  dct:identifier "7B00000245B00000";
+  dct:source cs:7BV11 cs:7BV11;
+  qb:order [
+    dct:source cs:7BV11 cs:7BV11;
+    rdf:type cs:Number;
+    rdf:value 129
   ];
-  <http://schema.org/description> "(11) 各教科・科目等の指導に当たっては， 生徒が情報モラルを身に付け，  コンピュータや情報通信ネットワークなどの情報手段を適切かつ実践的， 主体的に活用できるようにするための学習活動を充実するとともに，  これらの情報手段に加え視聴覚教材や教育機器などの教材・教具の適切な活用を図ること。 なお， 生徒の障害の状態や特性等に即した教材・教具を創意工夫するとともに，学習環境を整え，指導の効果を高めるようにすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7UBA0A0A0A0A0A2A4A5UBA0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "(11)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / 第4款 / 5 / (11)";
-  <https://w3id.org/jp-cos/sectionText> "各教科・科目等の指導に当たっては， 生徒が情報モラルを身に付け，  コンピュータや情報通信ネットワークなどの情報手段を適切かつ実践的， 主体的に活用できるようにするための学習活動を充実するとともに，  これらの情報手段に加え視聴覚教材や教育機器などの教材・教具の適切な活用を図ること。 なお， 生徒の障害の状態や特性等に即した教材・教具を創意工夫するとともに，学習環境を整え，指導の効果を高めるようにすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2009/総則>.
-<https://w3id.org/jp-cos/7B00000245000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7B00000245B00000>.
+  schema:description "(11) 各教科・科目等の指導に当たっては， 生徒が情報モラルを身に付け，  コンピュータや情報通信ネットワークなどの情報手段を適切かつ実践的， 主体的に活用できるようにするための学習活動を充実するとともに，  これらの情報手段に加え視聴覚教材や教育機器などの教材・教具の適切な活用を図ること。 なお， 生徒の障害の状態や特性等に即した教材・教具を創意工夫するとともに，学習環境を整え，指導の効果を高めるようにすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:fcode "A7UBA0A0A0A0A0A2A4A5UBA0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "(11)";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / 第4款 / 5 / (11)";
+  cs:sectionText "各教科・科目等の指導に当たっては， 生徒が情報モラルを身に付け，  コンピュータや情報通信ネットワークなどの情報手段を適切かつ実践的， 主体的に活用できるようにするための学習活動を充実するとともに，  これらの情報手段に加え視聴覚教材や教育機器などの教材・教具の適切な活用を図ること。 なお， 生徒の障害の状態や特性等に即した教材・教具を創意工夫するとともに，学習環境を整え，指導の効果を高めるようにすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondaryDeptSNES-NC\/2009\/総則.
+cs:7B00000245000000 schema:hasPart cs:7B00000245B00000.

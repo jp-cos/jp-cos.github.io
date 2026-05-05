@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/8310223221200000>
-  <http://purl.org/dc/terms/identifier> "8310223221200000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 191
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8310223221200000
+  dct:identifier "8310223221200000";
+  dct:source cs:83V11 cs:83V11;
+  qb:order [
+    dct:source cs:83V11 cs:83V11;
+    rdf:type cs:Number;
+    rdf:value 191
   ];
-  <http://schema.org/description> "イ　伝えたいことが分かりやすく伝わるように，段落相互の関係などを明確にし，文章の構成や展開を工夫すること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=96>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A3A1A0A2A2A3A2A2A1A2A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 2;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "イ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 第2 / 〔第2学年〕 / 2 / 〔思考力，判断力，表現力等〕 / B / (1) / イ";
-  <https://w3id.org/jp-cos/sectionText> "伝えたいことが分かりやすく伝わるように，段落相互の関係などを明確にし，文章の構成や展開を工夫すること。";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/国語>.
-<https://w3id.org/jp-cos/8310223221000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8310223221200000>.
+  schema:description "イ　伝えたいことが分かりやすく伝わるように，段落相互の関係などを明確にし，文章の構成や展開を工夫すること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=96>;
+  cs:courseOfStudy cs:LowerSecondary\/2017;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2017\/2017;
+  cs:fcode "A8A3A1A0A2A2A3A2A2A1A2A0A0A0A0A0";
+  cs:grade 2;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "イ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第1節 / 第2 / 〔第2学年〕 / 2 / 〔思考力，判断力，表現力等〕 / B / (1) / イ";
+  cs:sectionText "伝えたいことが分かりやすく伝わるように，段落相互の関係などを明確にし，文章の構成や展開を工夫すること。";
+  cs:subCategory "内容";
+  cs:subjectArea cs:LowerSecondary\/2017\/国語.
+cs:8310223221000000 schema:hasPart cs:8310223221200000.

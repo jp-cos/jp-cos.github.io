@@ -1,25 +1,50 @@
-<https://w3id.org/jp-cos/Period>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code>"@ja, "Classes for grouping the Courses of Study, which are revised once every 10 years, across school types.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code>"@en;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Issued Period"@en, "告示時期"@ja.
-<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:Period
+  rdf:type rdfs:Class;
+  rdfs:comment "10年に一度の大改訂される学習指導要領を学校種別を超えてグルーピングするためのクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/period/<var>告示時期</var></code>"@ja, "Classes for grouping the Courses of Study, which are revised once every 10 years, across school types.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/period/<var>issued period</var></code>"@en;
+  rdfs:label "Issued Period"@en, "告示時期"@ja.
+cs:CourseOfStudyRevisionShape sh:property [
+    skos:example cs:period\/H29toH31;
+    sh:class cs:Period;
+    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Issued Period"@en, "告示時期"@ja;
+    sh:order 1;
+    sh:path cs:issuedPeriod
   ].
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>
+cs:CourseOfStudyShape sh:property [
+    skos:example cs:period\/H29toH31;
+    sh:class cs:Period;
+    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Issued Period"@en, "告示時期"@ja;
+    sh:order 1;
+    sh:path cs:issuedPeriod
   ].
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Period>
+cs:ItemShape sh:property [
+    skos:example cs:period\/H29toH31;
+    sh:class cs:Period;
+    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Issued Period"@en, "告示時期"@ja;
+    sh:order 19;
+    sh:path cs:issuedPeriod
   ].
-<https://w3id.org/jp-cos/PeriodShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/code01> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/fcode01> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/H1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/H10toH11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/H20toH21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/H29toH31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/S22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/S26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/S33toS35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/S43toS45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
-<https://w3id.org/jp-cos/period/S52toS53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Period>.
+cs:PeriodShape sh:targetClass cs:Period.
+cs:code01 rdfs:domain cs:Period.
+cs:fcode01 rdfs:domain cs:Period.
+cs:period\/H1 rdf:type cs:Period.
+cs:period\/H10toH11 rdf:type cs:Period.
+cs:period\/H20toH21 rdf:type cs:Period.
+cs:period\/S22 rdf:type cs:Period.
+cs:period\/S26 rdf:type cs:Period.
+cs:period\/S33toS35 rdf:type cs:Period.
+cs:period\/S43toS45 rdf:type cs:Period.
+cs:period\/S52toS53 rdf:type cs:Period.

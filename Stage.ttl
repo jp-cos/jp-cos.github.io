@@ -1,18 +1,26 @@
-<https://w3id.org/jp-cos/Stage>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "A class representing a stage in the case of intellectual disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code>"@en, "知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Stage"@en, "段階"@ja.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Stage>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:Stage
+  rdf:type rdfs:Class;
+  rdfs:comment "A class representing a stage in the case of intellectual disability.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/stage/<var>type of schools + (intellectual)</var>/<var>stage</var></code>"@en, "知的障害の場合における段階を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/stage/<var>学校種別＋(知的)</var>/<var>段階</var></code>"@ja;
+  rdfs:label "Stage"@en, "段階"@ja.
+cs:ItemShape sh:property [
+    skos:example cs:stage\/UpperSecondaryDeptSNES-Intellectual\/1;
+    sh:class cs:Stage;
+    sh:description "It corresponds to the 6th digit of the course of study code."@en, "学習指導要領コードの6桁目に対応"@ja;
+    sh:name "Stage"@en, "段階"@ja;
+    sh:order 10;
+    sh:path cs:stage
   ].
-<https://w3id.org/jp-cos/StageShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/disabilityCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
-<https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Stage>.
+cs:StageShape sh:targetClass cs:Stage.
+cs:disabilityCategory rdfs:domain cs:Stage.
+cs:school rdfs:domain cs:Stage.
+cs:stage\/ElementaryDeptSNES-Intellectual\/1 rdf:type cs:Stage.
+cs:stage\/ElementaryDeptSNES-Intellectual\/2 rdf:type cs:Stage.
+cs:stage\/ElementaryDeptSNES-Intellectual\/3 rdf:type cs:Stage.
+cs:stage\/LowerSecondaryDeptSNES-Intellectual\/1 rdf:type cs:Stage.
+cs:stage\/LowerSecondaryDeptSNES-Intellectual\/2 rdf:type cs:Stage.
+cs:stage\/UpperSecondaryDeptSNES-Intellectual\/2 rdf:type cs:Stage.

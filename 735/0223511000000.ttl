@@ -1,32 +1,38 @@
-<https://w3id.org/jp-cos/7350223511000000>
-  <http://purl.org/dc/terms/identifier> "7350223511000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 550
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7350223511000000
+  dct:identifier "7350223511000000";
+  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  qb:order [
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    rdf:type cs:Number;
+    rdf:value 550
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 550
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
+    rdf:type cs:Number cs:Number;
+    rdf:value 550 550
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 556
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+    rdf:type cs:Number cs:Number cs:Number;
+    rdf:value 550 550 556
   ];
-  <http://schema.org/description> "ア　既習の数学を基にして，数や図形の性質などを見いだし，発展させる活動";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
-  <https://w3id.org/jp-cos/fcode> "A7A3A5A0A2A2A3A5A1A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 2;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ア";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3節 / 第2 / 〔第2学年〕 / 2 / 〔数学的活動〕 / (1) / ア";
-  <https://w3id.org/jp-cos/sectionText> "既習の数学を基にして，数や図形の性質などを見いだし，発展させる活動";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/数学>.
-<https://w3id.org/jp-cos/7350223510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7350223511000000>.
+  schema:description "ア　既習の数学を基にして，数や図形の性質などを見いだし，発展させる活動";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:LowerSecondary\/2008;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;
+  cs:fcode "A7A3A5A0A2A2A3A5A1A1A0A0A0A0A0A0";
+  cs:grade 2;
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "ア";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3節 / 第2 / 〔第2学年〕 / 2 / 〔数学的活動〕 / (1) / ア";
+  cs:sectionText "既習の数学を基にして，数や図形の性質などを見いだし，発展させる活動";
+  cs:subCategory "内容";
+  cs:subjectArea cs:LowerSecondary\/2008\/数学.
+cs:7350223510000000 schema:hasPart cs:7350223511000000.

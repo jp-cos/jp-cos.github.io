@@ -1,22 +1,28 @@
-<https://w3id.org/jp-cos/8400000231301000>
-  <http://purl.org/dc/terms/identifier> "8400000231301000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 25
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8400000231301000
+  dct:identifier "8400000231301000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 25
   ];
-  <http://schema.org/description> "農業（農業と環境，課題研究，総合実習，農業と情報，作物，野菜，果樹，草花，畜産，栽培と環境，飼育と環境，農業経営，農業機械，植物バイオテクノロジー，食品製造，食品化学，食品微生物，食品流通，森林科学，森林経営，林産物利用，農業土木設計，農業土木施工，水循環，造園計画，造園施工管理，造園植栽，測量，生物活用，地域資源活用）";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A1A3A0A1A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / 3 / (1) / ウ / 農業(農業と環境，課題研究，総合実習，農業...";
-  <https://w3id.org/jp-cos/sectionText> "農業(農業と環境，課題研究，総合実習，農業と情報，作物，野菜，果樹，草花，畜産，栽培と環境，飼育と環境，農業経営，農業機械，植物バイオテクノロジー，食品製造，食品化学，食品微生物，食品流通，森林科学，森林経営，林産物利用，農業土木設計，農業土木施工，水循環，造園計画，造園施工管理，造園植栽，測量，生物活用，地域資源活用)";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則>.
-<https://w3id.org/jp-cos/8400000231300000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231301000>.
+  schema:description "農業（農業と環境，課題研究，総合実習，農業と情報，作物，野菜，果樹，草花，畜産，栽培と環境，飼育と環境，農業経営，農業機械，植物バイオテクノロジー，食品製造，食品化学，食品微生物，食品流通，森林科学，森林経営，林産物利用，農業土木設計，農業土木施工，水循環，造園計画，造園施工管理，造園植栽，測量，生物活用，地域資源活用）";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4A0A0A0A0A0A2A3A1A3A0A1A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumberHierarchy "第1章 / 第2款 / 3 / (1) / ウ / 農業(農業と環境，課題研究，総合実習，農業...";
+  cs:sectionText "農業(農業と環境，課題研究，総合実習，農業と情報，作物，野菜，果樹，草花，畜産，栽培と環境，飼育と環境，農業経営，農業機械，植物バイオテクノロジー，食品製造，食品化学，食品微生物，食品流通，森林科学，森林経営，林産物利用，農業土木設計，農業土木施工，水循環，造園計画，造園施工管理，造園植栽，測量，生物活用，地域資源活用)";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondary\/2018\/総則.
+cs:8400000231300000 schema:hasPart cs:8400000231301000.

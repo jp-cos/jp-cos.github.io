@@ -1,36 +1,50 @@
-<https://w3id.org/jp-cos/CourseOfStudy>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "It represents course of study class. Major revisions are made once every 10 years.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code>"@en, "学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Course of Study"@en, "学習指導要領"@ja.
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/Elementary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/Elementary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/Elementary/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/Elementary/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudy>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+cs:CourseOfStudy
+  rdf:type rdfs:Class;
+  rdfs:comment "It represents course of study class. Major revisions are made once every 10 years.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>type of school</var>/<var>date published</var></code>"@en, "学習指導要領を表すクラス。主に10年に一度大改訂される。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>学校種別</var>/<var>告示年</var></code>"@ja;
+  rdfs:label "Course of Study"@en, "学習指導要領"@ja.
+cs:Kindergarten\/2017 rdf:type cs:CourseOfStudy.
+cs:Elementary\/2017 rdf:type cs:CourseOfStudy.
+cs:UpperSecondary\/2018 rdf:type cs:CourseOfStudy.
+cs:KindergartenDeptSNES\/2017 rdf:type cs:CourseOfStudy.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017 rdf:type cs:CourseOfStudy.
+cs:UpperSecondaryDeptSNES\/2019 rdf:type cs:CourseOfStudy.
+cs:Kindergarten\/2008 rdf:type cs:CourseOfStudy.
+cs:LowerSecondary\/2008 rdf:type cs:CourseOfStudy.
+cs:UpperSecondary\/2009 rdf:type cs:CourseOfStudy.
+cs:KindergartenDeptSNES\/2009 rdf:type cs:CourseOfStudy.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009 rdf:type cs:CourseOfStudy.
+cs:UpperSecondaryDeptSNES\/2009 rdf:type cs:CourseOfStudy.
+cs:Elementary\/1998 rdf:type cs:CourseOfStudy.
+cs:LowerSecondary\/1998 rdf:type cs:CourseOfStudy.
+cs:UpperSecondary\/1999 rdf:type cs:CourseOfStudy.
+cs:Elementary\/1989 rdf:type cs:CourseOfStudy.
+cs:LowerSecondary\/1989 rdf:type cs:CourseOfStudy.
+cs:UpperSecondary\/1989 rdf:type cs:CourseOfStudy.
+cs:CourseOfStudyShape sh:targetClass cs:CourseOfStudy.
+cs:ItemShape sh:property [
+    skos:example cs:LowerSecondary\/2017;
+    sh:class cs:CourseOfStudy;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Course Of Study"@en, "学習指導要領"@ja;
+    sh:order 20;
+    sh:path cs:courseOfStudy
   ].
-<https://w3id.org/jp-cos/Kindergarten/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/Kindergarten/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/KindergartenDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/KindergartenDeptSNES/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/LowerSecondary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/LowerSecondary/1998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/LowerSecondary/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/LowerSecondary/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/SourceOfEnglishNameShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CourseOfStudy>
+cs:SourceOfEnglishNameShape sh:property [
+    skos:example cs:Elementary\/2008;
+    sh:class cs:CourseOfStudy;
+    sh:description "If the source is the English translation of the curriculum guideline, this property refer to the corresponding guideline."@en, "学習指導要領の仮訳が出典となっている場合は、対応する学習指導要領リソースのURIを示す。"@ja;
+    sh:maxCount 1;
+    sh:name "Reference to a curriculum guideline"@en, "対応学習指導要領"@ja;
+    sh:order 2;
+    sh:path cs:courseOfStudy
   ].
-<https://w3id.org/jp-cos/UpperSecondary/1989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/UpperSecondary/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/courseOfStudy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/hasSubjectArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/issuedPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
-<https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>.
+cs:dataset rdfs:domain cs:CourseOfStudy.
+cs:hasSubjectArea rdfs:domain cs:CourseOfStudy.
+cs:issuedPeriod rdfs:domain cs:CourseOfStudy.
+cs:school rdfs:domain cs:CourseOfStudy.

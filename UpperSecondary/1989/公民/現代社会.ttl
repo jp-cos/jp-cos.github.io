@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/公民/現代社会>
-  <http://purl.org/linked-data/cube#order> 15;
-  <http://schema.org/name> "Contemporary Society"@en, "げんだいしゃかい"@ja-hira, "現代社会"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/公民/現代社会>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/公民> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/公民/現代社会>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/公民\/現代社会
+  qb:order 15;
+  schema:name "Contemporary Society"@en, "げんだいしゃかい"@ja-hira, "現代社会"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989\/公民 cs:hasSubject cs:UpperSecondary\/1989\/公民\/現代社会.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/公民\/現代社会.

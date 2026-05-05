@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/印刷>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷>;
-  <http://schema.org/name> "Printing"@en, "いんさつ"@ja-hira, "印刷"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2009\/印刷
+  dct:relation cs:UpperSecondaryDeptSNES-Hearing\/2009\/印刷;
+  schema:name "Printing"@en, "いんさつ"@ja-hira, "印刷"@ja;
+  rdf:type cs:RelatedSubjectArea.

@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/87n0000450000000>
-  <http://purl.org/dc/terms/identifier> "87n0000450000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 152
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:87n0000450000000
+  dct:identifier "87n0000450000000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 152
   ];
-  <http://schema.org/description> "(5) 児童の病気の状態等を考慮し，学習活動が負担過重となる又は必要以上に制限することがないようにすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=26>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Health>;
-  <https://w3id.org/jp-cos/fcode> "A8A7LnA0A0A0A0A4A5A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "(5)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第1款 / 4 / (5)";
-  <https://w3id.org/jp-cos/sectionText> "児童の病気の状態等を考慮し，学習活動が負担過重となる又は必要以上に制限することがないようにすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/各教科(小学部)>.
-<https://w3id.org/jp-cos/87n0000400000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/87n0000450000000>.
+  schema:description "(5) 児童の病気の状態等を考慮し，学習活動が負担過重となる又は必要以上に制限することがないようにすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=26>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Visual, cs:disabilityCategory\/Hearing, cs:disabilityCategory\/Physical, cs:disabilityCategory\/Health;
+  cs:fcode "A8A7LnA0A0A0A0A4A5A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sectionNumber "(5)";
+  cs:sectionNumberHierarchy "第1章 / 第1款 / 4 / (5)";
+  cs:sectionText "児童の病気の状態等を考慮し，学習活動が負担過重となる又は必要以上に制限することがないようにすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:ElementaryDeptSNES-VHPH\/2017\/各教科\(小学部\).
+cs:87n0000400000000 schema:hasPart cs:87n0000450000000.

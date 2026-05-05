@@ -1,2 +1,3 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/音楽>
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/音楽理論>, <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/音楽史>, <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/演奏法>, <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/ソルフェージュ>, <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/声楽>, <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/器楽>, <https://w3id.org/jp-cos/UpperSecondary/1989/音楽/作曲>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+cs:UpperSecondary\/1989\/音楽
+  cs:hasSubject cs:UpperSecondary\/1989\/音楽\/音楽理論, cs:UpperSecondary\/1989\/音楽\/音楽史, cs:UpperSecondary\/1989\/音楽\/演奏法, cs:UpperSecondary\/1989\/音楽\/ソルフェージュ, cs:UpperSecondary\/1989\/音楽\/声楽, cs:UpperSecondary\/1989\/音楽\/器楽, cs:UpperSecondary\/1989\/音楽\/作曲.

@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/8400000231300000>
-  <http://purl.org/dc/terms/identifier> "8400000231300000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 24
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8400000231300000
+  dct:identifier "8400000231300000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 24
   ];
-  <http://schema.org/description> """ウ　主として専門学科において開設される各教科・科目
+  schema:description """ウ　主として専門学科において開設される各教科・科目
 各学校においては，教育課程の編成に当たって，次の表に掲げる主として専門学科（専門教育を主とする学科をいう。以下同じ。）において開設される各教科・科目及び設置者の定めるそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及びその単位数について適切に定めるものとする。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231301000>, <https://w3id.org/jp-cos/8400000231302000>, <https://w3id.org/jp-cos/8400000231303000>, <https://w3id.org/jp-cos/8400000231304000>, <https://w3id.org/jp-cos/8400000231305000>, <https://w3id.org/jp-cos/8400000231306000>, <https://w3id.org/jp-cos/8400000231307000>, <https://w3id.org/jp-cos/8400000231308000>, <https://w3id.org/jp-cos/8400000231309000>, <https://w3id.org/jp-cos/8400000231310000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4A0A0A0A0A0A2A3A1A3A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ウ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / 3 / (1) / ウ";
-  <https://w3id.org/jp-cos/sectionText> """主として専門学科において開設される各教科・科目
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8400000231301000, cs:8400000231302000, cs:8400000231303000, cs:8400000231304000, cs:8400000231305000, cs:8400000231306000, cs:8400000231307000, cs:8400000231308000, cs:8400000231309000, cs:8400000231310000;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4A0A0A0A0A0A2A3A1A3A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "ウ";
+  cs:sectionNumberHierarchy "第1章 / 第2款 / 3 / (1) / ウ";
+  cs:sectionText """主として専門学科において開設される各教科・科目
 各学校においては，教育課程の編成に当たって，次の表に掲げる主として専門学科(専門教育を主とする学科をいう。以下同じ。)において開設される各教科・科目及び設置者の定めるそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及びその単位数について適切に定めるものとする。""";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/総則>.
-<https://w3id.org/jp-cos/8400000231000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8400000231300000>.
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondary\/2018\/総則.
+cs:8400000231000000 schema:hasPart cs:8400000231300000.

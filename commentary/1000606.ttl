@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000606>
-  <http://purl.org/dc/terms/identifier> "1000606";
-  <http://purl.org/linked-data/cube#order> 1000606;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220265130000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263112000000>;
-  <http://schema.org/description> "　内容の取扱いの(1) のウは，内容の(1) のアの(イ)について指導する際に取り上げる事例の範囲と配慮事項を示したものである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=110>.
-<https://w3id.org/jp-cos/commentary/1000589> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000606>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000606
+  dct:identifier "1000606";
+  qb:order 1000606;
+  schema:about cs:8220265130000000;
+  schema:citation cs:8220263112000000;
+  schema:description "　内容の取扱いの(1) のウは，内容の(1) のアの(イ)について指導する際に取り上げる事例の範囲と配慮事項を示したものである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=110>.
+cs:commentary\/1000589 schema:hasPart cs:commentary\/1000606.

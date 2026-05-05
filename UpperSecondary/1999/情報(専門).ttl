@@ -1,11 +1,16 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/情報(専門)>
-  <http://purl.org/linked-data/cube#order> 19;
-  <http://schema.org/name> "Informatics(Special)"@en, "じょうほう(せんもん)"@ja-hira, "情報(専門)"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "X";
-  <https://w3id.org/jp-cos/codePrefix> "64X";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/fcode03> "UX";
-  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UX";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/情報(専門)>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/情報\(専門\)
+  qb:order 19;
+  schema:name "Informatics(Special)"@en, "じょうほう(せんもん)"@ja-hira, "情報(専門)"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "X";
+  cs:codePrefix "64X";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:fcode03 "UX";
+  cs:fcodePrefix "A6A4UX";
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1999 cs:hasSubjectArea cs:UpperSecondary\/1999\/情報\(専門\).

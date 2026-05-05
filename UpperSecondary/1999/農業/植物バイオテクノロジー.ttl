@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/農業/植物バイオテクノロジー>
-  <http://purl.org/linked-data/cube#order> 75;
-  <http://schema.org/name> "Plant Biotechnology"@en, "しょくぶつばいおてくのろじー"@ja-hira, "植物バイオテクノロジー"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/農業/植物バイオテクノロジー>.
-<https://w3id.org/jp-cos/UpperSecondary/1999/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/農業/植物バイオテクノロジー>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/農業\/植物バイオテクノロジー
+  qb:order 75;
+  schema:name "Plant Biotechnology"@en, "しょくぶつばいおてくのろじー"@ja-hira, "植物バイオテクノロジー"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/Report-2008.
+cs:UpperSecondary\/1999\/農業 cs:hasSubject cs:UpperSecondary\/1999\/農業\/植物バイオテクノロジー.
+cs:UpperSecondary\/1999 cs:hasSubject cs:UpperSecondary\/1999\/農業\/植物バイオテクノロジー.

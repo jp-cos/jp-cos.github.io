@@ -1,11 +1,17 @@
-<https://w3id.org/jp-cos/commentary/1000375>
-  <http://purl.org/dc/terms/alternative> "(2)";
-  <http://purl.org/dc/terms/identifier> "1000375";
-  <http://purl.org/dc/terms/title> "(2) 我が国の農業や水産業における食料生産";
-  <http://purl.org/linked-data/cube#order> 1000375;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220253200000000>;
-  <http://schema.org/description> "(2) 　我が国の農業や水産業における食料生産について，学習の問題を追究・解決する活動を通して，次の事項を身に付けることができるよう指導する。";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000383>, <https://w3id.org/jp-cos/commentary/1000384>, <https://w3id.org/jp-cos/commentary/1000385>, <https://w3id.org/jp-cos/commentary/1000386>, <https://w3id.org/jp-cos/commentary/1000387>, <https://w3id.org/jp-cos/commentary/1000388>, <https://w3id.org/jp-cos/commentary/1000389>, <https://w3id.org/jp-cos/commentary/1000390>, <https://w3id.org/jp-cos/commentary/1000391>, <https://w3id.org/jp-cos/commentary/1000392>, <https://w3id.org/jp-cos/commentary/1000393>, <https://w3id.org/jp-cos/commentary/1000394>, <https://w3id.org/jp-cos/commentary/1000395>, <https://w3id.org/jp-cos/commentary/1000396>, <https://w3id.org/jp-cos/commentary/1000397>, <https://w3id.org/jp-cos/commentary/1000398>, <https://w3id.org/jp-cos/commentary/1000399>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=81>.
-<https://w3id.org/jp-cos/commentary/1000331> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000375>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000375
+  dct:alternative "(2)";
+  dct:identifier "1000375";
+  dct:title "(2) 我が国の農業や水産業における食料生産";
+  qb:order 1000375;
+  schema:about cs:8220253200000000;
+  schema:description "(2) 　我が国の農業や水産業における食料生産について，学習の問題を追究・解決する活動を通して，次の事項を身に付けることができるよう指導する。";
+  schema:hasPart cs:commentary\/1000383, cs:commentary\/1000384, cs:commentary\/1000385, cs:commentary\/1000386, cs:commentary\/1000387, cs:commentary\/1000388, cs:commentary\/1000389, cs:commentary\/1000390, cs:commentary\/1000391, cs:commentary\/1000392, cs:commentary\/1000393, cs:commentary\/1000394, cs:commentary\/1000395, cs:commentary\/1000396, cs:commentary\/1000397, cs:commentary\/1000398, cs:commentary\/1000399;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=81>.
+cs:commentary\/1000331 schema:hasPart cs:commentary\/1000375.

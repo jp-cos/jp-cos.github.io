@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/看護>
-  <http://purl.org/linked-data/cube#order> 18;
-  <http://schema.org/name> "Nursing"@en, "かんご"@ja-hira, "看護"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "W";
-  <https://w3id.org/jp-cos/codePrefix> "64W";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/fcode03> "UW";
-  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UW";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/看護/基礎看護>, <https://w3id.org/jp-cos/UpperSecondary/1999/看護/看護基礎医学>, <https://w3id.org/jp-cos/UpperSecondary/1999/看護/成人・老人看護>, <https://w3id.org/jp-cos/UpperSecondary/1999/看護/母子看護>, <https://w3id.org/jp-cos/UpperSecondary/1999/看護/看護臨床実習>, <https://w3id.org/jp-cos/UpperSecondary/1999/看護/看護情報処理>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/看護>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/看護
+  qb:order 18;
+  schema:name "Nursing"@en, "かんご"@ja-hira, "看護"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "W";
+  cs:codePrefix "64W";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:fcode03 "UW";
+  cs:fcodePrefix "A6A4UW";
+  cs:hasSubject cs:UpperSecondary\/1999\/看護\/基礎看護, cs:UpperSecondary\/1999\/看護\/看護基礎医学, cs:UpperSecondary\/1999\/看護\/成人・老人看護, cs:UpperSecondary\/1999\/看護\/母子看護, cs:UpperSecondary\/1999\/看護\/看護臨床実習, cs:UpperSecondary\/1999\/看護\/看護情報処理;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:UpperSecondary\/1999 cs:hasSubjectArea cs:UpperSecondary\/1999\/看護.

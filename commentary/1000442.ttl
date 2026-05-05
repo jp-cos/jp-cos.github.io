@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000442>
-  <http://purl.org/dc/terms/identifier> "1000442";
-  <http://purl.org/linked-data/cube#order> 1000442;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220253323000000>;
-  <http://schema.org/description> "　<b>それら</b>（貿易や運輸）<b>の役割を考え，表現する</b>とは，例えば，工業生産と貿易や運輸の働きを関連付けて，貿易や運輸が工業生産に果たす役割を考え，文章で記述したり，白地図などにまとめたことを基に説明したりすることである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=90>.
-<https://w3id.org/jp-cos/commentary/1000411> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000442>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000442
+  dct:identifier "1000442";
+  qb:order 1000442;
+  schema:about cs:8220253323000000;
+  schema:description "　<b>それら</b>（貿易や運輸）<b>の役割を考え，表現する</b>とは，例えば，工業生産と貿易や運輸の働きを関連付けて，貿易や運輸が工業生産に果たす役割を考え，文章で記述したり，白地図などにまとめたことを基に説明したりすることである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=90>.
+cs:commentary\/1000411 schema:hasPart cs:commentary\/1000442.

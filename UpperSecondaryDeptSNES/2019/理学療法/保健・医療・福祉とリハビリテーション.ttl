@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理学療法/保健・医療・福祉とリハビリテーション>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/理学療法/保健・医療・福祉とリハビリテーション>;
-  <http://schema.org/name> "Health, Medical Care, Welfare and Rehabilitation"@en, "ほけん・いりょう・ふくしとりばびりテーション"@ja-hira, "保健・医療・福祉とリハビリテーション"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/理学療法\/保健・医療・福祉とリハビリテーション
+  dct:relation cs:UpperSecondaryDeptSNES-Visual\/2019\/理学療法\/保健・医療・福祉とリハビリテーション;
+  schema:name "Health, Medical Care, Welfare and Rehabilitation"@en, "ほけん・いりょう・ふくしとりばびりテーション"@ja-hira, "保健・医療・福祉とリハビリテーション"@ja;
+  rdf:type cs:RelatedSubject.

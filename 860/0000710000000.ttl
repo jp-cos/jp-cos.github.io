@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/8600000710000000>
-  <http://purl.org/dc/terms/identifier> "8600000710000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 103
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8600000710000000
+  dct:identifier "8600000710000000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 103
   ];
-  <http://schema.org/description> "１　各学校においては，第２節の２の(2)に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師（以下「道徳教育推進教師」という。）を中心に，全教師が協力して道徳教育を展開すること。なお，道徳教育の全体計画の作成に当たっては，児童又は生徒や学校，地域の実態を考慮して，学校の道徳教育の重点目標を設定するとともに，道徳科の指導方針，第３章特別の教科道徳に示す内容との関連を踏まえた各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動における指導の内容及び時期並びに家庭や地域社会との連携の方法を示すこと。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=311>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A6A0A0A0A0A0A7A1A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "1";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第7節 / 1";
-  <https://w3id.org/jp-cos/sectionText> "各学校においては，第2節の2の(2)に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師(以下「道徳教育推進教師」という。)を中心に，全教師が協力して道徳教育を展開すること。なお，道徳教育の全体計画の作成に当たっては，児童又は生徒や学校，地域の実態を考慮して，学校の道徳教育の重点目標を設定するとともに，道徳科の指導方針，第3章特別の教科道徳に示す内容との関連を踏まえた各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動における指導の内容及び時期並びに家庭や地域社会との連携の方法を示すこと。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総則>.
-<https://w3id.org/jp-cos/8600000700000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8600000710000000>.
+  schema:description "１　各学校においては，第２節の２の(2)に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師（以下「道徳教育推進教師」という。）を中心に，全教師が協力して道徳教育を展開すること。なお，道徳教育の全体計画の作成に当たっては，児童又は生徒や学校，地域の実態を考慮して，学校の道徳教育の重点目標を設定するとともに，道徳科の指導方針，第３章特別の教科道徳に示す内容との関連を踏まえた各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動における指導の内容及び時期並びに家庭や地域社会との連携の方法を示すこと。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=311>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:fcode "A8A6A0A0A0A0A0A7A1A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/ElementaryDeptSNES, cs:school\/LowerSecondaryDeptSNES;
+  cs:sectionNumber "1";
+  cs:sectionNumberHierarchy "第1章 / 第7節 / 1";
+  cs:sectionText "各学校においては，第2節の2の(2)に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師(以下「道徳教育推進教師」という。)を中心に，全教師が協力して道徳教育を展開すること。なお，道徳教育の全体計画の作成に当たっては，児童又は生徒や学校，地域の実態を考慮して，学校の道徳教育の重点目標を設定するとともに，道徳科の指導方針，第3章特別の教科道徳に示す内容との関連を踏まえた各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動における指導の内容及び時期並びに家庭や地域社会との連携の方法を示すこと。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:ElementaryAndLowerSecondaryDeptSNES-NC\/2017\/総則.
+cs:8600000700000000 schema:hasPart cs:8600000710000000.

@@ -1,12 +1,17 @@
-<https://w3id.org/jp-cos/LowerSecondary/2008/各教科>
-  <http://purl.org/linked-data/cube#order> 11;
-  <http://schema.org/name> "All Subjects"@en, "かくきょうか"@ja-hira, "各教科"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "n";
-  <https://w3id.org/jp-cos/codePrefix> "73n";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
-  <https://w3id.org/jp-cos/fcode03> "Ln";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A3Ln";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
-<https://w3id.org/jp-cos/LowerSecondary/2008> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/各教科>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/2008\/各教科
+  qb:order 11;
+  schema:name "All Subjects"@en, "かくきょうか"@ja-hira, "各教科"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "n";
+  cs:codePrefix "73n";
+  cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;
+  cs:fcode03 "Ln";
+  cs:fcodePrefix "A7A3Ln";
+  cs:school cs:school\/LowerSecondary;
+  cs:sourceOfEnglishName cs:source\/LowerSecondary-2008.
+cs:LowerSecondary\/2008 cs:hasSubjectArea cs:LowerSecondary\/2008\/各教科.

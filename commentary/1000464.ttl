@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000464>
-  <http://purl.org/dc/terms/identifier> "1000464";
-  <http://purl.org/linked-data/cube#order> 1000464;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220253410000000>;
-  <http://schema.org/description> "　アは，「知識及び技能」に関わる事項である。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=92>.
-<https://w3id.org/jp-cos/commentary/1000453> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000464>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000464
+  dct:identifier "1000464";
+  qb:order 1000464;
+  schema:about cs:8220253410000000;
+  schema:description "　アは，「知識及び技能」に関わる事項である。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=92>.
+cs:commentary\/1000453 schema:hasPart cs:commentary\/1000464.

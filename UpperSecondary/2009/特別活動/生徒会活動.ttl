@@ -1,21 +1,26 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>
-  <http://purl.org/linked-data/cube#order> 290;
-  <http://schema.org/name> "the Student’s Association"@en, "せいとかいかつどう"@ja-hira, "生徒会活動"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "4";
-  <https://w3id.org/jp-cos/codePrefix> "74N4";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A4";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4UNA4";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
-<https://w3id.org/jp-cos/74N4200000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4202000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4203000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4203100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4203200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4203300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4203400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/74N4203500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/特別活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/特別活動/生徒会活動>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/特別活動\/生徒会活動
+  qb:order 290;
+  schema:name "the Student’s Association"@en, "せいとかいかつどう"@ja-hira, "生徒会活動"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "4";
+  cs:codePrefix "74N4";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A4";
+  cs:fcodePrefix "A7A4UNA4";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/LowerSecondary-2008.
+cs:74N4200000000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4202000000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4203000000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4203100000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4203200000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4203300000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4203400000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:74N4203500000000 cs:subject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.
+cs:UpperSecondary\/2009\/特別活動 cs:hasSubject cs:UpperSecondary\/2009\/特別活動\/生徒会活動.

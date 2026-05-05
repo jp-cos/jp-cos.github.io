@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/水産/漁場環境>
-  <http://purl.org/linked-data/cube#order> 233;
-  <http://schema.org/name> "Fishing Environment"@en, "ぎょぎょうかんきょう"@ja-hira, "漁場環境"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/水産/漁場環境>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/水産/漁場環境>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/水産\/漁場環境
+  qb:order 233;
+  schema:name "Fishing Environment"@en, "ぎょぎょうかんきょう"@ja-hira, "漁場環境"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1989\/水産 cs:hasSubject cs:UpperSecondary\/1989\/水産\/漁場環境.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/水産\/漁場環境.

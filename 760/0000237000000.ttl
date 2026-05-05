@@ -1,27 +1,33 @@
-<https://w3id.org/jp-cos/7600000237000000>
-  <http://purl.org/dc/terms/identifier> "7600000237000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 31
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7600000237000000
+  dct:identifier "7600000237000000";
+  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  qb:order [
+    dct:source cs:76V11, cs:76V22 cs:76V11;
+    rdf:type cs:Number;
+    rdf:value 31
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 32
+    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+    rdf:type cs:Number cs:Number;
+    rdf:value 31 32
   ];
-  <http://schema.org/description> "７   各学校においては，地域や学校，児童又は生徒の実態，各教科等や学習活動の特質等に応じて， 創意工夫を生かし時間割を弾力的に編成することができる。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
-  <https://w3id.org/jp-cos/fcode> "A7A6A0A0A0A0A0A2A3A7A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "7";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / 第3 / 7";
-  <https://w3id.org/jp-cos/sectionText> "各学校においては，地域や学校，児童又は生徒の実態，各教科等や学習活動の特質等に応じて， 創意工夫を生かし時間割を弾力的に編成することができる。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/総則>.
-<https://w3id.org/jp-cos/7600000230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7600000237000000>.
+  schema:description "７   各学校においては，地域や学校，児童又は生徒の実態，各教科等や学習活動の特質等に応じて， 創意工夫を生かし時間割を弾力的に編成することができる。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;
+  cs:fcode "A7A6A0A0A0A0A0A2A3A7A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/ElementaryDeptSNES, cs:school\/LowerSecondaryDeptSNES;
+  cs:sectionNumber "7";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / 第3 / 7";
+  cs:sectionText "各学校においては，地域や学校，児童又は生徒の実態，各教科等や学習活動の特質等に応じて， 創意工夫を生かし時間割を弾力的に編成することができる。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:ElementaryAndLowerSecondaryDeptSNES-NC\/2009\/総則.
+cs:7600000230000000 schema:hasPart cs:7600000237000000.

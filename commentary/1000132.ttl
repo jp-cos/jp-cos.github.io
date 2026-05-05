@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000132>
-  <http://purl.org/dc/terms/identifier> "1000132";
-  <http://purl.org/linked-data/cube#order> 1000132;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260253240000000>, <https://w3id.org/jp-cos/8260255600000000>;
-  <http://schema.org/description> "　ここで扱う対象としては，雨に関係する雲として，例えば，乱層雲や積乱雲などが考えられる。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=79>.
-<https://w3id.org/jp-cos/commentary/1000120> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000132>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000132
+  dct:identifier "1000132";
+  qb:order 1000132;
+  schema:about cs:8260253240000000, cs:8260255600000000;
+  schema:description "　ここで扱う対象としては，雨に関係する雲として，例えば，乱層雲や積乱雲などが考えられる。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=79>.
+cs:commentary\/1000120 schema:hasPart cs:commentary\/1000132.

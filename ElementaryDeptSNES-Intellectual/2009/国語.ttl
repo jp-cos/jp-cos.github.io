@@ -1,32 +1,38 @@
-<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>
-  <http://purl.org/linked-data/cube#order> 3;
-  <http://schema.org/name> "Japanese Language"@en, "こくご"@ja-hira, "国語"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "1";
-  <https://w3id.org/jp-cos/codePrefix> "781";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "A1";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A8A1";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/7810000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7810202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7810203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102a3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102a3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102a3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102a3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102a3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102b3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102b3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102b3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102b3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102b3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102c3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102c3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102c3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102c3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/78102c3400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/国語>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:ElementaryDeptSNES-Intellectual\/2009\/国語
+  qb:order 3;
+  schema:name "Japanese Language"@en, "こくご"@ja-hira, "国語"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "1";
+  cs:codePrefix "781";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "A1";
+  cs:fcodePrefix "A7A8A1";
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:7810000000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:7810202000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:7810203000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102a3000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102a3100000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102a3200000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102a3300000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102a3400000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102b3000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102b3100000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102b3200000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102b3300000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102b3400000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102c3000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102c3100000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102c3200000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102c3300000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:78102c3400000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009 cs:hasSubjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/国語.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/国語 dct:relation cs:ElementaryDeptSNES-Intellectual\/2009\/国語.

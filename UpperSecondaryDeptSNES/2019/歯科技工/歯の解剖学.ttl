@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/歯科技工/歯の解剖学>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/歯科技工/歯の解剖学>;
-  <http://schema.org/name> "Dental Anatomy"@en, "はのかいぼうがく"@ja-hira, "歯の解剖学"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/歯科技工\/歯の解剖学
+  dct:relation cs:UpperSecondaryDeptSNES-Hearing\/2019\/歯科技工\/歯の解剖学;
+  schema:name "Dental Anatomy"@en, "はのかいぼうがく"@ja-hira, "歯の解剖学"@ja;
+  rdf:type cs:RelatedSubject.

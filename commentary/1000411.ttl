@@ -1,11 +1,17 @@
-<https://w3id.org/jp-cos/commentary/1000411>
-  <http://purl.org/dc/terms/alternative> "(3)";
-  <http://purl.org/dc/terms/identifier> "1000411";
-  <http://purl.org/dc/terms/title> "(3) 我が国の工業生産";
-  <http://purl.org/linked-data/cube#order> 1000411;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220253300000000>;
-  <http://schema.org/description> "(3) 　我が国の工業生産について，学習の問題を追究・解決する活動を通して，次の事項を身に付けることができるよう指導する。";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000421>, <https://w3id.org/jp-cos/commentary/1000422>, <https://w3id.org/jp-cos/commentary/1000423>, <https://w3id.org/jp-cos/commentary/1000424>, <https://w3id.org/jp-cos/commentary/1000425>, <https://w3id.org/jp-cos/commentary/1000426>, <https://w3id.org/jp-cos/commentary/1000427>, <https://w3id.org/jp-cos/commentary/1000428>, <https://w3id.org/jp-cos/commentary/1000429>, <https://w3id.org/jp-cos/commentary/1000430>, <https://w3id.org/jp-cos/commentary/1000431>, <https://w3id.org/jp-cos/commentary/1000432>, <https://w3id.org/jp-cos/commentary/1000433>, <https://w3id.org/jp-cos/commentary/1000434>, <https://w3id.org/jp-cos/commentary/1000435>, <https://w3id.org/jp-cos/commentary/1000436>, <https://w3id.org/jp-cos/commentary/1000437>, <https://w3id.org/jp-cos/commentary/1000438>, <https://w3id.org/jp-cos/commentary/1000439>, <https://w3id.org/jp-cos/commentary/1000440>, <https://w3id.org/jp-cos/commentary/1000441>, <https://w3id.org/jp-cos/commentary/1000442>, <https://w3id.org/jp-cos/commentary/1000443>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=86>.
-<https://w3id.org/jp-cos/commentary/1000331> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000411>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000411
+  dct:alternative "(3)";
+  dct:identifier "1000411";
+  dct:title "(3) 我が国の工業生産";
+  qb:order 1000411;
+  schema:about cs:8220253300000000;
+  schema:description "(3) 　我が国の工業生産について，学習の問題を追究・解決する活動を通して，次の事項を身に付けることができるよう指導する。";
+  schema:hasPart cs:commentary\/1000421, cs:commentary\/1000422, cs:commentary\/1000423, cs:commentary\/1000424, cs:commentary\/1000425, cs:commentary\/1000426, cs:commentary\/1000427, cs:commentary\/1000428, cs:commentary\/1000429, cs:commentary\/1000430, cs:commentary\/1000431, cs:commentary\/1000432, cs:commentary\/1000433, cs:commentary\/1000434, cs:commentary\/1000435, cs:commentary\/1000436, cs:commentary\/1000437, cs:commentary\/1000438, cs:commentary\/1000439, cs:commentary\/1000440, cs:commentary\/1000441, cs:commentary\/1000442, cs:commentary\/1000443;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=86>.
+cs:commentary\/1000331 schema:hasPart cs:commentary\/1000411.

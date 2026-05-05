@@ -1,5 +1,9 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/情報>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/情報>;
-  <http://schema.org/name> "Informatics"@en, "じょうほう"@ja-hira, "情報"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2009\/情報
+  dct:relation cs:UpperSecondaryDeptSNES-Intellectual\/2009\/情報;
+  schema:name "Informatics"@en, "じょうほう"@ja-hira, "情報"@ja;
+  rdf:type cs:RelatedSubjectArea;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.

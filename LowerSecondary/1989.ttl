@@ -1,12 +1,18 @@
-<https://w3id.org/jp-cos/LowerSecondary/1989>
-  <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>;
-  <http://purl.org/linked-data/cube#order> 19;
-  <http://schema.org/datePublished> "1989-03-15"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en, "ちゅうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-hira, "中学校学習指導要領 1989年3月 告示"@ja;
-  <http://schema.org/startDate> "1993-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1989/地理的分野/地理的分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/歴史的分野/歴史的分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/公民的分野/公民的分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/第1分野/第1分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/第2分野/第2分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/体育分野/体育分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/保健分野/保健分野>, <https://w3id.org/jp-cos/LowerSecondary/1989/英語/英語>, <https://w3id.org/jp-cos/LowerSecondary/1989/その他の外国語/その他の外国語>, <https://w3id.org/jp-cos/LowerSecondary/1989/学級活動/学級活動>, <https://w3id.org/jp-cos/LowerSecondary/1989/生徒会活動/生徒会活動>, <https://w3id.org/jp-cos/LowerSecondary/1989/学校行事/学校行事>;
-  <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/1989/総則>, <https://w3id.org/jp-cos/LowerSecondary/1989/国語>, <https://w3id.org/jp-cos/LowerSecondary/1989/社会>, <https://w3id.org/jp-cos/LowerSecondary/1989/数学>, <https://w3id.org/jp-cos/LowerSecondary/1989/理科>, <https://w3id.org/jp-cos/LowerSecondary/1989/音楽>, <https://w3id.org/jp-cos/LowerSecondary/1989/美術>, <https://w3id.org/jp-cos/LowerSecondary/1989/保健体育>, <https://w3id.org/jp-cos/LowerSecondary/1989/技術・家庭>, <https://w3id.org/jp-cos/LowerSecondary/1989/外国語>, <https://w3id.org/jp-cos/LowerSecondary/1989/各教科>, <https://w3id.org/jp-cos/LowerSecondary/1989/道徳>, <https://w3id.org/jp-cos/LowerSecondary/1989/特別活動>, <https://w3id.org/jp-cos/LowerSecondary/1989/各教科(共通)>;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H1>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/1989
+  dct:hasVersion cs:LowerSecondary\/1989\/1989;
+  qb:order 19;
+  schema:datePublished "1989-03-15"^^xsd:date;
+  schema:name "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en, "ちゅうがっこうがくしゅうしどうようりょう 1989ねん3がつ こくじ"@ja-hira, "中学校学習指導要領 1989年3月 告示"@ja;
+  schema:startDate "1993-04-01"^^xsd:date;
+  schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>;
+  rdf:type cs:CourseOfStudy;
+  cs:hasSubject cs:LowerSecondary\/1989\/地理的分野\/地理的分野, cs:LowerSecondary\/1989\/歴史的分野\/歴史的分野, cs:LowerSecondary\/1989\/公民的分野\/公民的分野, cs:LowerSecondary\/1989\/第1分野\/第1分野, cs:LowerSecondary\/1989\/第2分野\/第2分野, cs:LowerSecondary\/1989\/体育分野\/体育分野, cs:LowerSecondary\/1989\/保健分野\/保健分野, cs:LowerSecondary\/1989\/英語\/英語, cs:LowerSecondary\/1989\/その他の外国語\/その他の外国語, cs:LowerSecondary\/1989\/学級活動\/学級活動, cs:LowerSecondary\/1989\/生徒会活動\/生徒会活動, cs:LowerSecondary\/1989\/学校行事\/学校行事;
+  cs:hasSubjectArea cs:LowerSecondary\/1989\/総則, cs:LowerSecondary\/1989\/国語, cs:LowerSecondary\/1989\/社会, cs:LowerSecondary\/1989\/数学, cs:LowerSecondary\/1989\/理科, cs:LowerSecondary\/1989\/音楽, cs:LowerSecondary\/1989\/美術, cs:LowerSecondary\/1989\/保健体育, cs:LowerSecondary\/1989\/技術・家庭, cs:LowerSecondary\/1989\/外国語, cs:LowerSecondary\/1989\/各教科, cs:LowerSecondary\/1989\/道徳, cs:LowerSecondary\/1989\/特別活動, cs:LowerSecondary\/1989\/各教科\(共通\);
+  cs:issuedPeriod cs:period\/H1;
+  cs:school cs:school\/LowerSecondary.

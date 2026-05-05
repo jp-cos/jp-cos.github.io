@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/8210010110000000>
-  <http://purl.org/dc/terms/identifier> "8210010110000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 332
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8210010110000000
+  dct:identifier "8210010110000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 332
   ];
-  <http://schema.org/description> "第一学年（80字）";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8210010110010000>, <https://w3id.org/jp-cos/8210010110020000>, <https://w3id.org/jp-cos/8210010110030000>, <https://w3id.org/jp-cos/8210010110040000>, <https://w3id.org/jp-cos/8210010110050000>, <https://w3id.org/jp-cos/8210010110060000>, <https://w3id.org/jp-cos/8210010110070000>, <https://w3id.org/jp-cos/8210010110080000>, <https://w3id.org/jp-cos/8210010110090000>, <https://w3id.org/jp-cos/8210010110100000>, <https://w3id.org/jp-cos/8210010110110000>, <https://w3id.org/jp-cos/8210010110120000>, <https://w3id.org/jp-cos/8210010110130000>, <https://w3id.org/jp-cos/8210010110140000>, <https://w3id.org/jp-cos/8210010110150000>, <https://w3id.org/jp-cos/8210010110160000>, <https://w3id.org/jp-cos/8210010110170000>, <https://w3id.org/jp-cos/8210010110180000>, <https://w3id.org/jp-cos/8210010110190000>, <https://w3id.org/jp-cos/8210010110200000>, <https://w3id.org/jp-cos/8210010110210000>, <https://w3id.org/jp-cos/8210010110220000>, <https://w3id.org/jp-cos/8210010110230000>, <https://w3id.org/jp-cos/8210010110240000>, <https://w3id.org/jp-cos/8210010110250000>, <https://w3id.org/jp-cos/8210010110260000>, <https://w3id.org/jp-cos/8210010110270000>, <https://w3id.org/jp-cos/8210010110280000>, <https://w3id.org/jp-cos/8210010110290000>, <https://w3id.org/jp-cos/8210010110300000>, <https://w3id.org/jp-cos/8210010110310000>, <https://w3id.org/jp-cos/8210010110320000>, <https://w3id.org/jp-cos/8210010110330000>, <https://w3id.org/jp-cos/8210010110340000>, <https://w3id.org/jp-cos/8210010110350000>, <https://w3id.org/jp-cos/8210010110360000>, <https://w3id.org/jp-cos/8210010110370000>, <https://w3id.org/jp-cos/8210010110380000>, <https://w3id.org/jp-cos/8210010110390000>, <https://w3id.org/jp-cos/8210010110400000>, <https://w3id.org/jp-cos/8210010110410000>, <https://w3id.org/jp-cos/8210010110420000>, <https://w3id.org/jp-cos/8210010110430000>, <https://w3id.org/jp-cos/8210010110440000>, <https://w3id.org/jp-cos/8210010110450000>, <https://w3id.org/jp-cos/8210010110460000>, <https://w3id.org/jp-cos/8210010110470000>, <https://w3id.org/jp-cos/8210010110480000>, <https://w3id.org/jp-cos/8210010110490000>, <https://w3id.org/jp-cos/8210010110500000>, <https://w3id.org/jp-cos/8210010110510000>, <https://w3id.org/jp-cos/8210010110520000>, <https://w3id.org/jp-cos/8210010110530000>, <https://w3id.org/jp-cos/8210010110540000>, <https://w3id.org/jp-cos/8210010110550000>, <https://w3id.org/jp-cos/8210010110560000>, <https://w3id.org/jp-cos/8210010110570000>, <https://w3id.org/jp-cos/8210010110580000>, <https://w3id.org/jp-cos/8210010110590000>, <https://w3id.org/jp-cos/8210010110600000>, <https://w3id.org/jp-cos/8210010110610000>, <https://w3id.org/jp-cos/8210010110620000>, <https://w3id.org/jp-cos/8210010110630000>, <https://w3id.org/jp-cos/8210010110640000>, <https://w3id.org/jp-cos/8210010110650000>, <https://w3id.org/jp-cos/8210010110660000>, <https://w3id.org/jp-cos/8210010110670000>, <https://w3id.org/jp-cos/8210010110680000>, <https://w3id.org/jp-cos/8210010110690000>, <https://w3id.org/jp-cos/8210010110700000>, <https://w3id.org/jp-cos/8210010110710000>, <https://w3id.org/jp-cos/8210010110720000>, <https://w3id.org/jp-cos/8210010110730000>, <https://w3id.org/jp-cos/8210010110740000>, <https://w3id.org/jp-cos/8210010110750000>, <https://w3id.org/jp-cos/8210010110760000>, <https://w3id.org/jp-cos/8210010110770000>, <https://w3id.org/jp-cos/8210010110780000>, <https://w3id.org/jp-cos/8210010110790000>, <https://w3id.org/jp-cos/8210010110800000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=195>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A1A0A0A1A0A1A1A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 1;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 別表 学年別漢字配当表 / 第一学年(80字)";
-  <https://w3id.org/jp-cos/sectionText> "第一学年(80字)";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/国語>.
-<https://w3id.org/jp-cos/8210000100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8210010110000000>.
+  schema:description "第一学年（80字）";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8210010110010000, cs:8210010110020000, cs:8210010110030000, cs:8210010110040000, cs:8210010110050000, cs:8210010110060000, cs:8210010110070000, cs:8210010110080000, cs:8210010110090000, cs:8210010110100000, cs:8210010110110000, cs:8210010110120000, cs:8210010110130000, cs:8210010110140000, cs:8210010110150000, cs:8210010110160000, cs:8210010110170000, cs:8210010110180000, cs:8210010110190000, cs:8210010110200000, cs:8210010110210000, cs:8210010110220000, cs:8210010110230000, cs:8210010110240000, cs:8210010110250000, cs:8210010110260000, cs:8210010110270000, cs:8210010110280000, cs:8210010110290000, cs:8210010110300000, cs:8210010110310000, cs:8210010110320000, cs:8210010110330000, cs:8210010110340000, cs:8210010110350000, cs:8210010110360000, cs:8210010110370000, cs:8210010110380000, cs:8210010110390000, cs:8210010110400000, cs:8210010110410000, cs:8210010110420000, cs:8210010110430000, cs:8210010110440000, cs:8210010110450000, cs:8210010110460000, cs:8210010110470000, cs:8210010110480000, cs:8210010110490000, cs:8210010110500000, cs:8210010110510000, cs:8210010110520000, cs:8210010110530000, cs:8210010110540000, cs:8210010110550000, cs:8210010110560000, cs:8210010110570000, cs:8210010110580000, cs:8210010110590000, cs:8210010110600000, cs:8210010110610000, cs:8210010110620000, cs:8210010110630000, cs:8210010110640000, cs:8210010110650000, cs:8210010110660000, cs:8210010110670000, cs:8210010110680000, cs:8210010110690000, cs:8210010110700000, cs:8210010110710000, cs:8210010110720000, cs:8210010110730000, cs:8210010110740000, cs:8210010110750000, cs:8210010110760000, cs:8210010110770000, cs:8210010110780000, cs:8210010110790000, cs:8210010110800000;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=195>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A1A0A0A1A0A1A1A0A0A0A0A0A0A0";
+  cs:grade 1;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第1節 / 別表 学年別漢字配当表 / 第一学年(80字)";
+  cs:sectionText "第一学年(80字)";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Elementary\/2017\/国語.
+cs:8210000100000000 schema:hasPart cs:8210010110000000.

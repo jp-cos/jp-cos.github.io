@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000182>
-  <http://purl.org/dc/terms/identifier> "1000182";
-  <http://purl.org/linked-data/cube#order> 1000182;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>;
-  <http://schema.org/description> "　ここでの指導に当たっては，水溶液の性質や金属の質的変化について，多面的に調べた結果を表に整理したり，そこから考えたことを図や絵，文を用いて表現したりするなど，水溶液の性質について考えたり，説明したりする活動の充実を図るようにする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>.
-<https://w3id.org/jp-cos/commentary/1000169> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000182>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000182
+  dct:identifier "1000182";
+  qb:order 1000182;
+  schema:about cs:8260263120000000;
+  schema:description "　ここでの指導に当たっては，水溶液の性質や金属の質的変化について，多面的に調べた結果を表に整理したり，そこから考えたことを図や絵，文を用いて表現したりするなど，水溶液の性質について考えたり，説明したりする活動の充実を図るようにする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>.
+cs:commentary\/1000169 schema:hasPart cs:commentary\/1000182.

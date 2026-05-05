@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/71m0000111500000>
-  <http://purl.org/dc/terms/identifier> "71m0000111500000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 148
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:71m0000111500000
+  dct:identifier "71m0000111500000";
+  dct:source cs:71V11 cs:71V11;
+  qb:order [
+    dct:source cs:71V11 cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 148
   ];
-  <http://schema.org/description> "(5) 長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚園生活の自然な流れの中に組み込まれるようにすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
-  <https://w3id.org/jp-cos/fcode> "A7A1LmA0A0A0A0A1A1A1A5A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
-  <https://w3id.org/jp-cos/sectionNumber> "(5)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第3章 / 第1 / 幼稚園教育は，幼児が自ら意欲をもって環境と... / 1 / (5)";
-  <https://w3id.org/jp-cos/sectionText> "長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚園生活の自然な流れの中に組み込まれるようにすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項>.
-<https://w3id.org/jp-cos/71m0000111000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71m0000111500000>.
+  schema:description "(5) 長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚園生活の自然な流れの中に組み込まれるようにすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:Kindergarten\/2008;
+  cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;
+  cs:fcode "A7A1LmA0A0A0A0A1A1A1A5A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/Kindergarten;
+  cs:sectionNumber "(5)";
+  cs:sectionNumberHierarchy "第1章 / 第3章 / 第1 / 幼稚園教育は，幼児が自ら意欲をもって環境と... / 1 / (5)";
+  cs:sectionText "長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚園生活の自然な流れの中に組み込まれるようにすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Kindergarten\/2008\/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項.
+cs:71m0000111000000 schema:hasPart cs:71m0000111500000.

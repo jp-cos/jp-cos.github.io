@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000034>
-  <http://purl.org/dc/terms/identifier> "1000034";
-  <http://purl.org/linked-data/cube#order> 1000034;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260253111200000>, <https://w3id.org/jp-cos/8260253112000000>, <https://w3id.org/jp-cos/8260255200000000>;
-  <http://schema.org/description> "　(イ) 物が水に溶ける量に着目して，水の温度や量といった条件を制御しながら，水に物を溶かしたときの，物の溶ける量を調べる。これらの活動を通して，物の溶け方のきまりについての予想や仮説を基に，解決の方法を発想し，表現するとともに，物が一定量の水に溶ける量には限度があることを捉えるようにする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=69>.
-<https://w3id.org/jp-cos/commentary/1000022> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000034>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000034
+  dct:identifier "1000034";
+  qb:order 1000034;
+  schema:about cs:8260253111200000, cs:8260253112000000, cs:8260255200000000;
+  schema:description "　(イ) 物が水に溶ける量に着目して，水の温度や量といった条件を制御しながら，水に物を溶かしたときの，物の溶ける量を調べる。これらの活動を通して，物の溶け方のきまりについての予想や仮説を基に，解決の方法を発想し，表現するとともに，物が一定量の水に溶ける量には限度があることを捉えるようにする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=69>.
+cs:commentary\/1000022 schema:hasPart cs:commentary\/1000034.

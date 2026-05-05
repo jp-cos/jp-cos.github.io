@@ -1,52 +1,59 @@
-<https://w3id.org/jp-cos/DatasetShape>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
-  <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> "82V11";
-    <http://www.w3.org/ns/shacl#maxCount> 1;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Dataset ID"@en, "データセットのID"@ja;
-    <http://www.w3.org/ns/shacl#order> 1;
-    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/identifier>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+cs:DatasetShape
+  rdf:type sh:NodeShape;
+  sh:property [
+    skos:example "82V11";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Dataset ID"@en, "データセットのID"@ja;
+    sh:order 1;
+    sh:path dct:identifier
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "1.1";
-    <http://www.w3.org/ns/shacl#maxCount> 1;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Version"@en, "データセットのバージョン"@ja;
-    <http://www.w3.org/ns/shacl#order> 2;
-    <http://www.w3.org/ns/shacl#path> <http://schema.org/version>
+    skos:example "82V11" "1.1";
+    sh:maxCount 1 1;
+    sh:minCount 1 1;
+    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja;
+    sh:order 1 2;
+    sh:path dct:identifier schema:version
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>";
-    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    <http://www.w3.org/ns/shacl#description> "Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
-    <http://www.w3.org/ns/shacl#languageIn> [
-      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
-      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+    skos:example "82V11" "1.1" "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>";
+    sh:datatype rdf:langString;
+    sh:description "Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    sh:languageIn [
+      rdf:first "ja" "en";
+      rdf:rest  rdf:nil[
+        rdf:first "ja" "en";
+        rdf:rest  rdf:nil
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> 2;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
-    <http://www.w3.org/ns/shacl#order> 3;
-    <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> true
+    sh:maxCount 1 1 2;
+    sh:minCount 1 1 1;
+    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja "Name"@en, "名称"@ja;
+    sh:order 1 2 3;
+    sh:path dct:identifier schema:version schema:name;
+    sh:uniqueLang true
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/school/Elementary>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
-    <http://www.w3.org/ns/shacl#description> "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> 2;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
-    <http://www.w3.org/ns/shacl#order> 4;
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
+    skos:example "82V11" "1.1" "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>" cs:school\/Elementary;
+    sh:class cs:School;
+    sh:description "Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 1 1 2 2;
+    sh:minCount 1 1 1 1;
+    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja;
+    sh:order 1 2 3 4;
+    sh:path dct:identifier schema:version schema:name cs:school
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "2021-08-20";
-    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date>;
-    <http://www.w3.org/ns/shacl#maxCount> 1;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Date of Release"@en, "公表年月日"@ja;
-    <http://www.w3.org/ns/shacl#order> 5;
-    <http://www.w3.org/ns/shacl#path> <http://schema.org/releaseDate>
+    skos:example "82V11" "1.1" "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>" cs:school\/Elementary "2021-08-20";
+    sh:datatype rdf:langString xsd:date;
+    sh:maxCount 1 1 2 2 1;
+    sh:minCount 1 1 1 1 1;
+    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Date of Release"@en, "公表年月日"@ja;
+    sh:order 1 2 3 4 5;
+    sh:path dct:identifier schema:version schema:name cs:school schema:releaseDate
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Dataset>.
+  sh:targetClass cs:Dataset.

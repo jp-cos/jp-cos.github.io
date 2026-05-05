@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/84c0100000000000>
-  <http://purl.org/dc/terms/identifier> "84c0100000000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 10418
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:84c0100000000000
+  dct:identifier "84c0100000000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 10418
   ];
-  <http://schema.org/description> """第１款　目標
+  schema:description """第１款　目標
 美術に関する専門的な学習を通して，造形的な見方・考え方を働かせ，美的体験を豊かにし，美術や美術文化と創造的に関わる資質・能力を次のとおり育成することを目指す。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84c0100100000000>, <https://w3id.org/jp-cos/84c0100200000000>, <https://w3id.org/jp-cos/84c0100300000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4LcA0A1A0A0A0A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "第1款";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第12節 / 第1款";
-  <https://w3id.org/jp-cos/sectionText> """目 標
+  schema:edition "一部改正なし";
+  schema:hasPart cs:84c0100100000000, cs:84c0100200000000, cs:84c0100300000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "目標（大項目）";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4LcA0A1A0A0A0A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "第1款";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第12節 / 第1款";
+  cs:sectionText """目 標
 美術に関する専門的な学習を通して，造形的な見方・考え方を働かせ，美的体験を豊かにし，美術や美術文化と創造的に関わる資質・能力を次のとおり育成することを目指す。""";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)>.
-<https://w3id.org/jp-cos/84c0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84c0100000000000>.
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondary\/2018\/美術\(専門\).
+cs:84c0000000000000 schema:hasPart cs:84c0100000000000.

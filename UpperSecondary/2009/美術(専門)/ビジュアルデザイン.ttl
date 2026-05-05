@@ -1,22 +1,27 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>
-  <http://purl.org/linked-data/cube#order> 278;
-  <http://schema.org/name> "Visual Design"@en, "びじゅあるでざいん"@ja-hira, "ビジュアルデザイン"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "8";
-  <https://w3id.org/jp-cos/codePrefix> "74c8";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A8";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LcA8";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/74c8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/74c8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/ビジュアルデザイン>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン
+  qb:order 278;
+  schema:name "Visual Design"@en, "びじゅあるでざいん"@ja-hira, "ビジュアルデザイン"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "8";
+  cs:codePrefix "74c8";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A8";
+  cs:fcodePrefix "A7A4LcA8";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:74c8500000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8502000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8503000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8503100000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8503200000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8503300000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8503400000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8503500000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:74c8505000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.
+cs:UpperSecondary\/2009\/美術\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/ビジュアルデザイン.

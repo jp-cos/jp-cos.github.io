@@ -1,31 +1,37 @@
-<https://w3id.org/jp-cos/7320300120000000>
-  <http://purl.org/dc/terms/identifier> "7320300120000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 410
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7320300120000000
+  dct:identifier "7320300120000000";
+  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  qb:order [
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    rdf:type cs:Number;
+    rdf:value 410
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 410
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
+    rdf:type cs:Number cs:Number;
+    rdf:value 410 410
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 416
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+    rdf:type cs:Number cs:Number cs:Number;
+    rdf:value 410 410 416
   ];
-  <http://schema.org/description> "(2) 各分野の履修については，第１，第２学年を通じて地理的分野と歴史的分野を並行して学習させることを原則とし，第３学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野120単位時間，歴史的分野130単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
-  <https://w3id.org/jp-cos/fcode> "A7A3A2A0A3A0A0A1A2A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(2)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第3 / 1 / (2)";
-  <https://w3id.org/jp-cos/sectionText> "各分野の履修については，第1，第2学年を通じて地理的分野と歴史的分野を並行して学習させることを原則とし，第3学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野120単位時間，歴史的分野130単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/社会>.
-<https://w3id.org/jp-cos/7320300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7320300120000000>.
+  schema:description "(2) 各分野の履修については，第１，第２学年を通じて地理的分野と歴史的分野を並行して学習させることを原則とし，第３学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野120単位時間，歴史的分野130単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:courseOfStudy cs:LowerSecondary\/2008;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;
+  cs:fcode "A7A3A2A0A3A0A0A1A2A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "(2)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第2節 / 第3 / 1 / (2)";
+  cs:sectionText "各分野の履修については，第1，第2学年を通じて地理的分野と歴史的分野を並行して学習させることを原則とし，第3学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野120単位時間，歴史的分野130単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:LowerSecondary\/2008\/社会.
+cs:7320300100000000 schema:hasPart cs:7320300120000000.

@@ -1,17 +1,23 @@
-<https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>
-  <http://purl.org/linked-data/cube#order> 30;
-  <http://schema.org/name> "Foreign language activities"@en, "がいこくごかつどう"@ja-hira, "外国語活動"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "L";
-  <https://w3id.org/jp-cos/codePrefix> "87L";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Health>;
-  <https://w3id.org/jp-cos/fcode03> "UL";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A7UL";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/87L0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>.
-<https://w3id.org/jp-cos/87L0000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>.
-<https://w3id.org/jp-cos/87L0000200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/外国語活動> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動
+  qb:order 30;
+  schema:name "Foreign language activities"@en, "がいこくごかつどう"@ja-hira, "外国語活動"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "L";
+  cs:codePrefix "87L";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Visual, cs:disabilityCategory\/Hearing, cs:disabilityCategory\/Physical, cs:disabilityCategory\/Health;
+  cs:fcode03 "UL";
+  cs:fcodePrefix "A8A7UL";
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:87L0000000000000 cs:subjectArea cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動.
+cs:87L0000100000000 cs:subjectArea cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動.
+cs:87L0000200000000 cs:subjectArea cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017 cs:hasSubjectArea cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/外国語活動 dct:relation cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動.

@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000184>
-  <http://purl.org/dc/terms/identifier> "1000184";
-  <http://purl.org/linked-data/cube#order> 1000184;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>;
-  <http://schema.org/description> "　なお，実験に使用する薬品については，その危険性や扱い方について十分指導するとともに，保護眼鏡を使用するなど，安全に配慮するように指導する。また，事故のないように配慮し管理するとともに，使用した廃液などについても，環境に配慮し適切に処理する必要があることを指導する。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>.
-<https://w3id.org/jp-cos/commentary/1000169> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000184>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000184
+  dct:identifier "1000184";
+  qb:order 1000184;
+  schema:about cs:8260263120000000;
+  schema:description "　なお，実験に使用する薬品については，その危険性や扱い方について十分指導するとともに，保護眼鏡を使用するなど，安全に配慮するように指導する。また，事故のないように配慮し管理するとともに，使用した廃液などについても，環境に配慮し適切に処理する必要があることを指導する。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>.
+cs:commentary\/1000169 schema:hasPart cs:commentary\/1000184.

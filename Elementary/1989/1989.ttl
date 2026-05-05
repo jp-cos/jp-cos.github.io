@@ -1,33 +1,40 @@
-<https://w3id.org/jp-cos/Elementary/1989/1989>
-  <http://dl.nier.go.jp/library/vocab/callNumber> "375.92||1||1989d";
-  <http://dl.nier.go.jp/library/vocab/itemID> "071221843";
-  <http://dl.nier.go.jp/library/vocab/recordID> "BB80025218";
-  <http://schema.org/citation> "\"Notification No. 24 in 1989 of the Ministry of Education, Science and Culture\" (Official Gazette, 1989-03-15, Special Extra Edition No. 4, pp.9-50)"@en, "『平成元年 文部省告示第二十四号』（官報. 平成元年3月15日, 号外特第4号, pp.9-50）"@ja;
-  <http://schema.org/datePublished> "1989-03-15"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/isbn> "4171533104";
-  <http://schema.org/name> "Elementary School Curriculum Guideline 1989-03 Notification"@en, "小学校学習指導要領 1989年3月 告示"@ja;
-  <http://schema.org/startDate> "1992-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000125>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
-  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/89034331>, <https://ci.nii.ac.jp/ncid/BN03844525>;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H1>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>.
-<https://w3id.org/jp-cos/Elementary/1989> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/体育> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/各教科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/各教科(共通)> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/図画工作> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/家庭> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/特別活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/特別活動/クラブ活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/特別活動/児童会活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/特別活動/学校行事> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/特別活動/学級活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/理科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/生活> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/社会> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/算数> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/総則> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/道徳> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
-<https://w3id.org/jp-cos/Elementary/1989/音楽> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1989/1989>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix nier: <http://dl.nier.go.jp/library/vocab/>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:Elementary\/1989\/1989
+  nier:callNumber "375.92||1||1989d";
+  nier:itemID "071221843";
+  nier:recordID "BB80025218";
+  schema:citation "\"Notification No. 24 in 1989 of the Ministry of Education, Science and Culture\" (Official Gazette, 1989-03-15, Special Extra Edition No. 4, pp.9-50)"@en, "『平成元年 文部省告示第二十四号』（官報. 平成元年3月15日, 号外特第4号, pp.9-50）"@ja;
+  schema:datePublished "1989-03-15"^^xsd:date;
+  schema:isbn "4171533104";
+  schema:name "Elementary School Curriculum Guideline 1989-03 Notification"@en, "小学校学習指導要領 1989年3月 告示"@ja;
+  schema:startDate "1992-04-01"^^xsd:date;
+  schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322235.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000125>;
+  rdf:type cs:CourseOfStudyRevision;
+  rdfs:seeAlso <http://id.ndl.go.jp/jpno/89034331>, <https://ci.nii.ac.jp/ncid/BN03844525>;
+  cs:issuedPeriod cs:period\/H1;
+  cs:school cs:school\/Elementary.
+cs:Elementary\/1989\/特別活動\/学級活動 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/総則 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/国語 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/特別活動\/児童会活動 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/特別活動\/クラブ活動 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/社会 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/特別活動\/学校行事 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/算数 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/理科 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/生活 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/音楽 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/図画工作 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/家庭 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/体育 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/各教科 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/道徳 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/特別活動 cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989\/各教科\(共通\) cs:courseOfStudyRevision cs:Elementary\/1989\/1989.
+cs:Elementary\/1989 dct:hasVersion cs:Elementary\/1989\/1989.

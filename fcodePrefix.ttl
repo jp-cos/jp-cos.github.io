@@ -1,11 +1,31 @@
-<https://w3id.org/jp-cos/fcodePrefix>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>, <https://w3id.org/jp-cos/SubjectArea>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Fcode of Subject Area"@en, "F教科コード"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcodePrefix>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:fcodePrefix
+  rdf:type rdf:Property;
+  rdfs:domain cs:Subject, cs:SubjectArea;
+  rdfs:label "Fcode of Subject Area"@en, "F教科コード"@ja;
+  rdfs:range rdf:Literal.
+cs:SubjectAreaShape sh:property [
+    skos:example "A8A2A1";
+    sh:datatype xsd:string;
+    sh:description "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 3th one of course of study item easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードの1桁目から3桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Fcode of Subject Area"@en, "F教科コード"@ja;
+    sh:order 10;
+    sh:path cs:fcodePrefix
   ].
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcodePrefix>
+cs:SubjectShape sh:property [
+    skos:example "A8A3UHA1";
+    sh:datatype xsd:string;
+    sh:description "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make from the first digit code to the 4th one of course of study item easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードの1桁目から4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Fcode of Subject"@en, "F科目コード"@ja;
+    sh:order 10;
+    sh:path cs:fcodePrefix
   ].

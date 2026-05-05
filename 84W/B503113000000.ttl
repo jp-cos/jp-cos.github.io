@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/84WB503113000000>
-  <http://purl.org/dc/terms/identifier> "84WB503113000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 9254
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:84WB503113000000
+  dct:identifier "84WB503113000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 9254
   ];
-  <http://schema.org/description> "ウ　多重課題のマネジメント";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4UWUBA5A0A3A1A1A3A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ウ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第6節 / 第2款 / 第11 / 2 / 〔指導項目〕 / (1) / ウ";
-  <https://w3id.org/jp-cos/sectionText> "多重課題のマネジメント";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/看護/看護の統合と実践>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/看護>.
-<https://w3id.org/jp-cos/84WB503110000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84WB503113000000>.
+  schema:description "ウ　多重課題のマネジメント";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4UWUBA5A0A3A1A1A3A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "ウ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第6節 / 第2款 / 第11 / 2 / 〔指導項目〕 / (1) / ウ";
+  cs:sectionText "多重課題のマネジメント";
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondary\/2018\/看護\/看護の統合と実践;
+  cs:subjectArea cs:UpperSecondary\/2018\/看護.
+cs:84WB503110000000 schema:hasPart cs:84WB503113000000.

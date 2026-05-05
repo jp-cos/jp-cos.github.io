@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/7G00000232100000>
-  <http://purl.org/dc/terms/identifier> "7G00000232100000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 82
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7G00000232100000
+  dct:identifier "7G00000232100000";
+  dct:source cs:7BV11 cs:7BV11;
+  qb:order [
+    dct:source cs:7BV11 cs:7BV11;
+    rdf:type cs:Number;
+    rdf:value 82
   ];
-  <http://schema.org/description> "１   各教科，道徳，総合的な学習の時間，特別活動及び自立活動（以下「各教科等」 という。ただし，  この項及び８において， 特別活動についてはホームルーム活動に限る。） の総授業時数は， 各学年とも1,050単位時間 （１単位時間は， 50分として計算するものとする。  ３において同じ。）を標準とし，特に必要がある場合には，  これを増加することができる。 この場合，各教科等の目標及び内容を考慮し， 各教科及び総合的な学習の時間の配当学年及び当該学年における授業時数， 道徳， 特別活動及び自立活動の各学年における授業時数を適切に定めるものとする。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A7UGA0A0A0A0A0A2A3A2A1A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "1";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / 第3款 / 第2 / 1";
-  <https://w3id.org/jp-cos/sectionText> "各教科，道徳，総合的な学習の時間，特別活動及び自立活動(以下「各教科等」 という。ただし，  この項及び8において， 特別活動についてはホームルーム活動に限る。) の総授業時数は， 各学年とも1,050単位時間 (1単位時間は， 50分として計算するものとする。  3において同じ。)を標準とし，特に必要がある場合には，  これを増加することができる。 この場合，各教科等の目標及び内容を考慮し， 各教科及び総合的な学習の時間の配当学年及び当該学年における授業時数， 道徳， 特別活動及び自立活動の各学年における授業時数を適切に定めるものとする。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/総則>.
-<https://w3id.org/jp-cos/7G00000232000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7G00000232100000>.
+  schema:description "１   各教科，道徳，総合的な学習の時間，特別活動及び自立活動（以下「各教科等」 という。ただし，  この項及び８において， 特別活動についてはホームルーム活動に限る。） の総授業時数は， 各学年とも1,050単位時間 （１単位時間は， 50分として計算するものとする。  ３において同じ。）を標準とし，特に必要がある場合には，  これを増加することができる。 この場合，各教科等の目標及び内容を考慮し， 各教科及び総合的な学習の時間の配当学年及び当該学年における授業時数， 道徳， 特別活動及び自立活動の各学年における授業時数を適切に定めるものとする。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A7UGA0A0A0A0A0A2A3A2A1A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "1";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / 第3款 / 第2 / 1";
+  cs:sectionText "各教科，道徳，総合的な学習の時間，特別活動及び自立活動(以下「各教科等」 という。ただし，  この項及び8において， 特別活動についてはホームルーム活動に限る。) の総授業時数は， 各学年とも1,050単位時間 (1単位時間は， 50分として計算するものとする。  3において同じ。)を標準とし，特に必要がある場合には，  これを増加することができる。 この場合，各教科等の目標及び内容を考慮し， 各教科及び総合的な学習の時間の配当学年及び当該学年における授業時数， 道徳， 特別活動及び自立活動の各学年における授業時数を適切に定めるものとする。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/総則.
+cs:7G00000232000000 schema:hasPart cs:7G00000232100000.

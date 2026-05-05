@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/8B00000214000000>
-  <http://purl.org/dc/terms/identifier> "8B00000214000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 17
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8B00000214000000
+  dct:identifier "8B00000214000000";
+  dct:source cs:8BV12 cs:8BV12;
+  qb:order [
+    dct:source cs:8BV12 cs:8BV12;
+    rdf:type cs:Number;
+    rdf:value 17
   ];
-  <http://schema.org/description> "４  学校においては，生徒の障害の状態や特性及び心身の発達の段階等，学校や地域の実態等に応じて，就業やボランティアに関わる体験的な学習の指導を適切に行うようにし，勤労の尊さや創造することの喜びを体得させ，望ましい勤労観， 職業観の育成や社会奉仕の精神の涵養に資するものとする。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
-  <https://w3id.org/jp-cos/fcode> "A8UBA0A0A0A0A0A2A1A4A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "4";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / 第1款 / 4";
-  <https://w3id.org/jp-cos/sectionText> "学校においては，生徒の障害の状態や特性及び心身の発達の段階等，学校や地域の実態等に応じて，就業やボランティアに関わる体験的な学習の指導を適切に行うようにし，勤労の尊さや創造することの喜びを体得させ，望ましい勤労観， 職業観の育成や社会奉仕の精神の涵養に資するものとする。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総則>.
-<https://w3id.org/jp-cos/8B00000210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8B00000214000000>.
+  schema:description "４  学校においては，生徒の障害の状態や特性及び心身の発達の段階等，学校や地域の実態等に応じて，就業やボランティアに関わる体験的な学習の指導を適切に行うようにし，勤労の尊さや創造することの喜びを体得させ，望ましい勤労観， 職業観の育成や社会奉仕の精神の涵養に資するものとする。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;
+  cs:fcode "A8UBA0A0A0A0A0A2A1A4A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "4";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / 第1款 / 4";
+  cs:sectionText "学校においては，生徒の障害の状態や特性及び心身の発達の段階等，学校や地域の実態等に応じて，就業やボランティアに関わる体験的な学習の指導を適切に行うようにし，勤労の尊さや創造することの喜びを体得させ，望ましい勤労観， 職業観の育成や社会奉仕の精神の涵養に資するものとする。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondaryDeptSNES-NC\/2019\/総則.
+cs:8B00000210000000 schema:hasPart cs:8B00000214000000.

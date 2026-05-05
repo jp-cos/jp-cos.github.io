@@ -1,54 +1,68 @@
-<https://w3id.org/jp-cos/8260253110000000>
-  <http://purl.org/dc/terms/identifier> "8260253110000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2422
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:8260253110000000
+  dct:identifier "8260253110000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 2422
   ];
-  <http://schema.org/description> """(1) 物の溶け方
+  schema:description """(1) 物の溶け方
 物の溶け方について，溶ける量や様子に着目して，水の温度や量などの条件を制御しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253111000000>, <https://w3id.org/jp-cos/8260253112000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/advancedItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000031>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <https://w3id.org/jp-cos/8260263120000000>
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8260253111000000, cs:8260253112000000;
+  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
+  cs:advancedItem [
+    dct:provenance cs:commentary\/1000031;
+    rdf:type cs:Number cs:Item cs:StructuredItem;
+    rdf:value 2422 cs:8260263120000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000031>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <https://w3id.org/jp-cos/8260233110000000>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000031 cs:commentary\/1000031;
+    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
+    rdf:value 2422 cs:8260263120000000 cs:8260233110000000
   ];
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A6A0A2A5A3A1A1A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 5;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(1)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 第2 / 〔第5学年〕 / 2 / A / (1)";
-  <https://w3id.org/jp-cos/sectionText> """物の溶け方
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A6A0A2A5A3A1A1A0A0A0A0A0A0A0";
+  cs:grade 5;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "(1)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第4節 / 第2 / 〔第5学年〕 / 2 / A / (1)";
+  cs:sectionText """物の溶け方
 物の溶け方について，溶ける量や様子に着目して，水の温度や量などの条件を制御しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/理科>.
-<https://w3id.org/jp-cos/8260253100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/8260255200000000> <http://schema.org/citation> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/8260263120000000> <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <https://w3id.org/jp-cos/8260253110000000>
+  cs:subCategory "内容";
+  cs:subjectArea cs:Elementary\/2017\/理科.
+cs:8260253100000000 schema:hasPart cs:8260253110000000.
+cs:8260255200000000 schema:citation cs:8260253110000000.
+cs:8260263120000000 cs:basicItem [
+    dct:provenance cs:commentary\/1000176;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260253110000000
   ].
-<https://w3id.org/jp-cos/CommentaryItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/8260253110000000>
+cs:commentary\/1000022 schema:about cs:8260253110000000.
+cs:commentary\/1000029 schema:citation cs:8260253110000000.
+cs:commentary\/1000031 schema:about cs:8260253110000000.
+cs:commentary\/1000032 schema:about cs:8260253110000000.
+cs:commentary\/1000036 schema:about cs:8260253110000000.
+cs:commentary\/1000037 schema:about cs:8260253110000000.
+cs:commentary\/1000038 schema:about cs:8260253110000000.
+cs:commentary\/1000039 schema:about cs:8260253110000000.
+cs:CommentaryItemShape sh:property [
+    skos:example cs:8260253110000000;
+    sh:class cs:Item;
+    sh:description "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja;
+    sh:name "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja;
+    sh:order 3;
+    sh:path schema:about
   ].
-<https://w3id.org/jp-cos/commentary/1000022> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000029> <http://schema.org/citation> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000031> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000032> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000036> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000037> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000038> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000039> <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>.
-<https://w3id.org/jp-cos/commentary/1000176> <http://schema.org/citation> <https://w3id.org/jp-cos/8260253110000000>.

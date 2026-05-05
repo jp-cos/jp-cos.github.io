@@ -1,15 +1,21 @@
-<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間>
-  <http://purl.org/linked-data/cube#order> 33;
-  <http://schema.org/name> "Period for Integrated Study"@en, "そうごうてきながくしゅうのじかん"@ja-hira, "総合的な学習の時間"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "M";
-  <https://w3id.org/jp-cos/codePrefix> "8AM";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "UM";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8UAUM";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/8AM0000300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総合的な学習の時間> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総合的な学習の時間
+  qb:order 33;
+  schema:name "Period for Integrated Study"@en, "そうごうてきながくしゅうのじかん"@ja-hira, "総合的な学習の時間"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "M";
+  cs:codePrefix "8AM";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "UM";
+  cs:fcodePrefix "A8UAUM";
+  cs:school cs:school\/LowerSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:8AM0000300000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総合的な学習の時間.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017 cs:hasSubjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総合的な学習の時間.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/総合的な学習の時間 dct:relation cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総合的な学習の時間.

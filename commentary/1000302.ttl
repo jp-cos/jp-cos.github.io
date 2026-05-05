@@ -1,14 +1,27 @@
-<https://w3id.org/jp-cos/commentary/1000302>
-  <http://purl.org/dc/terms/alternative> "第3節 第5学年";
-  <http://purl.org/dc/terms/identifier> "1000302";
-  <http://purl.org/dc/terms/title> "第 3 節　第５学年の目標及び内容";
-  <http://purl.org/linked-data/cube#order> 1000302;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220250000000000>;
-  <http://schema.org/description> "第 3 節　第５学年の目標及び内容";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000303>, <https://w3id.org/jp-cos/commentary/1000331>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=74>.
-<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000302>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:commentary\/1000302
+  dct:alternative "第3節 第5学年";
+  dct:identifier "1000302";
+  dct:title "第 3 節　第５学年の目標及び内容";
+  qb:order 1000302;
+  schema:about cs:8220250000000000;
+  schema:description "第 3 節　第５学年の目標及び内容";
+  schema:hasPart cs:commentary\/1000303, cs:commentary\/1000331;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=74>.
+cs:commentary\/Elementary\/2017\/社会 schema:hasPart cs:commentary\/1000302.
+cs:CosCommentaryShape sh:property [
+    skos:example cs:commentary\/1000302;
+    sh:class cs:CommentaryItem;
+    sh:description "Child of the item."@en, "子供の細目を表す。"@ja;
+    sh:name "Child"@en, "子"@ja;
+    sh:order 6;
+    sh:path schema:hasPart
   ].
-<https://w3id.org/jp-cos/commentary/Elementary/2017/社会> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000302>.

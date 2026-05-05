@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/Elementary/2017/各教科(共通)>
-  <http://purl.org/linked-data/cube#order> 12;
-  <http://schema.org/name> "All Subjects(Common)"@en, "かくきょうか(きょうつう)"@ja-hira, "各教科(共通)"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "n";
-  <https://w3id.org/jp-cos/codePrefix> "82n";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode03> "Ln";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A2Ln";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2017>.
-<https://w3id.org/jp-cos/82n0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/各教科(共通)>.
-<https://w3id.org/jp-cos/Elementary/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/2017/各教科(共通)>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:Elementary\/2017\/各教科\(共通\)
+  qb:order 12;
+  schema:name "All Subjects(Common)"@en, "かくきょうか(きょうつう)"@ja-hira, "各教科(共通)"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "n";
+  cs:codePrefix "82n";
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode03 "Ln";
+  cs:fcodePrefix "A8A2Ln";
+  cs:school cs:school\/Elementary;
+  cs:sourceOfEnglishName cs:source\/Elementary-2017.
+cs:82n0000000000000 cs:subjectArea cs:Elementary\/2017\/各教科\(共通\).
+cs:Elementary\/2017 cs:hasSubjectArea cs:Elementary\/2017\/各教科\(共通\).

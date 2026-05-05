@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/水産>
-  <http://purl.org/linked-data/cube#order> 16;
-  <http://schema.org/name> "Fisheries"@en, "すいさん"@ja-hira, "水産"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "T";
-  <https://w3id.org/jp-cos/codePrefix> "54T";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "UT";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4UT";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産一般>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産情報処理>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/総合実習>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/課題研究>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/漁業>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/航海・計器>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/漁船運用>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産経済>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/船用機関>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産工学>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/機械設計工作>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/電気工学>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/通信工学>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/通信技術>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/電気通信理論>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産情報技術>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/栽培漁業>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産生物>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/漁場環境>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/操船>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品製造>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品化学>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品衛生>, <https://w3id.org/jp-cos/UpperSecondary/1989/水産/水産食品流通>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/水産>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/水産
+  qb:order 16;
+  schema:name "Fisheries"@en, "すいさん"@ja-hira, "水産"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "T";
+  cs:codePrefix "54T";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "UT";
+  cs:fcodePrefix "A5A4UT";
+  cs:hasSubject cs:UpperSecondary\/1989\/水産\/水産一般, cs:UpperSecondary\/1989\/水産\/水産情報処理, cs:UpperSecondary\/1989\/水産\/総合実習, cs:UpperSecondary\/1989\/水産\/課題研究, cs:UpperSecondary\/1989\/水産\/漁業, cs:UpperSecondary\/1989\/水産\/航海・計器, cs:UpperSecondary\/1989\/水産\/漁船運用, cs:UpperSecondary\/1989\/水産\/水産経済, cs:UpperSecondary\/1989\/水産\/船用機関, cs:UpperSecondary\/1989\/水産\/水産工学, cs:UpperSecondary\/1989\/水産\/機械設計工作, cs:UpperSecondary\/1989\/水産\/電気工学, cs:UpperSecondary\/1989\/水産\/通信工学, cs:UpperSecondary\/1989\/水産\/通信技術, cs:UpperSecondary\/1989\/水産\/電気通信理論, cs:UpperSecondary\/1989\/水産\/水産情報技術, cs:UpperSecondary\/1989\/水産\/栽培漁業, cs:UpperSecondary\/1989\/水産\/水産生物, cs:UpperSecondary\/1989\/水産\/漁場環境, cs:UpperSecondary\/1989\/水産\/操船, cs:UpperSecondary\/1989\/水産\/水産食品製造, cs:UpperSecondary\/1989\/水産\/水産食品化学, cs:UpperSecondary\/1989\/水産\/水産食品衛生, cs:UpperSecondary\/1989\/水産\/水産食品流通;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/水産.

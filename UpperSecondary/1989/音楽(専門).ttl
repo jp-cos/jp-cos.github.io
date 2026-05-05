@@ -1,11 +1,16 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/音楽(専門)>
-  <http://purl.org/linked-data/cube#order> 20;
-  <http://schema.org/name> "Music(Special)"@en, "おんがく(せんもん)"@ja-hira, "音楽(専門)"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "b";
-  <https://w3id.org/jp-cos/codePrefix> "54b";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "Lb";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4Lb";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/音楽(専門)>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/音楽\(専門\)
+  qb:order 20;
+  schema:name "Music(Special)"@en, "おんがく(せんもん)"@ja-hira, "音楽(専門)"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "b";
+  cs:codePrefix "54b";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "Lb";
+  cs:fcodePrefix "A5A4Lb";
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/音楽\(専門\).

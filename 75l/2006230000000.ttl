@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/75l2006230000000>
-  <http://purl.org/dc/terms/identifier> "75l2006230000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 60
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:75l2006230000000
+  dct:identifier "75l2006230000000";
+  dct:source cs:75V11 cs:75V11;
+  qb:order [
+    dct:source cs:75V11 cs:75V11;
+    rdf:type cs:Number;
+    rdf:value 60
   ];
-  <http://schema.org/description> "ウ  具体的に指導内容を設定する際には， 以下の点を考慮すること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/75l2006231000000>, <https://w3id.org/jp-cos/75l2006232000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A5LlA2A0A0A6A2A3A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "ウ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 自立活動 / 3 / (2) / ウ";
-  <https://w3id.org/jp-cos/sectionText> "具体的に指導内容を設定する際には， 以下の点を考慮すること。";
-  <https://w3id.org/jp-cos/subCategory> "指導計画の作成と内容の取扱い";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等/自立活動>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/ねらい及び内容等>.
-<https://w3id.org/jp-cos/75l2006200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/75l2006230000000>.
+  schema:description "ウ  具体的に指導内容を設定する際には， 以下の点を考慮すること。";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:75l2006231000000, cs:75l2006232000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;
+  cs:fcode "A7A5LlA2A0A0A6A2A3A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/KindergartenDeptSNES;
+  cs:sectionNumber "ウ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 自立活動 / 3 / (2) / ウ";
+  cs:sectionText "具体的に指導内容を設定する際には， 以下の点を考慮すること。";
+  cs:subCategory "指導計画の作成と内容の取扱い";
+  cs:subject cs:KindergartenDeptSNES-NC\/2009\/ねらい及び内容等\/自立活動;
+  cs:subjectArea cs:KindergartenDeptSNES-NC\/2009\/ねらい及び内容等.
+cs:75l2006200000000 schema:hasPart cs:75l2006230000000.

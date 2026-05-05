@@ -1,12 +1,18 @@
-<https://w3id.org/jp-cos/Elementary/1998>
-  <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/1998/1998>, <https://w3id.org/jp-cos/Elementary/1998/2003>, <https://w3id.org/jp-cos/Elementary/1998/2007>;
-  <http://purl.org/linked-data/cube#order> 15;
-  <http://schema.org/datePublished> "1998-12-14"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/name> "Elementary School Curriculum Guideline 1998-12 Notification"@en, "しょうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-hira, "小学校学習指導要領 1998年12月 告示"@ja;
-  <http://schema.org/startDate> "2002-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudy>;
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Elementary/1998/特別活動/学級活動>, <https://w3id.org/jp-cos/Elementary/1998/特別活動/児童会活動>, <https://w3id.org/jp-cos/Elementary/1998/特別活動/クラブ活動>, <https://w3id.org/jp-cos/Elementary/1998/特別活動/学校行事>;
-  <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/Elementary/1998/総則>, <https://w3id.org/jp-cos/Elementary/1998/国語>, <https://w3id.org/jp-cos/Elementary/1998/社会>, <https://w3id.org/jp-cos/Elementary/1998/算数>, <https://w3id.org/jp-cos/Elementary/1998/理科>, <https://w3id.org/jp-cos/Elementary/1998/生活>, <https://w3id.org/jp-cos/Elementary/1998/音楽>, <https://w3id.org/jp-cos/Elementary/1998/図画工作>, <https://w3id.org/jp-cos/Elementary/1998/家庭>, <https://w3id.org/jp-cos/Elementary/1998/体育>, <https://w3id.org/jp-cos/Elementary/1998/各教科>, <https://w3id.org/jp-cos/Elementary/1998/道徳>, <https://w3id.org/jp-cos/Elementary/1998/特別活動>, <https://w3id.org/jp-cos/Elementary/1998/各教科(共通)>;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H10toH11>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:Elementary\/1998
+  dct:hasVersion cs:Elementary\/1998\/1998, cs:Elementary\/1998\/2003, cs:Elementary\/1998\/2007;
+  qb:order 15;
+  schema:datePublished "1998-12-14"^^xsd:date;
+  schema:name "Elementary School Curriculum Guideline 1998-12 Notification"@en, "しょうがっこうがくしゅうしどうようりょう 1998ねん12がつ こくじ"@ja-hira, "小学校学習指導要領 1998年12月 告示"@ja;
+  schema:startDate "2002-04-01"^^xsd:date;
+  schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
+  rdf:type cs:CourseOfStudy;
+  cs:hasSubject cs:Elementary\/1998\/特別活動\/学級活動, cs:Elementary\/1998\/特別活動\/児童会活動, cs:Elementary\/1998\/特別活動\/クラブ活動, cs:Elementary\/1998\/特別活動\/学校行事;
+  cs:hasSubjectArea cs:Elementary\/1998\/総則, cs:Elementary\/1998\/国語, cs:Elementary\/1998\/社会, cs:Elementary\/1998\/算数, cs:Elementary\/1998\/理科, cs:Elementary\/1998\/生活, cs:Elementary\/1998\/音楽, cs:Elementary\/1998\/図画工作, cs:Elementary\/1998\/家庭, cs:Elementary\/1998\/体育, cs:Elementary\/1998\/各教科, cs:Elementary\/1998\/道徳, cs:Elementary\/1998\/特別活動, cs:Elementary\/1998\/各教科\(共通\);
+  cs:issuedPeriod cs:period\/H10toH11;
+  cs:school cs:school\/Elementary.

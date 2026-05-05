@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/71m0000213000000>
-  <http://purl.org/dc/terms/identifier> "71m0000213000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 163
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:71m0000213000000
+  dct:identifier "71m0000213000000";
+  dct:source cs:71V11 cs:71V11;
+  qb:order [
+    dct:source cs:71V11 cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 163
   ];
-  <http://schema.org/description> "(3) 家庭との緊密な連携を図るようにすること。その際，情報交換の機会を設けたりするなど，保護者が，幼稚園と共に幼児を育てるという意識が高まるようにすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
-  <https://w3id.org/jp-cos/fcode> "A7A1LmA0A0A0A0A2A1A3A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
-  <https://w3id.org/jp-cos/sectionNumber> "(3)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第3章 / 第2 / 1 / (3)";
-  <https://w3id.org/jp-cos/sectionText> "家庭との緊密な連携を図るようにすること。その際，情報交換の機会を設けたりするなど，保護者が，幼稚園と共に幼児を育てるという意識が高まるようにすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項>.
-<https://w3id.org/jp-cos/71m0000210000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71m0000213000000>.
+  schema:description "(3) 家庭との緊密な連携を図るようにすること。その際，情報交換の機会を設けたりするなど，保護者が，幼稚園と共に幼児を育てるという意識が高まるようにすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:Kindergarten\/2008;
+  cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;
+  cs:fcode "A7A1LmA0A0A0A0A2A1A3A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/Kindergarten;
+  cs:sectionNumber "(3)";
+  cs:sectionNumberHierarchy "第1章 / 第3章 / 第2 / 1 / (3)";
+  cs:sectionText "家庭との緊密な連携を図るようにすること。その際，情報交換の機会を設けたりするなど，保護者が，幼稚園と共に幼児を育てるという意識が高まるようにすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Kindergarten\/2008\/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項.
+cs:71m0000210000000 schema:hasPart cs:71m0000213000000.

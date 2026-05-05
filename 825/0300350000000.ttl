@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/8250300350000000>
-  <http://purl.org/dc/terms/identifier> "8250300350000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2287
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8250300350000000
+  dct:identifier "8250300350000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 2287
   ];
-  <http://schema.org/description> "(5) 友達と考えを伝え合うことで学び合ったり，学習の過程と成果を振り返り，よりよく問題解決できたことを実感したりする機会を設けること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=344>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A5A0A3A0A0A3A5A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(5)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第 3 節 算  数 / 第3 / 3 / (5)";
-  <https://w3id.org/jp-cos/sectionText> "友達と考えを伝え合うことで学び合ったり，学習の過程と成果を振り返り，よりよく問題解決できたことを実感したりする機会を設けること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/算数>.
-<https://w3id.org/jp-cos/8250300300000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8250300350000000>.
+  schema:description "(5) 友達と考えを伝え合うことで学び合ったり，学習の過程と成果を振り返り，よりよく問題解決できたことを実感したりする機会を設けること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=344>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A5A0A3A0A0A3A5A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "(5)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第 3 節 算  数 / 第3 / 3 / (5)";
+  cs:sectionText "友達と考えを伝え合うことで学び合ったり，学習の過程と成果を振り返り，よりよく問題解決できたことを実感したりする機会を設けること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Elementary\/2017\/算数.
+cs:8250300300000000 schema:hasPart cs:8250300350000000.

@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/国語>
-  <http://purl.org/linked-data/cube#order> 2;
-  <http://schema.org/name> "Japanese Language"@en, "こくご"@ja-hira, "国語"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "1";
-  <https://w3id.org/jp-cos/codePrefix> "541";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "A1";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4A1";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/国語/国語I>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/国語II>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/国語表現>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/現代文>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/現代語>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/古典I>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/古典II>, <https://w3id.org/jp-cos/UpperSecondary/1989/国語/古典講読>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/国語>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/国語
+  qb:order 2;
+  schema:name "Japanese Language"@en, "こくご"@ja-hira, "国語"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "1";
+  cs:codePrefix "541";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "A1";
+  cs:fcodePrefix "A5A4A1";
+  cs:hasSubject cs:UpperSecondary\/1989\/国語\/国語I, cs:UpperSecondary\/1989\/国語\/国語II, cs:UpperSecondary\/1989\/国語\/国語表現, cs:UpperSecondary\/1989\/国語\/現代文, cs:UpperSecondary\/1989\/国語\/現代語, cs:UpperSecondary\/1989\/国語\/古典I, cs:UpperSecondary\/1989\/国語\/古典II, cs:UpperSecondary\/1989\/国語\/古典講読;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/国語.

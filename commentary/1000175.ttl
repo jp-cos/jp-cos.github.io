@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000175>
-  <http://purl.org/dc/terms/identifier> "1000175";
-  <http://purl.org/linked-data/cube#order> 1000175;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263122000000>;
-  <http://schema.org/description> "イ　水溶液の性質や働きについて追究する中で，溶けているものによる性質や働きの違いについて，より妥当な考えをつくりだし，表現すること。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=83>.
-<https://w3id.org/jp-cos/commentary/1000169> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000175>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000175
+  dct:identifier "1000175";
+  qb:order 1000175;
+  schema:about cs:8260263122000000;
+  schema:description "イ　水溶液の性質や働きについて追究する中で，溶けているものによる性質や働きの違いについて，より妥当な考えをつくりだし，表現すること。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=83>.
+cs:commentary\/1000169 schema:hasPart cs:commentary\/1000175.

@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理療/基礎理療学>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理療/基礎理療学>;
-  <http://schema.org/name> "Basic Massage And Finger Pressure Therapy And Acupuncture And Moxibustion"@en, "きそりりょうがく"@ja-hira, "基礎理療学"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2009\/理療\/基礎理療学
+  dct:relation cs:UpperSecondaryDeptSNES-Visual\/2009\/理療\/基礎理療学;
+  schema:name "Basic Massage And Finger Pressure Therapy And Acupuncture And Moxibustion"@en, "きそりりょうがく"@ja-hira, "基礎理療学"@ja;
+  rdf:type cs:RelatedSubject.

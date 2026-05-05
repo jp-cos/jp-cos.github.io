@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/7Eh9503710000000>
-  <http://purl.org/dc/terms/identifier> "7Eh9503710000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1494
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7Eh9503710000000
+  dct:identifier "7Eh9503710000000";
+  dct:source cs:7BV11 cs:7BV11;
+  qb:order [
+    dct:source cs:7BV11 cs:7BV11;
+    rdf:type cs:Number;
+    rdf:value 1494
   ];
-  <http://schema.org/description> "ア  製本や加工に関する実習";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
-  <https://w3id.org/jp-cos/fcode> "A7UELhA9A5A0A3A7A1A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "ア";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第6款 / 第2 / ［印刷総合実習］ / 2 / (7) / ア";
-  <https://w3id.org/jp-cos/sectionText> "製本や加工に関する実習";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷/印刷総合実習>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/印刷>.
-<https://w3id.org/jp-cos/7Eh9503700000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Eh9503710000000>.
+  schema:description "ア  製本や加工に関する実習";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Hearing;
+  cs:fcode "A7UELhA9A5A0A3A7A1A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "ア";
+  cs:sectionNumberHierarchy "第1章 / 第6款 / 第2 / ［印刷総合実習］ / 2 / (7) / ア";
+  cs:sectionText "製本や加工に関する実習";
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/印刷\/印刷総合実習;
+  cs:subjectArea cs:UpperSecondaryDeptSNES-Hearing\/2009\/印刷.
+cs:7Eh9503700000000 schema:hasPart cs:7Eh9503710000000.

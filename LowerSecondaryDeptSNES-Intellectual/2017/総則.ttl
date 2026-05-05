@@ -1,16 +1,22 @@
-<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総則>
-  <http://purl.org/linked-data/cube#order> 5;
-  <http://schema.org/name> "General Provisions"@en, "そうそく"@ja-hira, "総則"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "0";
-  <https://w3id.org/jp-cos/codePrefix> "8A0";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "A0";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8UAA0";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/8A00000331700000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総則>.
-<https://w3id.org/jp-cos/8A00000331900000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総則>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総則>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総則> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総則>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総則
+  qb:order 5;
+  schema:name "General Provisions"@en, "そうそく"@ja-hira, "総則"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "0";
+  cs:codePrefix "8A0";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "A0";
+  cs:fcodePrefix "A8UAA0";
+  cs:school cs:school\/LowerSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:8A00000331700000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総則.
+cs:8A00000331900000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総則.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017 cs:hasSubjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総則.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/総則 dct:relation cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総則.

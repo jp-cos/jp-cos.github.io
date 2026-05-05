@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/84d1503231120000>
-  <http://purl.org/dc/terms/identifier> "84d1503231120000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 10642
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:84d1503231120000
+  dct:identifier "84d1503231120000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 10642
   ];
-  <http://schema.org/description> "(イ) 社会的な話題について，必要に応じて，話される速さが調整されたり，別の語句や文での言い換えを聞いたりしながら，対話や説明などから必要な情報を聞き取り，概要や要点を把握する活動。また，聞き取った内容を話したり書いたりして伝え合う活動。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4LdA1A5A0A3A2A3A1A1A2A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第13節 / 第2款 / 第1 / 2 / 〔思考力，判断力，表現力等〕 / (3) / ① / ア / (イ)";
-  <https://w3id.org/jp-cos/sectionText> "社会的な話題について，必要に応じて，話される速さが調整されたり，別の語句や文での言い換えを聞いたりしながら，対話や説明などから必要な情報を聞き取り，概要や要点を把握する活動。また，聞き取った内容を話したり書いたりして伝え合う活動。";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)/総合英語I>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)>.
-<https://w3id.org/jp-cos/84d1503231100000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d1503231120000>.
+  schema:description "(イ) 社会的な話題について，必要に応じて，話される速さが調整されたり，別の語句や文での言い換えを聞いたりしながら，対話や説明などから必要な情報を聞き取り，概要や要点を把握する活動。また，聞き取った内容を話したり書いたりして伝え合う活動。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4LdA1A5A0A3A2A3A1A1A2A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(イ)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第13節 / 第2款 / 第1 / 2 / 〔思考力，判断力，表現力等〕 / (3) / ① / ア / (イ)";
+  cs:sectionText "社会的な話題について，必要に応じて，話される速さが調整されたり，別の語句や文での言い換えを聞いたりしながら，対話や説明などから必要な情報を聞き取り，概要や要点を把握する活動。また，聞き取った内容を話したり書いたりして伝え合う活動。";
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondary\/2018\/英語\(専門\)\/総合英語I;
+  cs:subjectArea cs:UpperSecondary\/2018\/英語\(専門\).
+cs:84d1503231100000 schema:hasPart cs:84d1503231120000.

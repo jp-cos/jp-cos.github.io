@@ -1,26 +1,31 @@
-<https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>
-  <http://purl.org/linked-data/cube#order> 257;
-  <http://schema.org/name> "Comprehensive Seminar of Sport"@en, "すぽーつそうごうえんしゅう"@ja-hira, "スポーツ総合演習"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "8";
-  <https://w3id.org/jp-cos/codePrefix> "84a8";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode04> "A8";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LaA8";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/84a8500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/84a8505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
-<https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツ総合演習>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習
+  qb:order 257;
+  schema:name "Comprehensive Seminar of Sport"@en, "すぽーつそうごうえんしゅう"@ja-hira, "スポーツ総合演習"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "8";
+  cs:codePrefix "84a8";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode04 "A8";
+  cs:fcodePrefix "A8A4LaA8";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:84a8500000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8502000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8502100000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8502200000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8502300000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8503000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8503100000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8503110000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8503120000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8503130000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8505000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8505100000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:84a8505200000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:UpperSecondary\/2018 cs:hasSubject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.
+cs:UpperSecondary\/2018\/体育\(専門\) cs:hasSubject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツ総合演習.

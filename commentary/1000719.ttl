@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000719>
-  <http://purl.org/dc/terms/identifier> "1000719";
-  <http://purl.org/linked-data/cube#order> 1000719;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220263215000000>, <https://w3id.org/jp-cos/822026321C000000>, <https://w3id.org/jp-cos/8220263221000000>;
-  <http://schema.org/description> "　この内容は，京都の室町に幕府が置かれた頃の学習で身に付ける事項を示している。ここでは，代表的な建造物や絵画を取り上げる。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=119>.
-<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000719>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000719
+  dct:identifier "1000719";
+  qb:order 1000719;
+  schema:about cs:8220263215000000, cs:822026321C000000, cs:8220263221000000;
+  schema:description "　この内容は，京都の室町に幕府が置かれた頃の学習で身に付ける事項を示している。ここでは，代表的な建造物や絵画を取り上げる。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=119>.
+cs:commentary\/1000612 schema:hasPart cs:commentary\/1000719.

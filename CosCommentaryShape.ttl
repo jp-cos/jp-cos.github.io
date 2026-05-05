@@ -1,69 +1,80 @@
-<https://w3id.org/jp-cos/CosCommentaryShape>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
-  <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>";
-    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>;
-    <http://www.w3.org/ns/shacl#description> "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
-    <http://www.w3.org/ns/shacl#languageIn> [
-      <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja";
-      <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "ja-hira";
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> [
-          <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "en";
-          <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+cs:CosCommentaryShape
+  rdf:type sh:NodeShape;
+  sh:property [
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>";
+    sh:datatype rdf:langString;
+    sh:description "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    sh:languageIn [
+      rdf:first "ja" "ja-hira" "en";
+      rdf:rest   rdf:nil[
+          rdf:first "ja" "ja-hira" "en";
+          rdf:rest   rdf:nil
+        ][
+        rdf:first "ja" "ja-hira" "en";
+        rdf:rest   rdf:nil[
+          rdf:first "ja" "ja-hira" "en";
+          rdf:rest   rdf:nil
         ]
       ]
     ];
-    <http://www.w3.org/ns/shacl#maxCount> 3;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Name"@en, "名称"@ja;
-    <http://www.w3.org/ns/shacl#order> 1;
-    <http://www.w3.org/ns/shacl#path> <http://schema.org/name>;
-    <http://www.w3.org/ns/shacl#uniqueLang> true
+    sh:maxCount 3;
+    sh:minCount 1;
+    sh:name "Name"@en, "名称"@ja;
+    sh:order 1;
+    sh:path schema:name;
+    sh:uniqueLang true
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>;
-    <http://www.w3.org/ns/shacl#maxCount> 2;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Type of School"@en, "学校種別"@ja;
-    <http://www.w3.org/ns/shacl#order> 2;
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/school>
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>" cs:Elementary;
+    sh:class cs:School;
+    sh:maxCount 3 2;
+    sh:minCount 1 1;
+    sh:name "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja;
+    sh:order 1 2;
+    sh:path schema:name cs:school
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/Elementary/2017/社会>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/SubjectArea>;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Subject Area"@en, "教科等"@ja;
-    <http://www.w3.org/ns/shacl#order> 3;
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subjectArea>
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>" cs:Elementary cs:Elementary\/2017\/社会;
+    sh:class cs:School cs:SubjectArea;
+    sh:minCount 1 1 1;
+    sh:name "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Subject Area"@en, "教科等"@ja;
+    sh:order 1 2 3;
+    sh:path schema:name cs:school cs:subjectArea
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "2017";
-    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#gYear>;
-    <http://www.w3.org/ns/shacl#maxCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Publication Year"@en, "出版年"@ja;
-    <http://www.w3.org/ns/shacl#order> 4;
-    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/issued>
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>" cs:Elementary cs:Elementary\/2017\/社会 "2017";
+    sh:datatype rdf:langString xsd:gYear;
+    sh:maxCount 3 2 1;
+    sh:name "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Subject Area"@en, "教科等"@ja "Publication Year"@en, "出版年"@ja;
+    sh:order 1 2 3 4;
+    sh:path schema:name cs:school cs:subjectArea dct:issued
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf>;
-    <http://www.w3.org/ns/shacl#description> "Link to the fulltext"@en, "本文へのリンク"@ja;
-    <http://www.w3.org/ns/shacl#name> "Fulltext URL"@en, "本文URL"@ja;
-    <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI>;
-    <http://www.w3.org/ns/shacl#order> 5;
-    <http://www.w3.org/ns/shacl#path> <http://schema.org/url>
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>" cs:Elementary cs:Elementary\/2017\/社会 "2017" <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf>;
+    sh:description "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "Link to the fulltext"@en, "本文へのリンク"@ja;
+    sh:name "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Subject Area"@en, "教科等"@ja "Publication Year"@en, "出版年"@ja "Fulltext URL"@en, "本文URL"@ja;
+    sh:nodeKind sh:IRI;
+    sh:order 1 2 3 4 5;
+    sh:path schema:name cs:school cs:subjectArea dct:issued schema:url
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000302>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>;
-    <http://www.w3.org/ns/shacl#description> "Child of the item."@en, "子供の細目を表す。"@ja;
-    <http://www.w3.org/ns/shacl#name> "Child"@en, "子"@ja;
-    <http://www.w3.org/ns/shacl#order> 6;
-    <http://www.w3.org/ns/shacl#path> <http://schema.org/hasPart>
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>" cs:Elementary cs:Elementary\/2017\/社会 "2017" <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf> cs:commentary\/1000302;
+    sh:class cs:School cs:SubjectArea cs:CommentaryItem;
+    sh:description "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "Link to the fulltext"@en, "本文へのリンク"@ja "Child of the item."@en, "子供の細目を表す。"@ja;
+    sh:name "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Subject Area"@en, "教科等"@ja "Publication Year"@en, "出版年"@ja "Fulltext URL"@en, "本文URL"@ja "Child"@en, "子"@ja;
+    sh:order 1 2 3 4 5 6;
+    sh:path schema:name cs:school cs:subjectArea dct:issued schema:url schema:hasPart
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> "2003";
-    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
-    <http://www.w3.org/ns/shacl#description> "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
-    <http://www.w3.org/ns/shacl#maxCount> 1;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Listing order of the item"@en, "順番"@ja;
-    <http://www.w3.org/ns/shacl#order> 7;
-    <http://www.w3.org/ns/shacl#path> <http://purl.org/linked-data/cube#order>
+    skos:example "<ul><li>'【社会編】小学校学習指導要領（平成29年告示）解説'@ja,</li><li>'【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ'@ja-hira, </li><li> 'Commentary on the Elementary School Course of Study (Social Studies), Notification 2017'@en</li></ul>" cs:Elementary cs:Elementary\/2017\/社会 "2017" <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf> cs:commentary\/1000302 "2003";
+    sh:datatype rdf:langString xsd:gYear xsd:integer;
+    sh:description "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "Link to the fulltext"@en, "本文へのリンク"@ja "Child of the item."@en, "子供の細目を表す。"@ja "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    sh:maxCount 3 2 1 1;
+    sh:minCount 1 1 1 1;
+    sh:name "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Subject Area"@en, "教科等"@ja "Publication Year"@en, "出版年"@ja "Fulltext URL"@en, "本文URL"@ja "Child"@en, "子"@ja "Listing order of the item"@en, "順番"@ja;
+    sh:order 1 2 3 4 5 6 7;
+    sh:path schema:name cs:school cs:subjectArea dct:issued schema:url schema:hasPart qb:order
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/CosCommentary>.
+  sh:targetClass cs:CosCommentary.

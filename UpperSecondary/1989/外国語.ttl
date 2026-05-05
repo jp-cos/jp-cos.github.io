@@ -1,12 +1,17 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/外国語>
-  <http://purl.org/linked-data/cube#order> 9;
-  <http://schema.org/name> "Foreign Languages"@en, "がいこくご"@ja-hira, "外国語"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "H";
-  <https://w3id.org/jp-cos/codePrefix> "54H";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "UH";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4UH";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/英語I>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/英語II>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/オーラル・コミュニケーションA>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/オーラル・コミュニケーションB>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/オーラル・コミュニケーションC>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/リーディング>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/ライティング>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/ドイツ語>, <https://w3id.org/jp-cos/UpperSecondary/1989/外国語/フランス語>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/外国語>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/外国語
+  qb:order 9;
+  schema:name "Foreign Languages"@en, "がいこくご"@ja-hira, "外国語"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "H";
+  cs:codePrefix "54H";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "UH";
+  cs:fcodePrefix "A5A4UH";
+  cs:hasSubject cs:UpperSecondary\/1989\/外国語\/英語I, cs:UpperSecondary\/1989\/外国語\/英語II, cs:UpperSecondary\/1989\/外国語\/オーラル・コミュニケーションA, cs:UpperSecondary\/1989\/外国語\/オーラル・コミュニケーションB, cs:UpperSecondary\/1989\/外国語\/オーラル・コミュニケーションC, cs:UpperSecondary\/1989\/外国語\/リーディング, cs:UpperSecondary\/1989\/外国語\/ライティング, cs:UpperSecondary\/1989\/外国語\/ドイツ語, cs:UpperSecondary\/1989\/外国語\/フランス語;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/外国語.

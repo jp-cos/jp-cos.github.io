@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000261>
-  <http://purl.org/dc/terms/identifier> "1000261";
-  <http://purl.org/linked-data/cube#order> 1000261;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260265410000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260263231100000>;
-  <http://schema.org/description> "ア　アの(ア) については，水が循環していることにも触れること。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=93>.
-<https://w3id.org/jp-cos/commentary/1000252> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000261>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000261
+  dct:identifier "1000261";
+  qb:order 1000261;
+  schema:about cs:8260265410000000;
+  schema:citation cs:8260263231100000;
+  schema:description "ア　アの(ア) については，水が循環していることにも触れること。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=93>.
+cs:commentary\/1000252 schema:hasPart cs:commentary\/1000261.

@@ -1,15 +1,28 @@
-<https://w3id.org/jp-cos/commentary/1000400>
-  <http://purl.org/dc/terms/alternative> "内容(2)の内容の取扱い";
-  <http://purl.org/dc/terms/identifier> "1000400";
-  <http://purl.org/dc/terms/title> "（内容の取扱い）内容(2)";
-  <http://purl.org/linked-data/cube#order> 1000400;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220255200000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253200000000>;
-  <http://schema.org/description> "（内容の取扱い）";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000404>, <https://w3id.org/jp-cos/commentary/1000405>, <https://w3id.org/jp-cos/commentary/1000406>, <https://w3id.org/jp-cos/commentary/1000407>, <https://w3id.org/jp-cos/commentary/1000408>, <https://w3id.org/jp-cos/commentary/1000409>, <https://w3id.org/jp-cos/commentary/1000410>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=85>.
-<https://w3id.org/jp-cos/CommentaryItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000400>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:commentary\/1000400
+  dct:alternative "内容(2)の内容の取扱い";
+  dct:identifier "1000400";
+  dct:title "（内容の取扱い）内容(2)";
+  qb:order 1000400;
+  schema:about cs:8220255200000000;
+  schema:citation cs:8220253200000000;
+  schema:description "（内容の取扱い）";
+  schema:hasPart cs:commentary\/1000404, cs:commentary\/1000405, cs:commentary\/1000406, cs:commentary\/1000407, cs:commentary\/1000408, cs:commentary\/1000409, cs:commentary\/1000410;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=85>.
+cs:commentary\/1000331 schema:hasPart cs:commentary\/1000400.
+cs:CommentaryItemShape sh:property [
+    skos:example cs:commentary\/1000400;
+    sh:class cs:CommentaryItem;
+    sh:description "Child of the item."@en, "子供の細目を表す。"@ja;
+    sh:name "Child"@en, "子"@ja;
+    sh:order 5;
+    sh:path schema:hasPart
   ].
-<https://w3id.org/jp-cos/commentary/1000331> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000400>.

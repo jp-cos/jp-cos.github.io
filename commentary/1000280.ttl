@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000280>
-  <http://purl.org/dc/terms/identifier> "1000280";
-  <http://purl.org/linked-data/cube#order> 1000280;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260265520000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260263241300000>;
-  <http://schema.org/description> "　イ　アの(ウ) については，自然災害についても触れること。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=95>.
-<https://w3id.org/jp-cos/commentary/1000270> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000280>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000280
+  dct:identifier "1000280";
+  qb:order 1000280;
+  schema:about cs:8260265520000000;
+  schema:citation cs:8260263241300000;
+  schema:description "　イ　アの(ウ) については，自然災害についても触れること。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=95>.
+cs:commentary\/1000270 schema:hasPart cs:commentary\/1000280.

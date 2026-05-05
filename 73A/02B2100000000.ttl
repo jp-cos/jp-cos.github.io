@@ -1,32 +1,38 @@
-<https://w3id.org/jp-cos/73A02B2100000000>
-  <http://purl.org/dc/terms/identifier> "73A02B2100000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1016
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:73A02B2100000000
+  dct:identifier "73A02B2100000000";
+  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  qb:order [
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    rdf:type cs:Number;
+    rdf:value 1016
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1016
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
+    rdf:type cs:Number cs:Number;
+    rdf:value 1016 1016
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1022
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+    rdf:type cs:Number cs:Number cs:Number;
+    rdf:value 1016 1016 1022
   ];
-  <http://schema.org/description> "(1) 主体的に美術の活動に取り組み美術を愛好する心情を深め，心豊かな生活を創造していく意欲と態度を高める。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
-  <https://w3id.org/jp-cos/fcode> "A7A3UAA0A2UBA2A1A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 2, 3;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(1)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第6節 / 第2 / 〔第2学年及び第3学年〕 / 1 / (1)";
-  <https://w3id.org/jp-cos/sectionText> "主体的に美術の活動に取り組み美術を愛好する心情を深め，心豊かな生活を創造していく意欲と態度を高める。";
-  <https://w3id.org/jp-cos/subCategory> "目標";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/美術>.
-<https://w3id.org/jp-cos/73A02B2000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73A02B2100000000>.
+  schema:description "(1) 主体的に美術の活動に取り組み美術を愛好する心情を深め，心豊かな生活を創造していく意欲と態度を高める。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:LowerSecondary\/2008;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;
+  cs:fcode "A7A3UAA0A2UBA2A1A0A0A0A0A0A0A0A0";
+  cs:grade 2, 3;
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "(1)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第6節 / 第2 / 〔第2学年及び第3学年〕 / 1 / (1)";
+  cs:sectionText "主体的に美術の活動に取り組み美術を愛好する心情を深め，心豊かな生活を創造していく意欲と態度を高める。";
+  cs:subCategory "目標";
+  cs:subjectArea cs:LowerSecondary\/2008\/美術.
+cs:73A02B2000000000 schema:hasPart cs:73A02B2100000000.

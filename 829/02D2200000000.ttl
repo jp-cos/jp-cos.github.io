@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/82902D2200000000>
-  <http://purl.org/dc/terms/identifier> "82902D2200000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2909
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:82902D2200000000
+  dct:identifier "82902D2200000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 2909
   ];
-  <http://schema.org/description> "(2) 造形的なよさや美しさ，表したいこと，表し方などについて考え，創造的に発想や構想をしたり，親しみのある作品などから自分の見方や感じ方を深めたりすることができるようにする。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=86>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A9A0A2UDA2A2A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 5, 6;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(2)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第7節 / 第2 / 〔第5学年及び第6学年〕 / 1 / (2)";
-  <https://w3id.org/jp-cos/sectionText> "造形的なよさや美しさ，表したいこと，表し方などについて考え，創造的に発想や構想をしたり，親しみのある作品などから自分の見方や感じ方を深めたりすることができるようにする。";
-  <https://w3id.org/jp-cos/subCategory> "目標";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/図画工作>.
-<https://w3id.org/jp-cos/82902D2000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/82902D2200000000>.
+  schema:description "(2) 造形的なよさや美しさ，表したいこと，表し方などについて考え，創造的に発想や構想をしたり，親しみのある作品などから自分の見方や感じ方を深めたりすることができるようにする。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=86>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A9A0A2UDA2A2A0A0A0A0A0A0A0A0";
+  cs:grade 5, 6;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "(2)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第7節 / 第2 / 〔第5学年及び第6学年〕 / 1 / (2)";
+  cs:sectionText "造形的なよさや美しさ，表したいこと，表し方などについて考え，創造的に発想や構想をしたり，親しみのある作品などから自分の見方や感じ方を深めたりすることができるようにする。";
+  cs:subCategory "目標";
+  cs:subjectArea cs:Elementary\/2017\/図画工作.
+cs:82902D2000000000 schema:hasPart cs:82902D2200000000.

@@ -1,28 +1,34 @@
-<https://w3id.org/jp-cos/8220255140000000>
-  <http://purl.org/dc/terms/identifier> "8220255140000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1530
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8220255140000000
+  dct:identifier "8220255140000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 1530
   ];
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253122000000>;
-  <http://schema.org/description> "エ　イの(イ)の「自然条件から見て特色ある地域」については，地形条件や気候条件から見て特色ある地域を取り上げること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=81>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A2A0A2A5A5A1A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 5;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "エ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2 / 〔第5学年〕 / 3 / (1) / エ";
-  <https://w3id.org/jp-cos/sectionText> "イの(イ)の「自然条件から見て特色ある地域」については，地形条件や気候条件から見て特色ある地域を取り上げること。";
-  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
-<https://w3id.org/jp-cos/8220255100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8220255140000000>.
-<https://w3id.org/jp-cos/commentary/1000373> <http://schema.org/about> <https://w3id.org/jp-cos/8220255140000000>.
-<https://w3id.org/jp-cos/commentary/1000374> <http://schema.org/about> <https://w3id.org/jp-cos/8220255140000000>.
+  schema:citation cs:8220253122000000;
+  schema:description "エ　イの(イ)の「自然条件から見て特色ある地域」については，地形条件や気候条件から見て特色ある地域を取り上げること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=81>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A2A0A2A5A5A1A4A0A0A0A0A0A0A0";
+  cs:grade 5;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "エ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第2節 / 第2 / 〔第5学年〕 / 3 / (1) / エ";
+  cs:sectionText "イの(イ)の「自然条件から見て特色ある地域」については，地形条件や気候条件から見て特色ある地域を取り上げること。";
+  cs:subCategory "内容の取扱い";
+  cs:subjectArea cs:Elementary\/2017\/社会.
+cs:8220255100000000 schema:hasPart cs:8220255140000000.
+cs:commentary\/1000373 schema:about cs:8220255140000000.
+cs:commentary\/1000374 schema:about cs:8220255140000000.

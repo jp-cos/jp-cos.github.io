@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/体育/ダンス>
-  <http://purl.org/linked-data/cube#order> 256;
-  <http://schema.org/name> "Dance"@en, "だんす"@ja-hira, "ダンス"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/体育/ダンス>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/体育> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/体育/ダンス>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/体育\/ダンス
+  qb:order 256;
+  schema:name "Dance"@en, "だんす"@ja-hira, "ダンス"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/体育\/ダンス.
+cs:UpperSecondary\/1989\/体育 cs:hasSubject cs:UpperSecondary\/1989\/体育\/ダンス.

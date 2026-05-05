@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000902>
-  <http://purl.org/dc/terms/identifier> "1000902";
-  <http://purl.org/linked-data/cube#order> 1000902;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220265200000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263200000000>;
-  <http://schema.org/description> "　こうした学習を通して，我が国の歴史を学ぶ意味を考えるとともに，歴史に対する理解を深め，興味・関心を高めるようにする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=132>.
-<https://w3id.org/jp-cos/commentary/1000832> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000902>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000902
+  dct:identifier "1000902";
+  qb:order 1000902;
+  schema:about cs:8220265200000000;
+  schema:citation cs:8220263200000000;
+  schema:description "　こうした学習を通して，我が国の歴史を学ぶ意味を考えるとともに，歴史に対する理解を深め，興味・関心を高めるようにする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=132>.
+cs:commentary\/1000832 schema:hasPart cs:commentary\/1000902.

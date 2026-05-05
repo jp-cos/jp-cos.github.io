@@ -1,21 +1,26 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>
-  <http://purl.org/linked-data/cube#order> 273;
-  <http://schema.org/name> "Drawing"@en, "そびょう"@ja-hira, "素描"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "3";
-  <https://w3id.org/jp-cos/codePrefix> "74c3";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A3";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LcA3";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/74c3500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/74c3505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/素描>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/美術\(専門\)\/素描
+  qb:order 273;
+  schema:name "Drawing"@en, "そびょう"@ja-hira, "素描"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "3";
+  cs:codePrefix "74c3";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A3";
+  cs:fcodePrefix "A7A4LcA3";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:74c3500000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3502000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3503000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3503100000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3503200000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3503300000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3503400000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:74c3505000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.
+cs:UpperSecondary\/2009\/美術\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/素描.

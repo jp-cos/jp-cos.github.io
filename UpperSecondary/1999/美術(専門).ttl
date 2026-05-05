@@ -1,11 +1,16 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/美術(専門)>
-  <http://purl.org/linked-data/cube#order> 24;
-  <http://schema.org/name> "Art and Design(Special)"@en, "びじゅつ(せんもん)"@ja-hira, "美術(専門)"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "c";
-  <https://w3id.org/jp-cos/codePrefix> "64c";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/fcode03> "Lc";
-  <https://w3id.org/jp-cos/fcodePrefix> "A6A4Lc";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/美術(専門)>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/美術\(専門\)
+  qb:order 24;
+  schema:name "Art and Design(Special)"@en, "びじゅつ(せんもん)"@ja-hira, "美術(専門)"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "c";
+  cs:codePrefix "64c";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:fcode03 "Lc";
+  cs:fcodePrefix "A6A4Lc";
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1999 cs:hasSubjectArea cs:UpperSecondary\/1999\/美術\(専門\).

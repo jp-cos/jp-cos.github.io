@@ -1,20 +1,25 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>
-  <http://purl.org/linked-data/cube#order> 288;
-  <http://schema.org/name> "Current English"@en, "じじえいご"@ja-hira, "時事英語"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "5";
-  <https://w3id.org/jp-cos/codePrefix> "74d5";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A5";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LdA5";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/74d5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/74d5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/時事英語>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語
+  qb:order 288;
+  schema:name "Current English"@en, "じじえいご"@ja-hira, "時事英語"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "5";
+  cs:codePrefix "74d5";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A5";
+  cs:fcodePrefix "A7A4LdA5";
+  cs:school cs:school\/UpperSecondary.
+cs:74d5500000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5502000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5503000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5503100000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5503200000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5503300000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5503400000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:74d5505000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.
+cs:UpperSecondary\/2009\/英語\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/英語\(専門\)\/時事英語.

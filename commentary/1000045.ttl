@@ -1,15 +1,25 @@
-<https://w3id.org/jp-cos/commentary/1000045>
-  <http://purl.org/dc/terms/identifier> "1000045";
-  <http://purl.org/linked-data/cube#order> 1000045;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260253120000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260233120000000>, <https://w3id.org/jp-cos/8260263130000000>;
-  <http://schema.org/description> "　本内容は，第３学年「Ａ (2) 風とゴムの力の働き」の学習を踏まえて，「エネルギー」についての基本的な概念等を柱とした内容のうちの「エネルギーの捉え方」に関わるものであり，第６学年「Ａ (3) てこの規則性」の学習につながるものである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=70>.
-<https://w3id.org/jp-cos/8260253120000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000045>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000045
+  dct:identifier "1000045";
+  qb:order 1000045;
+  schema:about cs:8260253120000000;
+  schema:citation cs:8260233120000000, cs:8260263130000000;
+  schema:description "　本内容は，第３学年「Ａ (2) 風とゴムの力の働き」の学習を踏まえて，「エネルギー」についての基本的な概念等を柱とした内容のうちの「エネルギーの捉え方」に関わるものであり，第６学年「Ａ (3) てこの規則性」の学習につながるものである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=70>.
+cs:8260253120000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000045;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260263130000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000045>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000045;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260233120000000
   ].
-<https://w3id.org/jp-cos/commentary/1000040> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000045>.
+cs:commentary\/1000040 schema:hasPart cs:commentary\/1000045.

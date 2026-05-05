@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000314>
-  <http://purl.org/dc/terms/identifier> "1000314";
-  <http://purl.org/linked-data/cube#order> 1000314;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220252100000000>;
-  <http://schema.org/description> "　我が国の<b>産業の現状</b>について理解するとは，我が国の農業や水産業における食料生産や工業生産の概要，食料生産や工業生産を支える人々の工夫や努力，食料や工業製品が国民生活を支えていることなどを理解できるようにすることである";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=75>.
-<https://w3id.org/jp-cos/commentary/1000303> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000314>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000314
+  dct:identifier "1000314";
+  qb:order 1000314;
+  schema:about cs:8220252100000000;
+  schema:description "　我が国の<b>産業の現状</b>について理解するとは，我が国の農業や水産業における食料生産や工業生産の概要，食料生産や工業生産を支える人々の工夫や努力，食料や工業製品が国民生活を支えていることなどを理解できるようにすることである";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=75>.
+cs:commentary\/1000303 schema:hasPart cs:commentary\/1000314.

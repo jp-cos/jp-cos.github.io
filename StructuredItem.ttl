@@ -1,122 +1,120 @@
-<https://w3id.org/jp-cos/StructuredItem>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "A class representing a Course of Study item and its provenance."@en, "学習指導要領の細目とその由来などを表すクラス。"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Structured Item"@en, "構造化細目"@ja.
-<https://w3id.org/jp-cos/8220253312000000> <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:StructuredItem
+  rdf:type rdfs:Class;
+  rdfs:comment "A class representing a Course of Study item and its provenance."@en, "学習指導要領の細目とその由来などを表すクラス。"@ja;
+  rdfs:label "Structured Item"@en, "構造化細目"@ja.
+cs:8220253312000000 cs:basicItem [
+    dct:provenance cs:commentary\/1000449;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8220233200000000
   ].
-<https://w3id.org/jp-cos/8260253110000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260253120000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260253130000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260253210000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+cs:8260253210000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000080;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362213112000000
   ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+    dct:provenance cs:commentary\/1000080;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233511000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000080;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243220000000
   ].
-<https://w3id.org/jp-cos/8260253220000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+cs:8260253220000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000096;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233511000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000096;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243220000000
   ].
-<https://w3id.org/jp-cos/8260253230000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+cs:8260253240000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000128;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362223400000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000128;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243240000000
+  ].
+cs:8260263110000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361213211000000
   ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260253240000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361223412000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243110000000
   ].
-<https://w3id.org/jp-cos/8260263110000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+cs:8260263210000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000232;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362223313000000
+  ];
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000232;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243210000000
+  ].
+cs:8260263220000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000246;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362223312000000
+  ];
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000246;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260233210000000
+  ].
+cs:8260263230000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000263;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233711000000
   ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+    dct:provenance cs:commentary\/1000281;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362213200000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263120000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000263;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243220000000
   ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263130000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263140000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+    dct:provenance cs:commentary\/1000281;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243230000000
   ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+    dct:provenance cs:commentary\/1000281;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260253230000000
+  ].
+cs:8260263250000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000296;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233600000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000296;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243250000000
   ].
-<https://w3id.org/jp-cos/8260263210000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
+cs:8260263251100000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000298;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233600000000
   ].
-<https://w3id.org/jp-cos/8260263220000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263230000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263240000000> <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ], [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263250000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/8260263251100000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/StructuredItem>
-  ].
-<https://w3id.org/jp-cos/StructuredItemShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/StructuredItem>.
+cs:StructuredItemShape sh:targetClass cs:StructuredItem.

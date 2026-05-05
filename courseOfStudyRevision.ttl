@@ -1,14 +1,37 @@
-<https://w3id.org/jp-cos/courseOfStudyRevision>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/CourseOfStudyRevision>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:courseOfStudyRevision
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
+  rdfs:range cs:CourseOfStudyRevision.
+cs:ItemShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/2017;
+    sh:class cs:CourseOfStudyRevision;
+    sh:description "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
+    sh:minCount 1;
+    sh:name "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
+    sh:order 21;
+    sh:path cs:courseOfStudyRevision
   ].
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
+cs:SubjectAreaShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/2017;
+    sh:class cs:CourseOfStudyRevision;
+    sh:description "Repeatable. It corresponds to the revisions of the course of study."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
+    sh:minCount 1;
+    sh:name "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
+    sh:order 1;
+    sh:path cs:courseOfStudyRevision
   ].
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/courseOfStudyRevision>
+cs:SubjectShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/2017;
+    sh:class cs:CourseOfStudyRevision;
+    sh:description "Repeatable. It corresponds to the revisions of the course of study."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
+    sh:minCount 1;
+    sh:name "Course Of Study Revision"@en, "学習指導要領（一部改正情報）"@ja;
+    sh:order 1;
+    sh:path cs:courseOfStudyRevision
   ].

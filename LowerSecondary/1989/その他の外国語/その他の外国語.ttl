@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/LowerSecondary/1989/その他の外国語/その他の外国語>
-  <http://purl.org/linked-data/cube#order> 9;
-  <http://schema.org/name> "Other Foreign Languages"@en, "そのたのがいこくご"@ja-hira, "その他の外国語"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
-<https://w3id.org/jp-cos/LowerSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1989/その他の外国語/その他の外国語>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/その他の外国語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1989/その他の外国語/その他の外国語>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/1989\/その他の外国語\/その他の外国語
+  qb:order 9;
+  schema:name "Other Foreign Languages"@en, "そのたのがいこくご"@ja-hira, "その他の外国語"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989;
+  cs:school cs:school\/LowerSecondary.
+cs:LowerSecondary\/1989 cs:hasSubject cs:LowerSecondary\/1989\/その他の外国語\/その他の外国語.
+cs:LowerSecondary\/1989\/その他の外国語 cs:hasSubject cs:LowerSecondary\/1989\/その他の外国語\/その他の外国語.

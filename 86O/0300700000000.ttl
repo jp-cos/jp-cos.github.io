@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/86O0300700000000>
-  <http://purl.org/dc/terms/identifier> "86O0300700000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2338
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:86O0300700000000
+  dct:identifier "86O0300700000000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 2338
   ];
-  <http://schema.org/description> "７　自立活動の指導の成果が進学先等でも生かされるように，個別の教育支援計画等を活用して関係機関等との連携を図るものとする。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=131>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A6UOA0A3A0A0A7A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "7";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第7章 / 第3 / 7";
-  <https://w3id.org/jp-cos/sectionText> "自立活動の指導の成果が進学先等でも生かされるように，個別の教育支援計画等を活用して関係機関等との連携を図るものとする。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/自立活動>.
-<https://w3id.org/jp-cos/86O0300000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/86O0300700000000>.
+  schema:description "７　自立活動の指導の成果が進学先等でも生かされるように，個別の教育支援計画等を活用して関係機関等との連携を図るものとする。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=131>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:fcode "A8A6UOA0A3A0A0A7A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/ElementaryDeptSNES, cs:school\/LowerSecondaryDeptSNES;
+  cs:sectionNumber "7";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第7章 / 第3 / 7";
+  cs:sectionText "自立活動の指導の成果が進学先等でも生かされるように，個別の教育支援計画等を活用して関係機関等との連携を図るものとする。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:ElementaryAndLowerSecondaryDeptSNES-NC\/2017\/自立活動.
+cs:86O0300000000000 schema:hasPart cs:86O0300700000000.

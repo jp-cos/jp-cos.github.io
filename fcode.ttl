@@ -1,8 +1,21 @@
-<https://w3id.org/jp-cos/fcode>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Fcode of Course of Study"@en, "F学習指導要領コード"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcode>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:fcode
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Fcode of Course of Study"@en, "F学習指導要領コード"@ja;
+  rdfs:range rdf:Literal.
+cs:ItemShape sh:property [
+    skos:example "A8A3UHA1A2A0A3A1A1A1A2A0A0A0A0A0";
+    sh:datatype xsd:string;
+    sh:description "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make course of study code easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードをExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Fcode of Course of Study"@en, "F学習指導要領コード"@ja;
+    sh:order 25;
+    sh:path cs:fcode
   ].

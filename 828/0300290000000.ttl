@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/8280300290000000>
-  <http://purl.org/dc/terms/identifier> "8280300290000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2822
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8280300290000000
+  dct:identifier "8280300290000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 2822
   ];
-  <http://schema.org/description> "(9) 各学年の〔共通事項〕の(1)のイに示す「音符，休符，記号や用語」については，児童の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8280300290100000>, <https://w3id.org/jp-cos/8280300290200000>, <https://w3id.org/jp-cos/8280300290300000>, <https://w3id.org/jp-cos/8280300290400000>, <https://w3id.org/jp-cos/8280300290500000>, <https://w3id.org/jp-cos/8280300290600000>, <https://w3id.org/jp-cos/8280300290700000>, <https://w3id.org/jp-cos/8280300290800000>, <https://w3id.org/jp-cos/8280300290900000>, <https://w3id.org/jp-cos/8280300291000000>, <https://w3id.org/jp-cos/8280300291100000>, <https://w3id.org/jp-cos/8280300291200000>, <https://w3id.org/jp-cos/8280300291300000>, <https://w3id.org/jp-cos/8280300291400000>, <https://w3id.org/jp-cos/8280300291500000>, <https://w3id.org/jp-cos/8280300291600000>, <https://w3id.org/jp-cos/8280300291700000>, <https://w3id.org/jp-cos/8280300291800000>, <https://w3id.org/jp-cos/8280300291900000>, <https://w3id.org/jp-cos/8280300292000000>, <https://w3id.org/jp-cos/8280300292100000>, <https://w3id.org/jp-cos/8280300292200000>, <https://w3id.org/jp-cos/8280300292300000>, <https://w3id.org/jp-cos/8280300292400000>, <https://w3id.org/jp-cos/8280300292500000>, <https://w3id.org/jp-cos/8280300292600000>, <https://w3id.org/jp-cos/8280300292700000>, <https://w3id.org/jp-cos/8280300292800000>, <https://w3id.org/jp-cos/8280300292900000>, <https://w3id.org/jp-cos/8280300293000000>, <https://w3id.org/jp-cos/8280300293100000>, <https://w3id.org/jp-cos/8280300293200000>, <https://w3id.org/jp-cos/8280300293300000>, <https://w3id.org/jp-cos/8280300293400000>, <https://w3id.org/jp-cos/8280300293500000>, <https://w3id.org/jp-cos/8280300293600000>, <https://w3id.org/jp-cos/8280300293700000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=143>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A8A0A3A0A0A2A9A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(9)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第6節 / 第3 / 2 / (9)";
-  <https://w3id.org/jp-cos/sectionText> "各学年の〔共通事項〕の(1)のイに示す「音符，休符，記号や用語」については，児童の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/音楽>.
-<https://w3id.org/jp-cos/8280300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8280300290000000>.
+  schema:description "(9) 各学年の〔共通事項〕の(1)のイに示す「音符，休符，記号や用語」については，児童の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8280300290100000, cs:8280300290200000, cs:8280300290300000, cs:8280300290400000, cs:8280300290500000, cs:8280300290600000, cs:8280300290700000, cs:8280300290800000, cs:8280300290900000, cs:8280300291000000, cs:8280300291100000, cs:8280300291200000, cs:8280300291300000, cs:8280300291400000, cs:8280300291500000, cs:8280300291600000, cs:8280300291700000, cs:8280300291800000, cs:8280300291900000, cs:8280300292000000, cs:8280300292100000, cs:8280300292200000, cs:8280300292300000, cs:8280300292400000, cs:8280300292500000, cs:8280300292600000, cs:8280300292700000, cs:8280300292800000, cs:8280300292900000, cs:8280300293000000, cs:8280300293100000, cs:8280300293200000, cs:8280300293300000, cs:8280300293400000, cs:8280300293500000, cs:8280300293600000, cs:8280300293700000;
+  rdf:type cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=143>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A8A0A3A0A0A2A9A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "(9)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第6節 / 第3 / 2 / (9)";
+  cs:sectionText "各学年の〔共通事項〕の(1)のイに示す「音符，休符，記号や用語」については，児童の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Elementary\/2017\/音楽.
+cs:8280300200000000 schema:hasPart cs:8280300290000000.

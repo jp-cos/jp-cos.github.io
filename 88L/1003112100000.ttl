@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/88L1003112100000>
-  <http://purl.org/dc/terms/identifier> "88L1003112100000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2233
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:88L1003112100000
+  dct:identifier "88L1003112100000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 2233
   ];
-  <http://schema.org/description> "(ア) 英語の歌や日常生活になじみのある語などを聞き，音声やリズムに親しむこと。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=540>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A8A8ULA1A0A0A3A1A1A2A1A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "(ア)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / 第2款 / 2 / 〔英語〕 / 〔知識及び技能〕 / (1) / イ / (ア)";
-  <https://w3id.org/jp-cos/sectionText> "英語の歌や日常生活になじみのある語などを聞き，音声やリズムに親しむこと。";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動/英語>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/外国語活動>.
-<https://w3id.org/jp-cos/88L1003112000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/88L1003112100000>.
+  schema:description "(ア) 英語の歌や日常生活になじみのある語などを聞き，音声やリズムに親しむこと。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=540>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A8A8ULA1A0A0A3A1A1A2A1A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sectionNumber "(ア)";
+  cs:sectionNumberHierarchy "第1章 / 第2款 / 第2款 / 2 / 〔英語〕 / 〔知識及び技能〕 / (1) / イ / (ア)";
+  cs:sectionText "英語の歌や日常生活になじみのある語などを聞き，音声やリズムに親しむこと。";
+  cs:subCategory "内容";
+  cs:subject cs:ElementaryDeptSNES-Intellectual\/2017\/外国語活動\/英語;
+  cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2017\/外国語活動.
+cs:88L1003112000000 schema:hasPart cs:88L1003112100000.

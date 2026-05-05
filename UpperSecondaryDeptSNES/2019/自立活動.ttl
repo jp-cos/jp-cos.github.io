@@ -1,5 +1,9 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/自立活動>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/自立活動>;
-  <http://schema.org/name> "Jiritsukatsudo (Activities to Promote Independence)"@en, "じりつかつどう"@ja-hira, "自立活動"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/自立活動
+  dct:relation cs:UpperSecondaryDeptSNES-NC\/2019\/自立活動;
+  schema:name "Jiritsukatsudo (Activities to Promote Independence)"@en, "じりつかつどう"@ja-hira, "自立活動"@ja;
+  rdf:type cs:RelatedSubjectArea;
+  cs:sourceOfEnglishName cs:source\/UpperSecondaryDeptSNES-2018.

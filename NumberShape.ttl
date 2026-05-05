@@ -1,19 +1,32 @@
-<https://w3id.org/jp-cos/NumberShape>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
-  <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> "122";
-    <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer>;
-    <http://www.w3.org/ns/shacl#name> "Number"@en, "項番"@ja;
-    <http://www.w3.org/ns/shacl#order> 1;
-    <http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+cs:NumberShape
+  rdf:type sh:NodeShape;
+  sh:property [
+    skos:example "122";
+    sh:datatype xsd:integer;
+    sh:name "Number"@en, "項番"@ja;
+    sh:order 1;
+    sh:path rdf:value
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>;
-    <http://www.w3.org/ns/shacl#name> "Source"@en, "出典"@ja;
-    <http://www.w3.org/ns/shacl#order> 2;
-    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/source>
+    skos:example "122" cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Number"@en, "項番"@ja "Source"@en, "出典"@ja;
+    sh:order 1 2;
+    sh:path rdf:value dct:source
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Number>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/NumberShape>
+  sh:targetClass cs:Number.
+cs:ItemShape sh:property [
+    sh:description "Repeatable. The value of the \"No\" column of the original data. A item number information consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:source</code>."@en, "元データの「No」列の値。データセットの数だけ繰り返される。<code>rdf:value</code>, <code>dct:source</code>の2つの項番用プロパティを持つ。"@ja;
+    sh:minCount 1;
+    sh:name "Item Number"@en, "項番"@ja;
+    sh:node cs:NumberShape;
+    sh:nodeKind sh:BlankNode;
+    sh:order 24;
+    sh:path qb:order
   ].

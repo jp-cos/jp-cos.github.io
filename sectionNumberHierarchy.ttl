@@ -1,8 +1,21 @@
-<https://w3id.org/jp-cos/sectionNumberHierarchy>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Hierarchical Section Numbers"@en, "節番号（階層）"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionNumberHierarchy>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:sectionNumberHierarchy
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Hierarchical Section Numbers"@en, "節番号（階層）"@ja;
+  rdfs:range rdf:Literal.
+cs:ItemShape sh:property [
+    skos:example "第1章 / 第2章 / 第9節 / 第2 / 英語 / 2 / 〔知識及び技能〕 / (1) / ア / (イ)";
+    sh:datatype xsd:string;
+    sh:description "It is the section number hierarchy in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号の全階層分を表す。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Hierarchical Section Numbers"@en, "節番号（階層）"@ja;
+    sh:order 3;
+    sh:path cs:sectionNumberHierarchy
   ].

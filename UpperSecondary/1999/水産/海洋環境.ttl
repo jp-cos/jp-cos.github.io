@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/水産/海洋環境>
-  <http://purl.org/linked-data/cube#order> 180;
-  <http://schema.org/name> "Marine Environment"@en, "かいようかんきょう"@ja-hira, "海洋環境"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/水産/海洋環境>.
-<https://w3id.org/jp-cos/UpperSecondary/1999/水産> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/水産/海洋環境>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/水産\/海洋環境
+  qb:order 180;
+  schema:name "Marine Environment"@en, "かいようかんきょう"@ja-hira, "海洋環境"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/Report-2008.
+cs:UpperSecondary\/1999\/水産 cs:hasSubject cs:UpperSecondary\/1999\/水産\/海洋環境.
+cs:UpperSecondary\/1999 cs:hasSubject cs:UpperSecondary\/1999\/水産\/海洋環境.

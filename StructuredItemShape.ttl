@@ -1,23 +1,39 @@
-<https://w3id.org/jp-cos/StructuredItemShape>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape>;
-  <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/8260233210000000>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Item>;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Course Of Study Item"@en, "学習指導要領の細目"@ja;
-    <http://www.w3.org/ns/shacl#order> 1;
-    <http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:StructuredItemShape
+  rdf:type sh:NodeShape;
+  sh:property [
+    skos:example cs:8260233210000000;
+    sh:class cs:Item;
+    sh:minCount 1;
+    sh:name "Course Of Study Item"@en, "学習指導要領の細目"@ja;
+    sh:order 1;
+    sh:path rdf:value
   ], [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000246>;
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/CommentaryItem>;
-    <http://www.w3.org/ns/shacl#minCount> 1;
-    <http://www.w3.org/ns/shacl#name> "Source"@en, "出典"@ja;
-    <http://www.w3.org/ns/shacl#order> 2;
-    <http://www.w3.org/ns/shacl#path> <http://purl.org/dc/terms/provenance>
+    skos:example cs:8260233210000000 cs:commentary\/1000246;
+    sh:class cs:Item cs:CommentaryItem;
+    sh:minCount 1 1;
+    sh:name "Course Of Study Item"@en, "学習指導要領の細目"@ja "Source"@en, "出典"@ja;
+    sh:order 1 2;
+    sh:path rdf:value dct:provenance
   ];
-  <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/StructuredItem>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/StructuredItemShape>
+  sh:targetClass cs:StructuredItem.
+cs:ItemShape sh:property [
+    sh:description "Basic items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Basic item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>."@en, "当該学習指導要領細目の基礎となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。"@ja;
+    sh:name "Basic Course of Study Item"@en, "基礎の細目"@ja;
+    sh:node cs:StructuredItemShape;
+    sh:nodeKind sh:BlankNode;
+    sh:order 16;
+    sh:path cs:basicItem
   ], [
-    <http://www.w3.org/ns/shacl#node> <https://w3id.org/jp-cos/StructuredItemShape>
+    sh:description "Advanced items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Advanced item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>."@en, "当該学習指導要領細目の応用となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。"@ja;
+    sh:name "Advanced Course of Study Item"@en, "応用の細目"@ja;
+    sh:node cs:StructuredItemShape;
+    sh:nodeKind sh:BlankNode;
+    sh:order 17;
+    sh:path cs:advancedItem
   ].

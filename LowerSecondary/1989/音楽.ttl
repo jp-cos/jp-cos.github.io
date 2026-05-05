@@ -1,12 +1,17 @@
-<https://w3id.org/jp-cos/LowerSecondary/1989/音楽>
-  <http://purl.org/linked-data/cube#order> 6;
-  <http://schema.org/name> "Music"@en, "おんがく"@ja-hira, "音楽"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "8";
-  <https://w3id.org/jp-cos/codePrefix> "538";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "A8";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A3A8";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
-<https://w3id.org/jp-cos/LowerSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondary/1989/音楽>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/1989\/音楽
+  qb:order 6;
+  schema:name "Music"@en, "おんがく"@ja-hira, "音楽"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "8";
+  cs:codePrefix "538";
+  cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989;
+  cs:fcode03 "A8";
+  cs:fcodePrefix "A5A3A8";
+  cs:school cs:school\/LowerSecondary;
+  cs:sourceOfEnglishName cs:source\/LowerSecondary-2008.
+cs:LowerSecondary\/1989 cs:hasSubjectArea cs:LowerSecondary\/1989\/音楽.

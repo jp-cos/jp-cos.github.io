@@ -1,21 +1,26 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>
-  <http://purl.org/linked-data/cube#order> 281;
-  <http://schema.org/name> "Video Expression"@en, "えいぞうひょうげん"@ja-hira, "映像表現"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "B";
-  <https://w3id.org/jp-cos/codePrefix> "74cB";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "UB";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LcUB";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/74cB500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/74cB505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/映像表現>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現
+  qb:order 281;
+  schema:name "Video Expression"@en, "えいぞうひょうげん"@ja-hira, "映像表現"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "B";
+  cs:codePrefix "74cB";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "UB";
+  cs:fcodePrefix "A7A4LcUB";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:74cB500000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB502000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB503000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB503100000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB503200000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB503300000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB503400000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:74cB505000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.
+cs:UpperSecondary\/2009\/美術\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/映像表現.

@@ -1,29 +1,35 @@
-<https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>
-  <http://purl.org/linked-data/cube#order> 7;
-  <http://schema.org/name> "Physical Education"@en, "たいいく"@ja-hira, "体育"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "G";
-  <https://w3id.org/jp-cos/codePrefix> "78G";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "UG";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A8UG";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/78G0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G0202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G0203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02a3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02a3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02a3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02a3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02b3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02b3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02b3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02b3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02c3000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02c3100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02c3200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/78G02c3300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/体育> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/体育>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:ElementaryDeptSNES-Intellectual\/2009\/体育
+  qb:order 7;
+  schema:name "Physical Education"@en, "たいいく"@ja-hira, "体育"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "G";
+  cs:codePrefix "78G";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "UG";
+  cs:fcodePrefix "A7A8UG";
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:78G0200000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G0202000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G0203000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02a3000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02a3100000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02a3200000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02a3300000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02b3000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02b3100000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02b3200000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02b3300000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02c3000000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02c3100000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02c3200000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:78G02c3300000000 cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009 cs:hasSubjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/体育.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/体育 dct:relation cs:ElementaryDeptSNES-Intellectual\/2009\/体育.

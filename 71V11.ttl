@@ -1,633 +1,951 @@
-<https://w3id.org/jp-cos/71V11>
-  <http://purl.org/dc/terms/identifier> "71V11";
-  <http://schema.org/name> "【71V11】Code for Kindergarten Course of Guideline published in 2008, version 1.1 （2021-12-28 release）"@en, "【71V11】幼稚園教育要領コード 平成20年告示：バージョン1.1 （令和3年12月28日公表）"@ja;
-  <http://schema.org/releaseDate> "2021-12-28"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/version> "1.1";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>.
-<https://w3id.org/jp-cos/7100000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000110000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000111000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000112000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000113000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000120000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000210000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000211000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000212000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000213000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/7100000310000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l0000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l0000100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1001000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1001100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1001200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1001300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003600000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003700000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003800000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003900000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1003A00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1005000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1005100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1005200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1005300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1005400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l1005500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2001000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2001100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2001200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2001300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003600000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003700000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003800000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003900000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003A00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003B00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003C00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2003D00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l2005600000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3001000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3001100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3001200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3001300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003600000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003700000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003800000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003900000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003A00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3003B00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3005000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3005100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3005200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3005300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l3005400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4001000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4001100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4001200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4001300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003600000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003700000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003800000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003900000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4003A00000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4005000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4005100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4005200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4005300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l4005400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5001000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5001100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5001200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5001300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003400000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003500000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003600000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003700000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5003800000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5005000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5005100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5005200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71l5005300000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000000000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000100000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000110000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111100000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111200000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111210000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111220000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111230000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111240000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111300000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111400000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111500000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111600000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111700000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111800000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000111900000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000112000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000112100000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000112200000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000112300000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000112400000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000112500000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000200000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000210000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000211000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000212000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000213000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000214000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000215000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/71m0000220000000> <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>
-  ].
-<https://w3id.org/jp-cos/Kindergarten/2008> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/71V11>.
-<https://w3id.org/jp-cos/Kindergarten/2008/2008> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/71V11>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+cs:71V11
+  dct:identifier "71V11";
+  schema:name "【71V11】Code for Kindergarten Course of Guideline published in 2008, version 1.1 （2021-12-28 release）"@en, "【71V11】幼稚園教育要領コード 平成20年告示：バージョン1.1 （令和3年12月28日公表）"@ja;
+  schema:releaseDate "2021-12-28"^^xsd:date;
+  schema:version "1.1";
+  rdf:type cs:Dataset;
+  cs:school cs:school\/Kindergarten.
+cs:7100000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 1
+  ].
+cs:7100000100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 2
+  ].
+cs:7100000110000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 3
+  ].
+cs:7100000111000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 4
+  ].
+cs:7100000112000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 5
+  ].
+cs:7100000113000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 6
+  ].
+cs:7100000120000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 7
+  ].
+cs:7100000200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 8
+  ].
+cs:7100000210000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 9
+  ].
+cs:7100000211000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 10
+  ].
+cs:7100000212000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 11
+  ].
+cs:7100000213000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 12
+  ].
+cs:7100000300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 13
+  ].
+cs:7100000310000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 14
+  ].
+cs:71l0000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 15
+  ].
+cs:71l0000100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 16
+  ].
+cs:71l1000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 17
+  ].
+cs:71l1001000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 19
+  ].
+cs:71l1001100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 20
+  ].
+cs:71l1001200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 21
+  ].
+cs:71l1001300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 22
+  ].
+cs:71l1003000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 23
+  ].
+cs:71l1003100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 24
+  ].
+cs:71l1003200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 25
+  ].
+cs:71l1003300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 26
+  ].
+cs:71l1003400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 27
+  ].
+cs:71l1003500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 28
+  ].
+cs:71l1003600000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 29
+  ].
+cs:71l1003700000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 30
+  ].
+cs:71l1003800000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 31
+  ].
+cs:71l1003900000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 32
+  ].
+cs:71l1003A00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 33
+  ].
+cs:71l1005000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 34
+  ].
+cs:71l1005100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 36
+  ].
+cs:71l1005200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 37
+  ].
+cs:71l1005300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 38
+  ].
+cs:71l1005400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 39
+  ].
+cs:71l1005500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 40
+  ].
+cs:71l2000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 41
+  ].
+cs:71l2001000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 43
+  ].
+cs:71l2001100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 44
+  ].
+cs:71l2001200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 45
+  ].
+cs:71l2001300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 46
+  ].
+cs:71l2003000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 47
+  ].
+cs:71l2003100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 48
+  ].
+cs:71l2003200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 49
+  ].
+cs:71l2003300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 50
+  ].
+cs:71l2003400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 51
+  ].
+cs:71l2003500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 52
+  ].
+cs:71l2003600000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 53
+  ].
+cs:71l2003700000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 54
+  ].
+cs:71l2003800000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 55
+  ].
+cs:71l2003900000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 56
+  ].
+cs:71l2003A00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 57
+  ].
+cs:71l2003B00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 58
+  ].
+cs:71l2003C00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 59
+  ].
+cs:71l2003D00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 60
+  ].
+cs:71l2005000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 61
+  ].
+cs:71l2005100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 63
+  ].
+cs:71l2005200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 64
+  ].
+cs:71l2005300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 65
+  ].
+cs:71l2005400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 66
+  ].
+cs:71l2005500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 67
+  ].
+cs:71l2005600000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 68
+  ].
+cs:71l3000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 69
+  ].
+cs:71l3001000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 71
+  ].
+cs:71l3001100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 72
+  ].
+cs:71l3001200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 73
+  ].
+cs:71l3001300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 74
+  ].
+cs:71l3003000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 75
+  ].
+cs:71l3003100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 76
+  ].
+cs:71l3003200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 77
+  ].
+cs:71l3003300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 78
+  ].
+cs:71l3003400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 79
+  ].
+cs:71l3003500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 80
+  ].
+cs:71l3003600000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 81
+  ].
+cs:71l3003700000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 82
+  ].
+cs:71l3003800000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 83
+  ].
+cs:71l3003900000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 84
+  ].
+cs:71l3003A00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 85
+  ].
+cs:71l3003B00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 86
+  ].
+cs:71l3005000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 87
+  ].
+cs:71l3005100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 89
+  ].
+cs:71l3005200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 90
+  ].
+cs:71l3005300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 91
+  ].
+cs:71l3005400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 92
+  ].
+cs:71l4000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 93
+  ].
+cs:71l4001000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 95
+  ].
+cs:71l4001100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 96
+  ].
+cs:71l4001200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 97
+  ].
+cs:71l4001300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 98
+  ].
+cs:71l4003000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 99
+  ].
+cs:71l4003100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 100
+  ].
+cs:71l4003200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 101
+  ].
+cs:71l4003300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 102
+  ].
+cs:71l4003400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 103
+  ].
+cs:71l4003500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 104
+  ].
+cs:71l4003600000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 105
+  ].
+cs:71l4003700000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 106
+  ].
+cs:71l4003800000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 107
+  ].
+cs:71l4003900000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 108
+  ].
+cs:71l4003A00000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 109
+  ].
+cs:71l4005000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 110
+  ].
+cs:71l4005100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 112
+  ].
+cs:71l4005200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 113
+  ].
+cs:71l4005300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 114
+  ].
+cs:71l4005400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 115
+  ].
+cs:71l5000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 116
+  ].
+cs:71l5001000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 118
+  ].
+cs:71l5001100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 119
+  ].
+cs:71l5001200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 120
+  ].
+cs:71l5001300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 121
+  ].
+cs:71l5003000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 122
+  ].
+cs:71l5003100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 123
+  ].
+cs:71l5003200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 124
+  ].
+cs:71l5003300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 125
+  ].
+cs:71l5003400000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 126
+  ].
+cs:71l5003500000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 127
+  ].
+cs:71l5003600000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 128
+  ].
+cs:71l5003700000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 129
+  ].
+cs:71l5003800000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 130
+  ].
+cs:71l5005000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 131
+  ].
+cs:71l5005100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 133
+  ].
+cs:71l5005200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 134
+  ].
+cs:71l5005300000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 135
+  ].
+cs:71m0000000000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 136
+  ].
+cs:71m0000100000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 137
+  ].
+cs:71m0000110000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 138
+  ].
+cs:71m0000111000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 139
+  ].
+cs:71m0000111100000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 140
+  ].
+cs:71m0000111200000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 141
+  ].
+cs:71m0000111210000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 142
+  ].
+cs:71m0000111220000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 143
+  ].
+cs:71m0000111230000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 144
+  ].
+cs:71m0000111240000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 145
+  ].
+cs:71m0000111300000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 146
+  ].
+cs:71m0000111400000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 147
+  ].
+cs:71m0000111500000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 148
+  ].
+cs:71m0000111600000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 149
+  ].
+cs:71m0000111700000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 150
+  ].
+cs:71m0000111800000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 151
+  ].
+cs:71m0000111900000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 152
+  ].
+cs:71m0000112000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 153
+  ].
+cs:71m0000112100000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 154
+  ].
+cs:71m0000112200000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 155
+  ].
+cs:71m0000112300000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 156
+  ].
+cs:71m0000112400000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 157
+  ].
+cs:71m0000112500000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 158
+  ].
+cs:71m0000200000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 159
+  ].
+cs:71m0000210000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 160
+  ].
+cs:71m0000211000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 161
+  ].
+cs:71m0000212000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 162
+  ].
+cs:71m0000213000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 163
+  ].
+cs:71m0000214000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 164
+  ].
+cs:71m0000215000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 165
+  ].
+cs:71m0000220000000 dct:source cs:71V11;
+  qb:order [
+    dct:source cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 166
+  ].
+cs:Kindergarten\/2008 cs:dataset cs:71V11.
+cs:Kindergarten\/2008\/2008 cs:dataset cs:71V11.

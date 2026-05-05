@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000526>
-  <http://purl.org/dc/terms/identifier> "1000526";
-  <http://purl.org/linked-data/cube#order> 1000526;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220255510000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253511000000>;
-  <http://schema.org/description> "　内容の取扱い (5) のアは，内容の (5) のアの(ア)において，自然災害を取り上げる際の配慮事項を示したものである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=99>.
-<https://w3id.org/jp-cos/commentary/1000521> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000526>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000526
+  dct:identifier "1000526";
+  qb:order 1000526;
+  schema:about cs:8220255510000000;
+  schema:citation cs:8220253511000000;
+  schema:description "　内容の取扱い (5) のアは，内容の (5) のアの(ア)において，自然災害を取り上げる際の配慮事項を示したものである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=99>.
+cs:commentary\/1000521 schema:hasPart cs:commentary\/1000526.

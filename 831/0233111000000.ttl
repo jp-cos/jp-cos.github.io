@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/8310233111000000>
-  <http://purl.org/dc/terms/identifier> "8310233111000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 218
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8310233111000000
+  dct:identifier "8310233111000000";
+  dct:source cs:83V11 cs:83V11;
+  qb:order [
+    dct:source cs:83V11 cs:83V11;
+    rdf:type cs:Number;
+    rdf:value 218
   ];
-  <http://schema.org/description> "ア　第２学年までに学習した常用漢字に加え，その他の常用漢字の大体を読むこと。また，学年別漢字配当表に示されている漢字について，文や文章の中で使い慣れること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=108>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A3A1A0A2A3A3A1A1A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 3;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ア";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 第2 / 〔第3学年〕 / 2 / 〔知識及び技能〕 / (1) / ア";
-  <https://w3id.org/jp-cos/sectionText> "第2学年までに学習した常用漢字に加え，その他の常用漢字の大体を読むこと。また，学年別漢字配当表に示されている漢字について，文や文章の中で使い慣れること。";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/国語>.
-<https://w3id.org/jp-cos/8310233110000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8310233111000000>.
+  schema:description "ア　第２学年までに学習した常用漢字に加え，その他の常用漢字の大体を読むこと。また，学年別漢字配当表に示されている漢字について，文や文章の中で使い慣れること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=108>;
+  cs:courseOfStudy cs:LowerSecondary\/2017;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2017\/2017;
+  cs:fcode "A8A3A1A0A2A3A3A1A1A1A0A0A0A0A0A0";
+  cs:grade 3;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "ア";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第1節 / 第2 / 〔第3学年〕 / 2 / 〔知識及び技能〕 / (1) / ア";
+  cs:sectionText "第2学年までに学習した常用漢字に加え，その他の常用漢字の大体を読むこと。また，学年別漢字配当表に示されている漢字について，文や文章の中で使い慣れること。";
+  cs:subCategory "内容";
+  cs:subjectArea cs:LowerSecondary\/2017\/国語.
+cs:8310233110000000 schema:hasPart cs:8310233111000000.

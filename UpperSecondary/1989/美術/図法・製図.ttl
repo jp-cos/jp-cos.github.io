@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/美術/図法・製図>
-  <http://purl.org/linked-data/cube#order> 274;
-  <http://schema.org/name> "Descriptive Geometry and Drafting"@en, "ずほう・せいほう"@ja-hira, "図法・製図"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/美術/図法・製図>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/美術> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/美術/図法・製図>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/美術\/図法・製図
+  qb:order 274;
+  schema:name "Descriptive Geometry and Drafting"@en, "ずほう・せいほう"@ja-hira, "図法・製図"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/美術\/図法・製図.
+cs:UpperSecondary\/1989\/美術 cs:hasSubject cs:UpperSecondary\/1989\/美術\/図法・製図.

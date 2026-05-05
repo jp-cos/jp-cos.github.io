@@ -1,8 +1,21 @@
-<https://w3id.org/jp-cos/fcode04>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Fcode Correspond to 4th Digit Code of Course of Study Item"@en, "学習指導要領コード4桁目に対応するFコード"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/fcode04>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:fcode04
+  rdf:type rdf:Property;
+  rdfs:domain cs:Subject;
+  rdfs:label "Fcode Correspond to 4th Digit Code of Course of Study Item"@en, "学習指導要領コード4桁目に対応するFコード"@ja;
+  rdfs:range rdf:Literal.
+cs:SubjectShape sh:property [
+    skos:example "A1";
+    sh:datatype xsd:string;
+    sh:description "It is assigned \"A\" for numbers, L for lowercase letters, and U for uppercase letters to make the 4th digit code of course of study item easier to handle in Excel filters and pivot tables."@en, "学習指導要領コードの4桁目をExcelのフィルタやピボットテーブルで扱いやすいように、数字であればAを、小文字であればLを、大文字であればUを付与したコード。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Fcode Correspond to 4th Digit Code of Course of Study Item"@en, "学習指導要領コード4桁目に対応するFコード"@ja;
+    sh:order 8;
+    sh:path cs:fcode04
   ].

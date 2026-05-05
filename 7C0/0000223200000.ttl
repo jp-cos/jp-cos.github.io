@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/7C00000223200000>
-  <http://purl.org/dc/terms/identifier> "7C00000223200000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 65
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7C00000223200000
+  dct:identifier "7C00000223200000";
+  dct:source cs:7BV11 cs:7BV11;
+  qb:order [
+    dct:source cs:7BV11 cs:7BV11;
+    rdf:type cs:Number;
+    rdf:value 65
   ];
-  <http://schema.org/description> "２   週当たりの授業時数は，30単位時間を標準とする。ただし，特に必要がある場合には，  これを増加することができる。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Health>;
-  <https://w3id.org/jp-cos/fcode> "A7UCA0A0A0A0A0A2A2A3A2A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "2";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / 第2款 / 第3 / 2";
-  <https://w3id.org/jp-cos/sectionText> "週当たりの授業時数は，30単位時間を標準とする。ただし，特に必要がある場合には，  これを増加することができる。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-VHPH/2009/総則>.
-<https://w3id.org/jp-cos/7C00000223000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7C00000223200000>.
+  schema:description "２   週当たりの授業時数は，30単位時間を標準とする。ただし，特に必要がある場合には，  これを増加することができる。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Visual, cs:disabilityCategory\/Hearing, cs:disabilityCategory\/Physical, cs:disabilityCategory\/Health;
+  cs:fcode "A7UCA0A0A0A0A0A2A2A3A2A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "2";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / 第2款 / 第3 / 2";
+  cs:sectionText "週当たりの授業時数は，30単位時間を標準とする。ただし，特に必要がある場合には，  これを増加することができる。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondaryDeptSNES-VHPH\/2009\/総則.
+cs:7C00000223000000 schema:hasPart cs:7C00000223200000.

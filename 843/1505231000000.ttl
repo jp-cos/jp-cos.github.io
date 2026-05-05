@@ -1,28 +1,34 @@
-<https://w3id.org/jp-cos/8431505231000000>
-  <http://purl.org/dc/terms/identifier> "8431505231000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 604
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8431505231000000
+  dct:identifier "8431505231000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 604
   ];
-  <http://schema.org/description> """(ア) (1)については，次のとおり取り扱うこと。
+  schema:description """(ア) (1)については，次のとおり取り扱うこと。
 日本は変化に富んだ地形や気候をもち，様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを，具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けるとともに，防災意識を高めるよう工夫すること。
 「我が国をはじめ世界で見られる自然災害」及び「生徒の生活圏で見られる自然災害」については，それぞれ地震災害や津波災害，風水害，火山災害などの中から，適切な事例を取り上げること。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4A3A1A5A0A5A2A3A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(ア)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2款 / 第1 / 3 / (2) / ウ / (ア)";
-  <https://w3id.org/jp-cos/sectionText> """(1)については，次のとおり取り扱うこと。
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4A3A1A5A0A5A2A3A1A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(ア)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第2節 / 第2款 / 第1 / 3 / (2) / ウ / (ア)";
+  cs:sectionText """(1)については，次のとおり取り扱うこと。
 日本は変化に富んだ地形や気候をもち，様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを，具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けるとともに，防災意識を高めるよう工夫すること。
 「我が国をはじめ世界で見られる自然災害」及び「生徒の生活圏で見られる自然災害」については，それぞれ地震災害や津波災害，風水害，火山災害などの中から，適切な事例を取り上げること。""";
-  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史/地理総合>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/地理歴史>.
-<https://w3id.org/jp-cos/8431505230000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8431505231000000>.
+  cs:subCategory "内容の取扱い";
+  cs:subject cs:UpperSecondary\/2018\/地理歴史\/地理総合;
+  cs:subjectArea cs:UpperSecondary\/2018\/地理歴史.
+cs:8431505230000000 schema:hasPart cs:8431505231000000.

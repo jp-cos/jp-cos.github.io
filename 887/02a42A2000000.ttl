@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/88702a42A2000000>
-  <http://purl.org/dc/terms/identifier> "88702a42A2000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 197
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:88702a42A2000000
+  dct:identifier "88702a42A2000000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 197
   ];
-  <http://schema.org/description> "(イ) 身の回りの社会の仕組みや公共施設の使い方などについて関心をもつこと。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=59>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A8A8A7A0A2LaA4A2UAA2A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "(イ)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / 〔生活〕 / 2 / ○1段階 / (2) / コ / (イ)";
-  <https://w3id.org/jp-cos/sectionText> "身の回りの社会の仕組みや公共施設の使い方などについて関心をもつこと。";
-  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/1>;
-  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/生活>.
-<https://w3id.org/jp-cos/88702a42A0000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/88702a42A2000000>.
+  schema:description "(イ) 身の回りの社会の仕組みや公共施設の使い方などについて関心をもつこと。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=59>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A8A8A7A0A2LaA4A2UAA2A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sectionNumber "(イ)";
+  cs:sectionNumberHierarchy "第1章 / 第2款 / 〔生活〕 / 2 / ○1段階 / (2) / コ / (イ)";
+  cs:sectionText "身の回りの社会の仕組みや公共施設の使い方などについて関心をもつこと。";
+  cs:stage cs:stage\/ElementaryDeptSNES-Intellectual\/1;
+  cs:subCategory "目標及び内容";
+  cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2017\/生活.
+cs:88702a42A0000000 schema:hasPart cs:88702a42A2000000.

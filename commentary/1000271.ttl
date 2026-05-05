@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000271>
-  <http://purl.org/dc/terms/identifier> "1000271";
-  <http://purl.org/linked-data/cube#order> 1000271;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263240000000>;
-  <http://schema.org/description> "　土地のつくりと変化について，土地やその中に含まれる物に着目して，土地のつくりやでき方を多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=94>.
-<https://w3id.org/jp-cos/commentary/1000270> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000271>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000271
+  dct:identifier "1000271";
+  qb:order 1000271;
+  schema:about cs:8260263240000000;
+  schema:description "　土地のつくりと変化について，土地やその中に含まれる物に着目して，土地のつくりやでき方を多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=94>.
+cs:commentary\/1000270 schema:hasPart cs:commentary\/1000271.

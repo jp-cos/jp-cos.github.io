@@ -1,5 +1,9 @@
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/音楽>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2017/音楽>, <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/音楽>;
-  <http://schema.org/name> "Music"@en, "おんがく"@ja-hira, "音楽"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/音楽
+  dct:relation cs:ElementaryDeptSNES-Intellectual\/2017\/音楽, cs:LowerSecondaryDeptSNES-Intellectual\/2017\/音楽;
+  schema:name "Music"@en, "おんがく"@ja-hira, "音楽"@ja;
+  rdf:type cs:RelatedSubjectArea;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.

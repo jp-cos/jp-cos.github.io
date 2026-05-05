@@ -1,8 +1,20 @@
-<https://w3id.org/jp-cos/code03>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SubjectArea>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/code03>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:code03
+  rdf:type rdf:Property;
+  rdfs:domain cs:SubjectArea;
+  rdfs:label "3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目"@ja;
+  rdfs:range rdf:Literal.
+cs:SubjectAreaShape sh:property [
+    skos:example "1";
+    sh:datatype xsd:string;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "3th Digit Code of Course of Study Item"@en, "学習指導要領コード3桁目"@ja;
+    sh:order 7;
+    sh:path cs:code03
   ].

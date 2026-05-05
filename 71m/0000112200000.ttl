@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/71m0000112200000>
-  <http://purl.org/dc/terms/identifier> "71m0000112200000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/71V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 155
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:71m0000112200000
+  dct:identifier "71m0000112200000";
+  dct:source cs:71V11 cs:71V11;
+  qb:order [
+    dct:source cs:71V11 cs:71V11;
+    rdf:type cs:Number;
+    rdf:value 155
   ];
-  <http://schema.org/description> "(2) 障害のある幼児の指導に当たっては，集団の中で生活することを通して全体的な発達を促していくことに配慮し，特別支援学校などの助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉などの業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の幼児の障害の状態などに応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Kindergarten/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Kindergarten/2008/2008>;
-  <https://w3id.org/jp-cos/fcode> "A7A1LmA0A0A0A0A1A1A2A2A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Kindergarten>;
-  <https://w3id.org/jp-cos/sectionNumber> "(2)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第3章 / 第1 / 幼稚園教育は，幼児が自ら意欲をもって環境と... / 2 / (2)";
-  <https://w3id.org/jp-cos/sectionText> "障害のある幼児の指導に当たっては，集団の中で生活することを通して全体的な発達を促していくことに配慮し，特別支援学校などの助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉などの業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の幼児の障害の状態などに応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Kindergarten/2008/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項>.
-<https://w3id.org/jp-cos/71m0000112000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/71m0000112200000>.
+  schema:description "(2) 障害のある幼児の指導に当たっては，集団の中で生活することを通して全体的な発達を促していくことに配慮し，特別支援学校などの助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉などの業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の幼児の障害の状態などに応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:Kindergarten\/2008;
+  cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;
+  cs:fcode "A7A1LmA0A0A0A0A1A1A2A2A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/Kindergarten;
+  cs:sectionNumber "(2)";
+  cs:sectionNumberHierarchy "第1章 / 第3章 / 第1 / 幼稚園教育は，幼児が自ら意欲をもって環境と... / 2 / (2)";
+  cs:sectionText "障害のある幼児の指導に当たっては，集団の中で生活することを通して全体的な発達を促していくことに配慮し，特別支援学校などの助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉などの業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の幼児の障害の状態などに応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Kindergarten\/2008\/指導計画及び教育課程に係る教育時間の終了後等に行う教育活動などの留意事項.
+cs:71m0000112000000 schema:hasPart cs:71m0000112200000.

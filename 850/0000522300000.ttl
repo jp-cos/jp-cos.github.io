@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/8500000522300000>
-  <http://purl.org/dc/terms/identifier> "8500000522300000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/85V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 51
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8500000522300000
+  dct:identifier "8500000522300000";
+  dct:source cs:85V10 cs:85V10;
+  qb:order [
+    dct:source cs:85V10 cs:85V10;
+    rdf:type cs:Number;
+    rdf:value 51
   ];
-  <http://schema.org/description> "ウ 幼児の行う具体的な活動は，生活の流れの中で様々に変化するものであることに留意し，幼児が望ましい方向に向かって自ら活動を展開していくことができるよう必要な援助をすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/KindergartenDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A5A0A0A0A0A0A5A2A2A3A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "ウ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第5 / 2 / (2) / ウ";
-  <https://w3id.org/jp-cos/sectionText> "幼児の行う具体的な活動は，生活の流れの中で様々に変化するものであることに留意し，幼児が望ましい方向に向かって自ら活動を展開していくことができるよう必要な援助をすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2017/総則>.
-<https://w3id.org/jp-cos/8500000522000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8500000522300000>.
+  schema:description "ウ 幼児の行う具体的な活動は，生活の流れの中で様々に変化するものであることに留意し，幼児が望ましい方向に向かって自ら活動を展開していくことができるよう必要な援助をすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;
+  cs:fcode "A8A5A0A0A0A0A0A5A2A2A3A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/KindergartenDeptSNES;
+  cs:sectionNumber "ウ";
+  cs:sectionNumberHierarchy "第1章 / 第5 / 2 / (2) / ウ";
+  cs:sectionText "幼児の行う具体的な活動は，生活の流れの中で様々に変化するものであることに留意し，幼児が望ましい方向に向かって自ら活動を展開していくことができるよう必要な援助をすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:KindergartenDeptSNES-NC\/2017\/総則.
+cs:8500000522000000 schema:hasPart cs:8500000522300000.

@@ -1,12 +1,18 @@
-<https://w3id.org/jp-cos/commentary/1000357>
-  <http://purl.org/dc/terms/alternative> "内容(1)の内容の取扱い";
-  <http://purl.org/dc/terms/identifier> "1000357";
-  <http://purl.org/dc/terms/title> "（内容の取扱い）内容(1)";
-  <http://purl.org/linked-data/cube#order> 1000357;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220255100000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220253100000000>;
-  <http://schema.org/description> "（内容の取扱い）";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000363>, <https://w3id.org/jp-cos/commentary/1000364>, <https://w3id.org/jp-cos/commentary/1000365>, <https://w3id.org/jp-cos/commentary/1000366>, <https://w3id.org/jp-cos/commentary/1000367>, <https://w3id.org/jp-cos/commentary/1000368>, <https://w3id.org/jp-cos/commentary/1000369>, <https://w3id.org/jp-cos/commentary/1000370>, <https://w3id.org/jp-cos/commentary/1000371>, <https://w3id.org/jp-cos/commentary/1000372>, <https://w3id.org/jp-cos/commentary/1000373>, <https://w3id.org/jp-cos/commentary/1000374>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=80>.
-<https://w3id.org/jp-cos/commentary/1000331> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000357>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000357
+  dct:alternative "内容(1)の内容の取扱い";
+  dct:identifier "1000357";
+  dct:title "（内容の取扱い）内容(1)";
+  qb:order 1000357;
+  schema:about cs:8220255100000000;
+  schema:citation cs:8220253100000000;
+  schema:description "（内容の取扱い）";
+  schema:hasPart cs:commentary\/1000363, cs:commentary\/1000364, cs:commentary\/1000365, cs:commentary\/1000366, cs:commentary\/1000367, cs:commentary\/1000368, cs:commentary\/1000369, cs:commentary\/1000370, cs:commentary\/1000371, cs:commentary\/1000372, cs:commentary\/1000373, cs:commentary\/1000374;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=80>.
+cs:commentary\/1000331 schema:hasPart cs:commentary\/1000357.

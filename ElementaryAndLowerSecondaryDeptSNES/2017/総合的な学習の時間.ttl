@@ -1,5 +1,9 @@
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/総合的な学習の時間>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2017/総合的な学習の時間>, <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/総合的な学習の時間>;
-  <http://schema.org/name> "Period for Integrated Study"@en, "そうごうてきながくしゅうのじかん"@ja-hira, "総合的な学習の時間"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubjectArea>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/総合的な学習の時間
+  dct:relation cs:ElementaryAndLowerSecondaryDeptSNES-NC\/2017\/総合的な学習の時間, cs:LowerSecondaryDeptSNES-Intellectual\/2017\/総合的な学習の時間;
+  schema:name "Period for Integrated Study"@en, "そうごうてきながくしゅうのじかん"@ja-hira, "総合的な学習の時間"@ja;
+  rdf:type cs:RelatedSubjectArea;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.

@@ -1,25 +1,30 @@
-<https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>
-  <http://purl.org/linked-data/cube#order> 253;
-  <http://schema.org/name> "Sport III"@en, "すぽーつIII"@ja-hira, "スポーツIII"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "4";
-  <https://w3id.org/jp-cos/codePrefix> "84a4";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode04> "A4";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LaA4";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/84a4500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/84a4505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
-<https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/体育(専門)/スポーツIII>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII
+  qb:order 253;
+  schema:name "Sport III"@en, "すぽーつIII"@ja-hira, "スポーツIII"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "4";
+  cs:codePrefix "84a4";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode04 "A4";
+  cs:fcodePrefix "A8A4LaA4";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:84a4500000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4502000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4502100000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4502200000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4502300000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4503000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4503100000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4503110000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4503120000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4505000000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4505100000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:84a4505200000000 cs:subject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:UpperSecondary\/2018 cs:hasSubject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.
+cs:UpperSecondary\/2018\/体育\(専門\) cs:hasSubject cs:UpperSecondary\/2018\/体育\(専門\)\/スポーツIII.

@@ -1,55 +1,75 @@
-<https://w3id.org/jp-cos/Dataset>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "It represents dataset class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code>"@en, "データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en, "データセット"@ja.
-<https://w3id.org/jp-cos/71V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/71V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/72V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/72V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/72V20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/72V21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/73V32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/74V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/75V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/75V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/76V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/76V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/76V20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/76V21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/76V22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/7BV10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/7BV11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/81V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/82V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/82V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/83V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/83V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/84V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/85V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/86V10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/86V11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/86V12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/8BV10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/8BV11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/8BV12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:Dataset
+  rdf:type rdfs:Class;
+  rdfs:comment "It represents dataset class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/<var>dataset ID</var></code>"@en, "データセットを表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/<var>データセットID</var></code>"@ja;
+  rdfs:label "Dataset"@en, "データセット"@ja.
+cs:71V10 rdf:type cs:Dataset.
+cs:71V11 rdf:type cs:Dataset.
+cs:72V10 rdf:type cs:Dataset.
+cs:72V11 rdf:type cs:Dataset.
+cs:72V20 rdf:type cs:Dataset.
+cs:72V21 rdf:type cs:Dataset.
+cs:73V10 rdf:type cs:Dataset.
+cs:73V11 rdf:type cs:Dataset.
+cs:73V20 rdf:type cs:Dataset.
+cs:73V21 rdf:type cs:Dataset.
+cs:73V30 rdf:type cs:Dataset.
+cs:73V31 rdf:type cs:Dataset.
+cs:73V32 rdf:type cs:Dataset.
+cs:74V10 rdf:type cs:Dataset.
+cs:75V10 rdf:type cs:Dataset.
+cs:75V11 rdf:type cs:Dataset.
+cs:76V10 rdf:type cs:Dataset.
+cs:76V11 rdf:type cs:Dataset.
+cs:76V20 rdf:type cs:Dataset.
+cs:76V21 rdf:type cs:Dataset.
+cs:76V22 rdf:type cs:Dataset.
+cs:7BV10 rdf:type cs:Dataset.
+cs:7BV11 rdf:type cs:Dataset.
+cs:81V10 rdf:type cs:Dataset.
+cs:82V10 rdf:type cs:Dataset.
+cs:83V10 rdf:type cs:Dataset.
+cs:84V10 rdf:type cs:Dataset.
+cs:85V10 rdf:type cs:Dataset.
+cs:86V10 rdf:type cs:Dataset.
+cs:86V11 rdf:type cs:Dataset.
+cs:86V12 rdf:type cs:Dataset.
+cs:8BV10 rdf:type cs:Dataset.
+cs:8BV11 rdf:type cs:Dataset.
+cs:8BV12 rdf:type cs:Dataset.
+cs:CourseOfStudyRevisionShape sh:property [
+    skos:example cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Dataset"@en, "データセット"@ja;
+    sh:order 13;
+    sh:path cs:dataset
   ].
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>
+cs:CourseOfStudyShape sh:property [
+    skos:example cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Dataset"@en, "データセット"@ja;
+    sh:order 8;
+    sh:path cs:dataset
   ].
-<https://w3id.org/jp-cos/DatasetShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>
+cs:DatasetShape sh:targetClass cs:Dataset.
+cs:ItemShape sh:property [
+    skos:example cs:83V11;
+    sh:class cs:Dataset;
+    sh:minCount 1;
+    sh:name "Source"@en, "出典"@ja;
+    sh:order 23;
+    sh:path dct:source
   ].
-<https://w3id.org/jp-cos/NumberShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/Dataset>
+cs:NumberShape sh:property [
+    skos:example cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Source"@en, "出典"@ja;
+    sh:order 2;
+    sh:path dct:source
   ].
-<https://w3id.org/jp-cos/dataset> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Dataset>.
+cs:school rdfs:domain cs:Dataset.

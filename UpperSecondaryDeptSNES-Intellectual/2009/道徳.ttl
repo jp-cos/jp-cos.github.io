@@ -1,20 +1,26 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>
-  <http://purl.org/linked-data/cube#order> 37;
-  <http://schema.org/name> "Moral Education"@en, "どうとく"@ja-hira, "道徳"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "K";
-  <https://w3id.org/jp-cos/codePrefix> "7GK";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "UK";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7UGUK";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
-<https://w3id.org/jp-cos/7GK0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/7GK0200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/7GK0300000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/7GK0300100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/7GK0300200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/7GK0300300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/道徳> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/道徳>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳
+  qb:order 37;
+  schema:name "Moral Education"@en, "どうとく"@ja-hira, "道徳"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "K";
+  cs:codePrefix "7GK";
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "UK";
+  cs:fcodePrefix "A7UGUK";
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/LowerSecondary-2008.
+cs:7GK0000000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:7GK0200000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:7GK0300000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:7GK0300100000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:7GK0300200000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:7GK0300300000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:UpperSecondaryDeptSNES\/2009 cs:hasSubjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.
+cs:UpperSecondaryDeptSNES\/2009\/道徳 dct:relation cs:UpperSecondaryDeptSNES-Intellectual\/2009\/道徳.

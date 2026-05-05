@@ -1,11 +1,24 @@
-<https://w3id.org/jp-cos/dataset>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>, <https://w3id.org/jp-cos/CourseOfStudyRevision>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en, "データセット"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Dataset>.
-<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/dataset>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:dataset
+  rdf:type rdf:Property;
+  rdfs:domain cs:CourseOfStudy, cs:CourseOfStudyRevision;
+  rdfs:label "Dataset"@en, "データセット"@ja;
+  rdfs:range cs:Dataset.
+cs:CourseOfStudyRevisionShape sh:property [
+    skos:example cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Dataset"@en, "データセット"@ja;
+    sh:order 13;
+    sh:path cs:dataset
   ].
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/dataset>
+cs:CourseOfStudyShape sh:property [
+    skos:example cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Dataset"@en, "データセット"@ja;
+    sh:order 8;
+    sh:path cs:dataset
   ].

@@ -1,2 +1,4 @@
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/特別活動>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES-NC/2009/特別活動>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/特別活動
+  dct:relation cs:ElementaryAndLowerSecondaryDeptSNES-NC\/2009\/特別活動.

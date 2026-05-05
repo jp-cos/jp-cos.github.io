@@ -1,8 +1,19 @@
-<https://w3id.org/jp-cos/subject>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en, "分野・科目・分類"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Subject>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subject>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:subject
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Subject"@en, "分野・科目・分類"@ja;
+  rdfs:range cs:Subject.
+cs:ItemShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/外国語\/英語;
+    sh:class cs:Subject;
+    sh:description "It corresponds to the 4th digit of the course of study code."@en, "学習指導要領コードの4桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:name "Subject"@en, "分野・科目・分類"@ja;
+    sh:order 8;
+    sh:path cs:subject
   ].

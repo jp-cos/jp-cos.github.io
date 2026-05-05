@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/7Ek0000000000000>
-  <http://purl.org/dc/terms/identifier> "7Ek0000000000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2011
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7Ek0000000000000
+  dct:identifier "7Ek0000000000000";
+  dct:source cs:7BV11 cs:7BV11;
+  qb:order [
+    dct:source cs:7BV11 cs:7BV11;
+    rdf:type cs:Number;
+    rdf:value 2011
   ];
-  <http://schema.org/description> "第９款　歯科技工";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Ek0100000000000>, <https://w3id.org/jp-cos/7Ek0300000000000>, <https://w3id.org/jp-cos/7Ek0500000000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
-  <https://w3id.org/jp-cos/fcode> "A7UELkA0A0A0A0A0A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "第9款";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第9款";
-  <https://w3id.org/jp-cos/sectionText> "歯科技工";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/歯科技工>.
-<https://w3id.org/jp-cos/7B00000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7Ek0000000000000>.
+  schema:description "第９款　歯科技工";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:7Ek0100000000000, cs:7Ek0300000000000, cs:7Ek0500000000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Hearing;
+  cs:fcode "A7UELkA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "第9款";
+  cs:sectionNumberHierarchy "第1章 / 第9款";
+  cs:sectionText "歯科技工";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondaryDeptSNES-Hearing\/2009\/歯科技工.
+cs:7B00000000000000 schema:hasPart cs:7Ek0000000000000.

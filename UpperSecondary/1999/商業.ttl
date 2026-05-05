@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/商業>
-  <http://purl.org/linked-data/cube#order> 15;
-  <http://schema.org/name> "Business"@en, "しょうぎょう"@ja-hira, "商業"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "R";
-  <https://w3id.org/jp-cos/codePrefix> "64R";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/fcode03> "UR";
-  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UR";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/商業/ビジネス基礎>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/課題研究>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/総合実践>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/商品と流通>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/商業技術>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/マーケティング>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/英語実務>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/経済活動と法>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/国際ビジネス>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/簿記>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/会計>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/原価計算>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/会計実務>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/情報処理>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/ビジネス情報>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/文書デザイン>, <https://w3id.org/jp-cos/UpperSecondary/1999/商業/プログラミング>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/商業>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/商業
+  qb:order 15;
+  schema:name "Business"@en, "しょうぎょう"@ja-hira, "商業"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "R";
+  cs:codePrefix "64R";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:fcode03 "UR";
+  cs:fcodePrefix "A6A4UR";
+  cs:hasSubject cs:UpperSecondary\/1999\/商業\/ビジネス基礎, cs:UpperSecondary\/1999\/商業\/課題研究, cs:UpperSecondary\/1999\/商業\/総合実践, cs:UpperSecondary\/1999\/商業\/商品と流通, cs:UpperSecondary\/1999\/商業\/商業技術, cs:UpperSecondary\/1999\/商業\/マーケティング, cs:UpperSecondary\/1999\/商業\/英語実務, cs:UpperSecondary\/1999\/商業\/経済活動と法, cs:UpperSecondary\/1999\/商業\/国際ビジネス, cs:UpperSecondary\/1999\/商業\/簿記, cs:UpperSecondary\/1999\/商業\/会計, cs:UpperSecondary\/1999\/商業\/原価計算, cs:UpperSecondary\/1999\/商業\/会計実務, cs:UpperSecondary\/1999\/商業\/情報処理, cs:UpperSecondary\/1999\/商業\/ビジネス情報, cs:UpperSecondary\/1999\/商業\/文書デザイン, cs:UpperSecondary\/1999\/商業\/プログラミング;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:UpperSecondary\/1999 cs:hasSubjectArea cs:UpperSecondary\/1999\/商業.

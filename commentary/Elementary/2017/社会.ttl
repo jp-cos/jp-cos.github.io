@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/Elementary/2017/社会>
-  <http://purl.org/dc/terms/issued> 2017;
-  <http://purl.org/linked-data/cube#order> 2003;
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000302>, <https://w3id.org/jp-cos/commentary/1000534>;
-  <http://schema.org/name> "Commentary on the Elementary School Course of Study (Social Studies), Notification 2017"@en, "【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ"@ja-hira, "【社会編】小学校学習指導要領（平成29年告示）解説"@ja;
-  <http://schema.org/url> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CosCommentary>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/社会>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/Elementary\/2017\/社会
+  dct:issued 2017;
+  qb:order 2003;
+  schema:hasPart cs:commentary\/1000302, cs:commentary\/1000534;
+  schema:name "Commentary on the Elementary School Course of Study (Social Studies), Notification 2017"@en, "【しゃかいへん】しょうがっこうがくしゅうしどうようりょう（へいせい29ねんこくじ）かいせつ"@ja-hira, "【社会編】小学校学習指導要領（平成29年告示）解説"@ja;
+  schema:url <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf>;
+  rdf:type cs:CosCommentary;
+  cs:school cs:school\/Elementary;
+  cs:subjectArea cs:Elementary\/2017\/社会.

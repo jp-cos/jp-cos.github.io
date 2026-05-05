@@ -1,21 +1,27 @@
-<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>
-  <http://purl.org/linked-data/cube#order> 11;
-  <http://schema.org/name> "Science"@en, "りか"@ja-hira, "理科"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "6";
-  <https://w3id.org/jp-cos/codePrefix> "7A6";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "A6";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7UAA6";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/7A60200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7A60202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7A60203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7A60203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7A60203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7A60203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7A60203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/理科> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/理科>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科
+  qb:order 11;
+  schema:name "Science"@en, "りか"@ja-hira, "理科"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "6";
+  cs:codePrefix "7A6";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "A6";
+  cs:fcodePrefix "A7UAA6";
+  cs:school cs:school\/LowerSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:7A60200000000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7A60202000000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7A60203000000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7A60203100000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7A60203200000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7A60203300000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7A60203400000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009 cs:hasSubjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/理科 dct:relation cs:LowerSecondaryDeptSNES-Intellectual\/2009\/理科.

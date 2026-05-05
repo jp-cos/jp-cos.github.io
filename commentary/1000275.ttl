@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000275>
-  <http://purl.org/dc/terms/identifier> "1000275";
-  <http://purl.org/linked-data/cube#order> 1000275;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263241300000>;
-  <http://schema.org/description> "　(ウ) 土地は，火山の噴火や地震によって変化すること。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=95>.
-<https://w3id.org/jp-cos/commentary/1000270> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000275>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000275
+  dct:identifier "1000275";
+  qb:order 1000275;
+  schema:about cs:8260263241300000;
+  schema:description "　(ウ) 土地は，火山の噴火や地震によって変化すること。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=95>.
+cs:commentary\/1000270 schema:hasPart cs:commentary\/1000275.

@@ -1,21 +1,27 @@
-<https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>
-  <http://purl.org/linked-data/cube#order> 8;
-  <http://schema.org/name> "Japanese Language"@en, "こくご"@ja-hira, "国語"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "1";
-  <https://w3id.org/jp-cos/codePrefix> "7A1";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode03> "A1";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7UAA1";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017>.
-<https://w3id.org/jp-cos/7A10200000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7A10202000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7A10203000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7A10203100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7A10203200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7A10203300000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/7A10203400000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/国語> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2009/国語>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語
+  qb:order 8;
+  schema:name "Japanese Language"@en, "こくご"@ja-hira, "国語"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "1";
+  cs:codePrefix "7A1";
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode03 "A1";
+  cs:fcodePrefix "A7UAA1";
+  cs:school cs:school\/LowerSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017.
+cs:7A10200000000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:7A10202000000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:7A10203000000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:7A10203100000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:7A10203200000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:7A10203300000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:7A10203400000000 cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009 cs:hasSubjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/国語 dct:relation cs:LowerSecondaryDeptSNES-Intellectual\/2009\/国語.

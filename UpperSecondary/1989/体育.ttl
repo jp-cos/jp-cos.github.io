@@ -1,2 +1,3 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/体育>
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/体育/体育理論>, <https://w3id.org/jp-cos/UpperSecondary/1989/体育/体操>, <https://w3id.org/jp-cos/UpperSecondary/1989/体育/スポーツI>, <https://w3id.org/jp-cos/UpperSecondary/1989/体育/スポーツII>, <https://w3id.org/jp-cos/UpperSecondary/1989/体育/スポーツIII>, <https://w3id.org/jp-cos/UpperSecondary/1989/体育/ダンス>, <https://w3id.org/jp-cos/UpperSecondary/1989/体育/野外活動>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+cs:UpperSecondary\/1989\/体育
+  cs:hasSubject cs:UpperSecondary\/1989\/体育\/体育理論, cs:UpperSecondary\/1989\/体育\/体操, cs:UpperSecondary\/1989\/体育\/スポーツI, cs:UpperSecondary\/1989\/体育\/スポーツII, cs:UpperSecondary\/1989\/体育\/スポーツIII, cs:UpperSecondary\/1989\/体育\/ダンス, cs:UpperSecondary\/1989\/体育\/野外活動.

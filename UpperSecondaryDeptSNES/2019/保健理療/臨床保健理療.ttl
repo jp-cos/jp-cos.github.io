@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/保健理療/臨床保健理療>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/保健理療/臨床保健理療>;
-  <http://schema.org/name> "Clinical Medicine Of Massage And Finger Pressure Therapy"@en, "りんしょうほけんりりょう"@ja-hira, "臨床保健理療"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/保健理療\/臨床保健理療
+  dct:relation cs:UpperSecondaryDeptSNES-Visual\/2019\/保健理療\/臨床保健理療;
+  schema:name "Clinical Medicine Of Massage And Finger Pressure Therapy"@en, "りんしょうほけんりりょう"@ja-hira, "臨床保健理療"@ja;
+  rdf:type cs:RelatedSubject.

@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/理学療法/臨床実習>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2009/理学療法/臨床実習>;
-  <http://schema.org/name> "Clinical Training"@en, "りんしょうじっしゅう"@ja-hira, "臨床実習"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2009\/理学療法\/臨床実習
+  dct:relation cs:UpperSecondaryDeptSNES-Visual\/2009\/理学療法\/臨床実習;
+  schema:name "Clinical Training"@en, "りんしょうじっしゅう"@ja-hira, "臨床実習"@ja;
+  rdf:type cs:RelatedSubject.

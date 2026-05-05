@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000808>
-  <http://purl.org/dc/terms/identifier> "1000808";
-  <http://purl.org/linked-data/cube#order> 1000808;
-  <http://schema.org/about> <https://w3id.org/jp-cos/822026321A000000>;
-  <http://schema.org/description> "　<b>科学の発展</b>については，<ruby>野口英世<rt>のぐちひでよ</rt></ruby>が黄熱病について世界的に注目された研究を行ったことなどが分かることである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=126>.
-<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000808>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000808
+  dct:identifier "1000808";
+  qb:order 1000808;
+  schema:about cs:822026321A000000;
+  schema:description "　<b>科学の発展</b>については，<ruby>野口英世<rt>のぐちひでよ</rt></ruby>が黄熱病について世界的に注目された研究を行ったことなどが分かることである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=126>.
+cs:commentary\/1000612 schema:hasPart cs:commentary\/1000808.

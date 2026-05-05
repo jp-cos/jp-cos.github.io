@@ -1,27 +1,33 @@
-<https://w3id.org/jp-cos/8GH12a4222221000>
-  <http://purl.org/dc/terms/identifier> "8GH12a4222221000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/8BV12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3859
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8GH12a4222221000
+  dct:identifier "8GH12a4222221000";
+  dct:source cs:8BV12 cs:8BV12;
+  qb:order [
+    dct:source cs:8BV12 cs:8BV12;
+    rdf:type cs:Number;
+    rdf:value 3859
   ];
-  <http://schema.org/description> "㋐ コミュニケーションを円滑にする";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GH12a4222221100>, <https://w3id.org/jp-cos/8GH12a4222221200>, <https://w3id.org/jp-cos/8GH12a4222221300>, <https://w3id.org/jp-cos/8GH12a4222221400>, <https://w3id.org/jp-cos/8GH12a4222221500>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A8UGUHA1A2LaA4A2A2A2A2A2A1A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "㋐";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / 〔外国語〕 / 2 / ○1段階 / (2) / 〔英語〕 / 〔思考力，判断力，表現力等〕 / ウ / ② / (イ) / ㋐";
-  <https://w3id.org/jp-cos/sectionText> "コミュニケーションを円滑にする";
-  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/UpperSecondaryDeptSNES-Intellectual/1>;
-  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語/英語>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2019/外国語>.
-<https://w3id.org/jp-cos/8GH12a4222220000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8GH12a4222221000>.
+  schema:description "㋐ コミュニケーションを円滑にする";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8GH12a4222221100, cs:8GH12a4222221200, cs:8GH12a4222221300, cs:8GH12a4222221400, cs:8GH12a4222221500;
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A8UGUHA1A2LaA4A2A2A2A2A2A1A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "㋐";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / 〔外国語〕 / 2 / ○1段階 / (2) / 〔英語〕 / 〔思考力，判断力，表現力等〕 / ウ / ② / (イ) / ㋐";
+  cs:sectionText "コミュニケーションを円滑にする";
+  cs:stage cs:stage\/UpperSecondaryDeptSNES-Intellectual\/1;
+  cs:subCategory "目標及び内容";
+  cs:subject cs:UpperSecondaryDeptSNES-Intellectual\/2019\/外国語\/英語;
+  cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2019\/外国語.
+cs:8GH12a4222220000 schema:hasPart cs:8GH12a4222221000.

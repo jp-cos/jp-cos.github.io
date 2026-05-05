@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/理科/理科総合B>
-  <http://purl.org/linked-data/cube#order> 25;
-  <http://schema.org/name> "Integrated Science B"@en, "りかそうごうB"@ja-hira, "理科総合B"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理科/理科総合B>.
-<https://w3id.org/jp-cos/UpperSecondary/1999/理科> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理科/理科総合B>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/理科\/理科総合B
+  qb:order 25;
+  schema:name "Integrated Science B"@en, "りかそうごうB"@ja-hira, "理科総合B"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1999\/理科 cs:hasSubject cs:UpperSecondary\/1999\/理科\/理科総合B.
+cs:UpperSecondary\/1999 cs:hasSubject cs:UpperSecondary\/1999\/理科\/理科総合B.

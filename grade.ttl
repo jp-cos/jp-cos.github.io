@@ -1,8 +1,19 @@
-<https://w3id.org/jp-cos/grade>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Grade"@en, "学年"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/grade>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:grade
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Grade"@en, "学年"@ja;
+  rdfs:range rdf:Literal.
+cs:ItemShape sh:property [
+    skos:example "1,2";
+    sh:datatype xsd:integer;
+    sh:description "It corresponds to the 6th digit of the course of study code."@en, "学習指導要領コードの6桁目に対応"@ja;
+    sh:name "Grade"@en, "学年"@ja;
+    sh:order 9;
+    sh:path cs:grade
   ].

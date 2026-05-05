@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/8450100300000000>
-  <http://purl.org/dc/terms/identifier> "8450100300000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1221
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8450100300000000
+  dct:identifier "8450100300000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 1221
   ];
-  <http://schema.org/description> "(3) 数学のよさを認識し積極的に数学を活用しようとする態度，粘り強く考え数学的論拠に基づいて判断しようとする態度，問題解決の過程を振り返って考察を深めたり，評価・改善したりしようとする態度や創造性の基礎を養う。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4A5A0A1A0A0A3A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(3)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第4節 / 第1款 / (3)";
-  <https://w3id.org/jp-cos/sectionText> "数学のよさを認識し積極的に数学を活用しようとする態度，粘り強く考え数学的論拠に基づいて判断しようとする態度，問題解決の過程を振り返って考察を深めたり，評価・改善したりしようとする態度や創造性の基礎を養う。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/数学>.
-<https://w3id.org/jp-cos/8450100000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8450100300000000>.
+  schema:description "(3) 数学のよさを認識し積極的に数学を活用しようとする態度，粘り強く考え数学的論拠に基づいて判断しようとする態度，問題解決の過程を振り返って考察を深めたり，評価・改善したりしようとする態度や創造性の基礎を養う。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標（大項目）";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4A5A0A1A0A0A3A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(3)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第4節 / 第1款 / (3)";
+  cs:sectionText "数学のよさを認識し積極的に数学を活用しようとする態度，粘り強く考え数学的論拠に基づいて判断しようとする態度，問題解決の過程を振り返って考察を深めたり，評価・改善したりしようとする態度や創造性の基礎を養う。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondary\/2018\/数学.
+cs:8450100000000000 schema:hasPart cs:8450100300000000.

@@ -1,7 +1,12 @@
-<https://w3id.org/jp-cos/cosItem>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "学習指導要領の細目を示すプロパティ"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/CreativeWork>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Course Of Study Item"@en, "学習指導要領の細目"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject>, <http://schema.org/about>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:cosItem
+  rdf:type rdf:Property;
+  rdfs:comment "学習指導要領の細目を示すプロパティ"@ja;
+  rdfs:domain schema:CreativeWork;
+  rdfs:label "Course Of Study Item"@en, "学習指導要領の細目"@ja;
+  rdfs:range cs:Item;
+  rdfs:subPropertyOf dct:subject, schema:about.

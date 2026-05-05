@@ -1,29 +1,35 @@
-<https://w3id.org/jp-cos/78702b3200000000>
-  <http://purl.org/dc/terms/identifier> "78702b3200000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>, <https://w3id.org/jp-cos/76V22>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 117
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:78702b3200000000
+  dct:identifier "78702b3200000000";
+  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  qb:order [
+    dct:source cs:76V11, cs:76V22 cs:76V11;
+    rdf:type cs:Number;
+    rdf:value 117
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/76V22>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 128
+    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+    rdf:type cs:Number cs:Number;
+    rdf:value 117 128
   ];
-  <http://schema.org/description> "(2) 教師の援助を受けながら健康で安全な生活をする。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2009>, <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A7A8A7A0A2LbA3A2A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "(2)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / ［生活］ / 2 / ○2段階 / (2)";
-  <https://w3id.org/jp-cos/sectionText> "教師の援助を受けながら健康で安全な生活をする。";
-  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/ElementaryDeptSNES-Intellectual/2>;
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-Intellectual/2009/生活>.
-<https://w3id.org/jp-cos/78702b3000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/78702b3200000000>.
+  schema:description "(2) 教師の援助を受けながら健康で安全な生活をする。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A7A8A7A0A2LbA3A2A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sectionNumber "(2)";
+  cs:sectionNumberHierarchy "第1章 / 第2款 / ［生活］ / 2 / ○2段階 / (2)";
+  cs:sectionText "教師の援助を受けながら健康で安全な生活をする。";
+  cs:stage cs:stage\/ElementaryDeptSNES-Intellectual\/2;
+  cs:subCategory "内容";
+  cs:subjectArea cs:ElementaryDeptSNES-Intellectual\/2009\/生活.
+cs:78702b3000000000 schema:hasPart cs:78702b3200000000.

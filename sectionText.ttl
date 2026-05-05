@@ -1,8 +1,21 @@
-<https://w3id.org/jp-cos/sectionText>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Text"@en, "テキスト"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sectionText>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:sectionText
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Text"@en, "テキスト"@ja;
+  rdfs:range rdf:Literal.
+cs:ItemShape sh:property [
+    skos:example "''語と語の連結による音の変化'''";
+    sh:datatype xsd:string;
+    sh:description "It is text without section number in the course fo study text. It is created automatically by the program. Half-size katakana is converted to full-size katakana."@en, "学習指導要領テキスト中の節番号を除いたテキスト。プログラムで自動作成。半角カタカナは全角カタカナに変換。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Text"@en, "テキスト"@ja;
+    sh:order 14;
+    sh:path cs:sectionText
   ].

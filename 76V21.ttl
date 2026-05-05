@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/76V21>
-  <http://purl.org/dc/terms/identifier> "76V21";
-  <http://schema.org/name> "【76V21】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2015年, version 2.1 （2021-03-18 release）"@en, "【76V21】特別支援学校小学部・中学部学習指導要領コード 平成27年告示：バージョン2.1 （令和3年3月18日公表）"@ja;
-  <http://schema.org/releaseDate> "2021-03-18"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/version> "2.1";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Dataset>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>, <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/76V21>.
-<https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2009/2015> <https://w3id.org/jp-cos/dataset> <https://w3id.org/jp-cos/76V21>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:76V21
+  dct:identifier "76V21";
+  schema:name "【76V21】Code for Elementary and Lower Secondary Department of Special Needs Education School Course of Guideline published in 2015年, version 2.1 （2021-03-18 release）"@en, "【76V21】特別支援学校小学部・中学部学習指導要領コード 平成27年告示：バージョン2.1 （令和3年3月18日公表）"@ja;
+  schema:releaseDate "2021-03-18"^^xsd:date;
+  schema:version "2.1";
+  rdf:type cs:Dataset;
+  cs:school cs:school\/ElementaryDeptSNES, cs:school\/LowerSecondaryDeptSNES.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009 cs:dataset cs:76V21.
+cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015 cs:dataset cs:76V21.

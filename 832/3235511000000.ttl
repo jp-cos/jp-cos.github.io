@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/8323235511000000>
-  <http://purl.org/dc/terms/identifier> "8323235511000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 585
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8323235511000000
+  dct:identifier "8323235511000000";
+  dct:source cs:83V11 cs:83V11;
+  qb:order [
+    dct:source cs:83V11 cs:83V11;
+    rdf:type cs:Number;
+    rdf:value 585
   ];
-  <http://schema.org/description> "(ア) アの(ア)の「国家間の相互の主権の尊重と協力」との関連で，国旗及び国歌の意義並びにそれらを相互に尊重することが国際的な儀礼であることの理解を通して，それらを尊重する態度を養うように配慮すること。また，「領土（領海，領空を含む。），国家主権」については関連させて取り扱い，我が国が，固有の領土である竹島や北方領土に関し残されている問題の平和的な手段による解決に向けて努力していることや，尖閣諸島をめぐり解決すべき領有権の問題は存在していないことなどを取り上げること。「国際連合をはじめとする国際機構などの役割」については，国際連合における持続可能な開発のための取組についても触れること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=165>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A3A2A3A2A3A5A5A1A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 3;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(ア)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2 / 3 / (5) / ア / (ア)";
-  <https://w3id.org/jp-cos/sectionText> "アの(ア)の「国家間の相互の主権の尊重と協力」との関連で，国旗及び国歌の意義並びにそれらを相互に尊重することが国際的な儀礼であることの理解を通して，それらを尊重する態度を養うように配慮すること。また，「領土(領海，領空を含む。)，国家主権」については関連させて取り扱い，我が国が，固有の領土である竹島や北方領土に関し残されている問題の平和的な手段による解決に向けて努力していることや，尖閣諸島をめぐり解決すべき領有権の問題は存在していないことなどを取り上げること。「国際連合をはじめとする国際機構などの役割」については，国際連合における持続可能な開発のための取組についても触れること。";
-  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/社会/公民的分野>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会>.
-<https://w3id.org/jp-cos/8323235510000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8323235511000000>.
+  schema:description "(ア) アの(ア)の「国家間の相互の主権の尊重と協力」との関連で，国旗及び国歌の意義並びにそれらを相互に尊重することが国際的な儀礼であることの理解を通して，それらを尊重する態度を養うように配慮すること。また，「領土（領海，領空を含む。），国家主権」については関連させて取り扱い，我が国が，固有の領土である竹島や北方領土に関し残されている問題の平和的な手段による解決に向けて努力していることや，尖閣諸島をめぐり解決すべき領有権の問題は存在していないことなどを取り上げること。「国際連合をはじめとする国際機構などの役割」については，国際連合における持続可能な開発のための取組についても触れること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=165>;
+  cs:courseOfStudy cs:LowerSecondary\/2017;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2017\/2017;
+  cs:fcode "A8A3A2A3A2A3A5A5A1A1A0A0A0A0A0A0";
+  cs:grade 3;
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "(ア)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第2節 / 第2 / 3 / (5) / ア / (ア)";
+  cs:sectionText "アの(ア)の「国家間の相互の主権の尊重と協力」との関連で，国旗及び国歌の意義並びにそれらを相互に尊重することが国際的な儀礼であることの理解を通して，それらを尊重する態度を養うように配慮すること。また，「領土(領海，領空を含む。)，国家主権」については関連させて取り扱い，我が国が，固有の領土である竹島や北方領土に関し残されている問題の平和的な手段による解決に向けて努力していることや，尖閣諸島をめぐり解決すべき領有権の問題は存在していないことなどを取り上げること。「国際連合をはじめとする国際機構などの役割」については，国際連合における持続可能な開発のための取組についても触れること。";
+  cs:subCategory "内容の取扱い";
+  cs:subject cs:LowerSecondary\/2017\/社会\/公民的分野;
+  cs:subjectArea cs:LowerSecondary\/2017\/社会.
+cs:8323235510000000 schema:hasPart cs:8323235511000000.

@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/農業/農業土木設計>
-  <http://purl.org/linked-data/cube#order> 105;
-  <http://schema.org/name> "Agricultural Civil Engineering Design"@en, "のうぎょうどぼくせっけい"@ja-hira, "農業土木設計"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Report-2008>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/農業/農業土木設計>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/農業/農業土木設計>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/農業\/農業土木設計
+  qb:order 105;
+  schema:name "Agricultural Civil Engineering Design"@en, "のうぎょうどぼくせっけい"@ja-hira, "農業土木設計"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/Report-2008.
+cs:UpperSecondary\/1989\/農業 cs:hasSubject cs:UpperSecondary\/1989\/農業\/農業土木設計.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/農業\/農業土木設計.

@@ -1,41 +1,48 @@
-<https://w3id.org/jp-cos/LowerSecondary/1989/1989>
-  <http://dl.nier.go.jp/library/vocab/callNumber> "375.93||1||1989c";
-  <http://dl.nier.go.jp/library/vocab/itemID> "071221867";
-  <http://dl.nier.go.jp/library/vocab/recordID> "BB00122344";
-  <http://schema.org/citation> "\"Notification No. 25 in 1989 of the Ministry of Education, Science and Culture\" (Official Gazette, 1989-03-15, Special Extra Edition No. 4, pp.65-115)"@en, "『平成元年 文部省告示第二十五号』（官報. 平成元年3月15日, 号外特第4号, pp.65-115）"@ja;
-  <http://schema.org/datePublished> "1989-03-15"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/isbn> "4171534119";
-  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en, "中学校学習指導要領 1989年3月 告示"@ja;
-  <http://schema.org/startDate> "1993-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
-  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/89034332>, <https://ci.nii.ac.jp/ncid/BN03844558>;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H1>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
-<https://w3id.org/jp-cos/LowerSecondary/1989> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/その他の外国語/その他の外国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/体育分野/体育分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/保健体育> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/保健分野/保健分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/公民的分野/公民的分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/各教科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/各教科(共通)> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/地理的分野/地理的分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/外国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/学校行事/学校行事> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/学級活動/学級活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/技術・家庭> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/数学> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/歴史的分野/歴史的分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/特別活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/理科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/生徒会活動/生徒会活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/社会> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/第1分野/第1分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/第2分野/第2分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/総則> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/美術> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/英語/英語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/道徳> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
-<https://w3id.org/jp-cos/LowerSecondary/1989/音楽> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1989/1989>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix nier: <http://dl.nier.go.jp/library/vocab/>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:LowerSecondary\/1989\/1989
+  nier:callNumber "375.93||1||1989c";
+  nier:itemID "071221867";
+  nier:recordID "BB00122344";
+  schema:citation "\"Notification No. 25 in 1989 of the Ministry of Education, Science and Culture\" (Official Gazette, 1989-03-15, Special Extra Edition No. 4, pp.65-115)"@en, "『平成元年 文部省告示第二十五号』（官報. 平成元年3月15日, 号外特第4号, pp.65-115）"@ja;
+  schema:datePublished "1989-03-15"^^xsd:date;
+  schema:isbn "4171534119";
+  schema:name "Lower Secondary School Curriculum Guideline 1989-03 Notification"@en, "中学校学習指導要領 1989年3月 告示"@ja;
+  schema:startDate "1993-04-01"^^xsd:date;
+  schema:url <http://www.mext.go.jp/a_menu/shotou/old-cs/1322455.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000126>;
+  rdf:type cs:CourseOfStudyRevision;
+  rdfs:seeAlso <http://id.ndl.go.jp/jpno/89034332>, <https://ci.nii.ac.jp/ncid/BN03844558>;
+  cs:issuedPeriod cs:period\/H1;
+  cs:school cs:school\/LowerSecondary.
+cs:LowerSecondary\/1989\/地理的分野\/地理的分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/総則 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/国語 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/歴史的分野\/歴史的分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/公民的分野\/公民的分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/社会 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/数学 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/第1分野\/第1分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/理科 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/第2分野\/第2分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/体育分野\/体育分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/音楽 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/保健分野\/保健分野 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/美術 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/保健体育 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/英語\/英語 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/その他の外国語\/その他の外国語 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/技術・家庭 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/外国語 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/学級活動\/学級活動 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/各教科 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/生徒会活動\/生徒会活動 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/学校行事\/学校行事 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/道徳 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/特別活動 cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989\/各教科\(共通\) cs:courseOfStudyRevision cs:LowerSecondary\/1989\/1989.
+cs:LowerSecondary\/1989 dct:hasVersion cs:LowerSecondary\/1989\/1989.

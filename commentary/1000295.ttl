@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000295>
-  <http://purl.org/dc/terms/identifier> "1000295";
-  <http://purl.org/linked-data/cube#order> 1000295;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260265600000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260263251100000>;
-  <http://schema.org/description> "(6) 内容の「Ｂ生命・地球」の(5) のアの(ア) については，地球から見た太陽と月との位置関係で扱うものとする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97>.
-<https://w3id.org/jp-cos/commentary/1000289> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000295>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000295
+  dct:identifier "1000295";
+  qb:order 1000295;
+  schema:about cs:8260265600000000;
+  schema:citation cs:8260263251100000;
+  schema:description "(6) 内容の「Ｂ生命・地球」の(5) のアの(ア) については，地球から見た太陽と月との位置関係で扱うものとする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97>.
+cs:commentary\/1000289 schema:hasPart cs:commentary\/1000295.

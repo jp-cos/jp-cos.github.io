@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>
-  <http://purl.org/linked-data/cube#order> 60;
-  <http://schema.org/name> "Project Study"@en, "かだいけんきゅう"@ja-hira, "課題研究"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "7";
-  <https://w3id.org/jp-cos/codePrefix> "7Ej7";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Hearing>;
-  <https://w3id.org/jp-cos/fcode04> "A7";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7UELjA7";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/7Ej7500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7505110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/7Ej7505120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/クリーニング/課題研究> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2009/クリーニング/課題研究>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究
+  qb:order 60;
+  schema:name "Project Study"@en, "かだいけんきゅう"@ja-hira, "課題研究"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "7";
+  cs:codePrefix "7Ej7";
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Hearing;
+  cs:fcode04 "A7";
+  cs:fcodePrefix "A7UELjA7";
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:7Ej7500000000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7502000000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7503000000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7503100000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7503200000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7503300000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7505000000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7505100000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7505110000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:7Ej7505120000000 cs:subject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング cs:hasSubject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:UpperSecondaryDeptSNES\/2009 cs:hasSubject cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.
+cs:UpperSecondaryDeptSNES\/2009\/クリーニング\/課題研究 dct:relation cs:UpperSecondaryDeptSNES-Hearing\/2009\/クリーニング\/課題研究.

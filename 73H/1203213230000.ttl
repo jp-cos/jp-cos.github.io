@@ -1,33 +1,39 @@
-<https://w3id.org/jp-cos/73H1203213230000>
-  <http://purl.org/dc/terms/identifier> "73H1203213230000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>, <https://w3id.org/jp-cos/73V21>, <https://w3id.org/jp-cos/73V32>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1438
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:73H1203213230000
+  dct:identifier "73H1203213230000";
+  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  qb:order [
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    rdf:type cs:Number;
+    rdf:value 1438
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1438
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
+    rdf:type cs:Number cs:Number;
+    rdf:value 1438 1438
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/73V32>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1444
+    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+    rdf:type cs:Number cs:Number cs:Number;
+    rdf:value 1438 1438 1444
   ];
-  <http://schema.org/description> "ｃ　情報を伝える";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/73H1203213231000>, <https://w3id.org/jp-cos/73H1203213232000>, <https://w3id.org/jp-cos/73H1203213233000>, <https://w3id.org/jp-cos/73H1203213234000>, <https://w3id.org/jp-cos/73H1203213235000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2008/2008>, <https://w3id.org/jp-cos/LowerSecondary/2008/2010>, <https://w3id.org/jp-cos/LowerSecondary/2008/2015>;
-  <https://w3id.org/jp-cos/fcode> "A7A3UHA1A2A0A3A2A1A3A2A3A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "c";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第9節 / 第2 / 英 語 / 2 / (2) / ア / (ウ) / 〔言語の働きの例〕 / c";
-  <https://w3id.org/jp-cos/sectionText> "情報を伝える";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2008/外国語/英語>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2008/外国語>.
-<https://w3id.org/jp-cos/73H1203213200000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/73H1203213230000>.
+  schema:description "ｃ　情報を伝える";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:73H1203213231000, cs:73H1203213232000, cs:73H1203213233000, cs:73H1203213234000, cs:73H1203213235000;
+  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:LowerSecondary\/2008;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;
+  cs:fcode "A7A3UHA1A2A0A3A2A1A3A2A3A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "c";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第9節 / 第2 / 英 語 / 2 / (2) / ア / (ウ) / 〔言語の働きの例〕 / c";
+  cs:sectionText "情報を伝える";
+  cs:subCategory "内容";
+  cs:subject cs:LowerSecondary\/2008\/外国語\/英語;
+  cs:subjectArea cs:LowerSecondary\/2008\/外国語.
+cs:73H1203213200000 schema:hasPart cs:73H1203213230000.

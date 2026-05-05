@@ -1,21 +1,26 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>
-  <http://purl.org/linked-data/cube#order> 280;
-  <http://schema.org/name> "Information and Media Design"@en, "じょうほうめでぃあでざいん"@ja-hira, "情報メディアデザイン"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "A";
-  <https://w3id.org/jp-cos/codePrefix> "74cA";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "UA";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LcUA";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/74cA500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/74cA505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/情報メディアデザイン>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン
+  qb:order 280;
+  schema:name "Information and Media Design"@en, "じょうほうめでぃあでざいん"@ja-hira, "情報メディアデザイン"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "A";
+  cs:codePrefix "74cA";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "UA";
+  cs:fcodePrefix "A7A4LcUA";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:74cA500000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA502000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA503000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA503100000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA503200000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA503300000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA503400000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:74cA505000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.
+cs:UpperSecondary\/2009\/美術\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/情報メディアデザイン.

@@ -1,43 +1,50 @@
-<https://w3id.org/jp-cos/LowerSecondary/1998/1998>
-  <http://dl.nier.go.jp/library/vocab/callNumber> "375.93||1||1998.1d";
-  <http://dl.nier.go.jp/library/vocab/itemID> "071221870";
-  <http://dl.nier.go.jp/library/vocab/recordID> "BB00122345";
-  <http://schema.org/citation> "\"Notification No. 176 in 1998 of the Ministry of Education, Science and Culture\" (Official Gazette, 1998-12-14, Extra Edition No. 261, pp.58-106)"@en, "『平成10年 文部省告示第百七十六号』（官報. 平成10年12月14日, 号外第261号, pp.58-106）"@ja;
-  <http://schema.org/datePublished> "1998-12-14"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/isbn> "4171534208";
-  <http://schema.org/name> "Lower Secondary School Curriculum Guideline 1998-12 Notification"@en, "中学校学習指導要領 1998年12月 告示"@ja;
-  <http://schema.org/startDate> "2002-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1320061.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000134>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
-  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/99078688>, <https://ci.nii.ac.jp/ncid/BA45310092>;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H10toH11>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>.
-<https://w3id.org/jp-cos/LowerSecondary/1998> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/体育分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/各教科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/各教科(共通)> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/外国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/外国語/その他の外国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/外国語/英語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭/家庭分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/技術・家庭/技術分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/数学> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/特別活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/特別活動/学校行事> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/特別活動/学級活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/特別活動/生徒会活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/理科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/理科/第1分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/理科/第2分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/社会> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/社会/公民的分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/社会/地理的分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/社会/歴史的分野> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/総則> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/美術> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/道徳> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/音楽> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix nier: <http://dl.nier.go.jp/library/vocab/>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:LowerSecondary\/1998\/1998
+  nier:callNumber "375.93||1||1998.1d";
+  nier:itemID "071221870";
+  nier:recordID "BB00122345";
+  schema:citation "\"Notification No. 176 in 1998 of the Ministry of Education, Science and Culture\" (Official Gazette, 1998-12-14, Extra Edition No. 261, pp.58-106)"@en, "『平成10年 文部省告示第百七十六号』（官報. 平成10年12月14日, 号外第261号, pp.58-106）"@ja;
+  schema:datePublished "1998-12-14"^^xsd:date;
+  schema:isbn "4171534208";
+  schema:name "Lower Secondary School Curriculum Guideline 1998-12 Notification"@en, "中学校学習指導要領 1998年12月 告示"@ja;
+  schema:startDate "2002-04-01"^^xsd:date;
+  schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1320061.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000134>;
+  rdf:type cs:CourseOfStudyRevision;
+  rdfs:seeAlso <http://id.ndl.go.jp/jpno/99078688>, <https://ci.nii.ac.jp/ncid/BA45310092>;
+  cs:issuedPeriod cs:period\/H10toH11;
+  cs:school cs:school\/LowerSecondary.
+cs:LowerSecondary\/1998\/社会\/地理的分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/総則 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/国語 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/社会\/歴史的分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/社会 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/社会\/公民的分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/数学 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/理科\/第1分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/理科 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/理科\/第2分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/保健体育\/体育分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/音楽 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/保健体育\/保健分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/美術 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/保健体育 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/技術・家庭\/技術分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/技術・家庭 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/技術・家庭\/家庭分野 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/外国語 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/外国語\/英語 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/各教科 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/外国語\/その他の外国語 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/特別活動\/学級活動 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/道徳 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/特別活動 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/特別活動\/生徒会活動 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/各教科\(共通\) cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998\/特別活動\/学校行事 cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998.
+cs:LowerSecondary\/1998 dct:hasVersion cs:LowerSecondary\/1998\/1998.

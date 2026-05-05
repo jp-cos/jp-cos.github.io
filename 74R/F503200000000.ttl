@@ -1,25 +1,31 @@
-<https://w3id.org/jp-cos/74RF503200000000>
-  <http://purl.org/dc/terms/identifier> "74RF503200000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 5309
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:74RF503200000000
+  dct:identifier "74RF503200000000";
+  dct:source cs:74V10 cs:74V10;
+  qb:order [
+    dct:source cs:74V10 cs:74V10;
+    rdf:type cs:Number;
+    rdf:value 5309
   ];
-  <http://schema.org/description> "(2) 直接原価計算";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/74RF503210000000>, <https://w3id.org/jp-cos/74RF503220000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A4URUFA5A0A3A2A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(2)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第3節 / 第2款 / 第15 / 2 / (2)";
-  <https://w3id.org/jp-cos/sectionText> "直接原価計算";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/商業/管理会計>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/商業>.
-<https://w3id.org/jp-cos/74RF503000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74RF503200000000>.
+  schema:description "(2) 直接原価計算";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:74RF503210000000, cs:74RF503220000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode "A7A4URUFA5A0A3A2A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(2)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第3節 / 第2款 / 第15 / 2 / (2)";
+  cs:sectionText "直接原価計算";
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondary\/2009\/商業\/管理会計;
+  cs:subjectArea cs:UpperSecondary\/2009\/商業.
+cs:74RF503000000000 schema:hasPart cs:74RF503200000000.

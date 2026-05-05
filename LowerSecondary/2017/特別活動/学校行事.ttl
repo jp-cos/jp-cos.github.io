@@ -1,21 +1,26 @@
-<https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>
-  <http://purl.org/linked-data/cube#order> 14;
-  <http://schema.org/name> "School Events"@en, "がっこうぎょうじ"@ja-hira, "学校行事"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "5";
-  <https://w3id.org/jp-cos/codePrefix> "83N5";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode04> "A5";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A3UNA5";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008>.
-<https://w3id.org/jp-cos/83N5200000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5202000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5203000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5203100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5203200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5203300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5203400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/83N5203500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/LowerSecondary/2017> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
-<https://w3id.org/jp-cos/LowerSecondary/2017/特別活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/2017/特別活動/学校行事>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/2017\/特別活動\/学校行事
+  qb:order 14;
+  schema:name "School Events"@en, "がっこうぎょうじ"@ja-hira, "学校行事"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "5";
+  cs:codePrefix "83N5";
+  cs:courseOfStudyRevision cs:LowerSecondary\/2017\/2017;
+  cs:fcode04 "A5";
+  cs:fcodePrefix "A8A3UNA5";
+  cs:school cs:school\/LowerSecondary;
+  cs:sourceOfEnglishName cs:source\/Elementary-2008.
+cs:83N5200000000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5202000000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5203000000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5203100000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5203200000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5203300000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5203400000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:83N5203500000000 cs:subject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:LowerSecondary\/2017 cs:hasSubject cs:LowerSecondary\/2017\/特別活動\/学校行事.
+cs:LowerSecondary\/2017\/特別活動 cs:hasSubject cs:LowerSecondary\/2017\/特別活動\/学校行事.

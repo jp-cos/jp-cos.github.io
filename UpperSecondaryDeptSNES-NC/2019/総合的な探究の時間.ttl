@@ -1,16 +1,22 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>
-  <http://purl.org/linked-data/cube#order> 38;
-  <http://schema.org/name> "Period for Inquiry-Based Cross-Disciplinary Study"@en, "そうごうてきなたんきゅうのじかん"@ja-hira, "総合的な探究の時間"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "M";
-  <https://w3id.org/jp-cos/codePrefix> "8BM";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
-  <https://w3id.org/jp-cos/fcode03> "UM";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8UBUM";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
-<https://w3id.org/jp-cos/8BM0000000000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>.
-<https://w3id.org/jp-cos/8BM0000100000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>.
-<https://w3id.org/jp-cos/8BM0000200000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/総合的な探究の時間> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-NC/2019/総合的な探究の時間>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:UpperSecondaryDeptSNES-NC\/2019\/総合的な探究の時間
+  qb:order 38;
+  schema:name "Period for Inquiry-Based Cross-Disciplinary Study"@en, "そうごうてきなたんきゅうのじかん"@ja-hira, "総合的な探究の時間"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "M";
+  cs:codePrefix "8BM";
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;
+  cs:fcode03 "UM";
+  cs:fcodePrefix "A8UBUM";
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/UpperSecondaryDeptSNES-2018.
+cs:8BM0000000000000 cs:subjectArea cs:UpperSecondaryDeptSNES-NC\/2019\/総合的な探究の時間.
+cs:8BM0000100000000 cs:subjectArea cs:UpperSecondaryDeptSNES-NC\/2019\/総合的な探究の時間.
+cs:8BM0000200000000 cs:subjectArea cs:UpperSecondaryDeptSNES-NC\/2019\/総合的な探究の時間.
+cs:UpperSecondaryDeptSNES\/2019 cs:hasSubjectArea cs:UpperSecondaryDeptSNES-NC\/2019\/総合的な探究の時間.
+cs:UpperSecondaryDeptSNES\/2019\/総合的な探究の時間 dct:relation cs:UpperSecondaryDeptSNES-NC\/2019\/総合的な探究の時間.

@@ -1,28 +1,34 @@
-<https://w3id.org/jp-cos/72102A3123000000>
-  <http://purl.org/dc/terms/identifier> "72102A3123000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>, <https://w3id.org/jp-cos/72V21>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 57
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:72102A3123000000
+  dct:identifier "72102A3123000000";
+  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  qb:order [
+    dct:source cs:72V11, cs:72V21 cs:72V11;
+    rdf:type cs:Number;
+    rdf:value 57
   ], [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V21>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 66
+    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+    rdf:type cs:Number cs:Number;
+    rdf:value 57 66
   ];
-  <http://schema.org/description> "ウ　場面に合わせてあいさつをしたり，必要なことについて身近な人と連絡をし合ったりすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>, <https://w3id.org/jp-cos/Elementary/2008/2015>;
-  <https://w3id.org/jp-cos/fcode> "A7A2A1A0A2UAA3A1A2A3A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/grade> 1, 2;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ウ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第1節 / 第2 / 〔第1学年及び第2学年〕 / 2 / A / (2) / ウ";
-  <https://w3id.org/jp-cos/sectionText> "場面に合わせてあいさつをしたり，必要なことについて身近な人と連絡をし合ったりすること。";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/国語>.
-<https://w3id.org/jp-cos/72102A3120000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/72102A3123000000>.
+  schema:description "ウ　場面に合わせてあいさつをしたり，必要なことについて身近な人と連絡をし合ったりすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:Elementary\/2008;
+  cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;
+  cs:fcode "A7A2A1A0A2UAA3A1A2A3A0A0A0A0A0A0";
+  cs:grade 1, 2;
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "ウ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第1節 / 第2 / 〔第1学年及び第2学年〕 / 2 / A / (2) / ウ";
+  cs:sectionText "場面に合わせてあいさつをしたり，必要なことについて身近な人と連絡をし合ったりすること。";
+  cs:subCategory "内容";
+  cs:subjectArea cs:Elementary\/2008\/国語.
+cs:72102A3120000000 schema:hasPart cs:72102A3123000000.

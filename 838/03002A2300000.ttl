@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/83803002A2300000>
-  <http://purl.org/dc/terms/identifier> "83803002A2300000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1330
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:83803002A2300000
+  dct:identifier "83803002A2300000";
+  dct:source cs:83V11 cs:83V11;
+  qb:order [
+    dct:source cs:83V11 cs:83V11;
+    rdf:type cs:Number;
+    rdf:value 1330
   ];
-  <http://schema.org/description> "テヌート";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=121>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A3A8A0A3A0A0A2UAA2A3A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "テ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第5節 / 第3 / 2 / (10) / テ";
-  <https://w3id.org/jp-cos/sectionText> "ヌート";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/音楽>.
-<https://w3id.org/jp-cos/83803002A0000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/83803002A2300000>.
+  schema:description "テヌート";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=121>;
+  cs:courseOfStudy cs:LowerSecondary\/2017;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2017\/2017;
+  cs:fcode "A8A3A8A0A3A0A0A2UAA2A3A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "テ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第5節 / 第3 / 2 / (10) / テ";
+  cs:sectionText "ヌート";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:LowerSecondary\/2017\/音楽.
+cs:83803002A0000000 schema:hasPart cs:83803002A2300000.

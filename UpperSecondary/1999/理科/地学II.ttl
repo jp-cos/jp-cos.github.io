@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/理科/地学II>
-  <http://purl.org/linked-data/cube#order> 33;
-  <http://schema.org/name> "Earth Science II"@en, "ちがくII"@ja-hira, "地学II"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理科/地学II>.
-<https://w3id.org/jp-cos/UpperSecondary/1999/理科> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/理科/地学II>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/理科\/地学II
+  qb:order 33;
+  schema:name "Earth Science II"@en, "ちがくII"@ja-hira, "地学II"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1999\/理科 cs:hasSubject cs:UpperSecondary\/1999\/理科\/地学II.
+cs:UpperSecondary\/1999 cs:hasSubject cs:UpperSecondary\/1999\/理科\/地学II.

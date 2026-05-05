@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学C>
-  <http://purl.org/linked-data/cube#order> 23;
-  <http://schema.org/name> "Mathematics C"@en, "すうがくC"@ja-hira, "数学C"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学C>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/数学> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学C>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/数学\/数学C
+  qb:order 23;
+  schema:name "Mathematics C"@en, "すうがくC"@ja-hira, "数学C"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989\/数学 cs:hasSubject cs:UpperSecondary\/1989\/数学\/数学C.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/数学\/数学C.

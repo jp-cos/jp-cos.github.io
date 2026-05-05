@@ -1,11 +1,17 @@
-<https://w3id.org/jp-cos/commentary/1000219>
-  <http://purl.org/dc/terms/alternative> "B";
-  <http://purl.org/dc/terms/identifier> "1000219";
-  <http://purl.org/dc/terms/title> "Ｂ　生命・地球";
-  <http://purl.org/linked-data/cube#order> 1000219;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263200000000>;
-  <http://schema.org/description> "Ｂ　生命・地球";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000220>, <https://w3id.org/jp-cos/commentary/1000240>, <https://w3id.org/jp-cos/commentary/1000252>, <https://w3id.org/jp-cos/commentary/1000270>, <https://w3id.org/jp-cos/commentary/1000289>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=89>.
-<https://w3id.org/jp-cos/commentary/1000156> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000219>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000219
+  dct:alternative "B";
+  dct:identifier "1000219";
+  dct:title "Ｂ　生命・地球";
+  qb:order 1000219;
+  schema:about cs:8260263200000000;
+  schema:description "Ｂ　生命・地球";
+  schema:hasPart cs:commentary\/1000220, cs:commentary\/1000240, cs:commentary\/1000252, cs:commentary\/1000270, cs:commentary\/1000289;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=89>.
+cs:commentary\/1000156 schema:hasPart cs:commentary\/1000219.

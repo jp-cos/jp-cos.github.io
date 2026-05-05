@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/8200000521000000>
-  <http://purl.org/dc/terms/identifier> "8200000521000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/82V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 82
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8200000521000000
+  dct:identifier "8200000521000000";
+  dct:source cs:82V11 cs:82V11;
+  qb:order [
+    dct:source cs:82V11 cs:82V11;
+    rdf:type cs:Number;
+    rdf:value 82
   ];
-  <http://schema.org/description> "ア　学校がその目的を達成するため，学校や地域の実態等に応じ，教育活動の実施に必要な人的又は物的な体制を家庭や地域の人々の協力を得ながら整えるなど，家庭や地域社会との連携及び協働を深めること。また，高齢者や異年齢の子供など，地域における世代を越えた交流の機会を設けること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=133>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A2A0A0A0A0A0A5A2A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "ア";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第5 / 2 / ア";
-  <https://w3id.org/jp-cos/sectionText> "学校がその目的を達成するため，学校や地域の実態等に応じ，教育活動の実施に必要な人的又は物的な体制を家庭や地域の人々の協力を得ながら整えるなど，家庭や地域社会との連携及び協働を深めること。また，高齢者や異年齢の子供など，地域における世代を越えた交流の機会を設けること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2017/総則>.
-<https://w3id.org/jp-cos/8200000520000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8200000521000000>.
+  schema:description "ア　学校がその目的を達成するため，学校や地域の実態等に応じ，教育活動の実施に必要な人的又は物的な体制を家庭や地域の人々の協力を得ながら整えるなど，家庭や地域社会との連携及び協働を深めること。また，高齢者や異年齢の子供など，地域における世代を越えた交流の機会を設けること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=133>;
+  cs:courseOfStudy cs:Elementary\/2017;
+  cs:courseOfStudyRevision cs:Elementary\/2017\/2017;
+  cs:fcode "A8A2A0A0A0A0A0A5A2A1A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "ア";
+  cs:sectionNumberHierarchy "第1章 / 第5 / 2 / ア";
+  cs:sectionText "学校がその目的を達成するため，学校や地域の実態等に応じ，教育活動の実施に必要な人的又は物的な体制を家庭や地域の人々の協力を得ながら整えるなど，家庭や地域社会との連携及び協働を深めること。また，高齢者や異年齢の子供など，地域における世代を越えた交流の機会を設けること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Elementary\/2017\/総則.
+cs:8200000520000000 schema:hasPart cs:8200000521000000.

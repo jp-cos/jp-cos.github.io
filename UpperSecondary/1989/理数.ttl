@@ -1,2 +1,3 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/理数>
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/理数/理数数学I>, <https://w3id.org/jp-cos/UpperSecondary/1989/理数/理数数学II>, <https://w3id.org/jp-cos/UpperSecondary/1989/理数/理数物理>, <https://w3id.org/jp-cos/UpperSecondary/1989/理数/理数化学>, <https://w3id.org/jp-cos/UpperSecondary/1989/理数/理数生物>, <https://w3id.org/jp-cos/UpperSecondary/1989/理数/理数地学>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+cs:UpperSecondary\/1989\/理数
+  cs:hasSubject cs:UpperSecondary\/1989\/理数\/理数数学I, cs:UpperSecondary\/1989\/理数\/理数数学II, cs:UpperSecondary\/1989\/理数\/理数物理, cs:UpperSecondary\/1989\/理数\/理数化学, cs:UpperSecondary\/1989\/理数\/理数生物, cs:UpperSecondary\/1989\/理数\/理数地学.

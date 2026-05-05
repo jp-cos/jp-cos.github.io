@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/7G60202000000000>
-  <http://purl.org/dc/terms/identifier> "7G60202000000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/7BV11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2301
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7G60202000000000
+  dct:identifier "7G60202000000000";
+  dct:source cs:7BV11 cs:7BV11;
+  qb:order [
+    dct:source cs:7BV11 cs:7BV11;
+    rdf:type cs:Number;
+    rdf:value 2301
   ];
-  <http://schema.org/description> """１　目標
+  schema:description """１　目標
 自然の仕組みや働きなどについての理解を深め，科学的な見方や考え方を養うとともに，  自然を大切にする態度を育てる。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A7UGA6A0A2A0A2A0A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "1";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2節 / ［理科］ / 1";
-  <https://w3id.org/jp-cos/sectionText> """目標
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A7UGA6A0A2A0A2A0A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sectionNumber "1";
+  cs:sectionNumberHierarchy "第1章 / 第2節 / ［理科］ / 1";
+  cs:sectionText """目標
 自然の仕組みや働きなどについての理解を深め，科学的な見方や考え方を養うとともに，  自然を大切にする態度を育てる。""";
-  <https://w3id.org/jp-cos/subCategory> "目標";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Intellectual/2009/理科>.
-<https://w3id.org/jp-cos/7G60200000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7G60202000000000>.
+  cs:subCategory "目標";
+  cs:subjectArea cs:UpperSecondaryDeptSNES-Intellectual\/2009\/理科.
+cs:7G60200000000000 schema:hasPart cs:7G60202000000000.

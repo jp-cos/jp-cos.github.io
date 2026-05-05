@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000036>
-  <http://purl.org/dc/terms/identifier> "1000036";
-  <http://purl.org/linked-data/cube#order> 1000036;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260253110000000>, <https://w3id.org/jp-cos/8260255200000000>;
-  <http://schema.org/description> "　ここで扱う対象としては，水の温度や溶かす物の違いによって，溶ける量の違いが顕著に観察できるように，水の温度によって溶ける量の変化が大きい物と変化が小さい物を用いることが考えられる。また，加熱によって分解しにくく，安全性の高い物を扱うようにする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=69>.
-<https://w3id.org/jp-cos/commentary/1000022> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000036>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000036
+  dct:identifier "1000036";
+  qb:order 1000036;
+  schema:about cs:8260253110000000, cs:8260255200000000;
+  schema:description "　ここで扱う対象としては，水の温度や溶かす物の違いによって，溶ける量の違いが顕著に観察できるように，水の温度によって溶ける量の変化が大きい物と変化が小さい物を用いることが考えられる。また，加熱によって分解しにくく，安全性の高い物を扱うようにする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=69>.
+cs:commentary\/1000022 schema:hasPart cs:commentary\/1000036.

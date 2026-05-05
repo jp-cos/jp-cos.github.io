@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/7435505223000000>
-  <http://purl.org/dc/terms/identifier> "7435505223000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 474
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7435505223000000
+  dct:identifier "7435505223000000";
+  dct:source cs:74V10 cs:74V10;
+  qb:order [
+    dct:source cs:74V10 cs:74V10;
+    rdf:type cs:Number;
+    rdf:value 474
   ];
-  <http://schema.org/description> "(ウ) イについては，日本では様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けさせるとともに，防災意識を高めるよう工夫すること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A4A3A5A5A0A5A2A2A3A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(ウ)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第2款 / 第5 / 3 / (2) / イ / (ウ)";
-  <https://w3id.org/jp-cos/sectionText> "イについては，日本では様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けさせるとともに，防災意識を高めるよう工夫すること。";
-  <https://w3id.org/jp-cos/subCategory> "内容の取扱い";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史/地理A>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/地理歴史>.
-<https://w3id.org/jp-cos/7435505220000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7435505223000000>.
+  schema:description "(ウ) イについては，日本では様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けさせるとともに，防災意識を高めるよう工夫すること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode "A7A4A3A5A5A0A5A2A2A3A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(ウ)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第2節 / 第2款 / 第5 / 3 / (2) / イ / (ウ)";
+  cs:sectionText "イについては，日本では様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けさせるとともに，防災意識を高めるよう工夫すること。";
+  cs:subCategory "内容の取扱い";
+  cs:subject cs:UpperSecondary\/2009\/地理歴史\/地理A;
+  cs:subjectArea cs:UpperSecondary\/2009\/地理歴史.
+cs:7435505220000000 schema:hasPart cs:7435505223000000.

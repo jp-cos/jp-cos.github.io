@@ -1,26 +1,32 @@
-<https://w3id.org/jp-cos/74G2503150000000>
-  <http://purl.org/dc/terms/identifier> "74G2503150000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1353
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:74G2503150000000
+  dct:identifier "74G2503150000000";
+  dct:source cs:74V10 cs:74V10;
+  qb:order [
+    dct:source cs:74V10 cs:74V10;
+    rdf:type cs:Number;
+    rdf:value 1353
   ];
-  <http://schema.org/description> """オ　応急手当
+  schema:description """オ　応急手当
 　適切な応急手当は，傷害や疾病の悪化を軽減できること。応急手当には，正しい手順や方法があること。また，心肺蘇《そ》生等の応急手当は，傷害や疾病によって身体が時間の経過とともに損なわれていく場合があることから，速やかに行う必要があること。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A4UGA2A5A0A3A1A5A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "オ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第6節 / 第2款 / 第2 / 2 / (1) / オ";
-  <https://w3id.org/jp-cos/sectionText> """応急手当
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode "A7A4UGA2A5A0A3A1A5A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "オ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第6節 / 第2款 / 第2 / 2 / (1) / オ";
+  cs:sectionText """応急手当
  適切な応急手当は，傷害や疾病の悪化を軽減できること。応急手当には，正しい手順や方法があること。また，心肺蘇《そ》生等の応急手当は，傷害や疾病によって身体が時間の経過とともに損なわれていく場合があることから，速やかに行う必要があること。""";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/保健体育/保健>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/保健体育>.
-<https://w3id.org/jp-cos/74G2503100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74G2503150000000>.
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondary\/2009\/保健体育\/保健;
+  cs:subjectArea cs:UpperSecondary\/2009\/保健体育.
+cs:74G2503100000000 schema:hasPart cs:74G2503150000000.

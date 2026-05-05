@@ -1,11 +1,17 @@
-<https://w3id.org/jp-cos/commentary/1000157>
-  <http://purl.org/dc/terms/alternative> "A";
-  <http://purl.org/dc/terms/identifier> "1000157";
-  <http://purl.org/dc/terms/title> "Ａ　物質・エネルギー";
-  <http://purl.org/linked-data/cube#order> 1000157;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263100000000>;
-  <http://schema.org/description> "Ａ　物質・エネルギー";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000158>, <https://w3id.org/jp-cos/commentary/1000169>, <https://w3id.org/jp-cos/commentary/1000185>, <https://w3id.org/jp-cos/commentary/1000198>, <https://w3id.org/jp-cos/commentary/1000215>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=82>.
-<https://w3id.org/jp-cos/commentary/1000156> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000157>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000157
+  dct:alternative "A";
+  dct:identifier "1000157";
+  dct:title "Ａ　物質・エネルギー";
+  qb:order 1000157;
+  schema:about cs:8260263100000000;
+  schema:description "Ａ　物質・エネルギー";
+  schema:hasPart cs:commentary\/1000158, cs:commentary\/1000169, cs:commentary\/1000185, cs:commentary\/1000198, cs:commentary\/1000215;
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=82>.
+cs:commentary\/1000156 schema:hasPart cs:commentary\/1000157.

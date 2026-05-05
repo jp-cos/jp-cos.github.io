@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/農業/食品加工>
-  <http://purl.org/linked-data/cube#order> 120;
-  <http://schema.org/name> "Food Processing"@en, "しょくひんかこう"@ja-hira, "食品加工"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/農業/食品加工>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/農業> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/農業/食品加工>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/農業\/食品加工
+  qb:order 120;
+  schema:name "Food Processing"@en, "しょくひんかこう"@ja-hira, "食品加工"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1989\/農業 cs:hasSubject cs:UpperSecondary\/1989\/農業\/食品加工.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/農業\/食品加工.

@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000692>
-  <http://purl.org/dc/terms/identifier> "1000692";
-  <http://purl.org/linked-data/cube#order> 1000692;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220263213000000>;
-  <http://schema.org/description> "　これらのことを手掛かりに，京都に都が置かれた頃，<b>日本風の文化が生まれたことを理解で</b>きるようにする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=117>.
-<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000692>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000692
+  dct:identifier "1000692";
+  qb:order 1000692;
+  schema:about cs:8220263213000000;
+  schema:description "　これらのことを手掛かりに，京都に都が置かれた頃，<b>日本風の文化が生まれたことを理解で</b>きるようにする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=117>.
+cs:commentary\/1000612 schema:hasPart cs:commentary\/1000692.

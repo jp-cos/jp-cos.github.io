@@ -1,24 +1,29 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>
-  <http://purl.org/linked-data/cube#order> 285;
-  <http://schema.org/name> "Comprehension Of English"@en, "えいごりかい"@ja-hira, "英語理解"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "2";
-  <https://w3id.org/jp-cos/codePrefix> "74d2";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A2";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LdA2";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/74d2500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/74d2505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/英語(専門)/英語理解>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解
+  qb:order 285;
+  schema:name "Comprehension Of English"@en, "えいごりかい"@ja-hira, "英語理解"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "2";
+  cs:codePrefix "74d2";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A2";
+  cs:fcodePrefix "A7A4LdA2";
+  cs:school cs:school\/UpperSecondary.
+cs:74d2500000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2502000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503100000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503200000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503300000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503400000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503500000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2503600000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2505000000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2505100000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:74d2505200000000 cs:subject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.
+cs:UpperSecondary\/2009\/英語\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/英語\(専門\)\/英語理解.

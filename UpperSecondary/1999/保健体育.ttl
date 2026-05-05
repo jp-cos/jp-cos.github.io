@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/保健体育>
-  <http://purl.org/linked-data/cube#order> 7;
-  <http://schema.org/name> "Health and Physical Education"@en, "ほけんたいいく"@ja-hira, "保健体育"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "G";
-  <https://w3id.org/jp-cos/codePrefix> "64G";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/fcode03> "UG";
-  <https://w3id.org/jp-cos/fcodePrefix> "A6A4UG";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/保健体育/体育>, <https://w3id.org/jp-cos/UpperSecondary/1999/保健体育/保健>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1999/保健体育>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/保健体育
+  qb:order 7;
+  schema:name "Health and Physical Education"@en, "ほけんたいいく"@ja-hira, "保健体育"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "G";
+  cs:codePrefix "64G";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:fcode03 "UG";
+  cs:fcodePrefix "A6A4UG";
+  cs:hasSubject cs:UpperSecondary\/1999\/保健体育\/体育, cs:UpperSecondary\/1999\/保健体育\/保健;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1999 cs:hasSubjectArea cs:UpperSecondary\/1999\/保健体育.

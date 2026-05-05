@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/84d0300180000000>
-  <http://purl.org/dc/terms/identifier> "84d0300180000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 10830
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:84d0300180000000
+  dct:identifier "84d0300180000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 10830
   ];
-  <http://schema.org/description> "(8) 言語活動で扱う題材は，生徒の興味・関心に合ったものとし，第２章に示す国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4LdA0A3A0A0A1A8A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(8)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第13節 / 第3款 / 1 / (8)";
-  <https://w3id.org/jp-cos/sectionText> "言語活動で扱う題材は，生徒の興味・関心に合ったものとし，第2章に示す国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/英語(専門)>.
-<https://w3id.org/jp-cos/84d0300100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84d0300180000000>.
+  schema:description "(8) 言語活動で扱う題材は，生徒の興味・関心に合ったものとし，第２章に示す国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4LdA0A3A0A0A1A8A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(8)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第13節 / 第3款 / 1 / (8)";
+  cs:sectionText "言語活動で扱う題材は，生徒の興味・関心に合ったものとし，第2章に示す国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondary\/2018\/英語\(専門\).
+cs:84d0300100000000 schema:hasPart cs:84d0300180000000.

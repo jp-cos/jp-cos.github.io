@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/数学>
-  <http://purl.org/linked-data/cube#order> 5;
-  <http://schema.org/name> "Mathematics"@en, "すうがく"@ja-hira, "数学"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "5";
-  <https://w3id.org/jp-cos/codePrefix> "545";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "A5";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4A5";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学I>, <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学II>, <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学III>, <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学A>, <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学B>, <https://w3id.org/jp-cos/UpperSecondary/1989/数学/数学C>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/数学>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/数学
+  qb:order 5;
+  schema:name "Mathematics"@en, "すうがく"@ja-hira, "数学"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "5";
+  cs:codePrefix "545";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "A5";
+  cs:fcodePrefix "A5A4A5";
+  cs:hasSubject cs:UpperSecondary\/1989\/数学\/数学I, cs:UpperSecondary\/1989\/数学\/数学II, cs:UpperSecondary\/1989\/数学\/数学III, cs:UpperSecondary\/1989\/数学\/数学A, cs:UpperSecondary\/1989\/数学\/数学B, cs:UpperSecondary\/1989\/数学\/数学C;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/数学.

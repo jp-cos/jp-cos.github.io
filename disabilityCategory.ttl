@@ -1,17 +1,43 @@
-<https://w3id.org/jp-cos/disabilityCategory>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>, <https://w3id.org/jp-cos/Stage>, <https://w3id.org/jp-cos/Subject>, <https://w3id.org/jp-cos/SubjectArea>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Disability Category"@en, "障害分類"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/DisabilityCategory>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/disabilityCategory>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:disabilityCategory
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item, cs:Stage, cs:Subject, cs:SubjectArea;
+  rdfs:label "Disability Category"@en, "障害分類"@ja;
+  rdfs:range cs:DisabilityCategory.
+cs:ItemShape sh:property [
+    skos:example <cs:disabilityCategory/Intellectual>;
+    sh:class cs:DisabilityCategory;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:name "Disability Category"@en, "障害分類"@ja;
+    sh:order 6;
+    sh:path cs:disabilityCategory
   ].
-<https://w3id.org/jp-cos/StageShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/disabilityCategory>
+cs:StageShape sh:property [
+    skos:example cs:disabilityCategory\/Intellectual;
+    sh:class cs:DisabilityCategory;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Disability Category"@en, "障害分類"@ja;
+    sh:order 5;
+    sh:path cs:disabilityCategory
   ].
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/disabilityCategory>
+cs:SubjectAreaShape sh:property [
+    skos:example cs:disabilityCategory\/Intellectual;
+    sh:class cs:DisabilityCategory;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:name "Disability Category"@en, "障害分類"@ja;
+    sh:order 3;
+    sh:path cs:disabilityCategory
   ].
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/disabilityCategory>
+cs:SubjectShape sh:property [
+    skos:example cs:Intellectual;
+    sh:class cs:DisabilityCategory;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:name "Disability Category"@en, "障害分類"@ja;
+    sh:order 3;
+    sh:path cs:disabilityCategory
   ].

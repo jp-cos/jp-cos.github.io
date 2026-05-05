@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000292>
-  <http://purl.org/dc/terms/identifier> "1000292";
-  <http://purl.org/linked-data/cube#order> 1000292;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263251100000>;
-  <http://schema.org/description> "　(ア) 月の輝いている側に太陽があること。また，月の形の見え方は，太陽と月との位置関係によって変わること。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97>.
-<https://w3id.org/jp-cos/commentary/1000289> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000292>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000292
+  dct:identifier "1000292";
+  qb:order 1000292;
+  schema:about cs:8260263251100000;
+  schema:description "　(ア) 月の輝いている側に太陽があること。また，月の形の見え方は，太陽と月との位置関係によって変わること。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97>.
+cs:commentary\/1000289 schema:hasPart cs:commentary\/1000292.

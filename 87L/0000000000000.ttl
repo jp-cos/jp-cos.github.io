@@ -1,28 +1,34 @@
-<https://w3id.org/jp-cos/87L0000000000000>
-  <http://purl.org/dc/terms/identifier> "87L0000000000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 2219
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:87L0000000000000
+  dct:identifier "87L0000000000000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 2219
   ];
-  <http://schema.org/description> """第１款　視覚障害者，聴覚障害者，肢体不自由者又は病弱者である児童に対する教育を行う特別支援学校
+  schema:description """第１款　視覚障害者，聴覚障害者，肢体不自由者又は病弱者である児童に対する教育を行う特別支援学校
 小学部における外国語活動の目標，内容及び指導計画の作成と内容の取扱いについては，小学校学習指導要領第４章に示すものに準ずるほか，次の事項に配慮するものとする。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/87L0000100000000>, <https://w3id.org/jp-cos/87L0000200000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=534>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Visual>, <https://w3id.org/jp-cos/disabilityCategory/Hearing>, <https://w3id.org/jp-cos/disabilityCategory/Physical>, <https://w3id.org/jp-cos/disabilityCategory/Health>;
-  <https://w3id.org/jp-cos/fcode> "A8A7ULA0A0A0A0A0A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/ElementaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "第1款";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第1款 / 第1款";
-  <https://w3id.org/jp-cos/sectionText> """視覚障害者，聴覚障害者，肢体不自由者又は病弱者である児童に対する教育を行う特別支援学校
+  schema:edition "一部改正なし";
+  schema:hasPart cs:87L0000100000000, cs:87L0000200000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=534>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Visual, cs:disabilityCategory\/Hearing, cs:disabilityCategory\/Physical, cs:disabilityCategory\/Health;
+  cs:fcode "A8A7ULA0A0A0A0A0A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/ElementaryDeptSNES;
+  cs:sectionNumber "第1款";
+  cs:sectionNumberHierarchy "第1章 / 第1款 / 第1款";
+  cs:sectionText """視覚障害者，聴覚障害者，肢体不自由者又は病弱者である児童に対する教育を行う特別支援学校
 小学部における外国語活動の目標，内容及び指導計画の作成と内容の取扱いについては，小学校学習指導要領第4章に示すものに準ずるほか，次の事項に配慮するものとする。""";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/ElementaryDeptSNES-VHPH/2017/外国語活動>.
-<https://w3id.org/jp-cos/87n0000000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/87L0000000000000>.
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:ElementaryDeptSNES-VHPH\/2017\/外国語活動.
+cs:87n0000000000000 schema:hasPart cs:87L0000000000000.

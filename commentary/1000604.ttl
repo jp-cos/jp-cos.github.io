@@ -1,9 +1,15 @@
-<https://w3id.org/jp-cos/commentary/1000604>
-  <http://purl.org/dc/terms/identifier> "1000604";
-  <http://purl.org/linked-data/cube#order> 1000604;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220265120000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8220263111000000>;
-  <http://schema.org/description> "　これらの指導を通して，天皇についての理解と敬愛の念を深めるようにする必要がある。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=109>.
-<https://w3id.org/jp-cos/commentary/1000589> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000604>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000604
+  dct:identifier "1000604";
+  qb:order 1000604;
+  schema:about cs:8220265120000000;
+  schema:citation cs:8220263111000000;
+  schema:description "　これらの指導を通して，天皇についての理解と敬愛の念を深めるようにする必要がある。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=109>.
+cs:commentary\/1000589 schema:hasPart cs:commentary\/1000604.

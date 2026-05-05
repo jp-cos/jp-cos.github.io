@@ -1,21 +1,27 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>
-  <http://purl.org/linked-data/cube#order> 30;
-  <http://schema.org/name> "Subject Areas"@en, "かくきょうか"@ja-hira, "各教科"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "n";
-  <https://w3id.org/jp-cos/codePrefix> "8Hn";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/2019>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Health>;
-  <https://w3id.org/jp-cos/fcode03> "Ln";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8UHLn";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018>.
-<https://w3id.org/jp-cos/8Hn0000240000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/8Hn0000241000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/8Hn0000242000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/8Hn0000243000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/8Hn0000244000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/8Hn0000245000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/8Hn0000246000000> <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/各教科> <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Health/2019/各教科>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:UpperSecondaryDeptSNES-Health\/2019\/各教科
+  qb:order 30;
+  schema:name "Subject Areas"@en, "かくきょうか"@ja-hira, "各教科"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "n";
+  cs:codePrefix "8Hn";
+  cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;
+  cs:disabilityCategory cs:disabilityCategory\/Health;
+  cs:fcode03 "Ln";
+  cs:fcodePrefix "A8UHLn";
+  cs:school cs:school\/UpperSecondaryDeptSNES;
+  cs:sourceOfEnglishName cs:source\/UpperSecondaryDeptSNES-2018.
+cs:8Hn0000240000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:8Hn0000241000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:8Hn0000242000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:8Hn0000243000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:8Hn0000244000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:8Hn0000245000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:8Hn0000246000000 cs:subjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:UpperSecondaryDeptSNES\/2019 cs:hasSubjectArea cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.
+cs:UpperSecondaryDeptSNES\/2019\/各教科 dct:relation cs:UpperSecondaryDeptSNES-Health\/2019\/各教科.

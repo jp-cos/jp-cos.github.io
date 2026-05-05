@@ -1,28 +1,44 @@
-<https://w3id.org/jp-cos/SourceOfEnglishName>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the source of an English translation of a subject or subject area."@en, "教科や科目などの英訳の出典を表すクラス。"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Referrence for English name"@en, "英語表記の出典"@ja.
-<https://w3id.org/jp-cos/SourceOfEnglishNameShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/SourceOfEnglishName>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+cs:SourceOfEnglishName
+  rdf:type rdfs:Class;
+  rdfs:comment "A class that represents the source of an English translation of a subject or subject area."@en, "教科や科目などの英訳の出典を表すクラス。"@ja;
+  rdfs:label "Referrence for English name"@en, "英語表記の出典"@ja.
+cs:SourceOfEnglishNameShape sh:targetClass cs:SourceOfEnglishName.
+cs:SubjectAreaShape sh:property [
+    skos:example cs:source\/Elementary-2008;
+    sh:class cs:SourceOfEnglishName;
+    sh:description "To provide the source information that serves as the basis for the English notation."@en, "英語表記の根拠となる出典情報を表す。"@ja;
+    sh:maxCount 1;
+    sh:name "Source for the English name"@en, "英語表記出典"@ja;
+    sh:order 6;
+    sh:path cs:sourceOfEnglishName
   ].
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/SourceOfEnglishName>
+cs:SubjectShape sh:property [
+    skos:example cs:source\/Elementary-2008;
+    sh:class cs:SourceOfEnglishName;
+    sh:description "To provide the source information that serves as the basis for the English notation."@en, "英語表記の根拠となる出典情報を表す。"@ja;
+    sh:maxCount 1;
+    sh:name "Source for the English name"@en, "英語表記出典"@ja;
+    sh:order 6;
+    sh:path cs:sourceOfEnglishName
   ].
-<https://w3id.org/jp-cos/courseOfStudy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/EducationInJapan-2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Elementary-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Elementary-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Elementary-2017-ForeignLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Elementary-2017-ForeignLanguageActivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/ElementaryAndLowerSecondaryDeptSNES-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Kindergarten-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Kindergarten-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/KindergartenDeptSNES-NC-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/LowerSecondary-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/LowerSecondary-2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/Report-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/UpperSecondary-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/UpperSecondary-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/UpperSecondaryDeptSNES-2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
-<https://w3id.org/jp-cos/source/WhitePaper-2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SourceOfEnglishName>.
+cs:courseOfStudy rdfs:domain cs:SourceOfEnglishName.
+cs:source\/EducationInJapan-2000 rdf:type cs:SourceOfEnglishName.
+cs:source\/Elementary-2017 rdf:type cs:SourceOfEnglishName.
+cs:source\/Elementary-2017-ForeignLanguage rdf:type cs:SourceOfEnglishName.
+cs:source\/Elementary-2017-ForeignLanguageActivities rdf:type cs:SourceOfEnglishName.
+cs:source\/ElementaryAndLowerSecondaryDeptSNES-2017 rdf:type cs:SourceOfEnglishName.
+cs:source\/Kindergarten-2008 rdf:type cs:SourceOfEnglishName.
+cs:source\/Kindergarten-2017 rdf:type cs:SourceOfEnglishName.
+cs:source\/KindergartenDeptSNES-NC-2017 rdf:type cs:SourceOfEnglishName.
+cs:source\/LowerSecondary-2008 rdf:type cs:SourceOfEnglishName.
+cs:source\/LowerSecondary-2017 rdf:type cs:SourceOfEnglishName.
+cs:source\/Report-2008 rdf:type cs:SourceOfEnglishName.
+cs:source\/UpperSecondary-2009 rdf:type cs:SourceOfEnglishName.
+cs:source\/UpperSecondary-2018 rdf:type cs:SourceOfEnglishName.
+cs:source\/UpperSecondaryDeptSNES-2018 rdf:type cs:SourceOfEnglishName.
+cs:source\/WhitePaper-2013 rdf:type cs:SourceOfEnglishName.

@@ -1,27 +1,33 @@
-<https://w3id.org/jp-cos/84R7503000000000>
-  <http://purl.org/dc/terms/identifier> "84R7503000000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 6831
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:84R7503000000000
+  dct:identifier "84R7503000000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 6831
   ];
-  <http://schema.org/description> """２　内容
+  schema:description """２　内容
 １に示す資質・能力を身に付けることができるよう，次の〔指導項目〕を指導する。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/84R7503100000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4URA7A5A0A3A0A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "2";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第3節 / 第2款 / 第7 / 2";
-  <https://w3id.org/jp-cos/sectionText> """内 容
+  schema:edition "一部改正なし";
+  schema:hasPart cs:84R7503100000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4URA7A5A0A3A0A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "2";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第3節 / 第2款 / 第7 / 2";
+  cs:sectionText """内 容
 1に示す資質・能力を身に付けることができるよう，次の〔指導項目〕を指導する。""";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/商業/観光ビジネス>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/商業>.
-<https://w3id.org/jp-cos/84R7500000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84R7503000000000>.
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondary\/2018\/商業\/観光ビジネス;
+  cs:subjectArea cs:UpperSecondary\/2018\/商業.
+cs:84R7500000000000 schema:hasPart cs:84R7503000000000.

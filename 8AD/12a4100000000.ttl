@@ -1,29 +1,35 @@
-<https://w3id.org/jp-cos/8AD12a4100000000>
-  <http://purl.org/dc/terms/identifier> "8AD12a4100000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/86V12>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 1984
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8AD12a4100000000
+  dct:identifier "8AD12a4100000000";
+  dct:source cs:86V12 cs:86V12;
+  qb:order [
+    dct:source cs:86V12 cs:86V12;
+    rdf:type cs:Number;
+    rdf:value 1984
   ];
-  <http://schema.org/description> """職業分野
+  schema:description """職業分野
 職業に係る見方・考え方を働かせ，作業や実習に関する実践的・体験的な学習活動を通して，よりよい生活の実現に向けて工夫する資質・能力を次のとおり育成することを目指す。""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/8AD12a4110000000>, <https://w3id.org/jp-cos/8AD12a4120000000>, <https://w3id.org/jp-cos/8AD12a4130000000>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "目標及び内容（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=479>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/ElementaryAndLowerSecondaryDeptSNES/2017/2017>;
-  <https://w3id.org/jp-cos/disabilityCategory> <https://w3id.org/jp-cos/disabilityCategory/Intellectual>;
-  <https://w3id.org/jp-cos/fcode> "A8UAUDA1A2LaA4A1A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / 〔職業・家庭〕 / 2 / ○1段階 / (1) / 職業分野";
-  <https://w3id.org/jp-cos/sectionText> """職業分野
+  schema:edition "一部改正なし";
+  schema:hasPart cs:8AD12a4110000000, cs:8AD12a4120000000, cs:8AD12a4130000000;
+  rdf:type cs:Number cs:Item;
+  cs:category "目標及び内容（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=479>;
+  cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;
+  cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2017\/2017;
+  cs:disabilityCategory cs:disabilityCategory\/Intellectual;
+  cs:fcode "A8UAUDA1A2LaA4A1A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/LowerSecondaryDeptSNES;
+  cs:sectionNumberHierarchy "第1章 / 第2款 / 〔職業・家庭〕 / 2 / ○1段階 / (1) / 職業分野";
+  cs:sectionText """職業分野
 職業に係る見方・考え方を働かせ，作業や実習に関する実践的・体験的な学習活動を通して，よりよい生活の実現に向けて工夫する資質・能力を次のとおり育成することを目指す。""";
-  <https://w3id.org/jp-cos/stage> <https://w3id.org/jp-cos/stage/LowerSecondaryDeptSNES-Intellectual/1>;
-  <https://w3id.org/jp-cos/subCategory> "目標及び内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭/職業分野>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondaryDeptSNES-Intellectual/2017/職業・家庭>.
-<https://w3id.org/jp-cos/8AD02a4100000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8AD12a4100000000>.
+  cs:stage cs:stage\/LowerSecondaryDeptSNES-Intellectual\/1;
+  cs:subCategory "目標及び内容";
+  cs:subject cs:LowerSecondaryDeptSNES-Intellectual\/2017\/職業・家庭\/職業分野;
+  cs:subjectArea cs:LowerSecondaryDeptSNES-Intellectual\/2017\/職業・家庭.
+cs:8AD02a4100000000 schema:hasPart cs:8AD12a4100000000.

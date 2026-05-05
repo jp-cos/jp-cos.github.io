@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/地理歴史/地理A>
-  <http://purl.org/linked-data/cube#order> 13;
-  <http://schema.org/name> "Geography A"@en, "ちりA"@ja-hira, "地理A"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/地理歴史/地理A>.
-<https://w3id.org/jp-cos/UpperSecondary/1989/地理歴史> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/地理歴史/地理A>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/地理歴史\/地理A
+  qb:order 13;
+  schema:name "Geography A"@en, "ちりA"@ja-hira, "地理A"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989\/地理歴史 cs:hasSubject cs:UpperSecondary\/1989\/地理歴史\/地理A.
+cs:UpperSecondary\/1989 cs:hasSubject cs:UpperSecondary\/1989\/地理歴史\/地理A.

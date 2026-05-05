@@ -1,5 +1,9 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/理学療法/課題研究>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Visual/2019/理学療法/課題研究>;
-  <http://schema.org/name> "Project Study"@en, "かだいけんきゅう"@ja-hira, "課題研究"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/理学療法\/課題研究
+  dct:relation cs:UpperSecondaryDeptSNES-Visual\/2019\/理学療法\/課題研究;
+  schema:name "Project Study"@en, "かだいけんきゅう"@ja-hira, "課題研究"@ja;
+  rdf:type cs:RelatedSubject;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.

@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000560>
-  <http://purl.org/dc/terms/identifier> "1000560";
-  <http://purl.org/linked-data/cube#order> 1000560;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220262300000000>;
-  <http://schema.org/description> "<b>我が国の将来を担う国民としての自覚</b>を養うとは，我が国の政治についての理解を踏まえて，国家及び社会の一員としての自覚をもつとともに，主権者として将来にわたって我が国の政治に関わろうとする意識や，社会の担い手として平和で民主的な国家及び社会を築き上げようとする意識などを養うようにすることである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=104>.
-<https://w3id.org/jp-cos/commentary/1000535> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000560>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000560
+  dct:identifier "1000560";
+  qb:order 1000560;
+  schema:about cs:8220262300000000;
+  schema:description "<b>我が国の将来を担う国民としての自覚</b>を養うとは，我が国の政治についての理解を踏まえて，国家及び社会の一員としての自覚をもつとともに，主権者として将来にわたって我が国の政治に関わろうとする意識や，社会の担い手として平和で民主的な国家及び社会を築き上げようとする意識などを養うようにすることである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=104>.
+cs:commentary\/1000535 schema:hasPart cs:commentary\/1000560.

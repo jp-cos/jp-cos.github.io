@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/84U4502300000000>
-  <http://purl.org/dc/terms/identifier> "84U4502300000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/84V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 8300
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:84U4502300000000
+  dct:identifier "84U4502300000000";
+  dct:source cs:84V10 cs:84V10;
+  qb:order [
+    dct:source cs:84V10 cs:84V10;
+    rdf:type cs:Number;
+    rdf:value 8300
   ];
-  <http://schema.org/description> "(3) よりよい消費生活の実現を目指して自ら学び，消費者の支援や持続可能な社会の形成に主体的かつ協働的に取り組む態度を養う。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2018>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode> "A8A4UUA4A5A0A2A3A0A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(3)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第5節 / 第2款 / 第4 / 1 / (3)";
-  <https://w3id.org/jp-cos/sectionText> "よりよい消費生活の実現を目指して自ら学び，消費者の支援や持続可能な社会の形成に主体的かつ協働的に取り組む態度を養う。";
-  <https://w3id.org/jp-cos/subCategory> "目標";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)/消費生活>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2018/家庭(専門)>.
-<https://w3id.org/jp-cos/84U4502000000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/84U4502300000000>.
+  schema:description "(3) よりよい消費生活の実現を目指して自ら学び，消費者の支援や持続可能な社会の形成に主体的かつ協働的に取り組む態度を養う。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2018;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode "A8A4UUA4A5A0A2A3A0A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "(3)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第5節 / 第2款 / 第4 / 1 / (3)";
+  cs:sectionText "よりよい消費生活の実現を目指して自ら学び，消費者の支援や持続可能な社会の形成に主体的かつ協働的に取り組む態度を養う。";
+  cs:subCategory "目標";
+  cs:subject cs:UpperSecondary\/2018\/家庭\(専門\)\/消費生活;
+  cs:subjectArea cs:UpperSecondary\/2018\/家庭\(専門\).
+cs:84U4502000000000 schema:hasPart cs:84U4502300000000.

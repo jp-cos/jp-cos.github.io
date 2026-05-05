@@ -1,13 +1,18 @@
-<https://w3id.org/jp-cos/UpperSecondary/1989/家庭>
-  <http://purl.org/linked-data/cube#order> 10;
-  <http://schema.org/name> "Home Economics"@en, "かてい"@ja-hira, "家庭"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/SubjectArea>;
-  <https://w3id.org/jp-cos/code03> "F";
-  <https://w3id.org/jp-cos/codePrefix> "54F";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1989/1989>;
-  <https://w3id.org/jp-cos/fcode03> "UF";
-  <https://w3id.org/jp-cos/fcodePrefix> "A5A4UF";
-  <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/家庭一般>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/生活技術>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/生活一般>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/家庭情報処理>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/課題研究>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/食物>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/保育>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/家庭経営>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/住居>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/家庭看護・福祉>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/消費経済>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服製作>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服材料>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/被服管理>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/服飾デザイン>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/手芸>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/調理>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/栄養>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/食品>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/食品衛生>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/公衆衛生>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/保育原理・技術>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/小児保健>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/児童心理>, <https://w3id.org/jp-cos/UpperSecondary/1989/家庭/児童福祉>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2009>.
-<https://w3id.org/jp-cos/UpperSecondary/1989> <https://w3id.org/jp-cos/hasSubjectArea> <https://w3id.org/jp-cos/UpperSecondary/1989/家庭>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1989\/家庭
+  qb:order 10;
+  schema:name "Home Economics"@en, "かてい"@ja-hira, "家庭"@ja;
+  rdf:type cs:SubjectArea;
+  cs:code03 "F";
+  cs:codePrefix "54F";
+  cs:courseOfStudyRevision cs:UpperSecondary\/1989\/1989;
+  cs:fcode03 "UF";
+  cs:fcodePrefix "A5A4UF";
+  cs:hasSubject cs:UpperSecondary\/1989\/家庭\/家庭一般, cs:UpperSecondary\/1989\/家庭\/生活技術, cs:UpperSecondary\/1989\/家庭\/生活一般, cs:UpperSecondary\/1989\/家庭\/家庭情報処理, cs:UpperSecondary\/1989\/家庭\/課題研究, cs:UpperSecondary\/1989\/家庭\/被服, cs:UpperSecondary\/1989\/家庭\/食物, cs:UpperSecondary\/1989\/家庭\/保育, cs:UpperSecondary\/1989\/家庭\/家庭経営, cs:UpperSecondary\/1989\/家庭\/住居, cs:UpperSecondary\/1989\/家庭\/家庭看護・福祉, cs:UpperSecondary\/1989\/家庭\/消費経済, cs:UpperSecondary\/1989\/家庭\/被服製作, cs:UpperSecondary\/1989\/家庭\/被服材料, cs:UpperSecondary\/1989\/家庭\/被服管理, cs:UpperSecondary\/1989\/家庭\/服飾デザイン, cs:UpperSecondary\/1989\/家庭\/手芸, cs:UpperSecondary\/1989\/家庭\/調理, cs:UpperSecondary\/1989\/家庭\/栄養, cs:UpperSecondary\/1989\/家庭\/食品, cs:UpperSecondary\/1989\/家庭\/食品衛生, cs:UpperSecondary\/1989\/家庭\/公衆衛生, cs:UpperSecondary\/1989\/家庭\/保育原理・技術, cs:UpperSecondary\/1989\/家庭\/小児保健, cs:UpperSecondary\/1989\/家庭\/児童心理, cs:UpperSecondary\/1989\/家庭\/児童福祉;
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2009.
+cs:UpperSecondary\/1989 cs:hasSubjectArea cs:UpperSecondary\/1989\/家庭.

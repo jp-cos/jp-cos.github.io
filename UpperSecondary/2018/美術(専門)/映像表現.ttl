@@ -1,26 +1,31 @@
-<https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>
-  <http://purl.org/linked-data/cube#order> 277;
-  <http://schema.org/name> "Video Expression"@en, "えいぞうひょうげん"@ja-hira, "映像表現"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "C";
-  <https://w3id.org/jp-cos/codePrefix> "84cC";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2018/2018>;
-  <https://w3id.org/jp-cos/fcode04> "UC";
-  <https://w3id.org/jp-cos/fcodePrefix> "A8A4LcUC";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/84cC500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC502100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC502200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC502300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC503110000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC503120000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC503130000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC503140000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/84cC505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/UpperSecondary/2018> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
-<https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2018/美術(専門)/映像表現>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現
+  qb:order 277;
+  schema:name "Video Expression"@en, "えいぞうひょうげん"@ja-hira, "映像表現"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "C";
+  cs:codePrefix "84cC";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;
+  cs:fcode04 "UC";
+  cs:fcodePrefix "A8A4LcUC";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:84cC500000000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC502000000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC502100000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC502200000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC502300000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC503000000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC503100000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC503110000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC503120000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC503130000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC503140000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC505000000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:84cC505100000000 cs:subject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:UpperSecondary\/2018 cs:hasSubject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.
+cs:UpperSecondary\/2018\/美術\(専門\) cs:hasSubject cs:UpperSecondary\/2018\/美術\(専門\)\/映像表現.

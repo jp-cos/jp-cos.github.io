@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野>
-  <http://purl.org/linked-data/cube#order> 7;
-  <http://schema.org/name> "Health"@en, "ほけんぶんや"@ja-hira, "保健分野"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/1998/1998>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/LowerSecondary-2008>.
-<https://w3id.org/jp-cos/LowerSecondary/1998> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野>.
-<https://w3id.org/jp-cos/LowerSecondary/1998/保健体育> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/LowerSecondary/1998/保健体育/保健分野>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:LowerSecondary\/1998\/保健体育\/保健分野
+  qb:order 7;
+  schema:name "Health"@en, "ほけんぶんや"@ja-hira, "保健分野"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:LowerSecondary\/1998\/1998;
+  cs:school cs:school\/LowerSecondary;
+  cs:sourceOfEnglishName cs:source\/LowerSecondary-2008.
+cs:LowerSecondary\/1998\/保健体育 cs:hasSubject cs:LowerSecondary\/1998\/保健体育\/保健分野.
+cs:LowerSecondary\/1998 cs:hasSubject cs:LowerSecondary\/1998\/保健体育\/保健分野.

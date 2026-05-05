@@ -1,8 +1,20 @@
-<https://w3id.org/jp-cos/subCategory>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Sub Category"@en, "項目"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subCategory>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:subCategory
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Sub Category"@en, "項目"@ja;
+  rdfs:range rdf:Literal.
+cs:ItemShape sh:property [
+    skos:example "内容";
+    sh:datatype xsd:string;
+    sh:description "It corresponds to the 7th digit of the course of study code."@en, "学習指導要領コードの7桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:name "Sub Category"@en, "項目"@ja;
+    sh:order 12;
+    sh:path cs:subCategory
   ].

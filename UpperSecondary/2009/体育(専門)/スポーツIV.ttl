@@ -1,21 +1,26 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>
-  <http://purl.org/linked-data/cube#order> 259;
-  <http://schema.org/name> "Sport IV"@en, "すぽーつV"@ja-hira, "スポーツIV"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "5";
-  <https://w3id.org/jp-cos/codePrefix> "74a5";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A5";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LaA5";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/74a5500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5505100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/74a5505200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/体育(専門)/スポーツIV>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV
+  qb:order 259;
+  schema:name "Sport IV"@en, "すぽーつV"@ja-hira, "スポーツIV"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "5";
+  cs:codePrefix "74a5";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A5";
+  cs:fcodePrefix "A7A4LaA5";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:74a5500000000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5502000000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5503000000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5503100000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5503200000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5505000000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5505100000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:74a5505200000000 cs:subject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.
+cs:UpperSecondary\/2009\/体育\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/体育\(専門\)\/スポーツIV.

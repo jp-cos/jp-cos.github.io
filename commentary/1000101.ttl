@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000101>
-  <http://purl.org/dc/terms/identifier> "1000101";
-  <http://purl.org/linked-data/cube#order> 1000101;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260253220000000>, <https://w3id.org/jp-cos/8260255400000000>;
-  <http://schema.org/description> "　ここでの指導に当たっては，(ア) については，観察の計画を立て，継続的に調べるようにする。魚の卵の内部の変化を観察する際に，実体顕微鏡などの観察器具を適切に操作できるように指導する。また，(イ) については，資料を基に調べる計画を立てるようにする。母体内での成長については，直接観察することが難しく，連続的に成長していくことを捉えにくいので，魚の卵の成長と関係付けながら捉えるようにする。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=76>.
-<https://w3id.org/jp-cos/commentary/1000088> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000101>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000101
+  dct:identifier "1000101";
+  qb:order 1000101;
+  schema:about cs:8260253220000000, cs:8260255400000000;
+  schema:description "　ここでの指導に当たっては，(ア) については，観察の計画を立て，継続的に調べるようにする。魚の卵の内部の変化を観察する際に，実体顕微鏡などの観察器具を適切に操作できるように指導する。また，(イ) については，資料を基に調べる計画を立てるようにする。母体内での成長については，直接観察することが難しく，連続的に成長していくことを捉えにくいので，魚の卵の成長と関係付けながら捉えるようにする。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=76>.
+cs:commentary\/1000088 schema:hasPart cs:commentary\/1000101.

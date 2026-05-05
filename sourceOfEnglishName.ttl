@@ -1,11 +1,28 @@
-<https://w3id.org/jp-cos/sourceOfEnglishName>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Subject>, <https://w3id.org/jp-cos/SubjectArea>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Source for the English name"@en, "英語表記出典"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal>.
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sourceOfEnglishName>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:sourceOfEnglishName
+  rdf:type rdf:Property;
+  rdfs:domain cs:Subject, cs:SubjectArea;
+  rdfs:label "Source for the English name"@en, "英語表記出典"@ja;
+  rdfs:range rdf:Literal.
+cs:SubjectAreaShape sh:property [
+    skos:example cs:source\/Elementary-2008;
+    sh:class cs:SourceOfEnglishName;
+    sh:description "To provide the source information that serves as the basis for the English notation."@en, "英語表記の根拠となる出典情報を表す。"@ja;
+    sh:maxCount 1;
+    sh:name "Source for the English name"@en, "英語表記出典"@ja;
+    sh:order 6;
+    sh:path cs:sourceOfEnglishName
   ].
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/sourceOfEnglishName>
+cs:SubjectShape sh:property [
+    skos:example cs:source\/Elementary-2008;
+    sh:class cs:SourceOfEnglishName;
+    sh:description "To provide the source information that serves as the basis for the English notation."@en, "英語表記の根拠となる出典情報を表す。"@ja;
+    sh:maxCount 1;
+    sh:name "Source for the English name"@en, "英語表記出典"@ja;
+    sh:order 6;
+    sh:path cs:sourceOfEnglishName
   ].

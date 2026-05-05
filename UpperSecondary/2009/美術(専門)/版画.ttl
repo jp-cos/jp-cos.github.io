@@ -1,23 +1,28 @@
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>
-  <http://purl.org/linked-data/cube#order> 276;
-  <http://schema.org/name> "Print"@en, "はんが"@ja-hira, "版画"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/code04> "6";
-  <https://w3id.org/jp-cos/codePrefix> "74c6";
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode04> "A6";
-  <https://w3id.org/jp-cos/fcodePrefix> "A7A4LcA6";
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/UpperSecondary-2018>.
-<https://w3id.org/jp-cos/74c6500000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6502000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503100000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503200000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503300000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503400000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503500000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6503600000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/74c6505000000000> <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/UpperSecondary/2009> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
-<https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/2009/美術(専門)/版画>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/2009\/美術\(専門\)\/版画
+  qb:order 276;
+  schema:name "Print"@en, "はんが"@ja-hira, "版画"@ja;
+  rdf:type cs:Subject;
+  cs:code04 "6";
+  cs:codePrefix "74c6";
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode04 "A6";
+  cs:fcodePrefix "A7A4LcA6";
+  cs:school cs:school\/UpperSecondary;
+  cs:sourceOfEnglishName cs:source\/UpperSecondary-2018.
+cs:74c6500000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6502000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503100000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503200000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503300000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503400000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503500000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6503600000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:74c6505000000000 cs:subject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:UpperSecondary\/2009 cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.
+cs:UpperSecondary\/2009\/美術\(専門\) cs:hasSubject cs:UpperSecondary\/2009\/美術\(専門\)\/版画.

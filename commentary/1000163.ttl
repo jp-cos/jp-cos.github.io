@@ -1,17 +1,29 @@
-<https://w3id.org/jp-cos/commentary/1000163>
-  <http://purl.org/dc/terms/identifier> "1000163";
-  <http://purl.org/linked-data/cube#order> 1000163;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263110000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260243110000000>, <https://w3id.org/jp-cos/8361213211000000>, <https://w3id.org/jp-cos/8361223412000000>;
-  <http://schema.org/description> "　本内容は，第４学年「Ａ (1) 空気と水の性質」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の存在」，「粒子の結合」に関わるものであり，中学校第１分野「(2) ア(ア) 物質のすがた」，「(4) ア(イ) 化学変化」の学習につながるものである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=82>.
-<https://w3id.org/jp-cos/8260263110000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000163>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000163
+  dct:identifier "1000163";
+  qb:order 1000163;
+  schema:about cs:8260263110000000;
+  schema:citation cs:8260243110000000, cs:8361213211000000, cs:8361223412000000;
+  schema:description "　本内容は，第４学年「Ａ (1) 空気と水の性質」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の存在」，「粒子の結合」に関わるものであり，中学校第１分野「(2) ア(ア) 物質のすがた」，「(4) ア(イ) 化学変化」の学習につながるものである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=82>.
+cs:8260263110000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361213211000000
   ], [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000163>
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361223412000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000163>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243110000000
   ].
-<https://w3id.org/jp-cos/commentary/1000158> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000163>.
+cs:commentary\/1000158 schema:hasPart cs:commentary\/1000163.

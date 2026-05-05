@@ -1,11 +1,28 @@
-<https://w3id.org/jp-cos/subjectArea>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Subject Area"@en, "教科等"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/SubjectArea>.
-<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subjectArea>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:subjectArea
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Subject Area"@en, "教科等"@ja;
+  rdfs:range cs:SubjectArea.
+cs:CosCommentaryShape sh:property [
+    skos:example cs:Elementary\/2017\/社会;
+    sh:class cs:SubjectArea;
+    sh:minCount 1;
+    sh:name "Subject Area"@en, "教科等"@ja;
+    sh:order 3;
+    sh:path cs:subjectArea
   ].
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/subjectArea>
+cs:ItemShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/外国語;
+    sh:class cs:SubjectArea;
+    sh:description "It corresponds to the 3rd digit of the course of study code."@en, "元データの「教科等」列の値。学習指導要領コードの3桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Subject Area"@en, "教科等"@ja;
+    sh:order 7;
+    sh:path cs:subjectArea
   ].

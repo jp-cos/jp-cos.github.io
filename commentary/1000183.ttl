@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000183>
-  <http://purl.org/dc/terms/identifier> "1000183";
-  <http://purl.org/linked-data/cube#order> 1000183;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263120000000>;
-  <http://schema.org/description> "　日常生活との関連として，身の回りで使用されている酸性やアルカリ性の水溶液を調べるといった活動が考えられる。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>.
-<https://w3id.org/jp-cos/commentary/1000169> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000183>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000183
+  dct:identifier "1000183";
+  qb:order 1000183;
+  schema:about cs:8260263120000000;
+  schema:description "　日常生活との関連として，身の回りで使用されている酸性やアルカリ性の水溶液を調べるといった活動が考えられる。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>.
+cs:commentary\/1000169 schema:hasPart cs:commentary\/1000183.

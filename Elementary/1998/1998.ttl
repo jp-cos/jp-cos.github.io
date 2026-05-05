@@ -1,33 +1,40 @@
-<https://w3id.org/jp-cos/Elementary/1998/1998>
-  <http://dl.nier.go.jp/library/vocab/callNumber> "375.92||1||1998.1c";
-  <http://dl.nier.go.jp/library/vocab/itemID> "071221855";
-  <http://dl.nier.go.jp/library/vocab/recordID> "BB00122343";
-  <http://schema.org/citation> "\"Notification No. 175 in 1998 of the Ministry of Education, Science and Culture\" (Official Gazette, 1998-12-14, Extra Edition No. 261, pp.10-45)"@en, "『平成10年 文部省告示第百七十五号』（官報. 平成10年12月14日, 号外第261号, pp.10-45）"@ja;
-  <http://schema.org/datePublished> "1998-12-14"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/isbn> "4171533201";
-  <http://schema.org/name> "Elementary School Curriculum Guideline 1998-12 Notification"@en, "小学校学習指導要領 1998年12月 告示"@ja;
-  <http://schema.org/startDate> "2002-04-01"^^<http://www.w3.org/2001/XMLSchema#date>;
-  <http://schema.org/url> <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CourseOfStudyRevision>;
-  <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://id.ndl.go.jp/jpno/99078687>, <https://ci.nii.ac.jp/ncid/BA59906840>;
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H10toH11>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>.
-<https://w3id.org/jp-cos/Elementary/1998> <http://purl.org/dc/terms/hasVersion> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/体育> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/各教科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/各教科(共通)> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/図画工作> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/国語> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/家庭> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/特別活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/特別活動/クラブ活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/特別活動/児童会活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/特別活動/学校行事> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/特別活動/学級活動> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/理科> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/生活> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/社会> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/算数> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/総則> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/道徳> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
-<https://w3id.org/jp-cos/Elementary/1998/音楽> <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix nier: <http://dl.nier.go.jp/library/vocab/>.
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+cs:Elementary\/1998\/1998
+  nier:callNumber "375.92||1||1998.1c";
+  nier:itemID "071221855";
+  nier:recordID "BB00122343";
+  schema:citation "\"Notification No. 175 in 1998 of the Ministry of Education, Science and Culture\" (Official Gazette, 1998-12-14, Extra Edition No. 261, pp.10-45)"@en, "『平成10年 文部省告示第百七十五号』（官報. 平成10年12月14日, 号外第261号, pp.10-45）"@ja;
+  schema:datePublished "1998-12-14"^^xsd:date;
+  schema:isbn "4171533201";
+  schema:name "Elementary School Curriculum Guideline 1998-12 Notification"@en, "小学校学習指導要領 1998年12月 告示"@ja;
+  schema:startDate "2002-04-01"^^xsd:date;
+  schema:url <http://www.mext.go.jp/a_menu/shotou/cs/1319941.htm>, <https://erid.nier.go.jp/cer/database/YOURYO/AG00000133>;
+  rdf:type cs:CourseOfStudyRevision;
+  rdfs:seeAlso <http://id.ndl.go.jp/jpno/99078687>, <https://ci.nii.ac.jp/ncid/BA59906840>;
+  cs:issuedPeriod cs:period\/H10toH11;
+  cs:school cs:school\/Elementary.
+cs:Elementary\/1998\/特別活動\/学級活動 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/総則 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/国語 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/特別活動\/児童会活動 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/特別活動\/クラブ活動 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/社会 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/特別活動\/学校行事 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/算数 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/理科 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/生活 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/音楽 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/図画工作 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/家庭 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/体育 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/各教科 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/道徳 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/特別活動 cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998\/各教科\(共通\) cs:courseOfStudyRevision cs:Elementary\/1998\/1998.
+cs:Elementary\/1998 dct:hasVersion cs:Elementary\/1998\/1998.

@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000301>
-  <http://purl.org/dc/terms/identifier> "1000301";
-  <http://purl.org/linked-data/cube#order> 1000301;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263250000000>, <https://w3id.org/jp-cos/8260265600000000>;
-  <http://schema.org/description> "　なお，夜間の観察の際には，安全を第一に考え，事故防止に配慮するように指導する。また，昼間の月を観察し，太陽の位置を確認する際には，太陽を直接見ないようにするなど，安全に配慮するように指導する。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=98>.
-<https://w3id.org/jp-cos/commentary/1000289> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000301>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000301
+  dct:identifier "1000301";
+  qb:order 1000301;
+  schema:about cs:8260263250000000, cs:8260265600000000;
+  schema:description "　なお，夜間の観察の際には，安全を第一に考え，事故防止に配慮するように指導する。また，昼間の月を観察し，太陽の位置を確認する際には，太陽を直接見ないようにするなど，安全に配慮するように指導する。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=98>.
+cs:commentary\/1000289 schema:hasPart cs:commentary\/1000301.

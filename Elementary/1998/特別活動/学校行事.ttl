@@ -1,9 +1,14 @@
-<https://w3id.org/jp-cos/Elementary/1998/特別活動/学校行事>
-  <http://purl.org/linked-data/cube#order> 4;
-  <http://schema.org/name> "School Events"@en, "がっこうぎょうじ"@ja-hira, "学校行事"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/1998/1998>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sourceOfEnglishName> <https://w3id.org/jp-cos/source/Elementary-2008>.
-<https://w3id.org/jp-cos/Elementary/1998> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Elementary/1998/特別活動/学校行事>.
-<https://w3id.org/jp-cos/Elementary/1998/特別活動> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/Elementary/1998/特別活動/学校行事>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:Elementary\/1998\/特別活動\/学校行事
+  qb:order 4;
+  schema:name "School Events"@en, "がっこうぎょうじ"@ja-hira, "学校行事"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:Elementary\/1998\/1998;
+  cs:school cs:school\/Elementary;
+  cs:sourceOfEnglishName cs:source\/Elementary-2008.
+cs:Elementary\/1998\/特別活動 cs:hasSubject cs:Elementary\/1998\/特別活動\/学校行事.
+cs:Elementary\/1998 cs:hasSubject cs:Elementary\/1998\/特別活動\/学校行事.

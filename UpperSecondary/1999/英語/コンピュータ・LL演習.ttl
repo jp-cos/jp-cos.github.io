@@ -1,8 +1,13 @@
-<https://w3id.org/jp-cos/UpperSecondary/1999/英語/コンピュータ・LL演習>
-  <http://purl.org/linked-data/cube#order> 267;
-  <http://schema.org/name> "Computer and Language Lab Practice"@en, "こんぴゅーた・えるえるえんしゅう"@ja-hira, "コンピュータ・LL演習"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Subject>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/1999/1999>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>.
-<https://w3id.org/jp-cos/UpperSecondary/1999> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/英語/コンピュータ・LL演習>.
-<https://w3id.org/jp-cos/UpperSecondary/1999/英語> <https://w3id.org/jp-cos/hasSubject> <https://w3id.org/jp-cos/UpperSecondary/1999/英語/コンピュータ・LL演習>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondary\/1999\/英語\/コンピュータ・LL演習
+  qb:order 267;
+  schema:name "Computer and Language Lab Practice"@en, "こんぴゅーた・えるえるえんしゅう"@ja-hira, "コンピュータ・LL演習"@ja;
+  rdf:type cs:Subject;
+  cs:courseOfStudyRevision cs:UpperSecondary\/1999\/1999;
+  cs:school cs:school\/UpperSecondary.
+cs:UpperSecondary\/1999 cs:hasSubject cs:UpperSecondary\/1999\/英語\/コンピュータ・LL演習.
+cs:UpperSecondary\/1999\/英語 cs:hasSubject cs:UpperSecondary\/1999\/英語\/コンピュータ・LL演習.

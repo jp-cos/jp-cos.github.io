@@ -1,18 +1,35 @@
-<https://w3id.org/jp-cos/commentary/1000246>
-  <http://purl.org/dc/terms/identifier> "1000246";
-  <http://purl.org/linked-data/cube#order> 1000246;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8260263220000000>;
-  <http://schema.org/citation> <https://w3id.org/jp-cos/8260233210000000>, <https://w3id.org/jp-cos/8362223312000000>;
-  <http://schema.org/description> "　本内容は，第３学年「Ｂ (1) 身の回りの生物」の学習を踏まえて，「生命」についての基本的な概念等を柱とした内容のうちの「生物の構造と機能」に関わるものであり，中学校第２分野「(3) ア(イ) 植物の体のつくりと働き」の学習につながるものである。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=91>.
-<https://w3id.org/jp-cos/8260263220000000> <https://w3id.org/jp-cos/advancedItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000246>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:commentary\/1000246
+  dct:identifier "1000246";
+  qb:order 1000246;
+  schema:about cs:8260263220000000;
+  schema:citation cs:8260233210000000, cs:8362223312000000;
+  schema:description "　本内容は，第３学年「Ｂ (1) 身の回りの生物」の学習を踏まえて，「生命」についての基本的な概念等を柱とした内容のうちの「生物の構造と機能」に関わるものであり，中学校第２分野「(3) ア(イ) 植物の体のつくりと働き」の学習につながるものである。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=91>.
+cs:8260263220000000 cs:advancedItem [
+    dct:provenance cs:commentary\/1000246;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362223312000000
   ];
-  <https://w3id.org/jp-cos/basicItem> [
-    <http://purl.org/dc/terms/provenance> <https://w3id.org/jp-cos/commentary/1000246>
+  cs:basicItem [
+    dct:provenance cs:commentary\/1000246;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260233210000000
   ].
-<https://w3id.org/jp-cos/StructuredItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/jp-cos/commentary/1000246>
+cs:commentary\/1000240 schema:hasPart cs:commentary\/1000246.
+cs:StructuredItemShape sh:property [
+    skos:example cs:commentary\/1000246;
+    sh:class cs:CommentaryItem;
+    sh:minCount 1;
+    sh:name "Source"@en, "出典"@ja;
+    sh:order 2;
+    sh:path dct:provenance
   ].
-<https://w3id.org/jp-cos/commentary/1000240> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000246>.

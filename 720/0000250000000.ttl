@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/7200000250000000>
-  <http://purl.org/dc/terms/identifier> "7200000250000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/72V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 11
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7200000250000000
+  dct:identifier "7200000250000000";
+  dct:source cs:72V11 cs:72V11;
+  qb:order [
+    dct:source cs:72V11 cs:72V11;
+    rdf:type cs:Number;
+    rdf:value 11
   ];
-  <http://schema.org/description> "５　学校において２以上の学年の児童で編制する学級について特に必要がある場合には，各教科，道徳及び外国語活動の目標の達成に支障のない範囲内で，各教科，道徳及び外国語活動の目標及び内容について学年別の順序によらないことができる。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://schema.org/hasPart> <https://w3id.org/jp-cos/7200000250000001>;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/Elementary/2008>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/Elementary/2008/2008>;
-  <https://w3id.org/jp-cos/fcode> "A7A2A0A0A0A0A0A2A5A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/Elementary>;
-  <https://w3id.org/jp-cos/sectionNumber> "5";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2 / 5";
-  <https://w3id.org/jp-cos/sectionText> "学校において2以上の学年の児童で編制する学級について特に必要がある場合には，各教科，道徳及び外国語活動の目標の達成に支障のない範囲内で，各教科，道徳及び外国語活動の目標及び内容について学年別の順序によらないことができる。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/Elementary/2008/総則>.
-<https://w3id.org/jp-cos/7200000200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7200000250000000>.
+  schema:description "５　学校において２以上の学年の児童で編制する学級について特に必要がある場合には，各教科，道徳及び外国語活動の目標の達成に支障のない範囲内で，各教科，道徳及び外国語活動の目標及び内容について学年別の順序によらないことができる。";
+  schema:edition "一部改正なし";
+  schema:hasPart cs:7200000250000001;
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:Elementary\/2008;
+  cs:courseOfStudyRevision cs:Elementary\/2008\/2008;
+  cs:fcode "A7A2A0A0A0A0A0A2A5A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/Elementary;
+  cs:sectionNumber "5";
+  cs:sectionNumberHierarchy "第1章 / 第2 / 5";
+  cs:sectionText "学校において2以上の学年の児童で編制する学級について特に必要がある場合には，各教科，道徳及び外国語活動の目標の達成に支障のない範囲内で，各教科，道徳及び外国語活動の目標及び内容について学年別の順序によらないことができる。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:Elementary\/2008\/総則.
+cs:7200000200000000 schema:hasPart cs:7200000250000000.

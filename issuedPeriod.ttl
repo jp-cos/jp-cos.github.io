@@ -1,14 +1,40 @@
-<https://w3id.org/jp-cos/issuedPeriod>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/CourseOfStudy>, <https://w3id.org/jp-cos/CourseOfStudyRevision>, <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Issued Period"@en, "告示時期"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/IssuedPeriod>.
-<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:issuedPeriod
+  rdf:type rdf:Property;
+  rdfs:domain cs:CourseOfStudy, cs:CourseOfStudyRevision, cs:Item;
+  rdfs:label "Issued Period"@en, "告示時期"@ja;
+  rdfs:range cs:IssuedPeriod.
+cs:CourseOfStudyRevisionShape sh:property [
+    skos:example cs:period\/H29toH31;
+    sh:class cs:Period;
+    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Issued Period"@en, "告示時期"@ja;
+    sh:order 1;
+    sh:path cs:issuedPeriod
   ].
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
+cs:CourseOfStudyShape sh:property [
+    skos:example cs:period\/H29toH31;
+    sh:class cs:Period;
+    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Issued Period"@en, "告示時期"@ja;
+    sh:order 1;
+    sh:path cs:issuedPeriod
   ].
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/issuedPeriod>
+cs:ItemShape sh:property [
+    skos:example cs:period\/H29toH31;
+    sh:class cs:Period;
+    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Issued Period"@en, "告示時期"@ja;
+    sh:order 19;
+    sh:path cs:issuedPeriod
   ].

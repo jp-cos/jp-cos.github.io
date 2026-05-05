@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/8320300230000000>
-  <http://purl.org/dc/terms/identifier> "8320300230000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/83V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 598
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:8320300230000000
+  dct:identifier "8320300230000000";
+  dct:source cs:83V11 cs:83V11;
+  qb:order [
+    dct:source cs:83V11 cs:83V11;
+    rdf:type cs:Number;
+    rdf:value 598
   ];
-  <http://schema.org/description> "(3) 調査や諸資料から，社会的事象に関する様々な情報を効果的に収集し，読み取り，まとめる技能を身に付ける学習活動を重視するとともに，作業的で具体的な体験を伴う学習の充実を図るようにすること。その際，地図や年表を読んだり作成したり，現代社会の諸課題を捉え，多面的・多角的に考察，構想するに当たっては，関連する新聞，読み物，統計その他の資料に平素から親しみ適切に活用したり，観察や調査などの過程と結果を整理し報告書にまとめ，発表したりするなどの活動を取り入れるようにすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "指導計画の作成と内容の取扱い（大項目）";
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=183>;
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/LowerSecondary/2017>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/LowerSecondary/2017/2017>;
-  <https://w3id.org/jp-cos/fcode> "A8A3A2A0A3A0A0A2A3A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H29toH31>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/LowerSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "(3)";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第2節 / 第3 / 2 / (3)";
-  <https://w3id.org/jp-cos/sectionText> "調査や諸資料から，社会的事象に関する様々な情報を効果的に収集し，読み取り，まとめる技能を身に付ける学習活動を重視するとともに，作業的で具体的な体験を伴う学習の充実を図るようにすること。その際，地図や年表を読んだり作成したり，現代社会の諸課題を捉え，多面的・多角的に考察，構想するに当たっては，関連する新聞，読み物，統計その他の資料に平素から親しみ適切に活用したり，観察や調査などの過程と結果を整理し報告書にまとめ，発表したりするなどの活動を取り入れるようにすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/LowerSecondary/2017/社会>.
-<https://w3id.org/jp-cos/8320300200000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/8320300230000000>.
+  schema:description "(3) 調査や諸資料から，社会的事象に関する様々な情報を効果的に収集し，読み取り，まとめる技能を身に付ける学習活動を重視するとともに，作業的で具体的な体験を伴う学習の充実を図るようにすること。その際，地図や年表を読んだり作成したり，現代社会の諸課題を捉え，多面的・多角的に考察，構想するに当たっては，関連する新聞，読み物，統計その他の資料に平素から親しみ適切に活用したり，観察や調査などの過程と結果を整理し報告書にまとめ，発表したりするなどの活動を取り入れるようにすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "指導計画の作成と内容の取扱い（大項目）";
+  cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=183>;
+  cs:courseOfStudy cs:LowerSecondary\/2017;
+  cs:courseOfStudyRevision cs:LowerSecondary\/2017\/2017;
+  cs:fcode "A8A3A2A0A3A0A0A2A3A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H29toH31;
+  cs:school cs:school\/LowerSecondary;
+  cs:sectionNumber "(3)";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第2節 / 第3 / 2 / (3)";
+  cs:sectionText "調査や諸資料から，社会的事象に関する様々な情報を効果的に収集し，読み取り，まとめる技能を身に付ける学習活動を重視するとともに，作業的で具体的な体験を伴う学習の充実を図るようにすること。その際，地図や年表を読んだり作成したり，現代社会の諸課題を捉え，多面的・多角的に考察，構想するに当たっては，関連する新聞，読み物，統計その他の資料に平素から親しみ適切に活用したり，観察や調査などの過程と結果を整理し報告書にまとめ，発表したりするなどの活動を取り入れるようにすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:LowerSecondary\/2017\/社会.
+cs:8320300200000000 schema:hasPart cs:8320300230000000.

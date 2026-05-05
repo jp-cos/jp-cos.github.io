@@ -1,23 +1,29 @@
-<https://w3id.org/jp-cos/75m0000117000000>
-  <http://purl.org/dc/terms/identifier> "75m0000117000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/75V11>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 80
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:75m0000117000000
+  dct:identifier "75m0000117000000";
+  dct:source cs:75V11 cs:75V11;
+  qb:order [
+    dct:source cs:75V11 cs:75V11;
+    rdf:type cs:Number;
+    rdf:value 80
   ];
-  <http://schema.org/description> "７   幼児の行う活動は， 個人， グループ， 学級全体などで多様に展開されるものであるが， いずれの場合にも， 学校全体の教師による協力体制をつくりながら， 一人一人の幼児が興味や欲求を十分に満足させるよう適切な援助を行うようにすること。";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/KindergartenDeptSNES/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A5LmA0A0A0A0A1A1A7A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/KindergartenDeptSNES>;
-  <https://w3id.org/jp-cos/sectionNumber> "7";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第3章 / 幼稚部における教育は， 幼児が自ら意欲をも... / 第1 / 7";
-  <https://w3id.org/jp-cos/sectionText> "幼児の行う活動は， 個人， グループ， 学級全体などで多様に展開されるものであるが， いずれの場合にも， 学校全体の教師による協力体制をつくりながら， 一人一人の幼児が興味や欲求を十分に満足させるよう適切な援助を行うようにすること。";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/KindergartenDeptSNES-NC/2009/指導計画の作成に当たっての留意事項>.
-<https://w3id.org/jp-cos/75m0000110000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/75m0000117000000>.
+  schema:description "７   幼児の行う活動は， 個人， グループ， 学級全体などで多様に展開されるものであるが， いずれの場合にも， 学校全体の教師による協力体制をつくりながら， 一人一人の幼児が興味や欲求を十分に満足させるよう適切な援助を行うようにすること。";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
+  cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;
+  cs:fcode "A7A5LmA0A0A0A0A1A1A7A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/KindergartenDeptSNES;
+  cs:sectionNumber "7";
+  cs:sectionNumberHierarchy "第1章 / 第3章 / 幼稚部における教育は， 幼児が自ら意欲をも... / 第1 / 7";
+  cs:sectionText "幼児の行う活動は， 個人， グループ， 学級全体などで多様に展開されるものであるが， いずれの場合にも， 学校全体の教師による協力体制をつくりながら， 一人一人の幼児が興味や欲求を十分に満足させるよう適切な援助を行うようにすること。";
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:KindergartenDeptSNES-NC\/2009\/指導計画の作成に当たっての留意事項.
+cs:75m0000110000000 schema:hasPart cs:75m0000117000000.

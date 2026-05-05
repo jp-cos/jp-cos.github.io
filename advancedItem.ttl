@@ -1,8 +1,17 @@
-<https://w3id.org/jp-cos/advancedItem>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/Item>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Code of Course of Study Item"@en, "応用の細目"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Item>.
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/advancedItem>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:advancedItem
+  rdf:type rdf:Property;
+  rdfs:domain cs:Item;
+  rdfs:label "Advanced Code of Course of Study Item"@en, "応用の細目"@ja;
+  rdfs:range cs:Item.
+cs:ItemShape sh:property [
+    sh:description "Advanced items of the Course of Study. Created from the Commentary on the Course of Study and related sources. A  Advanced item of the Course of Study consists of a blank node, which has two properties <code>rdf:value</code> and <code>dct:provenance</code>."@en, "当該学習指導要領細目の応用となる細目。学習指導要領解説などから作成する。<code>rdf:value</code>, <code>dct:provenance</code>の2つの項番用プロパティを持つ。"@ja;
+    sh:name "Advanced Course of Study Item"@en, "応用の細目"@ja;
+    sh:node cs:StructuredItemShape;
+    sh:nodeKind sh:BlankNode;
+    sh:order 17;
+    sh:path cs:advancedItem
   ].

@@ -1,24 +1,30 @@
-<https://w3id.org/jp-cos/74QB503540000000>
-  <http://purl.org/dc/terms/identifier> "74QB503540000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 3337
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:74QB503540000000
+  dct:identifier "74QB503540000000";
+  dct:source cs:74V10 cs:74V10;
+  qb:order [
+    dct:source cs:74V10 cs:74V10;
+    rdf:type cs:Number;
+    rdf:value 3337
   ];
-  <http://schema.org/description> "エ　音・振動・臭気";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "各科目";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A4UQUBA5A0A3A5A4A0A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumber> "エ";
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2章 / 第3章 / 第2節 / 第2款 / 第11 / 2 / (5) / エ";
-  <https://w3id.org/jp-cos/sectionText> "音・振動・臭気";
-  <https://w3id.org/jp-cos/subCategory> "内容";
-  <https://w3id.org/jp-cos/subject> <https://w3id.org/jp-cos/UpperSecondary/2009/工業/環境工学基礎>;
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/工業>.
-<https://w3id.org/jp-cos/74QB503500000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/74QB503540000000>.
+  schema:description "エ　音・振動・臭気";
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "各科目";
+  cs:courseOfStudy cs:UpperSecondary\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode "A7A4UQUBA5A0A3A5A4A0A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumber "エ";
+  cs:sectionNumberHierarchy "第1章 / 第2章 / 第3章 / 第2節 / 第2款 / 第11 / 2 / (5) / エ";
+  cs:sectionText "音・振動・臭気";
+  cs:subCategory "内容";
+  cs:subject cs:UpperSecondary\/2009\/工業\/環境工学基礎;
+  cs:subjectArea cs:UpperSecondary\/2009\/工業.
+cs:74QB503500000000 schema:hasPart cs:74QB503540000000.

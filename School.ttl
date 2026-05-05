@@ -1,39 +1,94 @@
-<https://w3id.org/jp-cos/School>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2000/01/rdf-schema#comment> "It represents school class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code>"@en, "学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code>"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Type of School"@en, "学校種別"@ja.
-<https://w3id.org/jp-cos/CosCommentaryShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:School
+  rdf:type rdfs:Class;
+  rdfs:comment "It represents school class.URIs for the resources are represented as the following forms:<br><code>https://w3id.org/jp-cos/school/school/<var>type of schools</var></code>"@en, "学校を表すクラス。このリソースは次のようなURIにより表現されます。<br><code>https://w3id.org/jp-cos/school/school/<var>学校種別</var></code>"@ja;
+  rdfs:label "Type of School"@en, "学校種別"@ja.
+cs:school\/Kindergarten rdf:type cs:School.
+cs:school\/UpperSecondary rdf:type cs:School.
+cs:school\/KindergartenDeptSNES rdf:type cs:School.
+cs:school\/LowerSecondaryDeptSNES rdf:type cs:School.
+cs:school\/UpperSecondaryDeptSNES rdf:type cs:School.
+cs:school\/SNES rdf:type cs:School.
+cs:CosCommentaryShape sh:property [
+    skos:example cs:Elementary;
+    sh:class cs:School;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 2;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/CourseOfStudyRevisionShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:CourseOfStudyRevisionShape sh:property [
+    skos:example cs:school\/Elementary;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 12;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:CourseOfStudyShape sh:property [
+    skos:example cs:school\/Elementary;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 5;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/DatasetShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:DatasetShape sh:property [
+    skos:example cs:school\/Elementary;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 4;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/ItemShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:ItemShape sh:property [
+    skos:example <cs:school/LowerSecondary>;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 5;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/SchoolShape> <http://www.w3.org/ns/shacl#targetClass> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/StageShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:SchoolShape sh:targetClass cs:School.
+cs:StageShape sh:property [
+    skos:example cs:school\/ElementaryDeptSNES;
+    sh:class cs:School;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 6;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:SubjectAreaShape sh:property [
+    skos:example cs:school\/LowerSecondary;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 4;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/SubjectShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#class> <https://w3id.org/jp-cos/School>
+cs:SubjectShape sh:property [
+    skos:example cs:school\/LowerSecondary;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 4;
+    sh:path cs:school
   ].
-<https://w3id.org/jp-cos/school> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/Elementary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/ElementaryDeptSNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/Kindergarten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/KindergartenDeptSNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/LowerSecondary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/LowerSecondaryDeptSNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/SNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/UpperSecondary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.
-<https://w3id.org/jp-cos/school/UpperSecondaryDeptSNES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/School>.

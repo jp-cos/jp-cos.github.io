@@ -1,4 +1,8 @@
-<https://w3id.org/jp-cos/UpperSecondaryDeptSNES/2019/クリーニング/クリーニング機器・装置>
-  <http://purl.org/dc/terms/relation> <https://w3id.org/jp-cos/UpperSecondaryDeptSNES-Hearing/2019/クリーニング/クリーニング機器・装置>;
-  <http://schema.org/name> "Laundry Equipment And Devices"@en, "くりーにんぐきき・そうち"@ja-hira, "クリーニング機器・装置"@ja;
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/RelatedSubject>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:UpperSecondaryDeptSNES\/2019\/クリーニング\/クリーニング機器・装置
+  dct:relation cs:UpperSecondaryDeptSNES-Hearing\/2019\/クリーニング\/クリーニング機器・装置;
+  schema:name "Laundry Equipment And Devices"@en, "くりーにんぐきき・そうち"@ja-hira, "クリーニング機器・装置"@ja;
+  rdf:type cs:RelatedSubject.

@@ -1,8 +1,14 @@
-<https://w3id.org/jp-cos/commentary/1000769>
-  <http://purl.org/dc/terms/identifier> "1000769";
-  <http://purl.org/linked-data/cube#order> 1000769;
-  <http://schema.org/about> <https://w3id.org/jp-cos/8220263218000000>, <https://w3id.org/jp-cos/822026321C000000>, <https://w3id.org/jp-cos/8220263221000000>;
-  <http://schema.org/description> "　ここでは，歌舞伎や浮世絵，国学や<ruby>蘭学<rt>らんがく</rt></ruby>の二つの事象を取り上げる。";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/CommentaryItem>;
-  <https://w3id.org/jp-cos/commentaryPage> <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=123>.
-<https://w3id.org/jp-cos/commentary/1000612> <http://schema.org/hasPart> <https://w3id.org/jp-cos/commentary/1000769>.
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+cs:commentary\/1000769
+  dct:identifier "1000769";
+  qb:order 1000769;
+  schema:about cs:8220263218000000, cs:822026321C000000, cs:8220263221000000;
+  schema:description "　ここでは，歌舞伎や浮世絵，国学や<ruby>蘭学<rt>らんがく</rt></ruby>の二つの事象を取り上げる。";
+  rdf:type cs:CommentaryItem;
+  cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=123>.
+cs:commentary\/1000612 schema:hasPart cs:commentary\/1000769.

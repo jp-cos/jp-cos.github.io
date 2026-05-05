@@ -1,12 +1,18 @@
-<https://w3id.org/jp-cos/7400000221000000>
-  <http://purl.org/dc/terms/identifier> "7400000221000000";
-  <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-  <http://purl.org/linked-data/cube#order> [
-    <http://purl.org/dc/terms/source> <https://w3id.org/jp-cos/74V10>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Number>;
-    <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> 10
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+cs:7400000221000000
+  dct:identifier "7400000221000000";
+  dct:source cs:74V10 cs:74V10;
+  qb:order [
+    dct:source cs:74V10 cs:74V10;
+    rdf:type cs:Number;
+    rdf:value 10
   ];
-  <http://schema.org/description> """【摘要】教科等（科目：標準単位数）
+  schema:description """【摘要】教科等（科目：標準単位数）
 国語（国語総合：４,国語表現：３,現代文Ａ：２,現代文Ｂ：４,古典Ａ：２,古典Ｂ：４）
 地理歴史（世界史Ａ：２,世界史Ｂ：４,日本史Ａ：２,日本史Ｂ：４,地理Ａ：２,地理Ｂ：４）
 公民（現代社会：２,倫理：２,政治・経済：２）
@@ -18,16 +24,16 @@
 家庭（家庭基礎：２,家庭総合：４,生活デザイン：４）
 情報（社会と情報：２,情報の科学：２）
 総合的な学習の時間（　：３～６）""";
-  <http://schema.org/edition> "一部改正なし";
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/jp-cos/Item>;
-  <https://w3id.org/jp-cos/category> "区分なし";
-  <https://w3id.org/jp-cos/courseOfStudy> <https://w3id.org/jp-cos/UpperSecondary/2009>;
-  <https://w3id.org/jp-cos/courseOfStudyRevision> <https://w3id.org/jp-cos/UpperSecondary/2009/2009>;
-  <https://w3id.org/jp-cos/fcode> "A7A4A0A0A0A0A0A2A2A1A0A0A0A0A0A0";
-  <https://w3id.org/jp-cos/issuedPeriod> <https://w3id.org/jp-cos/period/H20toH21>;
-  <https://w3id.org/jp-cos/school> <https://w3id.org/jp-cos/school/UpperSecondary>;
-  <https://w3id.org/jp-cos/sectionNumberHierarchy> "第1章 / 第2款 / 2 / 【摘要】教科等(科目：標準単位数)";
-  <https://w3id.org/jp-cos/sectionText> """【摘要】教科等(科目：標準単位数)
+  schema:edition "一部改正なし";
+  rdf:type cs:Number cs:Item;
+  cs:category "区分なし";
+  cs:courseOfStudy cs:UpperSecondary\/2009;
+  cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;
+  cs:fcode "A7A4A0A0A0A0A0A2A2A1A0A0A0A0A0A0";
+  cs:issuedPeriod cs:period\/H20toH21;
+  cs:school cs:school\/UpperSecondary;
+  cs:sectionNumberHierarchy "第1章 / 第2款 / 2 / 【摘要】教科等(科目：標準単位数)";
+  cs:sectionText """【摘要】教科等(科目：標準単位数)
 国語(国語総合：4,国語表現：3,現代文A：2,現代文B：4,古典A：2,古典B：4)
 地理歴史(世界史A：2,世界史B：4,日本史A：2,日本史B：4,地理A：2,地理B：4)
 公民(現代社会：2,倫理：2,政治・経済：2)
@@ -39,6 +45,6 @@
 家庭(家庭基礎：2,家庭総合：4,生活デザイン：4)
 情報(社会と情報：2,情報の科学：2)
 総合的な学習の時間( ：3～6)""";
-  <https://w3id.org/jp-cos/subCategory> "区分なし";
-  <https://w3id.org/jp-cos/subjectArea> <https://w3id.org/jp-cos/UpperSecondary/2009/総則>.
-<https://w3id.org/jp-cos/7400000220000000> <http://schema.org/hasPart> <https://w3id.org/jp-cos/7400000221000000>.
+  cs:subCategory "区分なし";
+  cs:subjectArea cs:UpperSecondary\/2009\/総則.
+cs:7400000220000000 schema:hasPart cs:7400000221000000.

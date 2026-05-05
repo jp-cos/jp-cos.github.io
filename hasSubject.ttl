@@ -1,11 +1,25 @@
-<https://w3id.org/jp-cos/hasSubject>
-  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
-  <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/jp-cos/SubjectArea>;
-  <http://www.w3.org/2000/01/rdf-schema#label> "has a subject"@en, "科目がある"@ja;
-  <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/jp-cos/Subject>.
-<https://w3id.org/jp-cos/CourseOfStudyShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubject>
+@prefix cs: <https://w3id.org/jp-cos/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+cs:hasSubject
+  rdf:type rdf:Property;
+  rdfs:domain cs:SubjectArea;
+  rdfs:label "has a subject"@en, "科目がある"@ja;
+  rdfs:range cs:Subject.
+cs:CourseOfStudyShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/外国語\/英語;
+    sh:class cs:Subject;
+    sh:minCount 1;
+    sh:name "has a subject"@en, "科目がある"@ja;
+    sh:order 10;
+    sh:path cs:hasSubject
   ].
-<https://w3id.org/jp-cos/SubjectAreaShape> <http://www.w3.org/ns/shacl#property> [
-    <http://www.w3.org/ns/shacl#path> <https://w3id.org/jp-cos/hasSubject>
+cs:SubjectAreaShape sh:property [
+    skos:example cs:LowerSecondary\/2017\/外国語\/英語;
+    sh:class cs:Subject;
+    sh:name "has a subject"@en, "科目がある"@ja;
+    sh:order 11;
+    sh:path cs:hasSubject
   ].
