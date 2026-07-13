@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7320000000000000
   dct:identifier "7320000000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 232
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 232 232
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 232
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 232 232 238
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 238
   ];
   schema:description "第２節　社会";
   schema:edition "一部改正なし";
   schema:hasPart cs:7320100000000000, cs:7320200000000000, cs:7320300000000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

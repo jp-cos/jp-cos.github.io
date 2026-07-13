@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:75m0000112400000
   dct:identifier "75m0000112400000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 75
   ];
   schema:description "その際， 幼児の実態及び幼児を取り巻く状況の変化などに即して指導の過程についての反省や評価を適切に行い， 常に指導計画の改善を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

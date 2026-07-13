@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82H12D6220000000
   dct:identifier "82H12D6220000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3416
   ];
   schema:description "イ　音声指導に当たっては，日本語との違いに留意しながら，発音練習などを通して２の(1)のアに示す言語材料を指導すること。また，音声と文字とを関連付けて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=134>;
   cs:courseOfStudy cs:Elementary\/2017;

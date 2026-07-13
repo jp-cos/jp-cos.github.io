@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X4505230000000
   dct:identifier "74X4505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7186
   ];
   schema:description "ウ　内容の(3)のアについては，問題の発見から解決までの過程及び結果の評価に必要な基礎的な知識と技術について扱うこと。イについては，問題解決の過程と結果の評価が情報産業で実際にどのように行われているかを理解させるために，情報産業で実際に行われている問題解決の過程と結果の評価にかかわる具体的な事例について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

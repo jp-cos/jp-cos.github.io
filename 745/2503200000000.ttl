@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503200000000
   dct:identifier "7452503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 653
   ];
@@ -16,7 +16,7 @@ cs:7452503200000000
 　座標や式を用いて，直線や円などの基本的な平面図形の性質や関係を数学的に表現し，その有用性を認識するとともに，事象の考察に活用できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7452503210000000, cs:7452503220000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H4503100000000
   dct:identifier "74H4503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1729
   ];
   schema:description "(1) １の目標に基づき，「コミュニケーション英語Ⅱ」の２の(1)に示す言語活動を更に発展させて行う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

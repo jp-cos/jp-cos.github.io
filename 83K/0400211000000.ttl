@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83K0400211000000
   dct:identifier "83K0400211000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2047
   ];
   schema:description "思いやりの心をもって人と接するとともに，家族などの支えや多くの人々の善意により日々の生活や現在の自分があることに感謝し，進んでそれに応え，人間愛の精神を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_011.pdf#page=138>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G802a4212220000
   dct:identifier "8G802a4212220000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3320
   ];
   schema:description "㋑ 多様な楽器の音色と演奏の仕方との関わり";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

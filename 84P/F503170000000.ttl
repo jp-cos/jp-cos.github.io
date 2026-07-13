@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PF503170000000
   dct:identifier "84PF503170000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3978
   ];
   schema:description "(7) 食品の製造実習";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PF503171000000, cs:84PF503172000000, cs:84PF503173000000, cs:84PF503174000000, cs:84PF503175000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

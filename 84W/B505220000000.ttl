@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WB505220000000
   dct:identifier "84WB505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9270
   ];
   schema:description "イ　〔指導項目〕の(2)については，国内外の災害における看護活動を扱うこと。また，心的外傷後ストレス障害などの心のケアや災害弱者への基本的な支援についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

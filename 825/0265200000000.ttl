@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250265200000000
   dct:identifier "8250265200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2265
   ];
   schema:description "(2) 内容の「Ａ数と計算」の(1)については，第３学年から第６学年までに示す小数や分数の計算の能力を定着させ，それらを用いる能力を伸ばすことに配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=293>;
   cs:courseOfStudy cs:Elementary\/2017;

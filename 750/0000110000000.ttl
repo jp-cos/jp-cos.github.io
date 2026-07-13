@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7500000110000000
   dct:identifier "7500000110000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 3
   ];
   schema:description "幼児期における教育は， 生涯にわたる人格形成の基礎を培う重要なものであり， 幼稚部における教育は， 学校教育法第72条に規定する目的を達成するため， 幼児期の特性を踏まえ， 環境を通して行うものであることを基本とする。このため， 教師は幼児との信頼関係を十分に築き， 幼児と共によりよい教育環境を創造するように努めるものとする。 これらを踏まえ， 次に示す事項を重視して教育を行わなければならない。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7500000111000000, cs:7500000112000000, cs:7500000113000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83C2203261100000
   dct:identifier "83C2203261100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1788
   ];
   schema:description "(ア) 家族の生活と住空間との関わりが分かり，住居の基本的な機能について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=159>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

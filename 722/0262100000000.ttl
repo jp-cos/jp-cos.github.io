@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220262100000000
   dct:identifier "7220262100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1360
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1360 1369
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1369
   ];
   schema:description "(1) 国家・社会の発展に大きな働きをした先人の業績や優れた文化遺産について興味・関心と理解を深めるようにするとともに，我が国の歴史や伝統を大切にし，国を愛する心情を育てるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

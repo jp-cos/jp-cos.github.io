@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B4505700000000
   dct:identifier "84B4505700000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2384
   ];
   schema:description "(7) 内容の「Ｂ鑑賞」の指導に当たっては，日本の美術も重視して扱うとともに，アジアの美術などについても扱うようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

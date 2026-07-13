@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73C0300210000000
   dct:identifier "73C0300210000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1366
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1366 1366
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1366
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1366 1366 1372
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1372
   ];
   schema:description "(1) 基礎的・基本的な知識及び技術を習得し，基本的な概念などの理解を深めるとともに，仕事の楽しさや完成の喜びを体得させるよう，実践的・体験的な学習活動を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

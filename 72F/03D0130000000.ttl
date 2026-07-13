@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72F03D0130000000
   dct:identifier "72F03D0130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2410
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2410 2419
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2419
   ];
   schema:description "(3) 「Ｂ日常の食事と調理の基礎」の(3)及び「Ｃ快適な衣服と住まい」の(3)については，学習の効果を高めるため，２学年にわたって取り扱い，平易なものから段階的に学習できるよう計画すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

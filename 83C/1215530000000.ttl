@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83C1215530000000
   dct:identifier "83C1215530000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1732
   ];
   schema:description "ウ　第１学年の最初に扱う内容では，３年間の技術分野の学習の見通しを立てさせるために，内容の「Ａ材料と加工の技術」から「Ｄ情報の技術」までに示す技術について触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=156>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

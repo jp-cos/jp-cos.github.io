@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84n0000000000000
   dct:identifier "84n0000000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 164
   ];
   schema:description "第２章　各学科に共通する各教科";
   schema:edition "一部改正なし";
   schema:hasPart cs:8410000000000000, cs:8430000000000000, cs:8440000000000000, cs:8450000000000000, cs:8460000000000000, cs:84B0000000000000, cs:84F0000000000000, cs:84G0000000000000, cs:84H0000000000000, cs:84I0000000000000, cs:84J0000000000000, cs:84M0000000000000, cs:84N0000000000000, cs:84o0000000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

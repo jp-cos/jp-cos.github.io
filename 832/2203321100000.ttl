@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8322203321100000
   dct:identifier "8322203321100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 473
   ];
   schema:description """(ア) 日本の民主化と冷戦下の国際社会
 冷戦，我が国の民主化と再建の過程，国際社会への復帰などを基に，第二次世界大戦後の諸改革の特色や世界の動きの中で新しい日本の建設が進められたことを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=125>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

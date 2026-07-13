@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8260233140000000
   dct:identifier "8260233140000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2322
   ];
@@ -16,7 +16,7 @@ cs:8260233140000000
 磁石の性質について，磁石を身の回りの物に近付けたときの様子に着目して，それらを比較しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260233141000000, cs:8260233142000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=40>;
   cs:courseOfStudy cs:Elementary\/2017;

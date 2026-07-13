@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88L1003221120000
   dct:identifier "88L1003221120000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2243
   ];
   schema:description "(イ) 既に知っている物や事柄に関する語などを聞き，それが表す内容を実物や写真などと結び付ける活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=542>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

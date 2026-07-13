@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260253130000000
   dct:identifier "7260253130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1939
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1939 1948
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1948
   ];
   schema:description """(3) 電流の働き
 　電磁石の導線に電流を流し，電磁石の強さの変化を調べ，電流の働きについての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260253131000000, cs:7260253132000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

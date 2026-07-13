@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TC505230000000
   dct:identifier "84TC505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7795
   ];
   schema:description "ウ　〔指導項目〕の(3)のア及びイについては，分布定数回路，導波管を用いた立体回路や四端子回路網を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

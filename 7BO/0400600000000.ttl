@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7BO0400600000000
   dct:identifier "7BO0400600000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2515
   ];
   schema:description "６   コミュニケーション";
   schema:edition "一部改正なし";
   schema:hasPart cs:7BO0400610000000, cs:7BO0400620000000, cs:7BO0400630000000, cs:7BO0400640000000, cs:7BO0400650000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

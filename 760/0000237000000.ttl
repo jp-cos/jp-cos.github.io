@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000237000000
   dct:identifier "7600000237000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 31
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 31 32
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 32
   ];
   schema:description "７   各学校においては，地域や学校，児童又は生徒の実態，各教科等や学習活動の特質等に応じて， 創意工夫を生かし時間割を弾力的に編成することができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

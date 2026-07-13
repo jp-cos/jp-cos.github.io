@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7442505120000000
   dct:identifier "7442505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 562
   ];
   schema:description "イ　先哲の基本的な考え方を取り上げるに当たっては，内容と関連が深く生徒の発達や学習段階に適した代表的な先哲の言説等を精選すること。また，生徒自らが人生観，世界観を確立するための手掛かりを得させるよう様々な工夫を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

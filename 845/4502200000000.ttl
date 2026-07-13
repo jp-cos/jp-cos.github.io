@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8454502200000000
   dct:identifier "8454502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1400
   ];
   schema:description "(2) 図形の構成要素間の関係などに着目し，図形の性質を見いだし，論理的に考察する力，不確実な事象に着目し，確率の性質などに基づいて事象の起こりやすさを判断する力，数学と人間の活動との関わりに着目し，事象に数学の構造を見いだし，数理的に考察する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

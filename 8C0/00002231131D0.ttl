@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C000002231131D0
   dct:identifier "8C000002231131D0";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 44
   ];
   schema:description "英語（総合英語Ⅰ，総合英語Ⅱ，総合英語Ⅲ，ディベート・ディスカッションⅠ，ディベート・ディスカッションⅡ，エッセイライティングⅠ，エッセイライティングⅡ）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

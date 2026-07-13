@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8210100300000000
   dct:identifier "8210100300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 97
   ];
   schema:description "(3) 言葉がもつよさを認識するとともに，言語感覚を養い，国語の大切さを自覚し，国語を尊重してその能力の向上を図る態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=17>;
   cs:courseOfStudy cs:Elementary\/2017;

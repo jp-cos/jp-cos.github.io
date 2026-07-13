@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000223112100
   dct:identifier "8C00000223112100";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 29
   ];
@@ -25,7 +25,7 @@ cs:8C00000223112100
 情報（情報Ⅰ：２，情報Ⅱ：２）
 理数（理数探究基礎：１，理数探究：２～５）""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

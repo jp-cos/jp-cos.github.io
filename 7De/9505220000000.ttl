@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7De9505220000000
   dct:identifier "7De9505220000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 538
   ];
   schema:description "イ   内容の(2)のイについては， 多様なあん摩・マッサージ・指圧関連業務を理解するための施設見学や生徒の進路希望に対応した実習ができるように計画すること。ウについては，施術所経営に関する実際的な基礎的知識が養われるように， 臨床経験の豊富な人の話や施術所見学， 模擬経営実習などを通して， 具体的に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

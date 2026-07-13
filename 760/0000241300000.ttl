@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000241300000
   dct:identifier "7600000241300000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 37
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 37 38
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 38
   ];
   schema:description "(3) 各教科の各学年， 各分野又は各言語の指導内容については， そのまとめ方や重点の置き方に適切な工夫を加えるなど， 効果的な指導ができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

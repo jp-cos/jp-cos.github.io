@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7455503100000000
   dct:identifier "7455503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 769
   ];
@@ -16,7 +16,7 @@ cs:7455503100000000
 　確率変数とその分布，統計的な推測について理解し，それらを不確定な事象の考察に活用できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7455503110000000, cs:7455503120000000, cs:7455503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R4505240000000
   dct:identifier "84R4505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6744
   ];
   schema:description "エ　〔指導項目〕の(4)のイについては，ビジネスを展開する上で踏まえる必要がある外国の文化と商慣習について扱うこと。また，ビジネスにおいて，意見や主張を伝えること，議論することなどに関する考え方や方法の違いについても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

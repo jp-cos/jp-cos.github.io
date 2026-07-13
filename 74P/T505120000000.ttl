@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PT505120000000
   dct:identifier "74PT505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3027
   ];
   schema:description "イ　内容の(1)については，専門家が療法として行う行為と一般の人々がレクリエーションや教育，健康増進などを目的として行う活動の違いについて理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

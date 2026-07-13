@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ek9500000000000
   dct:identifier "8Ek9500000000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2508
   ];
   schema:description "〔小児歯科技工学〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Ek9502000000000, cs:8Ek9503000000000, cs:8Ek9505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

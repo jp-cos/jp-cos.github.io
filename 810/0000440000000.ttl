@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000440000000
   dct:identifier "8100000440000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 58
   ];
@@ -16,7 +16,7 @@ cs:8100000440000000
 　幼児一人一人の発達の理解に基づいた評価の実施に当たっては，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8100000441000000, cs:8100000442000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

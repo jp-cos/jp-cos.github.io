@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7500000300000000
   dct:identifier "7500000300000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 12
   ];
   schema:description "第３　教育課程の編成";
   schema:edition "一部改正なし";
   schema:hasPart cs:7500000310000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

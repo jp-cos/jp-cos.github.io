@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7380300211200000
   dct:identifier "7380300211200000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 941
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 941 941
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 941
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 941 941 947
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 947
   ];
   schema:description "「荒城の月」　　土井晩翠《どいばんすい》作詞　滝廉太郎《たきれんたろう》作曲";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

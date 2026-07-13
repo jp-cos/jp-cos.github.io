@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8323233221100000
   dct:identifier "8323233221100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 531
   ];
   schema:description "(ア) 社会資本の整備，公害の防止など環境の保全，少子高齢社会における社会保障の充実・安定化，消費者の保護について，それらの意義を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=153>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

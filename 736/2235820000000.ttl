@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7362235820000000
   dct:identifier "7362235820000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 845
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 845 845
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 845
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 845 845 851
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 851
   ];
   schema:description "イ　アの(イ)については，生物や大気，水などの自然環境を直接調べたり，記録や資料を基に調べたりするなどの活動を行うこと。また，地球温暖化や外来種にも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

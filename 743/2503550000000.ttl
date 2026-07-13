@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503550000000
   dct:identifier "7432503550000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 363
   ];
   schema:description """オ　資料を活用して探究する地球世界の課題
 　地球世界の課題に関する適切な主題を設定させ，歴史的観点から資料を活用して探究し，その成果を論述したり討論したりするなどの活動を通して，資料を活用し表現する技能を習得させるとともに，これからの世界と日本の在り方や世界の人々が協調し共存できる持続可能な社会の実現について展望させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

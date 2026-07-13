@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82H12D3221240000
   dct:identifier "82H12D3221240000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3346
   ];
   schema:description "(エ) 音声で十分に慣れ親しんだ簡単な語句や基本的な表現を，絵本などの中から識別する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=109>;
   cs:courseOfStudy cs:Elementary\/2017;

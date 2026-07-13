@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F2503210000000
   dct:identifier "74F2503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1911
   ];
   schema:description """ア　子どもの発達と保育・福祉
 　子どもの発達と生活，子どもの福祉などについて理解させ，親の役割と保育の重要性や地域及び社会の果たす役割について認識させるとともに，子どもを生み育てることの意義や子どもとかかわることの重要性について考えさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

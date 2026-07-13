@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8362233711200000
   dct:identifier "8362233711200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1109
   ];
   schema:description """㋑　自然環境の調査と環境保全
 身近な自然環境について調べ，様々な要因が自然界のつり合いに影響していることを理解するとともに，自然環境を保全することの重要性を認識すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=115>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

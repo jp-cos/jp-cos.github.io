@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220255520000000
   dct:identifier "7220255520000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1357
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1357 1366
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1366
   ];
   schema:description "イ　イについては，情報ネットワークを有効に活用して公共サービスの向上に努めている教育，福祉，医療，防災などの中から選択して取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

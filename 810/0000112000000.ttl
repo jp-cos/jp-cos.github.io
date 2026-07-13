@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000112000000
   dct:identifier "8100000112000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 5
   ];
   schema:description "２　幼児の自発的な活動としての遊びは，心身の調和のとれた発達の基礎を培う重要な学習であることを考慮して，遊びを通しての指導を中心として第２章に示すねらいが総合的に達成されるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503121100000
   dct:identifier "8435503121100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 911
   ];
   schema:description "(ア) 衣食住，家族，教育，余暇などの身の回りの諸事象を基に，私たちの日常生活が世界の歴史とつながっていることを理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

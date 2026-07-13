@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TE505130000000
   dct:identifier "74TE505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5952
   ];
   schema:description "ウ　内容の(6)については，地域の実態や学科の特色に応じて，適切な増養殖対象種を選定すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

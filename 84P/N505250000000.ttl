@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PN505250000000
   dct:identifier "84PN505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4327
   ];
   schema:description "オ　〔指導項目〕の(5)については，農業土木構造物の新設工事，既設構造物の補修・補強工事，災害復旧工事の特質や各種施工法の特徴について基礎的な内容を扱うこと。なお，イについては，農地整備と農地造成についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ej1505230000000
   dct:identifier "7Ej1505230000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1830
   ];
   schema:description "ウ   内容の(3)については，  ドライクリーニング溶剤の有害性， 排水と環境汚染の関係， 従事者の健康管理等の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8463503120000000
   dct:identifier "8463503120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1650
   ];
   schema:description "イ　様々な物体の運動について，観察，実験などを通して探究し，平面内の運動と剛体のつり合い，運動量，円運動と単振動，万有引力，気体分子の運動における規則性や関係性を見いだして表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

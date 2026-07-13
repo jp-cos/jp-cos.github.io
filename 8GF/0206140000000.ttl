@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GF0206140000000
   dct:identifier "8GF0206140000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3791
   ];
   schema:description "エ  家庭や地域との連携を図り，校内外での実践的・体験的な学習活動の充実を図り指導の効果を高めること。実践的・体験的な学習活動については， 校内での体験的な学習活動と関連させ，段階的・系統的に指導するよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

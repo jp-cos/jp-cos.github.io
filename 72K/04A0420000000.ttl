@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04A0420000000
   dct:identifier "72K04A0420000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2641
   ];
   schema:description "(2) 働くことのよさを感じて，みんなのために働く。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K04A0421000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000234000000
   dct:identifier "8100000234000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 18
   ];
   schema:description """(4) 道徳性・規範意識の芽生え
 　友達と様々な体験を重ねる中で，してよいことや悪いことが分かり，自分の行動を振り返ったり，友達の気持ちに共感したりし，相手の立場に立って行動するようになる。また，きまりを守る必要性が分かり，自分の気持ちを調整し，友達と折り合いを付けながら，きまりをつくったり，守ったりするようになる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

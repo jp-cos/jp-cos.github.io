@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84UG503140000000
   dct:identifier "84UG503140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8685
   ];
   schema:description "(4) 目的別・対象別の献立と調理";
   schema:edition "一部改正なし";
   schema:hasPart cs:84UG503141000000, cs:84UG503142000000, cs:84UG503143000000, cs:84UG503144000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

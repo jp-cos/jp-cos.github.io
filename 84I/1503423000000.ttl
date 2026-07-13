@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84I1503423000000
   dct:identifier "84I1503423000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3300
   ];
   schema:description "(ウ) データの収集，整理，分析及び結果の表現の方法を適切に選択し，実行し，評価し改善すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

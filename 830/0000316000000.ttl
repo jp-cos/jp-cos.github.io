@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8300000316000000
   dct:identifier "8300000316000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 48
   ];
   schema:description "(6) 生徒が自ら学習課題や学習活動を選択する機会を設けるなど，生徒の興味・関心を生かした自主的，自発的な学習が促されるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_001.pdf#page=97>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7466503200000000
   dct:identifier "7466503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1061
   ];
@@ -16,7 +16,7 @@ cs:7466503200000000
 　生物の体内環境の維持について観察，実験などを通して探究し，生物には体内環境を維持する仕組みがあることを理解させ，体内環境の維持と健康との関係について認識させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7466503210000000, cs:7466503220000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

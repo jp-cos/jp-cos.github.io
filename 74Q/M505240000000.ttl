@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QM505240000000
   dct:identifier "74QM505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3676
   ];
   schema:description "エ　内容の(4)のアからエまでについては，通信に必要な電子機器の特性と利用例及び主な通信機器と通信システムの基礎的な内容を扱うこと。オについては，通信に関する基本的な法規の目的と概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

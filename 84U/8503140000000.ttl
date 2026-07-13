@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84U8503140000000
   dct:identifier "84U8503140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8444
   ];
   schema:description "(4) 福祉住環境と室内計画";
   schema:edition "一部改正なし";
   schema:hasPart cs:84U8503141000000, cs:84U8503142000000, cs:84U8503143000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

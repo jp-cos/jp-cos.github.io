@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AD12a4212130000
   dct:identifier "8AD12a4212130000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2003
   ];
   schema:description "㋒ 材料や育成する生物等の扱い方及び生産や生育活動等に関わる基礎的な技術について知ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=483>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

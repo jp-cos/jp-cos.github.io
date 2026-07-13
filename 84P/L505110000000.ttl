@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PL505110000000
   dct:identifier "84PL505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4236
   ];
   schema:description "ア　再生可能な森林資源を利用する林産物利用の意義と役割を理解できるよう留意して指導すること。また，プロジェクト学習では観察や実験・実習を通して，科学的かつ創造的に学習を進め，林産物利用に関する実践力が身に付くようにすること。なお，地域林業の実態や学科の特色等に応じて，適切な題材を選定すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

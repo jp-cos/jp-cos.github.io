@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8461503214200000
   dct:identifier "8461503214200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1564
   ];
   schema:description """㋑　自然景観と自然災害
 自然景観と自然災害に関する観察，実験などを行い，身近な自然景観の成り立ちと自然災害について，人間生活と関連付けて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

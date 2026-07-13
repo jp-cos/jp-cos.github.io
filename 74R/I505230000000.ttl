@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RI505230000000
   dct:identifier "74RI505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5426
   ];
   schema:description "ウ　内容の(3)のイについては，ウェブページの制作に必要な配色や構成などデザインの基礎を扱うこと。ウについては，広告や広報に関するウェブページを制作する方法を扱うこと。エについては，双方向で情報を送受信するウェブページを制作する方法及びデータベースと連携したウェブページを制作する方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

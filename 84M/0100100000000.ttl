@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0100100000000
   dct:identifier "84M0100100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10852
   ];
   schema:description "(1) 探究の過程において，課題の発見と解決に必要な知識及び技能を身に付け，課題に関わる概念を形成し，探究の意義や価値を理解するようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

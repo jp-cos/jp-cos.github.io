@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7350233230000000
   dct:identifier "7350233230000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 596
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 596 596
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 596
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 596 596 602
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 602
   ];
   schema:description "(3) 観察，操作や実験などの活動を通して，三平方の定理を見いだして理解し，それを用いて考察することができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7350233231000000, cs:7350233232000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

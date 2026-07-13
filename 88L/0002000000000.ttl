@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:88L0002000000000
   dct:identifier "88L0002000000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2223
   ];
@@ -16,7 +16,7 @@ cs:88L0002000000000
 外国語によるコミュニケーションにおける見方・考え方を働かせ，外国語や外国の文化に触れることを通して，コミュニケーションを図る素地となる資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:88L0002100000000, cs:88L0002200000000, cs:88L0002300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=537>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

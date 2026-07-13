@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220255410000000
   dct:identifier "8220255410000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1538
   ];
   schema:citation cs:8220253411000000;
   schema:description "ア　アの(ア)の「放送，新聞などの産業」については，それらの中から選択して取り上げること。その際，情報を有効に活用することについて，情報の送り手と受け手の立場から多角的に考え，受け手として正しく判断することや送り手として責任をもつことが大切であることに気付くようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=94>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GF0206130000000
   dct:identifier "8GF0206130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3790
   ];
   schema:description "ウ　「Ｂ衣食住の生活」の２段階の「ア必要な栄養を満たす食事」及び「ウ衣服の手入れ」については，それぞれ１段階の「ア食事の役割」及び「ウ衣服の選択」の内容を十分に踏まえるとともに，各段階に示された事項の関連を図りながら，総合的に指導するよう計画すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

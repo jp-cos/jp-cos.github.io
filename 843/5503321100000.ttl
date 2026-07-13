@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503321100000
   dct:identifier "8435503321100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 942
   ];
   schema:description "(ア) 西アジア社会の動向とアフリカ・アジアへのイスラームの伝播(ぱ)，ヨーロッパ封建社会とその展開，宋(そう)の社会とモンゴル帝国の拡大などを基に，海域と内陸にわたる諸地域の交流の広がりを構造的に理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

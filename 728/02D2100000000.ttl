@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72802D2100000000
   dct:identifier "72802D2100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2159
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2159 2168
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2168
   ];
   schema:description "(1) 創造的に音楽にかかわり，音楽活動への意欲を高め，音楽経験を生かして生活を明るく潤いのあるものにする態度と習慣を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

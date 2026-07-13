@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dg9505120000000
   dct:identifier "8Dg9505120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1426
   ];
   schema:description "イ　指導に当たっては，「地域理学療法学」及び「保健・医療・福祉とリハビリテーション」との関連を図り，地域包括ケアシステムについて触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

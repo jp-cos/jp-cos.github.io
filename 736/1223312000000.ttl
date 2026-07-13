@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361223312000000
   dct:identifier "7361223312000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 667
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 667 667
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 667
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 667 667 673
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 673
   ];
   schema:description """(イ) 電流・電圧と抵抗
 金属線に加わる電圧と電流を測定する実験を行い，電圧と電流の関係を見いだすとともに金属線には電気抵抗があることを見いだすこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8451503412000000
   dct:identifier "8451503412000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1266
   ];
   schema:description "(イ) コンピュータなどの情報機器を用いるなどして，データを表やグラフに整理したり，分散や標準偏差などの基本的な統計量を求めたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

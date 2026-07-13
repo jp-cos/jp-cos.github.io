@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361223321000000
   dct:identifier "7361223321000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 671
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 671 671
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 671
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 671 671 677
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 677
   ];
   schema:description """(ア) 電流がつくる磁界
 磁石や電流による磁界の観察を行い，磁界を磁力線で表すことを理解するとともに，コイルの回りに磁界ができることを知ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df2503120000000
   dct:identifier "8Df2503120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 768
   ];
   schema:description "(2) 系統別構造と機能";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Df2503121000000, cs:8Df2503122000000, cs:8Df2503123000000, cs:8Df2503124000000, cs:8Df2503125000000, cs:8Df2503126000000, cs:8Df2503127000000, cs:8Df2503128000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

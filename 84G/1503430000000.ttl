@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503430000000
   dct:identifier "84G1503430000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2056
   ];
   schema:description "(3) 水泳に主体的に取り組むとともに，勝敗などを冷静に受け止め，ルールやマナーを大切にしようとすること，役割を積極的に引き受け自己の責任を果たそうとすること，一人一人の違いに応じた課題や挑戦を大切にしようとすることなどや，水泳の事故防止に関する心得を遵守するなど健康・安全を確保すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

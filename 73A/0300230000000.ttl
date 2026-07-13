@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73A0300230000000
   dct:identifier "73A0300230000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1054
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1054 1054
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1054
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1054 1054 1060
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1060
   ];
   schema:description "(3) 主題を生み出すことから表現の確認及び完成に至る全過程を通して，生徒が夢と目標をもち，自分のよさを発見し喜びをもって自己実現を果たしていく態度の形成を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

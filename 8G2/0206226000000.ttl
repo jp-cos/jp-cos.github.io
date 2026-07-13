@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G20206226000000
   dct:identifier "8G20206226000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2815
   ];
   schema:description "(カ) エの(ア)の「食料生産」，「工業生産」については，食料生産や工業の盛んな地域の具体的事例を通して調べることとし，稲作のほか，野菜，果物，畜産物，水産物などの中から，また，金属工業，機械工業，化学工業，食料品工業などの中から，それぞれ一つを取り上げること。また， 消費者や生産者の立場などから多角的に考えて，これからの産業の発展について自分の考えをまとめることができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

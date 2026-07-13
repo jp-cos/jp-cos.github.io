@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7432505430000000
   dct:identifier "7432505430000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 382
   ];
   schema:description "ウ　政治，経済，社会，文化，宗教，生活など様々な観点から歴史的事象を取り上げ，近現代世界に対する多角的で柔軟な見方を養うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

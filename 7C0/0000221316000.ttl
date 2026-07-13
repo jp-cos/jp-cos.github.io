@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7C00000221316000
   dct:identifier "7C00000221316000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 24
   ];
   schema:description "看護（基礎看護， 人体と看護， 疾病と看護， 生活と看護， 成人看護， 老年看護， 精神看護，在宅看護，母性看護，小児看護，看護の統合と実践，看護臨地実習，看護情報活用）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H2503100000000
   dct:identifier "74H2503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1700
   ];
   schema:description "(1) 生徒が情報や考えなどを理解したり伝えたりすることを実践するように具体的な言語の使用場面を設定して，次のような言語活動を英語で行う。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74H2503110000000, cs:74H2503120000000, cs:74H2503130000000, cs:74H2503140000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

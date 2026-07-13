@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74T9503700000000
   dct:identifier "74T9503700000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5760
   ];
   schema:description "(7) 船舶の運航と保安";
   schema:edition "一部改正なし";
   schema:hasPart cs:74T9503710000000, cs:74T9503720000000, cs:74T9503730000000, cs:74T9503740000000, cs:74T9503750000000, cs:74T9503760000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

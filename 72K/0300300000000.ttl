@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300300000000
   dct:identifier "72K0300300000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2701
   ];
   schema:description "３　道徳の時間における指導に当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K0300300000001, cs:72K0300310000000, cs:72K0300320000000, cs:72K0300330000000, cs:72K0300340000000, cs:72K0300350000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

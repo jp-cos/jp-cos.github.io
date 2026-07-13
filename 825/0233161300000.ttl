@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250233161300000
   dct:identifier "8250233161300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1857
   ];
   schema:description "(ウ) 簡単な場合について，分数の加法及び減法の意味について理解し，それらの計算ができることを知ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=160>;
   cs:courseOfStudy cs:Elementary\/2017;

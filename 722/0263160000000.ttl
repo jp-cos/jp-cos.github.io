@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220263160000000
   dct:identifier "7220263160000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1370
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1370 1379
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1379
   ];
   schema:description "カ　歌舞伎《かぶき》や浮世絵，国学や蘭学《らんがく》について調べ，町人の文化が栄え新しい学問が起こったことが分かること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

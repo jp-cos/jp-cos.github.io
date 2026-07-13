@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7435505222000000
   dct:identifier "7435505222000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 473
   ];
   schema:description "(イ) アについては，日常生活の中でみられる様々な地図を取り上げ，目的や用途に適した地図表現の工夫などについて理解させ，日常生活と結び付いた地図の役割とその有用性について認識させるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

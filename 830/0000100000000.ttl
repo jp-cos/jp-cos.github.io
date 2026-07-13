@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8300000100000000
   dct:identifier "8300000100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2
   ];
   schema:description "第１　中学校教育の基本と教育課程の役割";
   schema:edition "一部改正なし";
   schema:hasPart cs:8300000110000000, cs:8300000120000000, cs:8300000130000000, cs:8300000140000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_001.pdf#page=25>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

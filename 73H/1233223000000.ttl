@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1233223000000
   dct:identifier "73H1233223000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1461
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1461 1461
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1461
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1461 1461 1467
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1467
   ];
   schema:description """(ウ) 第３学年における言語活動
 第２学年までの学習を基礎として，言語の使用場面や言語の働きを一層広げた言語活動を行わせること。その際，第１学年及び第２学年における学習内容を繰り返して指導し定着を図るとともに，様々な考えや意見などの中からコミュニケーションが図れるような話題を取り上げること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

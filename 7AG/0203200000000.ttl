@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7AG0203200000000
   dct:identifier "7AG0203200000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 277
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 277 288
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 288
   ];
   schema:description "(2) きまりや簡単なスポーツのルールなどを守り， 友達と協力して安全に運動をする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

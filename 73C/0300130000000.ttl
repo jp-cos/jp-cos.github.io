@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73C0300130000000
   dct:identifier "73C0300130000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1363
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1363 1363
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1363
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1363 1363 1369
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1369
   ];
   schema:description "(3) 各項目及び各項目に示す事項については，相互に有機的な関連を図り，総合的に展開されるよう適切な題材を設定して計画を作成すること。その際，小学校における学習を踏まえ，他教科等との関連を明確にして，系統的・発展的に指導ができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

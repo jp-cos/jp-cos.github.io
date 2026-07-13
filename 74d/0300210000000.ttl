@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74d0300210000000
   dct:identifier "74d0300210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8151
   ];
   schema:description "(1) 生徒が情報や考えなどを理解したり伝えたりすることを実践するように具体的な言語の使用場面を設定して，多様な言語活動を経験させながら指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

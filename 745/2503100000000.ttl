@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503100000000
   dct:identifier "7452503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 643
   ];
@@ -16,7 +16,7 @@ cs:7452503100000000
 　整式の乗法・除法及び分数式の四則計算について理解できるようにするとともに，等式や不等式が成り立つことを証明できるようにする。また，方程式についての理解を深め，数の範囲を複素数まで拡張して二次方程式を解くこと及び因数分解を利用して高次方程式を解くことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7452503110000000, cs:7452503120000000, cs:7452503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

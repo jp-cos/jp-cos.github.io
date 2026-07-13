@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71l3005200000000
   dct:identifier "71l3005200000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 90
   ];
   schema:description "(2) 幼児期において自然のもつ意味は大きく，自然の大きさ，美しさ，不思議さなどに直接触れる体験を通して，幼児の心が安らぎ，豊かな感情，好奇心，思考力，表現力の基礎が培われることを踏まえ，幼児が自然とのかかわりを深めることができるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

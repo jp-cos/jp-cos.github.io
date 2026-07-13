@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220262300000000
   dct:identifier "7220262300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1362
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1362 1371
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1371
   ];
   schema:description "(3) 社会的事象を具体的に調査するとともに，地図や地球儀，年表などの各種の基礎的資料を効果的に活用し，社会的事象の意味をより広い視野から考える力，調べたことや考えたことを表現する力を育てるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

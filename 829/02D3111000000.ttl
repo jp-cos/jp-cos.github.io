@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82902D3111000000
   dct:identifier "82902D3111000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2914
   ];
   schema:description "ア　造形遊びをする活動を通して，材料や場所，空間などの特徴を基に造形的な活動を思い付くことや，構成したり周囲の様子を考え合わせたりしながら，どのように活動するかについて考えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=89>;
   cs:courseOfStudy cs:Elementary\/2017;

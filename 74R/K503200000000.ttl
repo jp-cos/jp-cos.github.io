@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74RK503200000000
   dct:identifier "74RK503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5473
   ];
   schema:description "(2) 情報通信ネットワークの構築と運用管理";
   schema:edition "一部改正なし";
   schema:hasPart cs:74RK503210000000, cs:74RK503220000000, cs:74RK503230000000, cs:74RK503240000000, cs:74RK503250000000, cs:74RK503260000000, cs:74RK503270000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

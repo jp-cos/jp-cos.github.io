@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y0100000000000
   dct:identifier "84Y0100000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9704
   ];
@@ -16,7 +16,7 @@ cs:84Y0100000000000
 福祉の見方・考え方を働かせ，実践的・体験的な学習活動を行うことなどを通して，福祉を通じ，人間の尊厳に基づく地域福祉の推進と持続可能な福祉社会の発展を担う職業人として必要な資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Y0100100000000, cs:84Y0100200000000, cs:84Y0100300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

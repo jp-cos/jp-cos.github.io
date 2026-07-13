@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:76O0300300000000
   dct:identifier "76O0300300000000";
-  dct:source cs:76V11 cs:76V11;
+  dct:source cs:76V11;
   qb:order [
-    dct:source cs:76V11 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 364
   ];
   schema:description "３   指導計画の作成に当たっては，各教科，道徳，外国語活動，総合的な学習の時間及び特別活動の指導と密接な関連を保つようにし， 計画的， 組織的に指導が行われるようにするものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:76O0300300000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009;

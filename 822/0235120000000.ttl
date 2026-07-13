@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220235120000000
   dct:identifier "8220235120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1405
   ];
   schema:description "イ　アの(イ)については，「白地図などにまとめる」際に，教科用図書「地図」(以下第２章第２節において「地図帳」という。)を参照し，方位や主な地図記号について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=40>;
   cs:courseOfStudy cs:Elementary\/2017;

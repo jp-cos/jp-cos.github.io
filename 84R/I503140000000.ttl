@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84RI503140000000
   dct:identifier "84RI503140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7258
   ];
   schema:description "(4) プログラムと情報システムの開発";
   schema:edition "一部改正なし";
   schema:hasPart cs:84RI503141000000, cs:84RI503142000000, cs:84RI503143000000, cs:84RI503144000000, cs:84RI503145000000, cs:84RI503146000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

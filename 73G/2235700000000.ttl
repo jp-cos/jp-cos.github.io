@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73G2235700000000
   dct:identifier "73G2235700000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1234
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1234 1234
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1234
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1234 1234 1240
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1240
   ];
   schema:description "(7) 内容の(4)のイについては，食育の観点も踏まえつつ健康的な生活習慣の形成に結び付くよう配慮するとともに，必要に応じて，コンピュータなどの情報機器の使用と健康とのかかわりについて取り扱うことも配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

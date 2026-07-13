@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84P3503120000000
   dct:identifier "84P3503120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3512
   ];
   schema:description "(2) 農業の各分野に関する総合的な実習";
   schema:edition "一部改正なし";
   schema:hasPart cs:84P3503121000000, cs:84P3503122000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

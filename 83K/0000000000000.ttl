@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83K0000000000000
   dct:identifier "83K0000000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2031
   ];
   schema:description "第３章　特別の教科　道徳";
   schema:edition "一部改正なし";
   schema:hasPart cs:83K0100000000000, cs:83K0300000000000, cs:83K0400000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_011.pdf#page=138>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

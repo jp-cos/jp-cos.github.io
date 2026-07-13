@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3503110000000
   dct:identifier "74F3503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1941
   ];
   schema:description """ア　青年期の自立と家族・家庭
 　生涯発達の視点で青年期の課題を理解させ，男女が協力して，家族の一員としての役割を果たし家庭を築くことの重要性について考えさせるとともに，家庭や地域の生活を創造するために自己の意思決定に基づき，責任をもって行動することが重要であることを認識させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

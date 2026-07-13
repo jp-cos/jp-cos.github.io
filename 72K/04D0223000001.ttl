@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04D0223000001
   dct:identifier "72K04D0223000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 2663
   ];
   schema:description """〔第５学年及び第６学年〕
 　日々の生活が家族や過去からの多くの人々の支え合いや助け合いで成り立っていることに感謝し，それに応えること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0300130000000
   dct:identifier "73K0300130000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1566
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1566 1566
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1566
   ];
   schema:description "(3) 各学校においては，生徒の発達の段階や特性等を踏まえ，指導内容の重点化を図ること。特に，自他の生命を尊重し，規律ある生活ができ，自分の将来を考え，法やきまりの意義の理解を深め，主体的に社会の形成に参画し，国際社会に生きる日本人としての自覚を身に付けるようにすることなどに配慮し，生徒や学校の実態に応じた指導を行うよう工夫すること。また，悩みや葛藤（かっとう）等の思春期の心の揺れ，人間関係の理解等の課題を積極的に取り上げ，道徳的価値に基づいた人間としての生き方について考えを深められるよう配慮すること。　　　　  　";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

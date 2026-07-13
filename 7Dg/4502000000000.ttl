@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dg4502000000000
   dct:identifier "7Dg4502000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1085
   ];
   schema:description """１　目標
 理学療法の概要を理解させ， 理学療法を適切に行う能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

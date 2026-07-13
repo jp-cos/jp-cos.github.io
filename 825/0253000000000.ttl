@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8250253000000000
   dct:identifier "8250253000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2066
   ];
   schema:description "２　内容";
   schema:edition "一部改正なし";
   schema:hasPart cs:8250253100000000, cs:8250253200000000, cs:8250253300000000, cs:8250253400000000, cs:8250253500000000, cs:8250253600000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=240>;
   cs:courseOfStudy cs:Elementary\/2017;

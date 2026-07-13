@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84XC505110000000
   dct:identifier "84XC505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9685
   ];
   schema:description "ア　課題解決に向けた計画の立案や実習を通して，情報システムの開発，コンテンツの制作などの一連の工程を理解できるよう留意して指導すること。その際，知的財産権の扱いにも配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

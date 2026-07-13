@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7De2505210000000
   dct:identifier "7De2505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 266
   ];
   schema:description "ア  内容の(1)のアについては，  この科目の導入として， 人体の構成と働き， 発生と成長の概要を扱うこと。イからエまでについては，それぞれの構造と機能の基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

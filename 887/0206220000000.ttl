@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8870206220000000
   dct:identifier "8870206220000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 297
   ];
   schema:description "イ　身近な人々，社会及び自然に関する活動の楽しさを味わうとともに，それらを通して気付いたことや楽しかったことなどについて，多様な方法により表現し，考えることができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=83>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

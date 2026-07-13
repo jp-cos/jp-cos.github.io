@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H5503240000000
   dct:identifier "74H5503240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1743
   ];
   schema:description "エ　聞いたり読んだりした内容について，そこに示されている意見を他の意見と比較して共通点や相違点を整理したり，自分の考えをまとめたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

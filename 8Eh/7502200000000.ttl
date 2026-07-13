@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Eh7502200000000
   dct:identifier "8Eh7502200000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1688
   ];
   schema:description "(2) 印刷技術や印刷産業に関する課題を発見し，職業人としての倫理観をもって合理的かつ創造的に解決する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

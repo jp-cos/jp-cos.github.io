@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2503330000000
   dct:identifier "74G2503330000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1361
   ];
   schema:description """ウ　労働と健康
 　労働災害の防止には，作業形態や作業環境の変化に起因する傷害や職業病などを踏まえた適切な健康管理及び安全管理をする必要があること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

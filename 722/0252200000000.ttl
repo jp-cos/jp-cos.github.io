@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220252200000000
   dct:identifier "7220252200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1327
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1327 1336
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1336
   ];
   schema:description "(2) 我が国の産業の様子，産業と国民生活との関連について理解できるようにし，我が国の産業の発展や社会の情報化の進展に関心をもつようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

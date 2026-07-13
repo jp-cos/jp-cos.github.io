@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Df0300120000000
   dct:identifier "7Df0300120000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 991
   ];
   schema:description "(2)   「理療基礎実習」及び「理療臨床実習」の指導に当たっては，生徒が常に達成感と新たな技術習得への意欲をもって学習できるように， 指導内容の構成や指導方法の工夫に十分留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

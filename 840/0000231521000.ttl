@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231521000
   dct:identifier "8400000231521000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 42
   ];
   schema:description "㋐社会生活や職業生活に必要な基本的な能力や態度及び望ましい勤労観，職業観の育成";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

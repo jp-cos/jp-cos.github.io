@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8290100200000000
   dct:identifier "8290100200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2863
   ];
   schema:description "(2) 造形的なよさや美しさ，表したいこと，表し方などについて考え，創造的に発想や構想をしたり，作品などに対する自分の見方や感じ方を深めたりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=18>;
   cs:courseOfStudy cs:Elementary\/2017;

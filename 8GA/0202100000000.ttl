@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GA0202100000000
   dct:identifier "8GA0202100000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3446
   ];
   schema:description "(1) 造形的な視点について理解するとともに，表現方法を創意工夫し，創造的に表すことができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

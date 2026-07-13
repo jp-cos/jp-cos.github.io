@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qr505220000000
   dct:identifier "84Qr505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6404
   ];
   schema:description "イ　〔指導項目〕の(3)については，デザインを具体化する技法を扱うこと。また，コンピュータを活用したテキスタイルデザインの作品を制作すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

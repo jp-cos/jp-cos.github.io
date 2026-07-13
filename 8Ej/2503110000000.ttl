@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ej2503110000000
   dct:identifier "8Ej2503110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2092
   ];
   schema:description "(1) 公衆衛生の概要";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Ej2503111000000, cs:8Ej2503112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

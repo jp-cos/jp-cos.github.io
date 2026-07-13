@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Eh0300150000000
   dct:identifier "8Eh0300150000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1724
   ];
   schema:description "(5) 「印刷製版技術」，「ＤＴＰ技術」，「デジタル画像技術」については，学校や地域の実態などを考慮して適切な指導内容を設定し，重点的に取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250243210000000
   dct:identifier "7250243210000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1665
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1665 1674
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1674
   ];
   schema:description "(1) 面積について単位と測定の意味を理解し，面積を計算によって求めることができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7250243211000000, cs:7250243212000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

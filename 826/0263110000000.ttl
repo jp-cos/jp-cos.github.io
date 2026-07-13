@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8260263110000000
   dct:identifier "8260263110000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2482
   ];
@@ -16,20 +16,20 @@ cs:8260263110000000
 燃焼の仕組みについて，空気の変化に着目して，物の燃え方を多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260263111000000, cs:8260263112000000;
-  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000163;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2482 cs:8361213211000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361213211000000
   ], [
-    dct:provenance cs:commentary\/1000163 cs:commentary\/1000163;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
-    rdf:value 2482 cs:8361213211000000 cs:8361223412000000
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361223412000000
   ];
   cs:basicItem [
-    dct:provenance cs:commentary\/1000163 cs:commentary\/1000163 cs:commentary\/1000163;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem cs:StructuredItem;
-    rdf:value 2482 cs:8361213211000000 cs:8361223412000000 cs:8260243110000000
+    dct:provenance cs:commentary\/1000163;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243110000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=82>;

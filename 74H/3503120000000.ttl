@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H3503120000000
   dct:identifier "74H3503120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1717
   ];
   schema:description "イ　説明，評論，物語，随筆などについて，速読したり精読したりするなど目的に応じた読み方をする。また，聞き手に伝わるように音読や暗唱を行う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

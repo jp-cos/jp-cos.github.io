@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431502100000000
   dct:identifier "8431502100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 551
   ];
   schema:description "(1) 地理に関わる諸事象に関して，世界の生活文化の多様性や，防災，地域や地球的課題への取組などを理解するとともに，地図や地理情報システムなどを用いて，調査や諸資料から地理に関する様々な情報を適切かつ効果的に調べまとめる技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

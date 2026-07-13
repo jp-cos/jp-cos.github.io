@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RK505220000000
   dct:identifier "84RK505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7333
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，機密性などの確保，情報資産に対する脅威の種類，組織的な対策の重要性などについて扱うこと。エについては，災害，事故，外部からの侵入などへの物理的対策について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

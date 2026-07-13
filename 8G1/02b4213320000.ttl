@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G102b4213320000
   dct:identifier "8G102b4213320000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2673
   ];
   schema:description "㋑ 目的に応じて使用する筆記具を選び，その特徴を生かして書くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

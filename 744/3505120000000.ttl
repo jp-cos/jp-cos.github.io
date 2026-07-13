@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7443505120000000
   dct:identifier "7443505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 586
   ];
   schema:description "イ　１の目標に即して基本的な事項・事柄を精選して指導内容を構成すること。また，客観的な資料と関連させて政治や経済の諸課題を考察させるとともに，政治や経済についての公正かつ客観的な見方や考え方を深めさせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

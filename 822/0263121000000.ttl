@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220263121000000
   dct:identifier "8220263121000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1556
   ];
   schema:description "(ア) 日本国憲法の基本的な考え方に着目して，我が国の民主政治を捉え，日本国憲法が国民生活に果たす役割や，国会，内閣，裁判所と国民との関わりを考え，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=106>;
   cs:courseOfStudy cs:Elementary\/2017;

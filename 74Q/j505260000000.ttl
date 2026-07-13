@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qj505260000000
   dct:identifier "74Qj505260000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4359
   ];
   schema:description "カ　内容の(6)のア及びイについては，化学工場における基本的な工程管理及び品質管理を扱うこと。ウについては，化学物質及び化学工場に関する基本的な法規の目的と概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

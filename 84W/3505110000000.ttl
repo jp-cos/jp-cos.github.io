@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84W3505110000000
   dct:identifier "84W3505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8997
   ];
   schema:description "ア　看護科に属する各科目と関連付けて，疾病の予防や早期発見，病態と治療，回復の促進に関する基礎的な内容の理解を基に，人間の健康を身体的のみならず，精神的・社会的な側面から統合して考察できるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

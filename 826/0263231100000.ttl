@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260263231100000
   dct:identifier "8260263231100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2518
   ];
   schema:description "(ア) 生物は，水及び空気を通して周囲の環境と関わって生きていること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=92>;
   cs:courseOfStudy cs:Elementary\/2017;

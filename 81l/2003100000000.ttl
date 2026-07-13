@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l2003100000000
   dct:identifier "81l2003100000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 101
   ];
   schema:description "(1) 先生や友達と共に過ごすことの喜びを味わう。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

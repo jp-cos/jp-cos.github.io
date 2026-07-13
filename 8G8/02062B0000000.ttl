@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G802062B0000000
   dct:identifier "8G802062B0000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3420
   ];
   schema:description "サ　〔共通事項〕の(1)のイに示す「用語や記号など」については，小学校学習指導要領第２章第６節音楽の第３の２の(9)に示すものに加え，生徒の実態や学習状況を考慮して，中学校学習指導要領第２章第５節音楽の第３の２の(10)に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

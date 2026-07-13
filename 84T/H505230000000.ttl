@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TH505230000000
   dct:identifier "84TH505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7996
   ];
   schema:description "ウ　〔指導項目〕の(6)のアについては，安全確認や発進・直進・停止，後進及び変針・旋回・蛇行を扱うこと。イについては，人命救助や避航操船及び離岸・着岸を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

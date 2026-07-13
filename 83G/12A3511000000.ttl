@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G12A3511000000
   dct:identifier "83G12A3511000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1484
   ];
   schema:description "ア　ゴール型では，ボール操作と空間に走り込むなどの動きによってゴール前での攻防をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=127>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

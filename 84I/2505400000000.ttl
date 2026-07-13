@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84I2505400000000
   dct:identifier "84I2505400000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3354
   ];
   schema:description "(4) 内容の(4)のアの(ア)及びイの(ア)については，社会の中で実際に稼働している情報システムを取り上げ，それらの仕組みと関連させながら扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

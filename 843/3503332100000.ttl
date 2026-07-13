@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8433503332100000
   dct:identifier "8433503332100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 737
   ];
   schema:description "(ア) 経済危機の背景と影響，国際秩序や政治体制の変化などに着目して，主題を設定し，日本とその他の国や地域の動向を比較したり，相互に関連付けたりするなどして，各国の世界恐慌への対応の特徴，国際協調体制の動揺の要因などを多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

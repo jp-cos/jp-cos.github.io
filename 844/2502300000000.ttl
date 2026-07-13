@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442502300000000
   dct:identifier "8442502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1107
   ];
   schema:description "(3) 人間としての在り方生き方に関わる事象や課題について主体的に追究したり，他者と共によりよく生きる自己を形成しようとしたりする態度を養うとともに，多面的・多角的な考察やより深い思索を通して涵(かん)養される，現代社会に生きる人間としての在り方生き方についての自覚を深める。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I1503310000000
   dct:identifier "74I1503310000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2005
   ];
   schema:description """ア　情報化が社会に及ぼす影響と課題
 　情報化が社会に及ぼす影響を理解させるとともに，望ましい情報社会の在り方と情報技術を適切に活用することの必要性を理解させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

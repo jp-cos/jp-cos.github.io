@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431503111100000
   dct:identifier "8431503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 558
   ];
   schema:description "(ア) 現代世界の地域構成を示した様々な地図の読図などを基に，方位や時差，日本の位置と領域，国内や国家間の結び付きなどについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

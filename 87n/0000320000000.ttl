@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:87n0000320000000
   dct:identifier "87n0000320000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 143
   ];
   schema:description "(2) 児童の身体の動きの状態や認知の特性，各教科の内容の習得状況等を考慮して，指導内容を適切に設定し，重点を置く事項に時間を多く配当するなど計画的に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=20>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

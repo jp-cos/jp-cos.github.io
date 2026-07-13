@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3221100000
   dct:identifier "82102C3221100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 201
   ];
   schema:description "ア　相手や目的を意識して，経験したことや想像したことなどから書くことを選び，集めた材料を比較したり分類したりして，伝えたいことを明確にすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=105>;
   cs:courseOfStudy cs:Elementary\/2017;

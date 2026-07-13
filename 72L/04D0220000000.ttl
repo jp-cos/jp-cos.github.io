@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72L04D0220000000
   dct:identifier "72L04D0220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2719
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2719 2745
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2745
   ];
   schema:description "(2) 日本と外国との生活，習慣，行事などの違いを知り，多様なものの見方や考え方があることに気付くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

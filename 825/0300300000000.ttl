@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8250300300000000
   dct:identifier "8250300300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2282
   ];
   schema:description "３　数学的活動の取組においては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8250300310000000, cs:8250300320000000, cs:8250300330000000, cs:8250300340000000, cs:8250300350000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=340>;
   cs:courseOfStudy cs:Elementary\/2017;

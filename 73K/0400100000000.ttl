@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400100000000
   dct:identifier "73K0400100000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1534
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1534 1534
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1534
   ];
   schema:description "１　主として自分自身に関すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0400100000001, cs:73K0400110000000, cs:73K0400120000000, cs:73K0400130000000, cs:73K0400140000000, cs:73K0400150000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

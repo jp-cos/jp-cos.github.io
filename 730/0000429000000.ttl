@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000429000000
   dct:identifier "7300000429000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 33
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 33 33
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 33
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 33 33 34
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 34
   ];
   schema:description "(9) 海外から帰国した生徒などについては，学校生活への適応を図るとともに，外国における生活経験を生かすなどの適切な指導を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

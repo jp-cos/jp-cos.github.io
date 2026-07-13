@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000241300000
   dct:identifier "8C00000241300000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 160
   ];
   schema:description """(3) 各学年の課程の修了の認定
 学校においては，各学年の課程の修了の認定については，単位制が併用されていることを踏まえ，弾力的に行うよう配慮するものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

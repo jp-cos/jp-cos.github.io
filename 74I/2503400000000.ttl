@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I2503400000000
   dct:identifier "74I2503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2032
   ];
   schema:description "(4) 情報技術の進展と情報モラル";
   schema:edition "一部改正なし";
   schema:hasPart cs:74I2503410000000, cs:74I2503420000000, cs:74I2503430000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

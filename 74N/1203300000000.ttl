@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74N1203300000000
   dct:identifier "74N1203300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8203
   ];
   schema:description "(3) 学業と進路";
   schema:edition "一部改正なし";
   schema:hasPart cs:74N1203310000000, cs:74N1203320000000, cs:74N1203330000000, cs:74N1203340000000, cs:74N1203350000000, cs:74N1203360000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

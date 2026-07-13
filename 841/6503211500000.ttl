@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8416503211500000
   dct:identifier "8416503211500000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 504
   ];
   schema:description "オ　古典の作品や文章について，内容や解釈を自分の知見と結び付け，考えを広げたり深めたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

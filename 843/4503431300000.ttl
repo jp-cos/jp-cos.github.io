@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503431300000
   dct:identifier "8434503431300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 862
   ];
   schema:description "(ウ) 恐慌と国際関係，軍部の台頭と対外政策，戦時体制の強化と第二次世界大戦の展開などを基に，第二次世界大戦に至る過程及び大戦中の政治・社会，国民生活の変容を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

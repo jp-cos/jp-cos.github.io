@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TK505240000000
   dct:identifier "74TK505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6151
   ];
   schema:description "エ　内容の(4)については，各流通段階の役割と機能について扱うこと。ウについては貿易実務の基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

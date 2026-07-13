@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300140000000
   dct:identifier "7210300140000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 240
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 240 249
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 249
   ];
   schema:description "(4) 第２の各学年の内容の「Ｂ書くこと」に関する指導については，第１学年及び第２学年では年間100単位時間程度，第３学年及び第４学年では年間85単位時間程度，第５学年及び第６学年では年間55単位時間程度を配当すること。その際，実際に文章を書く活動をなるべく多くすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

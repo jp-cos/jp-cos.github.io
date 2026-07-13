@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y5502000000000
   dct:identifier "74Y5502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7523
   ];
   schema:description """１　目標
 　人間としての尊厳の保持と自立生活支援の観点から介護過程の意義と役割を理解し，介護過程が展開できる能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

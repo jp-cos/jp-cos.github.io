@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8415503221000000
   dct:identifier "8415503221000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 456
   ];
   schema:description "(1) 書くことに関する次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8415503221100000, cs:8415503221200000, cs:8415503221300000, cs:8415503221400000, cs:8415503221500000, cs:8415503221600000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

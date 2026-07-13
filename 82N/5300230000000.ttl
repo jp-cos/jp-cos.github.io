@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82N5300230000000
   dct:identifier "82N5300230000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3745
   ];
   schema:description "(3) 学校生活への適応や人間関係の形成などについては，主に集団の場面で必要な指導や援助を行うガイダンスと，個々の児童の多様な実態を踏まえ，一人一人が抱える課題に個別に対応した指導を行うカウンセリング（教育相談を含む。）の双方の趣旨を踏まえて指導を行うこと。特に入学当初や各学年のはじめにおいては，個々の児童が学校生活に適応するとともに，希望や目標をもって生活できるよう工夫すること。あわせて，児童の家庭との連絡を密にすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=161>;
   cs:courseOfStudy cs:Elementary\/2017;

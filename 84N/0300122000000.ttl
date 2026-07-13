@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84N0300122000000
   dct:identifier "84N0300122000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10938
   ];
   schema:description "イ　第２に示す内容相互及び各教科・科目，総合的な探究の時間などの指導との関連を図り，生徒による自主的，実践的な活動が助長されるようにすること。特に社会において自立的に生きることができるようにするため，社会の一員としての自己の生き方を探求するなど，人間としての在り方生き方の指導が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

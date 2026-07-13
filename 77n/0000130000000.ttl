@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000130000000
   dct:identifier "77n0000130000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 75
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 75 86
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 86
   ];
   schema:description "(3)児童の視覚障害の状態等に応じて，指導内容を適切に精選し，基礎的・基本的な事項に重点を置くなどして指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

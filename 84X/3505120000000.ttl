@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X3505120000000
   dct:identifier "84X3505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9413
   ];
   schema:description "イ　生徒や地域の実態，学科の特色等に応じて，具体的な課題を設定し，グループ活動を行うことなどを通して，情報共有の有効性や情報管理の重要性，個人及び組織の責任などについて考察するよう留意して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

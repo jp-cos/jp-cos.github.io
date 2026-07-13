@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000524000000
   dct:identifier "7400000524000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 68
   ];
   schema:description "(4) 学校においては，特に必要がある場合には，第２章及び第３章に示す教科及び科目の目標の趣旨を損なわない範囲内で，各教科・科目の内容に関する事項について，基礎的・基本的な事項に重点を置くなどその内容を適切に選択して指導することができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

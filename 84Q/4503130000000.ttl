@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q4503130000000
   dct:identifier "84Q4503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4711
   ];
   schema:description "(3) 情報機器を活用した設計製図";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Q4503131000000, cs:84Q4503132000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

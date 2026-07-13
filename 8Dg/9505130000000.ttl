@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dg9505130000000
   dct:identifier "8Dg9505130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1427
   ];
   schema:description "ウ　〔指導項目〕の(1)については，生徒が理学療法に対する興味・関心を高めることができるよう指導方法を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

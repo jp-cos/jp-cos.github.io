@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8469503400000000
   dct:identifier "8469503400000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1979
   ];
@@ -16,7 +16,7 @@ cs:8469503400000000
 宇宙に関する事物・現象についての観察，実験などを通して，次の事項を身に付けることができよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8469503410000000, cs:8469503420000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K0400300000000
   dct:identifier "82K0400300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3480
   ];
   schema:description "Ｃ　主として集団や社会との関わりに関すること";
   schema:edition "一部改正なし";
   schema:hasPart cs:82K0400310000000, cs:82K0400320000000, cs:82K0400330000000, cs:82K0400340000000, cs:82K0400350000000, cs:82K0400360000000, cs:82K0400370000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=54>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G2505600000000
   dct:identifier "84G2505600000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2157
   ];
   schema:description "(6) 内容の(2)のアの(イ)については，実習を行うものとし，呼吸器系及び循環器系の機能については，必要に応じ関連付けて扱う程度とする。また，効果的な指導を行うため，「体育」の「Ｄ水泳」などとの関連を図るよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

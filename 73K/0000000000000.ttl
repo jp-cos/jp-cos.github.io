@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0000000000000
   dct:identifier "73K0000000000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1531
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1531 1531
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1531
   ];
   schema:description "第３章　道　　　徳";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0000000000001, cs:73K0100000000000, cs:73K0300000000000, cs:73K0400000000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

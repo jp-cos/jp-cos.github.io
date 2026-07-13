@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503421200000
   dct:identifier "8435503421200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 963
   ];
   schema:description "(イ) 国際的な分業体制と労働力の移動，イギリスを中心とした自由貿易体制，アジア諸国の植民地化と諸改革などを基に，世界市場の形成とアジア諸国の変容を構造的に理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

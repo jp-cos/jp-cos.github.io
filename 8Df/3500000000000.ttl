@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df3500000000000
   dct:identifier "8Df3500000000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 791
   ];
   schema:description "〔疾病の成り立ちと予防〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Df3502000000000, cs:8Df3503000000000, cs:8Df3505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

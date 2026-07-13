@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QO505230000000
   dct:identifier "84QO505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5378
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，ファクシミリの送受信の原理を扱うこと。イについては，テレビジョンの電波と送受信機の概要及びデジタル放送の特徴を扱うこと。ウについては，通信データの圧縮及び復元の仕組みを扱うこと。エについては，暗号化の理論を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

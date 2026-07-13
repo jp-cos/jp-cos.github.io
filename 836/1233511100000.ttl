@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361233511100000
   dct:identifier "8361233511100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 966
   ];
   schema:description """㋐　水中の物体に働く力
 水圧についての実験を行い，その結果を水の重さと関連付けて理解すること。また，水中にある物体には浮力が働くことを知ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=57>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

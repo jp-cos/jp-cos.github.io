@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361233711200000
   dct:identifier "8361233711200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 989
   ];
   schema:description """㋑　様々な物質とその利用
 物質に関する観察，実験などを通して，日常生活や社会では，様々な物質が幅広く利用されていることを理解するとともに，物質の有効な利用が大切であることを認識すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=70>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

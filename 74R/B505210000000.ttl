@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RB505210000000
   dct:identifier "74RB505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5196
   ];
   schema:description "ア　内容の(1)のアについては，簿記の意味，目的，歴史及び必要性，企業における会計情報の流れ，会計にかかわる職業並びに会計担当者の役割や責任を扱うこと。イについては，貸借対照表の役割及び構成要素の意味を扱うこと。ウについては，損益計算書の役割及び構成要素の意味を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

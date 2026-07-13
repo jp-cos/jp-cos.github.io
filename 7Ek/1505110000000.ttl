@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ek1505110000000
   dct:identifier "7Ek1505110000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2031
   ];
   schema:description "ア  内容の(3)については，内容の(4)との関連を図り，歯科技工士法における基本用語の的確な理解を促すとともに， 罰則規定や諸届についての理解を深めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH12a4221000000
   dct:identifier "8GH12a4221000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3824
   ];
@@ -16,7 +16,7 @@ cs:8GH12a4221000000
 具体的な課題等を設定し，コミュニケーションを行う目的や場面，状況などに応じて，情報を整理しながら考えなどを形成し，これらを表現することを通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GH12a4221100000, cs:8GH12a4221200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

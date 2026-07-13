@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431503221100000
   dct:identifier "8431503221100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 573
   ];
   schema:description "(ア) 世界各地で見られる地球環境問題，資源・エネルギー問題，人口・食料問題及び居住・都市問題などを基に，地球的課題の各地で共通する傾向性や課題相互の関連性などについて大観し理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

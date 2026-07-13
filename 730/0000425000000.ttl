@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000425000000
   dct:identifier "7300000425000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 29
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 29 29
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 29
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 29 29 30
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 30
   ];
   schema:description "(5) 生徒が学校や学級での生活によりよく適応するとともに，現在及び将来の生き方を考え行動する態度や能力を育成することができるよう，学校の教育活動全体を通じ，ガイダンスの機能の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

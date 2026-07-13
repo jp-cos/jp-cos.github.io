@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72802C3221000000
   dct:identifier "72802C3221000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2148
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2148 2157
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2157
   ];
   schema:description "ア　和楽器の音楽を含めた我が国の音楽，郷土の音楽，諸外国に伝わる民謡など生活とのかかわりを感じ取りやすい音楽，劇の音楽，人々に長く親しまれている音楽など，いろいろな種類の楽曲";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

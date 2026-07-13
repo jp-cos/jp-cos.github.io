@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220263312000000
   dct:identifier "8220263312000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1577
   ];
   schema:description "(イ) 我が国は，平和な世界の実現のために国際連合の一員として重要な役割を果たしたり，諸外国の発展のために援助や協力を行ったりしていることを理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=133>;
   cs:courseOfStudy cs:Elementary\/2017;

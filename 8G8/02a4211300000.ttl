@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G802a4211300000
   dct:identifier "8G802a4211300000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3312
   ];
   schema:description "(ウ) 創意工夫を生かした表現をするために必要な次の㋐から㋒までの技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G802a4211310000, cs:8G802a4211320000, cs:8G802a4211330000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

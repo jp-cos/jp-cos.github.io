@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8210300100000000
   dct:identifier "8210300100000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 288
   ];
   schema:description "１　指導計画の作成に当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8210300110000000, cs:8210300120000000, cs:8210300130000000, cs:8210300140000000, cs:8210300150000000, cs:8210300160000000, cs:8210300180000000, cs:8210300190000000, cs:82103001A0000000, cs:82103A0170000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=157>;
   cs:courseOfStudy cs:Elementary\/2017;

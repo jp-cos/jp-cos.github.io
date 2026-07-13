@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000223400000
   dct:identifier "8B00000223400000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 109
   ];
   schema:description "(4) 各教科・科目等又は各教科等の内容等の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000223410000, cs:8B00000223420000, cs:8C00000223430000, cs:8C00000223440000, cs:8G00000223450000, cs:8G00000223460000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y9505210000000
   dct:identifier "74Y9505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7630
   ];
   schema:description "ア　内容の(1)については，情報社会における生活の変化と福祉サービスにおける情報機器の役割や利用状況について具体的な事例を通して扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

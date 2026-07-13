@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442505331000000
   dct:identifier "8442505331000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1149
   ];
   schema:description "(ア) 小学校及び中学校で習得した概念などに関する知識などや，「公共」及びＡで身に付けた選択・判断の手掛かりとなる先哲の思想などを基に，人間としての在り方生き方についての見方・考え方を働かせ，現実社会の倫理的諸課題について探究することができるよう指導すること。また，科目のまとめとして位置付け，適切かつ十分な授業時数を配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U7505110000000
   dct:identifier "74U7505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6401
   ];
   schema:description "ア　内容の(4)については，校内での実習を踏まえて，高齢者と接する機会を設けたり，福祉施設等の見学や実習を取り入れたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

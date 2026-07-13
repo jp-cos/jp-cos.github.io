@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qa503130000000
   dct:identifier "84Qa503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5775
   ];
   schema:description "(3) 排水処理設備";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Qa503131000000, cs:84Qa503132000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

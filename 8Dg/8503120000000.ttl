@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dg8503120000000
   dct:identifier "8Dg8503120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1399
   ];
   schema:description "(2) 地域理学療法各論";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Dg8503121000000, cs:8Dg8503122000000, cs:8Dg8503123000000, cs:8Dg8503124000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

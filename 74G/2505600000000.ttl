@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2505600000000
   dct:identifier "74G2505600000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1368
   ];
   schema:description "(6) 内容の(2)のアについては，思春期と健康，結婚生活と健康及び加齢と健康を取り扱うものとする。また，生殖に関する機能については，必要に応じ関連付けて扱う程度とする。責任感を涵《かん》養することや異性を尊重する態度が必要であること，及び性に関する情報等への適切な対処についても扱うよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

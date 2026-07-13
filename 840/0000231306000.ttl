@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231306000
   dct:identifier "8400000231306000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 30
   ];
   schema:description "看護（基礎看護，人体の構造と機能，疾病の成り立ちと回復の促進，健康支援と社会保障制度，成人看護，老年看護，小児看護，母性看護，精神看護，在宅看護，看護の統合と実践，看護臨地実習，看護情報）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

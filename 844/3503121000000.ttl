@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8443503121000000
   dct:identifier "8443503121000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1171
   ];
   schema:description "ア　少子高齢社会における社会保障の充実・安定化，地域社会の自立と政府，多様な働き方・生き方を可能にする社会，産業構造の変化と起業，歳入・歳出両面での財政健全化，食料の安定供給の確保と持続可能な農業構造の実現，防災と安全・安心な社会の実現などについて，取り上げた課題の解決に向けて政治と経済とを関連させて多面的・多角的に考察，構想し，よりよい社会の在り方についての自分の考えを説明，論述すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

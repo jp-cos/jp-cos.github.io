@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7436503200000000
   dct:identifier "7436503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 482
   ];
@@ -16,7 +16,7 @@ cs:7436503200000000
 　世界の自然環境，資源，産業，人口，都市・村落，生活文化，民族・宗教に関する諸事象の空間的な規則性，傾向性やそれらの要因などを系統地理的に考察させるとともに，現代世界の諸課題について地球的視野から理解させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7436503210000000, cs:7436503220000000, cs:7436503230000000, cs:7436503240000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

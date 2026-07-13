@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8De8505130000000
   dct:identifier "8De8505130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 627
   ];
   schema:description "ウ　〔指導項目〕の(3) 及び(4)については，現代医学と東洋医学の両面から， 病状を総合的に把握して，実際的な施術ができるよう指導すること。また，(3) のアについては，患者の立場に立ち，安全な施術を行うための心構えや実践的な能力が身に付くよう配慮すること。(4)のイについては，臨床実習前施術実技に関する評価を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

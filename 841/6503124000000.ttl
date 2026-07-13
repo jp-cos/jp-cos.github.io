@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8416503124000000
   dct:identifier "8416503124000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 496
   ];
   schema:description "エ　先人のものの見方，感じ方，考え方に親しみ，自分のものの見方，感じ方，考え方を豊かにする読書の意義と効用について理解を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

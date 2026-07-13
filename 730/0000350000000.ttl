@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000350000000
   dct:identifier "7300000350000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 19
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 19 19
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 19
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 19 19 20
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 20
   ];
   schema:description "５　総合的な学習の時間における学習活動により，特別活動の学校行事に掲げる各行事の実施と同様の成果が期待できる場合においては，総合的な学習の時間における学習活動をもって相当する特別活動の学校行事に掲げる各行事の実施に替えることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

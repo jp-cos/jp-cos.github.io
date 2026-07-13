@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1505100000000
   dct:identifier "74G1505100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1329
   ];
   schema:description "(1) 内容の「Ａ体つくり運動」から「Ｈ体育理論」までの領域については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74G1505110000000, cs:74G1505120000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

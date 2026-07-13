@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Df8505240000000
   dct:identifier "7Df8505240000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 933
   ];
   schema:description "エ  内容の(4)については， 施灸の基本及び各種の施灸法を生徒の視覚障害の状態に応じて具体的に指導し， 臨床に生かすことができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

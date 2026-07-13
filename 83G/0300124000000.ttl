@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G0300124000000
   dct:identifier "83G0300124000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1652
   ];
   schema:description "エ　体育分野の内容の「Ｂ器械運動」から「Ｇダンス」までの領域の授業時数は，それらの内容の習熟を図ることができるよう考慮して配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=237>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

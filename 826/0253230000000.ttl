@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8260253230000000
   dct:identifier "8260253230000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2450
   ];
@@ -16,20 +16,20 @@ cs:8260253230000000
 流れる水の働きと土地の変化について，水の速さや量に着目して，それらの条件を制御しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260253231000000, cs:8260253232000000;
-  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000112;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2450 cs:8260263240000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260263240000000
   ];
   cs:basicItem [
-    dct:provenance cs:commentary\/1000112 cs:commentary\/1000112;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
-    rdf:value 2450 cs:8260263240000000 cs:8260243230000000
+    dct:provenance cs:commentary\/1000112;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243230000000
   ], [
-    dct:provenance cs:commentary\/1000112 cs:commentary\/1000112 cs:commentary\/1000117;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem cs:StructuredItem;
-    rdf:value 2450 cs:8260263240000000 cs:8260243230000000 cs:8260243230000000
+    dct:provenance cs:commentary\/1000117;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243230000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=76>;

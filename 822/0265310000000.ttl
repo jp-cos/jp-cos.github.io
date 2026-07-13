@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220265310000000
   dct:identifier "8220265310000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1639
   ];
   schema:citation cs:8220263310000000;
   schema:description "ア　アについては，我が国の国旗と国歌の意義を理解し，これを尊重する態度を養うとともに，諸外国の国旗と国歌も同様に尊重する態度を養うよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=136>;
   cs:courseOfStudy cs:Elementary\/2017;

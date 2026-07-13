@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Eh7505120000000
   dct:identifier "8Eh7505120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1697
   ];
   schema:description "イ　指導に当たっては，情報機器の積極的な活用を図りながら，印刷技術に関する基礎・基本が習得できるよう，他の印刷に関する科目との関連を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8De9505220000000
   dct:identifier "8De9505220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 656
   ];
   schema:description "イ　〔指導項目〕の(2)のイについては，多様な保健理療関連業務を理解するための施設見学や生徒の進路希望に対応した実習ができるように計画すること。ウについては，施術所経営に関する実際的な基礎的な知識が養われるように，臨床経験の豊富な者の話や施術所見学，模擬経営実習などを通して，保険の取扱いの実際を含めて具体的に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dg4505110000000
   dct:identifier "7Dg4505110000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1098
   ];
   schema:description "ア  指導に当たっては， 症例を提示したり， 臨床現場及び福祉施設などの見学を交えたりすることによって，総合的，実際的に理解させるよう取り扱うこと。また，理学療法士と他の職種とのチーム医療の大切さについても触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

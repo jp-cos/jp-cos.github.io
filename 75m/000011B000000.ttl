@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:75m000011B000000
   dct:identifier "75m000011B000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 84
   ];
   schema:description "11  幼児の経験を広めて積極的な態度を養い， 社会性や豊かな人間性をはぐくむために， 学校生活全体を通じて， 幼稚園の幼児などと活動を共にすることを計画的， 組織的に行うとともに，地域の人々などと活動を共にする機会を積極的に設けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

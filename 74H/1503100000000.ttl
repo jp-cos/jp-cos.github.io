@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H1503100000000
   dct:identifier "74H1503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1694
   ];
   schema:description "(1) １の目標に基づき，中学校学習指導要領第２章第９節の第２の２の(1)に示す言語活動を参照しつつ，適切な言語活動を英語で行う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

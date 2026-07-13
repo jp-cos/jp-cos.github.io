@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:82702A3000000000
   dct:identifier "82702A3000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2570
   ];
@@ -16,7 +16,7 @@ cs:82702A3000000000
 １の資質・能力を育成するため，次の内容を指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:82702A3100000000, cs:82702A3200000000, cs:82702A3300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf#page=29>;
   cs:courseOfStudy cs:Elementary\/2017;

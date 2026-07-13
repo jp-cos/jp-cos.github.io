@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322205640000000
   dct:identifier "7322205640000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 355
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 355 355
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 355
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 355 355 361
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 361
   ];
   schema:description "エ  エの「我が国の産業革命」については，イの「富国強兵・殖産興業政策」の下で近代産業が進展したことと関連させて取り扱い，都市や農山漁村の生活に大きな変化が生じたことに気付かせるようにすること。「近代文化」については，伝統的な文化の上に欧米文化を受容して形成されたものであることに気付かせるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

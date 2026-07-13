@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:7361223400000000
   dct:identifier "7361223400000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 674
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 674 674
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 674
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 674 674 680
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 680
   ];
   schema:description """(4) 化学変化と原子・分子
 化学変化についての観察，実験を通して，化合，分解などにおける物質の変化やその量的な関係について理解させるとともに，これらの事物・現象を原子や分子のモデルと関連付けてみる見方や考え方を養う。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7361223410000000, cs:7361223420000000, cs:7361223430000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

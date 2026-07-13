@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GF0202300000000
   dct:identifier "8GF0202300000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3696
   ];
   schema:description "(3) 家族や地域の人々との関わりを考え，家族の一員として，よりよい生活の実現に向けて，生活を工夫し考えようとする実践的な態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84d4503110000000
   dct:identifier "84d4503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10748
   ];
   schema:description """(1) 英語の特徴やきまりに関する事項
 第２章第８節第２款の第４の「論理・表現Ⅰ」（以下この節において「論理・表現Ⅰ」という。）の２の(1)に示す事項について，この科目の１に示す，話すこと［やり取り］の領域における目標を達成するように取り扱うものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

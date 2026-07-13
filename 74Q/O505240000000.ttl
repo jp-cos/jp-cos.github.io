@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QO505240000000
   dct:identifier "74QO505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3728
   ];
   schema:description "エ　内容の(4)のアについては，コンピュータと外部機器との基本的な接続方法を扱うこと。イについては，外部機器を制御する基本的なプログラミングの方法を扱うこと。ウについては，コンピュータによる計測制御システムの概要とファクトリーオートメーションにおける計測技術の基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

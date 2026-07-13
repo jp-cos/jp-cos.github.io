@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74W3502000000000
   dct:identifier "74W3502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6849
   ];
   schema:description """１　目標
 　看護を実践するために必要な疾病，治療及び薬物に関する知識を習得させ，これらと疾病からの回復を促進させるための看護との関連について理解させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

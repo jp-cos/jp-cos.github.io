@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83N0000000000000
   dct:identifier "83N0000000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2136
   ];
   schema:description "第５章　特別活動　　　　　 ";
   schema:edition "一部改正なし";
   schema:hasPart cs:83N0100000000000, cs:83N0200000000000, cs:83N0300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230208-mxt_kyoiku02-100002608_013.pdf#page=158>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

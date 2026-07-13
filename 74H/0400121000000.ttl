@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0400121000000
   dct:identifier "74H0400121000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1801
   ];
   schema:description "ａ　コミュニケーションを円滑にする：";
   schema:edition "一部改正なし";
   schema:hasPart cs:74H0400121100000, cs:74H0400121200000, cs:74H0400121300000, cs:74H0400121400000, cs:74H0400121500000, cs:74H0400121600000, cs:74H0400121700000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

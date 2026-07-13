@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82902C3312000000
   dct:identifier "82902C3312000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2905
   ];
   schema:description "イ　形や色などの感じを基に，自分のイメージをもつこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=82>;
   cs:courseOfStudy cs:Elementary\/2017;

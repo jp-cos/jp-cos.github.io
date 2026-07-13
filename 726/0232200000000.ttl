@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7260232200000000
   dct:identifier "7260232200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1858
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1858 1867
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1867
   ];
   schema:description "(2) 身近に見られる動物や植物，日なたと日陰の地面を比較しながら調べ，見いだした問題を興味・関心をもって追究する活動を通して，生物を愛護する態度を育てるとともに，生物の成長のきまりや体のつくり，生物と環境とのかかわり，太陽と地面の様子との関係についての見方や考え方を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

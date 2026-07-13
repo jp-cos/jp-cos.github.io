@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300213200000
   dct:identifier "7210300213200000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 250
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 250 259
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 259
   ];
   schema:description "(イ) 当該学年より後の学年に配当されている漢字及びそれ以外の漢字については，振り仮名を付けるなど，児童の学習負担に配慮しつつ提示することができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

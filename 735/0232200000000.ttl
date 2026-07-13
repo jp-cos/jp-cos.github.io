@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7350232200000000
   dct:identifier "7350232200000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 558
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 558 558
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 558
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 558 558 564
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 564
   ];
   schema:description "(2) 図形の相似，円周角と中心角の関係や三平方の定理について，観察，操作や実験などの活動を通して理解し，それらを図形の性質の考察や計量に用いる能力を伸ばすとともに，図形について見通しをもって論理的に考察し表現する能力を伸ばす。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

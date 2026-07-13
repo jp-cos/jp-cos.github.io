@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7463505220000000
   dct:identifier "7463505220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 955
   ];
@@ -16,7 +16,7 @@ cs:7463505220000000
 　イの(イ)については，観測者と音源が同一直線上を動く場合を扱うこと。
 　ウの(ア)については，光の速さ，波長，反射，屈折，分散，偏光などを扱い，鏡やレンズの幾何光学的な性質については，基本的な扱いとすること。また，光は横波であることや光のスペクトルにも触れること。(イ)については，ヤングの実験，回折格子及び薄膜の干渉を扱うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

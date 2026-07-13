@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H6503200000000
   dct:identifier "84H6503200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3043
   ];
   schema:description "〔思考力，判断力，表現力等〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H6503210000000, cs:84H6503220000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

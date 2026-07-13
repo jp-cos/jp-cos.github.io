@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:75m0000110000000
   dct:identifier "75m0000110000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 69
   ];
   schema:description "第１　一般的な留意事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:75m0000111000000, cs:75m0000112000000, cs:75m0000113000000, cs:75m0000114000000, cs:75m0000115000000, cs:75m0000116000000, cs:75m0000117000000, cs:75m0000118000000, cs:75m0000119000000, cs:75m000011A000000, cs:75m000011B000000, cs:75m000011C000000, cs:75m000011D000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G602b4221110000
   dct:identifier "8G602b4221110000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3237
   ];
   schema:description "㋐ 土地は，礫，砂，泥，火山灰などからできており，層をつくって広がっているものがあること。また，層には化石が含まれているものがあること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

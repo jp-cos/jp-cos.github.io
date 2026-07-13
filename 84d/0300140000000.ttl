@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0300140000000
   dct:identifier "84d0300140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10826
   ];
   schema:description "(4) 多様な生徒の実態に応じ，生徒の学習負担に配慮しながら，年次ごと及び科目ごとの目標を適切に定め，学校が定める卒業までの指導計画を通して十分に段階を踏みながら，英語科の目標の実現を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

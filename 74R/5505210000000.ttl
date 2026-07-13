@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74R5505210000000
   dct:identifier "74R5505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4992
   ];
   schema:description "ア　内容の(1)のアについては，市場環境の変化に対応してマーケティングの考え方や内容が変化してきたこと及び消費者保護や法令遵守など現代市場における企業の社会的責任を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

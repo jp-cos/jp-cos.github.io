@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000120000000
   dct:identifier "8B00000120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4
   ];
   schema:description "２　生徒の障害による学習上又は生活上の困難を改善・克服し自立を図るために必要な知識，技能，態度及び習慣を養うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

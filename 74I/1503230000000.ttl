@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I1503230000000
   dct:identifier "74I1503230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2003
   ];
   schema:description """ウ　情報通信ネットワークの活用とコミュニケーション
 　情報通信ネットワークの特性を踏まえ，効果的なコミュニケーションの方法を習得させるとともに，情報の受信及び発信時に配慮すべき事項を理解させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q6505220000000
   dct:identifier "84Q6505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4783
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，工業材料の化学結合の原理及び結晶構造を扱うこと。イについては，工業材料の変形及び流動を化学結合や組織と関連付けて扱うこと。ウについては，工業材料の結晶構造と機械的，物理的，化学的性質との関連性を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

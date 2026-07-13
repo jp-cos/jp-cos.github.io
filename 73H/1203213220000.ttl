@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1203213220000
   dct:identifier "73H1203213220000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1432
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1432 1432
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1432
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1432 1432 1438
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1438
   ];
   schema:description "ｂ　気持ちを伝える";
   schema:edition "一部改正なし";
   schema:hasPart cs:73H1203213221000, cs:73H1203213222000, cs:73H1203213223000, cs:73H1203213224000, cs:73H1203213225000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

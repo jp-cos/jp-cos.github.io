@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I2503320000000
   dct:identifier "74I2503320000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2030
   ];
   schema:description """イ　情報の蓄積・管理とデータベース
 情報を蓄積し管理・検索するためのデータベースの概念を理解させ，問題解決にデータベースを活用できるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7100000120000000
   dct:identifier "7100000120000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 7
   ];
   schema:description "　その際，教師は，幼児の主体的な活動が確保されるよう幼児一人一人の行動の理解と予想に基づき，計画的に環境を構成しなければならない。この場合において，教師は，幼児と人やものとのかかわりが重要であることを踏まえ，物的・空間的環境を構成しなければならない。また，教師は，幼児一人一人の活動の場面に応じて，様々な役割を果たし，その活動を豊かにしなければならない。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000120000000
   dct:identifier "77n0000120000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 74
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 74 85
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 85
   ];
   schema:description "(2) 児童の視覚障害の状態等に応じて， 点字又は普通の文字の読み書きを系統的に指導し， 習熟させること。 なお， 点字を常用して学習する児童に対しても， 漢字・漢語の理解を促すため， 児童の発達の段階等に応じて適切な指導が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

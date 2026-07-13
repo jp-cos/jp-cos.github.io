@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7435503110000000
   dct:identifier "7435503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 452
   ];
   schema:description """ア　地球儀や地図からとらえる現代世界
 　地球儀と世界地図との比較，様々な世界地図の読図などを通して，地理的技能を身に付けさせるとともに，方位や時差，日本の位置と領域，国家間の結び付きなどについてとらえさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

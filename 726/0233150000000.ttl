@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260233150000000
   dct:identifier "7260233150000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1873
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1873 1882
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1882
   ];
   schema:description """(5) 電気の通り道
 　乾電池に豆電球などをつなぎ，電気を通すつなぎ方や電気を通す物を調べ，電気の回路についての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260233151000000, cs:7260233152000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

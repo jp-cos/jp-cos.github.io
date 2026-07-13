@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84J1505100000000
   dct:identifier "84J1505100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3394
   ];
   schema:description "(1) 実施に当たっては，次のような事象等の探究の過程を通して，内容に示す基本的な知識及び技能や思考力，判断力，表現力等を身に付けるようにするものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84J1505110000000, cs:84J1505120000000, cs:84J1505130000000, cs:84J1505140000000, cs:84J1505150000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

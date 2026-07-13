@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G602b4360000000
   dct:identifier "8G602b4360000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3279
   ];
   schema:description "カ  (2)の「Ｃ物質・エネルギー」のエの「電気の利用」の(ア)の㋐については， 電気をつくりだす道具として，手回し発電機，光電池などを扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

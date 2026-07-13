@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G12A3710000000
   dct:identifier "83G12A3710000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1497
   ];
   schema:description "(1) 次の運動について，感じを込めて踊ったりみんなで踊ったりする楽しさや喜びを味わい，ダンスの特性や由来，表現の仕方，その運動に関連して高まる体力などを理解するとともに，イメージを捉えた表現や踊りを通した交流をすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G12A3711000000, cs:83G12A3712000000, cs:83G12A3713000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=174>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

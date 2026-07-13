@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72L03D0170000000
   dct:identifier "72L03D0170000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2729
   ];
   schema:description "(7) 第１章総則の第１の２及び第３章道徳の第１に示す道徳教育の目標に基づき，道徳の時間などとの関連を考慮しながら，第３章道徳の第２に示す内容について，外国語活動の特質に応じて適切な指導をすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72L03D0170000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

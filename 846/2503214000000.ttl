@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8462503214000000
   dct:identifier "8462503214000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1612
   ];
   schema:description "(エ) エネルギーとその利用";
   schema:edition "一部改正なし";
   schema:hasPart cs:8462503214100000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

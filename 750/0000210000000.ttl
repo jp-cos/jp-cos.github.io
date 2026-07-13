@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7500000210000000
   dct:identifier "7500000210000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 9
   ];
   schema:description "幼稚部では， 家庭との連携を図りながら， 幼児の障害の状態や発達の程度を考慮し，  この章の第１に示す幼稚部における教育の基本に基づいて展開される学校生活を通して， 生きる力の基礎を育成するよう次の目標の達成に努めなければならない。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7500000211000000, cs:7500000212000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

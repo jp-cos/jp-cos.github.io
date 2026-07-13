@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88902c4221100000
   dct:identifier "88902c4221100000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 935
   ];
   schema:description "(ア) 自分たちの作品や，日常生活の中にあるものなどの形や色，表し方の面白さなどについて，感じ取り，自分の見方や感じ方を広げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=213>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

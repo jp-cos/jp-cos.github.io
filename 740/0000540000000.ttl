@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000540000000
   dct:identifier "7400000540000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 77
   ];
   schema:description "４　職業教育に関して配慮すべき事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000541000000, cs:7400000542000000, cs:7400000543000000, cs:7400000544000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

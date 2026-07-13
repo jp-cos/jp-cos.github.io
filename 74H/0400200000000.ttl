@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0400200000000
   dct:identifier "74H0400200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1841
   ];
   schema:description "２　英語に関する各科目の２の(1)に示す言語活動を行うに当たっては，中学校学習指導要領第２章第９節第２の２の(3)及び次に示す言語材料の中から，それぞれの科目の目標を達成するのにふさわしいものを適宜用いて行わせる。その際，「コミュニケーション英語Ⅰ」においては，言語活動と効果的に関連付けながら，ウに掲げるすべての事項を適切に取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74H0400210000000, cs:74H0400220000000, cs:74H0400230000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

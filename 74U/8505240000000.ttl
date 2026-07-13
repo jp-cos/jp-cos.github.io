@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U8505240000000
   dct:identifier "74U8505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6434
   ];
   schema:description "エ　内容の(4)のアについては，庭などの外部空間や住居と自然環境や社会環境とのかかわりなどについて扱うこと。イについては，子どもや高齢者などが安全に生活するための住空間の構成や維持管理などについて扱うこと。また，ウについては，家族の構成や状況の変化に応じた住居の間取りの変更やバリアフリーな住空間へのリフォームを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

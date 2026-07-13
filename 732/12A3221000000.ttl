@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A3221000000
   dct:identifier "73212A3221000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 256
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 256 256
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 256
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 256 256 262
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 262
   ];
   schema:description """(ア) 自然環境
 　世界的視野から日本の地形や気候の特色，海洋に囲まれた日本の国土の特色を理解させるとともに，国内の地形や気候の特色，自然災害と防災への努力を取り上げ，日本の自然環境に関する特色を大観させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

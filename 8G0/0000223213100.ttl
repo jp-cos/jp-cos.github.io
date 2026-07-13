@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G00000223213100
   dct:identifier "8G00000223213100";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 94
   ];
   schema:description "㋐ 専門学科においては，(イ)のほか，家政，農業，工業，流通・サービス若しくは福祉の各教科又は(エ)に規定する学校設定教科のうち専門教育に関するもの（以下「専門教科」という。）のうち，いずれか１以上履修させるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

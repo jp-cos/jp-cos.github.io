@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72G02A3600000000
   dct:identifier "72G02A3600000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2467
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2467 2476
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2476
   ];
   schema:description "Ｆ　表現リズム遊び";
   schema:edition "一部改正なし";
   schema:hasPart cs:72G02A3610000000, cs:72G02A3620000000, cs:72G02A3630000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

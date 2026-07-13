@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Eh4505110000000
   dct:identifier "8Eh4505110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1606
   ];
   schema:description "ア　指導に当たっては，印刷産業における実践的な知識と技術の習得を図るよう，生徒や学校の実態に応じて，適切なアプリケーションソフトウェアを選択し指導すること。また，実習を通し，情報メディアの編集処理に関わる技術を著作権など知的財産の取扱いにも留意して習得させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

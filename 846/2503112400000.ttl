@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8462503112400000
   dct:identifier "8462503112400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1596
   ];
   schema:description """㋓　物体の落下運動
 物体が落下する際の運動の特徴及び物体に働く力と運動との関係について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

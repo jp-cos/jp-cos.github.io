@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000242400000
   dct:identifier "7600000242400000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 45
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 45 46
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 46
   ];
   schema:description "(4) 各教科等の指導に当たっては， 体験的な学習や基礎的・基本的な知識及び技能を活用した問題解決的な学習を重視するとともに，児童又は生徒の興味・関心を生かし，  自主的，  自発的な学習が促されるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

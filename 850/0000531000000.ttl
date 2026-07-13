@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000531000000
   dct:identifier "8500000531000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 54
   ];
   schema:description "(1)  長期的に発達を見通した年，学期，月などにわたる長期の指導計画やこれとの関連を保ちながらより具体的な幼児の生活に即した週，日などの短期の指導計画を作成し，適切な指導が行われるようにすること。特に，週，日などの短期の指導計画については，幼児の生活のリズムに配慮し，幼児の意識や興味の連続性のある活動が相互に関連して幼稚部における生活の自然な流れの中に組み込まれるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

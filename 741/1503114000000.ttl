@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411503114000000
   dct:identifier "7411503114000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 128
   ];
   schema:description "エ　話したり聞いたり話し合ったりしたことの内容や表現の仕方について自己評価や相互評価を行い，自分の話し方や言葉遣いに役立てるとともに，ものの見方，感じ方，考え方を豊かにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

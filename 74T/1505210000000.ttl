@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T1505210000000
   dct:identifier "74T1505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5531
   ];
   schema:description "ア　内容の(1)については，河川，湖沼等陸水も含め，海と人間とのかかわり，我が国の食生活における水産物の意義や役割，水産資源及び海洋環境の保全と管理，海洋関連法規などについて，基礎的な内容を扱うこと。エについては，魚介類の飼育や観察などの基礎的な内容を扱うこと。オについては，海や地域の陸水の環境調査などを通して，海や河川の水質保全などの基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

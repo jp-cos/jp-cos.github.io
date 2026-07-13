@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8443505234000000
   dct:identifier "8443505234000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1196
   ];
   schema:description "(エ) (1)のアの(イ)については，分業と交換，希少性などに関する小・中学校社会科及び「公共」の学習との関連性に留意して指導すること。また，事項の全体を通して日本経済のグローバル化をはじめとする経済生活の変化，現代経済の仕組みや機能について扱うとともに，その特質を捉え，経済についての概念や理論についての理解を深めることができるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

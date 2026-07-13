@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F1503122000000
   dct:identifier "84F1503122000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3109
   ];
   schema:description "イ　家庭や地域のよりよい生活を創造するために，自己の意思決定に基づき，責任をもって行動することや，男女が協力して，家族の一員としての役割を果たし家庭を築くことの重要性について考察すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

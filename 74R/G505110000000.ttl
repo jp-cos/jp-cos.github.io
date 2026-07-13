@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RG505110000000
   dct:identifier "74RG505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5358
   ];
   schema:description "ア　指導に当たっては，具体的な事例を通して，個人のプライバシーや著作権など知的財産の保護，収集した情報の管理，発信する情報に対する責任などの情報モラルについて理解させること。また，ビジネスの諸活動において，情報を扱う者の役割や責任について考えさせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

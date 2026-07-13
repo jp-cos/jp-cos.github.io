@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H1503211000000
   dct:identifier "84H1503211000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2790
   ];
   schema:description "ア　日常的な話題や社会的な話題について，英語を聞いたり読んだりして，情報や考えなどの概要や要点，詳細，話し手や書き手の意図などを的確に捉えたり，自分自身の考えをまとめたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

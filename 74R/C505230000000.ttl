@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RC505230000000
   dct:identifier "74RC505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5229
   ];
   schema:description "ウ　内容の(3)のアについては，経常損益計算と特別損益計算の概念及び各種利益の意味を扱うこと。ウについては，各損益項目の処理方法及び基本的な資料により報告式の損益計算書を作成する方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

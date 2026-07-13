@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503530000000
   dct:identifier "7432503530000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 361
   ];
   schema:description """ウ　米ソ冷戦と第三世界
 　米ソ両陣営による冷戦の展開，戦後の復興と経済発展，アジア・アフリカ諸国の独立とその後の課題，平和共存の模索などを理解させ，第二次世界大戦後から1960年代までの世界の動向について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

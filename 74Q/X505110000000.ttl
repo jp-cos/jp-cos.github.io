@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QX505110000000
   dct:identifier "74QX505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3983
   ];
   schema:description "ア　指導に当たっては，建築構造に関連した模型を用いた実験や各種メディア教材の活用により，力学的な現象を視覚的に理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

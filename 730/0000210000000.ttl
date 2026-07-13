@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000210000000
   dct:identifier "7300000210000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 7
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 7 7
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 7
   ];
   schema:description "１　第２章以下に示す各教科，道徳及び特別活動の内容に関する事項は，特に示す場合を除き，いずれの学校においても取り扱わなければならない。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7300000210000001;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

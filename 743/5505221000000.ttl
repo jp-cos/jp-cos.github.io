@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7435505221000000
   dct:identifier "7435505221000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 472
   ];
   schema:description "(ア) アからウまでの項目については，地図の読図や作図などを主とした作業的，体験的な学習を取り入れるとともに，各項目を関連付けて地理的技能が身に付くよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

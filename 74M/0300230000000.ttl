@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74M0300230000000
   dct:identifier "74M0300230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8179
   ];
   schema:description "(3) 自然体験や就業体験活動，ボランティア活動などの社会体験，ものづくり，生産活動などの体験活動，観察・実験・実習，調査・研究，発表や討論などの学習活動を積極的に取り入れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

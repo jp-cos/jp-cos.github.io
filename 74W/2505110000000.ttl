@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74W2505110000000
   dct:identifier "74W2505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6843
   ];
   schema:description "ア　指導に当たっては，「疾病と看護」，「生活と看護」の内容構成を踏まえ，人間を身体的・精神的・社会的に統合された存在として理解を深めることができるように工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

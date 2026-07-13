@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0400112000000
   dct:identifier "74H0400112000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1789
   ];
   schema:description "ｂ　生徒の身近な暮らしや社会での暮らしにかかわる場面：";
   schema:edition "一部改正なし";
   schema:hasPart cs:74H0400112100000, cs:74H0400112200000, cs:74H0400112300000, cs:74H0400112400000, cs:74H0400112500000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

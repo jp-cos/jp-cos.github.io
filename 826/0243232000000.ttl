@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260243232000000
   dct:identifier "8260243232000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2393
   ];
   schema:description "イ　雨水の行方と地面の様子について追究する中で，既習の内容や生活経験を基に，雨水の流れ方やしみ込み方と地面の傾きや土の粒の大きさとの関係について，根拠のある予想や仮説を発想し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=61>;
   cs:courseOfStudy cs:Elementary\/2017;

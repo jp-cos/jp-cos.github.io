@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TB505210000000
   dct:identifier "74TB505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5848
   ];
   schema:description "ア　内容の(1)については，直流回路と交流回路における諸定理や計算方法の基礎的な内容を扱うこと。エについては，正弦波交流を中心として扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

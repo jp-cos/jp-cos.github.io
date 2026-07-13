@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74B8502000000000
   dct:identifier "74B8502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1565
   ];
   schema:description """１　目標
 　工芸の創造的な諸活動を通して，美的体験を豊かにし，生涯にわたり工芸を愛好する心情と生活を心豊かにするために工夫する態度を育てるとともに，感性を高め，個性豊かな表現と鑑賞の能力を伸ばし，工芸の伝統と文化についての理解を深める。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

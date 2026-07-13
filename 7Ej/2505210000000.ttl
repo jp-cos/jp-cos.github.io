@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ej2505210000000
   dct:identifier "7Ej2505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1862
   ];
   schema:description "ア  内容の(2)については， 水， 空気，  日光や衣食住などへの関心を深め， 公害や環境汚染と環境衛生活動とのかかわりについて理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Z0300130000000
   dct:identifier "84Z0300130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10161
   ];
   schema:description "(3) 理数に関する学科においては，「理数物理」，「理数化学」，「理数生物」及び「理数地学」のうちから，原則として３科目以上を全ての生徒に履修させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

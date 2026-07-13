@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000330000000
   dct:identifier "7300000330000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 17
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 17 17
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 17
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 17 17 18
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 18
   ];
   schema:description "３　各教科等のそれぞれの授業の１単位時間は，各学校において，各教科等の年間授業時数を確保しつつ，生徒の発達の段階及び各教科等や学習活動の特質を考慮して適切に定めるものとする。なお，10分間程度の短い時間を単位として特定の教科の指導を行う場合において，当該教科を担当する教師がその指導内容の決定や指導の成果の把握と活用等を責任をもって行う体制が整備されているときは，その時間を当該教科の年間授業時数に含めることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

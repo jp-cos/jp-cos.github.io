@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH02b4120000000
   dct:identifier "8GH02b4120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3890
   ];
   schema:description "イ  コミュニケーションを行う目的や場面，状況などに応じて，身近で簡単な事柄について，聞いたり話したりするとともに，音声で十分に慣れ親しんだ外国語の語彙などが表す事柄を想像しながら読んだり書いたりして， 自分の考えや気持ちなどを伝え合うことができる基礎的な力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84B4503300000000
   dct:identifier "84B4503300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2373
   ];
@@ -16,7 +16,7 @@ cs:84B4503300000000
 表現及び鑑賞の学習において共通に必要となる資質・能力を次のとおり育成する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84B4503310000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

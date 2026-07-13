@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q4502300000000
   dct:identifier "84Q4502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4704
   ];
   schema:description "(3) 工業の各分野における部品や製品の図面の作成及び図面から製作情報を読み取る力の向上を目指して自ら学び，工業の発展に主体的かつ協働的に取り組む態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

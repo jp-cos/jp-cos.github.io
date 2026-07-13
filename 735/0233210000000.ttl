@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7350233210000000
   dct:identifier "7350233210000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 587
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 587 587
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 587
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 587 587 593
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 593
   ];
   schema:description "(1) 図形の性質を三角形の相似条件などを基にして確かめ，論理的に考察し表現する能力を伸ばし，相似な図形の性質を用いて考察することができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7350233211000000, cs:7350233212000000, cs:7350233213000000, cs:7350233214000000, cs:7350233215000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

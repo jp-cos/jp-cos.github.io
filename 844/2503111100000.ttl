@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442503111100000
   dct:identifier "8442503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1112
   ];
   schema:description "(ア) 個性，感情，認知，発達などに着目して，豊かな自己形成に向けて，他者と共によりよく生きる自己の生き方についての思索を深めるための手掛かりとなる様々な人間の心の在り方について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

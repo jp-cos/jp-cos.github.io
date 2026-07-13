@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74P4505110000000
   dct:identifier "74P4505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2138
   ];
   schema:description "ア　内容の(1)については，農業分野を中心に産業社会における情報の活用の具体的な事例を通して，情報の意義を理解させるとともに，農業の各分野における情報の役割について関心をもたせること。 ";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

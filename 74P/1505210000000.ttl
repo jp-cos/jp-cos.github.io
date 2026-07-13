@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74P1505210000000
   dct:identifier "74P1505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2084
   ];
   schema:description "ア　内容の(1)については，食料の生産と供給をはじめとした農業の多面的な役割，生態系における物質循環，地域環境や地球環境と人間生活との相互関係及び農業の動向と課題について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

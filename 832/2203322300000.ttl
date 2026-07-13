@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8322203322300000
   dct:identifier "8322203322300000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 478
   ];
   schema:description "(ウ) これまでの学習を踏まえ，歴史と私たちとのつながり，現在と未来の日本や世界の在り方について，課題意識をもって多面的・多角的に考察，構想し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=124>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

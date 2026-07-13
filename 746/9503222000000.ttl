@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7469503222000000
   dct:identifier "7469503222000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1197
   ];
   schema:description """(イ) 地層の観察
 　地層に関する野外観察や実験などを通して，地質時代における地球環境や地殻変動について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8G00000242000000
   dct:identifier "8G00000242000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 161
   ];
@@ -16,7 +16,7 @@ cs:8G00000242000000
 学校においては，卒業までに履修させる各教科等のそれぞれの授業時数を定めるものとする。
 校長は，各教科等を履修した者で，その成果がそれらの目標からみて満足できると認められるものについて，高等部の全課程の修了を認定するものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

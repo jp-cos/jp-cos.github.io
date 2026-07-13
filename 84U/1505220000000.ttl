@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U1505220000000
   dct:identifier "84U1505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8249
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，経済の発展に伴い，就労形態や価値観，ライフスタイルが多様化している状況を扱うこと。また，社会の変化の一つとして人口減少社会についても取り上げること。イについては，社会の変化に伴う生活に関する価値観の多様化や消費者の多様なニーズに応えるために生活産業が発展している状況及び伝統産業の現状と課題や今後の展望を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

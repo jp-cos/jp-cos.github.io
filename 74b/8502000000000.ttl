@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74b8502000000000
   dct:identifier "74b8502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7943
   ];
   schema:description """１　目標
 　音楽作品や作曲家，演奏などについての鑑賞研究を通して，音楽に対する理解を深め，音楽や音楽文化を尊重する態度を養い，批評する能力を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

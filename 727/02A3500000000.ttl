@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72702A3500000000
   dct:identifier "72702A3500000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2040
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2040 2049
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2049
   ];
   schema:description "(5) 身近な自然を観察したり，季節や地域の行事にかかわる活動を行ったりなどして，四季の変化や季節によって生活の様子が変わることに気付き，自分たちの生活を工夫したり楽しくしたりできるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

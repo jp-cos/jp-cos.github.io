@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0300180000000
   dct:identifier "84d0300180000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10830
   ];
   schema:description "(8) 言語活動で扱う題材は，生徒の興味・関心に合ったものとし，第２章に示す国語科や地理歴史科，理科など，他の教科等で学習した内容と関連付けるなどして，英語を用いて課題解決を図る力を育成する工夫をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

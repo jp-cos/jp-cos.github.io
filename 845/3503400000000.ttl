@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8453503400000000
   dct:identifier "8453503400000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1392
   ];
   schema:description """〔課題学習〕
 (1)から(3)までの内容又はそれらを相互に関連付けた内容を生活と関連付けたり発展させたりするなどした課題を設け，生徒の主体的な学習を促し，数学のよさを認識させ，学習意欲を含めた数学的に考える資質・能力を高めるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

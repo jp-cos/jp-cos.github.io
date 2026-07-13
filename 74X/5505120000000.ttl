@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X5505120000000
   dct:identifier "74X5505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7204
   ];
   schema:description "イ　指導に当たっては，具体的な事例を通して，情報技術の歴史的な変遷及び国際標準や業界標準となっている技術について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503711000000
   dct:identifier "84G1503711000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2072
   ];
   schema:description "ア　創作ダンスでは，表したいテーマにふさわしいイメージを捉え，個や群で，対極の動きや空間の使い方で変化を付けて即興的に表現したり，イメージを強調した作品にまとめたりして踊ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

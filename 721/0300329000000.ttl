@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300329000000
   dct:identifier "7210300329000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 264
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 264 273
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 273
   ];
   schema:description "ケ　日本人としての自覚をもって国を愛し，国家，社会の発展を願う態度を育てるのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

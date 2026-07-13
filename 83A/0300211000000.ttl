@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83A0300211000000
   dct:identifier "83A0300211000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1419
   ];
   schema:description "ア　〔共通事項〕のアの指導に当たっては，造形の要素などに着目して，次の事項を実感的に理解できるようにすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83A0300211100000, cs:83A0300211200000, cs:83A0300211300000, cs:83A0300211400000, cs:83A0300211500000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=129>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GG02b4212000000
   dct:identifier "8GG02b4212000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3564
   ];
   schema:description "イ　体ほぐしの運動や体の動きを高める運動についての自他の課題を発見し，よりよい解決のために仲間と思考し判断したことを，目的や状況に応じて他者に伝えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

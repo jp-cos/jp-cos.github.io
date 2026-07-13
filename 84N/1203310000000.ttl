@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203310000000
   dct:identifier "84N1203310000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10910
   ];
   schema:description """ア　学校生活と社会的・職業的自立の意義の理解
 現在及び将来の生活や学習と自己実現とのつながりを考えたり，社会的・職業的自立の意義を意識したりしながら，学習の見通しを立て，振り返ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

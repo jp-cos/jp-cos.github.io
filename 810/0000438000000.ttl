@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000438000000
   dct:identifier "8100000438000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 57
   ];
   schema:description "(8) 幼児の行う活動は，個人，グループ，学級全体などで多様に展開されるものであることを踏まえ，幼稚園全体の教師による協力体制を作りながら，一人一人の幼児が興味や欲求を十分に満足させるよう適切な援助を行うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

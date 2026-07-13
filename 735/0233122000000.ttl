@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7350233122000000
   dct:identifier "7350233122000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 569
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 569 569
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 569
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 569 569 575
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 575
   ];
   schema:description "イ　簡単な一次式の乗法の計算及び次の公式を用いる簡単な式の展開や因数分解をすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7350233122100000, cs:7350233122200000, cs:7350233122300000, cs:7350233122400000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

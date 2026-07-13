@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U1505210000000
   dct:identifier "74U1505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6252
   ];
   schema:description "ア　内容の(1)のアについては，サービス産業の発展などを扱うこと。イについては，経済の発展に伴う就労形態や価値観，ライフスタイルが多様化している状況を扱うこと。ウについては，社会の変化に伴う生活に関する価値観の多様化や消費者の多様なニーズにこたえるために生活産業が発展している状況を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

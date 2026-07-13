@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73M0300140000000
   dct:identifier "73M0300140000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1586
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1586 1586
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1586
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1586 1586 1593
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1593
   ];
   schema:description "(4) 育てようとする資質や能力及び態度については，例えば，学習方法に関すること，自分自身に関すること，他者や社会とのかかわりに関することなどの視点を踏まえること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

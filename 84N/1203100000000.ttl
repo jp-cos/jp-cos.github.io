@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203100000000
   dct:identifier "84N1203100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10899
   ];
   schema:description "(1) ホームルームや学校における生活づくりへの参画";
   schema:edition "一部改正なし";
   schema:hasPart cs:84N1203110000000, cs:84N1203120000000, cs:84N1203130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7323235130000000
   dct:identifier "7323235130000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 384
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 384 384
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 384
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 384 384 390
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 390
   ];
   schema:description "ウ　分野全体を通して，習得した知識を活用して，社会的事象について考えたことを説明させたり，自分の意見をまとめさせたりすることにより，思考力，判断力，表現力等を養うこと。また，考えさせる場合には，資料を読み取らせて解釈させたり，議論などを行って考えを深めさせたりするなどの工夫をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

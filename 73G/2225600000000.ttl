@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73G2225600000000
   dct:identifier "73G2225600000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1233
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1233 1233
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1233
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1233 1233 1239
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1239
   ];
   schema:description "(6) 内容の(3)のエについては，包帯法，止血法など傷害時の応急手当も取り扱い，実習を行うものとする。また，効果的な指導を行うため，水泳など体育分野の内容との関連を図るものとする。　";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

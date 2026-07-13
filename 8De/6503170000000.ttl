@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8De6503170000000
   dct:identifier "8De6503170000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 546
   ];
   schema:description "(7) 高齢者に対する保健理療施術";
   schema:edition "一部改正なし";
   schema:hasPart cs:8De6503171000000, cs:8De6503172000000, cs:8De6503173000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

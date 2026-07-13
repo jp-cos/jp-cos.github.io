@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260242230000000
   dct:identifier "8260242230000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2360
   ];
   schema:description "③　人の体のつくりと運動，動物の活動や植物の成長と環境との関わり，雨水の行方と地面の様子，気象現象，月や星について追究する中で，生物を愛護する態度や主体的に問題解決しようとする態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=50>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000515000000
   dct:identifier "8600000515000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 84
   ];
   schema:description "(5) 家庭及び地域並びに医療，福祉，保健，労働等の業務を行う関係機関との連携を図り，長期的な視点で児童又は生徒への教育的支援を行うために，個別の教育支援計画を作成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=289>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

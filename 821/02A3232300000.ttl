@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3232300000
   dct:identifier "82102A3232300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 158
   ];
   schema:description "ウ　学校図書館などを利用し，図鑑や科学的なことについて書いた本などを読み，分かったことなどを説明する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=78>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503212000000
   dct:identifier "8441503212000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1068
   ];
   schema:description "(イ) 政治参加と公正な世論の形成，地方自治，国家主権，領土（領海，領空を含む。），我が国の安全保障と防衛，国際貢献を含む国際社会における我が国の役割などに関わる現実社会の事柄や課題を基に，よりよい社会は，憲法の下，個人が議論に参加し，意見や利害の対立状況を調整して合意を形成することなどを通して築かれるものであることについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

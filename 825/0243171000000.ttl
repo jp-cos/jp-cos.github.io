@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8250243171000000
   dct:identifier "8250243171000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1972
   ];
   schema:description "ア　次のような知識及び技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8250243171100000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=205>;
   cs:courseOfStudy cs:Elementary\/2017;

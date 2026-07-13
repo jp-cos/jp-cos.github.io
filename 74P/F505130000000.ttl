@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PF505130000000
   dct:identifier "74PF505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2562
   ];
   schema:description "ウ　内容の(7)については，内容の(1)から(6)までと並行してあるいはそれらの内容を学習した後に取り扱うこと";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

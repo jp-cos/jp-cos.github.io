@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84T4505240000000
   dct:identifier "84T4505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7454
   ];
   schema:description "エ　〔指導項目〕の(5)のアについては，海洋に関する環境情報システム，気象や海象に関するデータ収集や分析などのシステム，船舶運航や管理，通信に関するシステムについて扱うこと。イについては，沿岸と海中の安全救助や監視に関する情報システムについて扱うこと。ウについては，資源管理，水産物の取引，食品流通に関する情報システムについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

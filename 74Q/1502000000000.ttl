@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Q1502000000000
   dct:identifier "74Q1502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3080
   ];
   schema:description """１　目標
 　工業に関する基礎的技術を実験・実習によって体験させ，各専門分野における技術への興味・関心を高め，工業の意義や役割を理解させるとともに，工業に関する広い視野と倫理観をもって工業の発展を図る意欲的な態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

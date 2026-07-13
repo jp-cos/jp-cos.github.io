@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7466505130000000
   dct:identifier "7466505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1079
   ];
   schema:description "ウ　内容の(1)のアの(ア)については，この科目の導入として位置付け，以後の学習においても，生物についての共通性と多様性の視点を意識させるよう展開すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

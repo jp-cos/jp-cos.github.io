@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PB502300000000
   dct:identifier "84PB502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3809
   ];
   schema:description "(3) 飼育と環境について農業生物の飼育や管理に応用できるよう自ら学び，農業の振興や社会貢献に主体的かつ協働的に取り組む態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

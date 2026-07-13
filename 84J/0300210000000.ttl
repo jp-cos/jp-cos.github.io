@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84J0300210000000
   dct:identifier "84J0300210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3437
   ];
   schema:description "(1) 探究の過程における観察，実験などの内容やその中で生じた疑問，それに対する自らの思考の過程などを記録させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

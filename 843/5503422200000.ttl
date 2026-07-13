@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503422200000
   dct:identifier "8435503422200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 966
   ];
   schema:description "(イ) 世界市場の形成とアジア諸国の動向に関わる諸事象の背景や原因，結果や影響，事象相互の関連，諸地域相互のつながりなどに着目し，主題を設定し，諸資料を比較したり関連付けたりして読み解き，労働力の移動を促す要因，イギリスの覇権の特徴，アジア諸国の変容の地域的な特徴などを多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

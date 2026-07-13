@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503540000000
   dct:identifier "8435503540000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 997
   ];
@@ -16,7 +16,7 @@ cs:8435503540000000
 次の①から③までについて，内容のＡ，Ｂ，Ｃ及びＤ並びにＥの(1)から(3)までの学習を基に，持続可能な社会の実現を視野に入れ，主題を設定し，諸資料を活用し探究する活動を通して，以下のア及びイの事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8435503540100000, cs:8435503540200000, cs:8435503540300000, cs:8435503541000000, cs:8435503542000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

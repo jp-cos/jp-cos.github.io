@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qs505240000000
   dct:identifier "74Qs505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4663
   ];
   schema:description "エ　内容の(4)のアについては，繊維材料の代表的な精練工程及び漂白工程を扱うこと。イについては，基本染法及び主な繊維の染色方法の基礎的な内容を扱うこと。ウについては，なせんの基礎的な内容を扱うこと。エについては，代表的な日本の伝統的染法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

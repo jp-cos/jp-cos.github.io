@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3133300000
   dct:identifier "82102A3133300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 123
   ];
   schema:description "(ウ) 点画相互の接し方や交わり方，長短や方向などに注意して，文字を正しく書くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=59>;
   cs:courseOfStudy cs:Elementary\/2017;

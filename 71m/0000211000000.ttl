@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000211000000
   dct:identifier "71m0000211000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 161
   ];
   schema:description "(1) 教育課程に基づく活動を考慮し，幼児期にふさわしい無理のないものとなるようにすること。その際，教育課程に基づく活動を担当する教師と緊密な連携を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

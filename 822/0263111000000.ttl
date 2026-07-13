@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220263111000000
   dct:identifier "8220263111000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1552
   ];
   schema:description "(ア) 日本国憲法は国家の理想，天皇の地位，国民としての権利及び義務など国家や国民生活の基本を定めていることや，現在の我が国の民主政治は日本国憲法の基本的な考え方に基づいていることを理解するとともに，立法，行政，司法の三権がそれぞれの役割を果たしていることを理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=106>;
   cs:courseOfStudy cs:Elementary\/2017;

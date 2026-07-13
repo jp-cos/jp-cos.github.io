@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400140000001
   dct:identifier "73K0400140000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1544
   ];
   schema:description """［希望と勇気，克己と強い意志］
 　より高い目標を設定し，その達成を目指し，希望と勇気をもち，困難や失敗を乗り越えて着実にやり遂げること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

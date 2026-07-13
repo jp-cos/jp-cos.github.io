@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:88G02c4220000000
   dct:identifier "88G02c4220000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1040
   ];
@@ -16,7 +16,7 @@ cs:88G02c4220000000
 器械・器具を使っての運動について，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:88G02c4221000000, cs:88G02c4222000000, cs:88G02c4223000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=247>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

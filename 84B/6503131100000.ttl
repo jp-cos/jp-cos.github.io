@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B6503131100000
   dct:identifier "84B6503131100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2448
   ];
   schema:description "(ア) 映像メディアの特性を生かして独創的な主題を生成し，主題に応じた表現の可能性や効果について考え，個性を生かして創造的な表現の構想を練ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

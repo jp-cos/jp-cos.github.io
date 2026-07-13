@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7464503111000000
   dct:identifier "7464503111000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 963
   ];
   schema:description """(ア) 人間生活の中の化学
 　日常生活や社会を支える物質の利用とその製造の例を通して，化学に対する興味・関心を高めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83H1206280000000
   dct:identifier "83H1206280000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2019
   ];
   schema:description "ク　各単元や各時間の指導に当たっては，コミュニケーションを行う目的，場面，状況などを明確に設定し，言語活動を通して育成すべき資質・能力を明確に示すことにより，生徒が学習の見通しを立てたり，振り返ったりすることができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210531-mxt_kyoiku01-100002608_010.pdf#page=126>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QZ505230000000
   dct:identifier "84QZ505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5757
   ];
   schema:description "ウ　〔指導項目〕の(3)のア及びイについては，換気設備の重要性，法的根拠及び省エネルギー機能を扱うこと。ウについては，排煙設備の重要性及び法的根拠を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000410000000
   dct:identifier "8400000410000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 124
   ];
   schema:description "１　各教科・科目及び総合的な探究の時間の単位の修得の認定";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000411000000, cs:8400000412000000, cs:8400000413000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

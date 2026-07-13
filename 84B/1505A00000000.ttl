@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B1505A00000000
   dct:identifier "84B1505A00000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2239
   ];
   schema:description "(10)　音楽活動を通して，それぞれの教材等に応じ，生徒が音や音楽と生活や社会との関わりを実感できるよう指導を工夫する。なお，適宜，自然音や環境音などについても取り扱い，音環境への関心を高めることができるよう指導を工夫する。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

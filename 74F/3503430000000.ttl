@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3503430000000
   dct:identifier "74F3503430000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1959
   ];
   schema:description """ウ　衣生活の管理と環境
 　被服の管理方法や被服材料の性能，被服の構成などについて科学的に理解させ，健康や安全，資源・環境などに配慮した衣生活を主体的に営むことができるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

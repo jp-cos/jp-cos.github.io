@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7280300230000000
   dct:identifier "7280300230000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2216
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2216 2225
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2225
   ];
   schema:description "(3) 歌唱の指導については，次のとおり取り扱うこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7280300231000000, cs:7280300232000000, cs:7280300233000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

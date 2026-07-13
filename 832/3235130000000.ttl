@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8323235130000000
   dct:identifier "8323235130000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 566
   ];
   schema:description "ウ　分野全体を通して，課題の解決に向けて習得した知識を活用して，事実を基に多面的・多角的に考察，構想したことを説明したり，論拠を基に自分の意見を説明，論述させたりすることにより，思考力，判断力，表現力等を養うこと。また，考察，構想させる場合には，資料を読み取らせて解釈させたり，議論などを行って考えを深めさせたりするなどの工夫をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=174>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

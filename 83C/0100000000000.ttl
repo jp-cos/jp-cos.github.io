@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:83C0100000000000
   dct:identifier "83C0100000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1664
   ];
@@ -16,7 +16,7 @@ cs:83C0100000000000
 生活の営みに係る見方・考え方や技術の見方・考え方を働かせ，生活や技術に関する実践的・体験的な活動を通して，よりよい生活の実現や持続可能な社会の構築に向けて，生活を工夫し創造する資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:83C0100100000000, cs:83C0100200000000, cs:83C0100300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=154>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

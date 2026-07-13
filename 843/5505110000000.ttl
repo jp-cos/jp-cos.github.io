@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435505110000000
   dct:identifier "8435505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1007
   ];
   schema:description "ア　この科目では，中学校までの学習や「歴史総合」の学習との連続性に留意して諸事象を取り上げることにより，生徒が興味・関心をもって世界の歴史を学習できるよう指導を工夫すること。その際，世界の歴史の大きな枠組みと展開を構造的に理解し，考察，表現できるようにすることに指導の重点を置き，個別の事象のみの理解にとどまることのないように留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

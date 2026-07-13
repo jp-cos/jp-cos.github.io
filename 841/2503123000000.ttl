@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8412503123000000
   dct:identifier "8412503123000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 261
   ];
   schema:description "ウ　古典の世界に親しむために，古典を読むために必要な文語のきまりや訓読のきまり，古典特有の表現などについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

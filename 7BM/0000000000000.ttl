@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7BM0000000000000
   dct:identifier "7BM0000000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2479
   ];
@@ -16,7 +16,7 @@ cs:7BM0000000000000
 総合的な学習の時間の目標， 各学校において定める 目標及び内容並びに指導計画の作成と 内容の取扱いについては， 高等学校学習指導要領第４章に示すものに準ずるほか， 次に示すところによるものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7BM0000100000000, cs:7BM0000200000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

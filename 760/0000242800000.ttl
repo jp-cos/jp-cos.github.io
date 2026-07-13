@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000242800000
   dct:identifier "7600000242800000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 49
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 49 50
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 50
   ];
   schema:description "(8)海外から帰国した児童又は生徒などについては，学校生活への適応を図るとともに，外国における生活経験を生かすなどの適切な指導を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

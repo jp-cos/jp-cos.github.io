@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73A02B2200000000
   dct:identifier "73A02B2200000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1017
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1017 1017
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1017
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1017 1017 1023
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1023
   ];
   schema:description "(2) 対象を深く見つめ感じ取る力や想像力を一層高め，独創的・総合的な見方や考え方を培い，豊かに発想し構想する能力や自分の表現方法を創意工夫し，創造的に表現する能力を伸ばす。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8323233411100000
   dct:identifier "8323233411100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 556
   ];
   schema:description "(ア) 世界平和の実現と人類の福祉の増大のためには，国際協調の観点から，国家間の相互の主権の尊重と協力，各国民の相互理解と協力及び国際連合をはじめとする国際機構などの役割が大切であることを理解すること。その際，領土(領海，領空を含む。)，国家主権，国際連合の働きなど基本的な事項について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=166>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

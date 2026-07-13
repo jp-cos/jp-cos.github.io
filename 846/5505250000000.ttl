@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8465505250000000
   dct:identifier "8465505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1799
   ];
   schema:description "オ　内容の(5)のアの(ア)の㋐については，人間生活に利用されている代表的な物質を扱うこと。㋑については，化学の発展と科学技術の進展に対する興味を喚起するような成果を取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

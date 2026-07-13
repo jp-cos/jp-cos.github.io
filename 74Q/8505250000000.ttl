@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Q8505250000000
   dct:identifier "74Q8505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3270
   ];
   schema:description "オ　内容の(5)のアについては，基本的な機械設備及びコンピュータ制御による自動化設備の原理と構成を扱うこと。イについては，基本的な加工技術の原理と方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

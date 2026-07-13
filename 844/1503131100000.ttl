@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503131100000
   dct:identifier "8441503131100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1061
   ];
   schema:description "(ア) 各人の意見や利害を公平・公正に調整することなどを通して，人間の尊厳と平等，協働の利益と社会の安定性の確保を共に図ることが，公共的な空間を作る上で必要であることについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

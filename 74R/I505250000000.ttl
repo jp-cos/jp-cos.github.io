@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RI505250000000
   dct:identifier "74RI505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5428
   ];
   schema:description "オ　内容の(5)のアについては，情報通信ネットワークを活用して商品売買や金融取引を行う仕組み，電子商取引によるビジネスを始めるための手順及び電子商取引に関する法規を扱うこと。エについては，商品広告，商品販売，代金決済などのウェブページを制作し，模擬的な電子商取引のシステムを構築させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220255220000000
   dct:identifier "8220255220000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1533
   ];
   schema:citation cs:8220253221000000, cs:8220253222000000;
   schema:description "イ　イの(ア)及び(イ)については，消費者や生産者の立場などから多角的に考えて，これからの農業などの発展について，自分の考えをまとめることができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=85>;
   cs:courseOfStudy cs:Elementary\/2017;

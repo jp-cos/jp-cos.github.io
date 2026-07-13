@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U5505250000000
   dct:identifier "74U5505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6354
   ];
   schema:description "オ　内容の(5)のアについては，児童福祉に関する基本的な法規の目的と概要を扱うこと。イについては，子育て支援に関する社会的背景を取り上げ，子育て支援施策の概要を扱うこと。また，子どもの虐待とその予防などにも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

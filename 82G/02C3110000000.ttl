@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02C3110000000
   dct:identifier "82G02C3110000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3118
   ];
   schema:description "(1) 次の運動の楽しさや喜びに触れ，その行い方を知るとともに，体を動かす心地よさを味わったり，基本的な動きを身に付けたりすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82G02C3111000000, cs:82G02C3112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=75>;
   cs:courseOfStudy cs:Elementary\/2017;

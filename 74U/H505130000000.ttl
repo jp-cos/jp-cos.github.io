@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74UH505130000000
   dct:identifier "74UH505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6674
   ];
   schema:description "ウ　内容の(3)のアについては，エネルギー代謝の基礎的な内容を扱うこと。イについては，食事摂取基準におけるエネルギーと代表的な栄養素を扱うこと。ウについては，個人及び集団の栄養状態の評価の意義と方法について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

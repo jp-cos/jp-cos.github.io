@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:81l3000000000000
   dct:identifier "81l3000000000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 121
   ];
@@ -16,7 +16,7 @@ cs:81l3000000000000
 〔周囲の様々な環境に好奇心や探究心をもって関わり，それらを生活に取り入れていこうとする力を養う。〕""";
   schema:edition "一部改正なし";
   schema:hasPart cs:81l3001000000000, cs:81l3003000000000, cs:81l3005000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

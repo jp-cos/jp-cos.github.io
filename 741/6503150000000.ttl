@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7416503150000000
   dct:identifier "7416503150000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 282
   ];
   schema:description "オ　古典を読んで，我が国の文化の特質や我が国の文化と中国の文化との関係について理解を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

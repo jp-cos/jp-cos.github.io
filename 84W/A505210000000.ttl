@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WA505210000000
   dct:identifier "84WA505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9241
   ];
   schema:description "ア　〔指導項目〕の(1)については，生活の場における療養の安全対策，社会資源の活用，地域における多職種との連携，倫理的課題の現状を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

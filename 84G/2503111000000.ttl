@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84G2503111000000
   dct:identifier "84G2503111000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2127
   ];
@@ -16,7 +16,7 @@ cs:84G2503111000000
 国民の健康課題や健康の考え方は，国民の健康水準の向上や疾病構造の変化に伴って変わってきていること。また，健康は，様々な要因の影響を受けながら，主体と環境の相互作用の下に成り立っていること。
 健康の保持増進には，ヘルスプロモーションの考え方を踏まえた個人の適切な意思決定や行動選択及び環境づくりが関わること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431505110000000
   dct:identifier "8431505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 591
   ];
   schema:description "ア　中学校社会科との関連を図るとともに，１の目標に即して基本的な事柄を基に指導内容を構成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

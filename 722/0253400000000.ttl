@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7220253400000000
   dct:identifier "7220253400000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1343
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1343 1352
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1352
   ];
   schema:description "(4) 我が国の情報産業や情報化した社会の様子について，次のことを調査したり資料を活用したりして調べ，情報化の進展は国民の生活に大きな影響を及ぼしていることや情報の有効な活用が大切であることを考えるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7220253410000000, cs:7220253420000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

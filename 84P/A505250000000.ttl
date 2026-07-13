@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PA505250000000
   dct:identifier "84PA505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3804
   ];
   schema:description "オ　〔指導項目〕の(5)については，環境に配慮した栽培技術を踏まえ，環境の保全や創造に関する地域や学校での実践的な活動を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

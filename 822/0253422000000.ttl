@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220253422000000
   dct:identifier "8220253422000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1514
   ];
   schema:description "(イ) 情報の種類，情報の活用の仕方などに着目して，産業における情報活用の現状を捉え，情報を生かして発展する産業が国民生活に果たす役割を考え，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=93>;
   cs:courseOfStudy cs:Elementary\/2017;

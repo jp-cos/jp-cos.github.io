@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7430100000000000
   dct:identifier "7430100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 302
   ];
   schema:description """第１款　目標
 　我が国及び世界の形成の歴史的過程と生活・文化の地域的特色についての理解と認識を深め，国際社会に主体的に生き平和で民主的な国家・社会を形成する日本国民として必要な自覚と資質を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2503130000000
   dct:identifier "74G2503130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1351
   ];
   schema:description """ウ　精神の健康
 　人間の欲求と適応機制には，様々な種類があること。精神と身体には，密接な関連があること。また，精神の健康を保持増進するには，欲求やストレスに適切に対処するとともに，自己実現を図るよう努力していくことが重要であること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

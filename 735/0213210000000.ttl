@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7350213210000000
   dct:identifier "7350213210000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 450
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 450 450
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 450
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 450 450 456
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 456
   ];
   schema:description "(1) 観察，操作や実験などの活動を通して，見通しをもって作図したり図形の関係について調べたりして平面図形についての理解を深めるとともに，論理的に考察し表現する能力を培う。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7350213211000000, cs:7350213212000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

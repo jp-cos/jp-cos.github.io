@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84RF503150000000
   dct:identifier "84RF503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7143
   ];
   schema:description "(5) コスト・マネジメント";
   schema:edition "一部改正なし";
   schema:hasPart cs:84RF503151000000, cs:84RF503152000000, cs:84RF503153000000, cs:84RF503154000000, cs:84RF503155000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

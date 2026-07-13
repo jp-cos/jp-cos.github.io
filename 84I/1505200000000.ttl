@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84I1505200000000
   dct:identifier "84I1505200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3303
   ];
   schema:description "(2) 内容の(1)については，この科目の導入として位置付け，(2)から(4)までとの関連に配慮するものとする。アの(イ)及び(ウ)並びにイの(イ)及び(ウ)については，生徒が情報社会の問題を主体的に発見し明確化し，解決策を考える活動を取り入れるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

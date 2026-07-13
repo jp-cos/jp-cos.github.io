@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8452503513000000
   dct:identifier "8452503513000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1338
   ];
   schema:description "(ウ) 不定積分及び定積分の意味について理解し，関数の定数倍，和及び差の不定積分や定積分の値を求めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

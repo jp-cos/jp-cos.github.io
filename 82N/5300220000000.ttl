@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82N5300220000000
   dct:identifier "82N5300220000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3744
   ];
   schema:description "(2) 児童及び学校の実態並びに第１章総則の第６の２に示す道徳教育の重点などを踏まえ，各学年において取り上げる指導内容の重点化を図るとともに，必要に応じて，内容間の関連や統合を図ったり，他の内容を加えたりすることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=159>;
   cs:courseOfStudy cs:Elementary\/2017;

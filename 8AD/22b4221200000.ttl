@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AD22b4221200000
   dct:identifier "8AD22b4221200000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2101
   ];
   schema:description "(イ) 日常の食事の大切さや規則正しい食事の必要性を考え，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=501>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

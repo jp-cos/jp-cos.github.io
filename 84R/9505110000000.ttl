@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R9505110000000
   dct:identifier "84R9505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6924
   ];
   schema:description "ア　地球規模で経済を俯(ふ)瞰(かん)して経済社会の動向・課題を捉える学習活動及び経済のグローバル化に関する具体的な事例について多面的・多角的に分析し，考察や討論を行う学習活動を通して，経済のグローバル化について理解を深めることができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

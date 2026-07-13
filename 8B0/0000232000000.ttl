@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000232000000
   dct:identifier "8B00000232000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 148
   ];
   schema:description "２  障害のため通学して教育を受けることが困難な生徒に対して，教師を派遣して教育を行う場合については，障害の状態や学習環境等に応じて，指導方法や指導体制を工夫し，学習活動が効果的に行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

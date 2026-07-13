@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322205540000000
   dct:identifier "7322205540000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 350
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 350 350
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 350
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 350 350 356
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 356
   ];
   schema:description "エ　エの「幕府の政治改革」については，百姓一揆《いっき》などに結び付く農村の変化や商業の発達などへの対応という観点から，代表的な事例を取り上げるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361213121000000
   dct:identifier "7361213121000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 652
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 652 652
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 652
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 652 652 658
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 658
   ];
   schema:description """(ア) 力の働き
 物体に力を働かせる実験を行い，物体に力が働くとその物体が変形したり動き始めたり，運動の様子が変わったりすることを見いだすとともに，力は大きさと向きによって表されることを知ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

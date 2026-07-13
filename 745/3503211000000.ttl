@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7453503211000000
   dct:identifier "7453503211000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 705
   ];
   schema:description """(ア) 数列の極限
 　数列の極限について理解し，数列｛rn｝の極限などを基に簡単な数列の極限を求めること。また，数列の極限を事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

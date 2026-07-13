@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Z2505240000000
   dct:identifier "74Z2505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7678
   ];
   schema:description "エ　内容の(4)については，「数学Ⅱ」の内容の(2)及び「数学Ⅲ」の内容の(1)のアに加えて，円と円の共有点を求めることも扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

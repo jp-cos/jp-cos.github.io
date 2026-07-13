@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ek9503130000000
   dct:identifier "8Ek9503130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2521
   ];
   schema:description "(3) 咬合誘導装置";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Ek9503131000000, cs:8Ek9503132000000, cs:8Ek9503133000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QM505230000000
   dct:identifier "84QM505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5315
   ];
   schema:description "ウ　〔指導項目〕の(3)については，回路の構成，動作原理及び取扱い方法を実際の活用に関連付けて扱うこと。ウについては，パルス波の有用性，発生及び整形の方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

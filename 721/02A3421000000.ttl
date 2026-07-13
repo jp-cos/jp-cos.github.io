@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72102A3421000000
   dct:identifier "72102A3421000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 103
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 103 112
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 112
   ];
   schema:description "ア　姿勢や筆記具の持ち方を正しくし，文字の形に注意しながら，丁寧に書くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322203230000000
   dct:identifier "7322203230000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 306
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 306 306
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 306
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 306 306 312
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 312
   ];
   schema:description "ウ　仏教の伝来とその影響，仮名文字の成立などを通して，国際的な要素をもった文化が栄え，後に文化の国風化が進んだことを理解させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

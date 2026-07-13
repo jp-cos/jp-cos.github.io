@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503110000000
   dct:identifier "7432503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 339
   ];
   schema:description """ア　自然環境と人類のかかわり
 　自然環境と人類のかかわりについて，生業や暮らし，交通手段，資源，災害などから適切な歴史的事例を取り上げて考察させ，世界史学習における地理的視点の重要性に気付かせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F03D0120000000
   dct:identifier "82F03D0120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3039
   ];
   schema:description "(2) 第２の内容の「Ａ家族・家庭生活」から「Ｃ消費生活・環境」までの各項目に配当する授業時数及び各項目の履修学年については，児童や学校，地域の実態等に応じて各学校において適切に定めること。その際，「Ａ家族・家庭生活」の(1)のアについては，第４学年までの学習を踏まえ，２学年間の学習の見通しをもたせるために，第５学年の最初に履修させるとともに，「Ａ家族・家庭生活」，「Ｂ衣食住の生活」，「Ｃ消費生活・環境」の学習と関連させるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=80>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72102C3221000000
   dct:identifier "72102C3221000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 131
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 131 140
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 140
   ];
   schema:description "ア　身近なこと，想像したことなどを基に，詩をつくったり，物語を書いたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

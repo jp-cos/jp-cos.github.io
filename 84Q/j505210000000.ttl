@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qj505210000000
   dct:identifier "84Qj505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6117
   ];
   schema:description "ア　〔指導項目〕の(1)のアについては，工業材料の製造方法と工業が相互に関連して発達してきたことを扱うこと。イについては，物質の種類と性質及び材料製造の原理と化学反応を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

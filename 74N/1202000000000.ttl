@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74N1202000000000
   dct:identifier "74N1202000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8187
   ];
   schema:description """１　目標
 　ホームルーム活動を通して，望ましい人間関係を形成し，集団の一員としてホームルームや学校におけるよりよい生活づくりに参画し，諸問題を解決しようとする自主的，実践的な態度や健全な生活態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

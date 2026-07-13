@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82N5205100000000
   dct:identifier "82N5205100000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3733
   ];
   schema:description "(1) 児童や学校，地域の実態に応じて，２に示す行事の種類ごとに，行事及びその内容を重点化するとともに，各行事の趣旨を生かした上で，行事間の関連や統合を図るなど精選して実施すること。また，実施に当たっては，自然体験や社会体験などの体験活動を充実するとともに，体験活動を通して気付いたことなどを振り返り，まとめたり，発表し合ったりするなどの事後の活動を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=138>;
   cs:courseOfStudy cs:Elementary\/2017;

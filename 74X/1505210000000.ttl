@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X1505210000000
   dct:identifier "74X1505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7135
   ];
   schema:description "ア　内容の(1)のアについては，情報伝達手段の変遷についても扱うこと。イについては，これからの学習を進めるための指針を与えるために，情報産業の業務内容やそこで働く情報技術者の役割について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

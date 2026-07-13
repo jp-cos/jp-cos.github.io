@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A3230000000
   dct:identifier "73212A3230000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 260
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 260 260
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 260
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 260 260 266
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 266
   ];
   schema:description """ウ　日本の諸地域
 　日本を幾つかの地域に区分し，それぞれの地域について，以下の(ア)から(キ)で示した考察の仕方を基にして，地域的特色をとらえさせる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:73212A3231000000, cs:73212A3232000000, cs:73212A3233000000, cs:73212A3234000000, cs:73212A3235000000, cs:73212A3236000000, cs:73212A3237000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

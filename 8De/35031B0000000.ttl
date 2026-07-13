@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8De35031B0000000
   dct:identifier "8De35031B0000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 378
   ];
   schema:description "(11) 各病変の大要";
   schema:edition "一部改正なし";
   schema:hasPart cs:8De35031B1000000, cs:8De35031B2000000, cs:8De35031B3000000, cs:8De35031B4000000, cs:8De35031B5000000, cs:8De35031B6000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84T1505220000000
   dct:identifier "84T1505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7381
   ];
   schema:description "イ　〔指導項目〕の(2)については，水産物の安定供給並びに付加価値向上の必要性について基礎的な内容に触れること。また，社会や産業全体の課題を解決するために，水産業や海洋関連産業が果たしている役割，働くことの社会的意義や役割，職業人に求められる倫理観についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

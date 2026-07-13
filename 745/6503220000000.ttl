@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7456503220000000
   dct:identifier "7456503220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 801
   ];
   schema:description """イ　数学的な表現の工夫
 　図，表，行列及び離散グラフなどを用いて，事象を数学的に表現し考察すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

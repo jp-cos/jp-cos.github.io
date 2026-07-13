@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74BA505600000000
   dct:identifier "74BA505600000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1631
   ];
   schema:description "(6) 書に関する知的財産権などについて配慮し，自己や他者の著作物等を尊重する態度の形成を図るようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PF505250000000
   dct:identifier "84PF505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3995
   ];
   schema:description "オ　〔指導項目〕の(5)については，食品製造の機械と装置，ボイラと冷却装置の基本的な操作や安全にかかる整備について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

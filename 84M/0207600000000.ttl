@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0207600000000
   dct:identifier "84M0207600000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10864
   ];
   schema:description "(6) 探究課題の解決を通して育成を目指す具体的な資質・能力については，次の事項に配慮すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84M0207610000000, cs:84M0207620000000, cs:84M0207630000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

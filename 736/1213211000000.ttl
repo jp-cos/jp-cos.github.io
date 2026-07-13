@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361213211000000
   dct:identifier "7361213211000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 656
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 656 656
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 656
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 656 656 662
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 662
   ];
   schema:description """(ア) 身の回りの物質とその性質
 身の回りの物質の性質を様々な方法で調べ，物質には密度や加熱したときの変化など固有の性質と共通の性質があることを見いだすとともに，実験器具の操作，記録の仕方などの技能を身に付けること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

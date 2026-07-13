@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82203L0130000000
   dct:identifier "82203L0130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1648
   ];
   schema:description "(3) 我が国の47都道府県の名称と位置，世界の大陸と主な海洋の名称と位置については，学習内容と関連付けながら，その都度，地図帳や地球儀などを使って確認するなどして，小学校卒業までに身に付け活用できるように工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=142>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82203L0240000000
   dct:identifier "82203L0240000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1655
   ];
   schema:description "(4) 児童の発達の段階を考慮し，社会的事象については，児童の考えが深まるよう様々な見解を提示するよう配慮し，多様な見解のある事柄，未確定な事柄を取り上げる場合には，有益適切な教材に基づいて指導するとともに，特定の事柄を強調し過ぎたり，一面的な見解を十分な配慮なく取り上げたりするなどの偏った取扱いにより，児童が多角的に考えたり，事実を客観的に捉え，公正に判断したりすることを妨げることのないよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=149>;
   cs:courseOfStudy cs:Elementary\/2017;

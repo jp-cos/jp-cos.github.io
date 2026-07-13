@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dg6505220000000
   dct:identifier "8Dg6505220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1351
   ];
   schema:description "イ　〔指導項目〕の(2)のイについては，人体の運動に関する基礎的な知識を踏まえ，各種の疾患や障害の運動学的評価と考察の方法，治療計画への応用などを取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

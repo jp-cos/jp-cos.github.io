@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F02D5130000000
   dct:identifier "82F02D5130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3024
   ];
   schema:description "ウ　(3)については，幼児又は低学年の児童や高齢者など異なる世代の人々との関わりについても扱うこと。また，イについては，他教科等における学習との関連を図るよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=32>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74c0300210000000
   dct:identifier "74c0300210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8079
   ];
   schema:description "(1) 各科目の特質を踏まえ，学校の実態に応じて学校図書館を活用するとともに，コンピュータや情報通信ネットワークなどを指導に生かすこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ei7505240000000
   dct:identifier "7Ei7505240000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1695
   ];
   schema:description "エ  内容の(4)については，社会生活におけるエチケットの必要性に触れるとともに，実習を通して，接客の意義，接客用語等を重点的に扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

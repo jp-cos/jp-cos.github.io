@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7452505400000000
   dct:identifier "7452505400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 688
   ];
   schema:description "(4) 内容の(5)のアについては，三次までの関数を中心に扱い，イについては，二次までの関数を中心に扱うものとする。アの(ア)の微分係数については，関数のグラフの接線に関連付けて扱うものとする。また，極限については，直観的に理解させるよう扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

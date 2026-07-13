@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GS0206210000000
   dct:identifier "8GS0206210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4179
   ];
   schema:description "ア　〔指導項目〕の(2)から(5)までについては，生徒や地域の実態，学科の特色等に応じて，いずれか一つ以上を選択して扱うことができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

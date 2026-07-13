@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d6505200000000
   dct:identifier "84d6505200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10800
   ];
   schema:description "(2) 指導に当たっては，「論理・表現Ⅰ」及び「論理・表現Ⅱ」の内容などを参照 するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

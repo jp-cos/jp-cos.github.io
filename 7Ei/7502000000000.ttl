@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ei7502000000000
   dct:identifier "7Ei7502000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1672
   ];
   schema:description """１　目標
 理容・美容業にかかわる運営管理の基本的事項及び適切な接客方法を習得させ， 理容・美容を適切に行う能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

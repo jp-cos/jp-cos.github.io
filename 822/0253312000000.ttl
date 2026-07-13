@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:8220253312000000
   dct:identifier "8220253312000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1500
   ];
   schema:description "(イ) 工業生産に関わる人々は，消費者の需要や社会の変化に対応し，優れた製品を生産するよう様々な工夫や努力をして，工業生産を支えていることを理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item cs:StructuredItem;
+  rdf:type cs:Item;
   cs:basicItem [
     dct:provenance cs:commentary\/1000449;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 1500 cs:8220233200000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8220233200000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=87>;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PM505250000000
   dct:identifier "84PM505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4284
   ];
   schema:description "オ　〔指導項目〕の(5)については，コンクリート構造と鉄筋コンクリート構造，鋼構造の特性や構造物設計に必要な基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

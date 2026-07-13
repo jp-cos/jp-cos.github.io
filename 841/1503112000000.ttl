@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411503112000000
   dct:identifier "8411503112000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 180
   ];
   schema:description "イ　話し言葉と書き言葉の特徴や役割，表現の特色を踏まえ，正確さ，分かりやすさ，適切さ，敬意と親しさなどに配慮した表現や言葉遣いについて理解し，使うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

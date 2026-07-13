@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8322203232100000
   dct:identifier "8322203232100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 457
   ];
   schema:description "(ア) 交易の広がりとその影響，統一政権の諸政策の目的，産業の発達と文化の担い手の変化，社会の変化と幕府の政策の変化などに着目して，事象を相互に関連付けるなどして，アの(ア)から(エ)までについて近世の社会の変化の様子を多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=109>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

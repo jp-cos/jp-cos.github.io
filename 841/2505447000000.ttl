@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8412505447000000
   dct:identifier "8412505447000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 307
   ];
   schema:description "(キ) 我が国の伝統と文化に対する関心や理解を深め，それらを尊重する態度を育てるのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

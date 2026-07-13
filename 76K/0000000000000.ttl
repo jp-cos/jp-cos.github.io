@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:76K0000000000000
   dct:identifier "76K0000000000000";
-  dct:source cs:76V11 cs:76V11;
+  dct:source cs:76V11;
   qb:order [
-    dct:source cs:76V11 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 304
   ];
@@ -16,7 +16,7 @@ cs:76K0000000000000
 小学部又は中学部の道徳の目標， 内容及び指導計画の作成と内容の取扱いについては， それぞれ小学校学習指導要領第３章又は中学校学習指導要領第３章に示すものに準ずるほか， 次に示すところによるものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:76K0000000000001, cs:76K0000100000000, cs:76K0000200000000, cs:76K0000300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009;

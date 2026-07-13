@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K0400370000000
   dct:identifier "82K0400370000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3505
   ];
   schema:description "［国際理解，国際親善］";
   schema:edition "一部改正なし";
   schema:hasPart cs:82K04A0371000000, cs:82K04C0372000000, cs:82K04D0373000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=66>;
   cs:courseOfStudy cs:Elementary\/2017;

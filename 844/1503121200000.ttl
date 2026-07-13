@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503121200000
   dct:identifier "8441503121200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1055
   ];
   schema:description "(イ) 現代の諸課題について自らも他者も共に納得できる解決方法を見いだすことに向け，(ア)に示す考え方を活用することを通して，行為者自身の人間としての在り方生き方について探求することが，よりよく生きていく上で重要であることについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

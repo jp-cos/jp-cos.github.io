@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PA505220000000
   dct:identifier "84PA505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3801
   ];
   schema:description "イ　〔指導項目〕の(2)については，栽培植物の育成と環境要素に関する実験，調査，観察，診断などの方法と進め方について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

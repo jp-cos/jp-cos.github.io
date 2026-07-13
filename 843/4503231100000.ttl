@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503231100000
   dct:identifier "8434503231100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 822
   ];
   schema:description "(ア) 武家政権の成立と展開，産業の発達，宗教や文化の展開などを基に，武家政権の伸張，社会や文化の特色を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

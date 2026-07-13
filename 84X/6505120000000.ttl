@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X6505120000000
   dct:identifier "84X6505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9501
   ];
   schema:description "イ　情報システムのプログラミングに関する具体的な課題を設定し，解決する方法について考察するよう留意して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

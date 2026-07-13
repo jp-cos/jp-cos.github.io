@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84QU503150000000
   dct:identifier "84QU503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5557
   ];
   schema:description "(5) 建築物の企画や計画";
   schema:edition "一部改正なし";
   schema:hasPart cs:84QU503151000000, cs:84QU503152000000, cs:84QU503153000000, cs:84QU503154000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

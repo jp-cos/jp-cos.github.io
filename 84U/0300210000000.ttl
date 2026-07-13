@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U0300210000000
   dct:identifier "84U0300210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8878
   ];
   schema:description "(1) 生活産業に関わる実習や就業体験活動などを通して，自分の考え方や情報を的確に伝えたり，まとめたりする活動，創造的に製作する場面において，与えられたテーマに対して互いの考えを伝え合い，イメージをまとめ適切に表現する活動など言語活動の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

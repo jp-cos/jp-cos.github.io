@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1205260000000
   dct:identifier "83G1205260000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1592
   ];
   schema:description "カ　「Ｆ武道」については，柔道，剣道，相撲，空手道，なぎなた，弓道，合気道，少林寺拳法，銃剣道などを通して，我が国固有の伝統と文化により一層触れることができるようにすること。また，(1)の運動については，アからウまでの中から一を選択して履修できるようにすること。なお，学校や地域の実態に応じて，空手道，なぎなた，弓道，合気道，少林寺拳法，銃剣道などについても履修させることができること。また，武道場などの確保が難しい場合は指導方法を工夫して行うとともに，学習段階や個人差を踏まえ，段階的な指導を行うなど安全を十分に確保すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=206>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

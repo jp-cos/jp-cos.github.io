@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233610000000
   dct:identifier "83G1233610000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1561
   ];
   schema:description "(1) 次の運動について，技を高め勝敗を競う楽しさや喜びを味わい，伝統的な考え方，技の名称や見取り稽古の仕方，体力の高め方などを理解するとともに，基本動作や基本となる技を用いて攻防を展開すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G1233611000000, cs:83G1233612000000, cs:83G1233613000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=161>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

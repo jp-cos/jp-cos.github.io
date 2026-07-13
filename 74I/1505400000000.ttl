@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74I1505400000000
   dct:identifier "74I1505400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2016
   ];
   schema:description "(4) 内容の(4)については，望ましい情報社会を構築する上での人間の役割について生徒が主体的に考え，討議し，発表し合うなどの活動を取り入れること。イについては，生徒に情報システムの改善策などを提案させるなど，様々な意見を提案し集約する活動を取り入れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82H01D0200000000
   dct:identifier "82H01D0200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3280
   ];
   schema:description "(2) コミュニケーションを行う目的や場面，状況などに応じて，身近で簡単な事柄について，聞いたり話したりするとともに，音声で十分に慣れ親しんだ外国語の語彙や基本的な表現を推測しながら読んだり，語順を意識しながら書いたりして，自分の考えや気持ちなどを伝え合うことができる基礎的な力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=75>;
   cs:courseOfStudy cs:Elementary\/2017;

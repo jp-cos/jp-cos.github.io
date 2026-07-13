@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84N0300240000000
   dct:identifier "84N0300240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10948
   ];
   schema:description "(4) 異年齢集団による交流を重視するとともに，幼児，高齢者，障害のある人々などとの交流や対話，障害のある幼児児童生徒との交流及び共同学習の機会を通して，協働することや，他者の役に立ったり社会に貢献したりすることの喜びを得られる活動を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

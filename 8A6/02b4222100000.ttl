@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8A602b4222100000
   dct:identifier "8A602b4222100000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1622
   ];
   schema:description "(ア) 次のことを理解するとともに，観察，実験などに関する初歩的な技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8A602b4222110000, cs:8A602b4222120000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=364>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

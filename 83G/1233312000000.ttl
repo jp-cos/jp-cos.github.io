@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233312000000
   dct:identifier "83G1233312000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1541
   ];
   schema:description "イ　走り幅跳びでは，スピードに乗った助走から力強く踏み切って跳ぶこと，走り高跳びでは，リズミカルな助走から力強く踏み切り滑らかな空間動作で跳ぶこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=99>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

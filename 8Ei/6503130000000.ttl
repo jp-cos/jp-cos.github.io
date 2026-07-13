@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ei6503130000000
   dct:identifier "8Ei6503130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1877
   ];
   schema:description "(3) 頭部，顔部及び頸部技術";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Ei6503131000000, cs:8Ei6503132000000, cs:8Ei6503133000000, cs:8Ei6503134000000, cs:8Ei6503135000000, cs:8Ei6503136000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

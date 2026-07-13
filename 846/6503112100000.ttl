@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8466503112100000
   dct:identifier "8466503112100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1812
   ];
   schema:description """㋐　遺伝情報とDNA
 DNAの構造に関する資料に基づいて，遺伝情報を担う物質としてのDNAの特徴を見いだして理解するとともに，塩基の相補性とDNAの複製を関連付けて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

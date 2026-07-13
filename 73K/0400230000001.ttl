@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400230000001
   dct:identifier "73K0400230000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1549
   ];
   schema:description """［友情，信頼］
 　友情の尊さを理解して心から信頼できる友達をもち，互いに励まし合い，高め合うとともに，異性についての理解を深め，悩みや葛藤も経験しながら人間関係を深めていくこと。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

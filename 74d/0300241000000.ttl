@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74d0300241000000
   dct:identifier "74d0300241000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8155
   ];
   schema:description "ア　多様なものの見方や考え方を理解し，公正な判断力を養い豊かな心情を育てるのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83A0100100000000
   dct:identifier "83A0100100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1337
   ];
   schema:description "(1) 対象や事象を捉える造形的な視点について理解するとともに，表現方法を創意工夫し，創造的に表すことができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=17>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

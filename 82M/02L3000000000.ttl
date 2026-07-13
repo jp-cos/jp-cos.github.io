@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82M02L3000000000
   dct:identifier "82M02L3000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3651
   ];
   schema:description """２　内容
 各学校においては，第１の目標を踏まえ，各学校の総合的な学習の時間の内容を定める。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_013_1.pdf#page=29>;
   cs:courseOfStudy cs:Elementary\/2017;

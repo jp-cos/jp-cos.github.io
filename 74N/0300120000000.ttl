@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74N0300120000000
   dct:identifier "74N0300120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8229
   ];
   schema:description "(2) 生徒指導の機能を十分に生かすとともに，教育相談(進路相談を含む。）についても，生徒の家庭との連絡を密にし，適切に実施できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

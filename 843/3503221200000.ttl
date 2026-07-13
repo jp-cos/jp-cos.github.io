@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8433503221200000
   dct:identifier "8433503221200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 703
   ];
   schema:description "(イ) 産業革命と交通・通信手段の革新，中国の開港と日本の開国などを基に，工業化と世界市場の形成を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

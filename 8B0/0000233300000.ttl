@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000233300000
   dct:identifier "8B00000233300000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 152
   ];
   schema:description "(3) 創意工夫の中で学習評価の妥当性や信頼性が高められるよう，組織的かつ計画的な取組を推進するとともに，学年や学部段階を越えて生徒の学習の成果が円滑に接続されるように工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

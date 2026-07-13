@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8430300130000000
   dct:identifier "8430300130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1024
   ];
   schema:description "(3) 各科目の履修については，全ての生徒に履修させる科目である「地理総合」を履修した後に選択科目である「地理探究」を，同じく全ての生徒に履修させる科目である「歴史総合」を履修した後に選択科目である「日本史探究」，「世界史探究」を履修できるという，この教科の基本的な構造に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

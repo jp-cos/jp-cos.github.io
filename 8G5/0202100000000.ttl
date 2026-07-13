@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G50202100000000
   dct:identifier "8G50202100000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2821
   ];
   schema:description "(1) 数量や図形などについての基礎的・基本的な概念や性質などを理解するとともに，日常の事象を数学的に解釈したり，数学的に表現・処理したりする技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

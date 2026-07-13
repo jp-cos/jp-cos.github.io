@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7469503100000000
   dct:identifier "7469503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1181
   ];
@@ -16,7 +16,7 @@ cs:7469503100000000
 　地球の形状や内部構造を観察，実験などを通して探究し，地球の概観を理解させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7469503110000000, cs:7469503120000000, cs:7469503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

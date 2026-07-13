@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X1505230000000
   dct:identifier "74X1505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7137
   ];
   schema:description "ウ　内容の(3)のアについては，技術や情報の守秘義務や法令遵守などの情報技術者としての使命と責任について扱うこと。イについては，情報セキュリティの管理を適切に行うために必要な基礎的な知識と技術について扱うとともに，情報セキュリティ対策の重要性について扱うこと。ウについては，情報産業における情報や個人情報の保護，著作権などの知的財産及び情報セキュリティ対策に関する法規を扱い，法規を守ることの意義と重要性についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74B2502000000000
   dct:identifier "74B2502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1414
   ];
   schema:description """１　目標
 　音楽の諸活動を通して，生涯にわたり音楽を愛好する心情を育てるとともに，感性を高め，個性豊かな表現の能力と主体的な鑑賞の能力を伸ばし，音楽文化についての理解を深める。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82703A0250000000
   dct:identifier "82703A0250000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2596
   ];
   schema:description "(5) 具体的な活動や体験を行うに当たっては，身近な幼児や高齢者，障害のある児童生徒などの多様な人々と触れ合うことができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf#page=77>;
   cs:courseOfStudy cs:Elementary\/2017;

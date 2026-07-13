@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220255310000000
   dct:identifier "8220255310000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1535
   ];
   schema:citation cs:8220253312000000, cs:8220253322000000;
   schema:description "ア　アの(イ)及びイの(イ)については，工業の盛んな地域の具体的事例を通して調べることとし，金属工業，機械工業，化学工業，食料品工業などの中から一つを取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=90>;
   cs:courseOfStudy cs:Elementary\/2017;

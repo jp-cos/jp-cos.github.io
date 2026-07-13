@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73802B3110000000
   dct:identifier "73802B3110000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 905
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 905 905
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 905
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 905 905 911
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 911
   ];
   schema:description "(1) 歌唱の活動を通して，次の事項を指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73802B3111000000, cs:73802B3112000000, cs:73802B3113000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

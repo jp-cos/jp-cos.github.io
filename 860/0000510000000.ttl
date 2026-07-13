@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000510000000
   dct:identifier "8600000510000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 79
   ];
@@ -16,7 +16,7 @@ cs:8600000510000000
 教育課程の編成及び実施に当たっては，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8600000511000000, cs:8600000512000000, cs:8600000513000000, cs:8600000514000000, cs:8600000515000000, cs:8600000516000000, cs:8600000517000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=281>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000413000000
   dct:identifier "8200000413000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 61
   ];
   schema:description "(3) 児童が，学ぶことと自己の将来とのつながりを見通しながら，社会的・職業的自立に向けて必要な基盤となる資質・能力を身に付けていくことができるよう，特別活動を要としつつ各教科等の特質に応じて，キャリア教育の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=109>;
   cs:courseOfStudy cs:Elementary\/2017;

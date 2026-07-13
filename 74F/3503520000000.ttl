@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3503520000000
   dct:identifier "74F3503520000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1963
   ];
   schema:description """イ　快適さの科学と住空間の設計
 　快適な住居について科学的に理解させ，インテリア，園芸などに関する基礎的・基本的な知識と技術を習得させるとともに，快適で機能的な住生活を営むために必要な平面計画やインテリア計画ができるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361223311000000
   dct:identifier "7361223311000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 666
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 666 666
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 666
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 666 666 672
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 672
   ];
   schema:description """(ア) 回路と電流・電圧
 回路をつくり，回路の電流や電圧を測定する実験を行い，回路の各点を流れる電流や各部に加わる電圧についての規則性を見いだすこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Z4505210000000
   dct:identifier "84Z4505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10084
   ];
   schema:description "ア　内容の(1)については，「物理基礎」の内容の(1)及び(2)のアの(イ)並びに「物理」の内容の(1)を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

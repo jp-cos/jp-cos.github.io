@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7310213310000000
   dct:identifier "7310213310000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 71
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 71 71
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 71
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 71 71 77
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 77
   ];
   schema:description "(1) 読むことの能力を育成するため，次の事項について指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7310213311000000, cs:7310213312000000, cs:7310213313000000, cs:7310213314000000, cs:7310213315000000, cs:7310213316000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qs505230000000
   dct:identifier "84Qs505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6444
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，気温や日照などの屋外の気象変化とインテリアとの関係を扱うこと。イについては，照明や音響などの屋内の環境とインテリアとの関係を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

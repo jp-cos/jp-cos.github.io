@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83K0300100000000
   dct:identifier "83K0300100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2083
   ];
   schema:description "１　各学校においては，道徳教育の全体計画に基づき，各教科，総合的な学習の時間及び特別活動との関連を考慮しながら，道徳科の年間指導計画を作成するものとする。なお，作成に当たっては，第２に示す内容項目について，各学年において全て取り上げることとする。その際，生徒や学校の実態に応じ，３学年間を見通した重点的な指導や内容項目間の関連を密にした指導，一つの内容項目を複数の時間で扱う指導を取り入れるなどの工夫を行うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_011.pdf#page=139>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

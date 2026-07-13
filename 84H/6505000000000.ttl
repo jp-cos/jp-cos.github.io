@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H6505000000000
   dct:identifier "84H6505000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3058
   ];
   schema:description """３　内容の取扱い
 「論理・表現Ⅰ」の３と同様に取り扱うものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

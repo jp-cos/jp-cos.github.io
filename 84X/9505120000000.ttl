@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X9505120000000
   dct:identifier "84X9505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9597
   ];
   schema:description "イ　実習を通して，情報の収集，整理，構造化，可視化などの学習活動を行わせるとともに，地域や社会における情報伝達やコミュニケーションに関する具体的な課題を設定し，解決の手段を作品として制作，評価及び改善する学習活動を取り入れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

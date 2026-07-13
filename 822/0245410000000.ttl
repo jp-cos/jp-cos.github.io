@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220245410000000
   dct:identifier "8220245410000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1473
   ];
   schema:description "ア　県内の特色ある地域が大まかに分かるようにするとともに，伝統的な技術を生かした地場産業が盛んな地域，国際交流に取り組んでいる地域及び地域の資源を保護・活用している地域を取り上げること。その際，地域の資源を保護・活用している地域については，自然環境，伝統的な文化のいずれかを選択して取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=72>;
   cs:courseOfStudy cs:Elementary\/2017;

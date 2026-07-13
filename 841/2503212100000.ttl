@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8412503212100000
   dct:identifier "8412503212100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 271
   ];
   schema:description "ア　本歌取りや折句などを用いて，感じたことや発見したことを短歌や俳句で表したり，伝統行事や風物詩などの文化に関する題材を選んで，随筆などを書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

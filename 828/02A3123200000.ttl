@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82802A3123200000
   dct:identifier "82802A3123200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2625
   ];
   schema:description "(イ) 音色に気を付けて，旋律楽器及び打楽器を演奏する技能";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=44>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Z2505240000000
   dct:identifier "84Z2505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10047
   ];
   schema:description "エ　内容の(4)については，「数学Ⅱ」の内容の(2)及び「数学Ｃ」の内容の(2)のアの(ア)(イ)(ウ)及びイの(ア)とそれらの活用に加えて，円と円の共有点を求めることも扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

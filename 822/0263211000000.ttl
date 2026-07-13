@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220263211000000
   dct:identifier "8220263211000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1560
   ];
   schema:description "(ア) 狩猟・採集や農耕の生活，古墳，大和朝廷（大和政権）による統一の様子を手掛かりに，むらからくにへと変化したことを理解すること。その際，神話・伝承を手掛かりに，国の形成に関する考え方などに関心をもつこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=114>;
   cs:courseOfStudy cs:Elementary\/2017;

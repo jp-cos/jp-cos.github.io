@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8415503211000000
   dct:identifier "8415503211000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 441
   ];
   schema:description "(1) 話すこと・聞くことに関する次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8415503211100000, cs:8415503211200000, cs:8415503211300000, cs:8415503211400000, cs:8415503211500000, cs:8415503211600000, cs:8415503211700000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

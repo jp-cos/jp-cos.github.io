@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72603L0110000000
   dct:identifier "72603L0110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2018
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2018 2027
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2027
   ];
   schema:description "(1) 第２の各学年の内容を通じて観察，実験や自然体験，科学的な体験を充実させることによって，科学的な知識や概念の定着を図り，科学的な見方や考え方を育成するよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

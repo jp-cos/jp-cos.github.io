@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3505210000000
   dct:identifier "74F3505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1975
   ];
   schema:description "ア　内容の(1)のイについては，子どもの発達を支えるための親の役割や子育てを支援する環境に重点を置くこと。イからエについては，生涯にわたって家族・家庭の生活を支える福祉の基本的な理念に重点を置くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

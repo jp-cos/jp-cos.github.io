@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74B0100000000000
   dct:identifier "74B0100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1378
   ];
   schema:description """第１款　目標
 　芸術の幅広い活動を通して，生涯にわたり芸術を愛好する心情を育てるとともに，感性を高め，芸術の諸能力を伸ばし，芸術文化についての理解を深め，豊かな情操を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

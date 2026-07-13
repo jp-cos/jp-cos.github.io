@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8464503111100000
   dct:identifier "8464503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1706
   ];
   schema:description """㋐　化学の特徴
 日常生活や社会を支える身近な物質の性質を調べる活動を通して，物質を対象とする科学である化学の特徴について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

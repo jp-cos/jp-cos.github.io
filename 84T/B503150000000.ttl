@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84TB503150000000
   dct:identifier "84TB503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7737
   ];
   schema:description "(5) 電気計測と自動制御";
   schema:edition "一部改正なし";
   schema:hasPart cs:84TB503151000000, cs:84TB503152000000, cs:84TB503153000000, cs:84TB503154000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

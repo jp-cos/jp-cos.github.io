@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84TD503110000000
   dct:identifier "84TD503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7804
   ];
   schema:description "(1) 有線通信機器";
   schema:edition "一部改正なし";
   schema:hasPart cs:84TD503111000000, cs:84TD503112000000, cs:84TD503113000000, cs:84TD503114000000, cs:84TD503115000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

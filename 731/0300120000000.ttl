@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7310300120000000
   dct:identifier "7310300120000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 205
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 205 205
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 205
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 205 205 211
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 211
   ];
   schema:description "(2) 第２の各学年の内容の「Ａ話すこと・聞くこと」，「Ｂ書くこと」，「Ｃ読むこと」及び〔伝統的な言語文化と国語の特質に関する事項〕について相互に密接な関連を図り，効果的に指導すること。その際，学校図書館などを計画的に利用しその機能の活用を図るようにすること。また，生徒が情報機器を活用する機会を設けるなどして，指導の効果を高めるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

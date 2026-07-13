@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74cB502000000000
   dct:identifier "74cB502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8050
   ];
   schema:description """１　目標
 　写真，ビデオ等の映像機器を使った表現に関する学習を通して，表現と鑑賞の能力を高める。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

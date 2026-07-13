@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000110000000
   dct:identifier "8400000110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3
   ];
   schema:description "１　各学校においては，教育基本法及び学校教育法その他の法令並びにこの章以下に示すところに従い，生徒の人間として調和のとれた育成を目指し，生徒の心身の発達の段階や特性等，課程や学科の特色及び学校や地域の実態を十分考慮して，適切な教育課程を編成するものとし，これらに掲げる目標を達成するよう教育を行うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

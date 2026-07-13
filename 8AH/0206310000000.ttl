@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AH0206310000000
   dct:identifier "8AH0206310000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2210
   ];
   schema:description "ア　言語材料については，生徒に身近でなじみのある簡単なものから扱うようにするとともに，語，連語及び慣用表現については活用頻度の高いものを用い，必要に応じて繰り返し活用しながら体験的な理解を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=528>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

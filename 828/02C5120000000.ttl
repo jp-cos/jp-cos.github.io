@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82802C5120000000
   dct:identifier "82802C5120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2708
   ];
   schema:description "イ　共通教材";
   schema:edition "一部改正なし";
   schema:hasPart cs:8280235121000000, cs:8280245121000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=87>;
   cs:courseOfStudy cs:Elementary\/2017;

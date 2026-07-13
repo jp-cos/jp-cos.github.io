@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73A0300220000000
   dct:identifier "73A0300220000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1053
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1053 1053
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1053
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1053 1053 1059
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1059
   ];
   schema:description "(2) 各学年の「Ｂ鑑賞」の題材については，日本及び諸外国の児童生徒の作品，アジアの文化遺産についても取り上げるとともに，美術館・博物館等の施設や文化財などを積極的に活用するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

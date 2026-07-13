@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502b4213100000
   dct:identifier "8G502b4213100000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3025
   ];
   schema:description "(ア) 次のような知識及び技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G502b4213110000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

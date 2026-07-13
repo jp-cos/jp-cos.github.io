@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502b4231000000
   dct:identifier "8G502b4231000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3067
   ];
   schema:description "ア　伴って変わる二つの数量に関わる数学的活動を通して，次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G502b4231100000, cs:8G502b4231200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

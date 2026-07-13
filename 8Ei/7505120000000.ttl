@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ei7505120000000
   dct:identifier "8Ei7505120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1919
   ];
   schema:description "イ　〔指導項目〕の(3)については，「理容実習」又は「美容実習」と関連させながら指導すること。また，理容所や美容所における実習等を通して，実践的な態度と能力を育てること。なお，接客の指導に当たっては，個々の生徒のコミュニケーション手段の特性に合わせて，的確な接客が身に付くよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

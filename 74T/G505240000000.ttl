@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TG505240000000
   dct:identifier "74TG505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6017
   ];
   schema:description "エ　内容の(4)のアについては，人工漁場の造成技術など基礎的な内容を扱うこと。イについては，沿岸域の基本的な環境調査及び保全技術並びに海岸環境の保全と整備を扱うこと。ウについては，海洋生物の繁殖や成長に必要な環境を造成するための基本的な技術などについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

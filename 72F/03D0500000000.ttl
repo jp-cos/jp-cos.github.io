@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72F03D0500000000
   dct:identifier "72F03D0500000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2426
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2426 2435
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2435
   ];
   schema:description "５　各内容の指導に当たっては，衣食住など生活の中の様々な言葉を実感を伴って理解する学習活動や，自分の生活における課題を解決するために言葉や図表などを用いて生活をよりよくする方法を考えたり，説明したりするなどの学習活動が充実するよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

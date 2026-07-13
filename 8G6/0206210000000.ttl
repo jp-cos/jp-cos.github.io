@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G60206210000000
   dct:identifier "8G60206210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3285
   ];
   schema:description "ア　問題を見いだし，予想や仮説，観察，実験などの方法について考えたり説明したりする学習活動，観察，実験の結果を整理し考察する学習活動， 科学的な言葉や概念を使用して考えたり説明したりする学習活動などを重視すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

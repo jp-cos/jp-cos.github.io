@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88502c4232120000
   dct:identifier "88502c4232120000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 645
   ];
   schema:description "㋑ 時間の単位（日，午前，午後，時，分）について知り，それらの関係を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=140>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7435503210000000
   dct:identifier "7435503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 456
   ];
   schema:description """ア　日常生活と結び付いた地図
 　身の回りにある様々な地図の収集や地形図の読図，目的や用途に適した地図の作成などを通して，地理的技能を身に付けさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

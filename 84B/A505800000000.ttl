@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84BA505800000000
   dct:identifier "84BA505800000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2632
   ];
   schema:description "(8) 内容の「Ｂ鑑賞」の(1)のイの(ウ)の指導に当たっては，漢字仮名交じり文の成立について取り上げるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

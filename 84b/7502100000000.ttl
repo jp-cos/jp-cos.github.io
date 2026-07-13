@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84b7502100000000
   dct:identifier "84b7502100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10382
   ];
   schema:description "(1) 作曲に関する多様な技法などについて理解を深めるとともに，創造的に作曲するために必要な技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

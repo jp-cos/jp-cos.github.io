@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000280000000
   dct:identifier "8B00000280000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 191
   ];
   schema:description "第８款　重複障害者等に関する教育課程の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000281000000, cs:8B00000283000000, cs:8B00000284000000, cs:8B00000285000000, cs:8B00000286000000, cs:8G00000282000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

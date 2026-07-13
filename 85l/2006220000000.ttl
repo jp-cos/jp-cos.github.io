@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:85l2006220000000
   dct:identifier "85l2006220000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 124
   ];
   schema:description "イ 幼児の実態把握に基づいて得られた指導すべき課題相互の関連を検討すること。その際，これまでの学習状況や将来の可能性を見通しながら，長期的及び短期的な観点から指導のねらいを設定し，それらを達成するために必要な指導内容を段階的に取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

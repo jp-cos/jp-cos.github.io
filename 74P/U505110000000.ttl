@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PU505110000000
   dct:identifier "74PU505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3062
   ];
   schema:description "ア　内容の(2)については，農林業・農山村の多面的機能や地域資源の有用性を発揮するために他産業・異業種と連携する取組の重要性について理解させるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

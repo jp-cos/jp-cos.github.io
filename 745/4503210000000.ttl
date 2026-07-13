@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7454503210000000
   dct:identifier "7454503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 753
   ];
   schema:description """ア　約数と倍数
 　素因数分解を用いた公約数や公倍数の求め方を理解し，整数に関連した事象を論理的に考察し表現すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

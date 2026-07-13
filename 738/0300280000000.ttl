@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7380300280000000
   dct:identifier "7380300280000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 958
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 958 958
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 958
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 958 958 964
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 964
   ];
   schema:description "(8) 各学年の〔共通事項〕のイの用語や記号などは，小学校学習指導要領第２章第６節音楽の第３の２の(6)に示すものに加え，生徒の学習状況を考慮して，次に示すものを取り扱うこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7380300280100000, cs:7380300280200000, cs:7380300280300000, cs:7380300280400000, cs:7380300280500000, cs:7380300280600000, cs:7380300280700000, cs:7380300280800000, cs:7380300280900000, cs:7380300281000000, cs:7380300282000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

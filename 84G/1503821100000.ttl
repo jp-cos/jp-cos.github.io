@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503821100000
   dct:identifier "84G1503821100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2088
   ];
   schema:description "(ア) 運動やスポーツの技能と体力は，相互に関連していること。また，期待する成果に応じた技能や体力の高め方があること。さらに，過度な負荷や長期的な酷使は，けがや疾病の原因となる可能性があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

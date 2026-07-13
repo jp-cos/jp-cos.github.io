@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73M0300270000000
   dct:identifier "73M0300270000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1599
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1599 1599
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1599
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1599 1599 1606
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1606
   ];
   schema:description "(7) 職業や自己の将来に関する学習を行う際には，問題の解決や探究活動に取り組むことを通して，自己を理解し，将来の生き方を考えるなどの学習活動が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

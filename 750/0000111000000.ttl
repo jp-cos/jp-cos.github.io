@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7500000111000000
   dct:identifier "7500000111000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 4
   ];
   schema:description "１   幼児は安定した情緒の下で自己を十分に発揮することにより発達に必要な体験を得ていくものであることを考慮して， 幼児の主体的な活動を促し， 幼児期にふさわしい生活が展開されるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8880206130000000
   dct:identifier "8880206130000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 830
   ];
   schema:description "ウ  ２の目標及び内容の〔共通事項〕は，表現及び鑑賞の学習において共通に必要となる資質・能力であり，「Ａ表現」及び「Ｂ鑑賞」の指導と併せて， 十分な指導が行われるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=182>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

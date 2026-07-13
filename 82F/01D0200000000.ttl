@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F01D0200000000
   dct:identifier "82F01D0200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2960
   ];
   schema:description "(2) 日常生活の中から問題を見いだして課題を設定し，様々な解決方法を考え，実践を評価・改善し，考えたことを表現するなど，課題を解決する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=20>;
   cs:courseOfStudy cs:Elementary\/2017;

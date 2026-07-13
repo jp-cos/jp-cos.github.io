@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503313000000
   dct:identifier "74G1503313000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1280
   ];
   schema:description """ウ　投てき
 　砲丸投げでは，立ち投げなどから砲丸を突き出して投げること，やり投げでは，短い助走からやりを前方にまっすぐ投げること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

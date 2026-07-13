@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7BO0400500000000
   dct:identifier "7BO0400500000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2509
   ];
   schema:description "５   身体の動き";
   schema:edition "一部改正なし";
   schema:hasPart cs:7BO0400510000000, cs:7BO0400520000000, cs:7BO0400530000000, cs:7BO0400540000000, cs:7BO0400550000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7362235840000000
   dct:identifier "7362235840000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 847
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 847 847
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 847
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 847 847 853
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 853
   ];
   schema:description "エ　ウの(ア)については，これまでの第１分野と第２分野の学習を生かし，第１分野(7)のウの(ア)と関連付けて総合的に扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

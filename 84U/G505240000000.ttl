@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84UG505240000000
   dct:identifier "84UG505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8698
   ];
   schema:description "エ　〔指導項目〕の(4)のアについては，健康の保持増進を考慮した日常食の献立と調理を扱うこと。イについては，代表的な行事を取り上げ，供応の目的に合った献立と調理を扱うこと。ウについては，流動食，軟食及び常食を扱うこと。また，食物アレルギーに対応する食事に関する留意事項を扱うこと。エについては，幼児と高齢者の食事に関する留意事項を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

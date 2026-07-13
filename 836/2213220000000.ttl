@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8362213220000000
   dct:identifier "8362213220000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1060
   ];
   schema:description "イ  大地の成り立ちと変化について，問題を見いだし見通しをもって観察，実験などを行い，地層の重なり方や広がり方の規則性，地下のマグマの性質と火山の形との関係性などを見いだして表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=84>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

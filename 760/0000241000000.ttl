@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000241000000
   dct:identifier "7600000241000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 34
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 34 35
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 35
   ];
   schema:description "１   各学校においては，次の事項に配慮しながら，学校の創意工夫を生かし，全体として，調和のとれた具体的な指導計画を作成するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000241100000, cs:7600000241200000, cs:7600000241300000, cs:7600000241400000, cs:7600000241500000, cs:7600000241600000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

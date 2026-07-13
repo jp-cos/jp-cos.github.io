@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:75l0000100000000
   dct:identifier "75l0000100000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 18
   ];
@@ -16,7 +16,7 @@ cs:75l0000100000000
 各領域に示すねらいは， 幼稚部における生活の全体を通じ， 幼児が様々な体験を積み重ねる中で相互に関連をもちながら次第に達成に向かうものであること， 内容は， 幼児が環境にかかわって展開する具体的な活動を通して総合的に指導されるものであることに留意しなければならない。 ただし，  自立活動については， 個々の幼児の障害の状態や発達の程度等に応じて， 他の各領域に示す内容との緊密な関連を図りながら，  自立活動の内容に重点を置いた指導を行うことについて配慮する必要がある。
 なお， 特に必要な場合には， 各領域に示すねらいの趣旨に基づいて適切な， 具体的な内容を工夫し， それを加えても差し支えないが， その場合には， それが第１章の第１に示す幼稚部における教育の基本を逸脱しないよう慎重に配慮する必要がある。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

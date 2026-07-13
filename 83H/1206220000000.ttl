@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83H1206220000000
   dct:identifier "83H1206220000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2010
   ];
   schema:description "イ　音声指導に当たっては，日本語との違いに留意しながら，発音練習などを通して２の(1)のアに示す言語材料を継続して指導するとともに，音声指導の補助として，必要に応じて発音表記を用いて指導することもできることに留意すること。また，発音と綴《つづ》りとを関連付けて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210531-mxt_kyoiku01-100002608_010.pdf#page=125>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

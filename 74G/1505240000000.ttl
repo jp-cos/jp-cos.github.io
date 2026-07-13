@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1505240000000
   dct:identifier "74G1505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1336
   ];
   schema:description "エ　「Ｄ水泳」の(1)の運動については，アからオまでの中から選択して履修できるようにすること。また，スタートの指導については，段階的な指導を行うとともに安全を十分に確保すること。また，「保健」における応急手当の内容との関連を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

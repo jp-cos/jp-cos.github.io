@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83802B3123100000
   dct:identifier "83802B3123100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1243
   ];
   schema:description "(ア) 創意工夫を生かした表現で演奏するために必要な奏法，身体の使い方などの技能";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=80>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

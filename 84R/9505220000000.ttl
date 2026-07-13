@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R9505220000000
   dct:identifier "84R9505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6928
   ];
   schema:description "イ　〔指導項目〕の(2)のイについては，国内総生産の概念及び日本の国内総生産の現状についても扱うこと。ウについては，景気循環の局面と仕組み，景気循環を表す指標，日本における物価と景気の現状などについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

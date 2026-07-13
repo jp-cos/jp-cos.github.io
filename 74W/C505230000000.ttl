@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74WC505230000000
   dct:identifier "74WC505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7085
   ];
   schema:description "ウ　内容の(3)については，看護に関する知識と技術を統合させるよう，チーム医療に携わる他職種や保健医療福祉との連携・協働などを含め，臨床実践の中で必要な基礎的な知識と技術を扱うこと。アについては，在宅における訪問看護や地域における医療看護活動などの実習を行うこと。イについては，臨床における看護活動について総合的な実習を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

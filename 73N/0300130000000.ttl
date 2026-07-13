@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73N0300130000000
   dct:identifier "73N0300130000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1646
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1646 1646
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1646
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1646 1646 1653
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1653
   ];
   schema:description "(3) 学校生活への適応や人間関係の形成，進路の選択などの指導に当たっては，ガイダンスの機能を充実するよう〔学級活動〕等の指導を工夫すること。特に，中学校入学当初においては，個々の生徒が学校生活に適応するとともに，希望と目標をもって生活をできるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

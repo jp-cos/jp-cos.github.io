@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04D0330000000
   dct:identifier "72K04D0330000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2685
   ];
   schema:description "(3) 美しいものに感動する心や人間の力を超えたものに対する畏《い》敬の念をもつ。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K04D0333000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

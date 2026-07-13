@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8453503214000000
   dct:identifier "8453503214000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1374
   ];
   schema:description "(エ) 導関数を用いて，いろいろな曲線の接線の方程式を求めたり，いろいろな関数の値の増減，極大・極小，グラフの凹凸などを調べグラフの概形をかいたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

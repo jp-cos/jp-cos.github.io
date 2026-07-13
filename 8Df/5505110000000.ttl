@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df5505110000000
   dct:identifier "8Df5505110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 954
   ];
   schema:description "ア　指導に当たっては，理療に関する研究の成果を踏まえて取り扱い，理療に対する研究的な態度が培われるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

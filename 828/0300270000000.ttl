@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8280300270000000
   dct:identifier "8280300270000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2818
   ];
   schema:description "(7) 各学年の「Ｂ鑑賞」の指導に当たっては，言葉などで表す活動を取り入れ，曲想と音楽の構造との関わりについて気付いたり理解したり，曲や演奏の楽しさやよさなどを見いだしたりすることができるよう指導を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=138>;
   cs:courseOfStudy cs:Elementary\/2017;

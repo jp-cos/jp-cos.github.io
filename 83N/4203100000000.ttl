@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83N4203100000000
   dct:identifier "83N4203100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2165
   ];
   schema:description """(1) 生徒会の組織づくりと生徒会活動の計画や運営
 生徒が主体的に組織をつくり，役割を分担し，計画を立て，学校生活の課題を見いだし解決するために話し合い，合意形成を図り実践すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230208-mxt_kyoiku02-100002608_013.pdf#page=159>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74I2505300000000
   dct:identifier "74I2505300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2039
   ];
   schema:description "(3) 内容の(3)については，実際に処理又は創出した情報について生徒に評価させる活動を取り入れること。アについては，学校や生徒の実態に応じて，適切なアプリケーションソフトウェアや情報通信ネットワークを選択すること。イについては，簡単なデータベースを作成する活動を取り入れ，情報が喪失した際のリスクについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000251100000
   dct:identifier "8400000251100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 106
   ];
@@ -19,7 +19,7 @@ cs:8400000251100000
 芸術及び外国語に属する科目（添削指導３回，面接指導４（単位時間））
 家庭及び情報に属する科目並びに専門教科・科目（添削指導は各教科・科目の必要に応じて２～３回，面接指導は各教科・科目の必要に応じて２～８（単位時間））""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

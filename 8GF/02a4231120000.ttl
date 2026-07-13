@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GF02a4231120000
   dct:identifier "8GF02a4231120000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3737
   ];
   schema:description "㋑ 売買契約の仕組み，消費者被害の背景とその対応について理解し， 物資・サービスの選択に必要な情報の収集・整理ができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

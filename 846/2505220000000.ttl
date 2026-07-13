@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8462505220000000
   dct:identifier "8462505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1623
   ];
@@ -18,7 +18,7 @@ cs:8462505220000000
 (エ)の㋐については，電気エネルギーへの変換を中心に扱うこと。「原子力」については，核分裂によってエネルギーが発生していることに触れること。関連して放射線の種類と性質，放射性物質の基本的な性質及び原子力の利用とその課題にも触れること。
 (オ)の㋐については，日常生活や社会で利用されている科学技術の具体的事例を取り上げること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7362213212000000
   dct:identifier "7362213212000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 768
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 768 768
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 768
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 768 768 774
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 774
   ];
   schema:description """(イ) 地震の伝わり方と地球内部の働き
 地震の体験や記録を基に，その揺れの大きさや伝わり方の規則性に気付くとともに，地震の原因を地球内部の働きと関連付けてとらえ，地震に伴う土地の変化の様子を理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

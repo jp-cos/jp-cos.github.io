@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7414503110000000
   dct:identifier "7414503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 234
   ];
   schema:description "ア　文章を読んで，構成，展開，要旨などを的確にとらえ，その論理性を評価すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

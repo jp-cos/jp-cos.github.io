@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8210300180000000
   dct:identifier "8210300180000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 296
   ];
   schema:description "(8) 言語能力の向上を図る観点から，外国語活動及び外国語科など他教科等との関連を積極的に図り，指導の効果を高めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=163>;
   cs:courseOfStudy cs:Elementary\/2017;

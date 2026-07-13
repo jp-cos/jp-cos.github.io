@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74W2505210000000
   dct:identifier "74W2505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6845
   ];
   schema:description "ア　内容の(1)については，各器官系を構成する器官の構造と機能について，基本的な生活行動と関連させて扱うこと。なお，学科の特色に応じて，その概要を扱う程度とすることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

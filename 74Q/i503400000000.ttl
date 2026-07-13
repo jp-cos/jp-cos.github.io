@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qi503400000000
   dct:identifier "74Qi503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4292
   ];
   schema:description "(4) 物質の変化とエネルギー";
   schema:edition "一部改正なし";
   schema:hasPart cs:74Qi503410000000, cs:74Qi503420000000, cs:74Qi503430000000, cs:74Qi503440000000, cs:74Qi503450000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

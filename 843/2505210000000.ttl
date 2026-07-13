@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8432505210000000
   dct:identifier "8432505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 666
   ];
@@ -16,7 +16,7 @@ cs:8432505210000000
 分析，考察の過程を重視し，現代世界を系統地理的に捉える視点や考察方法が身に付くよう工夫すること。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8432505211000000, cs:8432505212000000, cs:8432505213000000, cs:8432505214000000, cs:8432505215000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

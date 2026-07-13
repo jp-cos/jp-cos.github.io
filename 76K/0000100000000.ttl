@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:76K0000100000000
   dct:identifier "76K0000100000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 305
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 305 316
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 316
   ];
   schema:description "１   児童又は生徒の障害による学習上又は生活上の困難を改善・克服して，強く生きようとする意欲を高め， 明るい生活態度を養うとともに， 健全な人生観の育成を図る必要があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

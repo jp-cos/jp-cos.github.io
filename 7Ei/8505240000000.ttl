@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ei8505240000000
   dct:identifier "7Ei8505240000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1727
   ];
   schema:description "エ  内容の(4)については， フェイスシェービング及びネックシェービングの準備から事後処置までの順序や技法等を中心に， 顔面処置の実際を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

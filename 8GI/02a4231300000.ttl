@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GI02a4231300000
   dct:identifier "8GI02a4231300000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3969
   ];
   schema:description "(ウ) データを表現，蓄積するための基本的な表し方と，データを収集， 整理する基本的な方法について知り，基礎的な技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

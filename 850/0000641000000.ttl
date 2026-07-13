@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000641000000
   dct:identifier "8500000641000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 70
   ];
   schema:description "(1)  視覚障害者である幼児に対する教育を行う特別支援学校においては，早期からの教育相談との関連を図り，幼児が聴覚，触覚及び保有する視覚などを十分に活用して周囲の状況を把握できるように配慮することで，安心して活発な活動が展開できるようにすること。また，身の回りの具体的な事物・事象及び動作と言葉とを結び付けて基礎的な概念の形成を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8GA02062B0000000
   dct:identifier "8GA02062B0000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3504
   ];
   schema:description "サ　〔共通事項〕の指導に当たっては，生徒が造形を豊かに捉える多様な視点をもてるように，以下の内容について配慮すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GA02062B1000000, cs:8GA02062B2000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N5203300000000
   dct:identifier "72N5203300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2824
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2824 2850
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2850
   ];
   schema:description """(3) 健康安全・体育的行事
 　心身の健全な発達や健康の保持増進などについての関心を高め，安全な行動や規律ある集団行動の体得，運動に親しむ態度の育成，責任感や連帯感の涵《かん》養，体力の向上などに資するような活動を行うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

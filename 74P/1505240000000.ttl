@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74P1505240000000
   dct:identifier "74P1505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2087
   ];
   schema:description "エ　内容の(4)については，農業生物の育成や環境の保全などの農業学習の特質，プロジェクト学習の進め方並びに学校農業クラブ活動の目標，内容，組織及び実践方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

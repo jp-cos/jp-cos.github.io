@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503141100000
   dct:identifier "84F2503141100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3182
   ];
   schema:description "(ア) 高齢期の心身の特徴，高齢者の尊厳と自立生活の支援や介護について理解を深め，高齢者の心身の状況に応じて適切に関わるための生活支援に関する技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

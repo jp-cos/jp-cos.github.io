@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7431503350000000
   dct:identifier "7431503350000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 320
   ];
   schema:description """オ　持続可能な社会への展望
 　現代世界の特質や課題に関する適切な主題を設定させ，歴史的観点から資料を活用して探究し，その成果を論述したり討論したりするなどの活動を通して，世界の人々が協調し共存できる持続可能な社会の実現について展望させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

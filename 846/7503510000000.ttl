@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467503510000000
   dct:identifier "8467503510000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1887
   ];
   schema:description "ア　生態と環境について，次のことを理解するとともに，それらの観察，実験などに関する技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8467503511000000, cs:8467503512000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Z5502000000000
   dct:identifier "74Z5502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7716
   ];
   schema:description """１　目標 
 　化学的な事物・現象についての観察，実験などを行い，自然に対する関心や探究心を高め，化学的に探究する能力と態度を育てるとともに，化学の基本的な概念や原理・法則の系統的な理解を深め，科学的な自然観を育成する。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

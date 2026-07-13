@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84I1503300000000
   dct:identifier "84I1503300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3283
   ];
@@ -16,7 +16,7 @@ cs:84I1503300000000
 コンピュータで情報が処理される仕組みに着目し，プログラミングやシミュレーションによって問題を発見・解決する活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84I1503310000000, cs:84I1503320000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

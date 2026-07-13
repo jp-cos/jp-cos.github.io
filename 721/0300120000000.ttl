@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300120000000
   dct:identifier "7210300120000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 238
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 238 247
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 247
   ];
   schema:description "(2) 第２の各学年の内容の「Ａ話すこと・聞くこと」，「Ｂ書くこと」，「Ｃ読むこと」及び〔伝統的な言語文化と国語の特質に関する事項〕に示す事項については，相互に密接に関連付けて指導するようにするとともに，それぞれの能力が偏りなく養われるようにすること。その際，学校図書館などを計画的に利用しその機能の活用を図るようにすること。また，児童が情報機器を活用する機会を設けるなどして，指導の効果を高めるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

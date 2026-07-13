@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74d3502000000000
   dct:identifier "74d3502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8112
   ];
   schema:description """１　目標
 　英語を通じて，積極的にコミュニケーションを図ろうとする態度を育成するとともに，事実や意見などを多様な観点から考察し，論理の展開や表現の方法を工夫しながら伝える能力を一層伸ばす。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

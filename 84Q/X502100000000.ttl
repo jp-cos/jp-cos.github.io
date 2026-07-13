@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QX502100000000
   dct:identifier "84QX502100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5661
   ];
   schema:description "(1) 建築関係法規について法的な側面から建築物の安全性や快適性を踏まえて理解するようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

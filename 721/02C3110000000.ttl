@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72102C3110000000
   dct:identifier "72102C3110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 112
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 112 121
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 121
   ];
   schema:description "(1) 話すこと・聞くことの能力を育てるため，次の事項について指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72102C3111000000, cs:72102C3112000000, cs:72102C3113000000, cs:72102C3114000000, cs:72102C3115000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

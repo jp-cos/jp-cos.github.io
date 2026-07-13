@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000242C00000
   dct:identifier "7600000242C00000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 53
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 53 54
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 54
   ];
   schema:description "(12)児童又は生徒のよい点や可能性，進歩の状況などを積極的に評価するとともに，指導の過程や成果を評価し， 指導の改善を行い学習意欲の向上に生かすようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

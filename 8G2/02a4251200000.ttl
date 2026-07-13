@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G202a4251200000
   dct:identifier "8G202a4251200000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2750
   ];
   schema:description "㋑ 地形や気候などに着目して，国土の自然などの様子や自然条件から見て特色ある地域の人々の生活を捉え，国土の自然環境の特色やそれらと国民生活との関連を考え，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

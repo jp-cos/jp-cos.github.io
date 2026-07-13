@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88502b4111000000
   dct:identifier "88502b4111000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 505
   ];
   schema:description "ア  10 までの数の概念や表し方について分かり，数についての感覚をもつとともに，ものと数との関係に関心をもって関わることについての技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=124>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

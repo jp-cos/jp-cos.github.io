@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83C1203211000000
   dct:identifier "83C1203211000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1687
   ];
   schema:description "ア　育成する生物の成長，生態の特性等の原理・法則と，育成環境の調節方法等の基礎的な技術の仕組みについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=155>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

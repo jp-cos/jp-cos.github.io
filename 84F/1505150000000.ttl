@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F1505150000000
   dct:identifier "84F1505150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3152
   ];
   schema:description "オ　内容のＣの指導に当たっては，Ａ及びＢの内容と相互に関連を図ることができるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431503211100000
   dct:identifier "8431503211100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 567
   ];
   schema:description "(ア) 世界の人々の特色ある生活文化を基に，人々の生活文化が地理的環境から影響を受けたり，影響を与えたりして多様性をもつことや，地理的環境の変化によって変容することなどについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

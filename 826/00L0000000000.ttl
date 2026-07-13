@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82600L0000000000
   dct:identifier "82600L0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2288
   ];
   schema:description "第４節　理科";
   schema:edition "一部改正なし";
   schema:hasPart cs:82601L0000000000, cs:82602L0000000000, cs:82603L0000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=17>;
   cs:courseOfStudy cs:Elementary\/2017;

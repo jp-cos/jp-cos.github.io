@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467505230000000
   dct:identifier "8467505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1904
   ];
   schema:description """ウ　内容の(2)のアの(ア)の㋐については，生体膜を扱うこと。また，核酸や細胞骨格にも触れること。㋑については，タンパク質が生命現象を支えていることを２，３の例を挙げて扱うこと。また，酵素については，その働きとタンパク質の立体構造との関係を扱うこと。
 (イ)の㋐については，ATP合成の仕組みを扱うこと。その際，解糖系，クエン酸回路及び電子伝達系に触れること。また，発酵にも触れること。㋑については，ATP合成の仕組みを扱うこと。その際，光化学系，電子伝達系及びカルビン回路に触れること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

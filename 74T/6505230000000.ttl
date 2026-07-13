@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T6505230000000
   dct:identifier "74T6505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5662
   ];
   schema:description "ウ　内容の(5)のアについては，漁業経営の特性など経営に関する基礎的な内容を扱うこと。イについては，経営分析や事業計画について基礎的な内容を扱うこと。また，簿記の基礎的な内容に触れること。ウについては，新たな漁業経営の取組など経営の改善について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

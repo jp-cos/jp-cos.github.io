@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250253120000000
   dct:identifier "7250253120000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1732
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1732 1741
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1741
   ];
   schema:description "(2) 記数法の考えを通して整数及び小数についての理解を深め，それを計算などに有効に用いることができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7250253121000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83C2205300000000
   dct:identifier "83C2205300000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1811
   ];
   schema:description "(3) 内容の「Ｂ衣食住の生活」については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83C2205310000000, cs:83C2205320000000, cs:83C2205330000000, cs:83C2205340000000, cs:83C2205350000000, cs:83C2205360000000, cs:83C2205370000000, cs:83C2205380000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=159>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

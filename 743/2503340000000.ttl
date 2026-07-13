@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503340000000
   dct:identifier "7432503340000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 351
   ];
   schema:description """エ　空間軸からみる諸地域世界
 　　同時代性に着目して主題を設定し，諸地域世界の接触や交流などを地図上に表したり，世紀ごとに比較したりするなどの活動を通して，世界史を空間的なつながりに着目して整理し，表現する技能を習得させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

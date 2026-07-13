@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233510000000
   dct:identifier "83G1233510000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1554
   ];
   schema:description "(1) 次の運動について，勝敗を競う楽しさや喜びを味わい，技術の名称や行い方，体力の高め方，運動観察の方法などを理解するとともに，作戦に応じた技能で仲間と連携しゲームを展開すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G1233511000000, cs:83G1233512000000, cs:83G1233513000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=136>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

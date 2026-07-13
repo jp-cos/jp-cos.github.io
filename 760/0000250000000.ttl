@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000250000000
   dct:identifier "7600000250000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 58
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 58 69
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 69
   ];
   schema:description "第５   重複障害者等に関する教育課程の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000251000000, cs:7600000252000000, cs:7600000253000000, cs:7600000254000000, cs:7600000255000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

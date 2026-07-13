@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7B00000100000000
   dct:identifier "7B00000100000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2
   ];
@@ -16,7 +16,7 @@ cs:7B00000100000000
 高等部における教育については，学校教育法第72条に定める目的を実現するために，生徒の障害の状態及び特性等を十分考慮して， 次に掲げる目標の達成に努めなければならない。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7B00000110000000, cs:7B00000120000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

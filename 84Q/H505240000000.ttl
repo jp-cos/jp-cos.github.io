@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QH505240000000
   dct:identifier "84QH505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5145
   ];
   schema:description "エ　〔指導項目〕の(4)については，船舶の品質に着目し，造船の現場における船殻工程と艤(ぎ)装工程とを関連付けて扱うこと。イについては，機械工作法についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

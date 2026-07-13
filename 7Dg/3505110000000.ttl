@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dg3505110000000
   dct:identifier "7Dg3505110000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1080
   ];
   schema:description "ア  指導に当たっては， 内容が抽象的な概念の把握にとどまることのないよう症例紹介や保健・医療・福祉及びリハビリテーション施設の見学などを交えて取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

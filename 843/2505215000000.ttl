@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8432505215000000
   dct:identifier "8432505215000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 671
   ];
@@ -16,7 +16,7 @@ cs:8432505215000000
 ここで取り上げる生活文化については，「地理総合」の内容のＢの(1)の生活文化の多様性と国際理解における学習を踏まえて取り上げる事象を工夫すること。
 「領土問題の現状や要因，解決に向けた取組」については，それを扱う際に日本の領土問題にも触れること。また，我が国の海洋国家としての特色と海洋の果たす役割を取り上げるとともに，竹島や北方領土が我が国の固有の領土であることなど，我が国の領域をめぐる問題も取り上げるようにすること。その際，尖閣諸島については我が国の固有の領土であり，領土問題は存在しないことも扱うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

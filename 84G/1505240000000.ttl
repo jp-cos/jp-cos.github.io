@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1505240000000
   dct:identifier "84G1505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2110
   ];
   schema:description """エ　「Ｄ水泳」の(1)の運動については，アからオまでの中から選択して履修できるようにすること。なお，「保健」における応急手当の内容との関連を図ること。
 また，泳法との関連において水中からのスタート及びターンを取り上げること。なお，入学年次の次の年次以降は，安全を十分に確保した上で，学校や生徒の実態に応じて段階的な指導を行うことができること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

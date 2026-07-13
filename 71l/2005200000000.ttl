@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71l2005200000000
   dct:identifier "71l2005200000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 64
   ];
   schema:description "(2) 幼児の主体的な活動は，他の幼児とのかかわりの中で深まり，豊かになるものであり，幼児はその中で互いに必要な存在であることを認識するようになることを踏まえ，一人一人を生かした集団を形成しながら人とかかわる力を育てていくようにすること。特に，集団の生活の中で，幼児が自己を発揮し，教師や他の幼児に認められる体験をし，自信をもって行動できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

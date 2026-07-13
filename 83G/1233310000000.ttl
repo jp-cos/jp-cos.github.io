@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233310000000
   dct:identifier "83G1233310000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1539
   ];
   schema:description "(1) 次の運動について，記録の向上や競争の楽しさや喜びを味わい，技術の名称や行い方，体力の高め方，運動観察の方法などを理解するとともに，各種目特有の技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G1233311000000, cs:83G1233312000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=99>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

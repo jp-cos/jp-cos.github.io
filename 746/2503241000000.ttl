@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7462503241000000
   dct:identifier "7462503241000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 881
   ];
   schema:description """(ア) エネルギーとその利用
 　人類が利用可能な水力，化石燃料，原子力，太陽光などを源とするエネルギーの特性や利用などについて，物理学的な視点から理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

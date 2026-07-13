@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:85l2001000000000
   dct:identifier "85l2001000000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 88
   ];
   schema:description """１　ねらい
 　個々の幼児が自立を目指し，障害による学習上又は生活上の困難を主体的に改善・克服するために必要な知識，技能，態度及び習慣を養い，もって心身の調和的発達の基盤を培う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

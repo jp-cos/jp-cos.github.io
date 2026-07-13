@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7467503422000000
   dct:identifier "7467503422000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1125
   ];
   schema:description """(イ) 生態系と生物多様性
 　生態系における生物多様性に影響を与える要因を理解し，生物多様性の重要性を認識すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

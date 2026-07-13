@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QY505230000000
   dct:identifier "74QY505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4017
   ];
   schema:description "ウ　内容の(3)のアからエまでについては，各種工事の施工法の基礎的な内容及び建築測量の概要を扱うこと。また，技術の進展に対応した工法や施工技術についても触れること。オについては，解体工事の概要，廃材の処理，リサイクル，環境保全及び関連法規を扱うこと。カについては，建築物の保守の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

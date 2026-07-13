@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8380300240000000
   dct:identifier "8380300240000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1299
   ];
   schema:description "(4) 歌唱及び器楽の指導における合わせて歌ったり演奏したりする表現形態では，他者と共に一つの音楽表現をつくる過程を大切にするとともに，生徒一人一人が，担当する声部の役割と全体の響きについて考え，主体的に創意工夫できるよう指導を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=116>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

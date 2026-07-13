@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72603L0100000000
   dct:identifier "72603L0100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2017
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2017 2026
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2026
   ];
   schema:description "１　指導計画の作成に当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72603L0110000000, cs:72603L0120000000, cs:72603L0130000000, cs:72603L0140000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000423000000
   dct:identifier "8200000423000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 74
   ];
   schema:description "(3) 不登校児童への配慮";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000423100000, cs:8200000423200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=126>;
   cs:courseOfStudy cs:Elementary\/2017;

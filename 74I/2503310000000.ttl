@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I2503310000000
   dct:identifier "74I2503310000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2029
   ];
   schema:description """ア　情報通信ネットワークと問題解決
 　問題解決における情報通信ネットワークの活用方法を習得させ，情報を共有することの有用性を理解させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

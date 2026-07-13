@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74F0300220000000
   dct:identifier "74F0300220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1986
   ];
   schema:description "(2) 子どもや高齢者など様々な人々と触れ合い，他者とかかわる力を高める活動，衣食住などの生活における様々な事象を言葉や概念などを用いて考察する活動，判断が必要な場面を設けて理由や根拠を論述したり適切な解決方法を探究したりする活動などを充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

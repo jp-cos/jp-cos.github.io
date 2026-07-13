@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8468503211200000
   dct:identifier "8468503211200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1930
   ];
   schema:description """㋑　古生物の変遷と地球環境
 地層や化石に関する観察などを行い，地質時代が古生物の変遷に基づいて区分されることを理解するとともに，地球環境の変化に関する資料に基づいて，大気の変化と生命活動の相互の関わりを見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

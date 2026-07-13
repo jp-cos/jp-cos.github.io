@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503520000000
   dct:identifier "7434503520000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 431
   ];
   schema:description """イ　第一次世界大戦と日本の経済・社会
 　国際社会の中の日本の立場に着目して，第一次世界大戦前後の対外政策の推移や大戦が国内の経済・社会に及ぼした影響について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qc505210000000
   dct:identifier "84Qc505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5859
   ];
   schema:description "ア　〔指導項目〕の(1)については，土木構造物の安定や土木構造物を支える地盤に関連付けて扱うこと。また，液状化などの事象を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

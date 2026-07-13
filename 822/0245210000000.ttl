@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220245210000000
   dct:identifier "8220245210000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1465
   ];
   schema:description "ア　アの(ア)については，地震災害，津波災害，風水害，火山災害，雪害などの中から，過去に県内で発生したものを選択して取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=65>;
   cs:courseOfStudy cs:Elementary\/2017;

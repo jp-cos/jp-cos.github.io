@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7454503320000000
   dct:identifier "7454503320000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 761
   ];
   schema:description """イ　空間図形
 　空間における直線や平面の位置関係やなす角についての理解を深めること。また，多面体などに関する基本的な性質について理解し，それらを事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

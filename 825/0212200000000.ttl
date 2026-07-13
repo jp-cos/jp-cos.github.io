@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250212200000000
   dct:identifier "8250212200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1665
   ];
   schema:description "(2) ものの数に着目し，具体物や図などを用いて数の数え方や計算の仕方を考える力，ものの形に着目して特徴を捉えたり，具体的な操作を通して形の構成について考えたりする力，身の回りにあるものの特徴を量に着目して捉え，量の大きさの比べ方を考える力，データの個数に着目して身の回りの事象の特徴を捉える力などを養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=83>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8464503211200000
   dct:identifier "8464503211200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1715
   ];
   schema:description """㋑　電子配置と周期表
 元素の周期律及び原子の電子配置と周期表の族や周期との関係について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

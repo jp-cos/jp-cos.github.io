@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7290300140000000
   dct:identifier "7290300140000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2344
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2344 2353
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2353
   ];
   schema:description "(4) 第２の各学年の内容の「Ａ表現」の指導については，適宜共同してつくりだす活動を取り上げるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

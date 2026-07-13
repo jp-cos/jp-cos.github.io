@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H2502520000000
   dct:identifier "84H2502520000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2897
   ];
   schema:description "イ　社会的な話題について，使用する語句や文，事前の準備などにおいて，一定の支援を活用すれば，聞いたり読んだりしたことを基に，多様な語句や文を用いて，情報や考え，気持ちなどを論理性に注意して複数の段落から成る文章で詳しく書いて伝えることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

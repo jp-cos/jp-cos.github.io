@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72600L0000000000
   dct:identifier "72600L0000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1852
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1852 1861
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1861
   ];
   schema:description "第４節　理科";
   schema:edition "一部改正なし";
   schema:hasPart cs:72601L0000000000, cs:72602L0000000000, cs:72603L0000000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

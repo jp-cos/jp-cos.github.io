@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000223600000
   dct:identifier "8B00000223600000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 124
   ];
   schema:description "(6) キャリア教育及び職業教育に関して配慮すべき事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000223610000, cs:8B00000223620000, cs:8B00000223630000, cs:8B00000223640000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

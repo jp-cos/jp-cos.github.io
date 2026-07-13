@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000100000000
   dct:identifier "77n0000100000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 72
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 72 83
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 83
   ];
   schema:description "１   視覚障害者である児童に対する教育を行う特別支援学校";
   schema:edition "一部改正なし";
   schema:hasPart cs:77n0000110000000, cs:77n0000120000000, cs:77n0000130000000, cs:77n0000140000000, cs:77n0000150000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

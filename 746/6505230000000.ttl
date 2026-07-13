@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7466505230000000
   dct:identifier "7466505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1083
   ];
   schema:description """ウ　内容の(3)のアの(ア)については，植生の成り立ちには光や土壌などが関係することを扱うこと。また，植物の環境形成作用にも触れること。(イ)については，気温と降水量に対する適応に関連付けて扱うこと。また，日本のバイオームも扱うこと。
 　イの(ア)の物質の「循環」については，窒素の循環も扱うこと。(イ)については，人間の活動によって生態系が攪《かく》乱され，生物の多様性が損なわれることがあることを扱うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

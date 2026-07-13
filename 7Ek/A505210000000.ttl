@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7EkA505210000000
   dct:identifier "7EkA505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2214
   ];
   schema:description "ア  内容の(1)については， 臨床的模型を使用した全部床義歯の製作， 内容の(2)については，鋳造冠のワックスアップの反復練習， 内容の(3)については， 石膏， ワックス及びレジンを使用した歯型彫刻に重点を置いて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

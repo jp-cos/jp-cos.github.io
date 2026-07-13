@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8432503311100000
   dct:identifier "8432503311100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 654
   ];
   schema:description "(ア) 現代世界におけるこれからの日本の国土像の探究を基に，我が国が抱える地理的な諸課題の解決の方向性や将来の国土の在り方などを構想することの重要性や，探究する手法などについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

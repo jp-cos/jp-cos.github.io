@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7436505211000000
   dct:identifier "7436505211000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 500
   ];
   schema:description "(ア) 地球儀や地図の活用，観察や調査，統計，画像，文献などの地理情報の収集，選択，処理，諸資料の地理情報化や地図化などの作業的，体験的な学習を取り入れるとともに，各項目を関連付けて地理的技能が身に付くよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

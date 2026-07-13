@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503612000000
   dct:identifier "84G1503612000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2067
   ];
   schema:description "イ　剣道では，相手の動きの変化に応じた基本動作から，得意技を用いて，相手の構えを崩し，素早くしかけたり応じたりするなどの攻防をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

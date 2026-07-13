@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qk505230000000
   dct:identifier "74Qk505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4386
   ];
   schema:description "ウ　内容の(3)のアについては，大気汚染と水質汚濁の具体的な事例を通して，汚染の種類と原因を扱うこと。イについては，関係法規に基づいた測定法による基本的な環境分析技術及び調査方法を扱うこと。ウについては，環境に関する基本的な評価方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QU505240000000
   dct:identifier "74QU505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3898
   ];
   schema:description "エ　内容の(4)のイについては，文字，画像，音声をディジタル化する基本的な技術を扱うこと。ウについては，マルチメディア情報の圧縮，復元の原理と方法及びディジタルデータの送受信に関する基礎的な内容を扱うこと。エについては，マルチメディアを活用した具体的な事例を通して，情報表現の特性を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

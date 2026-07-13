@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7432505110000000
   dct:identifier "7432505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 366
   ];
   schema:description "ア　１の目標に即して基本的な事項・事柄を精選して指導内容を構成するとともに，各時代における世界と日本を関連付けて扱うこと。また，地理的条件とも関連付けるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

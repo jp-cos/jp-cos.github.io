@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88702c4231000000
   dct:identifier "88702c4231000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 259
   ];
   schema:description "(ア) 日常生活の日課・予定が分かり，およその予定を考えながら，見通しをもって行動しようとすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=72>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203130000000
   dct:identifier "84N1203130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10902
   ];
   schema:description """ウ　学校における多様な集団の生活の向上
 生徒会などホームルームの枠を超えた多様な集団における活動や学校行事を通して学校生活の向上を図るため，ホームルームとしての提案や取組を話し合って決めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

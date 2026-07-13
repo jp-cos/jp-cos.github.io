@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84UA500000000000
   dct:identifier "84UA500000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8481
   ];
   schema:description "第10　ファッション造形基礎";
   schema:edition "一部改正なし";
   schema:hasPart cs:84UA502000000000, cs:84UA503000000000, cs:84UA505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

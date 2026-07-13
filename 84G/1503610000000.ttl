@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503610000000
   dct:identifier "84G1503610000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2065
   ];
   schema:description "(1) 次の運動について，勝敗を競ったり自己や仲間の課題を解決したりするなどの多様な楽しさや喜びを味わい，伝統的な考え方，技の名称や見取り稽古の仕方，体力の高め方，課題解決の方法，試合の仕方などを理解するとともに，得意技などを用いた攻防を展開すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G1503611000000, cs:84G1503612000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

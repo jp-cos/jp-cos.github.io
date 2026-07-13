@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F02D3261200000
   dct:identifier "82F02D3261200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3009
   ];
   schema:description "(イ) 住まいの整理・整頓や清掃の仕方を理解し，適切にできること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=67>;
   cs:courseOfStudy cs:Elementary\/2017;

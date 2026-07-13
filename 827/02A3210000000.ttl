@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82702A3210000000
   dct:identifier "82702A3210000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2576
   ];
   schema:description "(4) 公共物や公共施設を利用する活動を通して，それらのよさを感じたり働きを捉えたりすることができ，身の回りにはみんなで使うものがあることやそれらを支えている人々がいることなどが分かるとともに，それらを大切にし，安全に気を付けて正しく利用しようとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf#page=42>;
   cs:courseOfStudy cs:Elementary\/2017;

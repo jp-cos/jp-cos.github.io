@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000441000000
   dct:identifier "8100000441000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 59
   ];
   schema:description "(1) 指導の過程を振り返りながら幼児の理解を進め，幼児一人一人のよさや可能性などを把握し，指導の改善に生かすようにすること。その際，他の幼児との比較や一定の基準に対する達成度についての評定によって捉えるものではないことに留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

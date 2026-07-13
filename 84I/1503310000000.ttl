@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84I1503310000000
   dct:identifier "84I1503310000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3284
   ];
   schema:description "ア　次のような知識及び技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84I1503311000000, cs:84I1503312000000, cs:84I1503313000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QY505250000000
   dct:identifier "74QY505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4019
   ];
   schema:description "オ　内容の(5)については，積算の意義と概要を扱うこと。また，具体的な事例を通して，簡単な建築積算を扱うこと。ウについては，電子入札にも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

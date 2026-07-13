@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503112100000
   dct:identifier "8435503112100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 908
   ];
   schema:description "(ア) 諸事象を捉えるための時間の尺度や，諸事象の空間的な広がりに着目し，主題を設定し，地球の歴史における人類の歴史の位置と人類の特性を考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

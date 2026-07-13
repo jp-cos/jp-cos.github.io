@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84b0300210000000
   dct:identifier "84b0300210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10412
   ];
   schema:description "(1) 「声楽」の〔指導項目〕の(2)及び「器楽」の〔指導項目〕の(6)については，他者と協調しながら活動することを重視することによって，より一層幅広い音楽表現に関わる資質・能力を育成できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

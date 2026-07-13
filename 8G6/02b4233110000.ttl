@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G602b4233110000
   dct:identifier "8G602b4233110000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3258
   ];
   schema:description "㋐ 力を加える位置や力の大きさを変えると，てこを傾ける働きが変わり，てこがつり合うときにはそれらの間に規則性があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

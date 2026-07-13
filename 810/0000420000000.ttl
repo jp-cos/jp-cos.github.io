@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000420000000
   dct:identifier "8100000420000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 42
   ];
   schema:description "２　指導計画の作成上の基本的事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8100000421000000, cs:8100000422000000, cs:8100000423000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

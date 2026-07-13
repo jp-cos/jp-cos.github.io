@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04C0430000000
   dct:identifier "72K04C0430000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2664
   ];
   schema:description "(3) 父母，祖父母を敬愛し，家族みんなで協力し合って楽しい家庭をつくる。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K04C0432000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

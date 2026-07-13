@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503122100000
   dct:identifier "8435503122100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 913
   ];
   schema:description "(ア) 諸事象の来歴や変化に着目して，主題を設定し，身の回りの諸事象と世界の歴史との関連性を考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

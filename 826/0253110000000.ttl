@@ -8,9 +8,9 @@
 @prefix sh: <http://www.w3.org/ns/shacl#>.
 cs:8260253110000000
   dct:identifier "8260253110000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2422
   ];
@@ -18,16 +18,16 @@ cs:8260253110000000
 物の溶け方について，溶ける量や様子に着目して，水の温度や量などの条件を制御しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260253111000000, cs:8260253112000000;
-  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000031;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2422 cs:8260263120000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260263120000000
   ];
   cs:basicItem [
-    dct:provenance cs:commentary\/1000031 cs:commentary\/1000031;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
-    rdf:value 2422 cs:8260263120000000 cs:8260233110000000
+    dct:provenance cs:commentary\/1000031;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260233110000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68>;

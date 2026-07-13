@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7De6503400000000
   dct:identifier "7De6503400000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 431
   ];
   schema:description "(4)主な症状のあん摩・マッサージ・指圧施術";
   schema:edition "一部改正なし";
   schema:hasPart cs:7De6503410000000, cs:7De6503420000000, cs:7De6503430000000, cs:7De6503440000000, cs:7De6503450000000, cs:7De6503460000000, cs:7De6503470000000, cs:7De6503480000000, cs:7De6503490000000, cs:7De65034A0000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

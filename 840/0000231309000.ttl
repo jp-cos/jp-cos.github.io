@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231309000
   dct:identifier "8400000231309000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 33
   ];
   schema:description "理数（理数数学Ⅰ，理数数学Ⅱ，理数数学特論，理数物理，理数化学，理数生物，理数地学）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

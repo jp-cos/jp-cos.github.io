@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7463503421000000
   dct:identifier "7463503421000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 943
   ];
   schema:description """(ア) 原子とスペクトル
 　原子の構造及びスペクトルと電子のエネルギー準位の関係について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

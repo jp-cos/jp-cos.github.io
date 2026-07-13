@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8412503221400000
   dct:identifier "8412503221400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 277
   ];
   schema:description "エ　作品や文章の成立した背景や他の作品などとの関係を踏まえ，内容の解釈を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

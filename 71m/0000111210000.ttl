@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000111210000
   dct:identifier "71m0000111210000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 142
   ];
   schema:description "ア　具体的なねらい及び内容は，幼稚園生活における幼児の発達の過程を見通し，幼児の生活の連続性，季節の変化などを考慮して，幼児の興味や関心，発達の実情などに応じて設定すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

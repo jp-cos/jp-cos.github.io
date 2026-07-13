@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:87n0000400000000
   dct:identifier "87n0000400000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 147
   ];
   schema:description "４  病弱者である児童に対する教育を行う特別支援学校";
   schema:edition "一部改正なし";
   schema:hasPart cs:87n0000410000000, cs:87n0000420000000, cs:87n0000430000000, cs:87n0000440000000, cs:87n0000450000000, cs:87n0000460000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=23>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

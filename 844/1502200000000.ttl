@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441502200000000
   dct:identifier "8441502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1041
   ];
   schema:description "(2) 現実社会の諸課題の解決に向けて，選択・判断の手掛かりとなる考え方や公共的な空間における基本的原理を活用して，事実を基に多面的・多角的に考察し公正に判断する力や，合意形成や社会参画を視野に入れながら構想したことを議論する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

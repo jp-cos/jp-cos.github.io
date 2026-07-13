@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N5203200000000
   dct:identifier "82N5203200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3728
   ];
   schema:description """(2) 文化的行事
 平素の学習活動の成果を発表し，自己の向上の意欲を一層高めたり，文化や芸術に親しんだりするようにすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=127>;
   cs:courseOfStudy cs:Elementary\/2017;

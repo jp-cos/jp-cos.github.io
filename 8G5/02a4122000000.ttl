@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502a4122000000
   dct:identifier "8G502a4122000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2833
   ];
   schema:description "イ　図形を構成する要素や図形間の関係に着目し，構成の仕方を考察したり，図形の性質を見いだしたりするとともに，三角形，平行四辺形，ひし形の面積の求め方を考え，その表現を振り返り，簡潔かつ的確な表現に高め，公式として導く力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

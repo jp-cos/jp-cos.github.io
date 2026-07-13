@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:7362213100000000
   dct:identifier "7362213100000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 756
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 756 756
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 756
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 756 756 762
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 762
   ];
   schema:description """(1) 植物の生活と種類
 身近な植物などについての観察，実験を通して，生物の調べ方の基礎を身に付けさせるとともに，植物の体のつくりと働きを理解させ，植物の生活と種類についての認識を深める。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7362213110000000, cs:7362213120000000, cs:7362213130000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

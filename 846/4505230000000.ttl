@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8464505230000000
   dct:identifier "8464505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1740
   ];
@@ -16,7 +16,7 @@ cs:8464505230000000
 (イ)の㋐については，酸や塩基の強弱と電離度の大小との関係も扱うこと。「酸と塩基」については，水素イオン濃度とpHとの関係にも触れること。「中和反応」については，生成する塩の性質にも触れること。㋑については，代表的な酸化剤，還元剤を扱うこと。また，金属のイオン化傾向やダニエル電池の反応にも触れること。
 (ウ)の㋐については，日常生活や社会で利用されている科学技術の具体的事例を取り上げること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

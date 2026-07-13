@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000600000000
   dct:identifier "8200000600000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 84
   ];
@@ -16,7 +16,7 @@ cs:8200000600000000
 　道徳教育を進めるに当たっては，道徳教育の特質を踏まえ，前項までに示す事項に加え，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000610000000, cs:8200000620000000, cs:8200000630000000, cs:8200000640000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=136>;
   cs:courseOfStudy cs:Elementary\/2017;

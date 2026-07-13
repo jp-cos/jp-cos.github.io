@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N5203400000000
   dct:identifier "72N5203400000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2825
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2825 2851
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2851
   ];
   schema:description """(4) 遠足・集団宿泊的行事
 　自然の中での集団宿泊活動などの平素と異なる生活環境にあって，見聞を広め，自然や文化などに親しむとともに，人間関係などの集団生活の在り方や公衆道徳などについての望ましい体験を積むことができるような活動を行うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

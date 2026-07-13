@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411503211500000
   dct:identifier "8411503211500000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 200
   ];
   schema:description "オ　論点を共有し，考えを広げたり深めたりしながら，話合いの目的，種類，状況に応じて，表現や進行など話合いの仕方や結論の出し方を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

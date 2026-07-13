@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PI505230000000
   dct:identifier "74PI505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2676
   ];
   schema:description "ウ　内容の(4)については，食品の栄養や安全性などの品質の保持と保証及びそのための検査と包装を扱うこと。なお，食品の規格や表示については，農林物資の規格化及び品質表示の適正化に関する法律に基づく食品表示と規格など基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

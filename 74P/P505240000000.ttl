@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PP505240000000
   dct:identifier "74PP505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2908
   ];
   schema:description "エ　内容の(5)については，種類，機能，役割，環境条件など公園や緑地の計画・設計に関する基礎的な内容を扱うこと。また，バリアフリーやユニバーサルデザインに関する基礎的な内容も扱うこと。なお，イ及びウについては，設計を扱わないことができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

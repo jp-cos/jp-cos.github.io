@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000227000000
   dct:identifier "7600000227000000";
-  dct:source cs:76V11 cs:76V11;
+  dct:source cs:76V11;
   qb:order [
-    dct:source cs:76V11 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 22
   ];
   schema:description "７   知的障害者である児童又は生徒に対する教育を行う特別支援学校において， 各教科の指導に当たっては， 各教科 （小学部においては各教科の各段階。 以下この項において同じ。） に示す内容を基に， 児童又は生徒の知的障害の状態や経験等に応じて， 具体的に指導内容を設定するものとする。 また， 各教科， 道徳， 特別活動及び自立活動の全部又は一部を合わせて指導を行う場合には，各教科，道徳，特別活動及び自立活動に示す内容を基に，児童又は生徒の知的障害の状態や経験等に応じて， 具体的に指導内容を設定するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000227000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009;

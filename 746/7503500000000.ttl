@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7467503500000000
   dct:identifier "7467503500000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1127
   ];
@@ -16,7 +16,7 @@ cs:7467503500000000
 　生物の進化の過程とその仕組み及び生物の系統について，観察，実験などを通して探究し，生物界の多様性と系統を理解させ，進化についての考え方を身に付けさせる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7467503510000000, cs:7467503520000000, cs:7467503530000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

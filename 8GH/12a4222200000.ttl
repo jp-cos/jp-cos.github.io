@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH12a4222200000
   dct:identifier "8GH12a4222200000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3843
   ];
@@ -16,7 +16,7 @@ cs:8GH12a4222200000
 言語活動を行うに当たり，主として次に示すような言語の使用場面や言語の働きを取り上げるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GH12a4222210000, cs:8GH12a4222220000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

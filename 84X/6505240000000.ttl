@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X6505240000000
   dct:identifier "84X6505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9506
   ];
   schema:description "エ　〔指導項目〕の(4)のアについては，プロジェクトマネジメントなどを扱うこと。イについては，情報システムの運用と保守に必要なドキュメントについても触れること。ウについては，情報システムのセキュリティを高める具体的な方法について扱うとともに，情報産業に携わる者に求められる倫理観にも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

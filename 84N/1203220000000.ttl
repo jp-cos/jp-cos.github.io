@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203220000000
   dct:identifier "84N1203220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10905
   ];
   schema:description """イ　男女相互の理解と協力
 男女相互について理解するとともに，共に協力し尊重し合い，充実した生活づくりに参画すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

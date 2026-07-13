@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7469503214000000
   dct:identifier "7469503214000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1194
   ];
   schema:description """(エ) 変成作用と変成岩
 　変成作用や変成岩の特徴及び造山帯について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

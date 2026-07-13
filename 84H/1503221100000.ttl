@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H1503221100000
   dct:identifier "84H1503221100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2795
   ];
   schema:description "ア　中学校学習指導要領第２章第９節の第２の２の(3)の①に示す言語活動のうち，中学校における学習内容の定着を図るために必要なもの。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

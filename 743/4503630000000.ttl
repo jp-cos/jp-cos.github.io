@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503630000000
   dct:identifier "7434503630000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 436
   ];
   schema:description """ウ　歴史の論述
 　社会と個人，世界の中の日本，地域社会の歴史と生活などについて，適切な主題を設定させ，資料を活用して探究し，考えを論述する活動を通して，歴史的な見方や考え方を身に付けさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

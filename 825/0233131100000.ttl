@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250233131100000
   dct:identifier "8250233131100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1832
   ];
   schema:description "(ア) ２位数や３位数に１位数や２位数をかける乗法の計算が，乗法九九などの基本的な計算を基にしてできることを理解すること。また，その筆算の仕方について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=148>;
   cs:courseOfStudy cs:Elementary\/2017;

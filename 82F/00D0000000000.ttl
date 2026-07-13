@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82F00D0000000000
   dct:identifier "82F00D0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2957
   ];
   schema:description "第８節　家庭";
   schema:edition "一部改正なし";
   schema:hasPart cs:82F01D0000000000, cs:82F02D0000000000, cs:82F03D0000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=18>;
   cs:courseOfStudy cs:Elementary\/2017;

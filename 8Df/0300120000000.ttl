@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df0300120000000
   dct:identifier "8Df0300120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1170
   ];
   schema:description "(2) 実技や実習を伴う科目の指導に当たっては，臨床に応用する力を育むため， 生徒が常に達成感と新たな技術の習得への意欲をもって学習できるように， 指導内容の構成や指導方法の工夫に留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

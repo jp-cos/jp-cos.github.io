@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8A20206223000000
   dct:identifier "8A20206223000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1297
   ];
   schema:description "(ウ) ウについては，地域の実態に応じて，地震災害，津波災害，風水害， 火山災害，雪害などの中から取り上げ，地域や自分自身の安全を守るために自分たちにできることなどを考えたり選択・判断したりできるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=310>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

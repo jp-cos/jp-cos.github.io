@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G50206231100000
   dct:identifier "8G50206231100000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3109
   ];
   schema:description "㋐ 金種の理解と金銭の処理";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G50206231110000, cs:8G50206231120000, cs:8G50206231130000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250223111200000
   dct:identifier "8250223111200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1737
   ];
   schema:description "(イ) ４位数までについて，十進位取り記数法による数の表し方及び数の大小や順序について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=111>;
   cs:courseOfStudy cs:Elementary\/2017;

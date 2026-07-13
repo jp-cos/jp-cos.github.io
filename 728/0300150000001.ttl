@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7280300150000001
   dct:identifier "7280300150000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 2221
   ];
   schema:description "(5) 第１章総則の第１の２に示す道徳教育の目標に基づき，道徳科などとの関連を考慮しながら，第３章特別の教科道徳の第２に示す内容について，音楽科の特質に応じて適切な指導をすること。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

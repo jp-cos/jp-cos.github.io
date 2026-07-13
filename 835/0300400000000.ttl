@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8350300400000000
   dct:identifier "8350300400000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 905
   ];
   schema:description "４　生徒の数学的活動への取組を促し思考力，判断力，表現力等の育成を図るため，各領域の内容を総合したり日常の事象や他教科等での学習に関連付けたりするなどして見いだした問題を解決する学習を課題学習と言い，この実施に当たっては各学年で指導計画に適切に位置付けるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_004.pdf#page=178>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8AG0202000000000
   dct:identifier "8AG0202000000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1885
   ];
@@ -16,7 +16,7 @@ cs:8AG0202000000000
 体育や保健の見方・考え方を働かせ，課題を見付け，その解決に向けた学習過程を通して，心と体を一体として捉え，生涯にわたって心身の健康を保持増進し，豊かなスポーツライフを実現するための資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8AG0202100000000, cs:8AG0202200000000, cs:8AG0202300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=445>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

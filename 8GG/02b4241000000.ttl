@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GG02b4241000000
   dct:identifier "8GG02b4241000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3575
   ];
   schema:description "ア　水泳の楽しさや喜びを深く味わい，その特性に応じた技能の理解を深めるとともに，目的に応じた泳法を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

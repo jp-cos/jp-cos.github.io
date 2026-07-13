@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N0300120000000
   dct:identifier "84N0300120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10936
   ];
   schema:description "(2) 各学校においては，次の事項を踏まえて特別活動の全体計画や各活動及び学校行事の年間指導計画を作成すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84N0300121000000, cs:84N0300122000000, cs:84N0300123000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

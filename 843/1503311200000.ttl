@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431503311200000
   dct:identifier "8431503311200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 581
   ];
   schema:description "(イ) 様々な自然災害に対応したハザードマップや新旧地形図をはじめとする各種の地理情報について，その情報を収集し，読み取り，まとめる地理的技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84N0300130000000
   dct:identifier "84N0300130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10940
   ];
   schema:description "(3) ホームルーム活動における生徒の自発的，自治的な活動を中心として，各活動と学校行事を相互に関連付けながら，個々の生徒についての理解を深め，教師と生徒，生徒相互の信頼関係を育み，ホームルーム経営の充実を図ること。その際，特に，いじめの未然防止等を含めた生徒指導との関連を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

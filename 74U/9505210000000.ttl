@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U9505210000000
   dct:identifier "74U9505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6452
   ];
   schema:description "ア　内容の(1)のイについては，歴史的背景，気候，風土，文化などとのかかわりを扱うこと。ウについては，西洋の服飾を中心に取り上げ，歴史的背景，気候，風土，文化などとのかかわりを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

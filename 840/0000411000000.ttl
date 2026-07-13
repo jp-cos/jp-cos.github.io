@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000411000000
   dct:identifier "8400000411000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 125
   ];
   schema:description "(1) 学校においては，生徒が学校の定める指導計画に従って各教科・科目を履修し，その成果が教科及び科目の目標からみて満足できると認められる場合には，その各教科・科目について履修した単位を修得したことを認定しなければならない。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

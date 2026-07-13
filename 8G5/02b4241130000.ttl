@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502b4241130000
   dct:identifier "8G502b4241130000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3084
   ];
   schema:description "㋒ 目的に応じてデータを収集したり，適切な手法を選択したりするなど，統計的な問題解決の方法を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QA505210000000
   dct:identifier "84QA505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4898
   ];
   schema:description "ア　〔指導項目〕の(1)については，機械材料，工作機械及び工作法が相互に関連して発展してきたことを扱うこと。また，産業社会と機械の発達との関係についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

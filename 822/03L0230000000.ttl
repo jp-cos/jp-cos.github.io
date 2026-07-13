@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82203L0230000000
   dct:identifier "82203L0230000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1654
   ];
   schema:description "(3) 博物館や資料館などの施設の活用を図るとともに，身近な地域及び国土の遺跡や文化財などについての調査活動を取り入れるようにすること。また，内容に関わる専門家や関係者，関係の諸機関との連携を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=148>;
   cs:courseOfStudy cs:Elementary\/2017;

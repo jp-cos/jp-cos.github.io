@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1505400000000
   dct:identifier "74G1505400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1342
   ];
   schema:description "(4) 自然とのかかわりの深いスキー，スケートや水辺活動などの指導については，地域や学校の実態に応じて積極的に行うことに留意するものとする。また，レスリングについても履修させることができるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

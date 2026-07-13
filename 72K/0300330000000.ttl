@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300330000000
   dct:identifier "72K0300330000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2704
   ];
   schema:description "(3) 先人の伝記，自然，伝統と文化，スポーツなどを題材とし，児童が感動を覚えるような魅力的な教材の開発や活用を通して，児童の発達の段階や特性等を考慮した創意工夫ある指導を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

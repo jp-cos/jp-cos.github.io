@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7461503300000000
   dct:identifier "7461503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 839
   ];
   schema:description """(3) これからの科学と人間生活
 　自然と人間生活とのかかわり及び科学技術が人間生活に果たしてきた役割についての学習を踏まえて，これからの科学と人間生活とのかかわり方について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

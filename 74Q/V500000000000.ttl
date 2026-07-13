@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74QV500000000000
   dct:identifier "74QV500000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3899
   ];
   schema:description "第31　建築構造";
   schema:edition "一部改正なし";
   schema:hasPart cs:74QV502000000000, cs:74QV503000000000, cs:74QV505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

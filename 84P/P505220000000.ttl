@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PP505220000000
   dct:identifier "84PP505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4404
   ];
   schema:description "イ　〔指導項目〕の(2)については，造園の目的と計画及びそれに基づく造園空間の創造と利用，緑地環境の種類，快適な生活環境を創造する造園計画の役割の概要について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

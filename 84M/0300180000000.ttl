@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0300180000000
   dct:identifier "84M0300180000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10878
   ];
   schema:description "(8) 総合学科においては，総合的な探究の時間の学習活動として，原則として生徒が興味・関心，進路等に応じて設定した課題について知識や技能の深化，総合化を図る学習活動を含むこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X4505230000000
   dct:identifier "84X4505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9444
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，オペレーティングシステムの役割，ファイルシステムの種類や機能，ソフトウェアの不具合の修正や機能拡張，開発環境及びユーザインタフェースを取り上げ，それぞれの特徴について扱うこと。ウについては，携帯情報端末のセキュリティについても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

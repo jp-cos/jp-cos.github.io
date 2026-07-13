@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000233000000
   dct:identifier "8400000233000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 67
   ];
   schema:description "(3) 各教科・科目等の授業時数等";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000233100000, cs:8400000233200000, cs:8400000233300000, cs:8400000233400000, cs:8400000233500000, cs:8400000233600000, cs:8400000233700000, cs:8400000233800000, cs:8400000233900000, cs:8400000233A00000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

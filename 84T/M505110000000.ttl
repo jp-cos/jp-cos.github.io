@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TM505110000000
   dct:identifier "84TM505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8187
   ];
   schema:description "ア　水産業及び海洋関連産業におけるマリンスポーツの全体を概観できるようにするとともに，安全指導や安全管理，自然環境の保全について理解できるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

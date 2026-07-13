@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84H4503110000000
   dct:identifier "84H4503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2978
   ];
@@ -16,7 +16,7 @@ cs:84H4503110000000
 実際に英語を用いた言語活動を通して，小学校学習指導要領第２章第10節の第２の２の(1)，中学校学習指導要領第２章第９節の第２の２の(1)及び「英語コミュニケーションⅠ」の２の(1)に示す言語材料及び次に示す事項のうち，三つの領域別の目標を達成するのにふさわしいものについて理解するとともに，それらと言語活動とを効果的に関連付け，実際のコミュニケーションにおいて活用できる技能を身に付けることができるよう指導する。ただし，語や文法事項については，三つの領域別の目標を達成するのにふさわしいものを適宜取り扱うものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H4503111000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

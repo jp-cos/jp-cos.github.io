@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7100000110000000
   dct:identifier "7100000110000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 3
   ];
@@ -16,7 +16,7 @@ cs:7100000110000000
 　このため，教師は幼児との信頼関係を十分に築き，幼児と共によりよい教育環境を創造するように努めるものとする。これらを踏まえ，次に示す事項を重視して教育を行わなければならない。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7100000111000000, cs:7100000112000000, cs:7100000113000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72M03L0220000000
   dct:identifier "72M03L0220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2778
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2778 2804
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2804
   ];
   schema:description "(2) 問題の解決や探究活動の過程においては，他者と協同して問題を解決しようとする学習活動や，言語により分析し，まとめたり表現したりするなどの学習活動が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

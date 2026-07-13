@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G60206120000000
   dct:identifier "8G60206120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3283
   ];
   schema:description "イ　２の各段階で育成を目指す思考力，判断力，表現力等については，当該段階において育成することを目指す力のうち，主なものを示したものであり，実際の指導に当たっては，他の段階で掲げている力の育成についても十分に配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

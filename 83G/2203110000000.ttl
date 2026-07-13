@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G2203110000000
   dct:identifier "83G2203110000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1605
   ];
   schema:description "ア　健康な生活と疾病の予防について理解を深めること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G2213111000000, cs:83G2213112000000, cs:83G2223113000000, cs:83G2223114000000, cs:83G2233115000000, cs:83G2233116000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=213>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Hn0000246000000
   dct:identifier "8Hn0000246000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 247
   ];
   schema:description "(6) 病気のため，姿勢の保持や長時間の学習活動が困難な生徒については，姿勢の変換や適切な休養の確保などに留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8416503212300000
   dct:identifier "8416503212300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 511
   ];
   schema:description "ウ　古典を読み，その語彙や表現の技法などを参考にして，和歌や俳諧，漢詩を創作したり，体験したことや感じたことを文語で書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

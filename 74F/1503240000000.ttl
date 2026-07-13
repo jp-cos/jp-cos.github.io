@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F1503240000000
   dct:identifier "74F1503240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1892
   ];
   schema:description """エ　消費生活と生涯を見通した経済の計画
 　消費生活の現状と課題や消費者の権利と責任について理解させ，適切な意思決定に基づいて行動できるようにするとともに，生涯を見通した生活における経済の管理や計画について考えることができるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

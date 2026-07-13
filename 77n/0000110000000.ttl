@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000110000000
   dct:identifier "77n0000110000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 73
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 73 84
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 84
   ];
   schema:description "(1)児童が聴覚，触覚及び保有する視覚などを十分に活用して，具体的な事物・事象や動作と言葉とを結び付けて， 的確な概念の形成を図り， 言葉を正しく理解し活用できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

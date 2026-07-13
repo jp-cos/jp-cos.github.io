@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G60206270000000
   dct:identifier "8G60206270000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3291
   ];
   schema:description "キ　個々の生徒が主体的に問題を解決する活動を進めるとともに，日常生活や他教科等との関連を図った学習活動，目的を設定し，計測して制御するという考え方に基づいた学習活動が充実するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

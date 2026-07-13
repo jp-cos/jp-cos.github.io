@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000333220000
   dct:identifier "8600000333220000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 56
   ];
   schema:description "(イ) 児童又は生徒が，基礎的・基本的な知識及び技能の習得も含め，学習内容を確実に身に付けることができるよう，それぞれの児童又は生徒に作成した個別の指導計画や学校の実態に応じて，指導方法や指導体制の工夫改善に努めること。その際，児童又は生徒の障害の状態や特性及び心身の発達の段階等並びに学習の進度等を考慮して，個別指導を重視するとともに， グループ別指導，繰り返し指導，学習内容の習熟の程度に応じた学習，児童又は生徒の興味・関心等に応じた課題学習，補充的な学習や発展的な学習などの学習活動を取り入れることや，教師間の協力による指導体制を確保することなど，指導方法や指導体制の工夫改善により，個に応じた指導の充実を図ること。その際，第４節の１の(3)に示す情報手段や教材・教具の活用を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=248>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

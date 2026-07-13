@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000233100000
   dct:identifier "8400000233100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 68
   ];
   schema:description "ア　全日制の課程における各教科・科目及びホームルーム活動の授業は，年間35週行うことを標準とし，必要がある場合には，各教科・科目の授業を特定の学期又は特定の期間（夏季，冬季，学年末等の休業日の期間に授業日を設定する場合を含む。）に行うことができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

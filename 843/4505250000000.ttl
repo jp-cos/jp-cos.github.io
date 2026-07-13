@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8434505250000000
   dct:identifier "8434505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 893
   ];
   schema:description """オ　内容のＡについては，次のとおり取り扱うものとすること。
 (1)，(2)及び(3)については，遺構や遺物，編纂(さん)された歴史書，公(く)家(げ)の日記などの資料や，それらを基に作成された資料などから適切なものを取り上げること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233810000000
   dct:identifier "83G1233810000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1575
   ];
   schema:description "(1) 文化としてのスポーツの意義について，課題を発見し，その解決を目指した活動を通して，次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G1233811000000, cs:83G1233812000000, cs:83G1233813000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=201>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

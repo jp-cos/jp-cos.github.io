@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84d3500000000000
   dct:identifier "84d3500000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10699
   ];
   schema:description "第３　総合英語Ⅲ";
   schema:edition "一部改正なし";
   schema:hasPart cs:84d3502000000000, cs:84d3503000000000, cs:84d3505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

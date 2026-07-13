@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411503211400000
   dct:identifier "8411503211400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 199
   ];
   schema:description "エ　論理の展開を予想しながら聞き，話の内容や構成，論理の展開，表現の仕方を評価するとともに，聞き取った情報を整理して自分の考えを広げたり深めたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

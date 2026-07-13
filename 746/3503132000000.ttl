@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7463503132000000
   dct:identifier "7463503132000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 906
   ];
   schema:description """(イ) 単振動
 　単振動をする物体の様子を表す方法やその物体に働く力などについて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82L00C0000000000
   dct:identifier "82L00C0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3541
   ];
   schema:description "第４章　外国語活動";
   schema:edition "一部改正なし";
   schema:hasPart cs:82L01C0000000000, cs:82L02C0000000000, cs:82L03C0000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=15>;
   cs:courseOfStudy cs:Elementary\/2017;

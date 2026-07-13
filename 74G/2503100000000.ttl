@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2503100000000
   dct:identifier "74G2503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1348
   ];
@@ -16,7 +16,7 @@ cs:74G2503100000000
 　我が国の疾病構造や社会の変化に対応して，健康を保持増進するためには，個人の行動選択やそれを支える社会環境づくりなどが大切であるというヘルスプロモーションの考え方を生かし，人々が自らの健康を適切に管理すること及び環境を改善していくことが重要であることを理解できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:74G2503110000000, cs:74G2503120000000, cs:74G2503130000000, cs:74G2503140000000, cs:74G2503150000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

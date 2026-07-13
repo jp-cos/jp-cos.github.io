@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X9505210000000
   dct:identifier "84X9505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9599
   ];
   schema:description "ア　〔指導項目〕の(1)のアについては，具体的な事例を取り上げ，社会において情報デザインが果たす役割について扱うこと。イについては，情報伝達やコミュニケーションの仕組みとそこで使われるコンテンツを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qs505230000000
   dct:identifier "74Qs505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4662
   ];
   schema:description "ウ　内容の(3)のアについては，繊維製造の方法，繊維の性質及び製造機械を扱うこと。イについては，色素材料の基本的な性質と代表的な用途及び管理を扱うこと。ウについては，繊維製造における自動化の原理及び基本的な機械設備の構成を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

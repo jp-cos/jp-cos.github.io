@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:75m0000125000000
   dct:identifier "75m0000125000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 92
   ];
   schema:description "５   教育課程に係る教育時間の終了後等に幼児を対象に教育活動を行う場合は， 第１章の第１に示す幼稚部における教育の基本及び第２に示す幼稚部における教育の目標を踏まえて実施すること。 その際， 幼児の心身の負担， 教育課程に基づく活動との関連， 家庭との緊密な連携などに配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

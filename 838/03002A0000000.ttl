@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83803002A0000000
   dct:identifier "83803002A0000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1307
   ];
   schema:description "(10) 各学年の〔共通事項〕の(1)のイに示す「用語や記号など」については，小学校学習指導要領第２章第６節音楽の第３の２の(9)に示すものに加え，生徒の学習状況を考慮して，次に示すものを音楽における働きと関わらせて理解し，活用できるよう取り扱うこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83803002A0100000, cs:83803002A0200000, cs:83803002A0300000, cs:83803002A0400000, cs:83803002A0500000, cs:83803002A0600000, cs:83803002A0700000, cs:83803002A0800000, cs:83803002A0900000, cs:83803002A1000000, cs:83803002A1100000, cs:83803002A1200000, cs:83803002A1300000, cs:83803002A1400000, cs:83803002A1500000, cs:83803002A1600000, cs:83803002A1700000, cs:83803002A1800000, cs:83803002A1900000, cs:83803002A2000000, cs:83803002A2100000, cs:83803002A2200000, cs:83803002A2300000, cs:83803002A2400000, cs:83803002A2500000, cs:83803002A2600000, cs:83803002A2700000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=121>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

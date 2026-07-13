@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A5420000000
   dct:identifier "73212A5420000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 286
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 286 286
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 286
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 286 286 292
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 292
   ];
   schema:description "イ　イの(ア)から(エ)で示した日本の地域的特色については，指導に当たって内容の(1)の学習成果を生かすとともに，日本の諸地域の特色について理解を深めるための基本的な事柄で構成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

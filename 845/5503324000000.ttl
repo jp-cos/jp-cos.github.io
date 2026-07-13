@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8455503324000000
   dct:identifier "8455503324000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1478
   ];
   schema:description "(エ) 解決過程を振り返り，そこで用いた方法を一般化して，他の事象に活用すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:87L0000100000000
   dct:identifier "87L0000100000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2220
   ];
   schema:description "１　児童の障害の状態や特性及び心身の発達の段階等に応じて，指導内容を適切に精選するとともに，その重点の置き方等を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=534>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

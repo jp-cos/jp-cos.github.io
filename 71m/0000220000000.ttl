@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000220000000
   dct:identifier "71m0000220000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 166
   ];
   schema:description "２　幼稚園の運営に当たっては，子育ての支援のために保護者や地域の人々に機能や施設を開放して，園内体制の整備や関係機関との連携及び協力に配慮しつつ，幼児期の教育に関する相談に応じたり，情報を提供したり，幼児と保護者との登園を受け入れたり，保護者同士の交流の機会を提供したりするなど，地域における幼児期の教育のセンターとしての役割を果たすよう努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

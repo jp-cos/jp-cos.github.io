@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8443505243000000
   dct:identifier "8443505243000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1204
   ];
   schema:description "(ウ) (1)のイの(ア)の「国際紛争の諸要因」については，多様な角度から考察させるとともに，軍縮や核兵器廃絶などに関する国際的な取組についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

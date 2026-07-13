@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74WB505210000000
   dct:identifier "74WB505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7055
   ];
   schema:description "ア　内容の(1)については，チーム医療及び他職種との協働の中で看護師としてのメンバーシップ及びリーダーシップについて扱うこと。また，看護のマネジメントと国際社会における諸外国との協力の重要性について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

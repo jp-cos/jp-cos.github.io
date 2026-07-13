@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GI0202100000000
   dct:identifier "8GI0202100000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3937
   ];
   schema:description "(1) 身近にある情報と情報技術及びこれらを活用して問題を知り，問題を解決する方法について理解し，基礎的な技能を身に付けるとともに，情報社会と人との関わりについて理解できるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

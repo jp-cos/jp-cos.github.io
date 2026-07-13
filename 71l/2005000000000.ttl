@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:71l2005000000000
   dct:identifier "71l2005000000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 61
   ];
@@ -16,7 +16,7 @@ cs:71l2005000000000
 上記の取扱いに当たっては，次の事項に留意する必要がある。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:71l2005100000000, cs:71l2005200000000, cs:71l2005300000000, cs:71l2005400000000, cs:71l2005500000000, cs:71l2005600000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

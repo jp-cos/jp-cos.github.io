@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400340000001
   dct:identifier "73K0400340000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1555
   ];
   schema:description """［勤労］
 　勤労の尊さや意義を理解し，将来の生き方について考えを深め，勤労を通じて社会に貢献すること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8280215121300000
   dct:identifier "8280215121300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2652
   ];
   schema:description "「日のまる」　　　　　（文部省唱歌）高野辰之《たかのたつゆき》作詞　岡野貞一《おかもとていいち》作曲";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=58>;
   cs:courseOfStudy cs:Elementary\/2017;

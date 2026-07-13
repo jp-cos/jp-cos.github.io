@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8En0000226000000
   dct:identifier "8En0000226000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 234
   ];
   schema:description "(6) 視覚的に情報を獲得しやすい教材・教具やその活用方法等を工夫するとともに，コンピュータ等の情報機器などを有効に活用し，指導の効果を高めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

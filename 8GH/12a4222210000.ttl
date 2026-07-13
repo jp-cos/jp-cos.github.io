@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH12a4222210000
   dct:identifier "8GH12a4222210000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3844
   ];
   schema:description "(ア) 言語の使用場面の例";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GH12a4222211000, cs:8GH12a4222212000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

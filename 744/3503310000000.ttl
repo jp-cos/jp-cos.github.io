@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7443503310000000
   dct:identifier "7443503310000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 581
   ];
   schema:description """ア　現代日本の政治や経済の諸課題
 　少子高齢社会と社会保障，地域社会の変貌《ぼう》と住民生活，雇用と労働を巡る問題，産業構造の変化と中小企業，農業と食料問題などについて，政治と経済とを関連させて探究させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

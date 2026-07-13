@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d5502110000000
   dct:identifier "84d5502110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10764
   ];
   schema:description "ア　社会的な話題に関する論題について，使用する語句や文，議論の展開などにおいて，支援をほとんど活用しなくても，複数の資料を的確に活用し，多様な語句や文を目的や場面，状況などに応じて効果的に用いて，賛成又は反対の立場をとった上で，聞き手を説得することができるよう，論理的に一貫性のある議論をすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

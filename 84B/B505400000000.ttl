@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84BB505400000000
   dct:identifier "84BB505400000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2692
   ];
   schema:description "(4) 内容の「Ａ表現」の指導については，篆(てん)刻を扱うものとし，生徒の特性等を考慮し，刻字等を加えることもできる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

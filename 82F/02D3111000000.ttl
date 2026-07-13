@@ -8,15 +8,15 @@
 cs:82F02D3111000000
   bf:note "The sixth digit of the original course of study code in code table 82V11 is \"5\", but the correct value is \"D\". The URI and related property values (course of study code, grade, etc.) were changed to match."@en, "コード表：82V11におけるこの学習指導要領の細目の学習指導要領コードの第6桁は「5」となっているが、正しくは「D」であると判断し、URIや関連するプロパティ値（学習指導要領コードや学年など）もそれに合わせるように変更した。"@ja;
   dct:identifier "82F02D3111000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2967
   ];
   schema:description "ア　自分の成長を自覚し，家庭生活と家族の大切さや家庭生活が家族の協力によって営まれていることに気付くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=28>;
   cs:courseOfStudy cs:Elementary\/2017;

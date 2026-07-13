@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250235500000000
   dct:identifier "7250235500000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1633
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1633 1642
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1642
   ];
   schema:description "(5) 内容の「Ａ数と計算」の(3)のウについては，交換法則，結合法則や分配法則を取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

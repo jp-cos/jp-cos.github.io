@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PF505280000000
   dct:identifier "84PF505280000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3998
   ];
   schema:description "ク　〔指導項目〕の(8)については，食品製造に関する実践的な活動を行うこと。なお，地域農業の発展の視点で，食品産業との関連性や食品ブランドの活用や創造についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

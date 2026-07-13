@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PO500000000000
   dct:identifier "84PO500000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4329
   ];
   schema:description "第24　水循環";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PO502000000000, cs:84PO503000000000, cs:84PO505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

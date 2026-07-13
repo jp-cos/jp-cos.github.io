@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8410300300000000
   dct:identifier "8410300300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 540
   ];
   schema:description "３　教材については，各科目の３に示す事項のほか，次の事項に留意するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8410300310000000, cs:8410300320000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

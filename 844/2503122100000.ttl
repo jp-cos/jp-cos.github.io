@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442503122100000
   dct:identifier "8442503122100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1125
   ];
   schema:description "(ア) 古来の日本人の考え方や日本の先哲の考え方を手掛かりとして，国際社会に主体的に生きる日本人としての在り方生き方について多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

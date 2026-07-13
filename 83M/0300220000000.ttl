@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83M0300220000000
   dct:identifier "83M0300220000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2129
   ];
   schema:description "(2) 探究的な学習の過程においては，他者と協働して課題を解決しようとする学習活動や，言語により分析し，まとめたり表現したりするなどの学習活動が行われるようにすること。その際，例えば，比較する，分類する，関連付けるなどの考えるための技法が活用されるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_012.pdf#page=165>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

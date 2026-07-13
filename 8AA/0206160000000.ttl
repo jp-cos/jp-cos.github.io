@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AA0206160000000
   dct:identifier "8AA0206160000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1874
   ];
   schema:description "カ　２の各段階の「Ｂ鑑賞」の指導に当たっては，生徒や学校の実態に応じて，地域の美術館を利用するなど，連携を図るようにすること。また，学校図書館等における鑑賞用図書，映像資料等の活用を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=437>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

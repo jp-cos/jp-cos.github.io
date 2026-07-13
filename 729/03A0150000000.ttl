@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72903A0150000000
   dct:identifier "72903A0150000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2345
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2345 2354
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2354
   ];
   schema:description "(5) 低学年においては，生活科などとの関連を積極的に図り，指導の効果を高めるようにすること。特に第１学年においては，幼稚園教育における表現に関する内容などとの関連を考慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

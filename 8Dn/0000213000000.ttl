@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dn0000213000000
   dct:identifier "8Dn0000213000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 224
   ];
   schema:description "(3) 生徒の視覚障害の状態等に応じて，指導内容を適切に精選し，基礎的・基本的な事項を確実に習得するとともに，考えを深めていくことができるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

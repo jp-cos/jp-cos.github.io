@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8290300300000000
   dct:identifier "8290300300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2955
   ];
   schema:description "３　造形活動で使用する材料や用具，活動場所については，安全な扱い方について指導する，事前に点検するなどして，事故防止に留意するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=128>;
   cs:courseOfStudy cs:Elementary\/2017;

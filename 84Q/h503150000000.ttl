@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qh503150000000
   dct:identifier "84Qh503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6032
   ];
   schema:description "(5) 化学工場の管理と安全";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Qh503151000000, cs:84Qh503152000000, cs:84Qh503153000000, cs:84Qh503154000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

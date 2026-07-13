@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PQ505250000000
   dct:identifier "84PQ505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4457
   ];
   schema:description "オ　〔指導項目〕の(5)については，施工に必要な機械，器具について基礎的な内容を扱うとともに，工作物の補修などの維持管理及び造園の目的に沿った景観の維持管理について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

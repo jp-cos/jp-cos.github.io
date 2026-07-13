@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102D3116000000
   dct:identifier "82102D3116000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 235
   ];
   schema:description "カ　文の中での語句の係り方や語順，文と文との接続の関係，話や文章の構成や展開，話や文章の種類とその特徴について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=124>;
   cs:courseOfStudy cs:Elementary\/2017;

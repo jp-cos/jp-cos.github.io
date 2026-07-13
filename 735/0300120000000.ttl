@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7350300120000000
   dct:identifier "7350300120000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 626
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 626 626
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 626
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 626 626 632
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 632
   ];
   schema:description "(2) 生徒の学習を確実なものにするために，新たな内容を指導する際には，既に指導した関連する内容を意図的に再度取り上げ，学び直しの機会を設定することに配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

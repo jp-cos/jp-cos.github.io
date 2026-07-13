@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503510000000
   dct:identifier "84G1503510000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2058
   ];
   schema:description "(1) 次の運動について，勝敗を競ったりチームや自己の課題を解決したりするなどの多様な楽しさや喜びを味わい，技術などの名称や行い方，体力の高め方，課題解決の方法，競技会の仕方などを理解するとともに，作戦や状況に応じた技能で仲間と連携しゲームを展開すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G1503511000000, cs:84G1503512000000, cs:84G1503513000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

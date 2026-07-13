@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ek2505110000000
   dct:identifier "7Ek2505110000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2051
   ];
   schema:description "ア  内容の(1)及び(2)については，歯科技工の概要を理解させるとともに医療従事者としての自覚を養うように努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

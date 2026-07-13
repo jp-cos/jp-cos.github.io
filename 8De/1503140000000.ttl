@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8De1503140000000
   dct:identifier "8De1503140000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 275
   ];
   schema:description "(4) あん摩マツサージ指圧師，はり師，きゆう師等に関する法律";
   schema:edition "一部改正なし";
   schema:hasPart cs:8De1503141000000, cs:8De1503142000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

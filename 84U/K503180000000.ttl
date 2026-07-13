@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84UK503180000000
   dct:identifier "84UK503180000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8833
   ];
   schema:description "(8) 調理師の業務と社会的役割";
   schema:edition "一部改正なし";
   schema:hasPart cs:84UK503181000000, cs:84UK503182000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

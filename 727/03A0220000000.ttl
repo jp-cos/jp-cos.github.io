@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72703A0220000000
   dct:identifier "72703A0220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2053
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2053 2062
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2062
   ];
   schema:description "(2) 具体的な活動や体験を通して気付いたことを基に考えさせるため，見付ける，比べる，たとえるなどの多様な学習活動を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

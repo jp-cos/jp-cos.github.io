@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R5505230000000
   dct:identifier "84R5505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6785
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，製品政策の目的，重要性などについて扱うこと。エについては，製品の多様化とサービス化，企業と顧客との関係の変化及び他の企業との協働による製品政策の実施について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

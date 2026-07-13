@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300110000000
   dct:identifier "7210300110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 237
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 237 246
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 246
   ];
   schema:description "(1) 第２の各学年の内容の指導については，必要に応じて当該学年より前の学年において初歩的な形で取り上げたり，その後の学年で程度を高めて取り上げたりして，弾力的に指導することができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G02C2300000000
   dct:identifier "72G02C2300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2482
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2482 2491
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2491
   ];
   schema:description "(3) 健康な生活及び体の発育・発達について理解できるようにし，身近な生活において健康で安全な生活を営む資質や能力を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220235310000000
   dct:identifier "8220235310000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1411
   ];
   schema:description "ア　アの(ア)の「緊急時に対処する体制をとっていること」と「防止に努めていること」については，火災と事故はいずれも取り上げること。その際，どちらかに重点を置くなど効果的な指導を工夫をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=47>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH0206240000000
   dct:identifier "8GH0206240000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3928
   ];
   schema:description "エ　指導内容や活動については，生徒の興味や関心，経験などに合ったものとし，他の教科等で学習したことを活用したり，学校行事で扱う内容と関 連付けたりするなどの工夫により，指導の効果を高めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

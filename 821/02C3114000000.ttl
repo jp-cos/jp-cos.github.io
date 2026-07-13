@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3114000000
   dct:identifier "82102C3114000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 170
   ];
   schema:description "エ　第３学年及び第４学年の各学年においては，学年別漢字配当表の当該学年までに配当されている漢字を読むこと。また，当該学年の前の学年までに配当されている漢字を書き，文や文章の中で使うとともに，当該学年に配当されている漢字を漸次書き，文や文章の中で使うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=84>;
   cs:courseOfStudy cs:Elementary\/2017;

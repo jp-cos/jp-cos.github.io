@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220243521000000
   dct:identifier "8220243521000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1456
   ];
   schema:description "(ア) 特色ある地域の位置や自然環境，人々の活動や産業の歴史的背景，人々の協力関係などに着目して，地域の様子を捉え，それらの特色を考え，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=71>;
   cs:courseOfStudy cs:Elementary\/2017;

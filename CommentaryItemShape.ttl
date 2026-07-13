@@ -18,66 +18,66 @@ cs:CommentaryItemShape
     sh:order 1;
     sh:path dct:identifier
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"";
-    sh:datatype xsd:string xsd:string;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja;
-    sh:maxCount 1 1;
-    sh:minCount 1 1;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja;
-    sh:order 1 2;
-    sh:path dct:identifier schema:description
+    skos:example "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"";
+    sh:datatype xsd:string;
+    sh:description "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Description"@en, "テキスト"@ja;
+    sh:order 2;
+    sh:path schema:description
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000;
+    skos:example cs:8260253110000000;
     sh:class cs:Item;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja;
-    sh:order 1 2 3;
-    sh:path dct:identifier schema:description schema:about
+    sh:description "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja;
+    sh:name "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja;
+    sh:order 3;
+    sh:path schema:about
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000 cs:8260233110000000;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja;
-    sh:order 1 2 3 4;
-    sh:path dct:identifier schema:description schema:about schema:citation
+    skos:example cs:8260233110000000;
+    sh:description "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja;
+    sh:name "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja;
+    sh:order 4;
+    sh:path schema:citation
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000 cs:8260233110000000 cs:commentary\/1000400;
-    sh:class cs:Item cs:CommentaryItem;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja "Child of the item."@en, "子供の細目を表す。"@ja;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja "Child"@en, "子"@ja;
-    sh:order 1 2 3 4 5;
-    sh:path dct:identifier schema:description schema:about schema:citation schema:hasPart
+    skos:example cs:commentary\/1000400;
+    sh:class cs:CommentaryItem;
+    sh:description "Child of the item."@en, "子供の細目を表す。"@ja;
+    sh:name "Child"@en, "子"@ja;
+    sh:order 5;
+    sh:path schema:hasPart
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000 cs:8260233110000000 cs:commentary\/1000400 <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68>;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja "Child of the item."@en, "子供の細目を表す。"@ja "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja;
-    sh:maxCount 1 1 1;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja "Child"@en, "子"@ja "Commentary Page"@en, "学習指導要領解説へのリンク"@ja;
+    skos:example <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68>;
+    sh:description "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja;
+    sh:maxCount 1;
+    sh:name "Commentary Page"@en, "学習指導要領解説へのリンク"@ja;
     sh:nodeKind sh:IRI;
-    sh:order 1 2 3 4 5 6;
-    sh:path dct:identifier schema:description schema:about schema:citation schema:hasPart cs:commentaryPage
+    sh:order 6;
+    sh:path cs:commentaryPage
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000 cs:8260233110000000 cs:commentary\/1000400 <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68> "(1) 物の溶け方";
-    sh:datatype xsd:string xsd:string xsd:string;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja "Child of the item."@en, "子供の細目を表す。"@ja "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja "When an item represents a section title, it denotes the same content as the “Description.”"@en, "細目が節タイトルを表している場合は「テキスト」と同内容を表す。"@ja;
-    sh:maxCount 1 1 1 1;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja "Child"@en, "子"@ja "Commentary Page"@en, "学習指導要領解説へのリンク"@ja "Section Title"@en, "節タイトル"@ja;
-    sh:order 1 2 3 4 5 6 7;
-    sh:path dct:identifier schema:description schema:about schema:citation schema:hasPart cs:commentaryPage dct:title
+    skos:example "(1) 物の溶け方";
+    sh:datatype xsd:string;
+    sh:description "When an item represents a section title, it denotes the same content as the “Description.”"@en, "細目が節タイトルを表している場合は「テキスト」と同内容を表す。"@ja;
+    sh:maxCount 1;
+    sh:name "Section Title"@en, "節タイトル"@ja;
+    sh:order 7;
+    sh:path dct:title
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000 cs:8260233110000000 cs:commentary\/1000400 <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68> "(1) 物の溶け方" "(1)";
-    sh:datatype xsd:string xsd:string xsd:string xsd:string;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja "Child of the item."@en, "子供の細目を表す。"@ja "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja "When an item represents a section title, it denotes the same content as the “Description.”"@en, "細目が節タイトルを表している場合は「テキスト」と同内容を表す。"@ja "Abbreviated section title, intended for use in breadcrumbs and similar contexts."@en, "「節タイトル」の短縮版。パンくずリストなどの利用を想定。"@ja;
-    sh:maxCount 1 1 1 1 1;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja "Child"@en, "子"@ja "Commentary Page"@en, "学習指導要領解説へのリンク"@ja "Section Title"@en, "節タイトル"@ja "Abbreviated title"@en, "短縮タイトル"@ja;
-    sh:order 1 2 3 4 5 6 7 8;
-    sh:path dct:identifier schema:description schema:about schema:citation schema:hasPart cs:commentaryPage dct:title dct:alternative
+    skos:example "(1)";
+    sh:datatype xsd:string;
+    sh:description "Abbreviated section title, intended for use in breadcrumbs and similar contexts."@en, "「節タイトル」の短縮版。パンくずリストなどの利用を想定。"@ja;
+    sh:maxCount 1;
+    sh:name "Abbreviated title"@en, "短縮タイトル"@ja;
+    sh:order 8;
+    sh:path dct:alternative
   ], [
-    skos:example "1000031" "\"　本内容は，第３学年「Ａ (1) 物と重さ」の学習を踏まえて，「粒子」についての基本的な概念等を柱とした内容のうちの「粒子の保存性」に関わるものであり，第６学年「Ａ (2) 水溶液の性質」の学習につながるものである。\"" cs:8260253110000000 cs:8260233110000000 cs:commentary\/1000400 <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=68> "(1) 物の溶け方" "(1)" "1";
-    sh:datatype xsd:string xsd:string xsd:string xsd:string xsd:integer;
-    sh:description "IDは数字7桁（独自のID）。"@ja, "The ID is a 7-digit number. The ID is an original identifier."@en "The value of the \"Text of  Commentary on the Course of Study\"."@en, "元データの「学習指導要領解説」の内容。"@ja "The Course of Study item addressed in this commentary"@en, "本解説で対象としている学習指導要領の細目"@ja "The Course of Study items referenced in this commentary"@en, "本解説で参照した学習指導要領の細目"@ja "Child of the item."@en, "子供の細目を表す。"@ja "Link to the corresponding Course of Study Commentary with this item."@en, "対応する学習指導要領解説へのリンク"@ja "When an item represents a section title, it denotes the same content as the “Description.”"@en, "細目が節タイトルを表している場合は「テキスト」と同内容を表す。"@ja "Abbreviated section title, intended for use in breadcrumbs and similar contexts."@en, "「節タイトル」の短縮版。パンくずリストなどの利用を想定。"@ja "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
-    sh:maxCount 1 1 1 1 1 1;
-    sh:minCount 1 1 1;
-    sh:name "ID"@ja, "ID"@en "Description"@en, "テキスト"@ja "The target Course of Study item"@en, "対象となる学習指導要領細目"@ja "The referenced Course of Study item"@en, "参照した学習指導要領細目"@ja "Child"@en, "子"@ja "Commentary Page"@en, "学習指導要領解説へのリンク"@ja "Section Title"@en, "節タイトル"@ja "Abbreviated title"@en, "短縮タイトル"@ja "Listing order of the item"@en, "順番"@ja;
-    sh:order 1 2 3 4 5 6 7 8 9;
-    sh:path dct:identifier schema:description schema:about schema:citation schema:hasPart cs:commentaryPage dct:title dct:alternative qb:order
+    skos:example "1";
+    sh:datatype xsd:integer;
+    sh:description "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Listing order of the item"@en, "順番"@ja;
+    sh:order 9;
+    sh:path qb:order
   ];
   sh:targetClass cs:CommentaryItem.

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7GI02b3000000000
   dct:identifier "7GI02b3000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2404
   ];
   schema:description "○２段階";
   schema:edition "一部改正なし";
   schema:hasPart cs:7GI02b3100000000, cs:7GI02b3200000000, cs:7GI02b3300000000, cs:7GI02b3400000000, cs:7GI02b3500000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

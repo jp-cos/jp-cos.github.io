@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7362202400000000
   dct:identifier "7362202400000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 754
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 754 754
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 754
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 754 754 760
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 760
   ];
   schema:description "(4) 生物とそれを取り巻く自然の事物・現象を調べる活動を行い，これらの活動を通して生命を尊重し，自然環境の保全に寄与する態度を育て，自然を総合的に見ることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

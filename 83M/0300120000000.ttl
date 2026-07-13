@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83M0300120000000
   dct:identifier "83M0300120000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2121
   ];
   schema:description "(2) 全体計画及び年間指導計画の作成に当たっては，学校における全教育活動との関連の下に，目標及び内容，学習活動，指導方法や指導体制，学習の評価の計画などを示すこと。その際，小学校における総合的な学習の時間の取組を踏まえること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_012.pdf#page=165>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

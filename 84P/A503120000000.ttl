@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PA503120000000
   dct:identifier "84PA503120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3779
   ];
   schema:description "(2) 栽培と環境の診断・実験の方法";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PA503121000000, cs:84PA503122000000, cs:84PA503123000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

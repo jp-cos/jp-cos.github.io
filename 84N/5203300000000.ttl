@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N5203300000000
   dct:identifier "84N5203300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10928
   ];
   schema:description """(3) 健康安全・体育的行事
 心身の健全な発達や健康の保持増進，事件や事故，災害等から身を守る安全な行動や規律ある集団行動の体得，運動に親しむ態度の育成，責任感や連帯感の涵(かん)養，体力の向上などに資するようにすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

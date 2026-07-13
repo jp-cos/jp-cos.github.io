@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73C0300200000000
   dct:identifier "73C0300200000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1365
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1365 1365
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1365
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1365 1365 1371
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1371
   ];
   schema:description "２　各分野の内容の取扱いについては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73C0300210000000, cs:73C0300220000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

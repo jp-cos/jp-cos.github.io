@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WC505220000000
   dct:identifier "84WC505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9301
   ];
   schema:description "イ　〔指導項目〕の(2)については，各領域の看護の体験を通して看護の理論と実践とを結び付け，各領域の看護の特質と対象の個別性について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

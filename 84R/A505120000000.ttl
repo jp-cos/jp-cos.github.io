@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RA505120000000
   dct:identifier "84RA505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6964
   ];
   schema:description "イ　ビジネスで想定される具体的な課題を設定し，法的な根拠に基づいて解決策を考案して提案などを行う学習活動を通して，法規に基づいてビジネスに適切に取り組むことができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

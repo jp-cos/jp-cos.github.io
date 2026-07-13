@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:730000042A000000
   dct:identifier "730000042A000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 34
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 34 34
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 34
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 34 34 35
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 35
   ];
   schema:description "(10) 各教科等の指導に当たっては，生徒が情報モラルを身に付け，コンピュータや情報通信ネットワークなどの情報手段を適切かつ主体的，積極的に活用できるようにするための学習活動を充実するとともに，これらの情報手段に加え視聴覚教材や教育機器などの教材・教具の適切な活用を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

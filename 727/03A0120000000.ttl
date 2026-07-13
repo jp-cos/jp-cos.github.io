@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72703A0120000000
   dct:identifier "72703A0120000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2048
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2048 2057
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2057
   ];
   schema:description "(2) 第２の内容の(7)については，２学年にわたって取り扱うものとし，動物や植物へのかかわり方が深まるよう継続的な飼育，栽培を行うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

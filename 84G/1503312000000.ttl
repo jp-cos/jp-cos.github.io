@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503312000000
   dct:identifier "84G1503312000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2044
   ];
   schema:description "イ　走り幅跳びでは，スピードに乗った助走と力強い踏み切りから着地までの動きを滑らかにして跳ぶこと，走り高跳びでは，スピードのあるリズミカルな助走から力強く踏み切り，滑らかな空間動作で跳ぶこと，三段跳びでは，短い助走からリズミカルに連続して跳ぶこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

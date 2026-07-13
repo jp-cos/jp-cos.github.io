@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7463503431000000
   dct:identifier "7463503431000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 947
   ];
   schema:description """(ア) 物理学が築く未来
 　物理学の成果が様々な分野で利用され，未来を築く新しい科学技術の基盤となっていることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

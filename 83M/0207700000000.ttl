@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83M0207700000000
   dct:identifier "83M0207700000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2117
   ];
   schema:description "(7) 目標を実現するにふさわしい探究課題及び探究課題の解決を通して育成を目指す具体的な資質・能力については，教科等を越えた全ての学習の基盤となる資質・能力が育まれ，活用されるものとなるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_012.pdf#page=164>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

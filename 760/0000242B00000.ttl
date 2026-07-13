@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000242B00000
   dct:identifier "7600000242B00000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 52
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 52 53
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 53
   ];
   schema:description "(11) 学校図書館を計画的に利用しその機能の活用を図り， 児童又は生徒の主体的， 意欲的な学習活動や読書活動を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

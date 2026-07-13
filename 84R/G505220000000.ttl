@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RG505220000000
   dct:identifier "84RG505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7195
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，コンピュータの基本的な機能と構成などについて扱うこと。また，ファイル管理の機能を活用する方法についても扱うこと。ウについては，ウェブページと電子メールを活用する方法，受信者の立場に立って情報を発信することの重要性及び情報の信頼性などを見極める方法について扱うこと。エについては，情報セキュリティを確保することの重要性と基礎的な方法及び情報セキュリティに関する法規の概要について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

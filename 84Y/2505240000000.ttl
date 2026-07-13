@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y2505240000000
   dct:identifier "84Y2505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9779
   ];
   schema:description "エ　〔指導項目〕の(4)のアについては，安全のための事故防止，防災対策などについて扱うこと。イについては，介護福祉サービスの提供における介護従事者の健康維持の重要性と具体的な方策，介護従事者の労働安全について扱うこと。ウについては，介護現場における感染症の実態や感染症対策の必要性と具体的な方策について扱うこと。エについては，福祉用具と介護ロボットの意義や活用について扱うこと。また，福祉用具と介護ロボットの活用がサービス利用者の生活を豊かにすることについても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

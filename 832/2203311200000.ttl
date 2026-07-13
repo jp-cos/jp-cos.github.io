@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8322203311200000
   dct:identifier "8322203311200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 463
   ];
   schema:description """(イ) 明治維新と近代国家の形成
 開国とその影響，富国強兵・殖産興業政策，文明開化の風潮などを基に，明治維新によって近代国家の基礎が整えられて，人々の生活が大きく変化したことを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=118>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

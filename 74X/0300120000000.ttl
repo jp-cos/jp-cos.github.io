@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X0300120000000
   dct:identifier "74X0300120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7406
   ];
   schema:description "(2) 情報に関する各学科においては，原則として情報に関する科目に配当する総授業時数の10分の５以上を実験・実習に配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

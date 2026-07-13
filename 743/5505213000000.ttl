@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7435505213000000
   dct:identifier "7435505213000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 470
   ];
   schema:description "(ウ) ウについては，地球的課題ごとに世界を広く大観する学習と具体例を通して考察する学習を組み合わせて扱うこと。その際，環境，資源・エネルギー，人口，食料及び居住・都市問題は，それぞれ相互に関連し合っていることに留意して取扱いを工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300400000000
   dct:identifier "72K0300400000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2707
   ];
   schema:description "４　道徳教育を進めるに当たっては，学校や学級内の人間関係や環境を整えるとともに，学校の道徳教育の指導内容が児童の日常生活に生かされるようにする必要がある。また，道徳の時間の授業を公開したり，授業の実施や地域教材の開発や活用などに，保護者や地域の人々の積極的な参加や協力を得たりするなど，家庭や地域社会との共通理解を深め，相互の連携を図るよう配慮する必要がある。　　　　　　　　　　";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K0300400000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

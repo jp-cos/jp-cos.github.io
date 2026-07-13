@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8414503212200000
   dct:identifier "8414503212200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 396
   ];
   schema:description "イ　登場人物の心情や情景の描写を，文体や表現の技法等に注意して書き換え，その際に工夫したことなどを話し合ったり，文章にまとめたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

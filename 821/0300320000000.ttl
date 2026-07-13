@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8210300320000000
   dct:identifier "8210300320000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 319
   ];
   schema:description "(2) 教材は，次のような観点に配慮して取り上げること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8210300321000000, cs:8210300322000000, cs:8210300323000000, cs:8210300324000000, cs:8210300325000000, cs:8210300326000000, cs:8210300327000000, cs:8210300328000000, cs:8210300329000000, cs:821030032A000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=172>;
   cs:courseOfStudy cs:Elementary\/2017;

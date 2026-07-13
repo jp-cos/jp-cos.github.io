@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7362215320000000
   dct:identifier "7362215320000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 822
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 822 822
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 822
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 822 822 828
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 828
   ];
   schema:description "イ　アの(イ)については，地震の現象面を中心に取り扱い，初期微動継続時間と震源までの距離との定性的な関係にも触れること。また，「地球内部の働き」については，日本付近のプレートの動きを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

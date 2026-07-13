@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7GA0202000000000
   dct:identifier "7GA0202000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2327
   ];
   schema:description """１　目標
 造形活動によって， 表現及び鑑賞の能力を高め， 豊かな情操を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

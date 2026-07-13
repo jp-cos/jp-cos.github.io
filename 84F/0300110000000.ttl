@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F0300110000000
   dct:identifier "84F0300110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3240
   ];
   schema:description "(1) 単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，生活の営みに係る見方・考え方を働かせ，知識を相互に関連付けてより深く理解するとともに，家庭や地域及び社会における生活の中から問題を見いだして解決策を構想し，実践を評価・改善して，新たな課題の解決に向かう過程を重視した学習の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000500000000
   dct:identifier "8100000500000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 61
   ];
   schema:description "第５　特別な配慮を必要とする幼児への指導";
   schema:edition "一部改正なし";
   schema:hasPart cs:8100000510000000, cs:8100000520000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

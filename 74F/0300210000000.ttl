@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74F0300210000000
   dct:identifier "74F0300210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1985
   ];
   schema:description "(1) 生徒が自分の生活に結び付けて学習できるよう，問題解決的な学習を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

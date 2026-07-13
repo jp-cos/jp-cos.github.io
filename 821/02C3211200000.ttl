@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3211200000
   dct:identifier "82102C3211200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 191
   ];
   schema:description "イ　相手に伝わるように，理由や事例などを挙げながら，話の中心が明確になるよう話の構成を考えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=99>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74UI505110000000
   dct:identifier "74UI505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6698
   ];
   schema:description "ア　内容の(1)のアについては，食品の成分の特徴による分類方法である食品群と，「日本食品標準成分表」を扱うこと。イ及びウについては，代表的な食品を扱うこと。エについては，加工油脂を含めて代表的な食品を扱うこと。オについては，代表的な食品の使用目的とその役割，性質，利用法などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

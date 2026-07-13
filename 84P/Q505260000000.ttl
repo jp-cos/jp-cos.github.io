@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PQ505260000000
   dct:identifier "84PQ505260000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4458
   ];
   schema:description "カ　〔指導項目〕の(6)については，実際の工事を想定した施工計画と工事の管理を関連付けながら，工程管理，安全管理，品質管理に関する基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

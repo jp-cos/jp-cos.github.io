@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0300280000000
   dct:identifier "84M0300280000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10887
   ];
   schema:description "(8) グループ学習や個人研究などの多様な学習形態，地域の人々の協力も得つつ，全教師が一体となって指導に当たるなどの指導体制について工夫を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

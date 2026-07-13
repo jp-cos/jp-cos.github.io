@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:8260263251100000
   dct:identifier "8260263251100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2530
   ];
   schema:description "(ア) 月の輝いている側に太陽があること。また，月の形の見え方は，太陽と月との位置関係によって変わること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000298;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2530 cs:8362233600000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233600000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97>;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300310000000
   dct:identifier "7210300310000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 254
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 254 263
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 263
   ];
   schema:description "(1) 教材は，話すこと・聞くことの能力，書くことの能力及び読むことの能力などを偏りなく養うことや読書に親しむ態度の育成を通して読書習慣を形成することをねらいとし，児童の発達の段階に即して適切な話題や題材を精選して調和的に取り上げること。また，第２の各学年の内容の「Ａ話すこと・聞くこと」，「Ｂ書くこと」及び「Ｃ読むこと」のそれぞれの(2)に掲げる言語活動が十分行われるよう教材を選定すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

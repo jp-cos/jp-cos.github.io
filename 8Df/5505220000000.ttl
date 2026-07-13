@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df5505220000000
   dct:identifier "8Df5505220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 959
   ];
   schema:description "イ　〔指導項目〕の(5) については，基本手技を取り上げ，その特徴を理解させるとともに，臨床における施術の適応の判断についても指導すること。アからウまでについては，諸外国における徒手による主な施術法についても取り扱うこと。エについては，特殊な鍼法も取り扱うこと。カについては，病態を踏まえアからオまでを適切に組み合わせた総合的な施術法を取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

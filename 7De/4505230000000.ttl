@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7De4505230000000
   dct:identifier "7De4505230000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 374
   ];
   schema:description "ウ   内容の(3)については， 現代医学の立場から各系統別疾患の概要を扱い， それぞれの代表的な疾患の原因， 症状及び治療法の基礎的な知識を習得できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

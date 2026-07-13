@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:73C0300140000001
   dct:identifier "73C0300140000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1370
   ];
   schema:description "(4) 第１章総則の第１の２に示す道徳教育の目標に基づき，道徳科などとの関連を考慮しながら，第３章特別の教科道徳の第２に示す内容について，技術・家庭科の特質に応じて適切な指導をすること。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

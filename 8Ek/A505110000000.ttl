@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8EkA505110000000
   dct:identifier "8EkA505110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2544
   ];
   schema:description "ア　指導に当たっては，実験・実習を中心にして使用機械及び器具の理解を深め，基礎的な知識と技術を総合的に習得させるよう留意すること。また， 安全管理や保健管理に関わる知識の習得に努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

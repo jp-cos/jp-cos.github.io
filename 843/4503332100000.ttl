@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503332100000
   dct:identifier "8434503332100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 844
   ];
   schema:description "(ア) 織豊政権との類似と相違，アジアの国際情勢の変化，交通・流通の発達，都市の発達と文化の担い手との関係などに着目して，主題を設定し，近世の国家・社会の展開について，事象の意味や意義，関係性などを多面的・多角的に考察し，歴史に関わる諸事象の解釈や歴史の画期などを根拠を示して表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

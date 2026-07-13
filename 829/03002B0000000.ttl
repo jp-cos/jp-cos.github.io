@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82903002B0000000
   dct:identifier "82903002B0000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2954
   ];
   schema:description "(11)　創造することの価値に気付き，自分たちの作品や美術作品などに表れている創造性を大切にする態度を養うようにすること。また，こうした態度を養うことが，美術文化の継承，発展，創造を支えていることについて理解する素地となるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=127>;
   cs:courseOfStudy cs:Elementary\/2017;

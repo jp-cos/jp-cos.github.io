@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ek7505110000000
   dct:identifier "8Ek7505110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2481
   ];
   schema:description "ア　「歯の解剖学」，「顎口腔機能学」及び「有床義歯技工学」と関連を図り， 症例実習を中心にして基礎的な知識と技術の習得を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220253100000000
   dct:identifier "8220253100000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1481
   ];
   schema:description "(1) 我が国の国土の様子と国民生活について，学習の問題を追究・解決する活動を通して，次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8220253110000000, cs:8220253120000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=77>;
   cs:courseOfStudy cs:Elementary\/2017;

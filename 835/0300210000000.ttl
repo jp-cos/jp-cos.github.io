@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8350300210000000
   dct:identifier "8350300210000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 896
   ];
   schema:description "(1) 思考力，判断力，表現力等を育成するため，各学年の内容の指導に当たっては，数学的な表現を用いて簡潔・明瞭・的確に表現したり，互いに自分の考えを表現し伝え合ったりするなどの機会を設けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_004.pdf#page=170>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

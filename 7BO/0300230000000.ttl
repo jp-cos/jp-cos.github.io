@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7BO0300230000000
   dct:identifier "7BO0300230000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2526
   ];
   schema:description "(3) 具体的に指導内容を設定する際には， 以下の点を考慮すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7BO0300231000000, cs:7BO0300232000000, cs:7BO0300233000000, cs:7BO0300234000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

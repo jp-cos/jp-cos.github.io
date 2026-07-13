@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QF505250000000
   dct:identifier "74QF505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3470
   ];
   schema:description "オ　内容の(6)については，簡単なメカトロニクス製品を例に，マイクロコンピュータの組込み技術，制御機構及びソフトウェア技術を扱うこと。また，簡単なメカトロニクスを活用した機械を設計させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

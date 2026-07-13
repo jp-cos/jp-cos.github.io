@@ -8,9 +8,9 @@
 @prefix sh: <http://www.w3.org/ns/shacl#>.
 cs:8260233110000000
   dct:identifier "8260233110000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2306
   ];
@@ -18,7 +18,7 @@ cs:8260233110000000
 物の性質について，形や体積に着目して，重さを比較しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260233111000000, cs:8260233112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=36>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TL505210000000
   dct:identifier "74TL505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6184
   ];
   schema:description "ア　内容の(1)については，水産業や海洋関連産業などにおけるダイビングの意義と沿革及び業としてのダイビングの現状と今後の展望を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

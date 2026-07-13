@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73G12A3310000000
   dct:identifier "73G12A3310000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1083
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1083 1083
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1083
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1083 1083 1089
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1089
   ];
   schema:description "(1) 次の運動について，記録の向上や競争の楽しさや喜びを味わい，基本的な動きや効率のよい動きを身に付けることができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73G12A3311000000, cs:73G12A3312000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

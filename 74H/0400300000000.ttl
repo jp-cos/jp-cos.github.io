@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0400300000000
   dct:identifier "74H0400300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1859
   ];
   schema:description "３　２に示す言語材料を用いるに当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74H0400310000000, cs:74H0400320000000, cs:74H0400330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

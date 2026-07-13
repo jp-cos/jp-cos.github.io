@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F0300000000000
   dct:identifier "74F0300000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1978
   ];
   schema:description "第３款　各科目にわたる指導計画の作成と内容の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:74F0300100000000, cs:74F0300200000000, cs:74F0300300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

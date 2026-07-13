@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RE505260000000
   dct:identifier "74RE505260000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5302
   ];
   schema:description "カ　内容の(6)のアについては，直接原価計算の方法及び直接原価計算による損益計算書の作成を扱うこと。イについては，売上高，原価，利益の関係を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

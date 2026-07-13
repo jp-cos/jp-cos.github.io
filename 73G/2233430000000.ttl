@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73G2233430000000
   dct:identifier "73G2233430000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1223
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1223 1223
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1223
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1223 1223 1229
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1229
   ];
   schema:description "ウ　喫煙，飲酒，薬物乱用などの行為は，心身に様々な影響を与え，健康を損なう原因となること。また，これらの行為には，個人の心理状態や人間関係，社会環境が影響することから，それぞれの要因に適切に対処する必要があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000242700000
   dct:identifier "7600000242700000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 48
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 48 49
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 49
   ];
   schema:description "(7) 各教科等の指導に当たっては， 児童又は生徒が学習の見通しを立てたり学習したことを振り返ったりする活動を計画的に取り入れるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l4005200000000
   dct:identifier "81l4005200000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 163
   ];
   schema:description "(2) 幼児が自分の思いを言葉で伝えるとともに，教師や他の幼児などの話を興味をもって注意して聞くことを通して次第に話を理解するようになっていき，言葉による伝え合いができるようにすること。 ";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

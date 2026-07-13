@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73A0100000000000
   dct:identifier "73A0100000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 987
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 987 987
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 987
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 987 987 993
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 993
   ];
   schema:description """第１　目標
 　表現及び鑑賞の幅広い活動を通して，美術の創造活動の喜びを味わい美術を愛好する心情を育てるとともに，感性を豊かにし，美術の基礎的な能力を伸ばし，美術文化についての理解を深め，豊かな情操を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

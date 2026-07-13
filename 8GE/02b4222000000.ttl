@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GE02b4222000000
   dct:identifier "8GE02b4222000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3674
   ];
   schema:description "イ　情報セキュリティ及び情報モラルを踏まえ，コンピュータ等の情報機器を扱い，収集した情報をまとめ，考えたことについて適切に表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

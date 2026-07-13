@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8464502000000000
   dct:identifier "8464502000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1698
   ];
@@ -16,7 +16,7 @@ cs:8464502000000000
 物質とその変化に関わり，理科の見方・考え方を働かせ，見通しをもって観察，実験を行うことなどを通して，物質とその変化を科学的に探究するために必要な資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8464502100000000, cs:8464502200000000, cs:8464502300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

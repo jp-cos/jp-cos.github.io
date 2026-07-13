@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503510000000
   dct:identifier "7432503510000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 359
   ];
   schema:description """ア　帝国主義と社会の変容
 　科学技術の発達，企業・国家の巨大化，国民統合の進展，帝国主義諸国の抗争とアジア・アフリカの対応，国際的な移民の増加などを理解させ，19世紀後期から20世紀初期までの世界の動向と社会の特質について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

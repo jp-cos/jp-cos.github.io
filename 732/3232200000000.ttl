@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7323232200000000
   dct:identifier "7323232200000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 364
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 364 364
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 364
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 364 364 370
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 370
   ];
   schema:description "(2) 民主政治の意義，国民の生活の向上と経済活動とのかかわり及び現代の社会生活などについて，個人と社会とのかかわりを中心に理解を深め，現代社会についての見方や考え方の基礎を養うとともに，社会の諸問題に着目させ，自ら考えようとする態度を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

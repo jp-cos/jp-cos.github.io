@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:75m0000000000000
   dct:identifier "75m0000000000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 67
   ];
   schema:description "第３章　指導計画の作成に当たっての留意事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:75m0000100000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

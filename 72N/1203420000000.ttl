@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N1203420000000
   dct:identifier "72N1203420000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2799
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2799 2825
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2825
   ];
   schema:description "(2) 日常の生活や学習への適応及び健康安全";
   schema:edition "一部改正なし";
   schema:hasPart cs:72N1203421000000, cs:72N1203422000000, cs:72N1203423000000, cs:72N1203424000000, cs:72N1203425000000, cs:72N1203426000000, cs:72N1203427000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

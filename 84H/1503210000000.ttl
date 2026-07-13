@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84H1503210000000
   dct:identifier "84H1503210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2789
   ];
@@ -16,7 +16,7 @@ cs:84H1503210000000
 具体的な課題等を設定し，コミュニケーションを行う目的や場面，状況などに応じて，情報を整理しながら考えなどを形成し，これらを論理的に適切な英語で表現することを通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H1503211000000, cs:84H1503212000000, cs:84H1503213000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

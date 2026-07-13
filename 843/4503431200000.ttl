@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503431200000
   dct:identifier "8434503431200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 861
   ];
   schema:description "(イ) 文明開化の風潮，産業革命の展開，交通の整備と産業構造の変容，学問の発展や教育制度の拡充，社会問題の発生などを基に，産業の発展の経緯と近代の文化の特色，大衆社会の形成を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

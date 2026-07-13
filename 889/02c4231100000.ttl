@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88902c4231100000
   dct:identifier "88902c4231100000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 938
   ];
   schema:description "(ア) 自分の感覚や行為を通して，形や色などの感じに気付くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=214>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

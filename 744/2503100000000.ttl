@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7442503100000000
   dct:identifier "7442503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 552
   ];
   schema:description """(1) 現代に生きる自己の課題
 　自らの体験や悩みを振り返ることを通して，青年期の意義と課題を理解させ，豊かな自己形成に向けて，他者と共に生きる自己の生き方について考えさせるとともに，自己の生き方が現代の倫理的課題と結び付いていることをとらえさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

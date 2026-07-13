@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H4503221110000
   dct:identifier "84H4503221110000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2989
   ];
   schema:description "(ア) 関心のある事柄や学校生活などの日常的な話題について，使用する語句や文，やり取りの具体的な進め方が十分に示される状況で，情報や考え，気持ちなどを話して伝え合ったり，やり取りを通して必要な情報を得たりする活動。また，やり取りした内容を整理して発表したり，文章を書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

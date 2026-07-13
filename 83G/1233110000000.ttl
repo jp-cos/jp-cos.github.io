@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233110000000
   dct:identifier "83G1233110000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1525
   ];
   schema:description "(1) 次の運動を通して，体を動かす楽しさや心地よさを味わい，運動を継続する意義，体の構造，運動の原則などを理解するとともに，健康の保持増進や体力の向上を目指し，目的に適した運動の計画を立て取り組むこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G1233111000000, cs:83G1233112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=58>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

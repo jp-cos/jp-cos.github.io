@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7464503312000000
   dct:identifier "7464503312000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 981
   ];
   schema:description """(イ) 化学反応式
 　化学反応式は化学反応に関与する物質とその量的関係を表すことを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

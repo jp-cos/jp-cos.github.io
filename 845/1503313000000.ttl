@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8451503313000000
   dct:identifier "8451503313000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1259
   ];
   schema:description "(ウ) 二次方程式の解と二次関数のグラフとの関係について理解すること。また，二次不等式の解と二次関数のグラフとの関係について理解し，二次関数のグラフを用いて二次不等式の解を求めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

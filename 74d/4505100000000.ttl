@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74d4505100000000
   dct:identifier "74d4505100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8138
   ];
   schema:description "(1) 内容の(1)から(7)までの中から，生徒の実態等に応じて，適宜選択するものとする。その際，電子メールの交換や実際の交流などのコミュニケーション体験を通して理解を深めるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

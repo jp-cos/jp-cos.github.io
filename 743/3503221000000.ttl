@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7433503221000000
   dct:identifier "7433503221000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 393
   ];
   schema:description "(ア) 産業革命の進行，都市や村落の生活の変化と社会問題の発生，学問・文化の進展と教育の普及，大衆社会と大衆文化の形成に着目して，近代産業の発展と国民生活の変化について考察させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

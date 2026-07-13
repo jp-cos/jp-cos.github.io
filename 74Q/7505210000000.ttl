@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Q7505210000000
   dct:identifier "74Q7505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3232
   ];
   schema:description "ア　内容の(1)については，工業材料が社会生活及び産業に果たしている役割を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

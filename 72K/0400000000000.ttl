@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0400000000000
   dct:identifier "72K0400000000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2623
   ];
@@ -16,7 +16,7 @@ cs:72K0400000000000
 　道徳の時間を要《かなめ》として学校の教育活動全体を通じて行う道徳教育の内容は，次のとおりとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K0400000000001, cs:72K0400100000001, cs:72K0400110000001, cs:72K0400120000001, cs:72K0400130000001, cs:72K0400140000001, cs:72K0400150000001, cs:72K0400200000001, cs:72K0400210000001, cs:72K0400220000001, cs:72K0400230000001, cs:72K0400240000001, cs:72K0400250000001, cs:72K0400300000001, cs:72K0400310000001, cs:72K0400320000001, cs:72K0400330000001, cs:72K0400340000001, cs:72K0400350000001, cs:72K0400360000001, cs:72K0400370000001, cs:72K0400400000001, cs:72K0400410000001, cs:72K0400420000001, cs:72K0400430000001, cs:72K04A0000000000, cs:72K04C0000000000, cs:72K04D0000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

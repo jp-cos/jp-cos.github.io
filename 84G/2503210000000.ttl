@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G2503210000000
   dct:identifier "84G2503210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2134
   ];
   schema:description "ア　安全な社会生活について理解を深めるとともに，応急手当を適切にすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G2503211000000, cs:84G2503212000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

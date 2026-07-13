@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74QE503400000000
   dct:identifier "74QE503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3423
   ];
   schema:description "(4) 自動車";
   schema:edition "一部改正なし";
   schema:hasPart cs:74QE503410000000, cs:74QE503420000000, cs:74QE503430000000, cs:74QE503440000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

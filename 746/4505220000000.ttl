@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7464505220000000
   dct:identifier "7464505220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 993
   ];
   schema:description """イ　内容の(2)のアの(ア)については，原子番号，質量数及び同位体を扱うこと。その際，放射性同位体とその利用にも触れること。(イ)の「電子配置」については，代表的な典型元素を扱うこと。「周期律」については，イオン化エネルギーの変化にも触れること。
 　イの(ア)については，多原子イオンも扱うこと。「イオン結合でできた物質」については，代表的なものを扱い，その用途にも触れること。(イ)については，代表的な金属を扱い，その用途にも触れること。(ウ)については，代表的な無機物質及び有機化合物を扱い，それらの用途にも触れること。また，分子の極性や配位結合にも触れるとともに，共有結合の結晶及びプラスチックなどの高分子化合物の構造にも触れること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

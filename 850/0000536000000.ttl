@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000536000000
   dct:identifier "8500000536000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 59
   ];
   schema:description "(6)  幼児期は直接的な体験が重要であることを踏まえ，視聴覚教材やコンピュータなど情報機器を活用する際には，幼稚部における生活では得難い体験を補完するなど，幼児の体験との関連を考慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

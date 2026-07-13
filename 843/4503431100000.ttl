@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503431100000
   dct:identifier "8434503431100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 860
   ];
   schema:description "(ア) 明治維新，自由民権運動，大日本帝国憲法の制定，条約改正，日(にっ)清(しん)・日露戦争，第一次世界大戦，社会運動の動向，政党政治などを基に，立憲体制への移行，国民国家の形成，アジアや欧米諸国との関係の変容を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

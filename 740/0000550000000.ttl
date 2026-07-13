@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000550000000
   dct:identifier "7400000550000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 87
   ];
@@ -16,7 +16,7 @@ cs:7400000550000000
 　以上のほか，次の事項について配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000551000000, cs:7400000552000000, cs:7400000553000000, cs:7400000554000000, cs:7400000555000000, cs:7400000556000000, cs:7400000557000000, cs:7400000558000000, cs:7400000559000000, cs:740000055A000000, cs:740000055B000000, cs:740000055C000000, cs:740000055D000000, cs:740000055E000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

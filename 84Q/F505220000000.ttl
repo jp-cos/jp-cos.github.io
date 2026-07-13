@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QF505220000000
   dct:identifier "84QF505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5078
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，動力の発生，自動車の操作装置，材料の性質などを扱うこと。イについては，自動車用機関の働きと動力伝達に関連する装置の機能を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74N1203200000000
   dct:identifier "74N1203200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8193
   ];
   schema:description "(2) 適応と成長及び健康安全";
   schema:edition "一部改正なし";
   schema:hasPart cs:74N1203210000000, cs:74N1203220000000, cs:74N1203230000000, cs:74N1203240000000, cs:74N1203250000000, cs:74N1203260000000, cs:74N1203270000000, cs:74N1203280000000, cs:74N1203290000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

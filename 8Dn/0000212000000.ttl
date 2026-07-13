@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dn0000212000000
   dct:identifier "8Dn0000212000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 223
   ];
   schema:description "(2) 視覚的なイメージを伴わないと理解が困難な事象や習得が難しい技能については，既習の内容や経験と関連付けながら，具体例を示すなど指導方法を工夫して，理解を深め習得を促すようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000223135000
   dct:identifier "8C00000223135000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 82
   ];
   schema:description "(オ) 各学年の自立活動の時間に充てる授業時数は，生徒の障害の状態や特性及び心身の発達の段階等に応じて，適切に定めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

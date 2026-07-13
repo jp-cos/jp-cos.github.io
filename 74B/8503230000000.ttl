@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74B8503230000000
   dct:identifier "74B8503230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1579
   ];
   schema:description "ウ　時代，民族，風土などによる表現の相違や共通性などを考察し，工芸の伝統と文化についての理解を一層深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

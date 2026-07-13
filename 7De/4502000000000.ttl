@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7De4502000000000
   dct:identifier "7De4502000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 326
   ];
   schema:description """１　目標
 臨床医学やリハビリテーションに関する基礎的な知識を習得させるとともに， 疾病と日常生活とのかかわりを理解させ， 施術を適切に行う能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71l1003400000000
   dct:identifier "71l1003400000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 27
   ];
   schema:description "(4) 様々な活動に親しみ，楽しんで取り組む。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

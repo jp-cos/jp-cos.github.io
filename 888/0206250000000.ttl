@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8880206250000000
   dct:identifier "8880206250000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 839
   ];
   schema:description "オ　我が国や郷土の音楽の指導に当たっては，そのよさなどを感じ取って表現したり鑑賞したりできるよう，楽譜や音源等の示し方，伴奏の仕方，曲 に合った歌い方や楽器の演奏の仕方など指導方法について工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=185>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

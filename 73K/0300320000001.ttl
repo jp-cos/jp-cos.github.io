@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0300320000001
   dct:identifier "73K0300320000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1578
   ];
   schema:description "(2) 教材については，教育基本法や学校教育法その他の法令に従い，次の観点に照らし適切と判断されるものであること";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

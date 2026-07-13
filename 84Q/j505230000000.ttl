@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qj505230000000
   dct:identifier "84Qj505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6119
   ];
   schema:description "ウ　〔指導項目〕の(4)のアからウまでについては，製錬法の原理と方法を扱うこと。エについては，半導体などの特殊な材料の製錬法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

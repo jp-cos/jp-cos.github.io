@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8850206253000000
   dct:identifier "8850206253000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 688
   ];
   schema:description "(ウ) 内容の「Ｃ測定」の指導に当たっては，次の㋐から㋒までの基礎的な事項と関連付けながら取り上げること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8850206253100000, cs:8850206253200000, cs:8850206253300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=147>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

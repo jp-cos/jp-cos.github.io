@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:85l2003310000000
   dct:identifier "85l2003310000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 101
   ];
   schema:description "ア 他者とのかかわりの基礎に関すること。イ 他者の意図や感情の理解に関すること。ウ 自己の理解と行動の調整に関すること。エ 集団への参加の基礎に関すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

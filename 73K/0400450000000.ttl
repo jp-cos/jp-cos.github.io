@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400450000000
   dct:identifier "73K0400450000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1556
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1556 1556
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1556
   ];
   schema:description "(5) 勤労の尊さや意義を理解し，奉仕の精神をもって，公共の福祉と社会の発展に努める。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

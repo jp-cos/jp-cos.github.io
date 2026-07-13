@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RK505120000000
   dct:identifier "84RK505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7330
   ];
   schema:description "イ　情報技術の進歩に留意して指導すること。また，企業において情報セキュリティ管理及び情報通信ネットワークの設計・構築と運用管理を行う具体的な場面を想定した実習を通して，情報資産を共有し保護する環境の提供ができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

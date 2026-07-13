@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H0300320000000
   dct:identifier "84H0300320000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3086
   ];
   schema:description "(2) 英語を使用している人々を中心とする世界の人々や日本人の日常生活，風俗習慣，物語，地理，歴史，伝統文化，自然科学などに関するものの中から，生徒の発達の段階や興味・関心に即して適切な題材を効果的に取り上げるものとし，次の観点に配慮すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H0300321000000, cs:84H0300322000000, cs:84H0300323000000, cs:84H0300324000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

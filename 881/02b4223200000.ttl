@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88102b4223200000
   dct:identifier "88102b4223200000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 366
   ];
   schema:description "イ  教師と一緒に絵本などを見て，時間の経過などの大体を捉えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=100>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82201L0100000000
   dct:identifier "82201L0100000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1366
   ];
   schema:description "(1) 地域や我が国の国土の地理的環境，現代社会の仕組みや働き，地域や我が国の歴史や伝統と文化を通して社会生活について理解するとともに，様々な資料や調査活動を通して情報を適切に調べまとめる技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=21>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TI505250000000
   dct:identifier "74TI505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6090
   ];
   schema:description "オ　内容の(6)のアについては，経営管理と組織を扱うこと。また，簿記の基礎的な内容に触れること。イについては，工程管理や製造管理の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

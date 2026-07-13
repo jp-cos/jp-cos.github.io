@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503112200000
   dct:identifier "8434503112200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 795
   ];
   schema:description "(イ) 黎(れい)明期の日本列島の変化に着目して，原始社会の特色について多面的・多角的に考察し，時代を通観する問いを表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qh505230000000
   dct:identifier "74Qh505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4275
   ];
   schema:description "ウ　内容の(3)のアについては，水資源の開発及び上下水道の基礎的な内容を扱うこと。イについては，河川の改修，海岸の防護，治山・砂防及び土木構造物の機能と簡単な計画を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

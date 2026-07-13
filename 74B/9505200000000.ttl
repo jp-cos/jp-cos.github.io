@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74B9505200000000
   dct:identifier "74B9505200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1599
   ];
   schema:description "(2) 内容の取扱いに当たっては，「工芸Ⅰ」の３の(2)から(6)までと同様に取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

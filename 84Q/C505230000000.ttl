@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QC505230000000
   dct:identifier "84QC505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4969
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，熱と仕事との関係を扱うこと。ウ及びエについては，エネルギー変換の原理と機関の構造を扱うこと。また，機関の性能については，各種サイクルの熱効率及び日本工業規格に基づく性能試験を扱うこと。オについては，内燃機関，自動車及び環境対策技術を関連付けて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

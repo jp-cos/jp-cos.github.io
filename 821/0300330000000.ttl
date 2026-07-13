@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8210300330000000
   dct:identifier "8210300330000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 330
   ];
   schema:description "(3) 第２の各学年の内容の〔思考力，判断力，表現力等〕の「Ｃ読むこと」の教材については，各学年で説明的な文章や文学的な文章などの文章形態を調和的に取り扱うこと。また，説明的な文章については，適宜，図表や写真などを含むものを取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=173>;
   cs:courseOfStudy cs:Elementary\/2017;

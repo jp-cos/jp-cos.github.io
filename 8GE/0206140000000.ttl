@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GE0206140000000
   dct:identifier "8GE0206140000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3683
   ];
   schema:description "エ  地域や産業界との連携を図り，校内外の作業や産業現場等における実習の充実を図ること。産業現場等における実習については，作業や就業体験活動等を踏まえ，段階的・系統的に指導するとともに，地域社会への参画や社会貢献の意識が高まるよう計画すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

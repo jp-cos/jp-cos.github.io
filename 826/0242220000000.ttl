@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260242220000000
   dct:identifier "8260242220000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2359
   ];
   schema:description "②　人の体のつくりと運動，動物の活動や植物の成長と環境との関わり，雨水の行方と地面の様子，気象現象，月や星について追究する中で，主に既習の内容や生活経験を基に，根拠のある予想や仮説を発想する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=50>;
   cs:courseOfStudy cs:Elementary\/2017;

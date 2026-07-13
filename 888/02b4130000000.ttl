@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88802b4130000000
   dct:identifier "88802b4130000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 730
   ];
   schema:description "ウ　音や音楽に関わり，教師と一緒に音楽活動をする楽しさに興味をもちながら，音楽経験を生かして生活を明るく楽しいものにしようとする態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=159>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

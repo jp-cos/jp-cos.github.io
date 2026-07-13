@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000432000000
   dct:identifier "8100000432000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 51
   ];
   schema:description "(2) 幼児が様々な人やものとの関わりを通して，多様な体験をし，心身の調和のとれた発達を促すようにしていくこと。その際，幼児の発達に即して主体的・対話的で深い学びが実現するようにするとともに，心を動かされる体験が次の活動を生み出すことを考慮し，一つ一つの体験が相互に結び付き，幼稚園生活が充実するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

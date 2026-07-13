@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qx503300000000
   dct:identifier "74Qx503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4806
   ];
   schema:description "(3) プロダクトデザイン";
   schema:edition "一部改正なし";
   schema:hasPart cs:74Qx503310000000, cs:74Qx503320000000, cs:74Qx503330000000, cs:74Qx503340000000, cs:74Qx503350000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

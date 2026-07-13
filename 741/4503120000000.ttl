@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7414503120000000
   dct:identifier "7414503120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 235
   ];
   schema:description "イ　文章を読んで，書き手の意図や，人物，情景，心情の描写などを的確にとらえ，表現を味わうこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000223121180
   dct:identifier "8C00000223121180";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 68
   ];
   schema:description "ｈ 外国語のうち「英語コミュニケーションⅠ」（英語以外の外国語を履修する場合は，学校設定科目として設ける１科目とし，その標準単位数は３単位とする。）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

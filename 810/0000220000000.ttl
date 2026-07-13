@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000220000000
   dct:identifier "8100000220000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 13
   ];
   schema:description "２　１に示す資質・能力は，第２章に示すねらい及び内容に基づく活動全体によって育むものである。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

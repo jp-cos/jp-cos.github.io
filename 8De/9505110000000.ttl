@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8De9505110000000
   dct:identifier "8De9505110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 650
   ];
   schema:description "ア　指導に当たっては，治療技術的な側面のみならず，インフォームド・コンセントや患者の秘密保持，カルテ等の適切な管理方法など，あん摩マッサージ指圧師としての倫理観や職業観を培うことに配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

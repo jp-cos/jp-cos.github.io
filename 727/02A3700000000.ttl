@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72702A3700000000
   dct:identifier "72702A3700000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2042
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2042 2051
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2051
   ];
   schema:description "(7) 動物を飼ったり植物を育てたりして，それらの育つ場所，変化や成長の様子に関心をもち，また，それらは生命をもっていることや成長していることに気付き，生き物への親しみをもち，大切にすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

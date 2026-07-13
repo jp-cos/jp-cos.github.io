@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000313000000
   dct:identifier "8200000313000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 47
   ];
@@ -16,7 +16,7 @@ cs:8200000313000000
 　あわせて，各教科等の特質に応じて，次の学習活動を計画的に実施すること。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000313100000, cs:8200000313200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=92>;
   cs:courseOfStudy cs:Elementary\/2017;

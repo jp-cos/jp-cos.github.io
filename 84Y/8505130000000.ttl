@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y8505130000000
   dct:identifier "84Y8505130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9947
   ];
   schema:description "ウ　〔指導項目〕の(2)については，福祉用具や介護ロボットの活用を含めた介護福祉サービスにおける安全や心理面への配慮に関連付けて指導すること。また，基本的な生活行動と各器官の機能を関連付けて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82M02L7620000000
   dct:identifier "82M02L7620000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3660
   ];
   schema:description "イ　思考力，判断力，表現力等については，課題の設定，情報の収集，整理・分析，まとめ・表現などの探究的な学習の過程において発揮され，未知の状況において活用できるものとして身に付けられるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_013_1.pdf#page=40>;
   cs:courseOfStudy cs:Elementary\/2017;

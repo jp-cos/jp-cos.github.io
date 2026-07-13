@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503710000000
   dct:identifier "84G1503710000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2071
   ];
   schema:description "(1) 次の運動について，感じを込めて踊ったり仲間と自由に踊ったり，自己や仲間の課題を解決したりするなどの多様な楽しさや喜びを味わい，ダンスの名称や用語，文化的背景と表現の仕方，交流や発表の仕方，課題解決の方法，体力の高め方などを理解するとともに，それぞれ特有の表現や踊りを身に付けて交流や発表をすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G1503711000000, cs:84G1503712000000, cs:84G1503713000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

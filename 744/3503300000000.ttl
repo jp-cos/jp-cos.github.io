@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7443503300000000
   dct:identifier "7443503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 580
   ];
@@ -16,7 +16,7 @@ cs:7443503300000000
 　政治や経済などに関する基本的な理解を踏まえ，持続可能な社会の形成が求められる現代社会の諸課題を探究する活動を通して，望ましい解決の在り方について考察を深めさせる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7443503310000000, cs:7443503320000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

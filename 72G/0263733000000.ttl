@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G0263733000000
   dct:identifier "72G0263733000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2596
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2596 2605
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2605
   ];
   schema:description "ウ　生活習慣病など生活行動が主な要因となって起こる病気の予防には，栄養の偏りのない食事をとること，口腔《くう》の衛生を保つことなど，望ましい生活習慣を身に付ける必要があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

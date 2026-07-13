@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73C2205400000000
   dct:identifier "73C2205400000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1356
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1356 1356
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1356
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1356 1356 1362
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1362
   ];
   schema:description "(4) 内容の「Ｄ身近な消費生活と環境」については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73C2205410000000, cs:73C2205420000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

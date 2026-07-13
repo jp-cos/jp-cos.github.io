@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82902C3122000000
   dct:identifier "82902C3122000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2898
   ];
   schema:description "イ　絵や立体，工作に表す活動を通して，材料や用具を適切に扱うとともに，前学年までの材料や用具についての経験を生かし，手や体全体を十分に働かせ，表したいことに合わせて表し方を工夫して表すこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=73>;
   cs:courseOfStudy cs:Elementary\/2017;

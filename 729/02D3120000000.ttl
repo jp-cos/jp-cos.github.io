@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72902D3120000000
   dct:identifier "72902D3120000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2327
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2327 2336
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2336
   ];
   schema:description "(2) 感じたこと，想像したこと，見たこと，伝え合いたいことを絵や立体，工作に表す活動を通して，次の事項を指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72902D3121000000, cs:72902D3122000000, cs:72902D3123000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

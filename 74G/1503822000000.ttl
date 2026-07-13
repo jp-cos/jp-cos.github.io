@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503822000000
   dct:identifier "74G1503822000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1320
   ];
   schema:description "イ　運動やスポーツの技能の上達過程にはいくつかの段階があり，その学習の段階に応じた練習方法や運動観察の方法，課題の設定方法などがあること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y2505110000000
   dct:identifier "84Y2505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9772
   ];
   schema:description "ア　人間の尊厳や自立支援，介護従事者としての職業倫理，事故の予防や感染対策，国際生活機能分類，リハビリテーション及び虐待などと関連付けて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

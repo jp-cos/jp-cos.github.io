@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T1505130000000
   dct:identifier "74T1505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5528
   ];
   schema:description "ウ　内容の(2)については，具体的な事例を通して，水産業や海洋関連産業の重要性を理解させるとともに，これらの産業に従事する者としての使命や責任なども取り上げ，卒業後の進路と関連付けて考えさせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

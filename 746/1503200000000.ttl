@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7461503200000000
   dct:identifier "7461503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 826
   ];
@@ -16,7 +16,7 @@ cs:7461503200000000
 　身近な自然の事物・現象及び日常生活や社会の中で利用されている科学技術を取り上げ，科学と人間生活とのかかわりについて認識を深めさせる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7461503210000000, cs:7461503220000000, cs:7461503230000000, cs:7461503240000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

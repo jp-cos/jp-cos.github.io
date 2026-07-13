@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GI0206250000000
   dct:identifier "8GI0206250000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4018
   ];
   schema:description "オ　授業で扱う具体例，教材・教具などについては，生活に関連の深いものを取り上げるとともに，情報技術の進展に対応して適宜見直しを図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

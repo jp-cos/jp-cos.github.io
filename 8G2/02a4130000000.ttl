@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G202a4130000000
   dct:identifier "8G202a4130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2719
   ];
   schema:description "ウ　社会に主体的に関わろうとする態度や，よりよい社会を考え学習したことを社会生活に生かそうとする態度を養うとともに，多角的な思考や理解を通して，地域社会に対する誇りと愛情，地域社会の一員としての自覚， 我が国の国土に対する愛情，我が国の歴史や伝統を大切にして国を愛する心情，我が国の産業の発展を願い我が国の将来を担う国民としての自覚や平和を願う日本人として世界の国々の人々と共に生きることの大切さについての自覚を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

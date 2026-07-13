@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84UD502200000000
   dct:identifier "84UD502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8591
   ];
   schema:description "(2) 手芸の美的価値及び製作工程に関する課題を発見し，手芸品の製作と服飾への活用を担う職業人として合理的かつ創造的に解決する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

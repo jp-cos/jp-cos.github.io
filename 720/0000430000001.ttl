@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000430000001
   dct:identifier "7200000430000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 38
   ];
   schema:description "３　道徳教育を進めるに当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

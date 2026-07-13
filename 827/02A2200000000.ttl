@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82702A2200000000
   dct:identifier "82702A2200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2568
   ];
   schema:description "(2) 身近な人々，社会及び自然と触れ合ったり関わったりすることを通して，それらを工夫したり楽しんだりすることができ，活動のよさや大切さに気付き，自分たちの遊びや生活をよりよくするようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf#page=26>;
   cs:courseOfStudy cs:Elementary\/2017;

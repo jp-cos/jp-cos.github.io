@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72F03D0231000000
   dct:identifier "72F03D0231000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2419
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2419 2428
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2428
   ];
   schema:description "ア　(1)のイについては，「Ａ家庭生活と家族」の(3)，「Ｂ日常の食事と調理の基礎」の(3)並びに「Ｃ快適な衣服と住まい」の(2)及び(3)で扱う用具や実習材料などの身近な物を取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ek3503200000000
   dct:identifier "7Ek3503200000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2061
   ];
   schema:description "(2)歯科技工材料";
   schema:edition "一部改正なし";
   schema:hasPart cs:7Ek3503210000000, cs:7Ek3503220000000, cs:7Ek3503230000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

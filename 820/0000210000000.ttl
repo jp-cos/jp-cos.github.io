@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000210000000
   dct:identifier "8200000210000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 14
   ];
   schema:description """１　各学校の教育目標と教育課程の編成
 　教育課程の編成に当たっては，学校教育全体や各教科等における指導を通して育成を目指す資質・能力を踏まえつつ，各学校の教育目標を明確にするとともに，教育課程の編成についての基本的な方針が家庭や地域とも共有されるよう努めるものとする。その際，第５章総合的な学習の時間の第２の１に基づき定められる目標との関連を図るものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=54>;
   cs:courseOfStudy cs:Elementary\/2017;

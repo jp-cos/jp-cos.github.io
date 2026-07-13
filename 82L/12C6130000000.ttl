@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82L12C6130000000
   dct:identifier "82L12C6130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3629
   ];
   schema:description "ウ　実際に英語を用いて互いの考えや気持ちを伝え合うなどの言語活動を行う際は，２の(1)に示す事項について理解したり練習したりするための指導を必要に応じて行うこと。また，英語を初めて学習することに配慮し，簡単な語句や基本的な表現を用いながら，友達との関わりを大切にした体験的な言語活動を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=47>;
   cs:courseOfStudy cs:Elementary\/2017;

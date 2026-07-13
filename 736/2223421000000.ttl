@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7362223421000000
   dct:identifier "7362223421000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 786
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 786 786
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 786
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 786 786 792
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 792
   ];
   schema:description """(ア) 霧や雲の発生
 霧や雲の発生についての観察，実験を行い，そのでき方を気圧，気温及び湿度の変化と関連付けてとらえること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

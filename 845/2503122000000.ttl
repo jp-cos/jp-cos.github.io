@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8452503122000000
   dct:identifier "8452503122000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1295
   ];
   schema:description "(イ) 実数の性質や等式の性質，不等式の性質などを基に，等式や不等式が成り立つことを論理的に考察し，証明すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

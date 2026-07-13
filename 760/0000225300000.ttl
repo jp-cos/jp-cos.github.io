@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000225300000
   dct:identifier "7600000225300000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 20
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 20 20
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 20
   ];
   schema:description "(3) 各学校においては， 第２章に示す各教科を選択教科として設けることができるほか， 地域や学校， 生徒の実態を考慮して， 特に必要がある場合には， その他特に必要な教科を選択教科として設けることができる。その他特に必要な教科の名称，  目標，内容などについては，各学校が適切に定めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

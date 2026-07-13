@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322205520000000
   dct:identifier "7322205520000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 348
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 348 348
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 348
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 348 348 354
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 354
   ];
   schema:description "イ　イの「鎖国下の対外関係」については，オランダ，中国との交易のほか，朝鮮との交流や琉球《りゅうきゅう》の役割，北方との交易をしていたアイヌについて取り扱うようにすること。「江戸幕府の政治の特色」については，その支配の下に大きな戦乱のない時期を迎えたことなど，それ以前の時代との違いに着目して考えさせるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

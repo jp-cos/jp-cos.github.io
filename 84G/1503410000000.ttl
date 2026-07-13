@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503410000000
   dct:identifier "84G1503410000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2049
   ];
   schema:description "(1) 次の運動について，記録の向上や競争及び自己や仲間の課題を解決するなどの多様な楽しさや喜びを味わい，技術の名称や行い方，体力の高め方，課題解決の方法，競技会の仕方などを理解するとともに，自己に適した泳法の効率を高めて泳ぐこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G1503411000000, cs:84G1503412000000, cs:84G1503413000000, cs:84G1503414000000, cs:84G1503415000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

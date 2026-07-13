@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000112200000
   dct:identifier "71m0000112200000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 155
   ];
   schema:description "(2) 障害のある幼児の指導に当たっては，集団の中で生活することを通して全体的な発達を促していくことに配慮し，特別支援学校などの助言又は援助を活用しつつ，例えば指導についての計画又は家庭や医療，福祉などの業務を行う関係機関と連携した支援のための計画を個別に作成することなどにより，個々の幼児の障害の状態などに応じた指導内容や指導方法の工夫を計画的，組織的に行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

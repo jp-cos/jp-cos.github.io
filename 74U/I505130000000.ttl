@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74UI505130000000
   dct:identifier "74UI505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6700
   ];
   schema:description "ウ　内容の(3)のアについては，物理的加工，化学的加工及び微生物や酵素による加工の目的，方法及び成分の変化を扱うこと。イについては，代表的な貯蔵の方法についてその原理と特徴の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

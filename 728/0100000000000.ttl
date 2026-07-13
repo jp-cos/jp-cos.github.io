@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7280100000000000
   dct:identifier "7280100000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2057
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2057 2066
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2066
   ];
   schema:description """第１　目標
 　表現及び鑑賞の活動を通して，音楽を愛好する心情と音楽に対する感性を育てるとともに，音楽活動の基礎的な能力を培い，豊かな情操を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H0000000000000
   dct:identifier "73H0000000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1370
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1370 1370
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1370
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1370 1370 1376
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1376
   ];
   schema:description "第９節　外国語";
   schema:edition "一部改正なし";
   schema:hasPart cs:73H0100000000000, cs:73H0200000000000, cs:73H0300000000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

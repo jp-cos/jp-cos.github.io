@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04C0222000001
   dct:identifier "72K04C0222000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 2662
   ];
   schema:description """〔第３学年及び第４学年〕
 　家族など生活を支えてくれている人々や現在の生活を築いてくれた高齢者に，尊敬と感謝の気持ちをもって接すること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7C00000221313000
   dct:identifier "7C00000221313000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 21
   ];
   schema:description "商業（ビジネス基礎， 課題研究， 総合実践，  ビジネス実務， マーケティング， 商品開発， 広告と販売促進， ビジネス経済， ビジネス経済応用， 経済活動と法， 簿記， 財務会計Ⅰ，財務会計Ⅱ，原価計算，管理会計，情報処理，  ビジネス情報，電子商取引，プログラミング，  ビジネス情報管理）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RF505220000000
   dct:identifier "84RF505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7158
   ];
   schema:description "イ　〔指導項目〕の(2)のウについては，制約条件の下で営業利益を最大にする販売数量の組合せを求める方法について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

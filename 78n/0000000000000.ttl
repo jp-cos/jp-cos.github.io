@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:78n0000000000000
   dct:identifier "78n0000000000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 97
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 97 108
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 108
   ];
   schema:description "第２款　知的障害者である児童に対する教育を行う特別支援学校";
   schema:edition "一部改正なし";
   schema:hasPart cs:7810000000000000, cs:7850200000000000, cs:7870200000000000, cs:7880200000000000, cs:7890200000000000, cs:78G0200000000000, cs:78n0200000000000, cs:78n0300000000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

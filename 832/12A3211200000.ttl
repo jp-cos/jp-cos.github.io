@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83212A3211200000
   dct:identifier "83212A3211200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 326
   ];
   schema:description "(イ) 世界各地における人々の生活やその変容を基に，世界の人々の生活や環境の多様性を理解すること。その際，世界の主な宗教の分布についても理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=49>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

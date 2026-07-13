@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7464503100000000
   dct:identifier "7464503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 961
   ];
@@ -16,7 +16,7 @@ cs:7464503100000000
 　化学と人間生活とのかかわりについて関心を高め，化学が物質を対象とする科学であることや化学が人間生活に果たしている役割を理解させるとともに，観察，実験などを通して物質を探究する方法の基礎を身に付けさせる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7464503110000000, cs:7464503120000000, cs:7464503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

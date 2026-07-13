@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7432505331000000
   dct:identifier "7432505331000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 375
   ];
   schema:description "(ア) それぞれの項目の内容に示された事項を参考にして主題を設定し，生徒の主体的な追究を通して，歴史的思考力を培うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

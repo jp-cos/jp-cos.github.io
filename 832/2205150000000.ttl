@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8322205150000000
   dct:identifier "8322205150000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 485
   ];
   schema:description "オ　歴史に見られる国際関係や文化交流のあらましを理解させ，我が国と諸外国の歴史や文化が相互に深く関わっていることを考察させるようにすること。その際，歴史に見られる文化や生活の多様性に気付かせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=129>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

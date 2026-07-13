@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8469503211200000
   dct:identifier "8469503211200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1961
   ];
   schema:description """㋑　地震と地殻変動
 世界の震源分布についての資料に基づいて，プレート境界における地震活動の特徴をプレート運動と関連付けて理解するとともに，それに伴う地殻変動などについて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300200000000
   dct:identifier "72K0300200000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2700
   ];
   schema:description "　２　第２に示す道徳の内容は，児童が自ら道徳性をはぐくむためのものであり，道徳の時間はもとより，各教科，外国語活動，総合的な学習の時間及び特別活動においてもそれぞれの特質に応じた適切な指導を行うものとする。その際，児童自らが成長を実感でき，これからの課題や目標が見付けられるよう工夫する必要がある。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K0300200000001, cs:72K0300210000001, cs:72K0300220000001, cs:72K0300230000001, cs:72K0300240000001, cs:72K0300250000001, cs:72K0300260000001, cs:72K0300270000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

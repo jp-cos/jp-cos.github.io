@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F1503332000000
   dct:identifier "84F1503332000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3142
   ];
   schema:description "イ　持続可能な社会を目指して主体的に行動できるよう，安全で安心な生活と消費について考察し，ライフスタイルを工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

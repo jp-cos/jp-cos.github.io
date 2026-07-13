@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84UI505100000000
   dct:identifier "84UI505100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8761
   ];
   schema:description "(1) 内容の範囲や程度については，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84UI505110000000, cs:84UI505120000000, cs:84UI505130000000, cs:84UI505140000000, cs:84UI505150000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

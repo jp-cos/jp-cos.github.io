@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7323233120000000
   dct:identifier "7323233120000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 370
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 370 370
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 370
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 370 370 376
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 376
   ];
   schema:description """イ  現代社会をとらえる見方や考え方　
 　人間は本来社会的存在であることに着目させ，社会生活における物事の決定の仕方，きまりの意義について考えさせ，現代社会をとらえる見方や考え方の基礎として，対立と合意，効率と公正などについて理解させる。その際，個人の尊厳と両性の本質的平等，契約の重要性やそれを守ることの意義及び個人の責任などに気付かせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

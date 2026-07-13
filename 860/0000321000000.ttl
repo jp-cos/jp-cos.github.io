@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000321000000
   dct:identifier "8600000321000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 21
   ];
   schema:description "(1) 各学校においては，児童又は生徒の障害の状態や特性及び心身の発達の段階等を考慮し，言語能力，情報活用能力（情報モラルを含む。），問題発見・解決能力等の学習の基盤となる資質・能力を育成していくことができるよう，各教科等の特質を生かし，教科等横断的な視点から教育課程の編成を図るものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=211>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

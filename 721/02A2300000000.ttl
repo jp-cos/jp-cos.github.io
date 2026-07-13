@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72102A2300000000
   dct:identifier "72102A2300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 45
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 45 54
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 54
   ];
   schema:description "(3) 書かれている事柄の順序や場面の様子などに気付いたり，想像を広げたりしながら読む能力を身に付けさせるとともに，楽しんで読書しようとする態度を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

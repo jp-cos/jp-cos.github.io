@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F0300120000000
   dct:identifier "84F0300120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3241
   ];
   schema:description "(2) 「家庭基礎」及び「家庭総合」の各科目に配当する総授業時数のうち，原則として10分の５以上を実験・実習に配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

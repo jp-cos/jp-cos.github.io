@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84I2503400000000
   dct:identifier "84I2503400000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3340
   ];
@@ -16,7 +16,7 @@ cs:84I2503400000000
 情報システムの在り方や社会生活に及ぼす影響，情報の流れや処理の仕組みに着目し，情報システムを協働して開発する活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84I2503410000000, cs:84I2503420000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

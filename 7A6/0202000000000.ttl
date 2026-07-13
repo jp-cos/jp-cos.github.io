@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7A60202000000000
   dct:identifier "7A60202000000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 254
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 254 265
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 265
   ];
   schema:description """１　目標
 日常生活に関係の深い自然の仕組みや働きなどに関する初歩的な事柄についての理解を図り，科学的な見方や考え方を養うとともに，  自然を大切にする態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

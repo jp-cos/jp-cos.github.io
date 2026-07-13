@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T9505230000000
   dct:identifier "74T9505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5774
   ];
   schema:description "ウ　内容の(4)については，燃料と潤滑剤の種類や性質，船内積込み法，石油製品の管理，油清浄装置などについて基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

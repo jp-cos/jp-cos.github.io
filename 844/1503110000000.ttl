@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503110000000
   dct:identifier "8441503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1045
   ];
@@ -16,7 +16,7 @@ cs:8441503110000000
 公共的な空間と人間との関わり，個人の尊厳と自主・自律，人間と社会の多様性と共通性などに着目して，社会に参画する自立した主体とは何かを問い，現代社会に生きる人間としての在り方生き方を探求する活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8441503111000000, cs:8441503112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

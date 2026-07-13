@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8310233112000000
   dct:identifier "8310233112000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 219
   ];
   schema:description "イ　理解したり表現したりするために必要な語句の量を増し，慣用句や四字熟語などについて理解を深め，話や文章の中で使うとともに，和語，漢語，外来語などを使い分けることを通して，語感を磨き語彙を豊かにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=108>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8380300221300000
   dct:identifier "8380300221300000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1285
   ];
   schema:description "(ウ) 我が国で長く歌われ親しまれている歌曲のうち，我が国の自然や四季の美しさを感じ取れるもの又は我が国の文化や日本語のもつ美しさを味わえるもの。なお，各学年において，以下の共通教材の中から１曲以上を含めること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8380300221310000, cs:8380300221320000, cs:8380300221330000, cs:8380300221340000, cs:8380300221350000, cs:8380300221360000, cs:8380300221370000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=111>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

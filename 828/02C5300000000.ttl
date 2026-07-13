@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82802C5300000000
   dct:identifier "82802C5300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2720
   ];
   schema:description "(3) 鑑賞教材は次に示すものを取り扱う。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82802C5310000000, cs:82802C5320000000, cs:82802C5330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=88>;
   cs:courseOfStudy cs:Elementary\/2017;

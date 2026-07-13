@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74X9502000000000
   dct:identifier "74X9502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7291
   ];
   schema:description """１　目標
 　情報システムの開発に関する知識と技術を実際の作業を通して習得させ，総合的に活用する能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

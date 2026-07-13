@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T6505220000000
   dct:identifier "74T6505220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5661
   ];
   schema:description "イ　内容の(4)のアについては，漁業に関する法規や漁業協同組合などの概要を扱うこと。イについては，二百海里体制，国際漁業に関する条約や協定，漁業の国際協力などについて基礎的な内容を扱うこと。ウについては，漁業情報の種類，漁船の運航や漁況・海況に関する各種情報システムなどの基礎的な内容を扱うこと。エについては，水産物の需給と消費，水産物の輸出入，流通過程などの基礎的な内容を扱うこと。オについては，危害分析重要管理点手法や食品トレーサビリティシステムについて基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

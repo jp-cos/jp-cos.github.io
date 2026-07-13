@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8300000310000000
   dct:identifier "8300000310000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 42
   ];
@@ -16,7 +16,7 @@ cs:8300000310000000
 　各教科等の指導に当たっては，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8300000311000000, cs:8300000312000000, cs:8300000313000000, cs:8300000314000000, cs:8300000315000000, cs:8300000316000000, cs:8300000317000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_001.pdf#page=85>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G0300110000000
   dct:identifier "72G0300110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2609
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2609 2618
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2618
   ];
   schema:description "(1) 地域や学校の実態を考慮するとともに，個々の児童の運動経験や技能の程度などに応じた指導や児童自らが運動の課題の解決を目指す活動を行えるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

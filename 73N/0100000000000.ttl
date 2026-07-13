@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73N0100000000000
   dct:identifier "73N0100000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1601
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1601 1601
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1601
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1601 1601 1608
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1608
   ];
   schema:description """第１　目標
 　望ましい集団活動を通して，心身の調和のとれた発達と個性の伸長を図り，集団や社会の一員としてよりよい生活や人間関係を築こうとする自主的，実践的な態度を育てるとともに，人間としての生き方についての自覚を深め，自己を生かす能力を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

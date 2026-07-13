@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84BB502200000000
   dct:identifier "84BB502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2639
   ];
   schema:description "(2) 書のよさや美しさを感受し，意図に基づいて創造的に構想し個性豊かに表現を工夫したり，作品や書の伝統と文化の意味や価値を考え，書の美を味わい深く捉えたりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

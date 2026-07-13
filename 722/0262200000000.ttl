@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220262200000000
   dct:identifier "7220262200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1361
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1361 1370
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1370
   ];
   schema:description "(2) 日常生活における政治の働きと我が国の政治の考え方及び我が国と関係の深い国の生活や国際社会における我が国の役割を理解できるようにし，平和を願う日本人として世界の国々の人々と共に生きていくことが大切であることを自覚できるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

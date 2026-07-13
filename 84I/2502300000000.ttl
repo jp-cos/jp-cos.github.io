@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84I2502300000000
   dct:identifier "84I2502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3311
   ];
   schema:description "(3) 情報と情報技術を適切に活用するとともに，新たな価値の創造を目指し，情報社会に主体的に参画し，その発展に寄与する態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

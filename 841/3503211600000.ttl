@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8413503211600000
   dct:identifier "8413503211600000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 342
   ];
   schema:description "カ　文章の構成や展開，表現の仕方などについて，自分の主張が的確に伝わるように書かれているかなどを吟味して，文章全体を整えたり，読み手からの助言などを踏まえて，自分の文章の特長や課題を捉え直したりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

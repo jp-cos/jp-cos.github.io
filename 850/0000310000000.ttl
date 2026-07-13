@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000310000000
   dct:identifier "8500000310000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 13
   ];
   schema:description "１ 幼稚部においては，生きる力の基礎を育むため，この章の第１に示す幼稚部における教育の基本を踏まえ，次に掲げる資質・能力を一体的に育むよう努めるものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8500000311000000, cs:8500000312000000, cs:8500000313000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

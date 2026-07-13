@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400400000000
   dct:identifier "73K0400400000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1551
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1551 1551
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1551
   ];
   schema:description "４　主として集団や社会とのかかわりに関すること。        ";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0400400000001, cs:73K0400410000000, cs:73K0400420000000, cs:73K0400430000000, cs:73K0400440000000, cs:73K0400450000000, cs:73K0400460000000, cs:73K0400470000000, cs:73K0400480000000, cs:73K0400490000000, cs:73K04004A0000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

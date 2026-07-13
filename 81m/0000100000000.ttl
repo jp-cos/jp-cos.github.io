@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:81m0000100000000
   dct:identifier "81m0000100000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 186
   ];
   schema:description "１　地域の実態や保護者の要請により，教育課程に係る教育時間の終了後等に希望する者を対象に行う教育活動については，幼児の心身の負担に配慮するものとする。また，次の点にも留意するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:81m0000110000000, cs:81m0000120000000, cs:81m0000130000000, cs:81m0000140000000, cs:81m0000150000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

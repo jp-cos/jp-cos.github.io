@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361213111200000
   dct:identifier "8361213111200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 922
   ];
   schema:description """㋑　凸レンズの働き
 凸レンズの働きについての実験を行い，物体の位置と像のでき方との関係を見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=35>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

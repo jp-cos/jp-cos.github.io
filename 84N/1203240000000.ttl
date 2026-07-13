@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203240000000
   dct:identifier "84N1203240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10907
   ];
   schema:description """エ　青年期の悩みや課題とその解決
 心や体に関する正しい理解を基に，適切な行動をとり，悩みや不安に向き合い乗り越えようとすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

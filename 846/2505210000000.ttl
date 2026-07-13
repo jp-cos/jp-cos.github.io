@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8462505210000000
   dct:identifier "8462505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1622
   ];
@@ -17,7 +17,7 @@ cs:8462505210000000
 (ウ)の㋐の「位置エネルギー」については，重力による位置エネルギー，弾性力による位置エネルギーを扱うこと。㋑については，摩擦や空気抵抗がない場合は力学的エネルギーが保存されることを中心に扱うこと。
 """;
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

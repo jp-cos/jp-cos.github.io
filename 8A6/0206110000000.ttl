@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8A60206110000000
   dct:identifier "8A60206110000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1643
   ];
   schema:description "ア　単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，理科の学習過程の特質を踏まえ，理科の見方・考え方を働かせ，見通しをもって観察，実験を行うなどの，問題を科学的に解決しようとする学習活動の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=368>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7430000000000000
   dct:identifier "7430000000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 301
   ];
   schema:description "第２節　地 理 歴 史";
   schema:edition "一部改正なし";
   schema:hasPart cs:7430100000000000, cs:7430300000000000, cs:7430500000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

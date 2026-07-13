@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220235430000000
   dct:identifier "8220235430000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1416
   ];
   schema:description "ウ　イの(ア)の「人口」を取り上げる際には，少子高齢化，国際化などに触れ，これからの市の発展について考えることができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=51>;
   cs:courseOfStudy cs:Elementary\/2017;

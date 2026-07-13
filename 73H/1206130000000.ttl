@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1206130000000
   dct:identifier "73H1206130000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1517
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1517 1517
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1517
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1517 1517 1523
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1523
   ];
   schema:description """ウ　音声指導に当たっては，日本語との違いに留意しながら，発音練習などを通して２の(3)のアに示された言語材料を継続して指導すること。
 また，音声指導の補助として，必要に応じて発音表記を用いて指導することもできること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

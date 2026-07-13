@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000542000000
   dct:identifier "7400000542000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 79
   ];
   schema:description "(2) 職業教育を主とする専門学科においては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000542100000, cs:7400000542200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

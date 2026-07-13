@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PC505150000000
   dct:identifier "74PC505150000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2438
   ];
   schema:description "オ　内容の(7)については，食品企業における従業員の教育や管理の手法について具体的な事例を取り上げ，安全な食品の提供と生産性を向上するための取組の重要性を理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

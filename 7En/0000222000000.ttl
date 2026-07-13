@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7En0000222000000
   dct:identifier "7En0000222000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 183
   ];
   schema:description "(2) 生徒の言語力等に応じて， 適切な読書習慣や書いて表現する力の育成を図り， 主体的に情報を獲得し，適切に選択・活用する態度を養うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

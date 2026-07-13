@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7310213413100001
   dct:identifier "7310213413100001";
-  dct:source cs:73V21, cs:73V32 cs:73V21 cs:73V32;
+  dct:source cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V21, cs:73V32 cs:73V21;
+    dct:source cs:73V21;
     rdf:type cs:Number;
     rdf:value 94
   ], [
-    dct:source cs:73V21, cs:73V32 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number;
-    rdf:value 94 100
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 100
   ];
   schema:description "(ア) 小学校学習指導要領第２章第１節国語の学年別漢字配当表（以下「学年別漢字配当表」という。）に示されている漢字に加え，その他の常用漢字のうち300字程度から400字程度までの漢字を読むこと。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

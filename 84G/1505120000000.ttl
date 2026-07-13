@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1505120000000
   dct:identifier "84G1505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2105
   ];
   schema:description "イ　入学年次においては，「Ｂ器械運動」，「Ｃ陸上競技」，「Ｄ水泳」及び「Ｇダンス」についてはこれらの中から一つ以上を，「Ｅ球技」及び「Ｆ武道」についてはこれらの中から一つ以上をそれぞれ選択して履修できるようにすること。その次の年次以降においては，「Ｂ器械運動」から「Ｇダンス」までの中から二つ以上を選択して履修できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

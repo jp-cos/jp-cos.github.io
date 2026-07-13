@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000420000000
   dct:identifier "8500000420000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 31
   ];
   schema:description """２　各学校における教育目標と教育課程の編成
 　教育課程の編成に当たっては，幼稚部における教育において育みたい資質・能力を踏まえつつ，各学校の教育目標を明確にするとともに，教育課程の編成についての基本的な方針が家庭や地域とも共有されるよう努めるものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

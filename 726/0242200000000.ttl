@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7260242200000000
   dct:identifier "7260242200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1895
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1895 1904
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1904
   ];
   schema:description "(2) 人の体のつくり，動物の活動や植物の成長，天気の様子，月や星の位置の変化を運動，季節，気温，時間などと関係付けながら調べ，見いだした問題を興味・関心をもって追究する活動を通して，生物を愛護する態度を育てるとともに，人の体のつくりと運動，動物の活動や植物の成長と環境とのかかわり，気象現象，月や星の動きについての見方や考え方を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

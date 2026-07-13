@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000544200000
   dct:identifier "7400000544200000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 85
   ];
   schema:description "イ　農業，水産及び家庭に関する各教科・科目の指導に当たっては，ホームプロジェクト並びに学校家庭クラブ及び学校農業クラブなどの活動を活用して，学習の効果を上げるよう留意すること。この場合，ホームプロジェクトについては，その各教科・科目の授業時数の10分の２以内をこれに充てることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

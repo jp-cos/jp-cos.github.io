@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503110000000
   dct:identifier "7434503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 414
   ];
   schema:description """ア　歴史と資料
 　遺跡や遺物，文書など様々な歴史資料の特性に着目し，資料に基づいて歴史が叙述されていることなど歴史を考察する基本的な方法を理解させ，歴史への関心を高めるとともに，文化財保護の重要性に気付かせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U5505240000000
   dct:identifier "74U5505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6353
   ];
   schema:description "エ　内容の(4)のアについては，乳幼児の発育・発達に応じた適切な保育の重要性を扱うこと。イについては，乳幼児の基本的要求や社会的要求に着目させ，心身の発達に応じた保育について具体的な事例を通して扱うこと。ウについては，保育環境としての家庭及び幼稚園，保育所や認定こども園などの役割について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:76M0000200000000
   dct:identifier "76M0000200000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 313
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 313 324
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 324
   ];
   schema:description "２   体験活動に当たっては，安全と保健に留意するとともに，学習活動に応じて，小学校の児童又は中学校の生徒などと交流及び共同学習を行うよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

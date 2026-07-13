@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503221300000
   dct:identifier "84F2503221300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3201
   ];
   schema:description "(ウ) 被服材料，被服構成，被服製作，被服衛生及び被服管理について科学的に理解し，衣生活の自立に必要な技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000434000001
   dct:identifier "7200000434000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 45
   ];
   schema:description "(4)　学校の道徳教育の全体計画や道徳教育に関する諸活動などの情報を積極的に公表したり，道徳教育の充実のために家庭や地域の人々の積極的な参加や協力を得たりするなど，家庭や地域社会との共通理解を深め，相互の連携を図ること。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

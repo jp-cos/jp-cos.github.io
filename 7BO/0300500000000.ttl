@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7BO0300500000000
   dct:identifier "7BO0300500000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2534
   ];
   schema:description "５   重複障害者のうち自立活動を主として指導を行うものについては， 全人的な発達を促すために必要な基本的な指導内容を， 個々の生徒の実態に応じて設定し， 系統的な指導が展開できるようにするものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

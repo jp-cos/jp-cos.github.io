@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I0100000000000
   dct:identifier "74I0100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1991
   ];
   schema:description """第１款　目標
 　情報及び情報技術を活用するための知識と技能を習得させ，情報に関する科学的な見方や考え方を養うとともに，社会の中で情報及び情報技術が果たしている役割や影響を理解させ，社会の情報化の進展に主体的に対応できる能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

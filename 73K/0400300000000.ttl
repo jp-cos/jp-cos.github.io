@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400300000000
   dct:identifier "73K0400300000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1547
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1547 1547
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1547
   ];
   schema:description "３　主として自然や崇高なものとのかかわりに関すること。  ";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0400300000001, cs:73K0400310000000, cs:73K0400320000000, cs:73K0400330000000, cs:73K0400340000001, cs:73K0400350000001, cs:73K0400360000001, cs:73K0400370000001, cs:73K0400380000001, cs:73K0400390000001;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

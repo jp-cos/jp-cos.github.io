@@ -18,33 +18,30 @@ cs:SchoolShape
     sh:order 1;
     sh:path qb:order
   ], [
-    skos:example "2" <http://ja.dbpedia.org/resource/小学校>;
-    sh:name "Listing order of the code assignment table"@en, "コード割り当て表掲載順"@ja "Equivalent resource"@en, "同一リソース"@ja;
+    skos:example <http://ja.dbpedia.org/resource/小学校>;
+    sh:name "Equivalent resource"@en, "同一リソース"@ja;
     sh:nodeKind sh:IRI;
-    sh:order 1 2;
-    sh:path qb:order owl:sameAs
+    sh:order 2;
+    sh:path owl:sameAs
   ], [
-    skos:example "2" <http://ja.dbpedia.org/resource/小学校> "<ul><li>\"小学校\"@ja</li><li>\"しょうがっこう\"@ja-Hira</li><li>\"Elementary School\"@en</li></ul>";
-    sh:datatype xsd:integer rdf:langString;
-    sh:description "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    skos:example "<ul><li>\"小学校\"@ja</li><li>\"しょうがっこう\"@ja-Hira</li><li>\"Elementary School\"@en</li></ul>";
+    sh:datatype rdf:langString;
+    sh:description "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
     sh:languageIn [
-      rdf:first "ja" "ja-Hira" "en";
-      rdf:rest   rdf:nil[
-          rdf:first "ja" "ja-Hira" "en";
-          rdf:rest   rdf:nil
-        ][
-        rdf:first "ja" "ja-Hira" "en";
-        rdf:rest   rdf:nil[
-          rdf:first "ja" "ja-Hira" "en";
-          rdf:rest   rdf:nil
+      rdf:first "ja";
+      rdf:rest [
+        rdf:first "ja-Hira";
+        rdf:rest [
+          rdf:first "en";
+          rdf:rest rdf:nil
         ]
       ]
     ];
-    sh:maxCount 1 3;
-    sh:minCount 1 1;
-    sh:name "Listing order of the code assignment table"@en, "コード割り当て表掲載順"@ja "Equivalent resource"@en, "同一リソース"@ja "Name"@en, "名称"@ja;
-    sh:order 1 2 3;
-    sh:path qb:order owl:sameAs schema:name;
+    sh:maxCount 3;
+    sh:minCount 1;
+    sh:name "Name"@en, "名称"@ja;
+    sh:order 3;
+    sh:path schema:name;
     sh:uniqueLang true
   ];
   sh:targetClass cs:School.

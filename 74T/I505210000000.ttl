@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74TI505210000000
   dct:identifier "74TI505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6086
   ];
   schema:description "ア　内容の(1)については，国民生活に果たしている水産食品製造の意義や役割，食品製造に従事する者の使命と責任などを扱うとともに，食育の意義についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

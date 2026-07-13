@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73M0300220000000
   dct:identifier "73M0300220000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1594
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1594 1594
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1594
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1594 1594 1601
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1601
   ];
   schema:description "(2) 問題の解決や探究活動の過程においては，他者と協同して問題を解決しようとする学習活動や，言語により分析し，まとめたり表現したりするなどの学習活動が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

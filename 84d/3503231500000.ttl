@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84d3503231500000
   dct:identifier "84d3503231500000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10733
   ];
   schema:description "オ　話すこと［発表］";
   schema:edition "一部改正なし";
   schema:hasPart cs:84d3503231510000, cs:84d3503231520000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

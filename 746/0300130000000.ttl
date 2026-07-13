@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7460300130000000
   dct:identifier "7460300130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1249
   ];
   schema:description "(3) 各科目の指導に当たっては，大学や研究機関，博物館などと積極的に連携，協力を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

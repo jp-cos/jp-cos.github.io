@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74N0300220000000
   dct:identifier "74N0300220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8234
   ];
   schema:description "(2) 〔ホームルーム活動〕及び〔生徒会活動〕については，学校や地域及び生徒の実態に応じて，取り上げる指導内容の重点化を図るとともに，入学から卒業までを見通して，必要に応じて内容間の関連や統合を図ったり，他の内容を加えたりすることができること。また，〔ホームルーム活動〕については，個々の生徒についての理解を深め，生徒との信頼関係を基礎に指導を行うとともに，生徒指導との関連を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

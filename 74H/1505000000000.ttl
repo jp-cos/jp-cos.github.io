@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H1505000000000
   dct:identifier "74H1505000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1696
   ];
   schema:description """３　内容の取扱い
 　中学校における学習との接続と「コミュニケーション英語Ⅰ」における学習への円滑な移行のため，主に身近な場面における言語活動を経験させながら，中学校における基礎的な学習内容を整理して指導し定着を図るものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

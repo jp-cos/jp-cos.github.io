@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503200000000
   dct:identifier "7432503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 342
   ];
@@ -16,7 +16,7 @@ cs:7432503200000000
 　人類は各地の自然環境に適応しながら農耕や牧畜を基礎とする諸文明を築き上げ，やがてそれらを基により大きな地域世界を形成したことを把握させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7432503210000000, cs:7432503220000000, cs:7432503230000000, cs:7432503240000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

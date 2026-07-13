@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203110000000
   dct:identifier "84N1203110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10900
   ];
   schema:description """ア　ホームルームや学校における生活上の諸問題の解決
 ホームルームや学校における生活を向上・充実させるための課題を見いだし，解決するために話し合い，合意形成を図り，実践すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83N4203300000000
   dct:identifier "83N4203300000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2167
   ];
   schema:description """(3) ボランティア活動などの社会参画
 地域や社会の課題を見いだし，具体的な対策を考え，実践し，地域や社会に参画できるようにすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230208-mxt_kyoiku02-100002608_013.pdf#page=160>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

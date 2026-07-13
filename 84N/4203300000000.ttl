@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N4203300000000
   dct:identifier "84N4203300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10922
   ];
   schema:description """(3) ボランティア活動などの社会参画
 地域や社会の課題を見いだし，具体的な対策を考え，実践し，地域や社会に参画できるようにすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

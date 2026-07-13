@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0300290000000
   dct:identifier "84d0300290000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10842
   ];
   schema:description "(9) 各単元や各時間の指導に当たっては，コミュニケーションを行う目的や場面，状況などを設定し，言語活動を通して育成すべき資質・能力を明確に示すことにより，生徒が学習の見通しを立てたり，振り返ったりして，主体的，自律的に学習することができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82L12C3112100000
   dct:identifier "82L12C3112100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3567
   ];
   schema:description "(ア) 英語の音声やリズムなどに慣れ親しむとともに，日本語との違いを知り，言葉の面白さや豊かさに気付くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=30>;
   cs:courseOfStudy cs:Elementary\/2017;

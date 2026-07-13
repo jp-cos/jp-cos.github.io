@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8362233711100000
   dct:identifier "8362233711100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1108
   ];
   schema:description """㋐　自然界のつり合い
 微生物の働きを調べ，植物，動物及び微生物を栄養の面から相互に関連付けて理解するとともに，自然界では，これらの生物がつり合いを保って生活していることを見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=114>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

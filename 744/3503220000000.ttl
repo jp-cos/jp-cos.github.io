@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7443503220000000
   dct:identifier "7443503220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 579
   ];
   schema:description """イ　国民経済と国際経済
 　貿易の意義，為替相場や国際収支の仕組み，国際協調の必要性や国際経済機関の役割について理解させ，グローバル化が進む国際経済の特質について把握させ，国際経済における日本の役割について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

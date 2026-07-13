@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74W9505210000000
   dct:identifier "74W9505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7006
   ];
   schema:description "ア　内容の(1)のアについては，母性看護の対象となる人の健康と母性看護の基本的な概念について扱うこと。イについては，母子保健の現状と母子の保健・福祉に関する基本的な法規や制度の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

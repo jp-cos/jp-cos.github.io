@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:88502b4231100000
   dct:identifier "88502b4231100000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 552
   ];
   schema:description "(ア) 次のような知識及び技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:88502b4231110000, cs:88502b4231120000, cs:88502b4231130000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=129>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

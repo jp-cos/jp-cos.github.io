@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84XB505210000000
   dct:identifier "84XB505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9659
   ];
   schema:description "ア　〔指導項目〕の(1)のアについては，多様なメディアの定義と特徴について扱うこと。イについては，メディアを活用している身近な事例を取り上げ，利用者の目的や状況に合わせたメディアの適切な選択について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

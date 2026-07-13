@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250245200000000
   dct:identifier "7250245200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1715
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1715 1724
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1724
   ];
   schema:description "(2) 内容の「Ａ数と計算」の(2)のウ，(3)，(4)については，簡単な計算は暗算でできるよう配慮するものとする。また，暗算を筆算や見積りに生かすよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

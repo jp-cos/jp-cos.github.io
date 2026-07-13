@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000322000000
   dct:identifier "7400000322000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 48
   ];
   schema:description "(2) 専門教科・科目の履修によって，上記１の必履修教科・科目の履修と同様の成果が期待できる場合においては，その専門教科・科目の履修をもって，必履修教科・科目の履修の一部又は全部に替えることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

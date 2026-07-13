@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74B5505100000000
   dct:identifier "74B5505100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1516
   ];
   schema:description "(1) 生徒の特性，地域や学校の実態を考慮し，内容のＡの(1)，(2)又は(3)のうち一つ以上を選択して扱うことができる。また，Ａの(1)については，絵画と彫刻のいずれかを選択したり一体的に扱ったりすることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

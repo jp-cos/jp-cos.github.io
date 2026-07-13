@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8414503212300000
   dct:identifier "8414503212300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 397
   ];
   schema:description "ウ　古典を題材として小説を書くなど，翻案作品を創作する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

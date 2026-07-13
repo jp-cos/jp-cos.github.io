@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8468503113100000
   dct:identifier "8468503113100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1923
   ];
   schema:description """㋐　地球の熱収支
 気圧や気温の鉛直方向の変化などについての資料に基づいて，大気の構造の特徴を見いだして理解するとともに，太陽放射の受熱量と地球放射の放熱量がつり合っていることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

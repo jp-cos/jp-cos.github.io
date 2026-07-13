@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8260263130000000
   dct:identifier "8260263130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2492
   ];
@@ -16,16 +16,16 @@ cs:8260263130000000
 てこの規則性について，力を加える位置や力の大きさに着目して，てこの働きを多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260263131000000, cs:8260263132000000;
-  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000191;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2492 cs:8361213112000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8361213112000000
   ];
   cs:basicItem [
-    dct:provenance cs:commentary\/1000191 cs:commentary\/1000191;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
-    rdf:value 2492 cs:8361213112000000 cs:8260253120000000
+    dct:provenance cs:commentary\/1000191;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260253120000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=85>;

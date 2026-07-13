@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7453503420000000
   dct:identifier "7453503420000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 729
   ];
   schema:description """イ　積分の応用
 　いろいろな曲線で囲まれた図形の面積や立体の体積及び曲線の長さなどを定積分を利用して求めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

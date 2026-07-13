@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y7502000000000
   dct:identifier "74Y7502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7558
   ];
   schema:description """１　目標
 　介護に関する体験的な学習を多様な介護の場において行い，知識と技術を統合させ，介護従事者としての役割を理解させるとともに，適切かつ安全な介護ができる実践的な能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

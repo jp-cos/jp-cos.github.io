@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84F0300100000000
   dct:identifier "84F0300100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3239
   ];
   schema:description "１　指導計画の作成に当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84F0300110000000, cs:84F0300120000000, cs:84F0300130000001, cs:84F0300140000001, cs:84F0300150000000, cs:84F0300160000000, cs:84F0300170000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000350000000
   dct:identifier "8100000350000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 36
   ];
   schema:description "５　小学校教育との接続に当たっての留意事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8100000351000000, cs:8100000352000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

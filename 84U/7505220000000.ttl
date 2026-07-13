@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U7505220000000
   dct:identifier "84U7505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8422
   ];
   schema:description "イ　〔指導項目〕の(2)のイについては，アとの関連を図り，加齢に伴う心身の変化を踏まえ，認知症への理解を深めるなど人間の尊厳や自立生活支援を扱うこと。また，高齢者の自己決定に基づく自立生活支援の重要性についても扱うこと。ウについては，高齢期における人間の尊厳の重要性と関連付けながら，介護の意義と役割や高齢者介護の基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

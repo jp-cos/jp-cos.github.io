@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74QZ503200000000
   dct:identifier "74QZ503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4026
   ];
   schema:description "(2) 建築基準法";
   schema:edition "一部改正なし";
   schema:hasPart cs:74QZ503210000000, cs:74QZ503220000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

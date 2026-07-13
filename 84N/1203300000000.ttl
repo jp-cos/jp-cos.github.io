@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1203300000000
   dct:identifier "84N1203300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10909
   ];
   schema:description "(3) 一人一人のキャリア形成と自己実現";
   schema:edition "一部改正なし";
   schema:hasPart cs:84N1203310000000, cs:84N1203320000000, cs:84N1203330000000, cs:84N1203340000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

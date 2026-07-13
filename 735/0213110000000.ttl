@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7350213110000000
   dct:identifier "7350213110000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 426
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 426 426
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 426
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 426 426 432
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 432
   ];
   schema:description "(1) 具体的な場面を通して正の数と負の数について理解し，その四則計算ができるようにするとともに，正の数と負の数を用いて表現し考察することができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7350213111000000, cs:7350213112000000, cs:7350213113000000, cs:7350213114000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

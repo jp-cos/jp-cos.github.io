@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322203550000000
   dct:identifier "7322203550000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 320
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 320 320
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 320
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 320 320 326
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 326
   ];
   schema:description "オ　第一次世界大戦の背景とその影響，民族運動の高まりと国際協調の動き，我が国の国民の政治的自覚の高まりと文化の大衆化などを通して，第一次世界大戦前後の国際情勢及び我が国の動きと，大戦後に国際平和への努力がなされたことを理解させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

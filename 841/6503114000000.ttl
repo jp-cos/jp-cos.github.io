@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8416503114000000
   dct:identifier "8416503114000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 491
   ];
   schema:description "エ　古典の作品や文章に表れている，言葉の響きやリズム，修辞などの表現の特色について理解を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

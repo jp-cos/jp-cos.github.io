@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74XB505210000000
   dct:identifier "74XB505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7350
   ];
   schema:description "ア　内容の(1)のアについては，適切な情報伝達やコミュニケーションの要件及び手法を取り上げ，情報デザインの目的や役割及び重要性について扱うこと。イについては，分かりやすい情報伝達やコミュニケーションを行うために必要な基礎的な知識と技術について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

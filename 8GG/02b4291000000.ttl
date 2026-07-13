@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GG02b4291000000
   dct:identifier "8GG02b4291000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3595
   ];
   schema:description "ア　心身の発育・発達，傷害の防止及び疾病の予防等の理解を深めるとともに，健康で安全な個人生活及び社会生活を営むための目的に応じた技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

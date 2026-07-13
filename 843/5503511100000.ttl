@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503511100000
   dct:identifier "8435503511100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 984
   ];
   schema:description "(ア) 集団安全保障と冷戦の展開，アジア・アフリカ諸国の独立と地域連携の動き，平和共存と多極化の進展，冷戦の終結と地域紛争の頻発などを基に，紛争解決の取組と課題を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

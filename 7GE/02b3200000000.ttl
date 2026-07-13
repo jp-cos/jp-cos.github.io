@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7GE02b3200000000
   dct:identifier "7GE02b3200000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2361
   ];
   schema:description "(2) いろいろな道具や機械の仕組み， 操作などを理解し， 材料や製品の管理を適切に行い， 安全や衛生に気を付けながら正確に効率よく作業や実習をする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

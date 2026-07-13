@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503210000000
   dct:identifier "74G1503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1269
   ];
   schema:description "(1) 次の運動について，技がよりよくできる楽しさや喜びを味わい，自己に適した技を高めて，演技することができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74G1503211000000, cs:74G1503212000000, cs:74G1503213000000, cs:74G1503214000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

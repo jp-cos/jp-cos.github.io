@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74TL503300000000
   dct:identifier "74TL503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6164
   ];
   schema:description "(3) ダイビングの生理";
   schema:edition "一部改正なし";
   schema:hasPart cs:74TL503310000000, cs:74TL503320000000, cs:74TL503330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

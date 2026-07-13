@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G03L0140000000
   dct:identifier "72G03L0140000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2612
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2612 2621
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2621
   ];
   schema:description "(4) 第２の第３学年及び第４学年の内容の「Ｇ保健」並びに第５学年及び第６学年の内容の「Ｇ保健」（以下「保健」という。）については，効果的な学習が行われるよう適切な時期に，ある程度まとまった時間を配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

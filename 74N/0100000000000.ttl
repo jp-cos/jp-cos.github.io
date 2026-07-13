@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74N0100000000000
   dct:identifier "74N0100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8184
   ];
   schema:description """第１　目標
 　望ましい集団活動を通して，心身の調和のとれた発達と個性の伸長を図り，集団や社会の一員としてよりよい生活や人間関係を築こうとする自主的，実践的な態度を育てるとともに，人間としての在り方生き方についての自覚を深め，自己を生かす能力を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

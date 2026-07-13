@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7468503242000000
   dct:identifier "7468503242000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1169
   ];
   schema:description """(イ) 日本の自然環境
 　日本の自然環境を理解し，その恩恵や災害など自然環境と人間生活とのかかわりについて考察すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

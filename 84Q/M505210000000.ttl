@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QM505210000000
   dct:identifier "84QM505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5313
   ];
   schema:description "ア　〔指導項目〕の(1)のア及びイについては，電子回路で用いる代表的な素子の構造，性質及び用途を扱うこと。ウについては，アナログ及びデジタル回路に用いられる集積回路の種類，特徴，機能及び利用例を実際の活用に関連付けて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

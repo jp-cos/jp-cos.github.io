@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Ql503500000000
   dct:identifier "74Ql503500000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4407
   ];
   schema:description "(5) セラミック材料の製造";
   schema:edition "一部改正なし";
   schema:hasPart cs:74Ql503510000000, cs:74Ql503520000000, cs:74Ql503530000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

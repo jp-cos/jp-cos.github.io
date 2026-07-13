@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G2223311000000
   dct:identifier "83G2223311000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1622
   ];
   schema:description "(ア) 交通事故や自然災害などによる傷害は，人的要因や環境要因などが関わって発生すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=225>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

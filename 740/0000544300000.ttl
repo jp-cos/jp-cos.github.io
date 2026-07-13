@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000544300000
   dct:identifier "7400000544300000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 86
   ];
   schema:description "ウ　定時制及び通信制の課程において，職業に関する各教科・科目を履修する生徒が，現にその各教科・科目と密接な関係を有する職業（家事を含む。）に従事している場合で，その職業における実務等が，その各教科・科目の一部を履修した場合と同様の成果があると認められるときは，その実務等をもってその各教科・科目の履修の一部に替えることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

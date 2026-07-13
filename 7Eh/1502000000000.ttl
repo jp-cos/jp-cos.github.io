@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7Eh1502000000000
   dct:identifier "7Eh1502000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1230
   ];
   schema:description """１　目標
 印刷の原理や沿革と応用分野に関する基礎的な知識を習得させ， 印刷の文化的価値を認識させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

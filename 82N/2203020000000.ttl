@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N2203020000000
   dct:identifier "82N2203020000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3714
   ];
   schema:description """(2) 異年齢集団による交流
 児童会が計画や運営を行う集会等の活動において，学年や学級が異なる児童と共に楽しく触れ合い，交流を図ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=94>;
   cs:courseOfStudy cs:Elementary\/2017;

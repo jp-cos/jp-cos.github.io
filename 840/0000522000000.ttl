@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000522000000
   dct:identifier "8400000522000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 145
   ];
   schema:description "(2) 海外から帰国した生徒などの学校生活への適応や，日本語の習得に困難のある生徒に対する日本語指導";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000522100000, cs:8400000522200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

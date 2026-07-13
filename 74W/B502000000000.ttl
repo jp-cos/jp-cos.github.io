@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74WB502000000000
   dct:identifier "74WB502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7032
   ];
   schema:description """１　目標
 　看護に関する各科目において習得した内容を臨床で活用できるよう，知識と技術の統合を図るとともに，看護の専門職として必要な能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

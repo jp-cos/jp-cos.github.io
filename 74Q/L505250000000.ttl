@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QL505250000000
   dct:identifier "74QL505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3645
   ];
   schema:description "オ　内容の(5)については，電力応用の基本原理，機器と装置の構成及び利用例を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

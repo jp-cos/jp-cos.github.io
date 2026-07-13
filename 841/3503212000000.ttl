@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8413503212000000
   dct:identifier "8413503212000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 343
   ];
   schema:description "(2) (1)に示す事項については，例えば，次のような言語活動を通して指導するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8413503212100000, cs:8413503212200000, cs:8413503212300000, cs:8413503212400000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231300000
   dct:identifier "8400000231300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 24
   ];
@@ -16,7 +16,7 @@ cs:8400000231300000
 各学校においては，教育課程の編成に当たって，次の表に掲げる主として専門学科（専門教育を主とする学科をいう。以下同じ。）において開設される各教科・科目及び設置者の定めるそれぞれの標準単位数を踏まえ，生徒に履修させる各教科・科目及びその単位数について適切に定めるものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000231301000, cs:8400000231302000, cs:8400000231303000, cs:8400000231304000, cs:8400000231305000, cs:8400000231306000, cs:8400000231307000, cs:8400000231308000, cs:8400000231309000, cs:8400000231310000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

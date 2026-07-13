@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503130000000
   dct:identifier "7434503130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 416
   ];
   schema:description """ウ　古代国家の推移と社会の変化
 　東アジア世界との関係の変化，荘園《しょうえん》・公領の動きや武士の台頭など諸地域の動向に着目して，古代国家の推移，文化の特色とその成立の背景及び中世社会の萌《ほう》芽について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

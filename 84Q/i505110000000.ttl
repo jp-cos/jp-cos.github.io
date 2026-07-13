@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qi505110000000
   dct:identifier "84Qi505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6075
   ];
   schema:description "ア　化学技術が地球の環境保全のために重要な役割を果たしていることについて，化学工業に携わる技術者に求められる倫理観を踏まえ考察できるようにするとともに，自然科学的見地から理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

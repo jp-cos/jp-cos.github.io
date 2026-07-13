@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000100000000
   dct:identifier "7400000100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2
   ];
   schema:description "第１款　教育課程編成の一般方針";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000110000000, cs:7400000120000000, cs:7400000130000000, cs:7400000140000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

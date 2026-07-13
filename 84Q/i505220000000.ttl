@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qi505220000000
   dct:identifier "84Qi505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6079
   ];
   schema:description "イ　〔指導項目〕の(2)については，資源の有限性，資源やエネルギーの有効利用の必要性，化石燃料の使用による地球環境への影響などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

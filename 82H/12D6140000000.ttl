@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82H12D6140000000
   dct:identifier "82H12D6140000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3410
   ];
   schema:description "エ　児童が英語に多く触れることが期待される英語学習の特質を踏まえ，必要に応じて，特定の事項を取り上げて第１章総則の第２の３の(2)のウの(イ)に掲げる指導を行うことにより，指導の効果を高めるよう工夫すること。このような指導を行う場合には，当該指導のねらいやそれを関連付けて指導を行う事項との関係を明確にするとともに，単元など内容や時間のまとまりを見通して，資質・能力が偏りなく育成されるよう計画的に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=128>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AH0206320000000
   dct:identifier "8AH0206320000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2211
   ];
   schema:description "イ  ２の内容のうち，主として言語や文化に関する内容の指導については， 言語活動との関連を図るようにすること。その際，日本語と外国語との違いに生徒が気付くなど体験的な理解を図ることとし，指導内容が必要以上に細部にわたったり，形式的になったりしないようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=528>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qc503100000000
   dct:identifier "74Qc503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4104
   ];
   schema:description "(1) 給水・給湯設備";
   schema:edition "一部改正なし";
   schema:hasPart cs:74Qc503110000000, cs:74Qc503120000000, cs:74Qc503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

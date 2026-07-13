@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G602a4211100000
   dct:identifier "8G602a4211100000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3156
   ];
   schema:description "(ア) 次のことを理解するとともに，観察，実験などに関する初歩的な技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G602a4211110000, cs:8G602a4211120000, cs:8G602a4211130000, cs:8G602a4211140000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

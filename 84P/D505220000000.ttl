@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PD505220000000
   dct:identifier "84PD505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3907
   ];
   schema:description "イ　〔指導項目〕の(2)については，原動機・トラクタ・作業機の構造と種類，正しい操作技術，点検や整備の方法，トラクタと作業機のマッチングや接続の原理についての基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

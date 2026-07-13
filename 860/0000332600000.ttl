@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000332600000
   dct:identifier "8600000332600000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 41
   ];
   schema:description "カ　各学校の時間割については，次の事項を踏まえ適切に編成するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8600000332610000, cs:8600000332620000, cs:8600000332630000, cs:8600000332640000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=234>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

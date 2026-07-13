@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8432503142100000
   dct:identifier "8432503142100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 632
   ];
   schema:description "(ア) 人口，都市・村落などに関わる諸事象について，場所の特徴や場所の結び付きなどに着目して，主題を設定し，それらの事象の空間的な規則性，傾向性や，関連する地球的課題の要因や動向などを多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7362233731000000
   dct:identifier "7362233731000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 812
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 812 812
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 812
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 812 812 818
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 818
   ];
   schema:description """(ア) 自然環境の保全と科学技術の利用
 自然環境の保全と科学技術の利用の在り方について科学的に考察し，持続可能な社会をつくることが重要であることを認識すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

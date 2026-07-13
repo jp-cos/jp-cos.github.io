@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PT505110000000
   dct:identifier "74PT505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3026
   ];
   schema:description "ア　指導に当たっては，交流対象者の安全や健康などについて十分配慮するとともに，必要に応じて地域の専門機関や専門家との連携を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

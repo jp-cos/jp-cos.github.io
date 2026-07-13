@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400230000000
   dct:identifier "73K0400230000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1543
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1543 1543
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1543
   ];
   schema:description "(3) 友情の尊さを理解して心から信頼できる友達をもち，互いに励まし合い，高め合う。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0400230000001;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

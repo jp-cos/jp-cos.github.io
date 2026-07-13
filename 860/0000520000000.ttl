@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000520000000
   dct:identifier "8600000520000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 87
   ];
   schema:description "２  海外から帰国した児童又は生徒などの学校生活への適応や，日本語の習得に困難のある児童又は生徒に対する日本語指導";
   schema:edition "一部改正なし";
   schema:hasPart cs:8600000521000000, cs:8600000522000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=292>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

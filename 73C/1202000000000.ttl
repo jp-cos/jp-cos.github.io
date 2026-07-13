@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73C1202000000000
   dct:identifier "73C1202000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1251
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1251 1251
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1251
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1251 1251 1257
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1257
   ];
   schema:description """１　目標
 　ものづくりなどの実践的・体験的な学習活動を通して，材料と加工，エネルギー変換，生物育成及び情報に関する基礎的・基本的な知識及び技術を習得するとともに，技術と社会や環境とのかかわりについて理解を深め，技術を適切に評価し活用する能力と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

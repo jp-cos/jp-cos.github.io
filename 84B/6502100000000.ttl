@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B6502100000000
   dct:identifier "84B6502100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2431
   ];
   schema:description "(1) 対象や事象を捉える造形的な視点について理解を深めるとともに，意図に応じて表現方法を追求し，個性を生かして創造的に表すことができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

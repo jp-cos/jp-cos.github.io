@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QZ505110000000
   dct:identifier "74QZ505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4035
   ];
   schema:description "ア　指導に当たっては，具体的な事例を通して，建築物が多くの法規によって規制されていること及び法令遵守について理解させ，倫理観を養うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

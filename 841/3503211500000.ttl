@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8413503211500000
   dct:identifier "8413503211500000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 341
   ];
   schema:description "オ　個々の文の表現の仕方や段落の構造を吟味するなど，文章全体の論理の明晰(せき)さを確かめ，自分の主張が的確に伝わる文章になるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

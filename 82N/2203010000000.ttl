@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N2203010000000
   dct:identifier "82N2203010000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3713
   ];
   schema:description """(1) 児童会の組織づくりと児童会活動の計画や運営
 児童が主体的に組織をつくり，役割を分担し，計画を立て，学校生活の課題を見いだし解決するために話し合い，合意形成を図り実践すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=93>;
   cs:courseOfStudy cs:Elementary\/2017;

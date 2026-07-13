@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000130000000
   dct:identifier "8400000130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8
   ];
   schema:description "３　２の(1)から(3)までに掲げる事項の実現を図り，豊かな創造性を備え持続可能な社会の創り手となることが期待される生徒に，生きる力を育むことを目指すに当たっては，学校教育全体及び各教科・科目等の指導を通してどのような資質・能力の育成を目指すのかを明確にしながら，教育活動の充実を図るものとする。その際，生徒の発達の段階や特性等を踏まえつつ，次に掲げることが偏りなく実現できるようにするものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000131000000, cs:8400000132000000, cs:8400000133000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

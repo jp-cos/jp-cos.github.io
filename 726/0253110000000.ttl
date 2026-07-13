@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260253110000000
   dct:identifier "7260253110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1933
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1933 1942
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1942
   ];
   schema:description """(1) 物の溶け方
 　物を水に溶かし，水の温度や量による溶け方の違いを調べ，物の溶け方の規則性についての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260253111000000, cs:7260253112000000, cs:7260253113000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

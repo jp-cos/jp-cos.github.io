@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3113000000
   dct:identifier "82102C3113000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 169
   ];
   schema:description "ウ　漢字と仮名を用いた表記，送り仮名の付け方，改行の仕方を理解して文や文章の中で使うとともに，句読点を適切に打つこと。また，第３学年においては，日常使われている簡単な単語について，ローマ字で表記されたものを読み，ローマ字で書くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=82>;
   cs:courseOfStudy cs:Elementary\/2017;

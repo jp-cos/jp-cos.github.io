@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Fn0000232000000
   dct:identifier "8Fn0000232000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 237
   ];
   schema:description "(2) 生徒の身体の動きの状態や認知の特性，各教科・科目の内容の習得状況等を考慮して，指導内容を適切に設定し，重点を置く事項に時間を多く配当するなど計画的に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

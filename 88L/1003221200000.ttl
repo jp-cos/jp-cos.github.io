@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:88L1003221200000
   dct:identifier "88L1003221200000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2244
   ];
   schema:description "イ  話すこと";
   schema:edition "一部改正なし";
   schema:hasPart cs:88L1003221210000, cs:88L1003221220000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=543>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

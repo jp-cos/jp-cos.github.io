@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73G0000000000000
   dct:identifier "73G0000000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1059
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1059 1059
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1059
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1059 1059 1065
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1065
   ];
   schema:description "第７節　保健体育";
   schema:edition "一部改正なし";
   schema:hasPart cs:73G0100000000000, cs:73G0200000000000, cs:73G0300000000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

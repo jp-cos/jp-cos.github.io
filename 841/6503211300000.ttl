@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8416503211300000
   dct:identifier "8416503211300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 502
   ];
   schema:description "ウ　必要に応じて書き手の考えや目的，意図を捉えて内容を解釈するとともに，文章の構成や展開，表現の特色について評価すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220255420000000
   dct:identifier "8220255420000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1539
   ];
   schema:citation cs:8220253412000000, cs:8220253422000000;
   schema:description "イ　アの(イ)及びイの(イ)については，情報や情報技術を活用して発展している販売，運輸，観光，医療，福祉などに関わる産業の中から選択して取り上げること。その際，産業と国民の立場から多角的に考えて，情報化の進展に伴う産業の発展や国民生活の向上について，自分の考えをまとめることができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=95>;
   cs:courseOfStudy cs:Elementary\/2017;

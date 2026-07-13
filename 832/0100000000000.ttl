@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8320100000000000
   dct:identifier "8320100000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 301
   ];
@@ -16,7 +16,7 @@ cs:8320100000000000
 社会的な見方・考え方を働かせ，課題を追究したり解決したりする活動を通して，広い視野に立ち，グローバル化する国際社会に主体的に生きる平和で民主的な国家及び社会の形成者に必要な公民としての資質・能力の基礎を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8320100100000000, cs:8320100200000000, cs:8320100300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=29>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

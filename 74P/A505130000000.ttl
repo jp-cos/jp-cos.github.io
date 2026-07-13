@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PA505130000000
   dct:identifier "74PA505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2359
   ];
   schema:description "ウ　内容の(4)については，演習や実習を通して，簿記の記帳方法について理解させ，経営の改善を図る合理的な見方と実践力を育てること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

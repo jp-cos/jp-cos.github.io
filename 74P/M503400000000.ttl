@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74PM503400000000
   dct:identifier "74PM503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2802
   ];
   schema:description "(4) 鉄筋コンクリート構造と鋼構造の設計";
   schema:edition "一部改正なし";
   schema:hasPart cs:74PM503410000000, cs:74PM503420000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

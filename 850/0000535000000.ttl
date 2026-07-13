@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000535000000
   dct:identifier "8500000535000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 58
   ];
   schema:description "(5)　行事の指導に当たっては，幼稚部における生活の自然の流れの中で生活に変化や潤いを与え，幼児が主体的に楽しく活動できるようにすること。なお，それぞれの行事についてはその教育的価値を十分検討し，適切なものを精選し， 幼児の負担にならないようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

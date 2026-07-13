@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322203120000000
   dct:identifier "7322203120000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 301
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 301 301
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 301
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 301 301 307
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 307
   ];
   schema:description "イ　身近な地域の歴史を調べる活動を通して，地域への関心を高め，地域の具体的な事柄とのかかわりの中で我が国の歴史を理解させるとともに，受け継がれてきた伝統や文化への関心を高め，歴史の学び方を身に付けさせる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

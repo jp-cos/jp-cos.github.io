@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0400120000000
   dct:identifier "74H0400120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1800
   ];
   schema:description "［言語の働きの例］";
   schema:edition "一部改正なし";
   schema:hasPart cs:74H0400121000000, cs:74H0400122000000, cs:74H0400123000000, cs:74H0400124000000, cs:74H0400125000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

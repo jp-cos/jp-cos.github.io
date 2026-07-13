@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000231000000
   dct:identifier "7400000231000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 21
   ];
   schema:description "体育（スポーツ概論，スポーツⅠ，スポーツⅡ，スポーツⅢ，スポーツⅣ，スポーツⅤ，スポーツⅥ，スポーツ総合演習）";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000231100000, cs:7400000231200000, cs:7400000231300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

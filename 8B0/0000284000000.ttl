@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000284000000
   dct:identifier "8B00000284000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 201
   ];
   schema:description "４　重複障害者のうち，障害の状態により特に必要がある場合には，次に示すところによるものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000284100000, cs:8B00000284200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

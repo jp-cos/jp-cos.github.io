@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F03D0330000000
   dct:identifier "82F03D0330000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3054
   ];
   schema:description "(3) 調理に用いる食品については，生の魚や肉は扱わないなど，安全・衛生に留意すること。また，食物アレルギーについても配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=89>;
   cs:courseOfStudy cs:Elementary\/2017;

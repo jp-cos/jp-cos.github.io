@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G02D5300000000
   dct:identifier "72G02D5300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2602
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2602 2611
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2611
   ];
   schema:description "(3) 内容の「Ｅボール運動」の(1)については，アはバスケットボール及びサッカーを，イはソフトバレーボールを，ウはソフトボールを主として取り扱うものとするが，これらに替えてそれぞれの型に応じたハンドボールなどのその他のボール運動を指導することもできるものとする。なお，学校の実態に応じてウは取り扱わないことができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

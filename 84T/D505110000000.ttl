@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TD505110000000
   dct:identifier "84TD505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7826
   ];
   schema:description "ア　実験・実習などの体験的な学習活動を通して，船内における有線通信技術と通信業務について具体的に理解できるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

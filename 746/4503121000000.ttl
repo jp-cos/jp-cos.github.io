@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7464503121000000
   dct:identifier "7464503121000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 966
   ];
   schema:description """(ア) 単体・化合物・混合物
 　物質の分離・精製や元素の確認などの実験を通して，単体，化合物及び混合物について理解するとともに，実験における基本操作と物質を探究する方法を身に付けること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

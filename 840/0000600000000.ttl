@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000600000000
   dct:identifier "8400000600000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 151
   ];
   schema:description "第６款　学校運営上の留意事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000610000000, cs:8400000620000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

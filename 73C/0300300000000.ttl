@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73C0300300000000
   dct:identifier "73C0300300000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1368
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1368 1368
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1368
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1368 1368 1374
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1374
   ];
   schema:description "３　実習の指導に当たっては，施設・設備の安全管理に配慮し，学習環境を整備するとともに，火気，用具，材料などの取扱いに注意して事故防止の指導を徹底し，安全と衛生に十分留意するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8414503122000000
   dct:identifier "8414503122000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 386
   ];
   schema:description "イ　人間，社会，自然などに対するものの見方，感じ方，考え方を豊かにする読書の意義と効用について理解を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

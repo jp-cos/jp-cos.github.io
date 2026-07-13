@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102D3115000000
   dct:identifier "82102D3115000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 234
   ];
   schema:description "オ　思考に関わる語句の量を増し，話や文章の中で使うとともに，語句と語句との関係，語句の構成や変化について理解し，語彙を豊かにすること。また，語感や言葉の使い方に対する感覚を意識して，語や語句を使うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=123>;
   cs:courseOfStudy cs:Elementary\/2017;

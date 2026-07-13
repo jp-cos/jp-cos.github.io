@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000260000001
   dct:identifier "7200000260000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 12
   ];
   schema:description "６　道徳科を要として学校の教育活動全体を通じて行う道徳教育の内容は，第３章特別の教科道徳の第２に示す内容とする。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

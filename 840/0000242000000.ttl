@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000242000000
   dct:identifier "8400000242000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 99
   ];
   schema:description "(2) 生徒や学校の実態等に応じ，必要がある場合には，例えば次のような工夫を行い，義務教育段階での学習内容の確実な定着を図るようにすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000242100000, cs:8400000242200000, cs:8400000242300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

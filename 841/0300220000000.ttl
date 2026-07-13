@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8410300220000000
   dct:identifier "8410300220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 537
   ];
   schema:description "(2) 生徒の読書意欲を喚起し，読書の幅を一層広げ，読書の習慣を養うとともに，文字・活字文化に対する理解が深まるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

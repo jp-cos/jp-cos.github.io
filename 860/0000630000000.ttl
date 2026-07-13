@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000630000000
   dct:identifier "8600000630000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 101
   ];
   schema:description "３  小学校又は中学校等の要請により，障害のある児童若しくは生徒又は当該児童若しくは生徒の教育を担当する教師等に対して必要な助言又は援助を行ったり， 地域の実態や家庭の要請等により保護者等に対して教育相談を行ったりするなど，各学校の教師の専門性や施設・設備を生かした地域における特別支援教育のセンターとしての役割を果たすよう努めること。その際，学校として組織的に取り組むことができるよう校内体制を整備するとともに，他の特別支援学校や地域の小学校又は中学校等との連携を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=308>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83212A5100000000
   dct:identifier "83212A5100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 381
   ];
   schema:description "(1) 内容のＡ，Ｂ及びＣについては，この順序で取り扱うものとし，既習の学習成果を生かすこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=83>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

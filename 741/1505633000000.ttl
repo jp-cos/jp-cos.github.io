@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411505633000000
   dct:identifier "7411505633000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 185
   ];
   schema:description "(ウ) 思考力や想像力を伸ばし，心情を豊かにし，言語感覚を磨くのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

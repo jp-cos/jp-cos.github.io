@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434502100000000
   dct:identifier "8434502100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 785
   ];
   schema:description "(1) 我が国の歴史の展開に関わる諸事象について，地理的条件や世界の歴史と関連付けながら総合的に捉えて理解するとともに，諸資料から我が国の歴史に関する様々な情報を適切かつ効果的に調べまとめる技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

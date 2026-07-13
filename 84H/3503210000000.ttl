@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H3503210000000
   dct:identifier "84H3503210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2944
   ];
   schema:description """(2) 情報を整理しながら考えなどを形成し，英語で表現したり，伝え合ったりすることに関する事項
 「英語コミュニケーションⅠ」の２の(2)に示す事項について，五つの領域別の目標を達成するように取り扱うものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

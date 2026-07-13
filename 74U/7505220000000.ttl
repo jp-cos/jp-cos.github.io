@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U7505220000000
   dct:identifier "74U7505220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6404
   ];
   schema:description "イ　内容の(2)のイについては，アとの関連を図り，加齢に伴う心身の変化を踏まえた自立生活について扱うこと。また，高齢者の自己決定に基づく自立生活支援の重要性について扱うこと。ウについては，介護の意義と役割や高齢者介護の基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

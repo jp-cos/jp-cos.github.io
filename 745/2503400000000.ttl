@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503400000000
   dct:identifier "7452503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 668
   ];
@@ -16,7 +16,7 @@ cs:7452503400000000
 　角の概念を一般角まで拡張して，三角関数及び三角関数の加法定理について理解し，それらを事象の考察に活用できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7452503410000000, cs:7452503420000000, cs:7452503430000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

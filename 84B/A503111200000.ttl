@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84BA503111200000
   dct:identifier "84BA503111200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2582
   ];
   schema:description "(イ) 目的や用途に即した表現形式，意図に基づいた表現";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

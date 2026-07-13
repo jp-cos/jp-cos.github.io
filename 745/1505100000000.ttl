@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7451505100000000
   dct:identifier "7451505100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 637
   ];
   schema:description "(1) 内容の(1)のアの(イ)については，簡単な命題の証明も扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

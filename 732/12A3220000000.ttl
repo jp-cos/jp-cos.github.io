@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A3220000000
   dct:identifier "73212A3220000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 255
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 255 255
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 255
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 255 255 261
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 261
   ];
   schema:description """イ　世界と比べた日本の地域的特色
 世界的視野や日本全体の視野から見た日本の地域的特色を取り上げ，我が国の国土の特色を様々な面から大観させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:73212A3221000000, cs:73212A3222000000, cs:73212A3223000000, cs:73212A3224000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

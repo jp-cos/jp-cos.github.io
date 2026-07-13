@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PR503110000000
   dct:identifier "84PR503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4467
   ];
   schema:description "(1) 「造園植栽」とプロジェクト学習";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PR503111000000, cs:84PR503112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

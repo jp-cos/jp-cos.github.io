@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000254000000
   dct:identifier "7600000254000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 67
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 67 78
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 78
   ];
   schema:description "４   障害のため通学して教育を受けることが困難な児童又は生徒に対して， 教員を派遣して教育を行う場合については， 上記１から３に示すところによることができるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

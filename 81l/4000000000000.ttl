@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:81l4000000000000
   dct:identifier "81l4000000000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 145
   ];
@@ -16,7 +16,7 @@ cs:81l4000000000000
 〔経験したことや考えたことなどを自分なりの言葉で表現し，相手の話す言葉を聞こうとする意欲や態度を育て，言葉に対する感覚や言葉で表現する力を養う。〕""";
   schema:edition "一部改正なし";
   schema:hasPart cs:81l4001000000000, cs:81l4003000000000, cs:81l4005000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

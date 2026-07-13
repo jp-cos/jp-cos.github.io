@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PH505130000000
   dct:identifier "84PH505130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4071
   ];
   schema:description "ウ　〔指導項目〕の(3)及び(5)については，実験・実習を通して，微生物の安全な取扱いについて指導すること。特に，有害微生物を扱う際には，適切な拡散防止の措置を講じるなど安全に十分留意して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

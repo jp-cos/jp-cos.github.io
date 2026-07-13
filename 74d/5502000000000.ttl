@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74d5502000000000
   dct:identifier "74d5502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8141
   ];
   schema:description """１　目標
 　新聞，テレビ，情報通信ネットワークなどにおいて用いられる英語を理解するとともに，必要な情報を選び活用する基礎的な能力を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7323232100000000
   dct:identifier "7323232100000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 363
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 363 363
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 363
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 363 363 369
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 369
   ];
   schema:description "(1) 個人の尊厳と人権の尊重の意義，特に自由・権利と責任・義務の関係を広い視野から正しく認識させ，民主主義に関する理解を深めるとともに，国民主権を担う公民として必要な基礎的教養を培う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

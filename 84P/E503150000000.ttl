@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PE503150000000
   dct:identifier "84PE503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3934
   ];
   schema:description "(5) 植物バイオテクノロジーの展望";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PE503151000000, cs:84PE503152000000, cs:84PE503153000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

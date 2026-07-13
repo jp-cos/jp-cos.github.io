@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7433500000000000
   dct:identifier "7433500000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 384
   ];
   schema:description "第３　日本史Ａ";
   schema:edition "一部改正なし";
   schema:hasPart cs:7433502000000000, cs:7433503000000000, cs:7433505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

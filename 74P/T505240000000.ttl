@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PT505240000000
   dct:identifier "74PT505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3033
   ];
   schema:description "エ　内容の(5)については，安全な活動を行うために必要な交流対象者の心身の特徴や生活状況の理解及び交流に必要な技術について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

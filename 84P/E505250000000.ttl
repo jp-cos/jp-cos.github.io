@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PE505250000000
   dct:identifier "84PE505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3949
   ];
   schema:description "オ　〔指導項目〕の(5)については，細胞融合や遺伝子組換えなどの遺伝情報及びバイオマス・エネルギーの利用など，植物バイオテクノロジーに関する今後の動向，課題及び可能性について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83K0400231000000
   dct:identifier "83K0400231000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2051
   ];
   schema:description "友情の尊さを理解して心から信頼できる友達をもち，互いに励まし合い，高め合うとともに，異性についての理解を深め，悩みや葛藤も経験しながら人間関係を深めていくこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_011.pdf#page=138>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

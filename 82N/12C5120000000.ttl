@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N12C5120000000
   dct:identifier "82N12C5120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3707
   ];
   schema:description """〔第３学年及び第４学年〕
 理由を明確にして考えを伝えたり，自分と異なる意見も受け入れたりしながら，集団としての目標や活動内容について合意形成を図り，実践すること。自分のよさや役割を自覚し，よく考えて行動するなど節度ある生活を送ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=87>;
   cs:courseOfStudy cs:Elementary\/2017;

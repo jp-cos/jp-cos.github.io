@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RF502200000000
   dct:identifier "84RF502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7126
   ];
   schema:description "(2) 会計情報を活用した経営管理の方法の妥当性と課題を見いだし，ビジネスに携わる者として科学的な根拠に基づいて創造的に課題に対応する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84a5502000000000
   dct:identifier "84a5502000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10234
   ];
@@ -16,7 +16,7 @@ cs:84a5502000000000
 体育の見方・考え方を働かせ，課題を発見し，主体的，合理的，計画的な解決に向けた学習過程を通して，心と体を一体として捉え，健やかな心身の育成に資するとともに，生涯を通してスポーツの推進及び発展に寄与する資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84a5502100000000, cs:84a5502200000000, cs:84a5502300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000533100000
   dct:identifier "7400000533100000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 73
   ];
   schema:description "ア　各教科・科目の指導に当たり，義務教育段階での学習内容の確実な定着を図るための学習機会を設けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

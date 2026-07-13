@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260262130000000
   dct:identifier "8260262130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2475
   ];
   schema:description "③　燃焼の仕組み，水溶液の性質，てこの規則性及び電気の性質や働きについて追究する中で，主体的に問題解決しようとする態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=80>;
   cs:courseOfStudy cs:Elementary\/2017;

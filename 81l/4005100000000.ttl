@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l4005100000000
   dct:identifier "81l4005100000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 162
   ];
   schema:description "(1) 言葉は，身近な人に親しみをもって接し，自分の感情や意志などを伝え，それに相手が応答し，その言葉を聞くことを通して次第に獲得されていくものであることを考慮して，幼児が教師や他の幼児と関わることにより心を動かされるような体験をし，言葉を交わす喜びを味わえるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

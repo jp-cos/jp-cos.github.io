@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411505639000000
   dct:identifier "7411505639000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 191
   ];
   schema:description "(ケ) 広い視野から国際理解を深め，日本人としての自覚をもち，国際協調の精神を高めるのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

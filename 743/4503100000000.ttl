@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503100000000
   dct:identifier "7434503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 413
   ];
@@ -16,7 +16,7 @@ cs:7434503100000000
 　原始社会の特色及び古代国家と社会や文化の特色について，国際環境と関連付けて考察させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7434503110000000, cs:7434503120000000, cs:7434503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

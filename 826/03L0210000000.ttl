@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82603L0210000000
   dct:identifier "82603L0210000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2552
   ];
   schema:description "(1) 問題を見いだし，予想や仮説，観察，実験などの方法について考えたり説明したりする学習活動，観察，実験の結果を整理し考察する学習活動，科学的な言葉や概念を使用して考えたり説明したりする学習活動などを重視することによって，言語活動が充実するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=104>;
   cs:courseOfStudy cs:Elementary\/2017;

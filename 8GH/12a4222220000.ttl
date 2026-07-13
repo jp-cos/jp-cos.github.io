@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH12a4222220000
   dct:identifier "8GH12a4222220000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3858
   ];
   schema:description "(イ) 言語の働きの例";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GH12a4222221000, cs:8GH12a4222222000, cs:8GH12a4222223000, cs:8GH12a4222224000, cs:8GH12a4222225000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

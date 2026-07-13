@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250253310000000
   dct:identifier "7250253310000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1756
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1756 1765
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1765
   ];
   schema:description "(1) 図形についての観察や構成などの活動を通して，平面図形についての理解を深める。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7250253311000000, cs:7250253312000000, cs:7250253313000000, cs:7250253314000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

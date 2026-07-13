@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000312000000
   dct:identifier "8200000312000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 46
   ];
   schema:description "(2) 第２の２の(1)に示す言語能力の育成を図るため，各学校において必要な言語環境を整えるとともに，国語科を要としつつ各教科等の特質に応じて，児童の言語活動を充実すること。あわせて，(7)に示すとおり読書活動を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=88>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7AD0203700000000
   dct:identifier "7AD0203700000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 288
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 288 299
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 299
   ];
   schema:description "(7) 家庭生活に必要な衣服とその着方， 食事や調理， 住まいや暮らし方などに関する基礎的な知識と技能を身に付ける。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

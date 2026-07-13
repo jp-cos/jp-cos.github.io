@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7DeA505220000000
   dct:identifier "7DeA505220000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 558
   ];
   schema:description "イ   内容の(2)については， 個人のプライバシーや著作権など知的財産の保護， 収集した情報の管理， 発信する情報に対する責任など情報モラル及び情報通信ネッ トワークシステムにおけるセキュリティ管理の重要性について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

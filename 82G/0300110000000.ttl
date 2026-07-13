@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G0300110000000
   dct:identifier "82G0300110000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3258
   ];
   schema:description "(1) 単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，児童の主体的・対話的で深い学びの実現を図るようにすること。その際，体育や保健の見方・考え方を働かせ，運動や健康についての自己の課題を見付け，その解決のための活動を選んだり工夫したりする活動の充実を図ること。また，運動の楽しさや喜びを味わったり，健康の大切さを実感したりすることができるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=165>;
   cs:courseOfStudy cs:Elementary\/2017;

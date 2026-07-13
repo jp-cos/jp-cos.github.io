@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000331800000
   dct:identifier "8600000331800000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 32
   ];
   schema:description "ク　知的障害者である児童又は生徒に対する教育を行う特別支援学校において，各教科の指導に当たっては，各教科の段階に示す内容を基に，児童又は 生徒の知的障害の状態や経験等に応じて，具体的に指導内容を設定するもの とする。その際，小学部は６年間，中学部は３年間を見通して計画的に指導するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=222>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

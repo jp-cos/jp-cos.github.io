@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l1003900000000
   dct:identifier "81l1003900000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 86
   ];
   schema:description "(9) 自分の健康に関心をもち，病気の予防などに必要な活動を進んで行う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

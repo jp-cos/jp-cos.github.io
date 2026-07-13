@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000283100000
   dct:identifier "8B00000283100000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 198
   ];
   schema:description "(1) 各教科・科目の目標及び内容の一部又は各教科・科目を，当該各教科・科目に相当する第２章第２節第１款及び第２款に示す知的障害者である生徒に対する教育を行う特別支援学校の各教科の目標及び内容の一部又は各教科によって，替えることができること。この場合，各教科・科目に替えて履修した第２ 章第２節第１款及び第２款に示す各教科については，１単位時間を 50 分とし， 35 単位時間の授業を１単位として計算することを標準とするものとすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

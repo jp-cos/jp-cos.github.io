@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q9503150000000
   dct:identifier "84Q9503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4860
   ];
   schema:description "(5) 環境対策技術";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Q9503151000000, cs:84Q9503152000000, cs:84Q9503153000000, cs:84Q9503154000000, cs:84Q9503155000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

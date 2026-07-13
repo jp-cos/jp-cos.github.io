@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y8505250000000
   dct:identifier "74Y8505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7607
   ];
   schema:description "オ　内容の(4)については，認知症の特徴，心の変化，生活面への影響，支える家族の心の変化や生活面への影響について扱うこと。ウについては，認知症ケアの歴史や理念，罹《り》患者数の推移，認知症高齢者支援対策の概要も扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:76N0000300000000
   dct:identifier "76N0000300000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 317
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 317 328
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 328
   ];
   schema:description "３   知的障害者である児童又は生徒に対する教育を行う特別支援学校において， 内容の指導に当たっては， 個々の児童又は生徒の知的障害の状態や経験等に応じて， 適切に指導の重点を定め，具体的に指導する必要があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

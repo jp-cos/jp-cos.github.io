@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GI02b4222100000
   dct:identifier "8GI02b4222100000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3995
   ];
   schema:description "(ア) 身近なメディアとコミュニケーション手段の関係を捉え，それらを目的や状況に応じて適切に選択すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

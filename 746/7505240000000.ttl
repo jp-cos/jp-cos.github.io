@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7467505240000000
   dct:identifier "7467505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1142
   ];
   schema:description """エ　内容の(3)のアの(ア)については，受容器として眼《め》と耳を中心に，効果器として筋肉を中心に取り上げ，刺激の受容から反応までの流れを扱うこと。(イ)については，神経系の働きに関連付けられる動物の行動を扱うこと。
 　イの(ア)については，植物ホルモンと光受容体を扱うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84W9505210000000
   dct:identifier "84W9505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9211
   ];
   schema:description "ア　〔指導項目〕の(1)については，精神の健康に関する基礎的な内容を扱うこと。また，精神看護の基本的な概念や人間関係，リエゾン精神看護，倫理的課題の現状も扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

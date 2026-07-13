@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7310212300000000
   dct:identifier "7310212300000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 47
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 47 47
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 47
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 47 47 53
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 53
   ];
   schema:description "(3) 目的や意図に応じ，様々な本や文章などを読み，内容や要旨を的確にとらえる能力を身に付けさせるとともに，読書を通してものの見方や考え方を広げようとする態度を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

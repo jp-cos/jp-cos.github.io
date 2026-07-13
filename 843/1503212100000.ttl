@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431503212100000
   dct:identifier "8431503212100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 570
   ];
   schema:description "(ア) 世界の人々の生活文化について，その生活文化が見られる場所の特徴や自然及び社会的条件との関わりなどに着目して，主題を設定し，多様性や変容の要因などを多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

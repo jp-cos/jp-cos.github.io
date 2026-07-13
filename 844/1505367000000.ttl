@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441505367000000
   dct:identifier "8441505367000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1099
   ];
   schema:description "(キ) アの(エ)については，(ア)から(ウ)までのそれぞれの事項と関連させて取り扱い，情報に関する責任や，利便性及び安全性を多面的・多角的に考察していくことを通して，情報モラルを含む情報の妥当性や信頼性を踏まえた公正な判断力を身に付けることができるよう指導すること。その際，防災情報の受信，発信などにも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

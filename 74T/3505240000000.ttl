@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T3505240000000
   dct:identifier "74T3505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5563
   ];
   schema:description "エ　内容の(1)，(2)，(4)及び(6)において，ダイビングやマリンスポーツなどの実習を行う場合には，事前の健康診断や器具の点検等安全に十分留意して行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

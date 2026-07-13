@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260253232000000
   dct:identifier "8260253232000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2455
   ];
   schema:description "イ　流れる水の働きについて追究する中で，流れる水の働きと土地の変化との関係についての予想や仮説を基に，解決の方法を発想し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=76>;
   cs:courseOfStudy cs:Elementary\/2017;

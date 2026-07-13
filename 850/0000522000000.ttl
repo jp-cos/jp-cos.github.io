@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000522000000
   dct:identifier "8500000522000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 48
   ];
   schema:description "(2)  指導計画の作成に当たっては，次に示すところにより，具体的なねらい及び内容を明確に設定し，適切な環境を構成することなどにより活動が選択・展開されるようにするものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8500000522100000, cs:8500000522200000, cs:8500000522300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

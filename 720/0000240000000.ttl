@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000240000000
   dct:identifier "7200000240000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 10
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 10 10
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 10
   ];
   schema:description "４　学年の目標及び内容を２学年まとめて示した教科及び外国語活動の内容は，２学年間かけて指導する事項を示したものである。各学校においては，これらの事項を地域や学校及び児童の実態に応じ，２学年間を見通して計画的に指導することとし，特に示す場合を除き，いずれかの学年に分けて，又はいずれの学年においても指導するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Gn0300200000000
   dct:identifier "8Gn0300200000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4211
   ];
   schema:description "２  個々の生徒の実態に即して，教科別の指導を行うほか，必要に応じて各教科， 道徳科，特別活動及び自立活動を合わせて指導を行うなど，効果的な指導方法を工夫するものとする。その際，各教科等において育成を目指す資質・能力を明らかにし，各教科等の指導内容間の関連を十分に図るよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

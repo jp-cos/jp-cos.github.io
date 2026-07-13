@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322203510000000
   dct:identifier "7322203510000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 316
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 316 316
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 316
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 316 316 322
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 322
   ];
   schema:description "ア  欧米諸国における市民革命や産業革命，アジア諸国の動きなどを通して，欧米諸国が近代社会を成立させてアジアへ進出したことを理解させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

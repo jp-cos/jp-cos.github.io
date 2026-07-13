@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72102D2100000000
   dct:identifier "72102D2100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 173
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 173 182
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 182
   ];
   schema:description "(1) 目的や意図に応じ，考えたことや伝えたいことなどについて，的確に話す能力，相手の意図をつかみながら聞く能力，計画的に話し合う能力を身に付けさせるとともに，適切に話したり聞いたりしようとする態度を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RA505220000000
   dct:identifier "84RA505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6967
   ];
   schema:description "イ　〔指導項目〕の(2)のウについては，資金調達の方法，金融商品に関する法規の概要，資金の調達や運用と金融取引の現状・課題などについて扱うこと。また，電子記録債権の概要及び電子資金移動の現状・課題についても扱うこと。エについては，組織再編の形態について扱うこと。また，日本における企業の組織再編と清算・再建の現状・課題について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

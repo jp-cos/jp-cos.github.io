@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74R0300110000000
   dct:identifier "74R0300110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5497
   ];
   schema:description "(1) 商業に関する各学科においては，「ビジネス基礎」及び「課題研究」を原則としてすべての生徒に履修させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

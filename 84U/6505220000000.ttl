@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U6505220000000
   dct:identifier "84U6505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8393
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，子育て支援に関する社会的背景を取り上げ，子育て支援施策の概要を扱うこと。また，子供の虐待とその防止などに触れること。ウについては，具体的な事例を通して保育者が行う保護者支援を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

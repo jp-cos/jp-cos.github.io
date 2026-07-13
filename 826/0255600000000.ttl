@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8260255600000000
   dct:identifier "8260255600000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2469
   ];
   schema:citation cs:8260253241200000;
   schema:description "(6) 内容の「Ｂ生命・地球」の(4)のアの(イ)については，台風の進路による天気の変化や台風と降雨との関係及びそれに伴う自然災害についても触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=78>;
   cs:courseOfStudy cs:Elementary\/2017;

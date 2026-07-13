@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QJ505230000000
   dct:identifier "74QJ505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3576
   ];
   schema:description "ウ　内容の(3)のアについては，交流の状態を表す諸量を扱うこと。イについては，交流回路における抵抗，インダクタンス及び静電容量についての基本的な計算方法を扱うこと。ウについては，交流回路における電流及び電圧の基本的な計算方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

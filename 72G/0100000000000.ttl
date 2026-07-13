@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72G0100000000000
   dct:identifier "72G0100000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2428
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2428 2437
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2437
   ];
   schema:description """第１　目標
 　心と体を一体としてとらえ，適切な運動の経験と健康・安全についての理解を通して，生涯にわたって運動に親しむ資質や能力の基礎を育てるとともに健康の保持増進と体力の向上を図り，楽しく明るい生活を営む態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

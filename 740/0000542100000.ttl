@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000542100000
   dct:identifier "7400000542100000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 80
   ];
   schema:description "ア　職業に関する各教科・科目については，実験・実習に配当する授業時数を十分確保するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7450300210000000
   dct:identifier "7450300210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 813
   ];
   schema:description "(1) 各科目の内容の［用語・記号］は，当該科目で扱う内容の程度や範囲を明確にするために示したものであり，内容と密接に関連させて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

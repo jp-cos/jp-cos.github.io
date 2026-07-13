@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300120000000
   dct:identifier "72K0300120000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2698
   ];
   schema:description "(2) 道徳の時間の年間指導計画の作成に当たっては，道徳教育の全体計画に基づき，各教科，外国語活動，総合的な学習の時間及び特別活動との関連を考慮しながら，計画的，発展的に授業がなされるよう工夫すること。その際，第２に示す各学年段階ごとの内容項目について，児童や学校の実態に応じ，２学年間を見通した重点的な指導や内容項目間の関連を密にした指導を行うよう工夫すること。ただし，第２に示す各学年段階ごとの内容項目は相当する各学年においてすべて取り上げること。なお，特に必要な場合には，他の学年段階の内容項目を加えることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

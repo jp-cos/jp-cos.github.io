@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:82L12C2000000000
   dct:identifier "82L12C2000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3548
   ];
@@ -16,7 +16,7 @@ cs:82L12C2000000000
 英語学習の特質を踏まえ，以下に示す，聞くこと，話すこと［やり取り］，話すこと［発表］の三つの領域別に設定する目標の実現を目指した指導を通して，第１の(1)及び(2)に示す資質・能力を一体的に育成するとともに，その過程を通して，第１の(3)に示す資質・能力を育成する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:82L12C2100000000, cs:82L12C2200000000, cs:82L12C2300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=22>;
   cs:courseOfStudy cs:Elementary\/2017;

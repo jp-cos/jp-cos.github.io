@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WA505110000000
   dct:identifier "84WA505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9238
   ];
   schema:description "ア　在宅での療養に近い状況を設定し，看護科に属する各科目と関連付けた演習などを行い，在宅療養者の個別性に応じた看護を考察できるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

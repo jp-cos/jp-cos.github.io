@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:86O0300100000000
   dct:identifier "86O0300100000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2321
   ];
   schema:description "１  自立活動の指導に当たっては，個々の児童又は生徒の障害の状態や特性及び心身の発達の段階等の的確な把握に基づき，指導すべき課題を明確にすることによって，指導目標及び指導内容を設定し，個別の指導計画を作成するものとする。その際，第２に示す内容の中からそれぞれに必要とする項目を選定し， それらを相互に関連付け，具体的に指導内容を設定するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=110>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

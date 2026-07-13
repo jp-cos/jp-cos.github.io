@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250223131400000
   dct:identifier "8250223131400000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1757
   ];
   schema:description "(エ) 乗法九九について知り，１位数と１位数との乗法の計算が確実にできること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=122>;
   cs:courseOfStudy cs:Elementary\/2017;

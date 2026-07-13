@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503312000000
   dct:identifier "7452503312000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 661
   ];
   schema:description """(イ) 指数関数とそのグラフ
 　指数関数とそのグラフの特徴について理解し，それらを事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

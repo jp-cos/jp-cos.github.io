@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7GK0300300000000
   dct:identifier "7GK0300300000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2478
   ];
   schema:description "３   道徳教育を進めるに当たっては， 学校や学級内の人間関係及び環境を整えるとともに， 学校の道徳教育の指導内容が生徒の日常生活に生かされるようにするものとする。 また， 保護者や地域の人々の積極的な参加や協力を得るなど相互の連携を図るよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

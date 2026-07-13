@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000230000000
   dct:identifier "8400000230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 19
   ];
   schema:description "３　教育課程の編成における共通的事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000231000000, cs:8400000232000000, cs:8400000233000000, cs:8400000234000000, cs:8400000235000000, cs:8400000236000000, cs:8400000237000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

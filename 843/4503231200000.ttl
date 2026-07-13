@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503231200000
   dct:identifier "8434503231200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 823
   ];
   schema:description "(イ) 武家政権の変容，日明(にちみん)貿易の展開と琉(りゅう)球(きゅう)王国の成立，村落や都市の自立，多様な文化の形成や融合などを基に，地域権力の成長，社会の変容と文化の特色を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

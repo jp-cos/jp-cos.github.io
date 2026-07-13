@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GK0300300000000
   dct:identifier "8GK0300300000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4223
   ];
   schema:description "３　内容の指導に当たっては，個々の生徒の知的障害の状態，生活年齢，学習状況及び経験等に応じて，適切に指導の重点を定め，指導内容を具体化し，体験的な活動を取り入れるなどの工夫を行うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

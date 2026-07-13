@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300130000000
   dct:identifier "7210300130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 239
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 239 248
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 248
   ];
   schema:description "(3) 第２の各学年の内容の「Ａ話すこと・聞くこと」に関する指導については，意図的，計画的に指導する機会が得られるように，第１学年及び第２学年では年間35単位時間程度，第３学年及び第４学年では年間30単位時間程度，第５学年及び第６学年では年間25単位時間程度を配当すること。その際，音声言語のための教材を活用するなどして指導の効果を高めるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Df3505220000000
   dct:identifier "7Df3505220000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 721
   ];
   schema:description "イ   内容の(5)及び(6)については， 代表的な疾患を取り上げ， その発生に関する危険因子からの回避に重点を置いて扱うこと。 また， 生活習慣病や感染症に関する最新の情報も扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

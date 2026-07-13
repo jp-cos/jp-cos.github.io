@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3112000000
   dct:identifier "82102A3112000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 108
   ];
   schema:description "イ　音節と文字との関係，アクセントによる語の意味の違いなどに気付くとともに，姿勢や口形，発声や発音に注意して話すこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=46>;
   cs:courseOfStudy cs:Elementary\/2017;

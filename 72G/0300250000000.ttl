@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G0300250000000
   dct:identifier "72G0300250000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2619
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2619 2628
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2628
   ];
   schema:description "(5) 保健の内容のうち食事，運動，休養及び睡眠については，食育の観点も踏まえつつ健康的な生活習慣の形成に結び付くよう配慮するとともに，保健を除く第３学年以上の各領域及び学校給食に関する指導においても関連した指導を行うよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

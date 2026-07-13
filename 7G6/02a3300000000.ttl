@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7G602a3300000000
   dct:identifier "7G602a3300000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2306
   ];
   schema:description "(3) 生活に関係のある物質の性質や機械・器具の構造及び働きについて理解し， 適切に取り扱う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000243000000
   dct:identifier "8400000243000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 103
   ];
   schema:description "(3) 大学や専門学校等における教育や社会的・職業的自立，生涯にわたる学習のために，高等学校卒業以降の教育や職業との円滑な接続が図られるよう，関連する教育機関や企業等との連携により，卒業後の進路に求められる資質・能力を着実に育成することができるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

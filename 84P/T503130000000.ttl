@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PT503130000000
   dct:identifier "84PT503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4557
   ];
   schema:description "(3) 園芸作物の栽培と活用";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PT503131000000, cs:84PT503132000000, cs:84PT503133000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G02C3220000000
   dct:identifier "72G02C3220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2495
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2495 2504
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2504
   ];
   schema:description "(2) 運動に進んで取り組み，きまりを守り仲よく運動をしたり，場や器械・器具の安全に気を付けたりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

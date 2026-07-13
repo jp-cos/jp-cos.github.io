@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000421220000
   dct:identifier "8200000421220000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 68
   ];
   schema:description "(イ) 児童の障害の程度や学級の実態等を考慮の上，各教科の目標や内容を下学年の教科の目標や内容に替えたり，各教科を，知的障害者である児童に対する教育を行う特別支援学校の各教科に替えたりするなどして，実態に応じた教育課程を編成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=117>;
   cs:courseOfStudy cs:Elementary\/2017;

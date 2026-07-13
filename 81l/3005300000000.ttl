@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l3005300000000
   dct:identifier "81l3005300000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 142
   ];
   schema:description "(3) 身近な事象や動植物に対する感動を伝え合い，共感し合うことなどを通して自分から関わろうとする意欲を育てるとともに，様々な関わり方を通してそれらに対する親しみや畏敬の念，生命を大切にする気持ち，公共心，探究心などが養われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H6503221210000
   dct:identifier "84H6503221210000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3049
   ];
   schema:description "(ア) 日常的な話題について，ニュースや新聞記事などの複数の資料を活用して，情報や考え，気持ちなどを整理して話して伝え合ったり，課題を解決するために話し合ったりする活動。また，やり取りした内容を整理して発表したり，文章を書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

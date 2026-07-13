@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ei7505110000000
   dct:identifier "7Ei7505110000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1689
   ];
   schema:description "ア  指導に当たっては，経営管理や労務管理の理論的，技術的な学習にとどまることなく，理容・美容の業務に関する職業観の育成に努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

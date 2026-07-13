@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7462505120000000
   dct:identifier "7462505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 888
   ];
   schema:description "イ　「探究活動」においては，各項目の学習活動と関連させながら観察，実験を行い，報告書を作成させたり発表を行う機会を設けたりすること。また，その特質に応じて，情報の収集，仮説の設定，実験の計画，実験による検証，実験データの分析・解釈，法則性の導出などの探究の方法を習得させるようにすること。その際，コンピュータや情報通信ネットワークなどの適切な活用を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

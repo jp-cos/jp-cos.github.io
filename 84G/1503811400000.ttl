@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503811400000
   dct:identifier "84G1503811400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2083
   ];
   schema:description "(エ) スポーツを行う際は，スポーツが環境や社会にもたらす影響を考慮し，多様性への理解や持続可能な社会の実現に寄与する責任ある行動が求められること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

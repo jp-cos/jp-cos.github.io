@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3113000000
   dct:identifier "82102A3113000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 109
   ];
   schema:description "ウ　長音，拗《よう》音，促音，撥《はつ》音などの表記，助詞の「は」，「へ」及び「を」の使い方，句読点の打ち方，かぎ（「　」）の使い方を理解して文や文章の中で使うこと。また，平仮名及び片仮名を読み，書くとともに，片仮名で書く語の種類を知り，文や文章の中で使うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=48>;
   cs:courseOfStudy cs:Elementary\/2017;

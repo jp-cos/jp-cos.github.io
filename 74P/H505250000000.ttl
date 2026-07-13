@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PH505250000000
   dct:identifier "74PH505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2636
   ];
   schema:description "オ　内容の(5)については，販売事業や信用事業など農業協同組合の事業，共同出荷など生産組合の事業，集落営農などの農業生産組織や農業生産法人，食品企業の運営及び経営について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

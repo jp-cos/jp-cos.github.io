@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02C3300000000
   dct:identifier "82G02C3300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3130
   ];
@@ -16,7 +16,7 @@ cs:82G02C3300000000
 走・跳の運動について，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:82G02C3310000000, cs:82G02C3320000000, cs:82G02C3330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=91>;
   cs:courseOfStudy cs:Elementary\/2017;

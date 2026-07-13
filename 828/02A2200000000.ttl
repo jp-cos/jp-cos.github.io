@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82802A2200000000
   dct:identifier "82802A2200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2607
   ];
   schema:description "(2) 音楽表現を考えて表現に対する思いをもつことや，曲や演奏の楽しさを見いだしながら音楽を味わって聴くことができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=33>;
   cs:courseOfStudy cs:Elementary\/2017;

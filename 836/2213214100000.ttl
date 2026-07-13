@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8362213214100000
   dct:identifier "8362213214100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1059
   ];
   schema:description """㋐　自然の恵みと火山災害・地震災害
 自然がもたらす恵み及び火山災害と地震災害について調べ，これらを火山活動や地震発生の仕組みと関連付けて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=89>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

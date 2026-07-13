@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84c0300220000000
   dct:identifier "84c0300220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10607
   ];
   schema:description "(2) 各科目の特質を踏まえ，学校の実態に応じて学校図書館を活用すること。また，コンピュータや情報通信ネットワークを積極的に活用し，資料や情報の提示などにより生徒の発想や構想を高めたり，見方や感じ方を深めたりするなど主体的に学習に取り組むことができるように工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

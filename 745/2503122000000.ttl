@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503122000000
   dct:identifier "7452503122000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 649
   ];
   schema:description """(イ) 因数定理と高次方程式
 　因数定理について理解し，簡単な高次方程式の解を因数定理などを用いて求めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

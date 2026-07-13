@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8433505110000000
   dct:identifier "8433505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 771
   ];
   schema:description "ア　この科目では，中学校までの学習との連続性に留意して諸事象を取り上げることにより，生徒が興味・関心をもって近現代の歴史を学習できるよう指導を工夫すること。その際，近現代の歴史の変化を大観して理解し，考察，表現できるようにすることに指導の重点を置き，個別の事象のみの理解にとどまることのないよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

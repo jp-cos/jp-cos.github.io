@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8455503123000000
   dct:identifier "8455503123000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1455
   ];
   schema:description "(ウ) 自然数の性質などを見いだし，それらを数学的帰納法を用いて証明するとともに，他の証明方法と比較し多面的に考察すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

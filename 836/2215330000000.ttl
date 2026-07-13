@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8362215330000000
   dct:identifier "8362215330000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1120
   ];
   schema:description "ウ　アの(イ)の㋑については，脊椎動物と無脊椎動物の違いを中心に扱うこと。脊椎動物については，ヒトや魚を例に，体のつくりの共通点としての背骨の存在について扱うこと。また，体の表面の様子や呼吸の仕方などの特徴を基準として分類できることを扱うこと。無脊椎動物については，節足動物や軟体動物の観察を行い，それらの動物と脊椎動物の体のつくりの特徴を比較し，その共通点と相違点を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=81>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

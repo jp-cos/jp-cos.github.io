@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250300240000000
   dct:identifier "7250300240000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1850
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1850 1859
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1859
   ];
   schema:description "(4) 筆算による計算の技能を確実に身に付けることを重視するとともに，目的に応じて計算の結果の見積りをして，計算の仕方や結果について適切に判断できるようにすること。また，低学年の「Ａ数と計算」の指導に当たっては，そろばんや具体物などの教具を適宜用いて，数と計算についての意味の理解を深めるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

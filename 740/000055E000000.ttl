@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:740000055E000000
   dct:identifier "740000055E000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 101
   ];
   schema:description "(14) 学校がその目的を達成するため，地域や学校の実態等に応じ，家庭や地域の人々の協力を得るなど家庭や地域社会との連携を深めること。また，高等学校間や中学校，特別支援学校及び大学などとの間の連携や交流を図るとともに，障害のある幼児児童生徒などとの交流及び共同学習や高齢者などとの交流の機会を設けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102D3221300000
   dct:identifier "82102D3221300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 267
   ];
   schema:description "ウ　目的や意図に応じて簡単に書いたり詳しく書いたりするとともに，事実と感想，意見とを区別して書いたりするなど，自分の考えが伝わるように書き表し方を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=145>;
   cs:courseOfStudy cs:Elementary\/2017;

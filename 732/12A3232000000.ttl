@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A3232000000
   dct:identifier "73212A3232000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 262
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 262 262
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 262
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 262 262 268
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 268
   ];
   schema:description """(イ) 歴史的背景を中核とした考察
 　地域の産業，文化の歴史的背景や開発の歴史に関する特色ある事柄を中核として，それを国内外の他地域との結び付きや自然環境などと関連付け，地域の地理的事象の形成や特色に歴史的背景がかかわっていることなどについて考える。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

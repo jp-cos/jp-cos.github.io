@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411505620000000
   dct:identifier "7411505620000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 181
   ];
   schema:description "イ　古典の教材については，表記を工夫し，注釈，傍注，解説，現代語訳などを適切に用い，特に漢文については訓点を付け，必要に応じて書き下し文を用いるなど理解しやすいようにすること。また，古典に関連する近代以降の文章を含めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

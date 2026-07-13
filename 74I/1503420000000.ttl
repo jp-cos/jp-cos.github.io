@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I1503420000000
   dct:identifier "74I1503420000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2010
   ];
   schema:description """イ　情報システムと人間
 　人間にとって利用しやすい情報システムの在り方，情報通信ネットワークを活用して様々な意見を提案し集約するための方法について考えさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

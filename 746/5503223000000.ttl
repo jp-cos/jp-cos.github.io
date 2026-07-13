@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7465503223000000
   dct:identifier "7465503223000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1015
   ];
   schema:description """(ウ) 電離平衡
 　水のイオン積，ｐＨ及び弱酸や弱塩基の電離平衡について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250255500000000
   dct:identifier "8250255500000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2178
   ];
   schema:description "(5) 内容の「Ｄデータの活用」の(1)については，複数の帯グラフを比べることにも触れるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=277>;
   cs:courseOfStudy cs:Elementary\/2017;

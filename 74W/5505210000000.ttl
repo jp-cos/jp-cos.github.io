@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74W5505210000000
   dct:identifier "74W5505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6915
   ];
   schema:description "ア　内容の(1)については，成人の成長発達に伴う身体的変化と精神的・社会的発達，生活の特徴，健康問題などとそれに関連する成人の看護の特徴について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

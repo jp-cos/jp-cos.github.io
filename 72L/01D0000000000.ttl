@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72L01D0000000000
   dct:identifier "72L01D0000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2710
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2710 2736
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2736
   ];
   schema:description """第１　目標
 　外国語を通じて，言語や文化について体験的に理解を深め，積極的にコミュニケーションを図ろうとする態度の育成を図り，外国語の音声や基本的な表現に慣れ親しませながら，コミュニケーション能力の素地を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72102D2200000000
   dct:identifier "72102D2200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 174
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 174 183
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 183
   ];
   schema:description "(2) 目的や意図に応じ，考えたことなどを文章全体の構成の効果を考えて文章に書く能力を身に付けさせるとともに，適切に書こうとする態度を育てる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

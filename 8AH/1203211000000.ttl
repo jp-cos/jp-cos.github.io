@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AH1203211000000
   dct:identifier "8AH1203211000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2157
   ];
   schema:description "ア　日常生活に関する簡単な事柄について，伝えたいことを考え，簡単な語などや基本的な表現を使って伝え合うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=516>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

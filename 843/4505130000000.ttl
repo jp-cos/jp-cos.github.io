@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434505130000000
   dct:identifier "8434505130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 882
   ];
   schema:description "ウ　年表や地図，その他の資料を積極的に活用し，地域の文化遺産，博物館や公文書館，その他の資料館などを調査・見学したりするなど，具体的に学ぶよう指導を工夫すること。その際，歴史に関わる諸資料を整理・保存することの意味や意義，文化財保護の重要性に気付くようにすること。また，科目の内容に関係する専門家や関係諸機関などとの円滑な連携・協働を図り，社会との関わりを意識した指導を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

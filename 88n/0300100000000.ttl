@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88n0300100000000
   dct:identifier "88n0300100000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1075
   ];
   schema:description "１　指導計画の作成に当たっては，個々の児童の知的障害の状態，生活年齢，学習状況や経験等を考慮しながら，第１の各教科の目標及び内容を基に，６年間を見通して，全体的な指導計画に基づき具体的な指導目標や指導内容を設定するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=256>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

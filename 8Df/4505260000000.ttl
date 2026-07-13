@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df4505260000000
   dct:identifier "8Df4505260000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 914
   ];
   schema:description "カ　〔指導項目〕の(7) については，地域医療や在宅ケアの実情を考慮し，理療と直接関わりの深いアからウまでを中心に取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

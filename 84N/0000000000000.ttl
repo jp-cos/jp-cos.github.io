@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N0000000000000
   dct:identifier "84N0000000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10890
   ];
   schema:description "第５章　特別活動";
   schema:edition "一部改正なし";
   schema:hasPart cs:84N0100000000000, cs:84N0200000000000, cs:84N0300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

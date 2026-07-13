@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3211500000
   dct:identifier "82102C3211500000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 194
   ];
   schema:description "オ　目的や進め方を確認し，司会などの役割を果たしながら話し合い，互いの意見の共通点や相違点に着目して，考えをまとめること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=102>;
   cs:courseOfStudy cs:Elementary\/2017;

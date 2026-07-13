@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250213515000000
   dct:identifier "7250213515000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1489
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1489 1498
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1498
   ];
   schema:description "オ　数量についての具体的な場面を式に表したり，式を具体的な場面に結び付けたりする活動";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

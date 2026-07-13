@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442505324000000
   dct:identifier "8442505324000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1143
   ];
   schema:description "(エ) (1)のアの(ウ)については，民主社会における人間の在り方，社会参加と奉仕などについて，倫理的な観点を明確にして取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

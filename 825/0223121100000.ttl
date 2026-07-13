@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250223121100000
   dct:identifier "8250223121100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1746
   ];
   schema:description "(ア) ２位数の加法及びその逆の減法の計算が，１位数などについての基本的な計算を基にしてできることを理解し，それらの計算が確実にできること。また，それらの筆算の仕方について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=115>;
   cs:courseOfStudy cs:Elementary\/2017;

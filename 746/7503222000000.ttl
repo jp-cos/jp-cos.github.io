@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7467503222000000
   dct:identifier "7467503222000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1106
   ];
   schema:description """(イ) 初期発生の過程
 　卵割から器官分化の始まりまでの過程について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

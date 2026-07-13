@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04D0433000001
   dct:identifier "72K04D0433000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 2716
   ];
   schema:description """〔第５学年及び第６学年〕
 　美しいものや気高いものに感動する心や人間の力を超えたものに対する畏敬の念をもつこと。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

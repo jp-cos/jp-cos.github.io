@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503431200000
   dct:identifier "8435503431200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 970
   ];
   schema:description "(イ) 第一次世界大戦とロシア革命，ヴェルサイユ・ワシントン体制の形成，アメリカ合衆国の台頭，アジア・アフリカの動向とナショナリズムなどを基に，第一次世界大戦の展開と諸地域の変容を構造的に理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

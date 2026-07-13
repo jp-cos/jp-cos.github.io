@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82L12C3112200000
   dct:identifier "82L12C3112200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3568
   ];
   schema:description "(イ) 日本と外国との生活や習慣，行事などの違いを知り，多様な考え方があることに気付くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=30>;
   cs:courseOfStudy cs:Elementary\/2017;

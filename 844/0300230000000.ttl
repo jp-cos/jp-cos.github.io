@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8440300230000000
   dct:identifier "8440300230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1214
   ];
   schema:description "(3) 社会的事象等については，生徒の考えが深まるよう様々な見解を提示するよう配慮し，多様な見解のある事柄，未確定な事柄を取り上げる場合には，有益適切な教材に基づいて指導するとともに，特定の事柄を強調し過ぎたり，一面的な見解を十分な配慮なく取り上げたりするなどの偏った取扱いにより，生徒が多面的・多角的に考察したり，事実を客観的に捉え，公正に判断したりすることを妨げることのないよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

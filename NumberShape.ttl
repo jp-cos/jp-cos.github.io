@@ -14,11 +14,11 @@ cs:NumberShape
     sh:order 1;
     sh:path rdf:value
   ], [
-    skos:example "122" cs:82V11;
+    skos:example cs:82V11;
     sh:class cs:Dataset;
-    sh:name "Number"@en, "項番"@ja "Source"@en, "出典"@ja;
-    sh:order 1 2;
-    sh:path rdf:value dct:source
+    sh:name "Source"@en, "出典"@ja;
+    sh:order 2;
+    sh:path dct:source
   ];
   sh:targetClass cs:Number.
 cs:ItemShape sh:property [

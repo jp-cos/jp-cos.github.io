@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000281000000
   dct:identifier "8B00000281000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 192
   ];
   schema:description "１  生徒の障害の状態により特に必要がある場合には，次に示すところによるものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000281100000, cs:8B00000281200000, cs:8B00000281300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

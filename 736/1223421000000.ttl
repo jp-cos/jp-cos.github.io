@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361223421000000
   dct:identifier "7361223421000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 679
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 679 679
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 679
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 679 679 685
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 685
   ];
   schema:description """(ア) 化合
 ２種類の物質を化合させる実験を行い，反応前とは異なる物質が生成することを見いだすとともに，化学変化は原子や分子のモデルで説明できること，化合物の組成は化学式で表されること及び化学変化は化学反応式で表されることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

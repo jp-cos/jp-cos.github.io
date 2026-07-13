@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q5505130000000
   dct:identifier "84Q5505130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4745
   ];
   schema:description "ウ　〔指導項目〕の(2)については，コンピュータにおいて情報が処理される仕組みや表現方法，情報通信ネットワークの構成要素，プロトコルの役割及び情報通信の活用を理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

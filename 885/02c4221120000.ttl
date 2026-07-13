@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88502c4221120000
   dct:identifier "88502c4221120000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 624
   ];
   schema:description "㋑ 具体物を用いて形を作ったり分解したりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=137>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

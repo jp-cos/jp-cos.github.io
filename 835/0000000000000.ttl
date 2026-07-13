@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8350000000000000
   dct:identifier "8350000000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 601
   ];
   schema:description "第３節　数学";
   schema:edition "一部改正なし";
   schema:hasPart cs:8350100000000000, cs:8350200000000000, cs:8350300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_004.pdf#page=24>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

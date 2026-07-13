@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8415503221100000
   dct:identifier "8415503221100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 457
   ];
   schema:description "ア　目的や意図に応じて，実社会の問題や自分に関わる事柄の中から適切な題材を決め，情報の組合せなどを工夫して，伝えたいことを明確にすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

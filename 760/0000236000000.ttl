@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000236000000
   dct:identifier "7600000236000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 30
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 30 31
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 31
   ];
   schema:description "６   小学部又は中学部の各教科等のそれぞれの授業の １ 単位時間は， 各学校において， 児童又は生徒の障害の状態や発達の段階及び各教科等や学習活動の特質を考慮して適切に定める ものとする。 なお， 中学部においては， 10分間程度の短い時間を単位として特定の教科の指導を行う場合において， 当該教科を担当する教師がその指導内容の決定や指導の成果の把握と活用等を責任をもって行う体制が整備されている ときは， その時間を当該教科の年間授業時数に含めることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

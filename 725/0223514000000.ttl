@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250223514000000
   dct:identifier "7250223514000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1540
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1540 1549
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1549
   ];
   schema:description "エ　正方形，長方形，直角三角形をかいたり，作ったり，それらで平面を敷き詰めたりする活動";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

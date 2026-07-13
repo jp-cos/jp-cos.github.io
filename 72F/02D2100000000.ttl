@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72F02D2100000000
   dct:identifier "72F02D2100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2362
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2362 2371
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2371
   ];
   schema:description "(1) 衣食住や家族の生活などに関する実践的・体験的な活動を通して，自分の成長を自覚するとともに，家庭生活への関心を高め，その大切さに気付くようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

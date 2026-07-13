@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X3505210000000
   dct:identifier "84X3505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9415
   ];
   schema:description "ア　〔指導項目〕の(1)のアについては，具体的な事例を取り上げ，情報の表現における多様な技術や技法について扱うこと。イについては，文字，音・音楽，静止画，動画などのメディアの特性と役割，効果的な表現について扱うこと。ウについては，データから有益な情報を見いだし，評価，検証及び可視化して表現するなどのデータサイエンスの手法について扱うこと。エについては，コンピュータや情報通信ネットワークを活用した情報の発信及び効果的なプレゼンテーションの方法について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

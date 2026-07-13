@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503710000000
   dct:identifier "74G1503710000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1306
   ];
   schema:description "(1) 次の運動について，感じを込めて踊ったり，仲間と自由に踊ったりする楽しさや喜びを味わい，それぞれ特有の表現や踊りを高めて交流や発表ができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74G1503711000000, cs:74G1503712000000, cs:74G1503713000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

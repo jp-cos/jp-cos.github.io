@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N1203240000000
   dct:identifier "82N1203240000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3699
   ];
   schema:description """エ　食育の観点を踏まえた学校給食と望ましい食習慣の形成
 給食の時間を中心としながら，健康によい食事のとり方など，望ましい食習慣の形成を図るとともに，食事を通して人間関係をよりよくすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=63>;
   cs:courseOfStudy cs:Elementary\/2017;

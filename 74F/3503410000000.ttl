@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3503410000000
   dct:identifier "74F3503410000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1957
   ];
   schema:description """ア　装いの科学と表現
 　被服の機能を科学的に理解させ，目的に応じた被服の選択や自己を表現する着装を工夫できるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

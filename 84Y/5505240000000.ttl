@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y5505240000000
   dct:identifier "84Y5505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9870
   ];
   schema:description "エ　〔指導項目〕の(4)のアについては，チームの組み方や進め方についても扱うこと。イについては，具体的な事例を通して，チームアプローチの展開の演習などを行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

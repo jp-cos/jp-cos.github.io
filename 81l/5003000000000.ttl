@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:81l5003000000000
   dct:identifier "81l5003000000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 172
   ];
   schema:description "２　内容";
   schema:edition "一部改正なし";
   schema:hasPart cs:81l5003100000000, cs:81l5003200000000, cs:81l5003300000000, cs:81l5003400000000, cs:81l5003500000000, cs:81l5003600000000, cs:81l5003700000000, cs:81l5003800000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

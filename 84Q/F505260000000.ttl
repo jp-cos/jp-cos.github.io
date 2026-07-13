@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QF505260000000
   dct:identifier "84QF505260000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5082
   ];
   schema:description "カ　〔指導項目〕の(6)については，排出ガスの対策など自動車の環境保全に関する技術，再利用可能な部品を素材としてリサイクルする技術及び効率よく動力を取り出すなどの省エネルギーに関する技術を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

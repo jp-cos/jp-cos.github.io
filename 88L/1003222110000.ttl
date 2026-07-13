@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:88L1003222110000
   dct:identifier "88L1003222110000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2249
   ];
   schema:description "(ア) 児童の遊びや身近な暮らしに関わる場面";
   schema:edition "一部改正なし";
   schema:hasPart cs:88L1003222111000, cs:88L1003222112000, cs:88L1003222113000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=544>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

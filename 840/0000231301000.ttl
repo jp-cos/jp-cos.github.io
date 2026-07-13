@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231301000
   dct:identifier "8400000231301000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 25
   ];
   schema:description "農業（農業と環境，課題研究，総合実習，農業と情報，作物，野菜，果樹，草花，畜産，栽培と環境，飼育と環境，農業経営，農業機械，植物バイオテクノロジー，食品製造，食品化学，食品微生物，食品流通，森林科学，森林経営，林産物利用，農業土木設計，農業土木施工，水循環，造園計画，造園施工管理，造園植栽，測量，生物活用，地域資源活用）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

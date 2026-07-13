@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72102C3412700000
   dct:identifier "72102C3412700000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 161
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 161 170
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 170
   ];
   schema:description "(キ) 修飾と被修飾との関係など，文の構成について初歩的な理解をもつこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

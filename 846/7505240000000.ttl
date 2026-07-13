@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8467505240000000
   dct:identifier "8467505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1905
   ];
@@ -16,7 +16,7 @@ cs:8467505240000000
 (イ)の㋐については，原核生物と真核生物に共通する転写レベルの調節を扱うこと。㋑については，２種類程度の生物を例にしてその概要を扱うこと。また，動物の配偶子形成，受精，卵割，形成体と誘導，細胞分化と形態形成，器官分化の始まりについても触れること。
 (ウ)の㋐については，制限酵素，ベクター及び遺伝子の増幅技術に触れること。また，それらが実際にどのように用いられているかについても触れること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

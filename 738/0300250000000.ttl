@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7380300250000000
   dct:identifier "7380300250000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 952
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 952 952
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 952
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 952 952 958
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 958
   ];
   schema:description "(5) 創作の指導については，即興的に音を出しながら音のつながり方を試すなど，音を音楽へと構成していく体験を重視すること。その際，理論に偏らないようにするとともに，必要に応じて作品を記録する方法を工夫させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

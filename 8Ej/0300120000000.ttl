@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ej0300120000000
   dct:identifier "8Ej0300120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2287
   ];
   schema:description "(2) 各科目の指導に当たっては，各種化学繊維や仕上げに関する機器や技術の進展を踏まえ，科学的な知識と実際的な技術が習得されるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

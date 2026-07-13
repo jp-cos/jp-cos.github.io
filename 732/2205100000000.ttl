@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7322205100000000
   dct:identifier "7322205100000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 326
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 326 326
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 326
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 326 326 332
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 332
   ];
   schema:description "(1) 内容の取扱いについては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7322205110000000, cs:7322205120000000, cs:7322205130000000, cs:7322205140000000, cs:7322205150000000, cs:7322205160000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

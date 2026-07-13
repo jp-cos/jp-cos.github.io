@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qx505250000000
   dct:identifier "74Qx505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4830
   ];
   schema:description "オ　内容の(5)のア及びイについては，企業における製品デザインの企画，宣伝の企画，市場調査など具体的な事例を通して扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

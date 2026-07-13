@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8415503211700000
   dct:identifier "8415503211700000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 448
   ];
   schema:description "キ　互いの主張や論拠を吟味したり，話合いの進行や展開を助けたりするために発言を工夫するなど，考えを広げたり深めたりしながら，話合いの仕方や結論の出し方を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

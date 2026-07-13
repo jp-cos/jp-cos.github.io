@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000425000000
   dct:identifier "7200000425000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 29
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 29 30
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 30
   ];
   schema:description "(5) 各教科等の指導に当たっては，児童が学習課題や活動を選択したり，自らの将来について考えたりする機会を設けるなど工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

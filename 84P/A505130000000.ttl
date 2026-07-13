@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PA505130000000
   dct:identifier "84PA505130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3798
   ];
   schema:description "ウ　〔指導項目〕の(2)については，調査と観察，診断の方法，各種の実験と検証の方法を理解させ，科学的な見方と実践力が身に付くよう工夫して指導すること。また，(3)については，栽培植物の種類と特性に応じた育成管理と環境要素との関係について理解できるよう工夫して指導すること。(4)については，栽培のプロジェクト学習を通して，実践的・体験的に取り組めるようにすること。施設型農業については，施設内の栽培環境と環境制御について理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

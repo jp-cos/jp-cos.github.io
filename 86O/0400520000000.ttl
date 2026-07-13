@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:86O0400520000000
   dct:identifier "86O0400520000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2310
   ];
   schema:description "(2) 姿勢保持と運動・動作の補助的手段の活用に関すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=89>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

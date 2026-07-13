@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ej0300210000000
   dct:identifier "8Ej0300210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2290
   ];
   schema:description "(1) クリーニングに関する課題の解決方策について，科学的な根拠に基づき理論的に説明することや討論することなど，言語活動の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

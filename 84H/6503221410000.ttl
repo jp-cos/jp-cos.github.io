@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H6503221410000
   dct:identifier "84H6503221410000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3055
   ];
   schema:description "(ア) 日常的な話題について，読み手を説得することができるよう，情報や考え，気持ちなどを効果的な理由や根拠とともに複数の段落を用いて詳しく書いて伝える活動。また，書いた内容を読み合い，質疑応答をしたり，意見や感想を伝え合ったりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

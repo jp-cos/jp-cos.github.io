@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l2005300000000
   dct:identifier "81l2005300000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 117
   ];
   schema:description "(3) 幼児が互いに関わりを深め，協同して遊ぶようになるため，自ら行動する力を育てるようにするとともに，他の幼児と試行錯誤しながら活動を展開する楽しさや共通の目的が実現する喜びを味わうことができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84a4505200000000
   dct:identifier "84a4505200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10232
   ];
   schema:description "(2) 〔指導項目〕の(1)については，柔道，剣道，相撲，空手道，なぎなた，弓道，合気道，少林寺拳法，銃剣道の中から，(2)については，レスリングを適宜取り上げるものとし，その他の武道等についても，学校や地域の実態に応じて扱うことができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

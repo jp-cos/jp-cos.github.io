@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qq505110000000
   dct:identifier "74Qq505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4584
   ];
   schema:description "ア　内容の(1)については，セラミック工業の発達と産業社会の発展が相互に関連していることを理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

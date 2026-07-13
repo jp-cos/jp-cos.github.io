@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000500000000
   dct:identifier "8200000500000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 77
   ];
   schema:description "第５　学校運営上の留意事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000510000000, cs:8200000520000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=128>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8300000317000000
   dct:identifier "8300000317000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 49
   ];
   schema:description "(7) 学校図書館を計画的に利用しその機能の活用を図り，生徒の主体的・対話的で深い学びの実現に向けた授業改善に生かすとともに，生徒の自主的，自発的な学習活動や読書活動を充実すること。また，地域の図書館や博物館，美術館，劇場，音楽堂等の施設の活用を積極的に図り，資料を活用した情報の収集や鑑賞等の学習活動を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_001.pdf#page=98>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

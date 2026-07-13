@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74W4505230000000
   dct:identifier "74W4505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6891
   ];
   schema:description "ウ　内容の(3)については，社会保障及び社会福祉の理念と基本的な制度を扱うこと。ウについては，看護及び看護活動と関連の深い保健医療福祉等に関する法規の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

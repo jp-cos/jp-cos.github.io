@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:76L0000000000000
   dct:identifier "76L0000000000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 308
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 308 319
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 319
   ];
   schema:description """第４章　外国語活動
 小学部における外国語活動の目標，内容及び指導計画の作成と内容の取扱いについては，小学校学習指導要領第４章に示すものに準ずるほか， 次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:76L0000100000000, cs:76L0000200000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

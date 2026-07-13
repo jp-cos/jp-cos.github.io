@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:75l1000000000000
   dct:identifier "75l1000000000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 19
   ];
   schema:description """健康，人間関係，環境，言葉及び表現
 ねらい， 内容及び内容の取扱いについては， 幼稚園教育要領第２章に示すものに準ずるものとするが， 指導に当たっては， 幼児の障害の状態等に十分配慮するものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qx505110000000
   dct:identifier "74Qx505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4823
   ];
   schema:description "ア　指導に当たっては，美術館，博物館等の見学や各種メディア教材の活用により，具体的に理解させること。また，地域産業の実態や学科の特色に応じて，適切な題材を選定し，実習を通して具体的に理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

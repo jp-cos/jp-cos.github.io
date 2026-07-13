@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73C0300110000000
   dct:identifier "73C0300110000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1361
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1361 1361
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1361
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1361 1361 1367
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1367
   ];
   schema:description "(1) 技術分野及び家庭分野の授業時数については，３学年間を見通した全体的な指導計画に基づき，いずれかの分野に偏ることなく配当して履修させること。その際，家庭分野の内容の「Ａ家族・家庭と子どもの成長」の(3)のエ，「Ｂ食生活と自立」の(3)のウ及び「Ｃ衣生活・住生活と自立」の(3)のイについては，これら３事項のうち１又は２事項を選択して履修させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

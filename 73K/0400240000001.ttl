@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400240000001
   dct:identifier "73K0400240000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1550
   ];
   schema:description """［相互理解，寛容］
 　自分の考えや意見を相手に伝えるとともに，それぞれの個性や立場を尊重し，いろいろなものの見方や考え方があることを理解し，寛容の心をもって謙虚に他に学び，自らを高めていくこと。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G0300250000000
   dct:identifier "82G0300250000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3270
   ];
   schema:description "(5) 第２の内容の「Ａ体つくりの運動遊び」及び「Ａ体つくり運動」の(1)のアについては，各学年の各領域においてもその趣旨を生かした指導ができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=173>;
   cs:courseOfStudy cs:Elementary\/2017;

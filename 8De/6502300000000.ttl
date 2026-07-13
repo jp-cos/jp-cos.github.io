@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8De6502300000000
   dct:identifier "8De6502300000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 503
   ];
   schema:description "(3) 臨床保健理療について，地域や社会を支えるあん摩マッサージ指圧師を目指して自ら学び，適切かつ合理的な施術に主体的かつ協働的に取り組む態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

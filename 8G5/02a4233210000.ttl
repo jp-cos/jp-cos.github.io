@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502a4233210000
   dct:identifier "8G502a4233210000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2970
   ];
   schema:description "㋐ 日常の事象における数量の関係に着目し，図や式などを用いて， ある二つの数量の関係と別の二つの数量の関係との比べ方を考察し，それを日常生活に生かすこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82102D3221000000
   dct:identifier "82102D3221000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 264
   ];
   schema:description "(1) 書くことに関する次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82102D3221100000, cs:82102D3221200000, cs:82102D3221300000, cs:82102D3221400000, cs:82102D3221500000, cs:82102D3221600000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=143>;
   cs:courseOfStudy cs:Elementary\/2017;

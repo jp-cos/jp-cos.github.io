@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7467503210000000
   dct:identifier "7467503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1101
   ];
   schema:description "ア　有性生殖";
   schema:edition "一部改正なし";
   schema:hasPart cs:7467503211000000, cs:7467503212000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503200000000
   dct:identifier "8441503200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1065
   ];
@@ -16,7 +16,7 @@ cs:8441503200000000
 自立した主体としてよりよい社会の形成に参画することに向けて，現実社会の諸課題に関わる具体的な主題を設定し，幸福，正義，公正などに着目して，他者と協働して主題を追究したり解決したりする活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8441503210000000, cs:8441503220000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

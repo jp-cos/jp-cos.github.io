@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000630000000
   dct:identifier "8200000630000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 90
   ];
   schema:description "３　学校や学級内の人間関係や環境を整えるとともに，集団宿泊活動やボランティア活動，自然体験活動，地域の行事への参加などの豊かな体験を充実すること。また，道徳教育の指導内容が，児童の日常生活に生かされるようにすること。その際，いじめの防止や安全の確保等にも資することとなるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=149>;
   cs:courseOfStudy cs:Elementary\/2017;

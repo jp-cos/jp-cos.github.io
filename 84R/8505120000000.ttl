@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R8505120000000
   dct:identifier "84R8505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6891
   ];
   schema:description "イ　ビジネスの展開を題材としたマネジメントに関する具体的な課題を設定し，科学的な根拠に基づいてビジネスアイデアなどを考案するとともに，経営資源を効果的に活用した事業計画を立案して提案などを行う学習活動を通して，マネジメントに適切に取り組むことができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

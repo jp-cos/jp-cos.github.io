@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411503231200000
   dct:identifier "8411503231200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 219
   ];
   schema:description "イ　目的に応じて，文章や図表などに含まれている情報を相互に関係付けながら，内容や書き手の意図を解釈したり，文章の構成や論理の展開などについて評価したりするとともに，自分の考えを深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

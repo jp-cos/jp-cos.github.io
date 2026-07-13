@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:87L0000200000000
   dct:identifier "87L0000200000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2221
   ];
   schema:description "２　指導に当たっては，自立活動における指導との密接な関連を保ち，学習効果を一層高めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=534>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

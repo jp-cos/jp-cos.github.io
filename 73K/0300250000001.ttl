@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0300250000001
   dct:identifier "73K0300250000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1573
   ];
   schema:description "(5) 生徒の発達の段階や特性等を考慮し，指導のねらいに即して，問題解決的な学習，道徳的行為に関する体験的な学習等を適切に取り入れるなど，指導方法を工夫すること。その際，それらの活動を通じて学んだ内容の意義などについて考えることができるようにすること。また，特別活動等における多様な実践活動や体験活動も道徳科の授業に生かすようにすること。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

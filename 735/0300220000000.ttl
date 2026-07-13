@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7350300220000000
   dct:identifier "7350300220000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 630
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 630 630
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 630
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 630 630 636
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 636
   ];
   schema:description "(2) 各領域の指導に当たっては，必要に応じ，そろばん，電卓，コンピュータや情報通信ネットワークなどを適切に活用し，学習の効果を高めるよう配慮するものとする。特に，数値計算にかかわる内容の指導や，観察，操作や実験などの活動を通した指導を行う際にはこのことに配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

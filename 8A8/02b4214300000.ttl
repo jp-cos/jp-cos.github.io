@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8A802b4214300000
   dct:identifier "8A802b4214300000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1746
   ];
   schema:description "(ウ) 思いや意図にふさわしい動きで表現するために必要な次の㋐から㋒までの技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8A802b4214310000, cs:8A802b4214320000, cs:8A802b4214330000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=396>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

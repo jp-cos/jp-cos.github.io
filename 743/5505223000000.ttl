@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7435505223000000
   dct:identifier "7435505223000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 474
   ];
   schema:description "(ウ) イについては，日本では様々な自然災害が多発することから，早くから自然災害への対応に努めてきたことなどを具体例を通して取り扱うこと。その際，地形図やハザードマップなどの主題図の読図など，日常生活と結び付いた地理的技能を身に付けさせるとともに，防災意識を高めるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

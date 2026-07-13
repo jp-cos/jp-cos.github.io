@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y1505230000000
   dct:identifier "74Y1505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7443
   ];
   schema:description "ウ　内容の(3)のアについては，英国やアメリカ合衆国における社会福祉思想の発展の概要を扱うとともに，スウェーデンやデンマークなどにおける社会福祉思想及びアジア地域の福祉の状況も扱うこと。イについては，日本における社会福祉思想の発展について具体的に扱うこと。ウについては，地域福祉の意義や役割について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000313000000
   dct:identifier "8400000313000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 116
   ];
   schema:description "(3) 第２款の２の(1)に示す情報活用能力の育成を図るため，各学校において，コンピュータや情報通信ネットワークなどの情報手段を活用するために必要な環境を整え，これらを適切に活用した学習活動の充実を図ること。また，各種の統計資料や新聞，視聴覚教材や教育機器などの教材・教具の適切な活用を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

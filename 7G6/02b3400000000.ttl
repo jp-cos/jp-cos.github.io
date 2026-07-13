@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7G602b3400000000
   dct:identifier "7G602b3400000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2312
   ];
   schema:description "(4) 自然の事物・現象についての理解を図るとともに，  自然と生活との関係について理解を深める。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

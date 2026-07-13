@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:78n0300000000000
   dct:identifier "78n0300000000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 220
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 220 231
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 231
   ];
   schema:description "第２　指導計画の作成と各教科全体にわたる内容の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:78n0300100000000, cs:78n0300200000000, cs:78n0300300000000, cs:78n0300400000000, cs:78n0300500000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

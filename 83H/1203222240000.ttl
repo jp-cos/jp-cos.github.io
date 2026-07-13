@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83H1203222240000
   dct:identifier "83H1203222240000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1983
   ];
   schema:description "(エ) 考えや意図を伝える";
   schema:edition "一部改正なし";
   schema:hasPart cs:83H1203222241000, cs:83H1203222242000, cs:83H1203222243000, cs:83H1203222244000, cs:83H1203222245000, cs:83H1203222246000, cs:83H1203222247000, cs:83H1203222248000, cs:83H1203222249000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210531-mxt_kyoiku01-100002608_010.pdf#page=124>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

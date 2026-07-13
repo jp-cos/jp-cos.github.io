@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000340000000
   dct:identifier "7300000340000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 18
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 18 18
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 18
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 18 18 19
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 19
   ];
   schema:description "４　各学校においては，地域や学校及び生徒の実態，各教科等や学習活動の特質等に応じて，創意工夫を生かし時間割を弾力的に編成することができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

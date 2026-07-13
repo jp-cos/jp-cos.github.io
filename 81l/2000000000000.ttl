@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:81l2000000000000
   dct:identifier "81l2000000000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 95
   ];
@@ -16,7 +16,7 @@ cs:81l2000000000000
 〔他の人々と親しみ，支え合って生活するために，自立心を育て，人と関わる力を養う。〕""";
   schema:edition "一部改正なし";
   schema:hasPart cs:81l2001000000000, cs:81l2003000000000, cs:81l2005000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

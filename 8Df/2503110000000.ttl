@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df2503110000000
   dct:identifier "8Df2503110000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 761
   ];
   schema:description "(1) 解剖生理学の基礎";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Df2503111000000, cs:8Df2503112000000, cs:8Df2503113000000, cs:8Df2503114000000, cs:8Df2503115000000, cs:8Df2503116000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

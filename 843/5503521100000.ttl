@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503521100000
   dct:identifier "8435503521100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 989
   ];
   schema:description "(ア) 先進国の経済成長と南北問題，アメリカ合衆国の覇権の動揺，資源ナショナリズムの動きと産業構造の転換，アジア・ラテンアメリカ諸国の経済成長と南南問題，経済のグローバル化などを基に，格差是正の取組と課題を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

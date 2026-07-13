@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1205220000000
   dct:identifier "83G1205220000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1588
   ];
   schema:description "イ　「Ｂ器械運動」の(1)の運動については，第１学年及び第２学年においては，アからエまでの中からアを含む二を選択して履修できるようにすること。第３学年においては，アからエまでの中から選択して履修できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=205>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

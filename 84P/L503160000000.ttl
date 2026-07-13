@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PL503160000000
   dct:identifier "84PL503160000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4229
   ];
   schema:description "(6) 特用林産物の生産と加工";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PL503161000000, cs:84PL503162000000, cs:84PL503163000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

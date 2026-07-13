@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82H12D3221130000
   dct:identifier "82H12D3221130000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3341
   ];
   schema:description "(ウ) 友達や家族，学校生活など，身近で簡単な事柄について，簡単な語句や基本的な表現で話される短い会話や説明を，イラストや写真などを参考にしながら聞いて，必要な情報を得る活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=106>;
   cs:courseOfStudy cs:Elementary\/2017;

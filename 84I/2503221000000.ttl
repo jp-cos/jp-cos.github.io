@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84I2503221000000
   dct:identifier "84I2503221000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3328
   ];
   schema:description "(ア) 目的や状況に応じて，コミュニケーションの形態を考え，文字，音声，静止画，動画などを選択し，組合せを考えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

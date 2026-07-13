@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220265350000000
   dct:identifier "8220265350000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1643
   ];
   schema:citation cs:8220263322000000;
   schema:description "オ　イの(イ)については，網羅的，抽象的な扱いを避けるため，「国際連合の働き」については，ユニセフやユネスコの身近な活動を取り上げること。また，「我が国の国際協力の様子」については，教育，医療，農業などの分野で世界に貢献している事例の中から選択して取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=137>;
   cs:courseOfStudy cs:Elementary\/2017;

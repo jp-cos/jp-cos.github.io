@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Fn0000235000000
   dct:identifier "8Fn0000235000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 240
   ];
   schema:description "(5) 各教科・科目の指導に当たっては，特に自立活動の時間における指導との密接な関連を保ち，学習効果を一層高めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T5505140000000
   dct:identifier "74T5505140000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5625
   ];
   schema:description "エ　内容の(4)については，内容の(1)から(3)までの中から，適切な研究課題を設定し，課題を探求する活動を通して，科学的な見方や考え方，自発的な学習態度の育成を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

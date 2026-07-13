@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8452503323000000
   dct:identifier "8452503323000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1319
   ];
   schema:description "(ウ) 二つの数量の関係に着目し，日常の事象や社会の事象などを数学的に捉え，問題を解決したり，解決の過程を振り返って事象の数学的な特徴や他の事象との関係を考察したりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G60206300000000
   dct:identifier "8G60206300000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3293
   ];
   schema:description "(3) 観察，実験などの指導に当たっては，事故防止に十分留意すること。また， 環境整備に十分配慮するとともに，使用薬品の管理及び廃棄についても適切な措置をとるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

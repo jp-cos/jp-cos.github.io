@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000224230000
   dct:identifier "8C00000224230000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 138
   ];
   schema:description "ウ　義務教育段階での学習内容の確実な定着を図ることを目標とした学校設定科目等を履修させた後に，必履修教科・科目を履修させるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

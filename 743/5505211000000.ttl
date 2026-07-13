@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7435505211000000
   dct:identifier "7435505211000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 468
   ];
   schema:description "(ア) アについては，球面上の世界のとらえ方に慣れ親しませるよう工夫すること。日本の位置と領域については，世界的視野から日本の位置をとらえるとともに，日本の領域をめぐる問題にも触れること。また，国家間の結び付きについては，世界の国家群，貿易，交通・通信，観光の現状と動向に関する諸事象を様々な主題図などを基にとらえさせ，地理情報の活用の方法が身に付くよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300220000000
   dct:identifier "7210300220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 252
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 252 261
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 261
   ];
   schema:description "(2) 硬筆を使用する書写の指導は各学年で行い，毛筆を使用する書写の指導は第３学年以上の各学年で行うこと。また，毛筆を使用する書写の指導は硬筆による書写の能力の基礎を養うよう指導し，文字を正しく整えて書くことができるようにするとともに，各学年年間30単位時間程度を配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

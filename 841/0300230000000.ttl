@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8410300230000000
   dct:identifier "8410300230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 538
   ];
   schema:description "(3) 生徒がコンピュータや情報通信ネットワークを積極的に活用する機会を設けるなどして，指導の効果を高めるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

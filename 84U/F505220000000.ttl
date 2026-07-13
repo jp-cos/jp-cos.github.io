@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84UF505220000000
   dct:identifier "84UF505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8661
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，日本の食生活の変遷について各時代の特徴を概観させ，食生活の文化的な側面に着目させるとともに，近年の日本における食生活の変化を扱うこと。イについては，日常の食事と地域に伝わる行事食や郷土料理を取り上げ，食のもつ文化的，歴史的な側面を扱うこと。ウについては，伝統的な料理様式を取り上げ，その特徴や食卓作法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

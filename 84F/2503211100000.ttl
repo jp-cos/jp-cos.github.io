@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503211100000
   dct:identifier "84F2503211100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3193
   ];
   schema:description "(ア) 食生活を取り巻く課題，食の安全と衛生，日本と世界の食文化など，食と人との関わりについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

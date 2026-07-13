@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220263110000000
   dct:identifier "7220263110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1365
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1365 1374
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1374
   ];
   schema:description "ア　狩猟・採集や農耕の生活，古墳について調べ，大和朝廷による国土の統一の様子が分かること。その際，神話・伝承を調べ，国の形成に関する考え方などに関心をもつこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

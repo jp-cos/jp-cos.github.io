@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82603L0120000000
   dct:identifier "82603L0120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2548
   ];
   schema:description "(2) 各学年で育成を目指す思考力，判断力，表現力等については，該当学年において育成することを目指す力のうち，主なものを示したものであり，実際の指導に当たっては，他の学年で掲げている力の育成についても十分に配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=101>;
   cs:courseOfStudy cs:Elementary\/2017;

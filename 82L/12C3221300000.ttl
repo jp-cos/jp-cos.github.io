@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82L12C3221300000
   dct:identifier "82L12C3221300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3584
   ];
   schema:description "ウ　話すこと［発表］";
   schema:edition "一部改正なし";
   schema:hasPart cs:82L12C3221310000, cs:82L12C3221320000, cs:82L12C3221330000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=37>;
   cs:courseOfStudy cs:Elementary\/2017;

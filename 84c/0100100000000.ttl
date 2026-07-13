@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84c0100100000000
   dct:identifier "84c0100100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10419
   ];
   schema:description "(1) 美術に関する専門的で幅広く多様な内容について理解を深めるとともに，独創的・創造的に表すことができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

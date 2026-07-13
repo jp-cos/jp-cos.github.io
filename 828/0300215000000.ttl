@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8280300215000000
   dct:identifier "8280300215000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2800
   ];
   schema:description "オ　表現したり鑑賞したりする多くの曲について，それらを創作した著作者がいることに気付き，学習した曲や自分たちのつくった曲を大切にする態度を養うようにするとともに，それらの著作者の創造性を尊重する意識をもてるようにすること。また，このことが，音楽文化の継承，発展，創造を支えていることについて理解する素地となるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf#page=131>;
   cs:courseOfStudy cs:Elementary\/2017;

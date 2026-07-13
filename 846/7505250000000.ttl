@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467505250000000
   dct:identifier "8467505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1906
   ];
   schema:description """オ　内容の(4)のアの(ア)の㋐については，受容器として眼(め)を，効果器として筋肉を扱うこと。また，刺激の受容から反応までの流れを扱うこと。その際，神経系に関連して記憶にも触れること。
 (イ)の㋐については，被子植物を扱うこと。「植物の成長」については，配偶子形成，受精，胚(はい)発生及び器官分化について触れること。また，植物ホルモンは３，４種類について取り上げること。その際，植物ホルモンに関わる光受容体についても触れること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

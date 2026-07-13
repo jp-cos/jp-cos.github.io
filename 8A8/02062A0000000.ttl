@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8A802062A0000000
   dct:identifier "8A802062A0000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1786
   ];
   schema:description "コ　２の目標及び内容の〔共通事項〕の(1)のアに示す「音楽を形づくっている要素」については，生徒の発達の段階や指導のねらいに応じて，次の(ア)及び(イ)を適切に選択したり関連付けたりして必要に応じて適切に指導すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8A802062A1000000, cs:8A802062A2000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=409>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

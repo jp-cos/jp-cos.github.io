@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:82H01D0000000000
   dct:identifier "82H01D0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3278
   ];
@@ -16,7 +16,7 @@ cs:82H01D0000000000
 外国語によるコミュニケーションにおける見方・考え方を働かせ，外国語による聞くこと，読むこと，話すこと，書くことの言語活動を通して，コミュニケーションを図る基礎となる資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:82H01D0100000000, cs:82H01D0200000000, cs:82H01D0300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=71>;
   cs:courseOfStudy cs:Elementary\/2017;

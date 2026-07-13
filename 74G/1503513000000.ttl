@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503513000000
   dct:identifier "74G1503513000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1296
   ];
   schema:description "ウ　ベースボール型では，状況に応じたバット操作と走塁での攻撃，安定したボール操作と状況に応じた守備などによって攻防を展開すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

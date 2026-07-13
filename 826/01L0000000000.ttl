@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:82601L0000000000
   dct:identifier "82601L0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2289
   ];
@@ -16,7 +16,7 @@ cs:82601L0000000000
 自然に親しみ，理科の見方・考え方を働かせ，見通しをもって観察，実験を行うことなどを通して，自然の事物・現象についての問題を科学的に解決するために必要な資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:82601L0100000000, cs:82601L0200000000, cs:82601L0300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=17>;
   cs:courseOfStudy cs:Elementary\/2017;

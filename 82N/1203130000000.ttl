@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N1203130000000
   dct:identifier "82N1203130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3694
   ];
   schema:description """ウ　学校における多様な集団の生活の向上
 児童会など学級の枠を超えた多様な集団における活動や学校行事を通して学校生活の向上を図るため，学級としての提案や取組を話し合って決めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=57>;
   cs:courseOfStudy cs:Elementary\/2017;

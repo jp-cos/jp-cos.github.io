@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82G0000000000000
   dct:identifier "82G0000000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3055
   ];
   schema:description "第９節　体育";
   schema:edition "一部改正なし";
   schema:hasPart cs:82G0100000000000, cs:82G0200000000000, cs:82G0300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=21>;
   cs:courseOfStudy cs:Elementary\/2017;

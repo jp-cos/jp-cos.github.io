@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74o0000000000000
   dct:identifier "74o0000000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2052
   ];
   schema:description "第３章　主として専門学科において開設される各教科";
   schema:edition "一部改正なし";
   schema:hasPart cs:74P0000000000000, cs:74Q0000000000000, cs:74R0000000000000, cs:74T0000000000000, cs:74U0000000000000, cs:74W0000000000000, cs:74X0000000000000, cs:74Y0000000000000, cs:74Z0000000000000, cs:74a0000000000000, cs:74b0000000000000, cs:74c0000000000000, cs:74d0000000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

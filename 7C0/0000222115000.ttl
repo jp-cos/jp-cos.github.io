@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7C00000222115000
   dct:identifier "7C00000222115000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 52
   ];
   schema:description "オ  理科のうち「科学と人間生活」，「物理基礎」，「化学基礎」，「生物基礎」及び「地学基礎」のうちから２科目 （うち１科目は「科学と人間生活」 とする。）又は「物理基礎」，  「化学基礎」，  「生物基礎」及び「地学基礎」のうちから３科目";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

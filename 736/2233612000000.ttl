@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7362233612000000
   dct:identifier "7362233612000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 800
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 800 800
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 800
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 800 800 806
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 806
   ];
   schema:description """(イ) 年周運動と公転
 星座の年周運動や太陽の南中高度の変化などの観察を行い，その観察記録を地球の公転や地軸の傾きと関連付けてとらえること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

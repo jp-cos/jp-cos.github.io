@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233112000000
   dct:identifier "83G1233112000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1527
   ];
   schema:description "イ　実生活に生かす運動の計画では，ねらいに応じて，健康の保持増進や調和のとれた体力の向上を図るための運動の計画を立て取り組むこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=58>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

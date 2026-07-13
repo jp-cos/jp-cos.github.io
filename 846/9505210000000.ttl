@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8469505210000000
   dct:identifier "8469505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1997
   ];
   schema:description """ア　内容の(1)のアの(ア)の㋐については，ジオイドと重力異常にも触れること。㋑については，地磁気の三要素及び磁気圏と太陽風との関連を扱うこと。また，地磁気の原因と古地磁気にも触れること。
 (イ)の㋐については，走時曲線を扱い，地震波トモグラフィーにも触れること。㋑については，アイソスタシーも扱うこと。また，放射性同位体の崩壊など地球内部の熱源にも触れること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

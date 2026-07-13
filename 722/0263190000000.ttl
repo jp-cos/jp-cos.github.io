@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220263190000000
   dct:identifier "7220263190000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1373
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1373 1382
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1382
   ];
   schema:description "ケ　日華事変，我が国にかかわる第二次世界大戦，日本国憲法の制定，オリンピックの開催などについて調べ，戦後我が国は民主的な国家として出発し，国民生活が向上し国際社会の中で重要な役割を果たしてきたことが分かること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

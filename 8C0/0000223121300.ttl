@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000223121300
   dct:identifier "8C00000223121300";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 72
   ];
   schema:description "㋒ 外国の高等学校等に留学していた生徒について，外国の高等学校等における履修により，必履修教科・科目又は総合的な探究の時間の履修と同様の成果が認められる場合においては，外国の高等学校等における履修をもって相当する必履修教科・科目又は総合的な探究の時間の履修の一部又は全部に替えることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

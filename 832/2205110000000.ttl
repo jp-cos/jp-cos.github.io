@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8322205110000000
   dct:identifier "8322205110000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 481
   ];
   schema:description "ア　生徒の発達の段階を考慮して，各時代の特色や時代の転換に関係する基礎的・基本的な歴史に関わる事象を重点的に選んで指導内容を構成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=127>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000311900000
   dct:identifier "7400000311900000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 43
   ];
   schema:description "ケ　家庭のうち「家庭基礎」，「家庭総合」及び「生活デザイン」のうちから１科目";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

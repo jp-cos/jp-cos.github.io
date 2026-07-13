@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8450300320000000
   dct:identifier "8450300320000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1534
   ];
   schema:description "(2) 数学の事象から自ら問題を見いだし解決して，解決の過程や結果を振り返って統合的・発展的に考察する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

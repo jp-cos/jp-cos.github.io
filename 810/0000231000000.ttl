@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000231000000
   dct:identifier "8100000231000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 15
   ];
   schema:description """(1) 健康な心と体
 　幼稚園生活の中で，充実感をもって自分のやりたいことに向かって心と体を十分に働かせ，見通しをもって行動し，自ら健康で安全な生活をつくり出すようになる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

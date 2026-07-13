@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8300000232000000
   dct:identifier "8300000232000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 26
   ];
   schema:description "(2) 授業時数等の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:8300000232100000, cs:8300000232200000, cs:8300000232300000, cs:8300000232400000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_001.pdf#page=67>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

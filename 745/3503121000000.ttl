@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7453503121000000
   dct:identifier "7453503121000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 698
   ];
   schema:description """(ア) 複素数の図表示
 　複素数平面と複素数の極形式，複素数の実数倍，和，差，積及び商の図形的な意味を理解し，それらを事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

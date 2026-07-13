@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8433503431100000
   dct:identifier "8433503431100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 759
   ];
   schema:description "(ア) 石油危機，アジアの諸地域の経済発展，市場開放と経済の自由化，情報通信技術の発展などを基に，市場経済の変容と課題を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

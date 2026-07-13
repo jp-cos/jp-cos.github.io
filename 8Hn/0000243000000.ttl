@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Hn0000243000000
   dct:identifier "8Hn0000243000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 244
   ];
   schema:description "(3) 体験的な活動を伴う内容の指導に当たっては，生徒の病気の状態や学習環境に応じて，間接体験や疑似体験，仮想体験等を取り入れるなど，指導方法を工夫し，効果的な学習活動が展開できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

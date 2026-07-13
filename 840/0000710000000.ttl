@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000710000000
   dct:identifier "8400000710000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 160
   ];
   schema:description "１　各学校においては，第１款の２の(2)に示す道徳教育の目標を踏まえ，道徳教育の全体計画を作成し，校長の方針の下に，道徳教育の推進を主に担当する教師（「道徳教育推進教師」という。）を中心に，全教師が協力して道徳教育を展開すること。なお，道徳教育の全体計画の作成に当たっては，生徒や学校の実態に応じ，指導の方針や重点を明らかにして，各教科・科目等との関係を明らかにすること。その際，公民科の「公共」及び「倫理」並びに特別活動が，人間としての在り方生き方に関する中核的な指導の場面であることに配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

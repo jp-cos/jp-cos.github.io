@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df5503150000000
   dct:identifier "8Df5503150000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 940
   ];
   schema:description "(5) 理療施術の概要";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Df5503151000000, cs:8Df5503152000000, cs:8Df5503153000000, cs:8Df5503154000000, cs:8Df5503155000000, cs:8Df5503156000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

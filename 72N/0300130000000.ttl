@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72N0300130000000
   dct:identifier "72N0300130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2831
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2831 2857
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2857
   ];
   schema:description "(3) 〔クラブ活動〕については，学校や地域の実態等を考慮しつつ児童の興味・関心を踏まえて計画し実施できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

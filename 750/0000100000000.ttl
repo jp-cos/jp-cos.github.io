@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7500000100000000
   dct:identifier "7500000100000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 2
   ];
   schema:description "第１　幼稚部における教育の基本";
   schema:edition "一部改正なし";
   schema:hasPart cs:7500000110000000, cs:7500000120000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

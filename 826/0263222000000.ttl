@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260263222000000
   dct:identifier "8260263222000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2515
   ];
   schema:description "イ　植物の体のつくりと働きについて追究する中で，体のつくり，体内の水などの行方及び葉で養分をつくる働きについて，より妥当な考えをつくりだし，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=91>;
   cs:courseOfStudy cs:Elementary\/2017;

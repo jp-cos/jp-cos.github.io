@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qq505110000000
   dct:identifier "84Qq505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6369
   ];
   schema:description "ア　繊維及び繊維製品の製造技術及び染色技術の歴史と進展，社会生活における役割について理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

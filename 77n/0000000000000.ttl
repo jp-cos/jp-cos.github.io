@@ -6,22 +6,22 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000000000000
   dct:identifier "77n0000000000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 71
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 71 82
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 82
   ];
   schema:description """第１款　視覚障害者， 聴覚障害者， 肢体不自由者又は病弱者である児童に対する教育を行う特別支援学校
 各教科の目標， 各学年の目標及び内容並びに指導計画の作成と内容の取扱いについては， 小学校学習指導要領第２章に示すものに準ずるものとする。
 指導計画の作成と各学年にわたる内容の取扱いに当たっては， 児童の障害の状態や特性等を十分考慮するとともに，特に次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:77n0000100000000, cs:77n0000200000000, cs:77n0000300000000, cs:77n0000400000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250225500000000
   dct:identifier "8250225500000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1809
   ];
   schema:description "(5) 内容の「Ｂ図形」の(1)のアの(イ)に関連して，正方形，長方形が身の回りで多く使われていることが分かるようにするとともに，敷き詰めるなどの操作的な活動を通して，平面の広がりについての基礎となる経験を豊かにするよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=125>;
   cs:courseOfStudy cs:Elementary\/2017;

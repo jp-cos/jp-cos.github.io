@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:86O0300234000000
   dct:identifier "86O0300234000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2329
   ];
   schema:description "エ　個々の児童又は生徒が，活動しやすいように自ら環境を整えたり，必要に応じて周囲の人に支援を求めたりすることができるような指導内容を計画的に取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=121>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000238000000
   dct:identifier "7600000238000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 32
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 32 33
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 33
   ];
   schema:description "８   総合的な学習の時間における学習活動により， 特別活動の学校行事に掲げる各行事の実施と同様の成果が期待できる場合においては， 総合的な学習の時間における学習活動をもって相当する特別活動の学校行事に掲げる各行事の実施に替えることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

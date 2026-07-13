@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8310300327000000
   dct:identifier "8310300327000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 295
   ];
   schema:description "キ　我が国の伝統と文化に対する関心や理解を深め，それらを尊重する態度を育てるのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=145>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

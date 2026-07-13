@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74XC505230000000
   dct:identifier "74XC505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7378
   ];
   schema:description "ウ　内容の(3)及び(4)については，アプリケーションソフトウェアを利用した素材の取り込みや編集及び作品の作成に必要な基礎的な知識と技術について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

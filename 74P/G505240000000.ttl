@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PG505240000000
   dct:identifier "74PG505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2598
   ];
   schema:description "エ　内容の(4)については，人工多能性幹細胞など動物のバイオテクノロジーに関する今後の動向，課題及び可能性について基礎的な内容を扱い，遺伝子組換えに関連する法規の概要についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GE02b4120000000
   dct:identifier "8GE02b4120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3652
   ];
   schema:description "イ  将来の職業生活を見据え，必要な事柄を見いだして課題を設定し，解決策を考え，実践を評価・改善し，表現する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

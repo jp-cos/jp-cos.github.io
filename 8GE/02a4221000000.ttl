@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GE02a4221000000
   dct:identifier "8GE02a4221000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3644
   ];
   schema:description "ア  情報セキュリティ及び情報モラルについて知るとともに，表現，記録， 計算，通信等に係るコンピュータ等の情報機器について，その特性や機能を知り，操作の仕方が分かり，扱えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

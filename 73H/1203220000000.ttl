@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1203220000000
   dct:identifier "73H1203220000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1458
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1458 1458
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1458
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1458 1458 1464
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1464
   ];
   schema:description "イ　生徒の学習段階を考慮して各学年の指導に当たっては，次のような点に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73H1213221000000, cs:73H1223222000000, cs:73H1233223000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PO505230000000
   dct:identifier "84PO505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4365
   ];
   schema:description "ウ　〔指導項目〕の(3)については，水の制御と技術の発達，水と農業形態や農業技術の発達，地球規模での水資源の種類や分布，農業用水や工業用水，生活用水や環境用水の機能や相互の関係，水の量的な不足や質的な変化について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

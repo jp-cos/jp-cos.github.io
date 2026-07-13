@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PQ503150000000
   dct:identifier "84PQ503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4436
   ];
   schema:description "(5) 施設施工管理";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PQ503151000000, cs:84PQ503152000000, cs:84PQ503153000000, cs:84PQ503154000000, cs:84PQ503155000000, cs:84PQ503156000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

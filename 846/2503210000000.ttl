@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8462503210000000
   dct:identifier "8462503210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1602
   ];
   schema:description "ア　様々な物理現象とエネルギーの利用を日常生活や社会と関連付けながら，次のことを理解するとともに，それらの観察，実験などに関する技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8462503211000000, cs:8462503212000000, cs:8462503213000000, cs:8462503214000000, cs:8462503215000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

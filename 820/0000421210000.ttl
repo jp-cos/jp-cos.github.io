@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000421210000
   dct:identifier "8200000421210000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 67
   ];
   schema:description "(ア) 障害による学習上又は生活上の困難を克服し自立を図るため，特別支援学校小学部・中学部学習指導要領第７章に示す自立活動を取り入れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=116>;
   cs:courseOfStudy cs:Elementary\/2017;

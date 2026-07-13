@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8469503211300000
   dct:identifier "8469503211300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1962
   ];
   schema:description """㋒　火成活動
 島弧−海溝系における火成活動の特徴を，マグマの発生と分化及び火成岩の形成と関連付けて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

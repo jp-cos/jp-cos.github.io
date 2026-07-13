@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503111100000
   dct:identifier "8435503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 906
   ];
   schema:description "(ア) 人類の誕生と地球規模での拡散・移動を基に，人類の歴史と地球環境との関わりを理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

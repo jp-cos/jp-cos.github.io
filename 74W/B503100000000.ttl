@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74WB503100000000
   dct:identifier "74WB503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7034
   ];
   schema:description "(1) 看護活動と組織";
   schema:edition "一部改正なし";
   schema:hasPart cs:74WB503110000000, cs:74WB503120000000, cs:74WB503130000000, cs:74WB503140000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

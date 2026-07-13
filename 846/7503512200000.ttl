@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467503512200000
   dct:identifier "8467503512200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1893
   ];
   schema:description """㋑　生態系と人間生活
 生態系と人間生活に関する資料に基づいて，人間生活が生態系に及ぼす影響を見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

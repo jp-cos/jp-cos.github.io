@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8466500000000000
   dct:identifier "8466500000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1800
   ];
   schema:description "第６　生物基礎";
   schema:edition "一部改正なし";
   schema:hasPart cs:8466502000000000, cs:8466503000000000, cs:8466505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

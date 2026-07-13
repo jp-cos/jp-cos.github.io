@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84UJ503000000000
   dct:identifier "84UJ503000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8772
   ];
@@ -16,7 +16,7 @@ cs:84UJ503000000000
 １に示す資質・能力を身に付けることができるよう，次の〔指導項目〕を指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84UJ503100000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

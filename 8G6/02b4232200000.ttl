@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G602b4232200000
   dct:identifier "8G602b4232200000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3255
   ];
   schema:description "(イ) 水溶液の性質や働きについて調べる中で，溶けているものによる性質や働きの違いについて，より妥当な考えをつくりだし，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

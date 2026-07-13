@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84UG505110000000
   dct:identifier "84UG505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8692
   ];
   schema:description "ア　〔指導項目〕の(1)のイについては，安全で衛生的な取扱いに重点を置いた指導を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

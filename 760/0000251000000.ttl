@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000251000000
   dct:identifier "7600000251000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 59
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 59 70
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 70
   ];
   schema:description "１   児童又は生徒の障害の状態により特に必要がある場合には， 次に示すところによるものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000251100000, cs:7600000251200000, cs:7600000251300000, cs:7600000251400000, cs:7600000251500000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

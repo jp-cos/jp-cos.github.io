@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QH505110000000
   dct:identifier "84QH505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5139
   ];
   schema:description "ア　国際的な安全や環境に関わる規制，技術の進展及び地域の実態と関連付けて理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

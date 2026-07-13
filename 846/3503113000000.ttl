@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8463503113000000
   dct:identifier "8463503113000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1640
   ];
   schema:description "(ウ) 円運動と単振動";
   schema:edition "一部改正なし";
   schema:hasPart cs:8463503113100000, cs:8463503113200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

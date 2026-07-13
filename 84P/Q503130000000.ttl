@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PQ503130000000
   dct:identifier "84PQ503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4424
   ];
   schema:description "(3) 造園材料の種類と特性";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PQ503131000000, cs:84PQ503132000000, cs:84PQ503133000000, cs:84PQ503134000000, cs:84PQ503135000000, cs:84PQ503136000000, cs:84PQ503137000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

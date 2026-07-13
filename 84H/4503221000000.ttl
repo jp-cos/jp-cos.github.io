@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84H4503221000000
   dct:identifier "84H4503221000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2987
   ];
@@ -16,7 +16,7 @@ cs:84H4503221000000
 (2)に示す事項については，(1)に示す事項を活用して，例えば，次のような三つの領域別の言語活動及び複数の領域を結び付けた統合的な言語活動を通して指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H4503221100000, cs:84H4503221200000, cs:84H4503221300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

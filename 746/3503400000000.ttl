@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7463503400000000
   dct:identifier "7463503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 938
   ];
@@ -16,7 +16,7 @@ cs:7463503400000000
 　電子，原子及び原子核に関する現象を観察，実験などを通して探究し，原子についての基本的な概念や原理・法則を理解させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7463503410000000, cs:7463503420000000, cs:7463503430000000, cs:7463503440000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

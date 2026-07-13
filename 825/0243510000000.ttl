@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8250243510000000
   dct:identifier "8250243510000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2031
   ];
   schema:description "(1) 内容の「Ａ数と計算」，「Ｂ図形」，「Ｃ変化と関係」及び「Ｄデータの活用」に示す学習については，次のような数学的活動に取り組むものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8250243511000000, cs:8250243512000000, cs:8250243513000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=230>;
   cs:courseOfStudy cs:Elementary\/2017;

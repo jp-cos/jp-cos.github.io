@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82L12C6170000000
   dct:identifier "82L12C6170000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3633
   ];
   schema:description "キ　学級担任の教師又は外国語活動を担当する教師が指導計画を作成し，授業を実施するに当たっては，ネイティブ・スピーカーや英語が堪能な地域人材などの協力を得る等，指導体制の充実を図るとともに，指導方法の工夫を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=52>;
   cs:courseOfStudy cs:Elementary\/2017;

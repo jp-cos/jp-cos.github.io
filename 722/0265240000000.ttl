@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7220265240000000
   dct:identifier "7220265240000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1433
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1433 1442
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1442
   ];
   schema:description "エ　イの「天皇の地位」については，日本国憲法に定める天皇の国事に関する行為など児童に理解しやすい具体的な事項を取り上げ，歴史に関する学習との関連も図りながら，天皇についての理解と敬愛の念を深めるようにすること。また，イの「国民としての権利及び義務」については，参政権，納税の義務などを取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:88L0006220000000
   dct:identifier "88L0006220000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2265
   ];
   schema:description "イ  外国語活動の指導を行う場合は，第３学年以降の児童を対象とし，国語科の３段階の目標及び内容との関連を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=547>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

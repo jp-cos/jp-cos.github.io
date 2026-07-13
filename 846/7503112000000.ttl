@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467503112000000
   dct:identifier "8467503112000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1851
   ];
   schema:description "(イ) 遺伝子の変化と進化の仕組み";
   schema:edition "一部改正なし";
   schema:hasPart cs:8467503112100000, cs:8467503112200000, cs:8467503112300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

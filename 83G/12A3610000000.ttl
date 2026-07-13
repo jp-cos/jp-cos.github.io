@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G12A3610000000
   dct:identifier "83G12A3610000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1490
   ];
   schema:description "(1) 次の運動について，技ができる楽しさや喜びを味わい，武道の特性や成り立ち，伝統的な考え方，技の名称や行い方，その運動に関連して高まる体力などを理解するとともに，基本動作や基本となる技を用いて簡易な攻防を展開すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G12A3611000000, cs:83G12A3612000000, cs:83G12A3613000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=149>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84b6505200000000
   dct:identifier "84b6505200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10379
   ];
   schema:description "(2) 演奏発表の場を設けるなどして，演奏を共有したり，評価し合ったりする活動を取り入れるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

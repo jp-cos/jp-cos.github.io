@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8A80206140000000
   dct:identifier "8A80206140000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1763
   ];
   schema:description "エ　２の目標及び内容の「Ａ表現」のアからエまで及び「Ｂ鑑賞」のアの指導については，適宜，〔共通事項〕を要として各領域や分野の関連を図るようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=402>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

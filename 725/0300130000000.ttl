@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250300130000000
   dct:identifier "7250300130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1844
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1844 1853
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1853
   ];
   schema:description "(3) 算数的活動は，基礎的・基本的な知識及び技能を確実に身に付けたり，思考力，判断力，表現力等を高めたり，算数を学ぶことの楽しさや意義を実感したりするために，重要な役割を果たすものであることから，各学年の内容の「Ａ数と計算」，「Ｂ量と測定」，「Ｃ図形」及び「Ｄ数量関係」に示す事項については，算数的活動を通して指導するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

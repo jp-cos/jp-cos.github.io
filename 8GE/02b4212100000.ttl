@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8GE02b4212100000
   dct:identifier "8GE02b4212100000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3661
   ];
   schema:description "(ア) 職業に関わる知識や技能について，次のとおりとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GE02b4212110000, cs:8GE02b4212120000, cs:8GE02b4212130000, cs:8GE02b4212140000, cs:8GE02b4212150000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

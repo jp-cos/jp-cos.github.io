@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3503160000000
   dct:identifier "74F3503160000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1946
   ];
   schema:description """カ　高齢者とのコミュニケーション
 　高齢者との交流や日常生活の介助などを体験的に学ぶことを通して，高齢者の自立的な生活を支援することの意味やコミュニケーションの重要性を理解することができるようにする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

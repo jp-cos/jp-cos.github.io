@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WB505210000000
   dct:identifier "84WB505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9269
   ];
   schema:description "ア　〔指導項目〕の(1)については，看護活動の質を高めるため，看護業務の現状の分析，看護職の継続教育，医療安全管理体制，チーム医療のマネジメント及び看護政策などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

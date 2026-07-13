@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233720000000
   dct:identifier "83G1233720000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1572
   ];
   schema:description "(2) 表現などの自己や仲間の課題を発見し，合理的な解決に向けて運動の取り組み方を工夫するとともに，自己や仲間の考えたことを他者に伝えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=188>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

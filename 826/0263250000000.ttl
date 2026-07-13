@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8260263250000000
   dct:identifier "8260263250000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2528
   ];
@@ -16,16 +16,16 @@ cs:8260263250000000
 月の形の見え方について，月と太陽の位置に着目して，それらの位置関係を多面的に調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260263251000000, cs:8260263252000000;
-  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000296;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2528 cs:8362233600000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362233600000000
   ];
   cs:basicItem [
-    dct:provenance cs:commentary\/1000296 cs:commentary\/1000296;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
-    rdf:value 2528 cs:8362233600000000 cs:8260243250000000
+    dct:provenance cs:commentary\/1000296;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243250000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=97>;

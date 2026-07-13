@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1233530000000
   dct:identifier "83G1233530000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1559
   ];
   schema:description "(3) 球技に自主的に取り組むとともに，フェアなプレイを大切にしようとすること，作戦などについての話合いに貢献しようとすること，一人一人の違いに応じたプレイなどを大切にしようとすること，互いに助け合い教え合おうとすることなどや，健康・安全を確保すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=142>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

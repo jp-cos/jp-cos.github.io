@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H6503220000000
   dct:identifier "74H6503220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1758
   ];
   schema:description "イ　論点や根拠などを明確にするとともに，文章の構成や図表との関連，表現の工夫などを考えながら書くこと。また，書いた内容を読み返して推敲《すいこう》すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

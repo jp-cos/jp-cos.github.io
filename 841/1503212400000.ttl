@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411503212400000
   dct:identifier "8411503212400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 205
   ];
   schema:description "エ　集めた情報を資料にまとめ，聴衆に対して発表する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

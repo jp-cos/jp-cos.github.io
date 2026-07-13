@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7Hn0000240000000
   dct:identifier "7Hn0000240000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 194
   ];
   schema:description "４   病弱者である生徒に対する教育を行う特別支援学校";
   schema:edition "一部改正なし";
   schema:hasPart cs:7Hn0000241000000, cs:7Hn0000242000000, cs:7Hn0000243000000, cs:7Hn0000244000000, cs:7Hn0000245000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

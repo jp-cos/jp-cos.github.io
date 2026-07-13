@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000531000000
   dct:identifier "7400000531000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 70
   ];
   schema:description "(1) 各教科・科目等について相互の関連を図り，発展的，系統的な指導ができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

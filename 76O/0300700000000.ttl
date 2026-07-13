@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:76O0300700000000
   dct:identifier "76O0300700000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 368
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 368 379
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 379
   ];
   schema:description "７   児童又は生徒の障害の状態により，必要に応じて，専門の医師及びその他の専門家の指導・助言を求めるなどして， 適切な指導ができるようにするものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

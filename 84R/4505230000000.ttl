@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R4505230000000
   dct:identifier "84R4505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6743
   ];
   schema:description "ウ　〔指導項目〕の(3)のイについては，ビジネスの場面において活用できる論理的，批判的に捉えたり，分析したりするなどの方法について扱うこと。ウについては，ビジネスの場面において相手の考えを迅速に理解して思考し伝える工夫，伝え方と聞き方の工夫及びアイデアを創出する方法についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

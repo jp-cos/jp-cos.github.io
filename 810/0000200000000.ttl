@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000200000000
   dct:identifier "8100000200000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 8
   ];
   schema:description "第２　幼稚園教育において育みたい資質・能力及び「幼児期の終わりまでに育ってほしい姿」";
   schema:edition "一部改正なし";
   schema:hasPart cs:8100000210000000, cs:8100000220000000, cs:8100000230000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3505120000000
   dct:identifier "74F3505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1970
   ];
   schema:description "イ　内容の(1)のイ及びウについては，学校や地域の実態等に応じて，学校家庭クラブ活動等との関連を図り，乳幼児や高齢者との触れ合いや交流などの実践的な活動を取り入れるよう努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

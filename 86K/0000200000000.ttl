@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:86K0000200000000
   dct:identifier "86K0000200000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2216
   ];
   schema:description "２　各教科，外国語活動，総合的な学習の時間，特別活動及び自立活動との関連を密にしながら，経験の拡充を図り，豊かな道徳的心情を育て，広い視野に立って道徳的判断や行動ができるように指導する必要があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=532>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PE505230000000
   dct:identifier "74PE505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2530
   ];
   schema:description "ウ　内容の(2)から(6)までについては，微生物の学名や英名及び化学式や構造式を扱う場合は基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

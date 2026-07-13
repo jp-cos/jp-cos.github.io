@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GA0206260000000
   dct:identifier "8GA0206260000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3499
   ];
   schema:description "カ　「Ａ表現」及び「Ｂ鑑賞」の学習を通して学んだことが，生活や社会の中で生かせるようにすることや，作品や用具等を大切に取り扱うことを理解して使えるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

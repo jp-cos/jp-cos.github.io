@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Ql503150000000
   dct:identifier "84Ql503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6184
   ];
   schema:description "(5) 工業材料の品質管理と検査";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Ql503151000000, cs:84Ql503152000000, cs:84Ql503153000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

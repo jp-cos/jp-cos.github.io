@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84a5502300000000
   dct:identifier "84a5502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10237
   ];
   schema:description "(3) ダンスの学習に主体的に取り組むとともに，公正，協力，責任，参画，共生などに対する意欲を高め，健康・安全を確保して，生涯を通してスポーツを継続するとともにスポーツの推進及び発展に寄与する態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8322205180000000
   dct:identifier "8322205180000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 488
   ];
   schema:description "ク　日本人の生活や生活に根ざした文化については，政治の動き，社会の動き，各地域の地理的条件，身近な地域の歴史とも関連付けて指導したり，民俗学や考古学などの成果の活用や博物館，郷土資料館などの施設を見学・調査したりするなど具体的に学ぶことを通して理解させるように工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=131>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

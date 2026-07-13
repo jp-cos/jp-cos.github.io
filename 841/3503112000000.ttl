@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8413503112000000
   dct:identifier "8413503112000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 325
   ];
   schema:description "イ　論証したり学術的な学習の基礎を学んだりするために必要な語句の量を増し，文章の中で使うことを通して，語感を磨き語彙を豊かにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

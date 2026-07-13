@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d1503231320000
   dct:identifier "84d1503231320000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10648
   ];
   schema:description "(イ) 社会的な話題について，必要に応じて，使用する語句や文，やり取りの具体的な進め方が示される状況で，対話や説明などを聞いたり読んだりして，賛成や反対の立場から，情報や考え，気持ちなどを理由や根拠とともに話して伝え合う活動。また，やり取りした内容を踏まえて，自分自身の考えなどを整理して発表したり，文章を書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

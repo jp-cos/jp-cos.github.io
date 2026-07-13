@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000333140000
   dct:identifier "8600000333140000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 52
   ];
   schema:description "(エ) 小学部においては，児童の実態等を考慮し，指導の効果を高めるため， 児童の障害の状態や特性及び心身の発達の段階等並びに指導内容の関連性等を踏まえつつ，合科的・関連的な指導を進めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=244>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

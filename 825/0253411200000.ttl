@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250253411200000
   dct:identifier "8250253411200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2151
   ];
   schema:description "(イ) データの収集や適切な手法の選択など統計的な問題解決の方法を知ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=278>;
   cs:courseOfStudy cs:Elementary\/2017;

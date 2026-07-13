@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503410000000
   dct:identifier "7434503410000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 426
   ];
   schema:description """ア　明治維新と立憲体制の成立
 　開国と幕府の滅亡，文明開化など欧米の文化・思想の影響や国際環境の変化，自由民権運動と立憲体制の成立に着目して，明治維新以降の我が国の近代化の推進過程について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

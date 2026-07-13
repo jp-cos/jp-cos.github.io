@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503221100000
   dct:identifier "8435503221100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 922
   ];
   schema:description "(ア) オリエント文明，インダス文明，中華文明などを基に，古代文明の歴史的特質を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

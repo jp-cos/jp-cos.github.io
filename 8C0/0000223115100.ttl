@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000223115100
   dct:identifier "8C00000223115100";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 53
   ];
   schema:description "㋐ 学校においては，生徒や学校，地域の実態及び学科の特色等に応じ， 特色ある教育課程の編成に資するよう，(イ)及び(ウ)の表に掲げる教科以外の教科（以下この項及び第４款の１の(2)において「学校設定教科」という。）及び当該教科に関する科目を設けることができる。この場合において，学校設定教科及び当該教科に関する科目の名称，目標，内容，単位数等については，高等部における教育の目標に基づき，高等部における教育としての水準の確保に十分配慮し，各学校の定めるところによるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

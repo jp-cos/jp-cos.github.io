@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82000D0623000000
   dct:identifier "82000D0623000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 89
   ];
   schema:description "(3) 第５学年及び第６学年においては，相手の考え方や立場を理解して支え合うこと，法やきまりの意義を理解して進んで守ること，集団生活の充実に努めること，伝統と文化を尊重し，それらを育んできた我が国と郷土を愛するとともに，他国を尊重すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=148>;
   cs:courseOfStudy cs:Elementary\/2017;

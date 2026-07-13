@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7451502000000000
   dct:identifier "7451502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 605
   ];
   schema:description """１　目標
 　数と式，図形と計量，二次関数及びデータの分析について理解させ，基礎的な知識の習得と技能の習熟を図り，事象を数学的に考察する能力を培い，数学のよさを認識できるようにするとともに，それらを活用する態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

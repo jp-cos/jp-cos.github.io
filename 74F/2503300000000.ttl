@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:74F2503300000000
   dct:identifier "74F2503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1914
   ];
@@ -16,7 +16,7 @@ cs:74F2503300000000
 　生活における経済の計画，消費者問題や消費者の権利と責任などについて理解させ，現代の消費生活の課題について認識させるとともに，消費者としての適切な意思決定に基づいて，責任をもって行動できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:74F2503310000000, cs:74F2503320000000, cs:74F2503330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

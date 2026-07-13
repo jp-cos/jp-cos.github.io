@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F1505230000000
   dct:identifier "84F1505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3157
   ];
   schema:description "ウ　内容のＣの(1)のイについては，将来にわたるリスクを想定して，不測の事態に備えた対応などについても触れること。(2)のアについては，多様な契約やその義務と権利について取り上げるとともに，消費者信用及びそれらをめぐる問題などを扱うこと。(3)については，環境負荷の少ない衣食住の生活の工夫に重点を置くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

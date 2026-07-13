@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503450000000
   dct:identifier "7432503450000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 357
   ];
   schema:description """オ　資料からよみとく歴史の世界
 　主題を設定し，その時代の資料を選択して，資料の内容をまとめたり，その意図やねらいを推測したり，資料への疑問を提起したりするなどの活動を通して，資料を多面的・多角的に考察し，よみとく技能を習得させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8443503112400000
   dct:identifier "8443503112400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1169
   ];
   schema:description "(エ) 市場経済の機能と限界，持続可能な財政及び租税の在り方，金融を通した経済活動の活性化について多面的・多角的に考察，構想し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

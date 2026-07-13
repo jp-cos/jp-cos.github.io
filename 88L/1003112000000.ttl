@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:88L1003112000000
   dct:identifier "88L1003112000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2232
   ];
   schema:description "イ  日本と外国の言語や文化について，以下の体験を通して慣れ親しむこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:88L1003112100000, cs:88L1003112200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=540>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

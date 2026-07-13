@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7361235710000000
   dct:identifier "7361235710000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 741
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 741 741
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 741
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 741 741 747
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 747
   ];
   schema:description "ア　アの(イ)の「原子の成り立ち」については，原子が電子と原子核からできていることを扱うこと。その際，原子核が陽子と中性子でできていることにも触れること。また，「イオン」については，イオン式で表されることにも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

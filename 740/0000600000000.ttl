@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000600000000
   dct:identifier "7400000600000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 102
   ];
   schema:description "第６款　単位の修得及び卒業の認定";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000610000000, cs:7400000620000000, cs:7400000630000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

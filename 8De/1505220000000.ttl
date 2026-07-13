@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8De1505220000000
   dct:identifier "8De1505220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 290
   ];
   schema:description "イ 〔指導項目〕の(2)のイについては，少子高齢化が進む我が国の社会の課題や展望について取り扱うこと。ウについては，医療保険（療養費を含む。），介護保険及び主な公費負担医療を中心に制度の概要を取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

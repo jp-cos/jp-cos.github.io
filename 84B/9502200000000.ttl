@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B9502200000000
   dct:identifier "84B9502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2545
   ];
   schema:description "(2) 造形的なよさや美しさ，独創的な表現の意図と工夫，工芸の働きなどについて考え，思いや願いなどから個性を生かして発想し構想を練ったり，自己の価値観を働かせて工芸や工芸の伝統と文化に対する見方や感じ方を深めたりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

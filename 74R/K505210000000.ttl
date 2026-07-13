@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RK505210000000
   dct:identifier "74RK505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5492
   ];
   schema:description "ア　内容の(1)のアについては，ビジネスの諸活動において情報を共有することの意義や必要性を扱うこと。イについては，情報システムを構築し，業務を合理化・効率化している具体的な事例を扱うこと。ウについては，不正アクセス，コンピュータウイルス，災害などから情報や情報通信ネットワークなどを保護する方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

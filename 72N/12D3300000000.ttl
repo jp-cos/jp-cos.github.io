@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N12D3300000000
   dct:identifier "72N12D3300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2793
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2793 2819
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2819
   ];
   schema:description """〔第５学年及び第６学年〕
 学級を単位として，信頼し支え合って楽しく豊かな学級や学校の生活をつくるとともに，日常の生活や学習に自主的に取り組もうとする態度の向上に資する活動を行うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

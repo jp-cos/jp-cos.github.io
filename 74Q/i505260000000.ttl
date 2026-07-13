@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qi505260000000
   dct:identifier "74Qi505260000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4320
   ];
   schema:description "カ　内容の(6)のアについては，セラミック材料，金属材料及び高分子材料の性質及び用途を扱うこと。イについては，機能性材料の性質と用途を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

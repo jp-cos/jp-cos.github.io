@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7454503230000000
   dct:identifier "7454503230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 755
   ];
   schema:description """ウ　整数の性質の活用
 　二進法などの仕組みや分数が有限小数又は循環小数で表される仕組みを理解し，整数の性質を事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

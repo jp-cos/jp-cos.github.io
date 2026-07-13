@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72203L0130000000
   dct:identifier "72203L0130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1443
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1443 1452
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1452
   ];
   schema:description "(3) 学校図書館や公共図書館，コンピュータなどを活用して，資料の収集・活用・整理などを行うようにすること。また，第４学年以降においては，教科用図書「地図」を活用すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

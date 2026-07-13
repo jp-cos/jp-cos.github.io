@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02D5700000000
   dct:identifier "82G02D5700000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3253
   ];
   schema:description "(7) 内容の「Ｇ保健」については，(1)及び(2)を第５学年，(3)を第６学年で指導するものとする。また，けがや病気からの回復についても触れるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=163>;
   cs:courseOfStudy cs:Elementary\/2017;

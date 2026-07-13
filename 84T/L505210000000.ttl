@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TL505210000000
   dct:identifier "84TL505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8156
   ];
   schema:description "ア　〔指導項目〕の(1)については，ダイビングの意義及び業としてのダイビングの現状と今後の展望を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

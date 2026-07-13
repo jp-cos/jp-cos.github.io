@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K0000000000000
   dct:identifier "82K0000000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3434
   ];
   schema:description "第３章　特別の教科　道徳";
   schema:edition "一部改正なし";
   schema:hasPart cs:82K0100000000000, cs:82K0300000000000, cs:82K0400000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=20>;
   cs:courseOfStudy cs:Elementary\/2017;

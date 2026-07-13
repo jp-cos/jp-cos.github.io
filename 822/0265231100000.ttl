@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220265231100000
   dct:identifier "8220265231100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1602
   ];
   schema:citation cs:8220263211000000, cs:8220263212000000, cs:8220263213000000, cs:8220263214000000, cs:8220263215000000, cs:8220263216000000, cs:8220263217000000, cs:8220263218000000, cs:8220263219000000, cs:822026321A000000;
   schema:description "清少納言《せいしょうなごん》";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=130>;
   cs:courseOfStudy cs:Elementary\/2017;

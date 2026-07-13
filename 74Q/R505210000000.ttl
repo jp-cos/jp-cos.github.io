@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QR505210000000
   dct:identifier "74QR505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3812
   ];
   schema:description "ア　内容の(1)及び(2)については，適切な例題を使った演習を取り入れ，基本的なプログラミング技法を扱うこと。また，基本的なアルゴリズムを扱い，プログラムの計画，作成，実施及び評価の実習を通して，効果的に情報を処理する方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

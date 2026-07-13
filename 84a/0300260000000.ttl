@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84a0300260000000
   dct:identifier "84a0300260000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10294
   ];
   schema:description "(6) 学外の認定資格等の取得と関連付けるなど，より専門的かつ実践的な知識及び技術の習得が図られるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

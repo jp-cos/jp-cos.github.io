@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74b4502000000000
   dct:identifier "74b4502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7908
   ];
   schema:description """１　目標
 　音楽を形づくっている要素を正しくとらえ，音楽性豊かな表現をするための基礎的な能力を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

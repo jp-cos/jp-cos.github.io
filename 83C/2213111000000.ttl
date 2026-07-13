@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83C2213111000000
   dct:identifier "83C2213111000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1747
   ];
   schema:description "ア　自分の成長と家族や家庭生活との関わりが分かり，家族・家庭の基本的な機能について理解するとともに，家族や地域の人々と協力・協働して家庭生活を営む必要があることに気付くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=157>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

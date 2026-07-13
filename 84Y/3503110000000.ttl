@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y3503110000000
   dct:identifier "84Y3503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9787
   ];
   schema:description "(1) 福祉実践におけるコミュニケーション";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Y3503111000000, cs:84Y3503112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000332200000
   dct:identifier "8600000332200000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 37
   ];
   schema:description "イ  小学部又は中学部の各教科等の授業は，年間 35 週（小学部第１学年については 34 週）以上にわたって行うよう計画し，週当たりの授業時数が児童又は生徒の負担過重にならないようにするものとする。ただし，各教科等（中学部においては，特別活動を除く。）や学習活動の特質に応じ効果的な場合には，夏季，冬季，学年末等の休業日の期間に授業日を設定する場合を含め， これらの授業を特定の期間に行うことができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=230>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

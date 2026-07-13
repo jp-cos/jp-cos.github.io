@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83C1205110000000
   dct:identifier "83C1205110000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1720
   ];
   schema:description "ア　(1)については，我が国の伝統的な技術についても扱い，緻密なものづくりの技などが我が国の伝統や文化を支えてきたことに気付かせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=156>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

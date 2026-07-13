@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7431503330000000
   dct:identifier "7431503330000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 318
   ];
   schema:description """ウ　三つの世界と日本の動向
 　第二次世界大戦後の米ソ両陣営の対立と日本の動向，アジア・アフリカの民族運動と植民地支配からの独立を理解させ，核兵器問題やアジア・アフリカ諸国が抱える問題などについて考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361213111300000
   dct:identifier "8361213111300000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 923
   ];
   schema:description """㋒  音の性質
 音についての実験を行い，音はものが振動することによって生じ空気中などを伝わること及び音の高さや大きさは発音体の振動の仕方に関係することを見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=35>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

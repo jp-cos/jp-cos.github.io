@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400370000001
   dct:identifier "73K0400370000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1558
   ];
   schema:description """［郷土の伝統と文化の尊重，郷土を愛する態度］
 　郷土の伝統と文化を大切にし，社会に尽くした先人や高齢者に尊敬の念を深め，地域社会の一員としての自覚をもって郷土を愛し，進んで郷土の発展に努めること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

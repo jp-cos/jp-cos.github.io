@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260263240000000
   dct:identifier "7260263240000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1999
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1999 2008
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2008
   ];
   schema:description """(4) 土地のつくりと変化
 　土地やその中に含まれる物を観察し，土地のつくりや土地のでき方を調べ，土地のつくりと変化についての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260263241000000, cs:7260263242000000, cs:7260263243000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

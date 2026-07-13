@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qe505220000000
   dct:identifier "84Qe505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5928
   ];
   schema:description "イ　〔指導項目〕の(2)のウについては，土木構造物の基礎，杭(くい)基礎などの基礎工及び基礎掘削における土留め工法を扱うこと。オについては，下水道管などの地下埋設物工事における圧入工法についても扱うこと。カについては，電子情報を活用した施工を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

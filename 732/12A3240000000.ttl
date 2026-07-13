@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A3240000000
   dct:identifier "73212A3240000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 268
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 268 268
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 268
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 268 268 274
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 274
   ];
   schema:description """エ　身近な地域の調査
 　身近な地域における諸事象を取り上げ，観察や調査などの活動を行い，生徒が生活している土地に対する理解と関心を深めて地域の課題を見いだし，地域社会の形成に参画しその発展に努力しようとする態度を養うとともに，市町村規模の地域の調査を行う際の視点や方法，地理的なまとめ方や発表の方法の基礎を身に付けさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

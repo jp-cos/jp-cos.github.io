@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83G1205200000000
   dct:identifier "83G1205200000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1586
   ];
   schema:description "(2) 内容の「Ａ体つくり運動」から「Ｈ体育理論」までに示す事項については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83G1205210000000, cs:83G1205220000000, cs:83G1205230000000, cs:83G1205240000000, cs:83G1205250000000, cs:83G1205260000000, cs:83G1205270000000, cs:83G12A5280000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=205>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

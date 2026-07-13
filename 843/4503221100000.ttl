@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503221100000
   dct:identifier "8434503221100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 817
   ];
   schema:description "(ア) 中世の特色を示す適切な歴史資料を基に，資料から歴史に関わる情報を収集し，読み取る技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

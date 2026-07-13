@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83A02B3211100000
   dct:identifier "83A02B3211100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1395
   ];
   schema:description "(ア) 造形的なよさや美しさを感じ取り，作者の心情や表現の意図と創造的な工夫などについて考えるなどして，美意識を高め，見方や感じ方を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=106>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

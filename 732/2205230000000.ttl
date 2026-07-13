@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322205230000000
   dct:identifier "7322205230000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 336
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 336 336
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 336
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 336 336 342
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 342
   ];
   schema:description "ウ　ウについては，内容の(2)以下の各時代の学習のまとめとして実施することを原則とすること。その際，各時代の学習の初めにその特色の究明に向けた課題意識を育成した上で，他の時代との共通点や相違点に着目しながら，大観や表現の仕方を工夫して，各時代の特色をとらえさせるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

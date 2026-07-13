@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000212000000
   dct:identifier "7600000212000000";
-  dct:source cs:76V11 cs:76V11;
+  dct:source cs:76V11;
   qb:order [
-    dct:source cs:76V11 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 9
   ];
@@ -19,7 +19,7 @@ cs:7600000212000000
 その際， 特に生徒が自他の生命を尊重し， 規律ある生活ができ，  自分の将来を考え， 法やきまりの意義の理解を深め，主体的に社会の形成に参画し，国際社会に生きる日本人としての自覚を身に付けるようにすることなどに配慮しなければならない。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000212000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009;

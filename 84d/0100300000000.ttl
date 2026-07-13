@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0100300000000
   dct:identifier "84d0100300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10614
   ];
   schema:description "(3) 英語の背景にある文化に対する理解を深め，聞き手，読み手，話し手，書き手に配慮しながら，主体的，自律的に英語を用いてコミュニケーションを図ろうとする態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

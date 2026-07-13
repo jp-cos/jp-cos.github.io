@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84RA503150000000
   dct:identifier "84RA503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6955
   ];
   schema:description "(5) 企業責任と法規";
   schema:edition "一部改正なし";
   schema:hasPart cs:84RA503151000000, cs:84RA503152000000, cs:84RA503153000000, cs:84RA503154000000, cs:84RA503155000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

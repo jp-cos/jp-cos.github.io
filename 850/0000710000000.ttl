@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000710000000
   dct:identifier "8500000710000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 77
   ];
   schema:description "１　各学校においては，校長の方針の下に，校務分掌に基づき教職員が適切に役割を分担しつつ，相互に連携しながら，教育課程や指導の改善を図るものとする。また，各学校が行う学校評価については，教育課程の編成，実施，改善が教育活動や学校運営の中核となることを踏まえ，カリキュラム・マネジメントと関連付けながら実施するよう留意するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

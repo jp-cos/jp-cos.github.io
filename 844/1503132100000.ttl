@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503132100000
   dct:identifier "8441503132100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1064
   ];
   schema:description "(ア) 公共的な空間における基本的原理について，思考実験など概念的な枠組みを用いて考察する活動を通して，個人と社会との関わりにおいて多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

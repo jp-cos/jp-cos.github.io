@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72N0300210000000
   dct:identifier "72N0300210000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2834
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2834 2860
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2860
   ];
   schema:description "(1) 〔学級活動〕，〔児童会活動〕及び〔クラブ活動〕の指導については，指導内容の特質に応じて，教師の適切な指導の下に，児童の自発的，自治的な活動が効果的に展開されるようにするとともに，内容相互の関連を図るよう工夫すること。また，よりよい生活を築くために集団としての意見をまとめるなどの話合い活動や自分たちできまりをつくって守る活動，人間関係を形成する力を養う活動などを充実するよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

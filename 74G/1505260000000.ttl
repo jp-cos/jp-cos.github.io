@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1505260000000
   dct:identifier "74G1505260000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1338
   ];
   schema:description "カ　「Ｆ武道」の(1)の運動については，ア又はイのいずれかを選択して履修できるようにすること。なお，地域や学校の実態に応じて，相撲，なぎなた，弓道などのその他の武道についても履修させることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

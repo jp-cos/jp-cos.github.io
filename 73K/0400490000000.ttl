@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400490000000
   dct:identifier "73K0400490000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1560
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1560 1560
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1560
   ];
   schema:description "(9) 日本人としての自覚をもって国を愛し，国家の発展に努めるとともに，優れた伝統の継承と新しい文化の創造に貢献する。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

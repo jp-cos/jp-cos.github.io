@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503230000000
   dct:identifier "7432503230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 345
   ];
   schema:description """ウ　東アジア世界・内陸アジア世界
 　東アジアと内陸アジアの地理的特質，中華文明の起源と秦《しん》・漢帝国，遊牧国家の動向，唐帝国と東アジア諸民族の活動に触れ，日本を含む東アジア世界と内陸アジア世界の形成過程を把握させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

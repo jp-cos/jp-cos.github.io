@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82N2205100000000
   dct:identifier "82N2205100000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3717
   ];
   schema:description "(1) 児童会の計画や運営は，主として高学年の児童が行うこと。その際，学校の全児童が主体的に活動に参加できるものとなるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=100>;
   cs:courseOfStudy cs:Elementary\/2017;

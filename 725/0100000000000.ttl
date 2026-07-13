@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250100000000000
   dct:identifier "7250100000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1449
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1449 1458
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1458
   ];
   schema:description """第１　目標
 　算数的活動を通して，数量や図形についての基礎的・基本的な知識及び技能を身に付け，日常の事象について見通しをもち筋道を立てて考え，表現する能力を育てるとともに，算数的活動の楽しさや数理的な処理のよさに気付き，進んで生活や学習に活用しようとする態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:88G0206200000000
   dct:identifier "88G0206200000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1068
   ];
   schema:description "(2) ２の各段階の内容の取扱いについては，次の事項に配慮するものとする。 ";
   schema:edition "一部改正なし";
   schema:hasPart cs:88G0206210000000, cs:88G0206220000000, cs:88G0206230000000, cs:88G0206240000000, cs:88G0206250000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=254>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

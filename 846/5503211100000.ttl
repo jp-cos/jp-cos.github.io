@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8465503211100000
   dct:identifier "8465503211100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1760
   ];
   schema:description """㋐　化学反応と熱・光
 化学反応と熱や光に関する実験などを行い，化学反応における熱及び光の発生や吸収は，反応の前後における物質のもつ化学エネルギーの差から生じることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

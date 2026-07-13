@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qo505210000000
   dct:identifier "84Qo505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6309
   ];
   schema:description "ア　〔指導項目〕の(1)については，セラミック工業と地域の発展との関わり，セラミック工業と日本の産業の発展との相互の関連を扱うこと。また，製造工程についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

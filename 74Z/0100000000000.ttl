@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Z0100000000000
   dct:identifier "74Z0100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7644
   ];
   schema:description """第１款　目標
 　事象を探究する過程を通して，科学及び数学における基本的な概念，原理・法則などについての系統的な理解を深め，科学的，数学的に考察し表現する能力と態度を育て，創造的な能力を高める。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

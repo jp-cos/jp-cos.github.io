@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8850206310000000
   dct:identifier "8850206310000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 700
   ];
   schema:description "ア　数学的活動は，基礎的・基本的な知識及び技能を確実に身に付けたり，思考力，判断力，表現力等を高めたり，算数を学ぶことの楽しさを実感したりするために，重要な役割を果たすものであることから，２の内容の「Ａ数と計算（１段階はＢ）」，「Ｂ図形（１段階はＣ）」，「Ｃ測定（１段階はＤ）」及び「Ｄデータの活用（１段階は「Ａ数量の基礎」）」に示す事項については，数学的活動を通して指導するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=147>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

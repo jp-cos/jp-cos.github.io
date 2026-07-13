@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361223412200000
   dct:identifier "8361223412200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 957
   ];
   schema:description """㋑　化学変化における酸化と還元
 酸化や還元の実験を行い，酸化や還元は酸素が関係する反応であることを見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=53>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

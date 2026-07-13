@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7414503140000000
   dct:identifier "7414503140000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 237
   ];
   schema:description "エ　目的や課題に応じて，収集した様々な情報を分析，整理して資料を作成し，自分の考えを効果的に表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

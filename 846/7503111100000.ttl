@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467503111100000
   dct:identifier "8467503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1850
   ];
   schema:description """㋐　生命の起源と細胞の進化
 生命の起源と細胞の進化に関する資料に基づいて，生命の起源に関する考えを理解するとともに，細胞の進化を地球環境の変化と関連付けて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

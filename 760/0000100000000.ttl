@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000100000000
   dct:identifier "7600000100000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 2
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2 2
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 2
   ];
   schema:description """第１節　教育目標
 小学部及び中学部における教育については，学校教育法第72条に定める目的を実現するために，児童及び生徒の障害の状態及び特性等を十分考慮して， 次に掲げる 目標の達成に努めなければならない。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000110000000, cs:7600000120000000, cs:7600000130000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

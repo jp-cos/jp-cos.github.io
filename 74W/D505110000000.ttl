@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74WD505110000000
   dct:identifier "74WD505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7102
   ];
   schema:description "ア　指導に当たっては，看護に関する題材やデータなどを用いた実習を通して，看護の分野において情報を主体的に活用できるようにすること。また，他の看護に関する各科目と関連付けて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

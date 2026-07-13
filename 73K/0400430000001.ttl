@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400430000001
   dct:identifier "73K0400430000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1564
   ];
   schema:description """［感動，畏敬の念］
 　美しいものや気高いものに感動する心をもち，人間の力を超えたものに対する畏敬の念を深めること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

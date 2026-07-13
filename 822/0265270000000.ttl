@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220265270000000
   dct:identifier "8220265270000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1637
   ];
   schema:citation cs:8220263221000000;
   schema:description "キ　イの(ア)については，歴史学習全体を通して，我が国は長い歴史をもち伝統や文化を育んできたこと，我が国の歴史は政治の中心地や世の中の様子などによって幾つかの時期に分けられることに気付くようにするとともに，現在の自分たちの生活と過去の出来事との関わりを考えたり，過去の出来事を基に現在及び将来の発展を考えたりするなど，歴史を学ぶ意味を考えるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=131>;
   cs:courseOfStudy cs:Elementary\/2017;

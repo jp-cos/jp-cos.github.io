@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84XA502300000000
   dct:identifier "84XA502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9607
   ];
   schema:description "(3) 情報社会で必要とされるコンテンツの創造を目指して自ら学び，コンテンツの制作と発信に主体的かつ協動的に取り組む態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

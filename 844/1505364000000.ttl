@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8441505364000000
   dct:identifier "8441505364000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1096
   ];
   schema:description "(エ) アの(ア)の「法や規範の意義及び役割」については，法や道徳などの社会規範がそれぞれの役割を有していることや，法の役割の限界についても扱うこと。「多様な契約及び消費者の権利と責任」については，私法に関する基本的な考え方についても扱うこと。「司法参加の意義」については，裁判員制度についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

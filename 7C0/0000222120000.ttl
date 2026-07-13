@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7C00000222120000
   dct:identifier "7C00000222120000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 58
   ];
   schema:description "(2)総合的な学習の時間については，すべての生徒に履修させるものとし，その単位数は，各学校において， 学校や生徒の実態に応じて適切に定めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

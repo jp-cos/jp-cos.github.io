@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dg9505230000000
   dct:identifier "7Dg9505230000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1206
   ];
   schema:description "ウ   内容の(3)については， 理学療法の現場における情報の意義や役割，  コンピュータや医療用電子機器の活用の概要について扱うこと。アについては，医療用電子機器など測定機器の使用について扱うこと。 イについては， 理学療法の現場における個人情報の管理の実際と重要性について扱うこと。 ウについては， 理学療法援助を適切に行うための情報システムの活用を具体的に扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B2503212200000
   dct:identifier "84B2503212200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2283
   ];
   schema:description "(イ) 音楽の特徴と文化的・歴史的背景，他の芸術との関わり";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

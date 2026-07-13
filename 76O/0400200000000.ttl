@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:76O0400200000000
   dct:identifier "76O0400200000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 326
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 326 337
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 337
   ];
   schema:description "２   心理的な安定";
   schema:edition "一部改正なし";
   schema:hasPart cs:76O0400210000000, cs:76O0400220000000, cs:76O0400230000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

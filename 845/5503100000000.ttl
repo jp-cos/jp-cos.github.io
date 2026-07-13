@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8455503100000000
   dct:identifier "8455503100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1446
   ];
@@ -16,7 +16,7 @@ cs:8455503100000000
 数列について，数学的活動を通して，その有用性を認識するとともに，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8455503110000000, cs:8455503120000000, cs:8455503130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

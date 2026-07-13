@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:75l2006231000000
   dct:identifier "75l2006231000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 61
   ];
   schema:description "(ア) 幼児が興味をもって主体的に取り組み， 成就感を味わうことができるような指導内容を取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

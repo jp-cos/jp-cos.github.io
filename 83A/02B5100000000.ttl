@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83A02B5100000000
   dct:identifier "83A02B5100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1405
   ];
   schema:description "(1) 第２学年及び第３学年では，第１学年において身に付けた資質・能力を柔軟に活用して，表現及び鑑賞に関する資質・能力をより豊かに高めることを基本とし，第２学年と第３学年の発達の特性を考慮して内容の選択や一題材に充てる時間数などについて十分検討すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=117>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

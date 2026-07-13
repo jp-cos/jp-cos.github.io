@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250100200000000
   dct:identifier "8250100200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1659
   ];
   schema:description "(2) 日常の事象を数理的に捉え見通しをもち筋道を立てて考察する力，基礎的・基本的な数量や図形の性質などを見いだし統合的・発展的に考察する力，数学的な表現を用いて事象を簡潔・明瞭・的確に表したり目的に応じて柔軟に表したりする力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=21>;
   cs:courseOfStudy cs:Elementary\/2017;

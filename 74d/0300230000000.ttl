@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74d0300230000000
   dct:identifier "74d0300230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8153
   ];
   schema:description "(3) 英語に関する学科の各科目については，その特質にかんがみ，生徒が英語に触れる機会を充実するとともに，授業を実際のコミュニケーションの場面とするため，授業は英語で行うことを基本とすること。その際，生徒の理解の程度に応じた英語を用いるよう十分配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

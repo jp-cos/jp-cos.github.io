@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7361233521000000
   dct:identifier "7361233521000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 691
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 691 691
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 691
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 691 691 697
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 697
   ];
   schema:description """(ア) 仕事とエネルギー
 仕事に関する実験を行い，仕事と仕事率について理解すること。また，衝突の実験を行い，物体のもつエネルギーの量は物体が他の物体になしうる仕事で測れることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

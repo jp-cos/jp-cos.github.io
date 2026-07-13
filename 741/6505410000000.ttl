@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7416505410000000
   dct:identifier "7416505410000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 293
   ];
   schema:description "ア　教材は，言語文化の変遷について理解を深める学習に資するよう，文種や形態，長短や難易などに配慮して適当な部分を取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

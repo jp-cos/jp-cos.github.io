@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G202a4241000000
   dct:identifier "8G202a4241000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2742
   ];
   schema:description "(ア) 我が国の農業や水産業における食料生産に関わる学習活動を通して， 次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G202a4241100000, cs:8G202a4241200000, cs:8G202a4241300000, cs:8G202a4241400000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

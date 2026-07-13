@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000332100000
   dct:identifier "8600000332100000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 36
   ];
   schema:description "ア　小学部又は中学部の各学年における第２章以下に示す各教科（知的障害者である生徒に対する教育を行う特別支援学校の中学部において，外国語科を設ける場合を含む。以下同じ。），道徳科，外国語活動（知的障害者である児童に対する教育を行う特別支援学校の小学部において，外国語活動を設ける場合を含む。以下同じ。），総合的な学習の時間，特別活動（学級活動（学校給食に係る時間を除く。）に限る。以下，この項，イ及びカにおいて同じ。） 及び自立活動（以下「各教科等」という。）の総授業時数は，小学校又は中学校の各学年における総授業時数に準ずるものとする。この場合，各教科等の目標及び内容を考慮し，それぞれの年間の授業時数を適切に定めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=226>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

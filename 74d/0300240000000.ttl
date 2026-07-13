@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74d0300240000000
   dct:identifier "74d0300240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8154
   ];
   schema:description "(4) 教材については，英語を通じてコミュニケーション能力を総合的に育成するため，各科目の目標に応じ，実際の言語の使用場面や言語の働きに十分配慮したものを取り上げるものとすること。その際，英語を日常使用している人々を中心とする世界の人々及び日本人の日常生活，風俗習慣，物語，地理，歴史，伝統文化や自然科学などに関するものの中から，生徒の発達の段階及び興味・関心に即して適切な題材を変化をもたせて取り上げるものとし，次の観点に留意する必要があること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:74d0300241000000, cs:74d0300242000000, cs:74d0300243000000, cs:74d0300244000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

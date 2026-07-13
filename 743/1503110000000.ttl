@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7431503110000000
   dct:identifier "7431503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 308
   ];
   schema:description """ア　自然環境と歴史
 　歴史の舞台としての自然環境について，河川，海洋，草原，オアシス，森林などから適切な事例を取り上げ，地図や写真などを読み取る活動を通して，自然環境と人類の活動が相互に作用し合っていることに気付かせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

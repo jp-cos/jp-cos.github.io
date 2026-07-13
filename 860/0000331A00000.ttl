@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000331A00000
   dct:identifier "8600000331A00000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 34
   ];
   schema:description "コ　道徳科を要として学校の教育活動全体を通じて行う道徳教育の内容は，小学部においては第３章特別の教科道徳において準ずるものとしている小学校学習指導要領第３章特別の教科道徳の第２に示す内容，中学部においては第３章特別の教科道徳において準ずるものとしている中学校学習指導要領第３ 章特別の教科道徳の第２に示す内容とし，その実施に当たっては，第７節に示す道徳教育に関する配慮事項を踏まえるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=224>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

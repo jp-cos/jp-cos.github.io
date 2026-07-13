@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7450300300000000
   dct:identifier "7450300300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 815
   ];
   schema:description "３　指導に当たっては，各科目の特質に応じ数学的活動を重視し，数学を学習する意義などを実感できるようにするとともに，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7450300310000000, cs:7450300320000000, cs:7450300330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

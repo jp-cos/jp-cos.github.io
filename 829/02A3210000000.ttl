@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82902A3210000000
   dct:identifier "82902A3210000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2880
   ];
   schema:description "(1) 鑑賞の活動を通して，次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82902A3211000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=53>;
   cs:courseOfStudy cs:Elementary\/2017;

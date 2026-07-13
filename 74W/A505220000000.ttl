@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74WA505220000000
   dct:identifier "74WA505220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7029
   ];
   schema:description "イ　内容の(2)については，小児期の成長・発達に関する基礎的な内容と小児の日常生活，家族の子どもに対するかかわり方や生活指導，育児における家族の役割などについて看護と関連付けて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400110000001
   dct:identifier "73K0400110000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1541
   ];
   schema:description """［自主，自律，自由と責任］
 　自律の精神を重んじ，自主的に考え，判断し，誠実に実行してその結果に責任をもつこと。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X4505110000000
   dct:identifier "74X4505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7182
   ];
   schema:description "ア　指導に当たっては，実習を通して，情報及びコンピュータや情報通信ネットワークなどの情報手段を活用した問題の発見から解決までの過程において必要とされる知識と技術について理解させること。また，適切な解決方法を用いることの重要性について考えさせるとともに，問題解決の手法を適切に選択することができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8432502300000000
   dct:identifier "8432502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 610
   ];
   schema:description "(3) 地理に関わる諸事象について，よりよい社会の実現を視野にそこで見られる課題を主体的に探究しようとする態度を養うとともに，多面的・多角的な考察や深い理解を通して涵(かん)養される日本国民としての自覚，我が国の国土に対する愛情，世界の諸地域の多様な生活文化を尊重しようとすることの大切さについての自覚などを深める。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

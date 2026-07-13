@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000320000000
   dct:identifier "7400000320000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 46
   ];
@@ -16,7 +16,7 @@ cs:7400000320000000
 　専門学科における各教科・科目の履修については，上記１のほか次のとおりとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7400000321000000, cs:7400000322000000, cs:7400000323000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

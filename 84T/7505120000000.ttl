@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84T7505120000000
   dct:identifier "84T7505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7561
   ];
   schema:description "イ　レーダー・自動衝突予防援助装置シミュレータ，電子海図や実習船等を活用した実験・実習などの体験的な学習活動を通して，船舶の安全かつ適切な航海の重要性について具体的に理解できるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

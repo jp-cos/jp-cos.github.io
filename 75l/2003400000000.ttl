@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:75l2003400000000
   dct:identifier "75l2003400000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 37
   ];
   schema:description "(4)   環境の把握";
   schema:edition "一部改正なし";
   schema:hasPart cs:75l2003410000000, cs:75l2003420000000, cs:75l2003430000000, cs:75l2003440000000, cs:75l2003450000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

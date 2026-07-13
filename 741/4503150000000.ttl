@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7414503150000000
   dct:identifier "7414503150000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 238
   ];
   schema:description "オ　語句の意味，用法を的確に理解し，語彙《い》を豊かにするとともに，文体や修辞などの表現上の特色をとらえ，自分の表現や推敲《こう》に役立てること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

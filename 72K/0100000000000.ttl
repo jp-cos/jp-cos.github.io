@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0100000000000
   dct:identifier "72K0100000000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2622
   ];
@@ -17,7 +17,7 @@ cs:72K0100000000000
 　道徳の時間においては，以上の道徳教育の目標に基づき，各教科，外国語活動，総合的な学習の時間及び特別活動における道徳教育と密接な関連を図りながら，計画的，発展的な指導によってこれを補充，深化，統合し，道徳的価値の自覚及び自己の生き方についての考えを深め，道徳的実践力を育成するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K0100000000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

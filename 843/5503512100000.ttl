@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503512100000
   dct:identifier "8435503512100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 986
   ];
   schema:description "(ア) 国際機構の形成と紛争に関わる諸事象の歴史的背景や原因，結果や影響，事象相互の関連，諸地域相互のつながりなどに着目し，主題を設定し，諸資料を比較したり関連付けたりして読み解き，国際連盟と国際連合との共通点と相違点，冷戦下の紛争解決と冷戦後の紛争解決との共通点と相違点，紛争と経済や社会の変化との関連性などを多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

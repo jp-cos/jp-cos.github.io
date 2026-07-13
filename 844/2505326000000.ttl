@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442505326000000
   dct:identifier "8442505326000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1145
   ];
   schema:description "(カ) (1)のアの(オ)については，古今東西の代表的な先哲の思想を取り上げ，人間をどのように捉え，どのように生きることを指し示しているかについて，自己の課題と結び付けて思索するために必要な技能を身に付けることができるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

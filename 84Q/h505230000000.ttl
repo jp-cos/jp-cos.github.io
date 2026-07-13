@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qh505230000000
   dct:identifier "84Qh505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6045
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，流体の力学計算，物質収支，エネルギー収支を扱うこと。イについては，伝熱及び熱交換を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

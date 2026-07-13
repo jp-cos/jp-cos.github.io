@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8GI02b4210000000
   dct:identifier "8GI02b4210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3980
   ];
@@ -16,7 +16,7 @@ cs:8GI02b4210000000
 身近にある情報や情報技術を活用して問題を知り，問題を解決する方法に着目し，解決に向けた活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GI02b4211000000, cs:8GI02b4212000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

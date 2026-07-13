@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2503310000000
   dct:identifier "74G2503310000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1359
   ];
   schema:description """ア　環境と健康
 　人間の生活や産業活動は，自然環境を汚染し健康に影響を及ぼすこともあること。それらを防ぐには，汚染の防止及び改善の対策をとる必要があること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

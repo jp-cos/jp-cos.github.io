@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:85l2003100000000
   dct:identifier "85l2003100000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 90
   ];
   schema:description "(1) 　健康の保持";
   schema:edition "一部改正なし";
   schema:hasPart cs:85l2003110000000, cs:85l2003120000000, cs:85l2003130000000, cs:85l2003140000000, cs:85l2003150000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

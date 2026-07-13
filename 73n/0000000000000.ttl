@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73n0000000000000
   dct:identifier "73n0000000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 39
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 39 39
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 39
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 39 39 45
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 45
   ];
   schema:description "第２章　各教科";
   schema:edition "一部改正なし";
   schema:hasPart cs:7310000000000000, cs:7320000000000000, cs:7350000000000000, cs:7360000000000000, cs:7380000000000000, cs:73A0000000000000, cs:73C0000000000000, cs:73G0000000000000, cs:73H0000000000000, cs:73K0000000000000, cs:73M0000000000000, cs:73N0000000000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

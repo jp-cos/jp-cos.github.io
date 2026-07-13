@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G2503113000000
   dct:identifier "84G2503113000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2129
   ];
   schema:description """(ウ) 生活習慣病などの予防と回復
 健康の保持増進と生活習慣病などの予防と回復には，運動，食事，休養及び睡眠の調和のとれた生活の実践や疾病の早期発見，及び社会的な対策が必要であること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RG505240000000
   dct:identifier "74RG505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5364
   ];
   schema:description "エ　内容の(4)のアについては，ビジネス文書を作成するために必要な適切な文章の表現方法を扱うこと。ウについては，コンピュータを活用して，社外文書や報告書などビジネス文書を作成する方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

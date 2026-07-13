@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260233110000000
   dct:identifier "7260233110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1861
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1861 1870
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1870
   ];
   schema:description """(1) 物と重さ
 　粘土などを使い，物の重さや体積を調べ，物の性質についての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260233111000000, cs:7260233112000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

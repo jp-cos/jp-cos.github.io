@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000541000000
   dct:identifier "7400000541000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 78
   ];
   schema:description "(1) 普通科においては，地域や学校の実態，生徒の特性，進路等を考慮し，必要に応じて，適切な職業に関する各教科・科目の履修の機会の確保について配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

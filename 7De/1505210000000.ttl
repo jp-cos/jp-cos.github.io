@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7De1505210000000
   dct:identifier "7De1505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 234
   ];
   schema:description "ア  内容の(2)については， 現代の医療制度の現状とその当面する課題の概要を理解させること。 特に， 代替医療が注目されていることと保健理療の果たす役割についても理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

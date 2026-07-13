@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04A0321000001
   dct:identifier "72K04A0321000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 2681
   ];
   schema:description """〔第１学年及び第２学年〕
 　自分の好き嫌いにとらわれないで接すること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

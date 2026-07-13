@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74WB505230000000
   dct:identifier "74WB505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7057
   ];
   schema:description "ウ　内容の(3)については，災害直後から支援できる看護の基礎的な知識や心的外傷後ストレス障害などの心のケアについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7443503110000000
   dct:identifier "7443503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 575
   ];
   schema:description """ア　民主政治の基本原理と日本国憲法
 　日本国憲法における基本的人権の尊重，国民主権，天皇の地位と役割，国会，内閣，裁判所などの政治機構を概観させるとともに，政治と法の意義と機能，基本的人権の保障と法の支配，権利と義務の関係，議会制民主主義，地方自治などについて理解させ，民主政治の本質や現代政治の特質について把握させ，政党政治や選挙などに着目して，望ましい政治の在り方及び主権者としての政治参加の在り方について考察させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

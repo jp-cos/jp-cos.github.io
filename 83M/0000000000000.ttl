@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83M0000000000000
   dct:identifier "83M0000000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2099
   ];
   schema:description "第４章　総合的な学習の時間";
   schema:edition "一部改正なし";
   schema:hasPart cs:83M0100000000000, cs:83M0200000000000, cs:83M0300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_012.pdf#page=164>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

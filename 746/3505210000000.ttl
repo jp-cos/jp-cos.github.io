@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7463505210000000
   dct:identifier "7463505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 954
   ];
@@ -18,7 +18,7 @@ cs:7463505210000000
 　エの(ア)については，ケプラーの法則を扱うこと。(イ)については，万有引力の位置エネルギーも扱うこと。
 　オの(ア)については，理想気体の状態方程式，気体分子の速さ，平均の運動エネルギーなどを扱うこと。(イ)については，理想気体を扱うこと。(ウ)については，熱力学第一法則を扱うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

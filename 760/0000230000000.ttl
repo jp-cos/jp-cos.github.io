@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000230000000
   dct:identifier "7600000230000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 24
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 24 25
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 25
   ];
   schema:description "第３   授業時数等の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:7600000231000000, cs:7600000232000000, cs:7600000233000000, cs:7600000234000000, cs:7600000235000000, cs:7600000236000000, cs:7600000237000000, cs:7600000238000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

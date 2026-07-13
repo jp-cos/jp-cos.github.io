@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N1202000000000
   dct:identifier "84N1202000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10897
   ];
   schema:description """１　目標
 ホームルームや学校での生活をよりよくするための課題を見いだし，解決するために話し合い，合意形成し，役割を分担して協力して実践したり，ホームルームでの話合いを生かして自己の課題の解決及び将来の生き方を描くために意思決定して実践したりすることに，自主的，実践的に取り組むことを通して，第１の目標に掲げる資質・能力を育成することを目指す。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

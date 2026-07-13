@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000650000000
   dct:identifier "8500000650000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 75
   ];
   schema:description "５ 海外から帰国した幼児や生活に必要な日本語の習得に困難のある幼児の学校生活への適応海外から帰国した幼児や生活に必要な日本語の習得に困難のある幼児については，安心して自己を発揮できるよう配慮するなど個々の幼児の実態に応じ，指導内容や指導方法の工夫を組織的かつ計画的に行うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

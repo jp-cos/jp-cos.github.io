@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72203L0110000000
   dct:identifier "72203L0110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1441
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1441 1450
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1450
   ];
   schema:description "(1) 各学校においては，地域の実態を生かし，児童が興味・関心をもって学習に取り組めるようにするとともに，観察や調査・見学などの体験的な活動やそれに基づく表現活動の一層の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

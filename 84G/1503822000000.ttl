@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503822000000
   dct:identifier "84G1503822000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2092
   ];
   schema:description "イ　運動やスポーツの効果的な学習の仕方について，課題を発見し，よりよい解決に向けて思考し判断するとともに，他者に伝えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

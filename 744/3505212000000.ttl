@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7443505212000000
   dct:identifier "7443505212000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 591
   ];
   schema:description "(イ) イについては，文化や宗教の多様性についても理解させること。また，「国際紛争の諸要因」については，多様な角度から考察させるとともに，軍縮や核兵器廃絶などに関する国際的な取組についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72202C3100000000
   dct:identifier "72202C3100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1289
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1289 1298
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1298
   ];
   schema:description "(1) 自分たちの住んでいる身近な地域や市（区，町，村）について，次のことを観察，調査したり白地図にまとめたりして調べ，地域の様子は場所によって違いがあることを考えるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72202C3110000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

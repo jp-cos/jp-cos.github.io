@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250242100000000
   dct:identifier "7250242100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1638
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1638 1647
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1647
   ];
   schema:description "(1) 除法についての理解を深め，適切に用いることができるようにする。また，小数及び分数の意味や表し方についての理解を深め，小数及び分数についての加法及び減法の意味を理解し，それらの計算の仕方を考え，用いることができるようにする。さらに，概数について理解し，目的に応じて用いることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

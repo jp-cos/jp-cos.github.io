@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72L03D0215100000
   dct:identifier "72L03D0215100000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2737
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2737 2763
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2763
   ];
   schema:description "〔コミュニケーションの場面の例〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:72L03D0215110000, cs:72L03D0215120000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

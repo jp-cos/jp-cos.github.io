@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84WA503110000000
   dct:identifier "84WA503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9222
   ];
   schema:description "(1) 在宅看護の特徴";
   schema:edition "一部改正なし";
   schema:hasPart cs:84WA503111000000, cs:84WA503112000000, cs:84WA503113000000, cs:84WA503114000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

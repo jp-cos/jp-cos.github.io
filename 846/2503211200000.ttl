@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8462503211200000
   dct:identifier "8462503211200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1605
   ];
   schema:description """㋑　音と振動
 気柱の共鳴に関する実験などを行い，気柱の共鳴と音源の振動数を関連付けて理解すること。また，弦の振動，音波の性質を理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

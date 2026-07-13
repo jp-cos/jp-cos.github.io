@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K04D0373000000
   dct:identifier "82K04D0373000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3508
   ];
   schema:description """〔第５学年及び第６学年〕 
 他国の人々や文化について理解し，日本人としての自覚をもって国際親善に努めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=67>;
   cs:courseOfStudy cs:Elementary\/2017;

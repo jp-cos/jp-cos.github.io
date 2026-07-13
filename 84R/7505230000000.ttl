@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R7505230000000
   dct:identifier "84R7505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6856
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，観光ビジネスの各主体に関して，役割や業務などの概要及び関連する法規の概要について扱うこと。エについては，観光ビジネスにおけるホスピタリティの概念と重要性，観光ビジネスにおける接客方法と接客マナーなどについて扱うこと。また，緊急時の対応体制の構築など安全管理についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

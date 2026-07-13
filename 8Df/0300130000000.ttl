@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df0300130000000
   dct:identifier "8Df0300130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1171
   ];
   schema:description "(3) 各科目に指導に当たっては，施術の対象となる代表的な疾患や愁訴に対する施術の適応を判断し確実に施術ができるようにするため，個々の生徒の実態に応じた指導計画の作成に配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

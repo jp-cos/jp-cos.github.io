@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H1503222130000
   dct:identifier "84H1503222130000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2824
   ];
   schema:description "(ウ) 特有の表現がよく使われる場面 ";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H1503222131000, cs:84H1503222132000, cs:84H1503222133000, cs:84H1503222134000, cs:84H1503222135000, cs:84H1503222136000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

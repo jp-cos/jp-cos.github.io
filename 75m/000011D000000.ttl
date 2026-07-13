@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:75m000011D000000
   dct:identifier "75m000011D000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 86
   ];
   schema:description "13  家庭及び地域や医療， 福祉， 保健等の業務を行う関係機関との連携を図り， 長期的な視点で幼児への教育的支援を行うために， 個別の教育支援計画を作成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

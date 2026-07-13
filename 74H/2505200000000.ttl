@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H2505200000000
   dct:identifier "74H2505200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1711
   ];
   schema:description "(2) 生徒の実態に応じて，多様な場面における言語活動を経験させながら，中学校や高等学校における学習内容を繰り返して指導し定着を図るよう配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

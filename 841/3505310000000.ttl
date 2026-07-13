@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8413505310000000
   dct:identifier "8413505310000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 370
   ];
   schema:description "ア　内容の〔思考力，判断力，表現力等〕の「Ｂ読むこと」の教材は，近代以降の論理的な文章及び現代の社会生活に必要とされる実用的な文章とすること。また，必要に応じて，翻訳の文章や古典における論理的な文章などを用いることができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

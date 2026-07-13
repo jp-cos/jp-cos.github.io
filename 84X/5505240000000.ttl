@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X5505240000000
   dct:identifier "84X5505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9474
   ];
   schema:description "エ　〔指導項目〕の(4)のアについては，情報セキュリティを確保するための体制，運用規定，基本方針，対策基準などについて扱うこと。イについては，情報資産に対する脅威について実効性のある対策とその運用について扱うこと。ウについては，事業継続計画，監査及び第三者認証について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

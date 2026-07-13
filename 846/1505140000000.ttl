@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8461505140000000
   dct:identifier "8461505140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1574
   ];
   schema:description "エ　内容の(2)のアの(ア)から(エ)までについては，生徒の実態等を考慮し，それぞれ㋐又は㋑のいずれかを選択して扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

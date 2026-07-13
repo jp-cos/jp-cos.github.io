@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72202C2200000000
   dct:identifier "72202C2200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1286
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1286 1295
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1295
   ];
   schema:description "(2) 地域の地理的環境，人々の生活の変化や地域の発展に尽くした先人の働きについて理解できるようにし，地域社会に対する誇りと愛情を育てるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

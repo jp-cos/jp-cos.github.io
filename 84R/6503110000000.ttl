@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84R6503110000000
   dct:identifier "84R6503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6796
   ];
   schema:description "(1) 現代市場と商品開発・流通";
   schema:edition "一部改正なし";
   schema:hasPart cs:84R6503111000000, cs:84R6503112000000, cs:84R6503113000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

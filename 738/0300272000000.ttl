@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7380300272000000
   dct:identifier "7380300272000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 956
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 956 956
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 956
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 956 956 962
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 962
   ];
   schema:description "イ  適宜，自然音や環境音などについても取り扱い，音環境への関心を高めたり，音や音楽が生活に果たす役割を考えさせたりするなど，生徒が音や音楽と生活や社会とのかかわりを実感できるような指導を工夫すること。また，コンピュータや教育機器の活用も工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

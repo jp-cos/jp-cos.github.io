@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8BO0000000000000
   dct:identifier "8BO0000000000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4232
   ];
   schema:description "第６章　自立活動";
   schema:edition "一部改正なし";
   schema:hasPart cs:8BO0100000000000, cs:8BO0300000000000, cs:8BO0400000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74PS503200000000
   dct:identifier "74PS503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2974
   ];
   schema:description "(2) 位置や高さの測量";
   schema:edition "一部改正なし";
   schema:hasPart cs:74PS503210000000, cs:74PS503220000000, cs:74PS503230000000, cs:74PS503240000000, cs:74PS503250000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

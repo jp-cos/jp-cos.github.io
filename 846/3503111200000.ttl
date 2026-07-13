@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8463503111200000
   dct:identifier "8463503111200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1634
   ];
   schema:description """㋑　放物運動
 水平投射及び斜方投射された物体の運動を直線運動と関連付けて理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

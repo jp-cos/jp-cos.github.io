@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8250233312000000
   dct:identifier "8250233312000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1884
   ];
   schema:description "イ　次のような思考力，判断力，表現力等を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8250233312100000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=170>;
   cs:courseOfStudy cs:Elementary\/2017;

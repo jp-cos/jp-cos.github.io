@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7453503311000000
   dct:identifier "7453503311000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 715
   ];
   schema:description """(ア) 関数の和・差・積・商の導関数
 　関数の積及び商の導関数について理解し，関数の和，差，積及び商の導関数を求めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250232300000000
   dct:identifier "7250232300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1561
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1561 1570
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1570
   ];
   schema:description "(3) 図形を構成する要素に着目して，二等辺三角形や正三角形などの図形について理解できるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

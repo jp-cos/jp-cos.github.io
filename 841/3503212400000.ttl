@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8413503212400000
   dct:identifier "8413503212400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 347
   ];
   schema:description "エ　設定した題材について多様な資料を集め，調べたことを整理して，様々な観点から自分の意見や考えを論述する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84P1505230000000
   dct:identifier "84P1505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3485
   ];
   schema:description "ウ　〔指導項目〕の(3)については，農業生物の生理・生態的な特性，気象・土壌・生物などの環境要素やそれらの相互関係及び農業生産工程管理などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

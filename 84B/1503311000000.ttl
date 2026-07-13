@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B1503311000000
   dct:identifier "84B1503311000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2227
   ];
   schema:description "ア　音楽を形づくっている要素や要素同士の関連を知覚し，それらの働きを感受しながら，知覚したことと感受したこととの関わりについて考えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

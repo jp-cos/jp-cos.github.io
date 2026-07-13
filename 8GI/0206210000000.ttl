@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GI0206210000000
   dct:identifier "8GI0206210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4014
   ];
   schema:description "ア　情報の信頼性や信憑性を確認する基礎的な能力の育成を図るとともに，知的財産や個人情報の保護と活用など，情報モラルの育成を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

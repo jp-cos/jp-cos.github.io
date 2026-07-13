@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QR505230000000
   dct:identifier "84QR505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5468
   ];
   schema:description "ウ　〔指導項目〕の(3)のア及びイについては，ソフトウェアの制作における要求分析や設計，ドキュメンテーション及びテストを関連付けた効果的な制作の技法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7600000242600000
   dct:identifier "7600000242600000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 47
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 47 48
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 48
   ];
   schema:description "(6) 小学部の各教科等の指導に当たっては， 児童が学習課題や活動を選択したり，  自らの将来について考えたりする機会を設けるなど工夫すること。 また， 中学部においては， 生徒が学校や学級での生活によりよく適応するとともに， 現在及び将来の生き方を考え行動する態度や能力を育成することができるよう， 学校の教育活動全体を通じ， ガイダンスの機能の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

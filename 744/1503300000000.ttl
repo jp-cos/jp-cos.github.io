@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7441503300000000
   dct:identifier "7441503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 530
   ];
   schema:description """(3) 共に生きる社会を目指して
 　持続可能な社会の形成に参画するという観点から課題を探究する活動を通して，現代社会に対する理解を深めさせるとともに，現代に生きる人間としての在り方生き方について考察を深めさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

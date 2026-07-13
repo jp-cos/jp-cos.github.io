@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8220265210000000
   dct:identifier "8220265210000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1589
   ];
   schema:citation cs:8220263211000000, cs:8220263212000000, cs:8220263213000000, cs:8220263214000000, cs:8220263215000000, cs:8220263216000000, cs:8220263217000000, cs:8220263218000000, cs:8220263219000000, cs:822026321A000000, cs:822026321B000000;
   schema:description "ア　アの(ア)から(サ)までについては，児童の興味・関心を重視し，取り上げる人物や文化遺産の重点の置き方に工夫を加えるなど，精選して具体的に理解できるようにすること。その際，アの(サ)の指導に当たっては，児童の発達の段階を考慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=129>;
   cs:courseOfStudy cs:Elementary\/2017;

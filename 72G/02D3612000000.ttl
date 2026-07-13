@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G02D3612000000
   dct:identifier "72G02D3612000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2582
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2582 2591
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2591
   ];
   schema:description "イ　フォークダンスでは，踊り方の特徴をとらえ，音楽に合わせて簡単なステップや動きで踊ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

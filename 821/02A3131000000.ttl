@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3131000000
   dct:identifier "82102A3131000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 118
   ];
   schema:description "ア　昔話や神話・伝承などの読み聞かせを聞くなどして，我が国の伝統的な言語文化に親しむこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=56>;
   cs:courseOfStudy cs:Elementary\/2017;

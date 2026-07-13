@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250243512000000
   dct:identifier "7250243512000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1694
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1694 1703
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1703
   ];
   schema:description "イ　長方形を組み合わせた図形の面積の求め方を，具体物を用いたり，言葉，数，式，図を用いたりして考え，説明する活動";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N5203100000000
   dct:identifier "72N5203100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2822
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2822 2848
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2848
   ];
   schema:description """(1) 儀式的行事
 学校生活に有意義な変化や折り目を付け，厳粛で清新な気分を味わい，新しい生活の展開への動機付けとなるような活動を行うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

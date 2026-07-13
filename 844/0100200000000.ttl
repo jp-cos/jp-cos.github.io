@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8440100200000000
   dct:identifier "8440100200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1035
   ];
   schema:description "(2) 現代の諸課題について，事実を基に概念などを活用して多面的・多角的に考察したり，解決に向けて公正に判断したりする力や，合意形成や社会参画を視野に入れながら構想したことを議論する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

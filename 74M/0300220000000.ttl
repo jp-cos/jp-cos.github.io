@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74M0300220000000
   dct:identifier "74M0300220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8178
   ];
   schema:description "(2) 問題の解決や探究活動の過程においては，他者と協同して問題を解決しようとする学習活動や，言語により分析し，まとめたり表現したりするなどの学習活動が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231311000
   dct:identifier "8400000231311000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 35
   ];
   schema:description "音楽（音楽理論，音楽史，演奏研究，ソルフェージュ，声楽，器楽，作曲，鑑賞研究）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

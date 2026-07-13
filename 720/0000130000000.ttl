@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000130000000
   dct:identifier "7200000130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 5
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 5 5
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 5
   ];
   schema:description "３　学校における体育・健康に関する指導は，児童の発達の段階を考慮して，学校の教育活動全体を通じて適切に行うものとする。特に，学校における食育の推進並びに体力の向上に関する指導，安全に関する指導及び心身の健康の保持増進に関する指導については，体育科の時間はもとより，家庭科，特別活動などにおいてもそれぞれの特質に応じて適切に行うよう努めることとする。また，それらの指導を通して，家庭や地域社会との連携を図りながら，日常生活において適切な体育・健康に関する活動の実践を促し，生涯を通じて健康・安全で活力ある生活を送るための基礎が培われるよう配慮しなければならない。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73G12A3300000000
   dct:identifier "73G12A3300000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1082
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1082 1082
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1082
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1082 1082 1088
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1088
   ];
   schema:description "Ｃ　陸上競技";
   schema:edition "一部改正なし";
   schema:hasPart cs:73G12A3310000000, cs:73G12A3320000000, cs:73G12A3330000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

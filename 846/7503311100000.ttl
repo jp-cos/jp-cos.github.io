@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467503311100000
   dct:identifier "8467503311100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1871
   ];
   schema:description """㋐　遺伝情報とその発現
 DNAの複製に関する資料に基づいて，DNAの複製の仕組みを理解すること。また，遺伝子発現に関する資料に基づいて，遺伝子の発現の仕組みを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

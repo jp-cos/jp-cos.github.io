@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8380000000000000
   dct:identifier "8380000000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1173
   ];
   schema:description "第５節　音楽";
   schema:edition "一部改正なし";
   schema:hasPart cs:8380100000000000, cs:8380200000000000, cs:8380300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=13>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000120000000
   dct:identifier "8200000120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 4
   ];
   schema:description "２　学校の教育活動を進めるに当たっては，各学校において，第３の１に示す主体的・対話的で深い学びの実現に向けた授業改善を通して，創意工夫を生かした特色ある教育活動を展開する中で，次の(1)から(3)までに掲げる事項の実現を図り，児童に生きる力を育むことを目指すものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000121000000, cs:8200000122000000, cs:8200000123000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=30>;
   cs:courseOfStudy cs:Elementary\/2017;

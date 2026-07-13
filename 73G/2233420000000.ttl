@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73G2233420000000
   dct:identifier "73G2233420000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1222
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1222 1222
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1222
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1222 1222 1228
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1228
   ];
   schema:description "イ  健康の保持増進には，年齢，生活環境等に応じた食事，運動，休養及び睡眠の調和のとれた生活を続ける必要があること。また，食事の量や質の偏り，運動不足，休養や睡眠の不足などの生活習慣の乱れは，生活習慣病などの要因となること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84T0500000000000
   dct:identifier "84T0500000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7351
   ];
   schema:description "第２款　各　科　目";
   schema:edition "一部改正なし";
   schema:hasPart cs:84T1500000000000, cs:84T2500000000000, cs:84T3500000000000, cs:84T4500000000000, cs:84T5500000000000, cs:84T6500000000000, cs:84T7500000000000, cs:84T8500000000000, cs:84T9500000000000, cs:84TA500000000000, cs:84TB500000000000, cs:84TC500000000000, cs:84TD500000000000, cs:84TE500000000000, cs:84TF500000000000, cs:84TG500000000000, cs:84TH500000000000, cs:84TI500000000000, cs:84TJ500000000000, cs:84TK500000000000, cs:84TL500000000000, cs:84TM500000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

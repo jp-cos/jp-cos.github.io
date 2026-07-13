@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000313100000
   dct:identifier "8200000313100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 48
   ];
   schema:description "ア　児童がコンピュータで文字を入力するなどの学習の基盤として必要となる情報手段の基本的な操作を習得するための学習活動";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=92>;
   cs:courseOfStudy cs:Elementary\/2017;

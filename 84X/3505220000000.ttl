@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X3505220000000
   dct:identifier "84X3505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9416
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，情報を有効に共有し活用するために必要な情報の整理や分類の重要性及び様々なドキュメントの作成方法について扱うこと。イについては，コンピュータを用いて，情報の階層化や構造化による整理や分類及び情報を活用するために必要な抽出や共有などを扱うこと。ウについては，情報の適切な保護と管理，安全かつ有効な共有と活用について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

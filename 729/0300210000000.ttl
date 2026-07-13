@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7290300210000000
   dct:identifier "7290300210000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2348
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2348 2357
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2357
   ];
   schema:description "(1) 個々の児童が特性を生かした活動ができるようにするため，学習活動や表現方法などに幅をもたせるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

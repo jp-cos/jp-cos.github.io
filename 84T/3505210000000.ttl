@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84T3505210000000
   dct:identifier "84T3505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7418
   ];
   schema:description "ア　〔指導項目〕の(1)については，漁業乗船実習及び漁業生産実習を行うこととするが，いずれかを選択して扱うことができること。また，漁業乗船実習の一環として，外地寄港地活動や海事実務英語などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

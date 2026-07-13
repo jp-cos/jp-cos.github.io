@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7280263143200000
   dct:identifier "7280263143200000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2186
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2186 2195
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2195
   ];
   schema:description "〔第６学年〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:7280263143210000, cs:7280263143220000, cs:7280263143230000, cs:7280263143240000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

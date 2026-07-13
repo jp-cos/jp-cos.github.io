@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84RJ500000000000
   dct:identifier "84RJ500000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7274
   ];
   schema:description "第19　ネットワーク活用";
   schema:edition "一部改正なし";
   schema:hasPart cs:84RJ502000000000, cs:84RJ503000000000, cs:84RJ505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

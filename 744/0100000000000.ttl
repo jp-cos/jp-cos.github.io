@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7440100000000000
   dct:identifier "7440100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 518
   ];
   schema:description """第１款　目標
 　広い視野に立って，現代の社会について主体的に考察させ，理解を深めさせるとともに，人間としての在り方生き方についての自覚を育て，平和で民主的な国家・社会の有為な形成者として必要な公民としての資質を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:7361233700000000
   dct:identifier "7361233700000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 701
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 701 701
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 701
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 701 701 707
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 707
   ];
   schema:description """(7) 科学技術と人間
 エネルギー資源の利用や科学技術の発展と人間生活とのかかわりについて認識を深め，自然環境の保全と科学技術の利用の在り方について科学的に考察し判断する態度を養う。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7361233710000000, cs:7361233720000000, cs:7361233730000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

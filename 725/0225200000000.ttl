@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250225200000000
   dct:identifier "7250225200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1554
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1554 1563
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1563
   ];
   schema:description "(2) 内容の「Ａ数と計算」の(2)及び「Ｄ数量関係」の(1)については，必要な場合には，（　）や□などを用いることができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

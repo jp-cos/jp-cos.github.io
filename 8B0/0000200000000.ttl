@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000200000000
   dct:identifier "8B00000200000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 5
   ];
   schema:description "第２節　教育課程の編成";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000210000000, cs:8B00000220000000, cs:8B00000230000000, cs:8B00000240000000, cs:8B00000250000000, cs:8B00000260000000, cs:8B00000270000000, cs:8B00000280000000, cs:8B00000290000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

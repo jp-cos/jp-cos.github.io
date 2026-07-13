@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7323235110000000
   dct:identifier "7323235110000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 382
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 382 382
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 382
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 382 382 388
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 388
   ];
   schema:description "ア  地理的分野及び歴史的分野の学習の成果を活用するとともに，これらの分野で育成された能力や態度が，更に高まり発展するようにすること。また，社会的事象は相互に関連し合っていることに留意し，特定の内容に偏ることなく，分野全体として見通しをもったまとまりのある学習が展開できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

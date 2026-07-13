@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7456503100000000
   dct:identifier "7456503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 796
   ];
@@ -16,7 +16,7 @@ cs:7456503100000000
 　数学が人間の活動にかかわってつくられ発展してきたことやその方法を理解するとともに，数学と文化とのかかわりについての認識を深める。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7456503110000000, cs:7456503120000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

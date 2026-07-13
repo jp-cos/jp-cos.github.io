@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502b4215110000
   dct:identifier "8G502b4215110000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3038
   ];
   schema:description "㋐ 数量を表す言葉や□，△などの代わりに，a，x などの文字を用いて式に表したり，文字に数を当てはめて調べたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

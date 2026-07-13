@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QE505110000000
   dct:identifier "84QE505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5041
   ];
   schema:description "ア　生産技術の進歩と社会の変化との関連について，コンピュータを活用した実験・実習を通して考察するよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

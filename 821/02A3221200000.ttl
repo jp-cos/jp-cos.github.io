@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3221200000
   dct:identifier "82102A3221200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 139
   ];
   schema:description "イ　自分の思いや考えが明確になるように，事柄の順序に沿って簡単な構成を考えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=68>;
   cs:courseOfStudy cs:Elementary\/2017;

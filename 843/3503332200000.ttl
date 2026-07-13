@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8433503332200000
   dct:identifier "8433503332200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 738
   ];
   schema:description "(イ) 第二次世界大戦の推移と第二次世界大戦が大戦後の世界に与えた影響，第二次世界大戦後の国際秩序の形成が社会に及ぼした影響などに着目して，主題を設定し，日本とその他の国や地域の動向を比較したり，相互に関連付けたりするなどして，第二次世界大戦の性格と惨禍，第二次世界大戦下の社会状況や人々の生活，日本に対する占領政策と国際情勢との関係などを多面的・多角的に考察し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

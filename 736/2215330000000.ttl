@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7362215330000000
   dct:identifier "7362215330000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 823
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 823 823
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 823
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 823 823 829
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 829
   ];
   schema:description "ウ　イの(ア)については，地層を形成している代表的な堆《たい》積岩も取り上げること。「野外観察」については，学校内外の地層を観察する活動とすること。「地層」については，断層，褶《しゅう》曲にも触れること。「化石」については，示相化石及び示準化石を取り上げること。「地質年代」の区分は古生代，中生代，新生代の第三紀及び第四紀を取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

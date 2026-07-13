@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74WC505120000000
   dct:identifier "74WC505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7080
   ];
   schema:description "イ　指導に当たっては，臨床の場における学習の効果を高めるために，事前及び事後の指導を適切に行うこと。また，医療事故などの防止及び個人情報保護に関する指導を徹底し，安全と衛生に十分留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

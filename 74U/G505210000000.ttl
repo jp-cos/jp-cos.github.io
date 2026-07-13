@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74UG505210000000
   dct:identifier "74UG505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6639
   ];
   schema:description "ア　内容の(1)のイについては，代表的な食品の調理上の性質について扱うこと。ウについては，加熱操作，非加熱操作及び調味の方法と特徴について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

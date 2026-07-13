@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q6503140000000
   dct:identifier "84Q6503140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4767
   ];
   schema:description "(4) 工業材料の製造";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Q6503141000000, cs:84Q6503142000000, cs:84Q6503143000000, cs:84Q6503144000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

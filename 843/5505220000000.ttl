@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8435505220000000
   dct:identifier "8435505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1015
   ];
@@ -17,7 +17,7 @@ cs:8435505220000000
 (2)については，日常生活に見る世界の歴史に関わる具体的な事例を取り上げ，世界史学習への興味・関心をもたせるよう指導を工夫すること。
 """;
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

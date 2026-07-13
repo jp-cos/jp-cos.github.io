@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:75m0000127000000
   dct:identifier "75m0000127000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 94
   ];
   schema:description "７   以上のほか，次の事項に留意すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:75m0000127100000, cs:75m0000127200000, cs:75m0000127300000, cs:75m0000127400000, cs:75m0000127500000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

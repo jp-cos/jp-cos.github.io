@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Q5505210000000
   dct:identifier "74Q5505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3167
   ];
   schema:description "ア　内容の(1)のア及びイについては，中学校までに学んだ数学を基礎として数理処理できる工業の事象を扱うこと。ウについては，国際単位系を扱い，具体的な単位換算については内容の(2)及び(3)の中で扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

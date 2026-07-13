@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H1503222240000
   dct:identifier "84H1503222240000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2857
   ];
   schema:description "(エ) 考えや意図を伝える";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H1503222241000, cs:84H1503222242000, cs:84H1503222243000, cs:84H1503222244000, cs:84H1503222245000, cs:84H1503222246000, cs:84H1503222247000, cs:84H1503222248000, cs:84H1503222249000, cs:84H150322224A000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

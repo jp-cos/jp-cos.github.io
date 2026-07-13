@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434505180000000
   dct:identifier "8434505180000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 887
   ];
   schema:description "ク　地域社会の歴史と文化について扱うようにするとともに，祖先が地域社会の向上と文化の創造や発展に努力したことを具体的に理解させ，それらを尊重する態度を育てるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:73N1203000000000
   dct:identifier "73N1203000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1605
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1605 1605
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1605
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1605 1605 1612
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1612
   ];
   schema:description """２　内容
 　学級を単位として，学級や学校の生活の充実と向上，生徒が当面する諸課題への対応に資する活動を行うこと。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:73N1203100000000, cs:73N1203200000000, cs:73N1203300000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

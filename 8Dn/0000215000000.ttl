@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dn0000215000000
   dct:identifier "8Dn0000215000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 226
   ];
   schema:description "(5) 生徒が空間や時間の概念を活用して場の状況や活動の過程等を的確に把握できるよう配慮し，見通しをもって積極的な学習活動を展開できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

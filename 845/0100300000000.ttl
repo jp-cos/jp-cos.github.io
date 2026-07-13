@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8450100300000000
   dct:identifier "8450100300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1221
   ];
   schema:description "(3) 数学のよさを認識し積極的に数学を活用しようとする態度，粘り強く考え数学的論拠に基づいて判断しようとする態度，問題解決の過程を振り返って考察を深めたり，評価・改善したりしようとする態度や創造性の基礎を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

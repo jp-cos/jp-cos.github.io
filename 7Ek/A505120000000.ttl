@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7EkA505120000000
   dct:identifier "7EkA505120000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2212
   ];
   schema:description "イ   臨床的模型上での実習を行うなど， 多種多様な模型の活用を図り， 適切な知識や技術の習得を促すこと。また，  「歯の解剖学」，  「有床義歯技工学」及び「歯冠修復技工学」 と関連させながら，生徒の実態に応じて適切に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

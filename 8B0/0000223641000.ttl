@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000223641000
   dct:identifier "8B00000223641000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 131
   ];
   schema:description "(ア)  職業に関する各教科・科目については，就業体験活動をもって実習に替えることができること。この場合，就業体験活動は，その各教科・科目の内容に直接関係があり，かつ，その一部としてあらかじめ計画し，評価されるものであることを要すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

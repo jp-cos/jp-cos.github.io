@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82200L0000000000
   dct:identifier "82200L0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1364
   ];
   schema:description "第２節　社会";
   schema:edition "一部改正なし";
   schema:hasPart cs:82201L0000000000, cs:82202L0000000000, cs:82203L0000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=21>;
   cs:courseOfStudy cs:Elementary\/2017;

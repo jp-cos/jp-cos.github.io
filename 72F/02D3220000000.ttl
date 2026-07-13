@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72F02D3220000000
   dct:identifier "72F02D3220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2379
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2379 2388
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2388
   ];
   schema:description "(2) 栄養を考えた食事について，次の事項を指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72F02D3221000000, cs:72F02D3222000000, cs:72F02D3223000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

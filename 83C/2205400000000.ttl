@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83C2205400000000
   dct:identifier "83C2205400000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1820
   ];
   schema:description "(4) 内容の「Ｃ消費生活・環境」については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83C2205410000000, cs:83C2205420000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=160>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

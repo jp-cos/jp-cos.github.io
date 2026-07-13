@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8290300260000000
   dct:identifier "8290300260000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2946
   ];
   schema:description "(6) 材料や用具については，次のとおり取り扱うこととし，必要に応じて，当該学年より前の学年において初歩的な形で取り上げたり，その後の学年で繰り返し取り上げたりすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82903A0261000000, cs:82903C0262000000, cs:82903D0263000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=121>;
   cs:courseOfStudy cs:Elementary\/2017;

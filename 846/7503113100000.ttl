@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8467503113100000
   dct:identifier "8467503113100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1856
   ];
   schema:description """㋐　生物の系統と進化
 生物の遺伝情報に関する資料に基づいて，生物の系統と塩基配列やアミノ酸配列との関係を見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

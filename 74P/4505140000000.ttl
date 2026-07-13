@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74P4505140000000
   dct:identifier "74P4505140000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2141
   ];
   schema:description "エ　内容の(5)については，農業の各科目の学習や学校農業クラブ活動のプロジェクト学習を進める各段階において，情報及び情報技術を効果的に活用できるようにすること。また，課題の発見・解決に必要な創造的思考力や科学的判断力，コミュニケーション能力などの育成に配慮するとともに，情報機器や情報通信ネットワーク等を活用して学習の成果を整理・発信する能力や態度を育てること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

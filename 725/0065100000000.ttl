@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7250065100000000
   dct:identifier "7250065100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1838
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1838 1847
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1847
   ];
   schema:description "(1) 内容の「Ａ数と計算」の(1)については，逆数を用いて除法を乗法の計算としてみることや，整数や小数の乗法や除法を分数の場合の計算にまとめることも取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

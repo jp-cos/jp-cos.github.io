@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503310000000
   dct:identifier "7434503310000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 422
   ];
   schema:description """ア　歴史の説明
 　歴史的事象には複数の歴史的解釈が成り立つことに気付かせ，それぞれの根拠や論理を踏まえて，筋道立てて考えを説明させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

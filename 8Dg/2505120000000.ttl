@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dg2505120000000
   dct:identifier "8Dg2505120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1258
   ];
   schema:description "イ　〔指導項目〕の(2)から(7) までについては，理学療法と関係の深い代表的な疾患に重点を置くとともに，医用画像評価や疾病の予測や再発予防についても取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

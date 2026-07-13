@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TI505240000000
   dct:identifier "84TI505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8037
   ];
   schema:description "エ　〔指導項目〕の(6)のアについては，原価計算や簿記の基礎的な内容を扱うとともに，経営や起業に対する支援についても触れること。イについては，品質管理と製品検査の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

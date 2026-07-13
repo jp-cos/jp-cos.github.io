@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dn0000212000000
   dct:identifier "7Dn0000212000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 177
   ];
   schema:description "(2) 視覚的なイメージを伴わないと理解が困難な事柄については， 言葉の意味や用法の指導等を行い，理解を促すようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

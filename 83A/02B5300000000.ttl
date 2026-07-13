@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83A02B5300000000
   dct:identifier "83A02B5300000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1407
   ];
   schema:description "(3) 「Ｂ鑑賞」のイの(イ)の指導に当たっては，日本の美術の概括的な変遷などを捉えることを通して，各時代における作品の特質，人々の感じ方や考え方，願いなどを感じ取ることができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=118>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

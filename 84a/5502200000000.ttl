@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84a5502200000000
   dct:identifier "84a5502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10236
   ];
   schema:description "(2) ダンスにおける自他や社会の課題を発見し，思考し判断するとともに，他者に伝える力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

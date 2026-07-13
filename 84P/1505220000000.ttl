@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84P1505220000000
   dct:identifier "84P1505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3484
   ];
   schema:description "イ　〔指導項目〕の(2)については，社会や産業全体の課題及びその解決のために農業が果たしている役割，働くことの社会的意義や役割，職業人に求められる倫理観についても取り上げること。また，農業が有する生命を育むという生命倫理についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

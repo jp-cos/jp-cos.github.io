@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:7362223400000000
   dct:identifier "7362223400000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 782
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 782 782
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 782
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 782 782 788
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 788
   ];
   schema:description """(4) 気象とその変化
 身近な気象の観察，観測を通して，気象要素と天気の変化の関係を見いださせるとともに，気象現象についてそれが起こる仕組みと規則性についての認識を深める。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7362223410000000, cs:7362223420000000, cs:7362223430000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

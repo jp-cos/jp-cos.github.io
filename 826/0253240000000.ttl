@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8260253240000000
   dct:identifier "8260253240000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2456
   ];
@@ -16,16 +16,16 @@ cs:8260253240000000
 天気の変化の仕方について，雲の様子を観測したり，映像などの気象情報を活用したりする中で，雲の量や動きに着目して，それらと天気の変化とを関係付けて調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260253241000000, cs:8260253242000000;
-  rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
+  rdf:type cs:Item;
   cs:advancedItem [
     dct:provenance cs:commentary\/1000128;
-    rdf:type cs:Number cs:Item cs:StructuredItem;
-    rdf:value 2456 cs:8362223400000000
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8362223400000000
   ];
   cs:basicItem [
-    dct:provenance cs:commentary\/1000128 cs:commentary\/1000128;
-    rdf:type cs:Number cs:Item cs:StructuredItem cs:StructuredItem;
-    rdf:value 2456 cs:8362223400000000 cs:8260243240000000
+    dct:provenance cs:commentary\/1000128;
+    rdf:type cs:StructuredItem;
+    rdf:value cs:8260243240000000
   ];
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=78>;

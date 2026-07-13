@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:86O0400000000000
   dct:identifier "86O0400000000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2286
   ];
   schema:description "第２　内容";
   schema:edition "一部改正なし";
   schema:hasPart cs:86O0400100000000, cs:86O0400200000000, cs:86O0400300000000, cs:86O0400400000000, cs:86O0400500000000, cs:86O0400600000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=56>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

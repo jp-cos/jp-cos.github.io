@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G50206310000000
   dct:identifier "8G50206310000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3131
   ];
   schema:description "ア　数学的活動は，基礎的・基本的な知識及び技能を確実に身に付けたり， 思考力，判断力，表現力等を高めたり，数学を学ぶことの楽しさや意義を実感したりするために，重要な役割を果たすものであることから，２の内容の「Ａ数と計算」，「Ｂ図形」，「Ｃ変化と関係」及び「Ｄデータの活用」に示す事項については，数学的活動を通して指導するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

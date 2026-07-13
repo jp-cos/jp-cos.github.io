@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000333000000
   dct:identifier "8500000333000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 21
   ];
   schema:description """(3) 　協同性
 　友達と関わる中で，互いの思いや考えなどを共有し，共通の目的の実現に向けて，考えたり，工夫したり，協力したりし，充実感をもってやり遂げるようになる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82M03L0290000000
   dct:identifier "82M03L0290000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3681
   ];
   schema:description "(9) 情報に関する学習を行う際には，探究的な学習に取り組むことを通して，情報を収集・整理・発信したり，情報が日常生活や社会に与える影響を考えたりするなどの学習活動が行われるようにすること。第１章総則の第３の１の(3)のイに掲げるプログラミングを体験しながら論理的思考力を身に付けるための学習活動を行う場合には，プログラミングを体験することが，探究的な学習の過程に適切に位置付くようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_013_1.pdf#page=70>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ek3505210000000
   dct:identifier "7Ek3505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2078
   ];
   schema:description "ア  内容の(1)については，歯科材料の物理的，化学的性質，歯科材料と人体との関連，歯科材料の接着， 歯科材料規格等の基礎的な内容について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

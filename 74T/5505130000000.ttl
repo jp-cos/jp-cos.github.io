@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74T5505130000000
   dct:identifier "74T5505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5624
   ];
   schema:description "ウ　内容の(3)については，地域産業の活性化を図る活動を主体的に立案，実施させるようにし，地域の活性化に貢献できる能力と態度を身に付けさせるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

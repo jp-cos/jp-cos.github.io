@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qn503200000000
   dct:identifier "74Qn503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4461
   ];
   schema:description "(2) 材料の加工方法";
   schema:edition "一部改正なし";
   schema:hasPart cs:74Qn503210000000, cs:74Qn503220000000, cs:74Qn503230000000, cs:74Qn503240000000, cs:74Qn503250000000, cs:74Qn503260000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

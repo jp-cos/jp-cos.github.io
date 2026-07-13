@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8413503211200000
   dct:identifier "8413503211200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 338
   ];
   schema:description "イ　情報の妥当性や信頼性を吟味しながら，自分の立場や論点を明確にして，主張を支える適切な根拠をそろえること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

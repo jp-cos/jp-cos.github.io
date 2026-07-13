@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ek1505220000000
   dct:identifier "8Ek1505220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2325
   ];
   schema:description "イ　〔指導項目〕の(3)については，歯科技工士法の概要，歯科技工士免許の要件，歯科技工の業務等を総合的に理解させるとともに，職業人としての心構えや倫理観にも触れるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

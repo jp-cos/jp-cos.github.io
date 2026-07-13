@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8465503220000000
   dct:identifier "8465503220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1767
   ];
   schema:description "イ　物質の変化と平衡について，観察，実験などを通して探究し，化学反応とエネルギー，化学反応と化学平衡における規則性や関係性を見いだして表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

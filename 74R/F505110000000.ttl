@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RF505110000000
   dct:identifier "74RF505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5325
   ];
   schema:description "ア　指導に当たっては，企業を取り巻く社会的・経済的環境が変化する中での経営戦略の重要性について，具体的な事例を取り上げて考えさせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

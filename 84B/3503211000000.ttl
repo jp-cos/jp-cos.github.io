@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84B3503211000000
   dct:identifier "84B3503211000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2319
   ];
   schema:description "ア　鑑賞に関わる知識を総合的に働かせながら，次の(ア)から(ウ)までについて考え，音楽のよさや美しさを深く味わって聴くこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84B3503211100000, cs:84B3503211200000, cs:84B3503211300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

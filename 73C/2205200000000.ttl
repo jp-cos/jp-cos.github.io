@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73C2205200000000
   dct:identifier "73C2205200000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1347
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1347 1347
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1347
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1347 1347 1353
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1353
   ];
   schema:description "(2) 内容の「Ｂ食生活と自立」については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73C2205210000000, cs:73C2205220000000, cs:73C2205230000000, cs:73C2205240000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250223310000000
   dct:identifier "7250223310000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1527
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1527 1536
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1536
   ];
   schema:description "(1) ものの形についての観察や構成などの活動を通して，図形を構成する要素に着目し，図形について理解できるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7250223311000000, cs:7250223312000000, cs:7250223313000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

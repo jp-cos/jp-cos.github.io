@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72202C3110000000
   dct:identifier "72202C3110000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1290
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1290 1299
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1299
   ];
   schema:description "ア　身近な地域や市（区，町，村）の特色ある地形，土地利用の様子，主な公共施設などの場所と働き，交通の様子，古くから残る建造物など";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

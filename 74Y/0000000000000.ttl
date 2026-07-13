@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y0000000000000
   dct:identifier "74Y0000000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7410
   ];
   schema:description "第８節　福　　　祉";
   schema:edition "一部改正なし";
   schema:hasPart cs:74Y0100000000000, cs:74Y0300000000000, cs:74Y0500000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

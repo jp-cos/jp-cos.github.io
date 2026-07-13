@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000262000000
   dct:identifier "8B00000262000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 182
   ];
@@ -16,7 +16,7 @@ cs:8B00000262000000
 教育課程の編成及び実施に当たっては，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000262100000, cs:8B00000262200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

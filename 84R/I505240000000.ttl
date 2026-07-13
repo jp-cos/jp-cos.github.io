@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RI505240000000
   dct:identifier "84RI505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7273
   ];
   schema:description "エ　〔指導項目〕の(4)のイについては，プロジェクト管理の意義と手法について扱うこと。カについては，情報システムの評価の意義と手法及び情報システムの改善の流れについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

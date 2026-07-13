@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Y6505130000000
   dct:identifier "84Y6505130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9885
   ];
   schema:description "ウ　専門的な知識，技術などの深化・総合化を図るとともに，介護実習の事前・事後指導，施設等のオリエンテーション，実習報告会を実施するなど効果的に指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

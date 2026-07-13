@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PK505250000000
   dct:identifier "74PK505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2749
   ];
   schema:description "オ　内容の(6)のアについては，森林計画制度など我が国の森林政策の概要を扱うこと。イについては森林の機能を持続させるための金融と保険制度を扱うこと。ウについては森林経営に関する法規の概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72903A0231000000
   dct:identifier "72903A0231000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2351
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2351 2360
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2360
   ];
   schema:description "ア　第１学年及び第２学年においては，土，粘土，木，紙，クレヨン，パス，はさみ，のり，簡単な小刀類など身近で扱いやすいものを用いることとし，児童がこれらに十分に慣れることができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

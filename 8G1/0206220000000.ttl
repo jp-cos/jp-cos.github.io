@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G10206220000000
   dct:identifier "8G10206220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2706
   ];
   schema:description "イ　２の内容の指導に当たっては，学校図書館などを目的をもって計画的に利用しその機能の活用を図るようにすること。その際，本などの種類や配置，探し方について指導するなど，生徒が必要な本を選ぶことができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

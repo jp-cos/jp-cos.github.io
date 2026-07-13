@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7210300320000000
   dct:identifier "7210300320000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 255
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 255 264
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 264
   ];
   schema:description "(2) 教材は，次のような観点に配慮して取り上げること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7210300321000000, cs:7210300322000000, cs:7210300323000000, cs:7210300324000000, cs:7210300325000000, cs:7210300326000000, cs:7210300327000000, cs:7210300328000000, cs:7210300329000000, cs:721030032A000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

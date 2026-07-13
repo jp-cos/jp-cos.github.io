@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000233000000
   dct:identifier "8200000233000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 35
   ];
@@ -16,7 +16,7 @@ cs:8200000233000000
 各学校においては，次の事項に配慮しながら，学校の創意工夫を生かし，全体として，調和のとれた具体的な指導計画を作成するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000233100000, cs:8200000233200000, cs:8200000233300000, cs:8200000233400000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=76>;
   cs:courseOfStudy cs:Elementary\/2017;

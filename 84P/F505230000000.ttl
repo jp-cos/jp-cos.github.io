@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PF505230000000
   dct:identifier "84PF505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3993
   ];
   schema:description "ウ　〔指導項目〕の(3)については，原材料の特性を利用した加熱，塩漬や発酵などの食品加工の方法とその基本的な原理を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

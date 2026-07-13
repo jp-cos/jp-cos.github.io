@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411503214000000
   dct:identifier "7411503214000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 138
   ];
   schema:description "エ　優れた表現に接してその条件を考えたり，書いた文章について自己評価や相互評価を行ったりして，自分の表現に役立てるとともに，ものの見方，感じ方，考え方を豊かにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83212A5533000000
   dct:identifier "83212A5533000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 408
   ];
   schema:description "(ウ) 地域の考察に当たっては，そこに暮らす人々の生活・文化，地域の伝統や歴史的な背景，地域の持続可能な社会づくりを踏まえた視点に留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=70>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

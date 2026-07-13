@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8290300200000000
   dct:identifier "8290300200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2937
   ];
   schema:description "２　第２の内容の取扱いについては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8290300210000000, cs:8290300220000000, cs:8290300230000000, cs:8290300240000000, cs:8290300250000000, cs:8290300260000000, cs:8290300270000000, cs:8290300280000000, cs:8290300290000000, cs:82903002A0000000, cs:82903002B0000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=117>;
   cs:courseOfStudy cs:Elementary\/2017;

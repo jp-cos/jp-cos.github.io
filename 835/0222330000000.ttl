@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8350222330000000
   dct:identifier "8350222330000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 718
   ];
   schema:description "(3) 数学的活動の楽しさや数学のよさを実感して粘り強く考え，数学を生活や学習に生かそうとする態度，問題解決の過程を振り返って評価・改善しようとする態度，多様な考えを認め，よりよく問題解決しようとする態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_004.pdf#page=105>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

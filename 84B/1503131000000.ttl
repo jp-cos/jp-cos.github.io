@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B1503131000000
   dct:identifier "84B1503131000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2209
   ];
   schema:description "ア　創作表現に関わる知識や技能を得たり生かしたりしながら，自己のイメージをもって創作表現を創意工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

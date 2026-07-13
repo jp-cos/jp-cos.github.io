@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U5505120000000
   dct:identifier "84U5505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8362
   ];
   schema:description "イ　子供の発達や生活の特徴について，保育と関連付けて理解できるよう指導を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

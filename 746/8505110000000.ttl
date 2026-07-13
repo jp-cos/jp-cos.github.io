@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7468505110000000
   dct:identifier "7468505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1173
   ];
   schema:description "ア　中学校理科との関連を考慮しながら，地学の基本的な概念の形成を図るとともに，地学的に探究する方法の習得を通して，科学的な思考力，判断力及び表現力を育成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

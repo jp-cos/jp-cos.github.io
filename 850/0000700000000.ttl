@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000700000000
   dct:identifier "8500000700000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 76
   ];
   schema:description "第７　幼稚部に係る学校運営上の留意事項";
   schema:edition "一部改正なし";
   schema:hasPart cs:8500000710000000, cs:8500000720000000, cs:8500000730000000, cs:8500000740000000, cs:8500000750000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

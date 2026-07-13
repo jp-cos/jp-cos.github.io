@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73G12A3312000000
   dct:identifier "73G12A3312000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1085
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1085 1085
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1085
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1085 1085 1091
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1091
   ];
   schema:description "イ  走り幅跳びでは，スピードに乗った助走から素早く踏み切って跳ぶこと，走り高跳びでは，リズミカルな助走から力強く踏み切って大きな動作で跳ぶこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

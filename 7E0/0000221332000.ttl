@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7E00000221332000
   dct:identifier "7E00000221332000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 36
   ];
   schema:description "理容・美容（理容・美容関係法規， 衛生管理， 理容・美容保健， 理容・美容の物理・化学， 理容・美容文化論，理容・美容技術理論，理容・美容運営管理，理容実習，美容実習，理容・美容情報活用，課題研究）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

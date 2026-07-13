@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7412502000000000
   dct:identifier "7412502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 193
   ];
   schema:description """１　目標 
 　国語で適切かつ効果的に表現する能力を育成し，伝え合う力を高めるとともに，思考力や想像力を伸ばし，言語感覚を磨き，進んで表現することによって国語の向上や社会生活の充実を図る態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7323235310000000
   dct:identifier "7323235310000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 391
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 391 391
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 391
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 391 391 397
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 397
   ];
   schema:description "ア  アについては，身近で具体的な事例を取り上げ，個人や企業の経済活動が様々な条件の中での選択を通じて行われるという点に着目させるとともに，市場における価格の決まり方や資源の配分について理解させること。その際，市場における取引が貨幣を通して行われていることに気付かせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

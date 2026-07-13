@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1203213200000
   dct:identifier "73H1203213200000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1425
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1425 1425
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1425
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1425 1425 1431
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1431
   ];
   schema:description "〔言語の働きの例〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:73H1203213210000, cs:73H1203213220000, cs:73H1203213230000, cs:73H1203213240000, cs:73H1203213250000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

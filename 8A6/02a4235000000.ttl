@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8A602a4235000000
   dct:identifier "8A602a4235000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1578
   ];
@@ -16,7 +16,7 @@ cs:8A602a4235000000
 電気の回路について，乾電池と豆電球などのつなぎ方と，乾電池につないだ物の様子に着目して，電気を通すときと通さないときのつなぎ方を比較しながら調べる活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8A602a4235100000, cs:8A602a4235200000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=356>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

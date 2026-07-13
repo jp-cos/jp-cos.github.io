@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qc505110000000
   dct:identifier "84Qc505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5856
   ];
   schema:description "ア　地域の実態を踏まえ，地震などによる災害対策，模型を用いた実験，メディア教材の活用及び実習などを通して，具体的に理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

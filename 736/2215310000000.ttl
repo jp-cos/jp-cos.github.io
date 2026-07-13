@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7362215310000000
   dct:identifier "7362215310000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 821
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 821 821
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 821
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 821 821 827
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 827
   ];
   schema:description "ア  アの(ア)の「火山」については，粘性と関係付けながら代表的な火山を扱うこと。「マグマの性質」については，粘性を扱うこと。「火山岩」及び「深成岩」については，代表的な岩石を扱うこと。また，代表的な造岩鉱物も扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

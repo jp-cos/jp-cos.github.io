@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000421200000
   dct:identifier "8200000421200000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 66
   ];
   schema:description "イ　特別支援学級において実施する特別の教育課程については，次のとおり編成するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8200000421210000, cs:8200000421220000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=116>;
   cs:courseOfStudy cs:Elementary\/2017;

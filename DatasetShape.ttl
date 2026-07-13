@@ -15,45 +15,45 @@ cs:DatasetShape
     sh:order 1;
     sh:path dct:identifier
   ], [
-    skos:example "82V11" "1.1";
-    sh:maxCount 1 1;
-    sh:minCount 1 1;
-    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja;
-    sh:order 1 2;
-    sh:path dct:identifier schema:version
+    skos:example "1.1";
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Version"@en, "データセットのバージョン"@ja;
+    sh:order 2;
+    sh:path schema:version
   ], [
-    skos:example "82V11" "1.1" "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>";
+    skos:example "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>";
     sh:datatype rdf:langString;
     sh:description "Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
     sh:languageIn [
-      rdf:first "ja" "en";
-      rdf:rest  rdf:nil[
-        rdf:first "ja" "en";
-        rdf:rest  rdf:nil
+      rdf:first "ja";
+      rdf:rest [
+        rdf:first "en";
+        rdf:rest rdf:nil
       ]
     ];
-    sh:maxCount 1 1 2;
-    sh:minCount 1 1 1;
-    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja "Name"@en, "名称"@ja;
-    sh:order 1 2 3;
-    sh:path dct:identifier schema:version schema:name;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Name"@en, "名称"@ja;
+    sh:order 3;
+    sh:path schema:name;
     sh:uniqueLang true
   ], [
-    skos:example "82V11" "1.1" "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>" cs:school\/Elementary;
+    skos:example cs:school\/Elementary;
     sh:class cs:School;
-    sh:description "Using language tags, Japanese and English name are shown. The meanings of language tags are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    sh:maxCount 1 1 2 2;
-    sh:minCount 1 1 1 1;
-    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja;
-    sh:order 1 2 3 4;
-    sh:path dct:identifier schema:version schema:name cs:school
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 4;
+    sh:path cs:school
   ], [
-    skos:example "82V11" "1.1" "<ul><li>\"【82V11】小学校学習指導要領コード 平成29年告示：バージョン1.1 （令和3年8月20日公表）\"@ja</li><li>\"【82V11】Code for Elementary School Course of Guideline published in 2017, version 1.1 （2021-08-20 release）\"@en</li></ul>" cs:school\/Elementary "2021-08-20";
-    sh:datatype rdf:langString xsd:date;
-    sh:maxCount 1 1 2 2 1;
-    sh:minCount 1 1 1 1 1;
-    sh:name "Dataset ID"@en, "データセットのID"@ja "Version"@en, "データセットのバージョン"@ja "Name"@en, "名称"@ja "Type of School"@en, "学校種別"@ja "Date of Release"@en, "公表年月日"@ja;
-    sh:order 1 2 3 4 5;
-    sh:path dct:identifier schema:version schema:name cs:school schema:releaseDate
+    skos:example "2021-08-20";
+    sh:datatype xsd:date;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Date of Release"@en, "公表年月日"@ja;
+    sh:order 5;
+    sh:path schema:releaseDate
   ];
   sh:targetClass cs:Dataset.

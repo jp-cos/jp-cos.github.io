@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8469503411100000
   dct:identifier "8469503411100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1982
   ];
   schema:description """㋐　地球の自転と公転
 地球の自転と公転に関する観察，実験などを行い，地球の自転と公転の証拠となる現象を理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PI505250000000
   dct:identifier "74PI505250000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2678
   ];
   schema:description "オ　内容の(6)については，食品の販売や店舗の経営に必要なマーケティングの原理，食品市場の調査と情報分析，消費動向，品揃《ぞろ》えと数量などの仕入計画及び商品陳列，広告，販売方法などの販売計画について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

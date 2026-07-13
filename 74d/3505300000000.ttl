@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74d3505300000000
   dct:identifier "74d3505300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8126
   ];
   schema:description "(3) 話し言葉と書き言葉の相違，表現形式，文章構成，話す速度，ジェスチャーなどの非言語的なコミュニケーション手段などに配慮し，場面や目的に応じた表現ができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

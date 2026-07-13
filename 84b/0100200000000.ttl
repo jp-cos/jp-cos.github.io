@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84b0100200000000
   dct:identifier "84b0100200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10298
   ];
   schema:description "(2) 音楽に関する専門的な知識や技能を総合的に働かせ，音楽の表現内容を解釈したり音楽の文化的価値などについて考えたりし，表現意図を明確にもったり，音楽や演奏の価値を見いだして鑑賞したりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

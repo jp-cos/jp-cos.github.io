@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000236000000
   dct:identifier "8100000236000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 20
   ];
   schema:description """(6) 思考力の芽生え
 　身近な事象に積極的に関わる中で，物の性質や仕組みなどを感じ取ったり，気付いたりし，考えたり，予想したり，工夫したりするなど，多様な関わりを楽しむようになる。また，友達の様々な考えに触れる中で，自分と異なる考えがあることに気付き，自ら判断したり，考え直したりするなど，新しい考えを生み出す喜びを味わいながら，自分の考えをよりよいものにするようになる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

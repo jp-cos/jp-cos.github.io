@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0300212000000
   dct:identifier "74H0300212000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1871
   ];
   schema:description "イ　外国や我が国の生活や文化についての理解を深めるとともに，言語や文化に対する関心を高め，これらを尊重する態度を育てるのに役立つこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

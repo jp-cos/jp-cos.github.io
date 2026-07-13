@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411505420000000
   dct:identifier "8411505420000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 235
   ];
   schema:description "イ　内容の〔思考力，判断力，表現力等〕の「Ａ話すこと・聞くこと」，「Ｂ書くこと」及び「Ｃ読むこと」のそれぞれの(2)に掲げる言語活動が十分行われるよう教材を選定すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72L0660222000000
   dct:identifier "72L0660222000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2759
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2759 2785
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2785
   ];
   schema:description """イ　第６学年における活動
 　第５学年の学習を基礎として，友達とのかかわりを大切にしながら，児童の日常生活や学校生活に加え，国際理解にかかわる交流等を含んだ体験的なコミュニケーション活動を行うようにすること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

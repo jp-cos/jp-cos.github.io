@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G0253713000000
   dct:identifier "72G0253713000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2589
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2589 2598
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2598
   ];
   schema:description "ウ　不安や悩みへの対処には，大人や友達に相談する，仲間と遊ぶ，運動をするなどいろいろな方法があること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

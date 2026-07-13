@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df9505210000000
   dct:identifier "8Df9505210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1125
   ];
   schema:description "ア　〔指導項目〕の(1)については，生徒の臨床実習の習熟の程度に応じて適切な症例を選択するとともに，きめ細かな指導を行うことができるよう指導体制等に配慮すること。エについては，病態の把握，適応の判断，施術法や施術効果の検討，リスクの検討などを取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

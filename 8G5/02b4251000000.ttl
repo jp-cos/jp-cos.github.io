@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502b4251000000
   dct:identifier "8G502b4251000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3093
   ];
   schema:description "ア  内容の「Ａ数と計算」，「Ｂ図形」，「Ｃ変化と関係」及び「Ｄデータの活用」の学習やそれらを相互に関連付けた学習において，次のような数学的活動に取り組むものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G502b4251100000, cs:8G502b4251200000, cs:8G502b4251300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

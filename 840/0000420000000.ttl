@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000420000000
   dct:identifier "8400000420000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 128
   ];
   schema:description """２　卒業までに修得させる単位数
 学校においては，卒業までに修得させる単位数を定め，校長は，当該単位数を修得した者で，特別活動の成果がその目標からみて満足できると認められるものについて，高等学校の全課程の修了を認定するものとする。この場合，卒業までに修得させる単位数は，74単位以上とする。なお，普通科においては，卒業までに修得させる単位数に含めることができる学校設定科目及び学校設定教科に関する科目に係る修得単位数は，合わせて20単位を超えることができない。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

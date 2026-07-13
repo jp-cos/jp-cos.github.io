@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8432505120000000
   dct:identifier "8432505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 660
   ];
   schema:description "イ　地図の読図や作図，衛星画像や空中写真，景観写真の読み取りなど地理的技能を身に付けることができるよう系統性に留意して計画的に指導すること。その際，教科用図書「地図」を十分に活用するとともに，地図や統計などの地理情報の収集・分析には，「地理総合」における学習の成果を生かし，地理情報システムや情報通信ネットワークなどの活用を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

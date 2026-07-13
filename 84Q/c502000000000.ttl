@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qc502000000000
   dct:identifier "84Qc502000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5837
   ];
@@ -16,7 +16,7 @@ cs:84Qc502000000000
 工業の見方・考え方を働かせ，実践的・体験的な学習活動を行うことなどを通して，土木工事に必要な資質・能力を次のとおり育成することを目指す。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Qc502100000000, cs:84Qc502200000000, cs:84Qc502300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

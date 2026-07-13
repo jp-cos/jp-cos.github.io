@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8469503111100000
   dct:identifier "8469503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1951
   ];
   schema:description """㋐　地球の形と重力
 地球楕(だ)円体や地球表面における重力に関する資料に基づいて，地球の形状と重力との関係を見いだして理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

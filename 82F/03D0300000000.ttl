@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82F03D0300000000
   dct:identifier "82F03D0300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3051
   ];
   schema:description "３　実習の指導に当たっては，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82F03D0310000000, cs:82F03D0320000000, cs:82F03D0330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=87>;
   cs:courseOfStudy cs:Elementary\/2017;

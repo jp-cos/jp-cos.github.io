@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8A80206220000000
   dct:identifier "8A80206220000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1768
   ];
   schema:description "イ　各段階の指導に当たっては，音や音楽及び言葉によるコミュニケーションを図る指導を工夫すること。その際，生徒の言語理解や発声・発語の状況等を考慮し，必要に応じてコンピュータや教育機器も効果的に活用すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=404>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82603L0000000000
   dct:identifier "82603L0000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2545
   ];
   schema:description "第３　指導計画の作成と内容の取扱い";
   schema:edition "一部改正なし";
   schema:hasPart cs:82603L0100000000, cs:82603L0200000000, cs:82603L0300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=99>;
   cs:courseOfStudy cs:Elementary\/2017;

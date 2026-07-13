@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:746A502000000000
   dct:identifier "746A502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1231
   ];
   schema:description """１　目標
 　科学に関する課題を設定し，観察，実験などを通して研究を行い，科学的に探究する能力と態度を育てるとともに，創造性の基礎を培う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

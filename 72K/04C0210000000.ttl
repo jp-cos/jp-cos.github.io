@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04C0210000000
   dct:identifier "72K04C0210000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2653
   ];
   schema:description "(1) 礼儀の大切さを知り，だれに対しても真心をもって接する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K04C0212000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

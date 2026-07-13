@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qs505250000000
   dct:identifier "84Qs505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6446
   ];
   schema:description "オ　〔指導項目〕の(5)のアについては，空間規模，施設規模及び規模決定の方法を扱うこと。イについては，空間の寸法計画において考慮すべき人体寸法，知覚特性，気候や風土，地域性及び敷地条件を扱うこと。エについては，インテリアの機能と平面計画，防災と平面計画を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

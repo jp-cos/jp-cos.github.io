@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WC505120000000
   dct:identifier "84WC505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9297
   ];
   schema:description "イ　看護科に属する各科目と関連付けるとともに，事前及び事後の指導を適切に行うこと。また，感染や医療事故などの防止及び守秘義務や個人情報保護に関する指導を徹底し，安全と衛生に十分留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

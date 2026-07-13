@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7310300130000000
   dct:identifier "7310300130000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 206
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 206 206
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 206
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 206 206 212
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 212
   ];
   schema:description "(3) 第２の各学年の内容の「Ａ話すこと・聞くこと」の指導に配当する授業時数は，第１学年及び第２学年では年間15～25単位時間程度，第３学年では年間10～20単位時間程度とすること。また，音声言語のための教材を積極的に活用するなどして，指導の効果を高めるよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

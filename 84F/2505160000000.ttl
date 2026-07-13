@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2505160000000
   dct:identifier "84F2505160000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3233
   ];
   schema:description "カ　内容のＤの指導に当たっては，ＡからＣまでの学習の発展として実践的な活動を家庭や地域などで行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

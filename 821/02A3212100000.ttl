@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102A3212100000
   dct:identifier "82102A3212100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 134
   ];
   schema:description "ア　紹介や説明，報告など伝えたいことを話したり，それらを聞いて声に出して確かめたり感想を述べたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=65>;
   cs:courseOfStudy cs:Elementary\/2017;

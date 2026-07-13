@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7G00000232000000
   dct:identifier "7G00000232000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 81
   ];
   schema:description "第２   各教科， 道徳， 総合的な学習の時間， 特別活動及び自立活動の授業時数等";
   schema:edition "一部改正なし";
   schema:hasPart cs:7G00000232100000, cs:7G00000232200000, cs:7G00000232300000, cs:7G00000232400000, cs:7G00000232500000, cs:7G00000232600000, cs:7G00000232700000, cs:7G00000232800000, cs:7G00000232900000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

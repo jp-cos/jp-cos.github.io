@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0300100000000
   dct:identifier "84d0300100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10822
   ];
   schema:description "１　指導計画の作成に当たっては，小学校や中学校における指導との接続に留意しながら，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84d0300110000000, cs:84d0300120000000, cs:84d0300130000000, cs:84d0300140000000, cs:84d0300150000000, cs:84d0300160000000, cs:84d0300170000000, cs:84d0300180000000, cs:84d0300190000000, cs:84d03001A0000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PR505260000000
   dct:identifier "84PR505260000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4500
   ];
   schema:description "カ　〔指導項目〕の(6)については，樹木の整枝剪(せん)定や病害虫の防除，景観に配慮した管理など植栽管理に関する基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

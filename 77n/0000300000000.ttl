@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000300000000
   dct:identifier "77n0000300000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 85
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 85 96
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 96
   ];
   schema:description "３   肢体不自由者である児童に対する教育を行う特別支援学校";
   schema:edition "一部改正なし";
   schema:hasPart cs:77n0000310000000, cs:77n0000320000000, cs:77n0000330000000, cs:77n0000340000000, cs:77n0000350000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

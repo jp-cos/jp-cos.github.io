@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503100000000
   dct:identifier "84F2503100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3164
   ];
@@ -16,7 +16,7 @@ cs:84F2503100000000
 次の(1)から(5)までの項目について，生涯を見通し主体的に生活するために，家族や地域社会の人々と協力・協働し，実践的・体験的な学習活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:84F2503110000000, cs:84F2503120000000, cs:84F2503130000000, cs:84F2503140000000, cs:84F2503150000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

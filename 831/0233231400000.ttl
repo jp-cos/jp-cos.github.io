@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8310233231400000
   dct:identifier "8310233231400000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 258
   ];
   schema:description "エ　文章を読んで考えを広げたり深めたりして，人間，社会，自然などについて，自分の意見をもつこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=132>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

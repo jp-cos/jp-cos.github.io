@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73212A5320000000
   dct:identifier "73212A5320000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 278
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 278 278
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 278
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 278 278 284
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 284
   ];
   schema:description "イ　イについては，世界各地の人々の生活の様子を考察するに当たって，衣食住の特色や，生活と宗教とのかかわりなどに着目させるようにすること。その際，世界の主な宗教の分布について理解させるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

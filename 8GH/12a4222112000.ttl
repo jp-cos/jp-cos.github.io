@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH12a4222112000
   dct:identifier "8GH12a4222112000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3831
   ];
   schema:description "㋑ 日付や時刻，値段などを表す表現など，身近で簡単な事柄について，表示などを参考にしながら具体的な情報を聞き取る活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

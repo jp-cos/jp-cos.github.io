@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7323232300000000
   dct:identifier "7323232300000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 365
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 365 365
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 365
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 365 365 371
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 371
   ];
   schema:description "(3) 国際的な相互依存関係の深まりの中で，世界平和の実現と人類の福祉の増大のために，各国が相互に主権を尊重し，各国民が協力し合うことが重要であることを認識させるとともに，自国を愛し，その平和と繁栄を図ることが大切であることを自覚させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

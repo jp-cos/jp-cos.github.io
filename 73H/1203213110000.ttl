@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1203213110000
   dct:identifier "73H1203213110000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1411
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1411 1411
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1411
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1411 1411 1417
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1417
   ];
   schema:description "ａ　特有の表現がよく使われる場面";
   schema:edition "一部改正なし";
   schema:hasPart cs:73H1203213111000, cs:73H1203213112000, cs:73H1203213113000, cs:73H1203213114000, cs:73H1203213115000, cs:73H1203213116000, cs:73H1203213117000, cs:73H1203213118000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

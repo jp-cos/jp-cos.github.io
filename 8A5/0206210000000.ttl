@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8A50206210000000
   dct:identifier "8A50206210000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1510
   ];
   schema:description "ア   思考力，判断力，表現力等を育成するため，各段階の内容の指導に当たっては，具体物，言葉，数，式，図，表，グラフなどを用いて考えたり，説 明したり，互いに自分の考えを表現し伝え合ったりするなどの学習活動を積極的に取り入れるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=337>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

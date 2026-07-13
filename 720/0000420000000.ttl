@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7200000420000000
   dct:identifier "7200000420000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 24
   ];
   schema:description "２　以上のほか，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7200000420000001, cs:7200000421000000, cs:7200000422000000, cs:7200000423000000, cs:7200000424000000, cs:7200000425000000, cs:7200000426000000, cs:7200000427000000, cs:7200000428000000, cs:7200000429000000, cs:720000042A000000, cs:720000042B000000, cs:720000042C000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

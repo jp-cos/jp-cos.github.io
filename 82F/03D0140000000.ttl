@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F03D0140000000
   dct:identifier "82F03D0140000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3041
   ];
   schema:description "(4) 第２の内容の「Ｂ衣食住の生活」の(2)及び(5)については，学習の効果を高めるため，２学年間にわたって取り扱い，平易なものから段階的に学習できるよう計画すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=80>;
   cs:courseOfStudy cs:Elementary\/2017;

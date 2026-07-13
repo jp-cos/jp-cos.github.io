@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8310233100000000
   dct:identifier "8310233100000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 216
   ];
   schema:description "〔知識及び技能〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:8310233110000000, cs:8310233120000000, cs:8310233130000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=107>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

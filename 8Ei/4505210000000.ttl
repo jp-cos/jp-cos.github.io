@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ei4505210000000
   dct:identifier "8Ei4505210000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1840
   ];
   schema:description "ア　〔指導項目〕の(1)については，溶液の性質，香粧品の原料，洗浄剤の種類等，香粧品に関する化学及び化粧品の成分の概要を取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

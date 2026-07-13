@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72G0300230000000
   dct:identifier "72G0300230000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2617
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2617 2626
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2626
   ];
   schema:description "(3) 集合，整頓《とん》，列の増減などの行動の仕方を身に付け，能率的で安全な集団としての行動ができるようにするための指導については，「Ａ体つくり運動」をはじめとして，各学年の各領域（保健を除く。）において適切に行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

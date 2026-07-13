@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8469503413200000
   dct:identifier "8469503413200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1990
   ];
   schema:description """㋑　膨張する宇宙
 宇宙の誕生や進化について調べ，現代の宇宙像の概要を理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

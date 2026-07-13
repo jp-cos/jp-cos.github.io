@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l4001300000000
   dct:identifier "81l4001300000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 149
   ];
   schema:description "(3) 日常生活に必要な言葉が分かるようになるとともに，絵本や物語などに親しみ，言葉に対する感覚を豊かにし，先生や友達と心を通わせる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PB505110000000
   dct:identifier "74PB505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2393
   ];
   schema:description "ア　内容の(2)及び(3)については，実験・実習を通して，機械の構造と作業特性の相互関係から機械の点検方法について理解させ，機械の維持管理を図る実践力を育てること。また，機械の原理や構造などの理解を深めさせるため，教育用機器を活用すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

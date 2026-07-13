@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l3005500000000
   dct:identifier "81l3005500000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 144
   ];
   schema:description "(5) 数量や文字などに関しては，日常生活の中で幼児自身の必要感に基づく体験を大切にし，数量や文字などに関する興味や関心，感覚が養われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

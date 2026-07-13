@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B4505300000000
   dct:identifier "84B4505300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2380
   ];
   schema:description "(3) 内容の「Ｂ鑑賞」の指導については，各事項において育成を目指す資質・能力の定着が図られるよう，適切かつ十分な授業時数を配当するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

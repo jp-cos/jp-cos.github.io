@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73G12A3610000000
   dct:identifier "73G12A3610000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1104
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1104 1104
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1104
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1104 1104 1110
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1110
   ];
   schema:description "(1) 次の運動について，技ができる楽しさや喜びを味わい，基本動作や基本となる技ができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73G12A3611000000, cs:73G12A3612000000, cs:73G12A3613000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

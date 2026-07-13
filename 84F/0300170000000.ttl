@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F0300170000000
   dct:identifier "84F0300170000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3246
   ];
   schema:description "(7) 中学校技術・家庭科を踏まえた系統的な指導に留意すること。また，高等学校公民科，数学科，理科及び保健体育科などとの関連を図り，家庭科の目標に即した調和のとれた指導が行われるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

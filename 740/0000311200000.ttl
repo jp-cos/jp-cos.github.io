@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000311200000
   dct:identifier "7400000311200000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 36
   ];
   schema:description "イ　地理歴史のうち「世界史Ａ」及び「世界史Ｂ」のうちから１科目並びに「日本史Ａ」，「日本史Ｂ」，「地理Ａ」及び「地理Ｂ」のうちから１科目 ";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

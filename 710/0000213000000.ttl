@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7100000213000000
   dct:identifier "7100000213000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 12
   ];
   schema:description "３　幼稚園の１日の教育課程に係る教育時間は，４時間を標準とすること。ただし，幼児の心身の発達の程度や季節などに適切に配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TA505110000000
   dct:identifier "84TA505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7704
   ];
   schema:description "ア　実験・実習などの体験的な学習活動を通して，水産業や海洋関連産業の各分野における機械設計と機械工作について具体的に理解できるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

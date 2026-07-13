@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83802B3131000000
   dct:identifier "83802B3131000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1246
   ];
   schema:description "ア　創作表現に関わる知識や技能を得たり生かしたりしながら，まとまりのある創作表現を創意工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=83>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

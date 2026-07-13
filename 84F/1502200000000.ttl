@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F1502200000000
   dct:identifier "84F1502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3100
   ];
   schema:description "(2) 家庭や地域及び社会における生活の中から問題を見いだして課題を設定し，解決策を構想し，実践を評価・改善し，考察したことを根拠に基づいて論理的に表現するなど，生涯を見通して課題を解決する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

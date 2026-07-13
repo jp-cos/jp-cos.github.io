@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7431503210000000
   dct:identifier "7431503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 311
   ];
   schema:description """ア　ユーラシアの諸文明
 　自然環境，生活，宗教などに着目させながら，東アジア，南アジア，西アジア，ヨーロッパに形成された諸文明の特質とユーラシアの海，陸における交流を概観させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

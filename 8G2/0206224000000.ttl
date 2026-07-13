@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G20206224000000
   dct:identifier "8G20206224000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2813
   ];
   schema:description "(エ) イについては，選挙などの国民の政治参加の方法や意味についても取り上げること。また，地域の公共施設について，その地域にある意味や， それらの利用がよりよい社会生活を送ることにつながることなどを考えることができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

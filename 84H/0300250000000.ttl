@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H0300250000000
   dct:identifier "84H0300250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3079
   ];
   schema:description "(5) 話すことや書くことの指導に当たっては，目的や場面，状況などに応じたやり取りや発表，文章などの具体例を示した上で，生徒がそれらを参考にしながら自分で表現できるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

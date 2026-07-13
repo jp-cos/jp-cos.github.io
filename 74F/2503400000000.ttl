@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:74F2503400000000
   dct:identifier "74F2503400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1918
   ];
@@ -16,7 +16,7 @@ cs:74F2503400000000
 　生涯を見通したライフステージごとの衣食住の生活を科学的に理解させ，先人の知恵や文化に関心をもたせるとともに，持続可能な社会を目指して資源や環境に配慮し，適切な意思決定に基づいた消費生活を主体的に営むことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:74F2503410000000, cs:74F2503420000000, cs:74F2503430000000, cs:74F2503440000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

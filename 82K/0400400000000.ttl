@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K0400400000000
   dct:identifier "82K0400400000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3509
   ];
   schema:description "Ｄ　主として生命や自然，崇高なものとの関わりに関すること";
   schema:edition "一部改正なし";
   schema:hasPart cs:82K0400410000000, cs:82K0400420000000, cs:82K0400430000000, cs:82K04D0440000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=68>;
   cs:courseOfStudy cs:Elementary\/2017;

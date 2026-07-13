@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:88n0000000000000
   dct:identifier "88n0000000000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 154
   ];
   schema:description "第２款　知的障害者である児童に対する教育を行う特別支援学校";
   schema:edition "一部改正なし";
   schema:hasPart cs:8810200000000000, cs:8850200000000000, cs:8870200000000000, cs:8880200000000000, cs:8890200000000000, cs:88G0200000000000, cs:88L0000000000000, cs:88n0200000000000, cs:88n0300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=28>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

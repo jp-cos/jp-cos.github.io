@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361233612200000
   dct:identifier "8361233612200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 983
   ];
   schema:description """㋑　化学変化と電池
 電解質水溶液と２種類の金属などを用いた実験を行い，電池の基本的な仕組みを理解するとともに，化学エネルギーが電気エネルギーに変換されていることを知ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=66>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

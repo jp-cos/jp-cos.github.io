@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7462503113000000
   dct:identifier "7462503113000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 860
   ];
   schema:description """(ウ) 直線運動の加速度
 　物体が直線上を運動する場合の加速度を理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

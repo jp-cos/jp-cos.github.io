@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02A3620000000
   dct:identifier "82G02A3620000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3103
   ];
   schema:description "(2) 身近な題材の特徴を捉えて踊ったり，軽快なリズムに乗って踊ったりする簡単な踊り方を工夫するとともに，考えたことを友達に伝えること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=68>;
   cs:courseOfStudy cs:Elementary\/2017;

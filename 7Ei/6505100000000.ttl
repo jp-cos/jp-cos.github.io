@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7Ei6505100000000
   dct:identifier "7Ei6505100000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1664
   ];
   schema:description "(1) 内容の構成及びその取扱いに当たっては， 次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7Ei6505110000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

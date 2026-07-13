@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G03002B0000000
   dct:identifier "82G03002B0000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3276
   ];
   schema:description "(11)　保健の指導に当たっては，健康に関心をもてるようにし，健康に関する課題を解決する学習活動を取り入れるなどの指導方法の工夫を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=173>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84P4505220000000
   dct:identifier "84P4505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3555
   ];
   schema:description "イ　〔指導項目〕の(3)については，情報通信ネットワークを介して流通するデータの種類，情報通信ネットワークや情報システムがサービスを提供する仕組みと特徴について実際の事例を取り上げること。情報システムによる問題解決の方法については，モデル化，シミュレーションなど基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

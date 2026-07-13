@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G10206211000000
   dct:identifier "8G10206211000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2704
   ];
   schema:description "(ア) 生活場面や関わる相手が多様になることに応じて，平仮名，片仮名， 漢字，ローマ字などの文字を取り扱うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000230500000
   dct:identifier "7400000230500000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 16
   ];
   schema:description "家庭（生活産業基礎，課題研究，生活産業情報，消費生活，子どもの発達と保育，子ども文化，生活と福祉，リビングデザイン，服飾文化，ファッション造形基礎，ファッション造形，ファッションデザイン，服飾手芸，フードデザイン，食文化，調理，栄養，食品，食品衛生，公衆衛生）";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

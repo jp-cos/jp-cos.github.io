@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7433503211000000
   dct:identifier "7433503211000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 390
   ];
   schema:description "(ア) 近代の萌《ほう》芽や欧米諸国のアジア進出，文明開化などに見られる欧米文化の導入と明治政府による諸改革に伴う社会や文化の変容，自由民権運動と立憲体制の成立に着目して，開国から明治維新を経て近代国家が形成される過程について考察させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

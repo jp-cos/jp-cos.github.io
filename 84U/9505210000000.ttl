@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U9505210000000
   dct:identifier "84U9505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8479
   ];
   schema:description "ア　〔指導項目〕の(1)のイ及びウについては，歴史的背景，気候や風土，文化などとの関わりを扱うこと。ウについては，西洋の服飾を中心に取り上げ，アジアやその他の地域の服飾についても触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000111900000
   dct:identifier "71m0000111900000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 152
   ];
   schema:description "(9) 幼稚園においては，幼稚園教育が，小学校以降の生活や学習の基盤の育成につながることに配慮し，幼児期にふさわしい生活を通して，創造的な思考や主体的な生活態度などの基礎を培うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

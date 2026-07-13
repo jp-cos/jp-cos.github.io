@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000210000000
   dct:identifier "8400000210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 15
   ];
   schema:description """１　各学校の教育目標と教育課程の編成
 教育課程の編成に当たっては，学校教育全体や各教科・科目等における指導を通して育成を目指す資質・能力を踏まえつつ，各学校の教育目標を明確にするとともに，教育課程の編成についての基本的な方針が家庭や地域とも共有されるよう努めるものとする。その際，第４章の第２の１に基づき定められる目標との関連を図るものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8350232200000000
   dct:identifier "8350232200000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 799
   ];
   schema:description "(2) 数の範囲に着目し，数の性質や計算について考察したり，文字を用いて数量の関係や法則などを考察したりする力，図形の構成要素の関係に着目し，図形の性質や計量について論理的に考察し表現する力，関数関係に着目し，その特徴を表，式，グラフを相互に関連付けて考察する力，標本と母集団の関係に着目し，母集団の傾向を推定し判断したり，調査の方法や結果を批判的に考察したりする力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_004.pdf#page=135>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

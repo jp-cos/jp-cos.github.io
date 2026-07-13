@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Fn0000232000000
   dct:identifier "7Fn0000232000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 190
   ];
   schema:description "(2) 生徒の身体の動きの状態や生活経験の程度等を考慮して， 基礎的・基本的な事項に重点を置くなど指導内容を適切に精選するとともに，発展的，系統的な指導ができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

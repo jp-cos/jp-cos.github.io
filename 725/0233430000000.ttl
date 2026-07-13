@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250233430000000
   dct:identifier "7250233430000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1610
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1610 1619
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1619
   ];
   schema:description "(3) 資料を分類整理し，表やグラフを用いて分かりやすく表したり読み取ったりすることができるようにする。　";
   schema:edition "一部改正なし";
   schema:hasPart cs:7250233431000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

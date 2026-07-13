@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000300000000
   dct:identifier "8100000300000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 25
   ];
   schema:description "第３  教育課程の役割と編成等";
   schema:edition "一部改正なし";
   schema:hasPart cs:8100000310000000, cs:8100000320000000, cs:8100000330000000, cs:8100000340000000, cs:8100000350000000, cs:8100000360000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

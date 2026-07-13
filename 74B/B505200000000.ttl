@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74BB505200000000
   dct:identifier "74BB505200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1657
   ];
   schema:description "(2) 内容のＡの指導に当たっては，(1)の漢字は楷《かい》書，行書及び草書，仮名は平仮名及び片仮名，(2)は楷《かい》書，行書，草書，隷書及び篆《てん》書，(3)は平仮名，片仮名及び変体仮名を扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

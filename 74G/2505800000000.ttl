@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2505800000000
   dct:identifier "74G2505800000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1370
   ];
   schema:description "(8) 指導に際しては，知識を活用する学習活動を取り入れるなどの指導方法の工夫を行うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

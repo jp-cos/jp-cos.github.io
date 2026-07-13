@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8200000421300000
   dct:identifier "8200000421300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 69
   ];
   schema:description "ウ　障害のある児童に対して，通級による指導を行い，特別の教育課程を編成する場合には，特別支援学校小学部・中学部学習指導要領第７章に示す自立活動の内容を参考とし，具体的な目標や内容を定め，指導を行うものとする。その際，効果的な指導が行われるよう，各教科等と通級による指導との関連を図るなど，教師間の連携に努めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=119>;
   cs:courseOfStudy cs:Elementary\/2017;

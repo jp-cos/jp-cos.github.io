@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74c4502000000000
   dct:identifier "74c4502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7987
   ];
   schema:description """１　目標
 　造形的な創造活動の基本となる諸要素の理解を深め，感性や造形感覚と創造的な構成の能力を高める。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

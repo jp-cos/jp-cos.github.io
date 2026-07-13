@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503831400000
   dct:identifier "84G1503831400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2099
   ];
   schema:description "(エ) 人生に潤いをもたらす貴重な文化的資源として，スポーツを未来に継承するためには，スポーツの可能性と問題点を踏まえて適切な「する，みる，支える，知る」などの関わりが求められること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

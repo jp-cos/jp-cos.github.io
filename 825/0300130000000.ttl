@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250300130000000
   dct:identifier "8250300130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2271
   ];
   schema:description "(3) 第２の各学年の内容の「Ａ数と計算」，「Ｂ図形」，「Ｃ測定」，「Ｃ変化と関係」及び「Ｄデータの活用」の間の指導の関連を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=331>;
   cs:courseOfStudy cs:Elementary\/2017;

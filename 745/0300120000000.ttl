@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7450300120000000
   dct:identifier "7450300120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 810
   ];
   schema:description "(2) 「数学Ａ」については，「数学Ⅰ」と並行してあるいは「数学Ⅰ」を履修した後に履修させ，「数学Ｂ」については，「数学Ⅰ」を履修した後に履修させることを原則とすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

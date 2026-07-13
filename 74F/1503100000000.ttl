@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:74F1503100000000
   dct:identifier "74F1503100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1883
   ];
@@ -16,7 +16,7 @@ cs:74F1503100000000
 　人の一生を生涯発達の視点でとらえ，各ライフステージの特徴と課題について理解させるとともに，家族や家庭生活の在り方，子どもと高齢者の生活と福祉について考えさせ，共に支え合って生活することの重要性について認識させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:74F1503110000000, cs:74F1503120000000, cs:74F1503130000000, cs:74F1503140000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

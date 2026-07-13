@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G80206120000000
   dct:identifier "8G80206120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3395
   ];
   schema:description "イ  ２の各段階の内容の「Ａ表現」のアからエまでの指導については，(ア)及び(イ)の各事項を，「Ｂ鑑賞」のアの指導については，ア及びイの各事項を， 適切に関連させて指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

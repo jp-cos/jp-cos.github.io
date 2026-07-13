@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8443503111300000
   dct:identifier "8443503111300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1164
   ];
   schema:description "(ウ) 現代日本の政治・経済に関する諸資料から，課題の解決に向けて考察，構想する際に必要な情報を適切かつ効果的に収集し，読み取る技能を身に付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84QZ503130000000
   dct:identifier "84QZ503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5739
   ];
   schema:description "(3) 換気や排煙に関わる設備";
   schema:edition "一部改正なし";
   schema:hasPart cs:84QZ503131000000, cs:84QZ503132000000, cs:84QZ503133000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

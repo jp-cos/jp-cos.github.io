@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400320000001
   dct:identifier "73K0400320000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1553
   ];
   schema:description """［公正，公平，社会正義］
 　正義と公正さを重んじ，誰に対しても公平に接し，差別や偏見のない社会の実現に努めること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

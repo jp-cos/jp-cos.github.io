@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7360300120000000
   dct:identifier "7360300120000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 851
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 851 851
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 851
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 851 851 857
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 857
   ];
   schema:description "(2) 学校や生徒の実態に応じ，十分な観察や実験の時間，課題解決のために探究する時間などを設けるようにすること。その際，問題を見いだし観察，実験を計画する学習活動，観察，実験の結果を分析し解釈する学習活動，科学的な概念を使用して考えたり説明したりするなどの学習活動が充実するよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

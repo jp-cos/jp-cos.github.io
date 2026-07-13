@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G2503400000000
   dct:identifier "84G2503400000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2143
   ];
   schema:description "(4) 健康を支える環境づくりについて，自他や社会の課題を発見し，その解決を目指した活動を通して，次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G2503410000000, cs:84G2503420000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

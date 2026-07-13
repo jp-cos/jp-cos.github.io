@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WC505230000000
   dct:identifier "84WC505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9302
   ];
   schema:description "ウ　〔指導項目〕の(3)については，看護科に属する各科目の知識と技術の統合化を図れるよう，臨床での実務に即した実習を行うこと。アについては，多職種と連携・協働し，地域や生活の場で行う看護活動を扱うこと。イについては，スタッフ業務や管理業務，夜間業務の一部を含むなどの総合的な実習を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

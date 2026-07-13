@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G50206231000000
   dct:identifier "8G50206231000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3108
   ];
   schema:description "(ア) 内容の「Ａ数と計算」のア，イ，エ，オ及びカについては，職業科や家庭科との関連を図りながら，次の㋐についての金銭の価値や処理に親しむことを取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G50206231100000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

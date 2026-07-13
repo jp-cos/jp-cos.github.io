@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04D0470000000
   dct:identifier "72K04D0470000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2693
   ];
   schema:description "(7) 郷土や我が国の伝統と文化を大切にし，先人の努力を知り，郷土や国を愛する心をもつ。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

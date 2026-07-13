@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000232000000
   dct:identifier "8100000232000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 16
   ];
   schema:description """(2) 自立心
 　身近な環境に主体的に関わり様々な活動を楽しむ中で，しなければならないことを自覚し，自分の力で行うために考えたり，工夫したりしながら，諦めずにやり遂げることで達成感を味わい，自信をもって行動するようになる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

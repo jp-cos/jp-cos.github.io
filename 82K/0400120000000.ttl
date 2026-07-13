@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K0400120000000
   dct:identifier "82K0400120000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3442
   ];
   schema:description "［正直，誠実］";
   schema:edition "一部改正なし";
   schema:hasPart cs:82K04A0121000000, cs:82K04C0122000000, cs:82K04D0123000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=34>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PE505120000000
   dct:identifier "74PE505120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2521
   ];
   schema:description "イ　内容の(2)については，観察・実験を通して，微生物の形態的特徴と生理的特性を具体的に理解させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

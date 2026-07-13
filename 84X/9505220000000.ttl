@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84X9505220000000
   dct:identifier "84X9505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9600
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，形態や色彩とその働きについて扱うこと。イについては，造形や色彩が人間の心理に与える影響と，情報デザインへの応用について扱うこと。ウについては，対象を観察する方法と，その結果を表現する技術について扱うこと。エについては，レイアウトや配色などを扱うとともに，意味や考えの演出についても触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

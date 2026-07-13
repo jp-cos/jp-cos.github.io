@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F1503232000000
   dct:identifier "84F1503232000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3132
   ];
   schema:description "イ　住居の機能性や快適性，住居と地域社会との関わりについて考察し，防災などの安全や環境に配慮した住生活や住環境を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

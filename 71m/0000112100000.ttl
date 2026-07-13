@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000112100000
   dct:identifier "71m0000112100000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 154
   ];
   schema:description "(1) 安全に関する指導に当たっては，情緒の安定を図り，遊びを通して状況に応じて機敏に自分の体を動かすことができるようにするとともに，危険な場所や事物などが分かり，安全についての理解を深めるようにすること。また，交通安全の習慣を身に付けるようにするとともに，災害などの緊急時に適切な行動がとれるようにするための訓練なども行うようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

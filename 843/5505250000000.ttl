@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8435505250000000
   dct:identifier "8435505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1018
   ];
@@ -19,7 +19,7 @@ cs:8435505250000000
 (4)については，自由主義経済の危機により，資本主義諸国では国家による経済への関与が積極的に進められるようになり，そのことが，第二次世界大戦を経て，福祉国家体制の成立の契機となったことに気付くようにすること。また，第二次世界大戦を契機とした欧米諸国の覇権の推移に触れるとともに，Ｅとのつながりに留意すること。
 """;
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

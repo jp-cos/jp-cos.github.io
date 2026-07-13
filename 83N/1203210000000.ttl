@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83N1203210000000
   dct:identifier "83N1203210000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2150
   ];
   schema:description """ア　自他の個性の理解と尊重，よりよい人間関係の形成
 自他の個性を理解して尊重し，互いのよさや可能性を発揮しながらよりよい集団生活をつくること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230208-mxt_kyoiku02-100002608_013.pdf#page=158>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

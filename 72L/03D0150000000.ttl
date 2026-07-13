@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72L03D0150000000
   dct:identifier "72L03D0150000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2727
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2727 2753
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2753
   ];
   schema:description "(5) 指導計画の作成や授業の実施については，学級担任の教師又は外国語活動を担当する教師が行うこととし，授業の実施に当たっては，ネイティブ・スピーカーの活用に努めるとともに，地域の実態に応じて，外国語に堪《たん》能な地域の人々の協力を得るなど，指導体制を充実すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

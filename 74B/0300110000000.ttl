@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74B0300110000000
   dct:identifier "74B0300110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1683
   ];
   schema:description "(1) Ⅱを付した科目はそれぞれに対応するⅠを付した科目を履修した後に，Ⅲを付した科目はそれぞれに対応するⅡを付した科目を履修した後に履修させることを原則とすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

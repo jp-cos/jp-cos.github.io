@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H2505100000000
   dct:identifier "74H2505100000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1710
   ];
   schema:description "(1) 中学校におけるコミュニケーション能力の基礎を養うための総合的な指導を踏まえ，聞いたことや読んだことを踏まえた上で話したり書いたりする言語活動を適切に取り入れながら，四つの領域の言語活動を有機的に関連付けつつ総合的に指導するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

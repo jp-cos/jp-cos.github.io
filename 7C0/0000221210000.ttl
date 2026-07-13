@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7C00000221210000
   dct:identifier "7C00000221210000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 16
   ];
@@ -24,7 +24,7 @@ cs:7C00000221210000
 家庭（家庭基礎：２，家庭総合：４，生活デザイン：４）
 情報（社会と情報：２，情報の科学：２）""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

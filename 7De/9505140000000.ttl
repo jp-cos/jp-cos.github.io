@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7De9505140000000
   dct:identifier "7De9505140000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 535
   ];
   schema:description "エ  内容の(2)については， あん摩・マッサージ・指圧の実践に適した施設等を選定し， 当該施設等との十分な連絡調整を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

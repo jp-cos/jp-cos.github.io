@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8412503113000000
   dct:identifier "8412503113000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 255
   ];
   schema:description "ウ　我が国の言語文化に特徴的な語句の量を増し，それらの文化的背景について理解を深め，文章の中で使うことを通して，語感を磨き語彙を豊かにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

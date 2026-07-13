@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74X0300300000000
   dct:identifier "74X0300300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7409
   ];
   schema:description "３　実験・実習を行うに当たっては，施設・設備の安全管理に配慮し，学習環境を整えるとともに，事故防止の指導を徹底し，安全と衛生に十分留意するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

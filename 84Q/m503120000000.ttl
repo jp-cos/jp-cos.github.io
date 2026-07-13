@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qm503120000000
   dct:identifier "84Qm503120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6209
   ];
   schema:description "(2) セラミックスの構造と物性";
   schema:edition "一部改正なし";
   schema:hasPart cs:84Qm503121000000, cs:84Qm503122000000, cs:84Qm503123000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

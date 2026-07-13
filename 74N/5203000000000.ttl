@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:74N5203000000000
   dct:identifier "74N5203000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8220
   ];
@@ -16,7 +16,7 @@ cs:74N5203000000000
 　全校若しくは学年又はそれらに準ずる集団を単位として，学校生活に秩序と変化を与え，学校生活の充実と発展に資する体験的な活動を行うこと。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:74N5203100000000, cs:74N5203200000000, cs:74N5203300000000, cs:74N5203400000000, cs:74N5203500000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

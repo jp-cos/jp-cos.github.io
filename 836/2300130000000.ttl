@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8362300130000000
   dct:identifier "8362300130000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1157
   ];
   schema:description "(3) 学校や生徒の実態に応じ，十分な観察や実験の時間，課題解決のために探究する時間などを設けるようにすること。その際，問題を見いだし観察，実験を計画する学習活動，観察，実験の結果を分析し解釈する学習活動，科学的な概念を使用して考えたり説明したりする学習活動などが充実するようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=121>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82000A0621000000
   dct:identifier "82000A0621000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 87
   ];
   schema:description "(1) 第１学年及び第２学年においては，挨拶などの基本的な生活習慣を身に付けること，善悪を判断し，してはならないことをしないこと，社会生活上のきまりを守ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_001.pdf#page=148>;
   cs:courseOfStudy cs:Elementary\/2017;

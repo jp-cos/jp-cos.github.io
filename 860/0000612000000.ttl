@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000612000000
   dct:identifier "8600000612000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 96
   ];
   schema:description "(2) 教育課程の編成及び実施に当たっては，学校保健計画，学校安全計画，食に関する指導の全体計画，いじめの防止等のための対策に関する基本的な方針など，各分野における学校の全体計画等と関連付けながら，効果的な指導が行われるよう留意するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=302>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

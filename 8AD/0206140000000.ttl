@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8AD0206140000000
   dct:identifier "8AD0206140000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2126
   ];
   schema:description "エ 地域や産業界との連携を図り，実際的な学習活動や就業体験，実習等を計画的に取り入れること。産業現場等における実習については，校内での作業や就業体験等と関連させ，段階的・系統的に指導するよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=506>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8260243112000000
   dct:identifier "8260243112000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2367
   ];
   schema:description "イ　空気と水の性質について追究する中で，既習の内容や生活経験を基に，空気と水の体積や圧《お》し返す力の変化と圧《お》す力との関係について，根拠のある予想や仮説を発想し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=52>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PN503150000000
   dct:identifier "84PN503150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4308
   ];
   schema:description "(5) 農業土木工事の施工";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PN503151000000, cs:84PN503152000000, cs:84PN503153000000, cs:84PN503154000000, cs:84PN503155000000, cs:84PN503156000000, cs:84PN503157000000, cs:84PN503158000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

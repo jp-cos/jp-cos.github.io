@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH0202100000000
   dct:identifier "8GH0202100000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3806
   ];
   schema:description "(1) 外国語の音声や文字，語彙，表現，言語の働きなどについて，日本語と外国語との違いに気付くとともに，読むこと，書くことに慣れ親しみ，聞くこと，読むこと，話すこと，書くことによる実際のコミュニケーションにおいて活用できる基礎的な技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d1503231110000
   dct:identifier "84d1503231110000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10641
   ];
   schema:description "(ア) 日常的な話題について，必要に応じて，話される速さが調整されたり，別の語句や文での言い換えを聞いたりしながら，対話や放送などから必要な情報を聞き取り，話し手の意図を把握する活動。また，聞き取った内容を話したり書いたりして伝え合う活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

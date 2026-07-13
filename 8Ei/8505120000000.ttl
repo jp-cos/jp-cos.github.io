@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ei8505120000000
   dct:identifier "8Ei8505120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1953
   ];
   schema:description "イ  器具，用具類の基本操作の指導に当たっては，安全で確実な操作の習得を優先するとともに，けが等の応急処置の方法にも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

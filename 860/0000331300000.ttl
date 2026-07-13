@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000331300000
   dct:identifier "8600000331300000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 27
   ];
   schema:description "ウ　第２章以下に示す各教科，道徳科，外国語活動，特別活動及び自立活動の内容並びに各学年，各段階，各分野又は各言語の内容に掲げる事項の順序は，特に示す場合を除き，指導の順序を示すものではないので，学校においては，その取扱いについて適切な工夫を加えるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=218>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

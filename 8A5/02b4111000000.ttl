@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8A502b4111000000
   dct:identifier "8A502b4111000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 1392
   ];
   schema:description "ア 整数の概念や性質について理解を深め，数に対する感覚を豊かにするとともに，加法，減法，乗法及び除法の意味や性質について理解し，それらの計算ができるようにする。また，小数及び分数の意味や表し方について知り，数量とその関係を表したり読み取ったりすることができるようにすることについての技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=324>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

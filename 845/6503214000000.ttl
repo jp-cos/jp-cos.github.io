@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8456503214000000
   dct:identifier "8456503214000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1503
   ];
   schema:description "(エ) 複素数平面と複素数の極形式，複素数の実数倍，和，差，積及び商の図形的な意味を理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

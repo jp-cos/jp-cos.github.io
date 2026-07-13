@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8415503212400000
   dct:identifier "8415503212400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 453
   ];
   schema:description "エ　話合いの目的に応じて結論を得たり，多様な考えを引き出したりするための議論や討論を行い，その記録を基に話合いの仕方や結論の出し方について批評する活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

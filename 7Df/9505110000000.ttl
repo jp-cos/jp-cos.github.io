@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Df9505110000000
   dct:identifier "7Df9505110000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 951
   ];
   schema:description "ア  指導に当たっては，治療技術的な側面のみならず，インフォームド・コンセントや患者の秘密保持， カルテ等の適切な管理方法など， 理療従事者としての倫理観や職業観を培うことに配慮すること。 また， 模擬患者との面接実習については， 患者の立場に立った施術を行うための心構えや実践的な能力が身に付くよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ek6503120000000
   dct:identifier "8Ek6503120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2440
   ];
   schema:description "(2) 全部床義歯技工学";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Ek6503121000000, cs:8Ek6503122000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

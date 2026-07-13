@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8362215440000000
   dct:identifier "8362215440000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1125
   ];
   schema:description "エ　アの(ウ)の㋑については，地震の現象面を中心に扱い，初期微動継続時間と震源までの距離との定性的な関係にも触れること。また，「地球内部の働き」については，日本付近のプレートの動きを中心に扱い，地球規模でのプレートの動きにも触れること。その際，津波発生の仕組みについても触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=87>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

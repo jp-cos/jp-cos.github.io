@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8AH1203221000000
   dct:identifier "8AH1203221000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2160
   ];
@@ -16,7 +16,7 @@ cs:8AH1203221000000
 (2)に示す事項については，(1)に示す事項を活用して，例えば，次のような言語活動を通して指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8AH1203221100000, cs:8AH1203221200000, cs:8AH1203221300000, cs:8AH1203221400000, cs:8AH1203221500000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=517>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

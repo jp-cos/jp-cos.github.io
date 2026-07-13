@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0300500000000
   dct:identifier "73K0300500000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1575
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1575 1575
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1575
   ];
   schema:description "５　生徒の道徳性については，常にその実態を把握して指導に生かすよう努める必要がある。ただし，道徳の時間に関して数値などによる評価は行わないものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

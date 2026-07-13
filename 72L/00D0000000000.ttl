@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72L00D0000000000
   dct:identifier "72L00D0000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2709
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2709 2735
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2735
   ];
   schema:description "第４章　外国語活動";
   schema:edition "一部改正なし";
   schema:hasPart cs:72L01D0000000000, cs:72L03D0000000000, cs:72L04D0000000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

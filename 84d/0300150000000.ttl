@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0300150000000
   dct:identifier "84d0300150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10827
   ];
   schema:description "(5) 実際に英語を使用して自分自身の考えを伝え合うなどの言語活動を行う際は，既習の語句や文構造，文法事項などの学習内容を繰り返し指導し定着を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

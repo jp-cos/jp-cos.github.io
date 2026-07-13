@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83A0000000000000
   dct:identifier "83A0000000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1335
   ];
   schema:description "第６節　美術";
   schema:edition "一部改正なし";
   schema:hasPart cs:83A0100000000000, cs:83A0200000000000, cs:83A0300000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=13>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

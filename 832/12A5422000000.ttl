@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83212A5422000000
   dct:identifier "83212A5422000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 397
   ];
   schema:description "(イ) 取り上げる地球的課題については，地域間の共通性に気付き，我が国の国土の認識を深め，持続可能な社会づくりを考える上で効果的であるという観点から設定すること。また，州ごとに異なるものとなるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=53>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

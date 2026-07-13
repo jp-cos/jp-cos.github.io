@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000112300000
   dct:identifier "71m0000112300000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 156
   ];
   schema:description "(3) 幼児の社会性や豊かな人間性をはぐくむため，地域や幼稚園の実態等により，特別支援学校などの障害のある幼児との活動を共にする機会を積極的に設けるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74d4505200000000
   dct:identifier "74d4505200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8139
   ];
   schema:description "(2) 必要に応じて，我が国の事情や文化などを取り上げ，外国の事情や文化との類似点や相違点について考えさせるとともに，他の教科等との関連にも配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

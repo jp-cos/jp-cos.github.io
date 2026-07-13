@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B8505100000000
   dct:identifier "84B8505100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2539
   ];
   schema:description "(1) 内容の「Ａ表現」及び「Ｂ鑑賞」の指導については，相互の関連を図り，特に発想や構想に関する資質・能力と鑑賞に関する資質・能力とを総合的に働かせて学習が深められるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

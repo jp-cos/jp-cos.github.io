@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000120000000
   dct:identifier "8400000120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4
   ];
   schema:description "２　学校の教育活動を進めるに当たっては，各学校において，第３款の１に示す主体的・対話的で深い学びの実現に向けた授業改善を通して，創意工夫を生かした特色ある教育活動を展開する中で，次の(1)から(3)までに掲げる事項の実現を図り，生徒に生きる力を育むことを目指すものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000121000000, cs:8400000122000000, cs:8400000123000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

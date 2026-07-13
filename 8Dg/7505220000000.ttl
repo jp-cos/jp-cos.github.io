@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Dg7505220000000
   dct:identifier "8Dg7505220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1388
   ];
   schema:description "イ　〔指導項目〕の(5) については，健康増進のための理学療法，診療記録の仕方や管理及び喀痰等の吸引についても取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

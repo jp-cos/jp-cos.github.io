@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000542000000
   dct:identifier "8500000542000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 64
   ];
   schema:description "(2)  評価の妥当性や信頼性が高められるよう創意工夫を行い，組織的かつ計画的な取組を推進するとともに，次年度又は小学部若しくは小学校等にその内容が適切に引き継がれるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

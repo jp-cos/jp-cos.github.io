@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503151200000
   dct:identifier "84F2503151200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3188
   ];
   schema:description "(イ) 家庭と地域との関わりについて理解するとともに，高齢者や障害のある人々など様々な人々が共に支え合って生きることの意義について理解を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

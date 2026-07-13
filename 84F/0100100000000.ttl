@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F0100100000000
   dct:identifier "84F0100100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3093
   ];
   schema:description "(1) 人間の生涯にわたる発達と生活の営みを総合的に捉え，家族・家庭の意義，家族・家庭と社会との関わりについて理解を深め，家族・家庭，衣食住，消費や環境などについて，生活を主体的に営むために必要な理解を図るとともに，それらに係る技能を身に付けるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

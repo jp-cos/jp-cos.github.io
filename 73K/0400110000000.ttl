@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400110000000
   dct:identifier "73K0400110000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1535
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1535 1535
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1535
   ];
   schema:description "(1) 望ましい生活習慣を身に付け，心身の健康の増進を図り，節度を守り節制に心掛け調和のある生活をする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0400110000001;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

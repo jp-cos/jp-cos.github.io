@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H3503221410000
   dct:identifier "84H3503221410000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2955
   ];
   schema:description "(ア) 学校外での生活や地域社会などの日常的な話題について，情報や考え，気持ちなどを詳しく話して伝え合い，会話を発展させる活動。また，やり取りした内容を整理して発表したり，文章を書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8453503313000000
   dct:identifier "8453503313000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1387
   ];
   schema:description "(ウ) 定積分を利用して，いろいろな曲線で囲まれた図形の面積や立体の体積及び曲線の長さなどを求めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7210000100000000
   dct:identifier "7210000100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 267
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 267 276
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 276
   ];
   schema:description "別表　学 年 別 漢 字 配 当 表";
   schema:edition "一部改正なし";
   schema:hasPart cs:7210010110000000, cs:7210020120000000, cs:7210030130000000, cs:7210040140000000, cs:7210050150000000, cs:7210060160000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

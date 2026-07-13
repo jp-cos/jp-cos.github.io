@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83H1203222250000
   dct:identifier "83H1203222250000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1993
   ];
   schema:description "(オ) 相手の行動を促す";
   schema:edition "一部改正なし";
   schema:hasPart cs:83H1203222251000, cs:83H1203222252000, cs:83H1203222253000, cs:83H1203222254000, cs:83H1203222255000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210531-mxt_kyoiku01-100002608_010.pdf#page=125>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503511000000
   dct:identifier "7452503511000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 676
   ];
   schema:description """(ア) 微分係数と導関数
 　微分係数や導関数の意味について理解し，関数の定数倍，和及び差の導関数を求めること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

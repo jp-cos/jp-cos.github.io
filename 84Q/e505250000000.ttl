@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qe505250000000
   dct:identifier "84Qe505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5931
   ];
   schema:description "オ　〔指導項目〕の(5)については，土木施工に関する法規の目的と概要を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

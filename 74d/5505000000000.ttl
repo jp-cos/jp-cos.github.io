@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74d5505000000000
   dct:identifier "74d5505000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8147
   ];
   schema:description """３　内容の取扱い
 　生徒の実態等に応じて，教材の分量，程度，速度等に留意しながら，多様な題材を取り上げるとともに，他の教科等との関連にも配慮するものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83K0300400000000
   dct:identifier "83K0300400000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2098
   ];
   schema:description "４　生徒の学習状況や道徳性に係る成長の様子を継続的に把握し，指導に生かすよう努める必要がある。ただし，数値などによる評価は行わないものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_011.pdf#page=140>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

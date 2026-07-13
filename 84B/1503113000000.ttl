@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84B1503113000000
   dct:identifier "84B1503113000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2194
   ];
   schema:description "ウ　創意工夫を生かした歌唱表現をするために必要な，次の(ア)から(ウ)までの技能を身に付けること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84B1503113100000, cs:84B1503113200000, cs:84B1503113300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

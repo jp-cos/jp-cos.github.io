@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Z2505100000000
   dct:identifier "84Z2505100000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10042
   ];
   schema:description "(1) 指導に当たっては，第２章第４節第２款の第２の「数学Ⅱ」，第３の「数学Ⅲ」，第５の「数学Ｂ」及び第６の「数学Ｃ」の内容等を参照し，必要に応じて，これらの科目の内容を発展，拡充させて取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

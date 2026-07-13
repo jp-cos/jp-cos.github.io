@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:76O0400300000000
   dct:identifier "76O0400300000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 330
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 330 341
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 341
   ];
   schema:description "３   人間関係の形成";
   schema:edition "一部改正なし";
   schema:hasPart cs:76O0400310000000, cs:76O0400320000000, cs:76O0400330000000, cs:76O0400340000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

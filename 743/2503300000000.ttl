@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7432503300000000
   dct:identifier "7432503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 347
   ];
@@ -16,7 +16,7 @@ cs:7432503300000000
 　ユーラシアの海域及び内陸のネットワークを背景に，諸地域世界の交流が一段と活発化し，新たな地域世界の形成や再編を促したことを把握させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7432503310000000, cs:7432503320000000, cs:7432503330000000, cs:7432503340000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

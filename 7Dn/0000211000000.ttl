@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dn0000211000000
   dct:identifier "7Dn0000211000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 176
   ];
   schema:description "(1) 生徒の視覚障害の状態等に応じて， 点字又は普通の文字による的確な理解と適切な表現の能力を一層養うこと。なお，点字を常用して学習する生徒に対しても，漢字・漢語の意味や構成等についての理解を一層促すため， 適切な指導が行われるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G50206241000000
   dct:identifier "8G50206241000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3125
   ];
   schema:description "(ア) 内容の「Ａ数と計算」のアの(ア)の㋑については，最大公約数や最小公倍数を形式的に求めることに偏ることなく，具体的な場面に即して取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

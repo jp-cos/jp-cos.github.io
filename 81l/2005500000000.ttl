@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l2005500000000
   dct:identifier "81l2005500000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 119
   ];
   schema:description "(5) 集団の生活を通して，幼児が人との関わりを深め，規範意識の芽生えが培われることを考慮し，幼児が教師との信頼関係に支えられて自己を発揮する中で，互いに思いを主張し，折り合いを付ける体験をし，きまりの必要性などに気付き，自分の気持ちを調整する力が育つようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

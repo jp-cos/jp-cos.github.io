@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84U8505220000000
   dct:identifier "84U8505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 8454
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，人体寸法，動作寸法，作業寸法などを扱うとともに，住居の平面計画の基本であるゾーニング，動線，各室の配置と位置関係などを扱うこと。イについては，住居の構造と材料に関する基礎的な事項を扱うとともに，地震に強い住空間の計画を扱うこと。ウについては，健康で安全な室内環境の条件，室内環境整備のための設備を扱うとともに，住居の省エネルギー化についても扱うこと。また，住空間の延長としての住居周りの外部のデザインと整備についても扱うこと。エについては，住居の平面計画を検討し，平面表示記号などを用いて平面図を作成させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

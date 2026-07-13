@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000270000000
   dct:identifier "8B00000270000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 186
   ];
@@ -16,7 +16,7 @@ cs:8B00000270000000
 道徳教育を進めるに当たっては，道徳教育の特質を踏まえ，第１節及び第１款から第６款までに示す事項に加え，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8B00000271000000, cs:8B00000272000000, cs:8B00000273000000, cs:8B00000274000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7465503111000000
   dct:identifier "7465503111000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1000
   ];
   schema:description """(ア) 状態変化
 　物質の沸点，融点を分子間力や化学結合と関連付けて理解すること。また，状態変化に伴うエネルギーの出入り及び状態間の平衡と温度や圧力との関係について理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

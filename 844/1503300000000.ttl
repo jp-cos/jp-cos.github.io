@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8441503300000000
   dct:identifier "8441503300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1073
   ];
@@ -16,7 +16,7 @@ cs:8441503300000000
 持続可能な地域，国家・社会及び国際社会づくりに向けた役割を担う，公共の精神をもった自立した主体となることに向けて，幸福，正義，公正などに着目して，現代の諸課題を探究する活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8441503310000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

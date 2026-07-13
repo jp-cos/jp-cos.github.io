@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PL505130000000
   dct:identifier "74PL505130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2779
   ];
   schema:description "ウ　内容の(3)から(5)までについては，地域林業の実態や学科の特色に応じて，題材として適切な林産物を選定すること。また，加工，製造機械類の操作及び各種薬剤などによる事故の防止など安全の指導の充実に努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

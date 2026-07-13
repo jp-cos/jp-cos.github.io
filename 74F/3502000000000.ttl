@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F3502000000000
   dct:identifier "74F3502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1938
   ];
   schema:description """１　目標
 　人の一生と家族・家庭及び福祉，消費生活，衣食住などに関する知識と技術を体験的に習得させ，家庭や地域の生活課題を主体的に解決するとともに，生活の充実向上を図る能力と実践的な態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

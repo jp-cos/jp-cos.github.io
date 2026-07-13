@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74RE503300000000
   dct:identifier "74RE503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5278
   ];
   schema:description "(3) 原価の部門別計算と製品別計算";
   schema:edition "一部改正なし";
   schema:hasPart cs:74RE503310000000, cs:74RE503320000000, cs:74RE503330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8361235730000000
   dct:identifier "8361235730000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1021
   ];
   schema:description "ウ　アの(イ)の㋑の「力が働く運動」のうち，落下運動については斜面に沿った運動を中心に扱うこと。その際，斜面の角度が90度になったときに自由落下になることにも触れること。「物体の速さが変わること」については，定性的に扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=58>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

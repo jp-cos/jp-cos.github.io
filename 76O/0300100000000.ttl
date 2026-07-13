@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:76O0300100000000
   dct:identifier "76O0300100000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 354
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 354 365
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 365
   ];
   schema:description "１   自立活動の指導に当たっては， 個々の児童又は生徒の障害の状態や発達の段階等の的確な把握に基づき， 指導の目標及び指導内容を明確にし， 個別の指導計画を作成するものとする。 その際，第２に示す内容の中からそれぞれに必要とする項目を選定し， それらを相互に関連付け，具体的に指導内容を設定するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d2503231220000
   dct:identifier "84d2503231220000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10684
   ];
   schema:description "(イ) 社会的な話題について，説明や討論などから必要な情報を聞き取り，概要や要点，詳細を把握する活動。また，聞き取った内容を基に考えをまとめ，話したり書いたりして伝え合う活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

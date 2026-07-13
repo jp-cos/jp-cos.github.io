@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d0100200000000
   dct:identifier "84d0100200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10613
   ];
   schema:description "(2) コミュニケーションを行う目的や場面，状況などに応じて，日常的な話題や社会的な話題について，英語で情報や考えなどの概要や要点，詳細，話し手や書き手の意図などを的確に理解したり，これらを活用して適切に表現したり伝え合ったりすることができる力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

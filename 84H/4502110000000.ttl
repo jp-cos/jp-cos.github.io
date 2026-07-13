@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84H4502110000000
   dct:identifier "84H4502110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2968
   ];
   schema:description "ア　日常的な話題について，使用する語句や文，対話の展開などにおいて，多くの支援を活用すれば，基本的な語句や文を用いて，情報や考え，気持ちなどを話して伝え合ったり，やり取りを通して必要な情報を得たりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

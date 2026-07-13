@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7433505200000000
   dct:identifier "7433505200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 406
   ];
   schema:description "(2) この科目の指導に当たっては，客観的かつ公正な資料に基づいて，事実の正確な理解に導くようにするとともに，多面的・多角的に考察し公正に判断する能力を育成するようにする。その際，核兵器などの脅威に着目させ，戦争を防止し，平和で民主的な国際社会を実現することが重要な課題であることを認識させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

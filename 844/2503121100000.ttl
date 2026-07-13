@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442503121100000
   dct:identifier "8442503121100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1122
   ];
   schema:description "(ア) 古来の日本人の心情と考え方や日本の先哲の思想に着目して，我が国の風土や伝統，外来思想の受容などを基に，国際社会に生きる日本人としての在り方生き方について思索するための手掛かりとなる日本人に見られる人間観，自然観，宗教観などの特質について，自己との関わりにおいて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

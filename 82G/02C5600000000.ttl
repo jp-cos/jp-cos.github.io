@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02C5600000000
   dct:identifier "82G02C5600000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3176
   ];
   schema:description "(6) 内容の「Ｇ保健」の(1)については，学校でも，健康診断や学校給食など様々な活動が行われていることについて触れるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=115>;
   cs:courseOfStudy cs:Elementary\/2017;

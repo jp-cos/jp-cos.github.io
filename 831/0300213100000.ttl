@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8310300213100000
   dct:identifier "8310300213100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 280
   ];
   schema:description "(ア) 文字を正しく整えて速く書くことができるようにするとともに，書写の能力を学習や生活に役立てる態度を育てるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_002.pdf#page=143>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

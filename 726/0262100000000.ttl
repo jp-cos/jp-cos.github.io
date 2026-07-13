@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:7260262100000000
   dct:identifier "7260262100000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1968
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1968 1977
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1977
   ];
   schema:description "(1) 燃焼，水溶液，てこ及び電気による現象についての要因や規則性を推論しながら調べ，見いだした問題を計画的に追究したりものづくりをしたりする活動を通して，物の性質や規則性についての見方や考え方を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8210300214100000
   dct:identifier "8210300214100000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 305
   ];
   schema:description "(ア) 学年ごとに配当されている漢字は，児童の学習負担に配慮しつつ，必要に応じて，当該学年以前の学年又は当該学年以降の学年において指導することもできること。 ";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=167>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300310000000
   dct:identifier "72K0300310000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2702
   ];
   schema:description "(1) 校長や教頭などの参加，他の教師との協力的な指導などについて工夫し，道徳教育推進教師を中心とした指導体制を充実すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72K0300310000001;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

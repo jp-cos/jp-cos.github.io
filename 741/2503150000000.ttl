@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7412503150000000
   dct:identifier "7412503150000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 200
   ];
   schema:description "オ　様々な表現についてその効果を吟味したり，書いた文章を互いに読み合って批評したりして，自分の表現や推敲《こう》に役立てるとともに，ものの見方，感じ方，考え方を豊かにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8380300210000000
   dct:identifier "8380300210000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1274
   ];
   schema:description "(1) 各学年の「Ａ表現」及び「Ｂ鑑賞」の指導に当たっては，次のとおり取り扱うこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8380300211000000, cs:8380300212000000, cs:8380300213000000, cs:8380300214000000, cs:8380300215000000, cs:8380300216000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=103>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

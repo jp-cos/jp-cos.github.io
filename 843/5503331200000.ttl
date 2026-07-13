@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8435503331200000
   dct:identifier "8435503331200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 950
   ];
   schema:description "(イ) 宗教改革とヨーロッパ諸国の抗争，大西洋三角貿易の展開，科学革命と啓蒙(もう)思想などを基に，主権国家体制の形成と地球規模での交易の拡大を構造的に理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

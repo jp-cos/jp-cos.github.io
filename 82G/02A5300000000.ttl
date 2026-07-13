@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02A5300000000
   dct:identifier "82G02A5300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3108
   ];
   schema:description "(3) 内容の「Ｆ表現リズム遊び」の(1)のイについては，簡単なフォークダンスを含めて指導することができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=69>;
   cs:courseOfStudy cs:Elementary\/2017;

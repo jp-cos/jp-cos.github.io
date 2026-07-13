@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df5505230000000
   dct:identifier "8Df5505230000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 960
   ];
   schema:description "ウ　〔指導項目〕の(6) のアからウまでについては，特に，運動器系疾患や内臓器系疾患に対する刺激の作用や生体反応の医学的意味と臨床への応用という観点で取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

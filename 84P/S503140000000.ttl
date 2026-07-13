@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PS503140000000
   dct:identifier "84PS503140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4519
   ];
   schema:description "(4) 地理空間情報";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PS503141000000, cs:84PS503142000000, cs:84PS503143000000, cs:84PS503144000000, cs:84PS503145000000, cs:84PS503146000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

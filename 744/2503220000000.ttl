@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7442503220000000
   dct:identifier "7442503220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 555
   ];
   schema:description """イ　国際社会に生きる日本人としての自覚
 　日本人にみられる人間観，自然観，宗教観などの特質について，我が国の風土や伝統，外来思想の受容に触れながら，自己とのかかわりにおいて理解させ，国際社会に生きる主体性のある日本人としての在り方生き方について自覚を深めさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

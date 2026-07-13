@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411503321000000
   dct:identifier "7411503321000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 151
   ];
   schema:description "ア　文章を読んで脚本にしたり，古典を現代の物語に書き換えたりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

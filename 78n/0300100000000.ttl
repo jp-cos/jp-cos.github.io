@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:78n0300100000000
   dct:identifier "78n0300100000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 221
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 221 232
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 232
   ];
   schema:description "１   指導計画の作成に当たっては， 個々の児童の知的障害の状態や経験等を考慮しながら， 各教科の相当する段階の内容の中から実際に指導する内容を選定し， 配列して， 具体的に指導内容を設定するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

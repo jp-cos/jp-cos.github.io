@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73H1203341400000
   dct:identifier "73H1203341400000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1481
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1481 1481
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1481
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1481 1481 1487
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1487
   ];
   schema:description "ｄ　疑問文のうち，動詞で始まるもの，助動詞（can，do，mayなど）で始まるもの，orを含むもの及び疑問詞（how，what，when，where，which，who，whose，why）で始まるもの";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

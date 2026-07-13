@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TG505240000000
   dct:identifier "84TG505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7953
   ];
   schema:description "エ　〔指導項目〕の(4)については，海洋生物の繁殖や成長に必要な条件を備えた人工漁場や増養殖場を造成するための基本的な技術並びに海岸環境の保全と整備，造成技術など基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

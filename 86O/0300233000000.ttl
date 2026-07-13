@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:86O0300233000000
   dct:identifier "86O0300233000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2328
   ];
   schema:description "ウ　個々の児童又は生徒が，発達の遅れている側面を補うために，発達の進んでいる側面を更に伸ばすような指導内容を取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220426-mext_tokubetu01-100002983_9.pdf#page=120>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

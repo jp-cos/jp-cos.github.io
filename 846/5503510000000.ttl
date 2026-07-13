@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8465503510000000
   dct:identifier "8465503510000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1785
   ];
   schema:description "ア　化学が果たす役割を日常生活や社会と関連付けながら，次のことを理解すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8465503511000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

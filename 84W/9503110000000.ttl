@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84W9503110000000
   dct:identifier "84W9503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9181
   ];
   schema:description "(1) 精神の健康と看護";
   schema:edition "一部改正なし";
   schema:hasPart cs:84W9503111000000, cs:84W9503112000000, cs:84W9503113000000, cs:84W9503114000000, cs:84W9503115000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

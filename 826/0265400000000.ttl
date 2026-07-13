@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8260265400000000
   dct:identifier "8260265400000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2538
   ];
   schema:description "(4) 内容の「Ｂ生命・地球」の(3)については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8260265410000000, cs:8260265420000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=93>;
   cs:courseOfStudy cs:Elementary\/2017;

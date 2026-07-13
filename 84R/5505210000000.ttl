@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R5505210000000
   dct:identifier "84R5505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6783
   ];
   schema:description "ア　〔指導項目〕の(1)のウについては，環境分析，セグメンテーション，標的市場の選定，ポジショニング，マーケティング・ミックスの考え方，マーケティング管理の重要性などについて扱うこと。エについては，消費者心理，消費者の意思決定の過程，消費者の行動に影響を及ぼす要因などについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

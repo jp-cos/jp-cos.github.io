@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Q0300130000000
   dct:identifier "74Q0300130000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4881
   ];
   schema:description "(3) 「実習」及び「製図」については，それぞれ科目名に各学科の名称を冠し，例えば「機械実習」，「機械製図」などとして取り扱うことができること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

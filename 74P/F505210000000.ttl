@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PF505210000000
   dct:identifier "74PF505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2564
   ];
   schema:description "ア　内容の(1)については，植物の繁殖などの機能を利用するバイオテクノロジーの技術体系及び農業などの産業各分野における利用の概要を扱うこと。　";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

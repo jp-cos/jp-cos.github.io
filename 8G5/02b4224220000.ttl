@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502b4224220000
   dct:identifier "8G502b4224220000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3065
   ];
   schema:description "㋑ 図形を構成する要素に着目し，基本図形の体積の求め方を見いだすとともに，その表現を振り返り，簡潔かつ的確な表現に高め，公式として導くこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

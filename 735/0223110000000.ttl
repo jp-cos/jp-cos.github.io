@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7350223110000000
   dct:identifier "7350223110000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 509
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 509 509
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 509
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 509 509 515
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 515
   ];
   schema:description "(1) 具体的な事象の中に数量の関係を見いだし，それを文字を用いて式に表現したり式の意味を読み取ったりする能力を養うとともに，文字を用いた式の四則計算ができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7350223111000000, cs:7350223112000000, cs:7350223113000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84W9505220000000
   dct:identifier "84W9505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9212
   ];
   schema:description "イ　〔指導項目〕の(2)については，精神医療や精神看護の歴史を通して，精神に障害のある人の人権や権利擁護，精神保健医療福祉における看護の役割を扱うこと。また，地域で生活していくための支援システムや必要な援助も扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

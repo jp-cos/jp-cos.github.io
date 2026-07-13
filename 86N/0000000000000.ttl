@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:86N0000000000000
   dct:identifier "86N0000000000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 2280
   ];
@@ -16,7 +16,7 @@ cs:86N0000000000000
 小学部又は中学部の特別活動の目標，各活動・学校行事の目標及び内容並びに指導計画の作成と内容の取扱いについては，それぞれ小学校学習指導要領第６章又は中学校学習指導要領第５章に示すものに準ずるほか，次に示すところによるものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:86N0000100000000, cs:86N0000200000000, cs:86N0000300000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=556>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

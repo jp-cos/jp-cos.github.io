@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82F03D0130000000
   dct:identifier "82F03D0130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3040
   ];
   schema:description "(3) 第２の内容の「Ａ家族・家庭生活」の(4)については，実践的な活動を家庭や地域などで行うことができるよう配慮し，２学年間で一つ又は二つの課題を設定して履修させること。その際，「Ａ家族・家庭生活」の(2)又は(3)，「Ｂ衣食住の生活」，「Ｃ消費生活・環境」で学習した内容との関連を図り，課題を設定できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607_02.pdf#page=80>;
   cs:courseOfStudy cs:Elementary\/2017;

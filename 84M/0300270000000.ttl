@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0300270000000
   dct:identifier "84M0300270000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10886
   ];
   schema:description "(7) 体験活動については，第１の目標並びに第２の各学校において定める目標及び内容を踏まえ，探究の過程に適切に位置付けること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

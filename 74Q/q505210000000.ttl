@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qq505210000000
   dct:identifier "74Qq505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4587
   ];
   schema:description "ア　内容の(2)のアについては，機能性セラミックスの開発を支えた技術の概要を扱うこと。イからエまでについては，セラミックスの多様な機能及び利用例を扱うこと。また，機能性の原理に関する基礎的な内容を扱うこと。　　　";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

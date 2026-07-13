@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Ei3505120000000
   dct:identifier "8Ei3505120000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1816
   ];
   schema:description "イ　〔指導項目〕の(2)から(4)までについては，「衛生管理」や「香粧品化学」と関連させながら，皮膚疾患とその感染経路，病原菌と消毒法及び予防法に関する的確な知識と技術を習得させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

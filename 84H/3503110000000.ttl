@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H3503110000000
   dct:identifier "84H3503110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2942
   ];
   schema:description """(1) 英語の特徴やきまりに関する事項
 「英語コミュニケーションⅠ」の２の(1)と同様に取り扱うものとする。ただし，指導する語については，「英語コミュニケーションⅡ」の２の(1)で示す語に700～950語程度の新語を加えた語とする。また，「英語コミュニケーションⅠ」の２の(1)のエの(イ)については，示された文法事項の中から，五つの領域別の目標を達成するのにふさわしいものを取り扱うものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

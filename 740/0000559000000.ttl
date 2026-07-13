@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000559000000
   dct:identifier "7400000559000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 96
   ];
   schema:description "(9) 海外から帰国した生徒などについては，学校生活への適応を図るとともに，外国における生活経験を生かすなど適切な指導を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

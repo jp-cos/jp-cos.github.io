@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000350000000
   dct:identifier "77n0000350000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 90
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 90 101
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 101
   ];
   schema:description "(5)児童の身体の動きや意思の表出の状態等に応じて，適切な補助用具や補助的手段を工夫するとともに，  コンピュータ等の情報機器などを有効に活用し，指導の効果を高めるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

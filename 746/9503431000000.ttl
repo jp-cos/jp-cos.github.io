@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7469503431000000
   dct:identifier "7469503431000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1218
   ];
   schema:description """(ア) 様々な銀河
 　様々な銀河の存在や銀河の後退運動を理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

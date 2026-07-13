@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G0265800000000
   dct:identifier "82G0265800000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3254
   ];
   schema:description "(8) 内容の「Ｇ保健」の(3)のアの(エ)の薬物については，有機溶剤の心身への影響を中心に取り扱うものとする。また，覚醒剤等についても触れるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=164>;
   cs:courseOfStudy cs:Elementary\/2017;

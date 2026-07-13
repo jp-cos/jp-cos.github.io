@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U7505240000000
   dct:identifier "74U7505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6406
   ];
   schema:description "エ　内容の(4)のアについては，主に調理，被服管理，住環境の整備などの家事援助を扱うこと。イについては，食事，着脱衣，移動などの介助や体位変換などの基本的な介護技術を扱うこと。ウについては，レクリエーションが高齢者の身体的，精神的な機能や社会性などの維持・向上に有効であることと関連付けて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

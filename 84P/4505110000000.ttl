@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84P4505110000000
   dct:identifier "84P4505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3549
   ];
   schema:description "ア　産業社会における情報の意義を理解させ，農業の各分野における先進技術や革新技術を題材とした探究的な学習活動を通して，創造的思考をもてるよう留意して指導すること。なお，生徒の実態や学科の特色等に応じて，適切な題材を選定すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

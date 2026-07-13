@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7436503230000000
   dct:identifier "7436503230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 485
   ];
   schema:description """ウ　人口，都市・村落
 　世界の人口，都市・村落などに関する諸事象を取り上げ，それらの分布や動向などについて考察させるとともに，現代世界の人口，居住・都市問題を大観させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

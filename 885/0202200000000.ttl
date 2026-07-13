@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8850202200000000
   dct:identifier "8850202200000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 431
   ];
   schema:description "(2) 日常の事象の中から数量や図形を直感的に捉える力，基礎的・基本的な数量や図形の性質などに気付き感じ取る力，数学的な表現を用いて事象を簡潔・明瞭・的確に表したり柔軟に表したりする力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=114>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

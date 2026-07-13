@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7362213111000000
   dct:identifier "7362213111000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 758
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 758 758
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 758
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 758 758 764
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 764
   ];
   schema:description """(ア) 生物の観察
 校庭や学校周辺の生物の観察を行い，いろいろな生物が様々な場所で生活していることを見いだすとともに，観察器具の操作，観察記録の仕方などの技能を身に付け，生物の調べ方の基礎を習得すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7462503251000000
   dct:identifier "7462503251000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 883
   ];
   schema:description """(ア) 物理学が拓《ひら》く世界
 　「物理基礎」で学んだ事柄が，日常生活やそれを支えている科学技術と結び付いていることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

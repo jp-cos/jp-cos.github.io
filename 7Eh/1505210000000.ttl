@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Eh1505210000000
   dct:identifier "7Eh1505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1260
   ];
   schema:description "ア  内容の(1)については，時代の進展とともに，情報や伝達の手段が変化していくことを理解させ， 印刷の文化的な役割の担い手としての態度の育成に努めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

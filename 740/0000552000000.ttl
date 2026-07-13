@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7400000552000000
   dct:identifier "7400000552000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 89
   ];
   schema:description "(2) 学校の教育活動全体を通じて，個々の生徒の特性等の的確な把握に努め，その伸長を図ること。また，生徒が適切な各教科・科目や類型を選択し学校やホームルームでの生活によりよく適応するとともに，現在及び将来の生き方を考え行動する態度や能力を育成することができるよう，ガイダンスの機能の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

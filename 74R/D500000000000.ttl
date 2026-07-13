@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74RD500000000000
   dct:identifier "74RD500000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5232
   ];
   schema:description "第13　財務会計Ⅱ";
   schema:edition "一部改正なし";
   schema:hasPart cs:74RD502000000000, cs:74RD503000000000, cs:74RD505000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

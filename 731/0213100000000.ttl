@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7310213100000000
   dct:identifier "7310213100000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 49
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 49 49
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 49
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 49 49 55
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 55
   ];
   schema:description "Ａ　話すこと・聞くこと";
   schema:edition "一部改正なし";
   schema:hasPart cs:7310213110000000, cs:7310213120000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

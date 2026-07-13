@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7464503300000000
   dct:identifier "7464503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 978
   ];
@@ -16,7 +16,7 @@ cs:7464503300000000
 　化学反応の量的関係，酸と塩基の反応及び酸化還元反応について観察，実験などを通して探究し，化学反応に関する基本的な概念や法則を理解させるとともに，それらを日常生活や社会と関連付けて考察できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7464503310000000, cs:7464503320000000, cs:7464503330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

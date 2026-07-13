@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7B00000271000000
   dct:identifier "7B00000271000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 164
   ];
   schema:description "１   視覚障害者又は聴覚障害者である生徒に対する教育を行 う 特別支援学校の専攻科における教科及び科目のうち標準的なものは， 次の表に掲げるとおりである。 視覚障害者又は聴覚障害者である生徒に対する教育を行う特別支援学校においては， 必要がある場合には同表に掲げる教科について，  これらに属する科目以外の科目を設けることができる。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7D00000271100000, cs:7D00000271200000, cs:7D00000271300000, cs:7E00000271400000, cs:7E00000271500000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

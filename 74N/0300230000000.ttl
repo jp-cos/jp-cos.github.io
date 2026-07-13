@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74N0300230000000
   dct:identifier "74N0300230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8235
   ];
   schema:description "(3) 〔学校行事〕については，学校や地域及び生徒の実態に応じて，各種類ごとに，行事及びその内容を重点化するとともに，入学から卒業までを見通して，行事間の関連や統合を図るなど精選して実施すること。また，実施に当たっては，幼児，高齢者，障害のある人々などとの触れ合い，自然体験や社会体験などの体験活動を充実するとともに，体験活動を通して気付いたことなどを振り返り，まとめたり，発表し合ったりするなどの活動を充実するよう工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

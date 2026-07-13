@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74d0000000000000
   dct:identifier "74d0000000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8083
   ];
   schema:description "第13節　英　　　語";
   schema:edition "一部改正なし";
   schema:hasPart cs:74d0100000000000, cs:74d0300000000000, cs:74d0500000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RF502300000000
   dct:identifier "84RF502300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7127
   ];
   schema:description "(3) 適切な経営管理を行う力の向上を目指して自ら学び，経営管理に有用な会計情報の提供と効果的な活用に主体的かつ協働的に取り組む態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

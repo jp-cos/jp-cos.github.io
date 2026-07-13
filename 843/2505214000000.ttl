@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8432505214000000
   dct:identifier "8432505214000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 670
   ];
   schema:description """(エ) (4)については，次のとおり取り扱うこと。
 「人口，都市・村落などに関わる諸事象」については，国や地方公共団体の取組とも深く関わることから，中学校社会科公民的分野及び高等学校公民科などとの関連を踏まえた取扱いに留意すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

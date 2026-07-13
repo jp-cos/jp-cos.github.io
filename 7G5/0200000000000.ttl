@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7G50200000000000
   dct:identifier "7G50200000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2287
   ];
   schema:description "［数学］";
   schema:edition "一部改正なし";
   schema:hasPart cs:7G50202000000000, cs:7G50203000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

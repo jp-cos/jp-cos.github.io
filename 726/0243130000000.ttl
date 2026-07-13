@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260243130000000
   dct:identifier "7260243130000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1905
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1905 1914
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1914
   ];
   schema:description """(3) 電気の働き
 　乾電池や光電池に豆電球やモーターなどをつなぎ，乾電池や光電池の働きを調べ，電気の働きについての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260243131000000, cs:7260243132000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

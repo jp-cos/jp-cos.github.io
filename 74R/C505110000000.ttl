@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74RC505110000000
   dct:identifier "74RC505110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 5225
   ];
   schema:description "ア　指導に当たっては，企業会計に関する法規や基準の変更に留意し，企業の経営成績や財政状態を把握し，ビジネスの諸活動に活用する知識と技術を習得させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

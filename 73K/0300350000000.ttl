@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0300350000000
   dct:identifier "73K0300350000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1573
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1573 1573
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1573
   ];
   schema:description "(5) 生徒の発達の段階や特性等を考慮し，第２に示す道徳の内容との関連を踏まえて，情報モラルに関する指導に留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

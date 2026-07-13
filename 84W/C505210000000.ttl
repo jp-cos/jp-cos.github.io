@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84WC505210000000
   dct:identifier "84WC505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9300
   ];
   schema:description "ア　〔指導項目〕の(1)については，看護を行う多様な施設の機能と看護の役割，患者・入所者などの総合的な把握及び看護におけるコミュニケーションの重要性，対象者の状態に応じた日常生活の援助を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

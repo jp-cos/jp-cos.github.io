@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:77n0000140000000
   dct:identifier "77n0000140000000";
-  dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
+  dct:source cs:76V11, cs:76V22;
   qb:order [
-    dct:source cs:76V11, cs:76V22 cs:76V11;
+    dct:source cs:76V11;
     rdf:type cs:Number;
     rdf:value 76
   ], [
-    dct:source cs:76V11, cs:76V22 cs:76V11 cs:76V22;
-    rdf:type cs:Number cs:Number;
-    rdf:value 76 87
+    dct:source cs:76V22;
+    rdf:type cs:Number;
+    rdf:value 87
   ];
   schema:description "(4)触覚教材，拡大教材，音声教材等の活用を図るとともに，児童が視覚補助具やコンピュータ等の情報機器などの活用を通して， 容易に情報の収集や処理ができるようにするなど， 児童の視覚障害の状態等を考慮した指導方法を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2009, cs:ElementaryAndLowerSecondaryDeptSNES\/2009\/2015;

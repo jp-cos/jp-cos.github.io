@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7323233220000000
   dct:identifier "7323233220000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 373
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 373 373
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 373
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 373 373 379
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 379
   ];
   schema:description """イ　国民の生活と政府の役割
 　国民の生活と福祉の向上を図るために，社会資本の整備，公害の防止など環境の保全，社会保障の充実，消費者の保護など，市場の働きにゆだねることが難しい諸問題に関して，国や地方公共団体が果たしている役割について考えさせる。また，財源の確保と配分という観点から財政の役割について考えさせる。その際，租税の意義と役割について考えさせるとともに，国民の納税の義務について理解させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

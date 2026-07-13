@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74U5505210000000
   dct:identifier "74U5505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6350
   ];
   schema:description "ア　内容の(1)のアについては，発達の概念や乳幼児期が人間の発達の基礎を培う時期であることを扱うこと。イについては，心身の発達は子どもが主体的に環境にかかわることによって促されること，発達における個人差などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

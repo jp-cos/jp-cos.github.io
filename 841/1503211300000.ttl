@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8411503211300000
   dct:identifier "8411503211300000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 198
   ];
   schema:description "ウ　話し言葉の特徴を踏まえて話したり，場の状況に応じて資料や機器を効果的に用いたりするなど，相手の理解が得られるように表現を工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

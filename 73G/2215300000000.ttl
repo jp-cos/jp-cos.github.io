@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73G2215300000000
   dct:identifier "73G2215300000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1230
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1230 1230
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1230
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1230 1230 1236
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1236
   ];
   schema:description "(3) 内容の(1)のイについては，妊娠や出産が可能となるような成熟が始まるという観点から，受精・妊娠までを取り扱うものとし，妊娠の経過は取り扱わないものとする。また，身体の機能の成熟とともに，性衝動が生じたり，異性への関心が高まったりすることなどから，異性の尊重，情報への適切な対処や行動の選択が必要となることについて取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

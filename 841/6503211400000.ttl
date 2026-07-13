@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8416503211400000
   dct:identifier "8416503211400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 503
   ];
   schema:description "エ　作品の成立した背景や他の作品などとの関係を踏まえながら古典などを読み，その内容の解釈を深め，作品の価値について考察すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

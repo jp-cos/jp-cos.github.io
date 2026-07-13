@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GA02b4211200000
   dct:identifier "8GA02b4211200000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3477
   ];
   schema:description "(イ) 材料や用具の特性の生かし方などを身に付け，意図に応じて表現方法を追求し，自分らしさを発揮して表すこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

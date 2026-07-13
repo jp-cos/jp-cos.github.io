@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7436503120000000
   dct:identifier "7436503120000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 481
   ];
   schema:description """イ　地図の活用と地域調査
 　直接的に調査できる地域を地図を活用して多面的・多角的に調査し，生活圏の地域的特色をとらえる地理的技能を身に付けさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -18,96 +18,93 @@ cs:CourseOfStudyShape
     sh:order 1;
     sh:path cs:issuedPeriod
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>";
+    skos:example "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>";
     sh:datatype rdf:langString;
-    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
+    sh:description "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja;
     sh:languageIn [
-      rdf:first "ja" "ja-Hira" "en";
-      rdf:rest   rdf:nil[
-          rdf:first "ja" "ja-Hira" "en";
-          rdf:rest   rdf:nil
-        ][
-        rdf:first "ja" "ja-Hira" "en";
-        rdf:rest   rdf:nil[
-          rdf:first "ja" "ja-Hira" "en";
-          rdf:rest   rdf:nil
+      rdf:first "ja";
+      rdf:rest [
+        rdf:first "ja-Hira";
+        rdf:rest [
+          rdf:first "en";
+          rdf:rest rdf:nil
         ]
       ]
     ];
-    sh:maxCount 1 3;
-    sh:minCount 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja;
-    sh:order 1 2;
-    sh:path cs:issuedPeriod schema:name;
+    sh:maxCount 3;
+    sh:minCount 1;
+    sh:name "Name"@en, "名称"@ja;
+    sh:order 2;
+    sh:path schema:name;
     sh:uniqueLang true
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31";
-    sh:datatype rdf:langString xsd:date;
-    sh:maxCount 1 3 1;
-    sh:minCount 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja;
-    sh:order 1 2 3;
-    sh:path cs:issuedPeriod schema:name schema:datePublished
+    skos:example "2017-03-31";
+    sh:datatype xsd:date;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Date of Announcement"@en, "告示日"@ja;
+    sh:order 3;
+    sh:path schema:datePublished
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01";
-    sh:datatype rdf:langString xsd:date xsd:date;
-    sh:maxCount 1 3 1 1;
-    sh:minCount 1 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja;
-    sh:order 1 2 3 4;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate
+    skos:example "2020-04-01";
+    sh:datatype xsd:date;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Date of Enforcement"@en, "施行年月日"@ja;
+    sh:order 4;
+    sh:path schema:startDate
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary;
-    sh:class cs:Period cs:School;
-    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
-    sh:maxCount 1 3 1 1 2;
-    sh:minCount 1 1 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja;
-    sh:order 1 2 3 4 5;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school
+    skos:example cs:school\/Elementary;
+    sh:class cs:School;
+    sh:description "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja;
+    sh:maxCount 2;
+    sh:minCount 1;
+    sh:name "Type of School"@en, "学校種別"@ja;
+    sh:order 5;
+    sh:path cs:school
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm>;
-    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja "Repeatable. Link to the fulltext possibly at the MEXT website and Curriculum guidelines database at NIER"@en, "繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja "Fulltext URL"@en, "本文URL"@ja;
+    skos:example <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm>;
+    sh:description "Repeatable. Link to the fulltext possibly at the MEXT website and Curriculum guidelines database at NIER"@en, "繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja;
+    sh:name "Fulltext URL"@en, "本文URL"@ja;
     sh:nodeKind sh:IRI;
-    sh:order 1 2 3 4 5 6;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school schema:url
+    sh:order 6;
+    sh:path schema:url
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm> cs:Elementary\/2017\/2017;
-    sh:class cs:Period cs:School cs:CourseOfStudyRevision;
-    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja "Repeatable. Link to the fulltext possibly at the MEXT website and Curriculum guidelines database at NIER"@en, "繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
-    sh:minCount 1 1 1 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja "Fulltext URL"@en, "本文URL"@ja "Other versions"@en, "別バージョン"@ja;
-    sh:order 1 2 3 4 5 6 7;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school schema:url dct:hasVersion
+    skos:example cs:Elementary\/2017\/2017;
+    sh:class cs:CourseOfStudyRevision;
+    sh:description "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja;
+    sh:minCount 1;
+    sh:name "Other versions"@en, "別バージョン"@ja;
+    sh:order 7;
+    sh:path dct:hasVersion
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm> cs:Elementary\/2017\/2017 cs:82V11;
-    sh:class cs:Period cs:School cs:CourseOfStudyRevision cs:Dataset;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja "Fulltext URL"@en, "本文URL"@ja "Other versions"@en, "別バージョン"@ja "Dataset"@en, "データセット"@ja;
-    sh:order 1 2 3 4 5 6 7 8;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school schema:url dct:hasVersion cs:dataset
+    skos:example cs:82V11;
+    sh:class cs:Dataset;
+    sh:name "Dataset"@en, "データセット"@ja;
+    sh:order 8;
+    sh:path cs:dataset
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm> cs:Elementary\/2017\/2017 cs:82V11 cs:Elementary\/2017\/国語;
-    sh:class cs:Period cs:School cs:CourseOfStudyRevision cs:Dataset cs:SubjectArea;
-    sh:minCount 1 1 1 1 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja "Fulltext URL"@en, "本文URL"@ja "Other versions"@en, "別バージョン"@ja "Dataset"@en, "データセット"@ja "has a subject area"@en, "教科がある"@ja;
-    sh:order 1 2 3 4 5 6 7 8 9;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school schema:url dct:hasVersion cs:dataset cs:hasSubjectArea
+    skos:example cs:Elementary\/2017\/国語;
+    sh:class cs:SubjectArea;
+    sh:minCount 1;
+    sh:name "has a subject area"@en, "教科がある"@ja;
+    sh:order 9;
+    sh:path cs:hasSubjectArea
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm> cs:Elementary\/2017\/2017 cs:82V11 cs:Elementary\/2017\/国語 cs:LowerSecondary\/2017\/外国語\/英語;
-    sh:class cs:Period cs:School cs:CourseOfStudyRevision cs:Dataset cs:SubjectArea cs:Subject;
-    sh:minCount 1 1 1 1 1 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja "Fulltext URL"@en, "本文URL"@ja "Other versions"@en, "別バージョン"@ja "Dataset"@en, "データセット"@ja "has a subject area"@en, "教科がある"@ja "has a subject"@en, "科目がある"@ja;
-    sh:order 1 2 3 4 5 6 7 8 9 10;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school schema:url dct:hasVersion cs:dataset cs:hasSubjectArea cs:hasSubject
+    skos:example cs:LowerSecondary\/2017\/外国語\/英語;
+    sh:class cs:Subject;
+    sh:minCount 1;
+    sh:name "has a subject"@en, "科目がある"@ja;
+    sh:order 10;
+    sh:path cs:hasSubject
   ], [
-    skos:example cs:period\/H29toH31 "<ul><li>\"小学校学習指導要領\"@ja</li><li>\"しょうがっこうがくしゅうしどうようりょう\"@ja-Hira</li><li>\"Elementary School Curriculum Guideline\"@en</li></ul>" "2017-03-31" "2020-04-01" cs:school\/Elementary <http://www.mext.go.jp/a_menu/shotou/old-cs/1322503.htm> cs:Elementary\/2017\/2017 cs:82V11 cs:Elementary\/2017\/国語 cs:LowerSecondary\/2017\/外国語\/英語 "1";
-    sh:datatype rdf:langString xsd:date xsd:date xsd:integer;
-    sh:description "It corresponds to the first digit of the course of study code."@en, "学習指導要領コードの1桁目に対応"@ja "Using language tags, this property represents an original name as well as transcription and English name. Language codes are as follows:<dl><dt>@ja</dt><dd>Japanese name (Kanji)</dd><dt>@ja-Hira</dt><dd>Japanese name (Hiragana). Presented a transcription of the name in Hiragana.</dd><dt>@en</dt><dd>English name</dd></dl>"@en, "言語コードを用いて、名称に加え、そのよみ、英語名称を示します。言語コードとその意味は以下の通りです。<dl><dt>@ja</dt><dd>日本語名称（漢字表記）</dd><dt>@ja-Hira</dt><dd>日本語名称（ひらがな表記）。名称のよみをひらがな表記で示します。</dd><dt>@en</dt><dd>英語名称</dd></dl>"@ja "It corresponds to the second digit of the course of study code."@en, "学習指導要領コードの2桁目に対応"@ja "Repeatable. Link to the fulltext possibly at the MEXT website and Curriculum guidelines database at NIER"@en, "繰り返しあり。本文へのリンク。文部科学省のウェブサイトと<a href=\"http://www.nier.go.jp/guideline/\">国立教育政策研究所学習指導要領データベース</a>へのリンク。"@ja "Repeatable. It corresponds to the course of study revision."@en, "複数の改正がある場合、改正の件数分、繰り返される。"@ja "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
-    sh:maxCount 1 3 1 1 2 1;
-    sh:minCount 1 1 1 1 1 1 1 1 1;
-    sh:name "Issued Period"@en, "告示時期"@ja "Name"@en, "名称"@ja "Date of Announcement"@en, "告示日"@ja "Date of Enforcement"@en, "施行年月日"@ja "Type of School"@en, "学校種別"@ja "Fulltext URL"@en, "本文URL"@ja "Other versions"@en, "別バージョン"@ja "Dataset"@en, "データセット"@ja "has a subject area"@en, "教科がある"@ja "has a subject"@en, "科目がある"@ja "Order"@en, "順"@ja;
-    sh:order 1 2 3 4 5 6 7 8 9 10 11;
-    sh:path cs:issuedPeriod schema:name schema:datePublished schema:startDate cs:school schema:url dct:hasVersion cs:dataset cs:hasSubjectArea cs:hasSubject qb:order
+    skos:example "1";
+    sh:datatype xsd:integer;
+    sh:description "This is used in the order of the listings."@en, "表示順を決める場合などで利用"@ja;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:name "Order"@en, "順"@ja;
+    sh:order 11;
+    sh:path qb:order
   ];
   sh:targetClass cs:CourseOfStudy.

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71m0000111100000
   dct:identifier "71m0000111100000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 140
   ];
   schema:description "(1) 指導計画は，幼児の発達に即して一人一人の幼児が幼児期にふさわしい生活を展開し，必要な体験を得られるようにするために，具体的に作成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

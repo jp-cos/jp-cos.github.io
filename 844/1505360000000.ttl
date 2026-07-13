@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8441505360000000
   dct:identifier "8441505360000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1092
   ];
   schema:description "カ　内容のＢについては，次のとおり取り扱うものとすること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:8441505361000000, cs:8441505362000000, cs:8441505363000000, cs:8441505364000000, cs:8441505365000000, cs:8441505366000000, cs:8441505367000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Qs505110000000
   dct:identifier "84Qs505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6440
   ];
   schema:description "ア　〔指導項目〕の(3)については，屋外環境と屋内環境とを関連付けた適切な題材を選定し，インテリア空間の計画について理解できるよう工夫して指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

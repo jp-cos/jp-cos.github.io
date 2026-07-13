@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84QD503130000000
   dct:identifier "84QD503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4985
   ];
   schema:description "(3) 電子機械の入力や出力を構成する要素";
   schema:edition "一部改正なし";
   schema:hasPart cs:84QD503131000000, cs:84QD503132000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PS505230000000
   dct:identifier "84PS505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4539
   ];
   schema:description "ウ　〔指導項目〕の(3)については，点の平面的位置や高低位置を決定する測量の原理や測量機器の操作及び測定値の具体的な処理について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

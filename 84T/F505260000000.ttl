@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TF505260000000
   dct:identifier "84TF505260000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7916
   ];
   schema:description "カ　〔指導項目〕の(6)のアについては，基礎的な解剖，発生の観察，外部形態と計測，フィールド調査，標本作製などを扱うこと。イについては，フィールド調査と採集，標本作製，色素の検出などを扱うこと。ウについては，採集方法，計測方法などを扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

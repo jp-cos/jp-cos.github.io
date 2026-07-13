@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000510000000
   dct:identifier "8100000510000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 62
   ];
   schema:description """１　障害のある幼児などへの指導
  　障害のある幼児などへの指導に当たっては，集団の中で生活することを通して全体的な発達を促していくことに配慮し，特別支援学校などの助言又は援助を活用しつつ，個々の幼児の障害の状態などに応じた指導内容や指導方法の工夫を組織的かつ計画的に行うものとする。また， 家庭，地域及び医療や福祉，保健等の業務を行う関係機関との連携を図り，長期的な視点で幼児への教育的支援を行うために，個別の教育支援計画を作成し活用することに努めるとともに, 個々の幼児の実態を的確に把握し，個別の指導計画を作成し活用することに努めるものとする。 """;
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

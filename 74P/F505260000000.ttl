@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PF505260000000
   dct:identifier "74PF505260000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2569
   ];
   schema:description "カ　内容の(6)については，遺伝子組換え植物の利用などバイオテクノロジーに関する今後の動向，課題及び可能性について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

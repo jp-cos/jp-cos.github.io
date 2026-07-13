@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74PO503300000000
   dct:identifier "74PO503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2857
   ];
   schema:description "(3) 水と農林業";
   schema:edition "一部改正なし";
   schema:hasPart cs:74PO503310000000, cs:74PO503320000000, cs:74PO503330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

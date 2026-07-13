@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322203320000000
   dct:identifier "7322203320000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 309
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 309 309
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 309
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 309 309 315
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 315
   ];
   schema:description "イ  農業など諸産業の発達，畿内《きない》を中心とした都市や農村における自治的な仕組みの成立，禅宗の文化的な影響などを通して，武家政治の展開や民衆の成長を背景とした社会や文化が生まれたことを理解させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

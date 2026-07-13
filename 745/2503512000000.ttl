@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503512000000
   dct:identifier "7452503512000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 677
   ];
   schema:description """(イ) 導関数の応用
 　導関数を用いて関数の値の増減や極大・極小を調べ，グラフの概形をかくこと。また，微分の考えを事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

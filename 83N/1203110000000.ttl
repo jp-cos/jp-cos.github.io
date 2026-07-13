@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83N1203110000000
   dct:identifier "83N1203110000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 2146
   ];
   schema:description """ア　学級や学校における生活上の諸問題の解決
 学級や学校における生活をよりよくするための課題を見いだし，解決するために話し合い，合意形成を図り，実践すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230208-mxt_kyoiku02-100002608_013.pdf#page=158>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

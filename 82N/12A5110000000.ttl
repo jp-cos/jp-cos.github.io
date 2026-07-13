@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N12A5110000000
   dct:identifier "82N12A5110000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3706
   ];
   schema:description """〔第１学年及び第２学年〕
 話合いの進め方に沿って，自分の意見を発表したり，他者の意見をよく聞いたりして，合意形成して実践することのよさを理解すること。基本的な生活習慣や，約束やきまりを守ることの大切さを理解して行動し，生活をよくするための目標を決めて実行すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=87>;
   cs:courseOfStudy cs:Elementary\/2017;

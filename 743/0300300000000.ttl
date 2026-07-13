@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7430300300000000
   dct:identifier "7430300300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 516
   ];
   schema:description "３　内容の指導に当たっては,教育基本法第14条及び第15条の規定に基づき,適切に行うよう特に慎重に配慮して，政治及び宗教に関する教育を行うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:72K0300220000001
   dct:identifier "72K0300220000001";
-  dct:source cs:72V21 cs:72V21;
+  dct:source cs:72V21;
   qb:order [
-    dct:source cs:72V21 cs:72V21;
+    dct:source cs:72V21;
     rdf:type cs:Number;
     rdf:value 2722
   ];
   schema:description "(2) 道徳科が学校の教育活動全体を通じて行う道徳教育の要としての役割を果たすことができるよう，計画的・発展的な指導を行うこと。特に，各教科，外国語活動，総合的な学習の時間及び特別活動における道徳教育としては取り扱う機会が十分でない内容項目に関わる指導を補うことや，児童や学校の実態等を踏まえて指導をより一層深めること，内容項目の相互の関連を捉え直したり発展させたりすることに留意すること。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2015;

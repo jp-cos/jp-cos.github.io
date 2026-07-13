@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8210330213000000
   dct:identifier "8210330213000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 303
   ];
   schema:description "ウ　第３学年におけるローマ字の指導に当たっては，第５章総合的な学習の時間の第３の２の(3)に示す，コンピュータで文字を入力するなどの学習の基盤として必要となる情報手段の基本的な操作を習得し，児童が情報や情報手段を主体的に選択し活用できるよう配慮することとの関連が図られるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=167>;
   cs:courseOfStudy cs:Elementary\/2017;

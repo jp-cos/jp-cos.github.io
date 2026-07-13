@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8465505120000000
   dct:identifier "8465505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1793
   ];
   schema:description "イ　この科目で育成を目指す資質・能力を育むため，「化学基礎」の３の(1)のイと同様に取り扱うとともに，この科目の学習を通して，探究の全ての学習過程を経験できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

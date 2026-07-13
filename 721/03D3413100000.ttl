@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72103D3413100000
   dct:identifier "72103D3413100000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 229
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 229 238
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 238
   ];
   schema:description "(ア) 第５学年及び第６学年の各学年においては，学年別漢字配当表の当該学年までに配当されている漢字を読むこと。また，当該学年の前の学年までに配当されている漢字を書き，文や文章の中で使うとともに，当該学年に配当されている漢字を漸次書き，文や文章の中で使うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

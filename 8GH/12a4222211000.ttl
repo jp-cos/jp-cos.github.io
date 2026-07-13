@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8GH12a4222211000
   dct:identifier "8GH12a4222211000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3845
   ];
   schema:description "㋐ 特有の表現がよく使われる場面";
   schema:edition "一部改正なし";
   schema:hasPart cs:8GH12a4222211100, cs:8GH12a4222211200, cs:8GH12a4222211300, cs:8GH12a4222211400, cs:8GH12a4222211500, cs:8GH12a4222211600, cs:8GH12a4222211700;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

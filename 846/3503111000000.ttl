@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8463503111000000
   dct:identifier "8463503111000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1632
   ];
   schema:description "(ア) 平面内の運動と剛体のつり合い";
   schema:edition "一部改正なし";
   schema:hasPart cs:8463503111100000, cs:8463503111200000, cs:8463503111300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

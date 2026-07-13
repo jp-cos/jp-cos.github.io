@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503210000000
   dct:identifier "84G1503210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2034
   ];
   schema:description "(1) 次の運動について，技がよりよくできたり自己や仲間の課題を解決したりするなどの多様な楽しさや喜びを味わい，技の名称や行い方，体力の高め方，課題解決の方法，発表の仕方などを理解するとともに，自己に適した技で演技すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G1503211000000, cs:84G1503212000000, cs:84G1503213000000, cs:84G1503214000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

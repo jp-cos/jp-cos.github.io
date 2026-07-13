@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8G50206230000000
   dct:identifier "8G50206230000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3107
   ];
   schema:description "ウ　１段階の内容に示す事項については，次の(ア)から(シ)までに留意するものとする。  ";
   schema:edition "一部改正なし";
   schema:hasPart cs:8G50206231000000, cs:8G50206232000000, cs:8G50206233000000, cs:8G50206234000000, cs:8G50206235000000, cs:8G50206236000000, cs:8G50206237000000, cs:8G50206238000000, cs:8G50206239000000, cs:8G5020623A000000, cs:8G5020623B000000, cs:8G5020623C000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

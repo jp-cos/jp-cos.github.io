@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8434503122100000
   dct:identifier "8434503122100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 800
   ];
   schema:description "(ア) 歴史資料の特性を踏まえ，資料を通して読み取れる情報から，原始・古代の特色について多面的・多角的に考察し，仮説を表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

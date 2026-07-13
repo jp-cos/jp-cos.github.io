@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7GY0202000000000
   dct:identifier "7GY0202000000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 2456
   ];
   schema:description """１　目標
 社会福祉に関する基礎的・基本的な知識と技術の習得を図り， 社会福祉の意義と役割の理解を深めるとともに， 社会福祉に関する職業に必要な能力と実践的な態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

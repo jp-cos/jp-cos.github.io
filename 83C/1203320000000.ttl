@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83C1203320000000
   dct:identifier "83C1203320000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1699
   ];
   schema:description "(2) 生活や社会における問題を，エネルギー変換の技術によって解決する活動を通して，次の事項を身に付けることができるよう指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83C1203321000000, cs:83C1203322000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=155>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

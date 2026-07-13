@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84H1503222250000
   dct:identifier "84H1503222250000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2868
   ];
   schema:description "(オ) 相手の行動を促す";
   schema:edition "一部改正なし";
   schema:hasPart cs:84H1503222251000, cs:84H1503222252000, cs:84H1503222253000, cs:84H1503222254000, cs:84H1503222255000, cs:84H1503222256000, cs:84H1503222257000, cs:84H1503222258000, cs:84H1503222259000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

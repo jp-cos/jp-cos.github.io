@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83802B0000000000
   dct:identifier "83802B0000000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1222
   ];
   schema:description "〔第２学年及び第３学年〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:83802B2000000000, cs:83802B3000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=70>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

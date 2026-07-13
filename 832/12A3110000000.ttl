@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:83212A3110000000
   dct:identifier "83212A3110000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 313
   ];
@@ -16,7 +16,7 @@ cs:83212A3110000000
 次の①と②の地域構成を取り上げ，位置や分布などに着目して，課題を追究したり解決したりする活動を通して，以下のア及びイの事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:83212A3110100000, cs:83212A3110200000, cs:83212A3111000000, cs:83212A3112000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=43>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84G1503800000000
   dct:identifier "84G1503800000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2077
   ];
   schema:description "Ｈ　体育理論";
   schema:edition "一部改正なし";
   schema:hasPart cs:84G1503810000000, cs:84G1503820000000, cs:84G1503830000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

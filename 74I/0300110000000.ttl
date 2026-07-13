@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74I0300110000000
   dct:identifier "74I0300110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2043
   ];
   schema:description "(1) 中学校における情報教育の成果を踏まえ，情報科での学習が他の各教科・科目等の学習に役立つよう，他の各教科・科目等との連携を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

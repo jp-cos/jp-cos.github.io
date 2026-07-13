@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74BA503110000000
   dct:identifier "74BA503110000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1604
   ];
   schema:description "(1) 漢字仮名交じりの書";
   schema:edition "一部改正なし";
   schema:hasPart cs:74BA503111000000, cs:74BA503112000000, cs:74BA503113000000, cs:74BA503114000000, cs:74BA503115000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

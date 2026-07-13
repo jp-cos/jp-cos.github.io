@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74I1503330000000
   dct:identifier "74I1503330000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2007
   ];
   schema:description """ウ　情報社会における法と個人の責任
 　多くの情報が公開され流通している現状を認識させるとともに，情報を保護することの必要性とそのための法規及び個人の責任を理解させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503322000000
   dct:identifier "84F2503322000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3219
   ];
   schema:description "イ　自立した消費者として，生活情報を活用し，適切な意思決定に基づいて行動できるよう考察し，責任ある消費について工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

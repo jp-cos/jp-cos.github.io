@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400440000001
   dct:identifier "73K0400440000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1565
   ];
   schema:description """［よりよく生きる喜び］
 　人間には自らの弱さや醜さを克服する強さや気高く生きようとする心があることを理解し，人間として生きることに喜びを見いだすこと。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

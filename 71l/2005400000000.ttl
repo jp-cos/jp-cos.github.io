@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71l2005400000000
   dct:identifier "71l2005400000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 66
   ];
   schema:description "(4) 道徳性の芽生えを培うに当たっては，基本的な生活習慣の形成を図るとともに，幼児が他の幼児とのかかわりの中で他人の存在に気付き，相手を尊重する気持ちをもって行動できるようにし，また，自然や身近な動植物に親しむことなどを通して豊かな心情が育つようにすること。特に，人に対する信頼感や思いやりの気持ちは，葛藤やつまずきをも体験し，それらを乗り越えることにより次第に芽生えてくることに配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

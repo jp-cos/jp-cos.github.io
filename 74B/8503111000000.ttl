@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74B8503111000000
   dct:identifier "74B8503111000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1569
   ];
   schema:description "ア　生活の中の工芸をとらえ，自己の体験や夢などから，創造的で心豊かな発想をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

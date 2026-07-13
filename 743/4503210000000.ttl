@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7434503210000000
   dct:identifier "7434503210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 418
   ];
   schema:description """ア　歴史の解釈
 　歴史資料を含む諸資料を活用して，歴史的事象の推移や変化，相互の因果関係を考察するなどの活動を通して，歴史の展開における諸事象の意味や意義を解釈させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

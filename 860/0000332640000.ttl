@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000332640000
   dct:identifier "8600000332640000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 45
   ];
   schema:description "(エ) 各学校において，児童又は生徒や学校，地域の実態及び各教科等や学習活動の特質等に応じて，創意工夫を生かした時間割を弾力的に編成できること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=236>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82H12D6150000000
   dct:identifier "82H12D6150000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3411
   ];
   schema:description "オ　言語活動で扱う題材は，児童の興味・関心に合ったものとし，国語科や音楽科，図画工作科など，他の教科等で児童が学習したことを活用したり，学校行事で扱う内容と関連付けたりするなどの工夫をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=129>;
   cs:courseOfStudy cs:Elementary\/2017;

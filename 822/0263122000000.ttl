@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220263122000000
   dct:identifier "8220263122000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1557
   ];
   schema:description "(イ) 政策の内容や計画から実施までの過程，法令や予算との関わりなどに着目して，国や地方公共団体の政治の取組を捉え，国民生活における政治の働きを考え，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=107>;
   cs:courseOfStudy cs:Elementary\/2017;

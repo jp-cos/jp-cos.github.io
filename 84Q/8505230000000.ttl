@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84Q8505230000000
   dct:identifier "84Q8505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4838
   ];
   schema:description "ウ　〔指導項目〕の(3)のアについては，生産工程の計画や作業日程などを扱うこと。イについては，品質管理方式の原理及び活用方法を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361223411200000
   dct:identifier "8361223411200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 954
   ];
   schema:description """㋑　原子・分子
 物質は原子や分子からできていることを理解するとともに，物質を構成する原子の種類は記号で表されることを知ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=51>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

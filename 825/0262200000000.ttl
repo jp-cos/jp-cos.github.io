@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250262200000000
   dct:identifier "8250262200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2182
   ];
   schema:description "(2) 数とその表現や計算の意味に着目し，発展的に考察して問題を見いだすとともに，目的に応じて多様な表現方法を用いながら数の表し方や計算の仕方などを考察する力，図形を構成する要素や図形間の関係などに着目し，図形の性質や図形の計量について考察する力，伴って変わる二つの数量やそれらの関係に着目し，変化や対応の特徴を見いだして，二つの数量の関係を表や式，グラフを用いて考察する力，身の回りの事象から設定した問題について，目的に応じてデータを収集し，データの特徴や傾向に着目して適切な手法を選択して分析を行い，それらを用いて問題解決したり，解決の過程や結果を批判的に考察したりする力などを養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=291>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73M0300170000000
   dct:identifier "73M0300170000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1589
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1589 1589
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1589
   ];
   schema:description "(7) 各教科，道徳及び特別活動の目標及び内容との違いに留意しつつ，第１の目標並びに第２の各学校において定める目標及び内容を踏まえた適切な学習活動を行うこと。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73M0300170000001;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

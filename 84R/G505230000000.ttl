@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RG505230000000
   dct:identifier "84RG505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7196
   ];
   schema:description "ウ　〔指導項目〕の(3)のイについては，適切な表の形態とグラフの種類・形態を検討し，表やグラフを用いて伝えたいことを表現する方法及び表計算ソフトウェアを活用して情報を分析し，表とグラフを作成する方法について扱うこと。ウについては，モデル化，シミュレーション及びプログラミングの基礎的な技法を用いた問題の発見と解決などについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

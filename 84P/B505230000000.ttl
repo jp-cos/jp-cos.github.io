@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PB505230000000
   dct:identifier "84PB505230000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3834
   ];
   schema:description "ウ　〔指導項目〕の(3)については，動物の発育過程や生理・生態，飼育環境の調節，環境に配慮した動物の飼育技術や飼料生産，健康な動物を飼育するための飼養衛生管理技術などについて基礎的な内容を扱うこと。なお，必要に応じて，農業生産工程管理や危害分析・重要管理点方式などについても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

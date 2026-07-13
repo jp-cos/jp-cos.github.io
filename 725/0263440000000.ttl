@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7250263440000000
   dct:identifier "7250263440000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1823
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1823 1832
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1832
   ];
   schema:description "(4) 資料の平均や散らばりを調べ，統計的に考察したり表現したりすることができるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7250263441000000, cs:7250263442000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

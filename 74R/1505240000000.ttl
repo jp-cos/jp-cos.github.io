@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74R1505240000000
   dct:identifier "74R1505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4918
   ];
   schema:description "エ　内容の(4)のアについては，土地，資本，労働力といった生産要素の希少性，経済主体，経済活動の循環など経済活動の基礎的な内容を扱うこと。ウについては，経済活動における流通の意義や役割について，生産から消費に至る役割分担の変化や小売業の業種，業態の変化とかかわらせて扱うこと。エについては，生産から消費の過程にかかわるビジネスの担い手の役割や仕事の概要，職業人として求められる倫理を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

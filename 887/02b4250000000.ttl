@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:88702b4250000000
   dct:identifier "88702b4250000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 222
   ];
@@ -16,7 +16,7 @@ cs:88702b4250000000
 身近な人と接することなどに関わる学習活動を通して，次の事項を身に付けることができるよう指導する。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:88702b4251000000, cs:88702b4252000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=64>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

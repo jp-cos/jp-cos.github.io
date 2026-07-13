@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:83C1205600000000
   dct:identifier "83C1205600000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1733
   ];
   schema:description "(6) 各内容における(2)及び内容の「Ｄ情報の技術」の(3)については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:83C1205610000000, cs:83C1205620000000, cs:83C1205640000000, cs:83C1235630000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=157>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

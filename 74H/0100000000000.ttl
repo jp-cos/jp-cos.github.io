@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0100000000000
   dct:identifier "74H0100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1689
   ];
   schema:description """第１款　目標
 　外国語を通じて，言語や文化に対する理解を深め，積極的にコミュニケーションを図ろうとする態度の育成を図り，情報や考えなどを的確に理解したり適切に伝えたりするコミュニケーション能力を養う。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

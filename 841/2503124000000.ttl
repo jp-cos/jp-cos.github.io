@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8412503124000000
   dct:identifier "8412503124000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 262
   ];
   schema:description "エ　時間の経過や地域の文化的特徴などによる文字や言葉の変化について理解を深め，古典の言葉と現代の言葉とのつながりについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

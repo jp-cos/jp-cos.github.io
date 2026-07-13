@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431505150000000
   dct:identifier "8431505150000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 595
   ];
   schema:description "オ　調査の実施や諸資料の収集に当たっては，専門家や関係諸機関などと円滑に連携・協働するなどして，社会との関わりを意識した活動を重視すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

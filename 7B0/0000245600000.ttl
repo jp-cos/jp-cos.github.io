@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7B00000245600000
   dct:identifier "7B00000245600000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 124
   ];
   schema:description "(6) 生徒が自己の在り方生き方を考え， 主体的に進路を選択することができるよう， 校内の組織体制を整備し， 教師間の相互の連携を図りながら， 学校の教育活動全体を通じ， 計画的，組織的な進路指導を行い， キャリア教育を推進すること。その際，家庭及び地域や福祉，労働等の業務を行う関係機関との連携を十分に図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

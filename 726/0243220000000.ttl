@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260243220000000
   dct:identifier "7260243220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1912
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1912 1921
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1921
   ];
   schema:description """(2) 季節と生物
 身近な動物や植物を探したり育てたりして，季節ごとの動物の活動や植物の成長を調べ，それらの活動や成長と環境とのかかわりについての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260243221000000, cs:7260243222000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

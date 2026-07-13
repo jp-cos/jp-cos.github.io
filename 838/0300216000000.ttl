@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8380300216000000
   dct:identifier "8380300216000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1280
   ];
   schema:description "カ　自己や他者の著作物及びそれらの著作者の創造性を尊重する態度の形成を図るとともに，必要に応じて，音楽に関する知的財産権について触れるようにすること。また，こうした態度の形成が，音楽文化の継承，発展，創造を支えていることへの理解につながるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=108>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

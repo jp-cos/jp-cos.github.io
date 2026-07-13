@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84PR505220000000
   dct:identifier "84PR505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4496
   ];
   schema:description "イ　〔指導項目〕の(2)については，住宅庭園，都市公園などの緑地や造園植栽の特色と役割，植栽施工管理の現状と課題，風景の構成要素と植栽，配植のデザインの概要について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

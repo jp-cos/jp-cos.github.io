@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8440300120000000
   dct:identifier "8440300120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1209
   ];
   schema:description "(2) 各科目の履修については，全ての生徒に履修させる科目である「公共」を履修した後に選択科目である「倫理」及び「政治・経済」を履修できるという，この教科の基本的な構造に留意し，各学校で創意工夫して適切な指導計画を作成すること。その際，「公共」は，原則として入学年次及びその次の年次の２か年のうちに履修させること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

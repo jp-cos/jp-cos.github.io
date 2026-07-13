@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df0300220000000
   dct:identifier "8Df0300220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1174
   ];
   schema:description "(2) 「理療基礎実習」及び「理療臨床実習」については，対象となる者の人格を尊重する態度を育てるとともに，実習における安全と規律に留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

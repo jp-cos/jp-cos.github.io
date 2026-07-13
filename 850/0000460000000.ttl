@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000460000000
   dct:identifier "8500000460000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 43
   ];
   schema:description """６　全体的な計画の作成
 各学校においては，教育課程と，学校保健計画，学校安全計画などとを関連させ，一体的に教育活動が展開されるよう全体的な計画を作成するものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

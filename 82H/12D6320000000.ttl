@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82H12D6320000000
   dct:identifier "82H12D6320000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3425
   ];
   schema:description "イ　英語を使用している人々を中心とする世界の人々や日本人の日常生活，風俗習慣，物語，地理，歴史，伝統文化，自然などに関するものの中から，児童の発達の段階や興味・関心に即して適切な題材を変化をもたせて取り上げるものとし，次の観点に配慮すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82H12D6321000000, cs:82H12D6322000000, cs:82H12D6323000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220614-mxt_kyoiku02-100002607_11.pdf#page=138>;
   cs:courseOfStudy cs:Elementary\/2017;

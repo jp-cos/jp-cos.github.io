@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7380000000000000
   dct:identifier "7380000000000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 862
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 862 862
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 862
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 862 862 868
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 868
   ];
   schema:description "第５節　音楽";
   schema:edition "一部改正なし";
   schema:hasPart cs:7380100000000000, cs:7380200000000000, cs:7380300000000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

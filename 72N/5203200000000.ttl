@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N5203200000000
   dct:identifier "72N5203200000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2823
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2823 2849
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2849
   ];
   schema:description """(2) 文化的行事
 　平素の学習活動の成果を発表し，その向上の意欲を一層高めたり，文化や芸術に親しんだりするような活動を行うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

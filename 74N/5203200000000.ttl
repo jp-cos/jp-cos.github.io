@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74N5203200000000
   dct:identifier "74N5203200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 8222
   ];
   schema:description """(2) 文化的行事
 　　平素の学習活動の成果を総合的に生かし，その向上の意欲を一層高めたり，文化や芸術に親しんだりするような活動を行うこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

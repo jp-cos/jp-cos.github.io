@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74PB505210000000
   dct:identifier "74PB505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2397
   ];
   schema:description "ア　内容の(1)については，我が国における農業機械の利用の現状及び農業の生産性の向上と農業機械化との相互関係を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

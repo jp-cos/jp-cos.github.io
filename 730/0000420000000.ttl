@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000420000000
   dct:identifier "7300000420000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 24
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 24 24
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 24
   ];
   schema:description "２　以上のほか，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7300000420000001, cs:7300000421000000, cs:7300000422000000, cs:7300000423000000, cs:7300000424000000, cs:7300000425000000, cs:7300000426000000, cs:7300000427000000, cs:7300000428000000, cs:7300000429000000, cs:730000042A000000, cs:730000042B000000, cs:730000042C000000, cs:730000042D000000, cs:730000042E000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

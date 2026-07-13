@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84RK503120000000
   dct:identifier "84RK503120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7317
   ];
   schema:description "(2) 情報セキュリティ管理";
   schema:edition "一部改正なし";
   schema:hasPart cs:84RK503121000000, cs:84RK503122000000, cs:84RK503123000000, cs:84RK503124000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

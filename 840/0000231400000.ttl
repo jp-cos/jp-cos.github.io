@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000231400000
   dct:identifier "8400000231400000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 38
   ];
   schema:description """エ　学校設定科目
 学校においては，生徒や学校，地域の実態及び学科の特色等に応じ，特色ある教育課程の編成に資するよう，イ及びウの表に掲げる教科について，これらに属する科目以外の科目（以下「学校設定科目」という。）を設けることができる。この場合において，学校設定科目の名称，目標，内容，単位数等については，その科目の属する教科の目標に基づき，高等学校教育としての水準の確保に十分配慮し，各学校の定めるところによるものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

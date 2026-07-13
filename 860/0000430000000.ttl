@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000430000000
   dct:identifier "8600000430000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 74
   ];
@@ -16,7 +16,7 @@ cs:8600000430000000
 学習評価の実施に当たっては，次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8600000431000000, cs:8600000432000000, cs:8600000433000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=276>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B8503111200000
   dct:identifier "84B8503111200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2517
   ];
   schema:description "(イ) 用途と美しさとの調和を考え，素材の特質や表現の多様性などを生かした制作の構想を練ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

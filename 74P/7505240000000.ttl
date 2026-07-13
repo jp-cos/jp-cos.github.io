@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74P7505240000000
   dct:identifier "74P7505240000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2249
   ];
   schema:description "エ　内容の(4)については，品種の選定，作業の順序，組合せとその管理，生産費と流通の手段や経費，農業生産工程管理など果樹の生産と経営の改善について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83212A5313000000
   dct:identifier "83212A5313000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 392
   ];
   schema:description "(ウ) 地球儀や地図を積極的に活用し，学習全体を通して，大まかに世界地図や日本地図を描けるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=44>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

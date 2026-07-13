@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220262300000000
   dct:identifier "8220262300000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1548
   ];
   schema:description "(3) 社会的事象について，主体的に学習の問題を解決しようとする態度や，よりよい社会を考え学習したことを社会生活に生かそうとする態度を養うとともに，多角的な思考や理解を通して，我が国の歴史や伝統を大切にして国を愛する心情，我が国の将来を担う国民としての自覚や平和を願う日本人として世界の国々の人々と共に生きることの大切さについての自覚を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=103>;
   cs:courseOfStudy cs:Elementary\/2017;

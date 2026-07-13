@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84T9505240000000
   dct:identifier "84T9505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7670
   ];
   schema:description "エ　〔指導項目〕の(7)のエについては，船舶の安全や執務一般に関する基礎的な内容を扱うこと。カについては，機関業務に必要な海事実務英語や外地寄港地などにおける英会話について基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

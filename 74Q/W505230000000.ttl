@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74QW505230000000
   dct:identifier "74QW505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 3954
   ];
   schema:description "ウ　内容の(3)のアからウまでについては，主な設備の種類，構成と特徴などの基礎的な内容を扱うこと。また，省エネルギーに関する設備にも触れること。エについては，災害の予防や人命保護に関する設備を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

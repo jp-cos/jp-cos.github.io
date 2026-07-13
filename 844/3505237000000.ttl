@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8443505237000000
   dct:identifier "8443505237000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1199
   ];
   schema:description "(キ) (1)のイの(エ)の「市場経済の機能と限界」については，市場経済の効率性とともに，市場の失敗の補完の観点から，公害防止と環境保全，消費者に関する問題も扱うこと。また，「金融を通した経済活動の活性化」については，金融に関する技術変革と企業経営に関する金融の役割にも触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

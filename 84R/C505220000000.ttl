@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RC505220000000
   dct:identifier "84RC505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7036
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，資産と負債の分類，評価基準，各種の資産と負債の会計処理などについて扱うこと。イについては，株式会社の純資産の会計処理について扱うこと。ウについては，工事契約，外貨建取引，役務収益，役務費用など収益と費用の会計処理について扱うこと。エについては，株式会社における税の会計処理及び税効果会計に関する基礎的な会計処理について扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

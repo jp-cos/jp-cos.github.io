@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503814000000
   dct:identifier "74G1503814000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1317
   ];
   schema:description "エ　現代のスポーツは，経済的な波及効果があり，スポーツ産業が経済の中で大きな影響を及ぼしていること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

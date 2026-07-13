@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220243311000000
   dct:identifier "8220243311000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1439
   ];
   schema:description "(ア) 地域の関係機関や人々は，自然災害に対し，様々な協力をして対処してきたことや，今後想定される災害に対し，様々な備えをしていることを理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=63>;
   cs:courseOfStudy cs:Elementary\/2017;

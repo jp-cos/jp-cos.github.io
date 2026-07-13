@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82N0100200000000
   dct:identifier "82N0100200000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3685
   ];
   schema:description "(2) 集団や自己の生活，人間関係の課題を見いだし，解決するために話し合い，合意形成を図ったり，意思決定したりすることができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=17>;
   cs:courseOfStudy cs:Elementary\/2017;

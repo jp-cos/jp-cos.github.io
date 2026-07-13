@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G102a4221500000
   dct:identifier "8G102a4221500000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2637
   ];
   schema:description "オ　目的や進め方を確認し，司会などの役割を果たしながら話し合い，互いの意見の共通点や相違点に着目して，考えをまとめること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:85l2003600000000
   dct:identifier "85l2003600000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 114
   ];
   schema:description "(6) 　コミュニケーション";
   schema:edition "一部改正なし";
   schema:hasPart cs:85l2003610000000, cs:85l2003620000000, cs:85l2003630000000, cs:85l2003640000000, cs:85l2003650000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

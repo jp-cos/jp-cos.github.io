@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72N5202000000000
   dct:identifier "72N5202000000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2820
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2820 2846
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2846
   ];
   schema:description """１　目標
 学校行事を通して，望ましい人間関係を形成し，集団への所属感や連帯感を深め，公共の精神を養い，協力してよりよい学校生活を築こうとする自主的，実践的な態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

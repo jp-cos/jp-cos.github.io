@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7443503320000000
   dct:identifier "7443503320000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 582
   ];
   schema:description """イ　国際社会の政治や経済の諸課題
 　地球環境と資源・エネルギー問題，国際経済格差の是正と国際協力，人種・民族問題と地域紛争，国際社会における日本の立場と役割などについて，政治と経済とを関連させて探究させる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

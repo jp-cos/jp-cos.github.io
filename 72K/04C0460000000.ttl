@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04C0460000000
   dct:identifier "72K04C0460000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2667
   ];
   schema:description "(6) 我が国の伝統と文化に親しみ，国を愛する心をもつとともに，外国の人々や文化に関心をもつ。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

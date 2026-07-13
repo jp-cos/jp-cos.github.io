@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7460300220000000
   dct:identifier "7460300220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1253
   ];
   schema:description "(2) 生命を尊重し，自然環境の保全に寄与する態度の育成を図ること。また，環境問題や科学技術の進歩と人間生活にかかわる内容等については，持続可能な社会をつくることの重要性も踏まえながら，科学的な見地から取り扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

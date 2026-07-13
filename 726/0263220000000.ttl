@@ -6,21 +6,21 @@
 @prefix schema: <http://schema.org/>.
 cs:7260263220000000
   dct:identifier "7260263220000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1993
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1993 2002
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2002
   ];
   schema:description """(2) 植物の養分と水の通り道
 　植物を観察し，植物の体内の水などの行方や葉で養分をつくる働きを調べ，植物の体のつくりと働きについての考えをもつことができるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7260263221000000, cs:7260263222000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

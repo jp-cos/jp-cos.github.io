@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82G02D5500000000
   dct:identifier "82G02D5500000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3251
   ];
   schema:description "(5) 内容の「Ｅボール運動」の(1)については，アはバスケットボール及びサッカーを，イはソフトバレーボールを，ウはソフトボールを主として取り扱うものとするが，これらに替えてハンドボール，タグラグビー，フラッグフットボールなどア，イ及びウの型に応じたその他のボール運動を指導することもできるものとする。なお，学校の実態に応じてウは取り扱わないことができる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240918-mxt_kyoiku01-100002607.pdf#page=163>;
   cs:courseOfStudy cs:Elementary\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l5005100000000
   dct:identifier "81l5005100000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 182
   ];
   schema:description "(1) 豊かな感性は，身近な環境と十分に関わる中で美しいもの，優れたもの，心を動かす出来事などに出会い，そこから得た感動を他の幼児や教師と共有し，様々に表現することなどを通して養われるようにすること。その際，風の音や雨の音，身近にある草や花の形や色など自然の中にある音，形，色などに気付くようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

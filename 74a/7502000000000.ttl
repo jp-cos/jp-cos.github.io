@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74a7502000000000
   dct:identifier "74a7502000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7854
   ];
   schema:description """１　目標
 　体つくり運動の専門的な理解とその活用を目指した主体的，合理的，計画的な実践を通して，実生活に役立てることができるようにするとともに，生涯を通してスポーツの振興発展にかかわることができる資質や能力を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

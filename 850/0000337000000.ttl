@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000337000000
   dct:identifier "8500000337000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 25
   ];
   schema:description """(7) 　自然との関わり・生命尊重
 　自然に触れて感動する体験を通して，自然の変化などを感じ取り，好奇心や探究心をもって考え言葉などで表現しながら，身近な事象への関心が高まるとともに，自然への愛情や畏敬の念をもつようになる。また，身近な動植物に心を動かされる中で，生命の不思議さや尊さに気付き，身近な動植物への接し方を考え，命あるものとしていたわり，大切にする気持ちをもって関わるようになる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7322203540000000
   dct:identifier "7322203540000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 319
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 319 319
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 319
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 319 319 325
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 325
   ];
   schema:description "エ  我が国の産業革命，この時期の国民生活の変化，学問・教育・科学・芸術の発展などを通して，我が国で近代産業が発展し，近代文化が形成されたことを理解させる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

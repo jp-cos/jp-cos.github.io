@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8300000140000000
   dct:identifier "8300000140000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 12
   ];
   schema:description "４　各学校においては，生徒や学校，地域の実態を適切に把握し，教育の目的や目標の実現に必要な教育の内容等を教科等横断的な視点で組み立てていくこと，教育課程の実施状況を評価してその改善を図っていくこと，教育課程の実施に必要な人的又は物的な体制を確保するとともにその改善を図っていくことなどを通して，教育課程に基づき組織的かつ計画的に各学校の教育活動の質の向上を図っていくこと（以下「カリキュラム・マネジメント」という。）に努めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_001.pdf#page=48>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

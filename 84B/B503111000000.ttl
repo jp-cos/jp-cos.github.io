@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84BB503111000000
   dct:identifier "84BB503111000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2644
   ];
   schema:description "ア　知識や技能を得たり生かしたりしながら，次の(ア)から(ウ)までについて構想し工夫すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:84BB503111100000, cs:84BB503111200000, cs:84BB503111300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

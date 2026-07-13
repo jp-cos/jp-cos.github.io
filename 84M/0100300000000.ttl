@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0100300000000
   dct:identifier "84M0100300000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10854
   ];
   schema:description "(3) 探究に主体的・協働的に取り組むとともに，互いのよさを生かしながら，新たな価値を創造し，よりよい社会を実現しようとする態度を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

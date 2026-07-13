@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8600000532000000
   dct:identifier "8600000532000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 92
   ];
   schema:description "(2) 学齢を経過した者を教育する場合には，個別学習やグループ別学習など指導方法や指導体制の工夫改善に努めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=296>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

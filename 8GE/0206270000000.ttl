@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8GE0206270000000
   dct:identifier "8GE0206270000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 3691
   ];
   schema:description "キ　「Ｂ情報機器の活用」については，家庭生活における情報機器の取扱い等についても取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

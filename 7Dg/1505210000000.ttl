@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Dg1505210000000
   dct:identifier "7Dg1505210000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 1027
   ];
   schema:description "ア  内容の(1)については，模型，標本の活用や実習，生体観察などを通して，人体の構造が実際的に理解できるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

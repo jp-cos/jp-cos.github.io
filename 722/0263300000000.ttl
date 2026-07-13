@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:7220263300000000
   dct:identifier "7220263300000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 1377
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1377 1386
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 1386
   ];
   schema:description "(3) 世界の中の日本の役割について，次のことを調査したり地図や地球儀，資料などを活用したりして調べ，外国の人々と共に生きていくためには異なる文化や習慣を理解し合うことが大切であること，世界平和の大切さと我が国が世界において重要な役割を果たしていることを考えるようにする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7220263310000000, cs:7220263320000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

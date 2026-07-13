@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7455503131000000
   dct:identifier "7455503131000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 775
   ];
   schema:description """(ア) 母集団と標本
 　標本調査の考え方について理解し，標本を用いて母集団の傾向を推測できることを知ること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

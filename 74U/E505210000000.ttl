@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74UE505210000000
   dct:identifier "74UE505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 6582
   ];
   schema:description "ア　内容の(1)のアについては，健康，栄養状態，食料事情，食の安全及び環境とのかかわりなどを扱うこと。イについては，食事の意義とおいしさ及び望ましい食習慣の形成並びに地域の食文化などを関連付けて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

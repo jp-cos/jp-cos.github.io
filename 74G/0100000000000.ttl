@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74G0100000000000
   dct:identifier "74G0100000000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1257
   ];
   schema:description """第１款　目標
 　心と体を一体としてとらえ，健康・安全や運動についての理解と運動の合理的，計画的な実践を通して，生涯にわたって豊かなスポーツライフを継続する資質や能力を育てるとともに健康の保持増進のための実践力の育成と体力の向上を図り，明るく豊かで活力ある生活を営む態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

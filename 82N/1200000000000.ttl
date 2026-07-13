@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82N1200000000000
   dct:identifier "82N1200000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3688
   ];
   schema:description "〔学級活動〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:82N1202000000000, cs:82N1203000000000, cs:82N1205000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20221213-mxt_kyoiku02-100002607_014.pdf#page=49>;
   cs:courseOfStudy cs:Elementary\/2017;

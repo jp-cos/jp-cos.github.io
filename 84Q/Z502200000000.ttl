@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QZ502200000000
   dct:identifier "84QZ502200000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5725
   ];
   schema:description "(2) 空気調和に関わる設備に関する課題を発見し，技術者として科学的な根拠に基づき工業技術の進展に対応し解決する力を養う。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

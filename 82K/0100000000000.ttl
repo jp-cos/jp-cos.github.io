@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K0100000000000
   dct:identifier "82K0100000000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3435
   ];
   schema:description """第１　目標
 第１章総則の第１の２の(2)に示す道徳教育の目標に基づき，よりよく生きるための基盤となる道徳性を養うため，道徳的諸価値についての理解を基に，自己を見つめ，物事を多面的・多角的に考え，自己の生き方についての考えを深める学習を通して，道徳的な判断力，心情，実践意欲と態度を育てる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=20>;
   cs:courseOfStudy cs:Elementary\/2017;

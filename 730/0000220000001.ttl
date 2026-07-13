@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7300000220000001
   dct:identifier "7300000220000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 8
   ];
   schema:description "２　学校において特に必要がある場合には，第２章以下に示していない内容を加えて指導することができる。また，第２章以下に示す内容の取扱いのうち内容の範囲や程度等を示す事項は，全ての生徒に対して指導するものとする内容の範囲や程度等を示したものであり，学校において特に必要がある場合には，この事項にかかわらず指導することができる。ただし，これらの場合には，第２章以下に示す各教科，道徳科及び特別活動並びに各学年，各分野又は各言語の目標や内容の趣旨を逸脱したり，生徒の負担過重となったりすることのないようにしなければならない。";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

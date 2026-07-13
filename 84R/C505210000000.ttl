@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84RC505210000000
   dct:identifier "84RC505210000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7035
   ];
   schema:description "ア　〔指導項目〕の(1)のアについては，企業会計の意義や役割，財務会計と管理会計の役割の違い，会計公準の概要，会計情報を開示することの重要性などについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

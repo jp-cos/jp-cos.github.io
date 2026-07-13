@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QI505250000000
   dct:identifier "84QI505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5183
   ];
   schema:description "オ　〔指導項目〕の(5)のアについては，非正弦波形の発生を扱うこと。イについては，電気回路における過渡現象の発生とその回路の時定数を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

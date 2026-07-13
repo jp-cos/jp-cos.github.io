@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Z0300210000000
   dct:identifier "74Z0300210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7791
   ];
   schema:description "(1) 「理数数学Ⅰ」，「理数数学Ⅱ」及び「理数数学特論」の指導に当たっては，第２章第４節第３款の３を参照し，数学的活動を一層重視すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

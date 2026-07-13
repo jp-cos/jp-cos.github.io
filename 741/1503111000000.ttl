@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7411503111000000
   dct:identifier "7411503111000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 125
   ];
   schema:description "ア　話題について様々な角度から検討して自分の考えをもち，根拠を明確にするなど論理の構成や展開を工夫して意見を述べること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

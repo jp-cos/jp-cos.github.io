@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74I2505400000000
   dct:identifier "74I2505400000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 2040
   ];
   schema:description "(4) 内容の(4)については，生徒が主体的に考え，討議し，発表し合うなどの活動を取り入れること。アについては，情報機器や情報通信ネットワークの様々な機能を簡単に操作できるようにする工夫及び高齢者や障害者による利用を容易にする工夫などについても扱うこと。イについては，情報通信ネットワークなどを使用した犯罪などについて取り上げ，情報セキュリティなどに関する情報技術の適切な活用方法についても扱うこと。ウについては，情報技術を適切に活用するための個人の責任や態度について取り上げ，情報技術を社会の発展に役立てようとする心構えを身に付けさせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

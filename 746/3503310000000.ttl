@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7463503310000000
   dct:identifier "7463503310000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 927
   ];
   schema:description "ア　電気と電流";
   schema:edition "一部改正なし";
   schema:hasPart cs:7463503311000000, cs:7463503312000000, cs:7463503313000000, cs:7463503314000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

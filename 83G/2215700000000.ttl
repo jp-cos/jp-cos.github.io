@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83G2215700000000
   dct:identifier "83G2215700000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1640
   ];
   schema:description "(7) 内容の(2)のアの(イ)については，妊娠や出産が可能となるような成熟が始まるという観点から，受精・妊娠を取り扱うものとし，妊娠の経過は取り扱わないものとする。また，身体の機能の成熟とともに，性衝動が生じたり，異性への関心が高まったりすることなどから，異性の尊重，情報への適切な対処や行動の選択が必要となることについて取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210113-mxt_kyoiku01-100002608_1.pdf#page=233>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

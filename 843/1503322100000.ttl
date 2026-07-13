@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8431503322100000
   dct:identifier "8431503322100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 588
   ];
   schema:description "(ア) 生活圏の地理的な課題について，生活圏内や生活圏外との結び付き，地域の成り立ちや変容，持続可能な地域づくりなどに着目して，主題を設定し，課題解決に求められる取組などを多面的・多角的に考察，構想し，表現すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

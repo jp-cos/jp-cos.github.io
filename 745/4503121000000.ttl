@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7454503121000000
   dct:identifier "7454503121000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 743
   ];
   schema:description """(ア) 確率とその基本的な法則
 　確率の意味や基本的な法則についての理解を深め，それらを用いて事象の確率を求めること。また，確率を事象の考察に活用すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

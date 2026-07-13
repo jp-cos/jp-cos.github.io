@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84XB505220000000
   dct:identifier "84XB505220000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9660
   ];
   schema:description "イ　〔指導項目〕の(2)のアについては，社会で用いられているメディアを利用したサービスの種類と特徴について扱うこと。イについては，メディアを利用したサービスを分析する実習や新たなサービスを企画し提案する実習を行うこと。また，センサなどと組み合わせたサービスについても触れること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

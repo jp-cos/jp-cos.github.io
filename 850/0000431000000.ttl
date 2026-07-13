@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000431000000
   dct:identifier "8500000431000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 33
   ];
   schema:description "(1) 　幼稚部における生活の全体を通して第２章に示すねらいが総合的に達成されるよう，教育課程に係る教育期間や幼児の生活経験や発達の過程などを考慮して具体的なねらいと内容を組織するものとする。この場合においては，特に， 自我が芽生え，他者の存在を意識し，自己を抑制しようとする気持ちが生まれる幼児期の発達の特性を踏まえ，入学から修了に至るまでの長期的な視野をもって充実した生活が展開できるように配慮するものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

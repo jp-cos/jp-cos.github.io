@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400200000000
   dct:identifier "73K0400200000000";
-  dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
+  dct:source cs:73V11, cs:73V21;
   qb:order [
-    dct:source cs:73V11, cs:73V21 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1540
   ], [
-    dct:source cs:73V11, cs:73V21 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1540 1540
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1540
   ];
   schema:description " ２　主として他の人とのかかわりに関すること。            ";
   schema:edition "一部改正なし";
   schema:hasPart cs:73K0400200000001, cs:73K0400210000000, cs:73K0400220000000, cs:73K0400230000000, cs:73K0400240000000, cs:73K0400250000000, cs:73K0400260000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010;

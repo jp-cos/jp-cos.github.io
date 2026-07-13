@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84TE505250000000
   dct:identifier "84TE505250000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 7875
   ];
   schema:description "オ　〔指導項目〕の(7)のアについては，漁業協同組合と金融，共済制度などと関連付けて扱うこと。また，簿記の基礎的な内容と養殖業経営についても扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

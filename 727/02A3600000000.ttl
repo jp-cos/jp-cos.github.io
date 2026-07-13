@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/>.
 cs:72702A3600000000
   dct:identifier "72702A3600000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2041
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 2041 2050
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 2050
   ];
   schema:description "(6) 身近な自然を利用したり，身近にある物を使ったりなどして，遊びや遊びに使う物を工夫してつくり，その面白さや自然の不思議さに気付き，みんなで遊びを楽しむことができるようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

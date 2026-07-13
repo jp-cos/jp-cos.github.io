@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8C00000223133000
   dct:identifier "8C00000223133000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 80
   ];
   schema:description "(ウ) ホームルーム活動の授業時数については，原則として，年間 35 単位時間以上とするものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

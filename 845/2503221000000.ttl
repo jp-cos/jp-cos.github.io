@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8452503221000000
   dct:identifier "8452503221000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1308
   ];
   schema:description "(ア) 座標平面上の図形について構成要素間の関係に着目し，それを方程式を用いて表現し，図形の性質や位置関係について考察すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

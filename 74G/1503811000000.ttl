@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74G1503811000000
   dct:identifier "74G1503811000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1314
   ];
   schema:description "ア　スポーツは，人類の歴史とともに始まり，その理念が時代に応じて変容してきていること。また，我が国から世界に普及し，発展しているスポーツがあること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

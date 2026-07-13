@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82702A3130000000
   dct:identifier "82702A3130000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2574
   ];
   schema:description "(3) 地域に関わる活動を通して，地域の場所やそこで生活したり働いたりしている人々について考えることができ，自分たちの生活は様々な人や場所と関わっていることが分かり，それらに親しみや愛着をもち，適切に接したり安全に生活したりしようとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf#page=39>;
   cs:courseOfStudy cs:Elementary\/2017;

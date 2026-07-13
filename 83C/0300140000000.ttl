@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83C0300140000000
   dct:identifier "83C0300140000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1828
   ];
   schema:description "(4) 各項目及び各項目に示す事項については，相互に有機的な関連を図り，総合的に展開されるよう適切な題材を設定して計画を作成すること。その際，生徒や学校，地域の実態を的確に捉え，指導の効果を高めるようにすること。また，小学校における学習を踏まえるとともに，高等学校における学習を見据え，他教科等との関連を明確にして系統的・発展的に指導ができるようにすること。さらに，持続可能な開発のための教育を推進する視点から他教科等との連携も図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_009.pdf#page=160>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

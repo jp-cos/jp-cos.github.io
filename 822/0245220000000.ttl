@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8220245220000000
   dct:identifier "8220245220000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1466
   ];
   schema:description "イ　アの(ア)及びイの(ア)の「関係機関」については，県庁や市役所の働きなどを中心に取り上げ，防災情報の発信，避難体制の確保などの働き，自衛隊など国の機関との関わりを取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230308-mxt_kyoiku02-100002607_003.pdf#page=66>;
   cs:courseOfStudy cs:Elementary\/2017;

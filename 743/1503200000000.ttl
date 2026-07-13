@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7431503200000000
   dct:identifier "7431503200000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 310
   ];
@@ -16,7 +16,7 @@ cs:7431503200000000
 　近現代世界を理解するための前提として，ユーラシアの諸文明の特質に触れるとともに，16世紀以降の世界商業の進展及び資本主義の確立を中心に，世界が一体化に向かう過程を理解させる。その際，世界の動向と日本とのかかわりに着目させる。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7431503210000000, cs:7431503220000000, cs:7431503230000000, cs:7431503240000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84G2300110000000
   dct:identifier "84G2300110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2163
   ];
   schema:description "(1) 単元など内容や時間のまとまりを見通して，その中で育む資質・能力の育成に向けて，生徒の主体的・対話的で深い学びの実現を図るようにすること。その際，体育や保健の見方・考え方を働かせながら，運動や健康についての自他や社会の課題を発見し，その合理的，計画的な解決のための活動の充実を図ること。また，運動の楽しさや喜びを深く味わったり，健康の大切さを実感したりすることができるよう留意すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

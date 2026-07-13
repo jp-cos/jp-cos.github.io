@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84a0000000000000
   dct:identifier "84a0000000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10174
   ];
   schema:description "第10節　体　育";
   schema:edition "一部改正なし";
   schema:hasPart cs:84a0100000000000, cs:84a0300000000000, cs:84a0500000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

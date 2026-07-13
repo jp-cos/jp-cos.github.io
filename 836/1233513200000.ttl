@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8361233513200000
   dct:identifier "8361233513200000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 973
   ];
   schema:description """㋑　力学的エネルギーの保存
 力学的エネルギーに関する実験を行い，運動エネルギーと位置エネルギーが相互に移り変わることを見いだして理解するとともに，力学的エネルギーの総量が保存されることを理解すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20210830-mxt_kyoiku01-100002608_05.pdf#page=61>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

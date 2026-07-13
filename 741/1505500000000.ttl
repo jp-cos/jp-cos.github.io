@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7411505500000000
   dct:identifier "7411505500000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 176
   ];
   schema:description "(5) 内容の〔伝統的な言語文化と国語の特質に関する事項〕については，次の事項に配慮するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:7411505510000000, cs:7411505520000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8380300231100000
   dct:identifier "8380300231100000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1297
   ];
   schema:description "(ア) 我が国及び諸外国の様々な音楽のうち，指導のねらいに照らして適切で，生徒にとって親しみがもてたり意欲が高められたり，生活や社会において音楽が果たしている役割が感じ取れたりできるもの。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=114>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

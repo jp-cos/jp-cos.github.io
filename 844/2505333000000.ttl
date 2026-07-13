@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8442505333000000
   dct:identifier "8442505333000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 1151
   ];
   schema:description "(ウ) (1)のアの「生命」については，生命科学や医療技術の発達を踏まえ，生命の誕生，老いや病，生と死の問題などを通して，生きることの意義について思索できるようにすること。「自然」については，人間の生命が自然の生態系の中で，植物や他の動物との相互依存関係において維持されており，調和的な共存関係が大切であることについても思索できるようにすること。「科学技術」については，近年の飛躍的な科学技術の進展を踏まえ，人工知能（AI）をはじめとした先端科学技術の利用と人間生活や社会の在り方についても思索できるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

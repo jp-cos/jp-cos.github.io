@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000251200000
   dct:identifier "8B00000251200000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 165
   ];
   schema:description "(2) 生徒が，自己の存在感を実感しながら，よりよい人間関係を形成し，有意義で充実した学校生活を送る中で，現在及び将来における自己実現を図っていくことができるよう，生徒理解を深め，学習指導と関連付けながら，生徒指導の充実を図ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

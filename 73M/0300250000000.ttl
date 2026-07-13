@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:73M0300250000000
   dct:identifier "73M0300250000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1597
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1597 1597
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1597
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1597 1597 1604
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1604
   ];
   schema:description "(5) グループ学習や異年齢集団による学習などの多様な学習形態，地域の人々の協力も得つつ全教師が一体となって指導に当たるなどの指導体制について工夫を行うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

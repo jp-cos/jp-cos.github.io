@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8Eh0300130000000
   dct:identifier "8Eh0300130000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 1722
   ];
   schema:description "(3) 印刷に関する各学科においては，原則として印刷科に属する科目に配当する総授業時数の 10 分の５以上を実習に配当すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

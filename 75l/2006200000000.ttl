@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:75l2006200000000
   dct:identifier "75l2006200000000";
-  dct:source cs:75V11 cs:75V11;
+  dct:source cs:75V11;
   qb:order [
-    dct:source cs:75V11 cs:75V11;
+    dct:source cs:75V11;
     rdf:type cs:Number;
     rdf:value 57
   ];
   schema:description "(2) 個別の指導計画の作成に当たっては， 次の事項に配慮すること。";
   schema:edition "一部改正なし";
   schema:hasPart cs:75l2006210000000, cs:75l2006220000000, cs:75l2006230000000, cs:75l2006240000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2009;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2009\/2009;

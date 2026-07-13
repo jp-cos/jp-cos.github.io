@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000110000000
   dct:identifier "8500000110000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 3
   ];
@@ -16,7 +16,7 @@ cs:8500000110000000
 　このため教師は，幼児との信頼関係を十分に築き，幼児が身近な環境に主体的に関わり，環境との関わり方や意味に気付き，これらを取り込もうとして，試行錯誤したり，考えたりするようになる幼児期の教育における見方・考え方を生かし，幼児と共によりよい教育環境を創造するように努めるものとする。これらを踏まえ， 次に示す事項を重視して教育を行わなければならない。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:8500000111000000, cs:8500000112000000, cs:8500000113000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:81l1005300000000
   dct:identifier "81l1005300000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 91
   ];
   schema:description "(3) 自然の中で伸び伸びと体を動かして遊ぶことにより，体の諸機能の発達が促されることに留意し，幼児の興味や関心が戸外にも向くようにすること。その際，幼児の動線に配慮した園庭や遊具の配置などを工夫すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

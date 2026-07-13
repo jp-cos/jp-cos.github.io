@@ -6,20 +6,20 @@
 @prefix schema: <http://schema.org/>.
 cs:72102A3310000000
   dct:identifier "72102A3310000000";
-  dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
+  dct:source cs:72V11, cs:72V21;
   qb:order [
-    dct:source cs:72V11, cs:72V21 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 73
   ], [
-    dct:source cs:72V11, cs:72V21 cs:72V11 cs:72V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 73 82
+    dct:source cs:72V21;
+    rdf:type cs:Number;
+    rdf:value 82
   ];
   schema:description "(1) 読むことの能力を育てるため，次の事項について指導する。";
   schema:edition "一部改正なし";
   schema:hasPart cs:72102A3311000000, cs:72102A3312000000, cs:72102A3313000000, cs:72102A3314000000, cs:72102A3315000000, cs:72102A3316000000;
-  rdf:type cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008, cs:Elementary\/2008\/2015;

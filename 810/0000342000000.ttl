@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8100000342000000
   dct:identifier "8100000342000000";
-  dct:source cs:81V10 cs:81V10;
+  dct:source cs:81V10;
   qb:order [
-    dct:source cs:81V10 cs:81V10;
+    dct:source cs:81V10;
     rdf:type cs:Number;
     rdf:value 34
   ];
   schema:description "(2) 入園当初，特に，３歳児の入園については，家庭との連携を緊密にし，生活のリズムや安全面に十分配慮すること。また，満３歳児については，学年の途中から入園することを考慮し，幼児が安心して幼稚園生活を過ごすことができるよう配慮すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2017;
   cs:courseOfStudyRevision cs:Kindergarten\/2017\/2017;

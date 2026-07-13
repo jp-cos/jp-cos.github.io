@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84d5503231220000
   dct:identifier "84d5503231220000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10776
   ];
   schema:description "(イ) 社会的な話題について，複数のスピーチや講義，英文資料などを聞いたり読んだりして，論点の共通点や相違点を整理，比較するとともに，課題の解決策などを効果的な理由や根拠とともに詳しく話して伝え合い，他者の意見に適切に応じて最善の解決策をまとめるためのディスカッションをする活動。また，議論した内容を踏まえて，自分自身の考えなどを整理して発表したり，文章を書いたりする活動。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

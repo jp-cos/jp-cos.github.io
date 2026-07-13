@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:7362223411000000
   dct:identifier "7362223411000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 784
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 784 784
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 784
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 784 784 790
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 790
   ];
   schema:description """(ア) 気象観測
 校庭などで気象観測を行い，観測方法や記録の仕方を身に付けるとともに，その観測記録などに基づいて，気温，湿度，気圧，風向などの変化と天気との関係を見いだすこと。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

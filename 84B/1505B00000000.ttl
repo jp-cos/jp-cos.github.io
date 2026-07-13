@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B1505B00000000
   dct:identifier "84B1505B00000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2240
   ];
   schema:description "(11)　自己や他者の著作物及びそれらの著作者の創造性を尊重する態度の形成を図るとともに，必要に応じて，音楽に関する知的財産権について触れるようにする。また，こうした態度の形成が，音楽文化の継承，発展，創造を支えていることへの理解につながるよう配慮する。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

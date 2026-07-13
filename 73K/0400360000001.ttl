@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:73K0400360000001
   dct:identifier "73K0400360000001";
-  dct:source cs:73V32 cs:73V32;
+  dct:source cs:73V32;
   qb:order [
-    dct:source cs:73V32 cs:73V32;
+    dct:source cs:73V32;
     rdf:type cs:Number;
     rdf:value 1557
   ];
   schema:description """［よりよい学校生活，集団生活の充実］
 　教師や学校の人々を敬愛し，学級や学校の一員としての自覚をもち，協力し合ってよりよい校風をつくるとともに，様々な集団の意義や集団の中での自分の役割と責任を自覚して集団生活の充実に努めること。""";
   schema:edition "一部改正（１回目）";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2015;

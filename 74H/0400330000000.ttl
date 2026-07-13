@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H0400330000000
   dct:identifier "74H0400330000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1862
   ];
   schema:description "ウ　コミュニケーションを行うために必要となる語句や文構造，文法事項などの取扱いについては，用語や用法の区別などの指導が中心とならないよう配慮し，実際に活用できるよう指導すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

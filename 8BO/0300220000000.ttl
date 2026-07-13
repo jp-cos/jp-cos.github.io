@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8BO0300220000000
   dct:identifier "8BO0300220000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 4272
   ];
   schema:description "(2) 生徒の実態把握に基づいて得られた指導すべき課題相互の関連を検討すること。その際，これまでの学習状況や将来の可能性を見通しながら，長期的及び短期的な観点から指導目標を設定し，それらを達成するために必要な指導内容を段階的に取り上げること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

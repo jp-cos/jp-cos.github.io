@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82K04D0413000000
   dct:identifier "82K04D0413000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 3513
   ];
   schema:description """〔第５学年及び第６学年〕 
 生命が多くの生命のつながりの中にあるかけがえのないものであることを理解し，生命を尊重すること。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20230313-mxt_kyoiku02-100002607_012.pdf#page=69>;
   cs:courseOfStudy cs:Elementary\/2017;

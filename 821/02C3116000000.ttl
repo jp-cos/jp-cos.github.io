@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3116000000
   dct:identifier "82102C3116000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 172
   ];
   schema:description "カ　主語と述語との関係，修飾と被修飾との関係，指示する語句と接続する語句の役割，段落の役割について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=86>;
   cs:courseOfStudy cs:Elementary\/2017;

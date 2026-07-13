@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84M0300240000000
   dct:identifier "84M0300240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10883
   ];
   schema:description "(4) 探究の過程においては，他者と協働して課題を解決しようとする学習活動や，言語により分析し，まとめたり表現したりするなどの学習活動が行われるようにすること。その際，例えば，比較する，分類する，関連付けるなどの考えるための技法が自在に活用されるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

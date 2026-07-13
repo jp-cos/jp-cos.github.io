@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83A0300140000000
   dct:identifier "83A0300140000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1413
   ];
   schema:description "(4) 第２の各学年の内容の「Ａ表現」については，(1)のア及びイと，(2)は原則として関連付けて行い，(1)のア及びイそれぞれにおいて描く活動とつくる活動のいずれも経験させるようにすること。その際，第２学年及び第３学年の各学年においては，(1)のア及びイそれぞれにおいて，描く活動とつくる活動のいずれかを選択して扱うことができることとし，２学年間を通して描く活動とつくる活動が調和的に行えるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387018_007.pdf#page=123>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

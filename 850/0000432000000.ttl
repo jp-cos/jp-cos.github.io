@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8500000432000000
   dct:identifier "8500000432000000";
-  dct:source cs:85V10 cs:85V10;
+  dct:source cs:85V10;
   qb:order [
-    dct:source cs:85V10 cs:85V10;
+    dct:source cs:85V10;
     rdf:type cs:Number;
     rdf:value 34
   ];
   schema:description "(2) 　幼稚部の毎学年の教育課程に係る教育週数は，39 週を標準とし，幼児の障害の状態や特性及び発達の程度等を考慮して適切に定めるものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:KindergartenDeptSNES\/2017;
   cs:courseOfStudyRevision cs:KindergartenDeptSNES\/2017\/2017;

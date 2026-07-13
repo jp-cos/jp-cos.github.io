@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8400000232100000
   dct:identifier "8400000232100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 46
   ];
   schema:description "ア　各学科に共通する必履修教科・科目及び総合的な探究の時間";
   schema:edition "一部改正なし";
   schema:hasPart cs:8400000232110000, cs:8400000232120000, cs:8400000232130000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

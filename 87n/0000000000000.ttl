@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:87n0000000000000
   dct:identifier "87n0000000000000";
-  dct:source cs:86V12 cs:86V12;
+  dct:source cs:86V12;
   qb:order [
-    dct:source cs:86V12 cs:86V12;
+    dct:source cs:86V12;
     rdf:type cs:Number;
     rdf:value 127
   ];
@@ -17,7 +17,7 @@ cs:87n0000000000000
 指導計画の作成と各学年にわたる内容の取扱いに当たっては，児童の障害の状態や特性及び心身の発達の段階等を十分考慮するとともに，特に次の事項に配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:87L0000000000000, cs:87n0000100000000, cs:87n0000200000000, cs:87n0000300000000, cs:87n0000400000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:commentaryPage <https://www.mext.go.jp/content/20220715-mxt_tokubetu01-100002983_1.pdf#page=10>;
   cs:courseOfStudy cs:ElementaryAndLowerSecondaryDeptSNES\/2017;

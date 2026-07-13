@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8B00000221000000
   dct:identifier "8B00000221000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 20
   ];
   schema:description """１  各学校の教育目標と教育課程の編成  
 教育課程の編成に当たっては，学校教育全体，各教科・科目等及び各教科等において，それぞれの指導を通して育成を目指す資質・能力を踏まえつつ，各学校の教育目標を明確にするとともに，教育課程の編成についての基本的な方針が家庭や地域とも共有されるよう努めるものとする。その際，第４章総合的な探究の時間において準ずるものとしている高等学校学習指導要領第４章の第２の１に基づき定められる目標との関連を図るものとする。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82702A2100000000
   dct:identifier "82702A2100000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2567
   ];
   schema:description "(1) 学校，家庭及び地域の生活に関わることを通して，自分と身近な人々，社会及び自然との関わりについて考えることができ，それらのよさやすばらしさ，自分との関わりに気付き，地域に愛着をもち自然を大切にしたり，集団や社会の一員として安全で適切な行動をしたりするようにする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_006.pdf#page=25>;
   cs:courseOfStudy cs:Elementary\/2017;

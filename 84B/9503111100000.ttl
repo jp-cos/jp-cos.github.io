@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B9503111100000
   dct:identifier "84B9503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2551
   ];
   schema:description "(ア) 生活の中の工芸を多様な視点に立って考え，自己の思いなどから個性を生かして独創的に発想し，美的で心豊かな制作の構想を練ること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

@@ -6,25 +6,25 @@
 @prefix schema: <http://schema.org/>.
 cs:7361233600000000
   dct:identifier "7361233600000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 693
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 693 693
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 693
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 693 693 699
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 699
   ];
   schema:description """(6) 化学変化とイオン
 化学変化についての観察，実験を通して，水溶液の電気伝導性や中和反応について理解させるとともに，これらの事物・現象をイオンのモデルと関連付けてみる見方や考え方を養う。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7361233610000000, cs:7361233620000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

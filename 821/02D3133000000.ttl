@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82102D3133000000
   dct:identifier "82102D3133000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 245
   ];
   schema:description "ウ　語句の由来などに関心をもつとともに，時間の経過による言葉の変化や世代による言葉の違いに気付き，共通語と方言との違いを理解すること。また，仮名及び漢字の由来，特質などについて理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=131>;
   cs:courseOfStudy cs:Elementary\/2017;

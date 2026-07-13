@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7435505212000000
   dct:identifier "7435505212000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 469
   ];
   schema:description "(イ) イについては，世界諸地域の生活・文化について世界を広く大観する学習と事例地域を通して考察する学習を組み合わせて扱うこと。その際，生活と宗教のかかわりなどについて考察させるとともに，日本との共通性や異質性に着目させ，異なる習慣や価値観などをもっている人々と共存していくことの意義に気付かせること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

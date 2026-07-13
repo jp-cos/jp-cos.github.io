@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74H7503220000000
   dct:identifier "74H7503220000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1772
   ];
   schema:description "イ　繰り返しを求めたり，言い換えたりするときなどに必要となる表現を活用すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84P5505120000000
   dct:identifier "84P5505120000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3591
   ];
   schema:description "イ　〔指導項目〕の(1)については，科目学習の導入として扱うこと。また，(6)については，(1)を踏まえ，(2)から(5)までと並行して，又はそれらを学習した後に扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

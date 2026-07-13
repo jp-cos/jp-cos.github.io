@@ -6,24 +6,24 @@
 @prefix schema: <http://schema.org/>.
 cs:73G1205200000000
   dct:identifier "73G1205200000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 1191
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 1191 1191
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 1191
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 1191 1191 1197
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 1197
   ];
   schema:description "(2) 内容の「Ａ体つくり運動」から「Ｈ体育理論」までに示す事項については，次のとおり取り扱うものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:73G1205210000000, cs:73G1205220000000, cs:73G1205230000000, cs:73G1205240000000, cs:73G1205250000000, cs:73G1205260000000, cs:73G1205270000000, cs:73G12A5280000000;
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:83803002A0500000
   dct:identifier "83803002A0500000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 1312
   ];
   schema:description "フレーズ";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220419-mxt_kyoiku02-100002608_06.pdf#page=121>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

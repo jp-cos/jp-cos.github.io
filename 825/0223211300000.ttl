@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8250223211300000
   dct:identifier "8250223211300000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 1767
   ];
   schema:description "(ウ) 正方形や長方形の面で構成される箱の形をしたものについて理解し，それらを構成したり分解したりすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf#page=126>;
   cs:courseOfStudy cs:Elementary\/2017;

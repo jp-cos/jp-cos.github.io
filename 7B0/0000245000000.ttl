@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:7B00000245000000
   dct:identifier "7B00000245000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 118
   ];
@@ -16,7 +16,7 @@ cs:7B00000245000000
 以上のほか， 次の事項について配慮するものとする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:7B00000245100000, cs:7B00000245200000, cs:7B00000245300000, cs:7B00000245400000, cs:7B00000245500000, cs:7B00000245600000, cs:7B00000245700000, cs:7B00000245800000, cs:7B00000245900000, cs:7B00000245A00000, cs:7B00000245B00000, cs:7B00000245C00000, cs:7B00000245D00000, cs:7B00000245E00000, cs:7B00000245F00000, cs:7B00000245G00000, cs:7B00000245H00000, cs:7B00000245I00000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

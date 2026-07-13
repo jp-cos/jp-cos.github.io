@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8G502a4216110000
   dct:identifier "8G502a4216110000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 2879
   ];
   schema:description "㋐ 除数が１位数や２位数で被除数が２位数や３位数の場合の計算が，基本的な計算を基にしてできることを理解すること。また，その筆算の仕方について理解すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

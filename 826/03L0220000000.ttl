@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82603L0220000000
   dct:identifier "82603L0220000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2553
   ];
   schema:description "(2) 観察，実験などの指導に当たっては，指導内容に応じてコンピュータや情報通信ネットワークなどを適切に活用できるようにすること。また，第１章総則の第３の１の(3)のイに掲げるプログラミングを体験しながら論理的思考力を身に付けるための学習活動を行う場合には，児童の負担に配慮しつつ，例えば第２の各学年の内容の〔第６学年〕の「Ａ物質・エネルギー」の(4)における電気の性質や働きを利用した道具があることを捉える学習など，与えた条件に応じて動作していることを考察し，更に条件を変えることにより，動作が変化することについて考える場面で取り扱うものとする。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20211020-mxt_kyoiku02-100002607_05.pdf#page=104>;
   cs:courseOfStudy cs:Elementary\/2017;

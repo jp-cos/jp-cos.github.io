@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84R3505110000000
   dct:identifier "84R3505110000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 6709
   ];
   schema:description "ア　商業の各分野の学習に関連する職業や業務に関して，地域や産業界等と連携して具体的な実務について理解を深める学習活動及び実務に即して知識，技術などを総合的に活用する学習活動を通して，ビジネスを担う当事者としての意識を高めるとともに，ビジネスの実務に対応することができるようにすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

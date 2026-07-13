@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84PH503130000000
   dct:identifier "84PH503130000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 4053
   ];
   schema:description "(3) 食品微生物の実験";
   schema:edition "一部改正なし";
   schema:hasPart cs:84PH503131000000, cs:84PH503132000000, cs:84PH503133000000, cs:84PH503134000000, cs:84PH503135000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

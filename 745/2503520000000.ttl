@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:7452503520000000
   dct:identifier "7452503520000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 678
   ];
   schema:description "イ　積分の考え";
   schema:edition "一部改正なし";
   schema:hasPart cs:7452503521000000, cs:7452503522000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

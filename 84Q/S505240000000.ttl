@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84QS505240000000
   dct:identifier "84QS505240000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 5502
   ];
   schema:description "エ　〔指導項目〕の(4)のイについては，文字，音声，画像をデジタル化する技術と情報の圧縮，伸張の原理と方法を扱うこと。ウについては，情報機器を活用した具体的な事例を通して，情報表現の特性を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

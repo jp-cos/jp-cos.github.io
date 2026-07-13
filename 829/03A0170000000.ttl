@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:82903A0170000000
   dct:identifier "82903A0170000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 2934
   ];
   schema:description "(7) 低学年においては，第１章総則の第２の４の(1)を踏まえ，他教科等との関連を積極的に図り，指導の効果を高めるようにするとともに，幼稚園教育要領等に示す幼児期の終わりまでに育ってほしい姿との関連を考慮すること。特に，小学校入学当初においては，生活科を中心とした合科的・関連的な指導や，弾力的な時間割の設定を行うなどの工夫をすること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_008.pdf#page=113>;
   cs:courseOfStudy cs:Elementary\/2017;

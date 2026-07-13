@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Y9505230000000
   dct:identifier "74Y9505230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 7632
   ];
   schema:description "ウ　内容の(3)のアについては，情報機器の基本的な構成要素及びソフトウェアの役割と特徴について扱うこと。イについては，情報通信ネットワークの基本的な仕組みについて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

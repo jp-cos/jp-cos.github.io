@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84N5200000000000
   dct:identifier "84N5200000000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 10923
   ];
   schema:description "〔学校行事〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:84N5202000000000, cs:84N5203000000000, cs:84N5205000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

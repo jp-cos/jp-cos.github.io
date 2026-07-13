@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:7Df6505230000000
   dct:identifier "7Df6505230000000";
-  dct:source cs:7BV11 cs:7BV11;
+  dct:source cs:7BV11;
   qb:order [
-    dct:source cs:7BV11 cs:7BV11;
+    dct:source cs:7BV11;
     rdf:type cs:Number;
     rdf:value 877
   ];
   schema:description "ウ   内容の(4)及び(5)については，  「生活と疾病」 で取り上げる症状や疾患と関連付けて指導するとともに，健康指導，生活指導及び応急処置の方法も含めて扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2009;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2009\/2009;

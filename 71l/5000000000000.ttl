@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:71l5000000000000
   dct:identifier "71l5000000000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 116
   ];
@@ -16,7 +16,7 @@ cs:71l5000000000000
 〔感じたことや考えたことを自分なりに表現することを通して，豊かな感性や表現する力を養い，創造性を豊かにする。〕""";
   schema:edition "一部改正なし";
   schema:hasPart cs:71l5001000000000, cs:71l5003000000000, cs:71l5005000000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:74Qt505210000000
   dct:identifier "74Qt505210000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 4693
   ];
   schema:description "ア　内容の(1)のイについては，簡単な作品制作を通して，具体的なテキスタイルとデザインの関係を扱うこと。ウについては，造形の原理について扱い，簡単な作品を制作させること。エについては，色彩の基礎及び色彩計画の基礎的な内容を扱うこと。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

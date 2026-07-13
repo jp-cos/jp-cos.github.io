@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:82102C3222000000
   dct:identifier "82102C3222000000";
-  dct:source cs:82V11 cs:82V11;
+  dct:source cs:82V11;
   qb:order [
-    dct:source cs:82V11 cs:82V11;
+    dct:source cs:82V11;
     rdf:type cs:Number;
     rdf:value 206
   ];
   schema:description "(2) (1)に示す事項については，例えば，次のような言語活動を通して指導するものとする。";
   schema:edition "一部改正なし";
   schema:hasPart cs:82102C3222100000, cs:82102C3222200000, cs:82102C3222300000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20220606-mxt_kyoiku02-100002607_002.pdf#page=110>;
   cs:courseOfStudy cs:Elementary\/2017;

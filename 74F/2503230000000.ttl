@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:74F2503230000000
   dct:identifier "74F2503230000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1913
   ];
   schema:description """ウ　共生社会における家庭や地域
 　家庭と地域とのかかわりについて理解させ，高齢者や障害のある人々など様々な人々が共に支え合って生きることの重要性を認識し，家庭や地域及び社会の一員として主体的に行動することの意義について考えさせる。""";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

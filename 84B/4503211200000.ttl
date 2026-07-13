@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84B4503211200000
   dct:identifier "84B4503211200000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 2368
   ];
   schema:description "(イ) 目的や機能との調和のとれた洗練された美しさなどを感じ取り，作者の心情や意図と創造的な表現の工夫などについて考え，見方や感じ方を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

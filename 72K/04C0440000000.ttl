@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:72K04C0440000000
   dct:identifier "72K04C0440000000";
-  dct:source cs:72V11 cs:72V11;
+  dct:source cs:72V11;
   qb:order [
-    dct:source cs:72V11 cs:72V11;
+    dct:source cs:72V11;
     rdf:type cs:Number;
     rdf:value 2665
   ];
   schema:description "(4) 先生や学校の人々を敬愛し，みんなで協力し合って楽しい学級をつくる。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "内容（大項目）";
   cs:courseOfStudy cs:Elementary\/2008;
   cs:courseOfStudyRevision cs:Elementary\/2008\/2008;

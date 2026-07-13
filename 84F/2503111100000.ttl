@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:84F2503111100000
   dct:identifier "84F2503111100000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 3167
   ];
   schema:description "(ア) 人の一生について，自己と他者，社会との関わりから様々な生き方があることを理解するとともに，自立した生活を営むために，生涯を見通して，生活課題に対応し意思決定をしていくことの重要性について理解を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

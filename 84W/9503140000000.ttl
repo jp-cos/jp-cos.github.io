@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:84W9503140000000
   dct:identifier "84W9503140000000";
-  dct:source cs:84V10 cs:84V10;
+  dct:source cs:84V10;
   qb:order [
-    dct:source cs:84V10 cs:84V10;
+    dct:source cs:84V10;
     rdf:type cs:Number;
     rdf:value 9196
   ];
   schema:description "(4) 主な精神障害と看護";
   schema:edition "一部改正なし";
   schema:hasPart cs:84W9503141000000, cs:84W9503142000000, cs:84W9503143000000, cs:84W9503144000000, cs:84W9503145000000, cs:84W9503146000000, cs:84W9503147000000, cs:84W9503148000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2018;
   cs:courseOfStudyRevision cs:UpperSecondary\/2018\/2018;

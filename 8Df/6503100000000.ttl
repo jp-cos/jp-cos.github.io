@@ -6,16 +6,16 @@
 @prefix schema: <http://schema.org/>.
 cs:8Df6503100000000
   dct:identifier "8Df6503100000000";
-  dct:source cs:8BV12 cs:8BV12;
+  dct:source cs:8BV12;
   qb:order [
-    dct:source cs:8BV12 cs:8BV12;
+    dct:source cs:8BV12;
     rdf:type cs:Number;
     rdf:value 967
   ];
   schema:description "〔指導項目〕";
   schema:edition "一部改正なし";
   schema:hasPart cs:8Df6503110000000, cs:8Df6503120000000, cs:8Df6503130000000, cs:8Df6503140000000, cs:8Df6503150000000, cs:8Df6503160000000, cs:8Df6503170000000, cs:8Df6503180000000, cs:8Df6503190000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondaryDeptSNES\/2019;
   cs:courseOfStudyRevision cs:UpperSecondaryDeptSNES\/2019\/2019;

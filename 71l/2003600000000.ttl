@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:71l2003600000000
   dct:identifier "71l2003600000000";
-  dct:source cs:71V11 cs:71V11;
+  dct:source cs:71V11;
   qb:order [
-    dct:source cs:71V11 cs:71V11;
+    dct:source cs:71V11;
     rdf:type cs:Number;
     rdf:value 53
   ];
   schema:description "(6) 自分の思ったことを相手に伝え，相手の思っていることに気付く。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "区分なし";
   cs:courseOfStudy cs:Kindergarten\/2008;
   cs:courseOfStudyRevision cs:Kindergarten\/2008\/2008;

@@ -6,15 +6,15 @@
 @prefix schema: <http://schema.org/>.
 cs:8320300130000000
   dct:identifier "8320300130000000";
-  dct:source cs:83V11 cs:83V11;
+  dct:source cs:83V11;
   qb:order [
-    dct:source cs:83V11 cs:83V11;
+    dct:source cs:83V11;
     rdf:type cs:Number;
     rdf:value 592
   ];
   schema:description "(3) 各分野の履修については，第１，第２学年を通じて地理的分野及び歴史的分野を並行して学習させることを原則とし，第３学年において歴史的分野及び公民的分野を学習させること。各分野に配当する授業時数は，地理的分野115単位時間，歴史的分野135単位時間，公民的分野100単位時間とすること。これらの点に留意し，各学校で創意工夫して適切な指導計画を作成すること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "指導計画の作成と内容の取扱い（大項目）";
   cs:commentaryPage <https://www.mext.go.jp/content/20240919-mxt_kyoiku01-100002608.pdf#page=179>;
   cs:courseOfStudy cs:LowerSecondary\/2017;

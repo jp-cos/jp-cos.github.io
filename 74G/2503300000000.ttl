@@ -6,9 +6,9 @@
 @prefix schema: <http://schema.org/>.
 cs:74G2503300000000
   dct:identifier "74G2503300000000";
-  dct:source cs:74V10 cs:74V10;
+  dct:source cs:74V10;
   qb:order [
-    dct:source cs:74V10 cs:74V10;
+    dct:source cs:74V10;
     rdf:type cs:Number;
     rdf:value 1358
   ];
@@ -16,7 +16,7 @@ cs:74G2503300000000
 　社会生活における健康の保持増進には，環境や食品，労働などが深くかかわっていることから，環境と健康，環境と食品の保健，労働と健康にかかわる活動や対策が重要であることについて理解できるようにする。""";
   schema:edition "一部改正なし";
   schema:hasPart cs:74G2503310000000, cs:74G2503320000000, cs:74G2503330000000;
-  rdf:type cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "各科目";
   cs:courseOfStudy cs:UpperSecondary\/2009;
   cs:courseOfStudyRevision cs:UpperSecondary\/2009\/2009;

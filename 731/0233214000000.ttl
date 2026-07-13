@@ -6,23 +6,23 @@
 @prefix schema: <http://schema.org/>.
 cs:7310233214000000
   dct:identifier "7310233214000000";
-  dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
+  dct:source cs:73V11, cs:73V21, cs:73V32;
   qb:order [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11;
+    dct:source cs:73V11;
     rdf:type cs:Number;
     rdf:value 174
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21;
-    rdf:type cs:Number cs:Number;
-    rdf:value 174 174
+    dct:source cs:73V21;
+    rdf:type cs:Number;
+    rdf:value 174
   ], [
-    dct:source cs:73V11, cs:73V21, cs:73V32 cs:73V11 cs:73V21 cs:73V32;
-    rdf:type cs:Number cs:Number cs:Number;
-    rdf:value 174 174 180
+    dct:source cs:73V32;
+    rdf:type cs:Number;
+    rdf:value 180
   ];
   schema:description "エ　書いた文章を互いに読み合い，論理の展開の仕方や表現の仕方などについて評価して自分の表現に役立てるとともに，ものの見方や考え方を深めること。";
   schema:edition "一部改正なし";
-  rdf:type cs:Number cs:Number cs:Number cs:Item;
+  rdf:type cs:Item;
   cs:category "目標及び内容（大項目）";
   cs:courseOfStudy cs:LowerSecondary\/2008;
   cs:courseOfStudyRevision cs:LowerSecondary\/2008\/2008, cs:LowerSecondary\/2008\/2010, cs:LowerSecondary\/2008\/2015;
