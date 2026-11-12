@@ -197,7 +197,9 @@ function teaching_unit_search(cos_id) {
     let url = `https://rdf.edudata.jp/sparql-endpoint/textbook?query=${encodeURIComponent(sparql)}&output=json`;
     console.log(url);
     fetch(url, {
-        format: "json"
+      headers: {
+        'Accept': 'application/sparql-results+json'
+      }
     })
     .then(res => res.json())
     .then(obj => {
