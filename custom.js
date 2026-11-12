@@ -194,7 +194,7 @@ function teaching_unit_search(cos_id) {
         ?textbook <http://purl.org/dc/terms/bibliographicCitation> ?textbook_title.
       }`;
     console.log(sparql);
-    let url = `https://dydra.com/masao/jp-textbook/sparql?query=${encodeURIComponent(sparql)}&output=json`;
+    let url = `https://rdf.edudata.jp/sparql-endpoint/textbook?query=${encodeURIComponent(sparql)}&output=json`;
     console.log(url);
     fetch(url, {
         format: "json"
